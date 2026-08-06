@@ -1,0 +1,437 @@
+{
+  "arc-de-triomphe": {
+    "description": "Arc de triomphe voulu par Napoléon en 1806 et achevé en 1836 au sommet des Champs-Élysées. Il abrite la tombe du Soldat inconnu, et sa terrasse offre une vue sur les douze avenues qui rayonnent depuis la place de l'Étoile."
+  },
+  "archea-archeologie-en-pays-de-france": {
+    "description": "Musée d'archéologie de Roissy Pays de France, ouvert à Louvres en 2010. Ses collections sont issues des fouilles locales, notamment le château médiéval d'Orville et les ateliers de potiers de Fosses, sur deux millénaires d'histoire au nord de Paris."
+  },
+  "arenes-de-lutece": {
+    "description": "Vestiges d'un amphithéâtre gallo-romain du Ier siècle au cœur du Quartier latin, qui pouvait accueillir environ 15 000 spectateurs. Redécouvertes en 1869 lors de travaux d'urbanisme, les arènes sont aujourd'hui un square public."
+  },
+  "basilique-cathedrale-de-saint-denis": {
+    "description": "Église abbatiale reconstruite à partir de 1135 sous l'abbé Suger, considérée comme le berceau de l'art gothique. Nécropole des rois de France, elle conserve plus de soixante-dix gisants et tombeaux, de Dagobert à Louis XVI et Marie-Antoinette."
+  },
+  "basilique-du-sacre-coeur-de-montmartre": {
+    "description": "Basilique de style romano-byzantin dressée au sommet de la butte Montmartre, commencée en 1875 au titre d'un vœu national et consacrée en 1919. Ses dômes blancs marquent le paysage parisien et son parvis offre un large panorama sur la ville."
+  },
+  "bourse-de-commerce-pinault-collection": {
+    "description": "Musée d'art contemporain ouvert en 2021 dans l'ancienne Bourse de commerce, rotonde coiffée d'une coupole de verre et de fer du XIXe siècle. Réaménagée par Tadao Ando, elle présente des expositions tirées de la collection de François Pinault."
+  },
+  "cathedrale-notre-dame-de-paris": {
+    "description": "Cathédrale gothique de l'île de la Cité, élevée entre 1163 et 1345, célèbre pour sa façade à deux tours, ses rosaces et ses arcs-boutants. Touchée par l'incendie de 2019, elle a rouvert au public en décembre 2024 après sa restauration."
+  },
+  "chapelle-expiatoire": {
+    "description": "Chapelle néoclassique élevée de 1815 à 1826 pour Louis XVIII sur l'ancien cimetière de la Madeleine, où Louis XVI et Marie-Antoinette furent inhumés après leur exécution. Œuvre de l'architecte Fontaine, elle rend hommage aux victimes de la Révolution."
+  },
+  "chateau-de-champs-sur-marne": {
+    "description": "Château du début du XVIIIe siècle, un temps loué par Madame de Pompadour, réputé pour ses intérieurs rocaille, ses décors de chinoiseries et son mobilier d'époque. Son parc de 85 hectares mêle jardin à la française et parc paysager."
+  },
+  "chateau-de-maisons": {
+    "description": "Château édifié par François Mansart entre 1630 et 1646 pour René de Longueil, considéré comme un manifeste de l'architecture classique française. Son escalier monumental et ses décors de pierre sculptée annoncent Versailles."
+  },
+  "chateau-de-rambouillet": {
+    "description": "Résidence royale puis présidentielle au cœur d'un vaste domaine boisé, où mourut François Ier en 1547. La visite comprend les appartements du XVIIIe siècle, la laiterie de la Reine et la chaumière aux coquillages de la princesse de Lamballe."
+  },
+  "chateau-de-sceaux-musee-departemental": {
+    "description": "Musée départemental installé dans un château du XIXe siècle au cœur du domaine créé pour Colbert. Peintures, mobilier et faïences de Sceaux y retracent l'histoire du lieu et la vie en Île-de-France, dans un parc dessiné par André Le Nôtre."
+  },
+  "chateau-de-vincennes": {
+    "description": "Résidence royale médiévale aux portes de Paris, dominée par un donjon de 52 mètres, le plus haut d'Europe, et dotée d'une Sainte-Chapelle fondée en 1379. Les rois y séjournèrent avant Versailles ; le donjon devint ensuite prison d'État."
+  },
+  "chateau-musee-de-nemours": {
+    "description": "Château fort du XIIe siècle au centre de Nemours, sauvé par des artistes locaux et devenu musée en 1903. Ses collections privilégient les beaux-arts de la fin du XIXe et du début du XXe siècle, dont l'œuvre du sculpteur Justin-Chrysostome Sanson."
+  },
+  "collections-de-la-fondation-de-coubertin": {
+    "description": "Musée de la Fondation de Coubertin, dans la vallée de Chevreuse, consacré à la sculpture autour de Joseph Bernard et aux métiers d'art. Les bronzes sont présentés en plein air au jardin des Bronzes, près des ateliers réputés du domaine."
+  },
+  "conciergerie": {
+    "description": "Vestige du palais royal médiéval de l'île de la Cité, devenu la plus célèbre prison de la Révolution, où Marie-Antoinette fut détenue avant son exécution. La salle des Gens d'armes, vaste vaisseau gothique, date du début du XIVe siècle."
+  },
+  "ecomusee-94260": {
+    "description": "Musée de société fondé en 1979 dans l'ancienne ferme de Cottinville, à Fresnes. Il collecte objets et témoignages des habitants pour documenter la vie quotidienne et les mutations de la banlieue sud de Paris, au fil d'expositions thématiques."
+  },
+  "europa-experience": {
+    "description": "Espace de découverte du Parlement européen installé place de la Madeleine depuis 2022. Dispositifs interactifs, cinéma à 360 degrés et jeux de rôle y expliquent le fonctionnement de l'Union européenne et son action au quotidien."
+  },
+  "fondation-arp": {
+    "description": "Maison-atelier de Jean Arp et Sophie Taeuber-Arp à Clamart, construite en 1929 sur les plans de Sophie Taeuber-Arp. Les pièces et le jardin présentent sculptures, reliefs et œuvres sur papier du couple, dans un état proche de l'origine."
+  },
+  "hotel-de-la-marine": {
+    "description": "Palais du XVIIIe siècle édifié par Ange-Jacques Gabriel sur la place de la Concorde, il abrita le Garde-Meuble royal puis, pendant deux siècles, le ministère de la Marine. Restauré et rouvert en 2021, il dévoile les appartements des intendants et ses salons d'apparat donnant sur la place."
+  },
+  "la-cinematheque-francaise": {
+    "description": "Institution fondée en 1936 par Henri Langlois et installée dans un bâtiment de Frank Gehry à Bercy. Son musée Méliès retrace l'histoire du cinéma à travers appareils, costumes et lanternes magiques, aux côtés de projections quotidiennes et d'expositions temporaires."
+  },
+  "la-maison-elysee": {
+    "description": "Face au palais de l'Élysée, au 88 rue du Faubourg-Saint-Honoré, cet espace réunit un petit musée, une boutique et un salon de thé. Objets, portraits et un film en 3D retracent l'histoire du palais, de l'hôtel d'Évreux de 1722 à la présidence d'aujourd'hui."
+  },
+  "le-plateau-frac-ile-de-france": {
+    "description": "Lieu d'exposition du Fonds régional d'art contemporain d'Île-de-France, dans le quartier des Buttes-Chaumont (19e arrondissement). Il propose chaque année plusieurs expositions d'art contemporain, entre collection régionale et artistes émergents ou internationaux."
+  },
+  "maison-de-balzac": {
+    "description": "Modeste maison de Passy, seule demeure parisienne de Balzac encore debout, où il vécut de 1840 à 1847 et corrigea La Comédie humaine. Manuscrits, portraits et sa célèbre canne aux turquoises y évoquent la vie et l'œuvre de l'écrivain."
+  },
+  "maison-de-victor-hugo": {
+    "description": "L'appartement de la place des Vosges où Victor Hugo vécut de 1832 à 1848, devenu musée. Dessins, manuscrits, portraits et le salon chinois qu'il conçut pour Juliette Drouet retracent la vie de l'écrivain, de l'enfance à l'exil."
+  },
+  "maison-des-jardies": {
+    "description": "Ancienne maison de vigneron à Sèvres, habitée par Balzac de 1837 à 1840 et où Léon Gambetta mourut en 1882. Gérée par le Centre des monuments nationaux, elle conserve en l'état les pièces où vécut Gambetta, avec un monument de Bartholdi dans le jardin."
+  },
+  "maison-musee-maurice-ravel": {
+    "description": "Le Belvédère, petite maison de Montfort-l'Amaury où Maurice Ravel vécut de 1921 à 1937 et composa notamment le Boléro. Les pièces conservent intacts son mobilier, ses jouets mécaniques et le décor imaginé par le compositeur."
+  },
+  "maison-natale-de-louis-braille": {
+    "description": "Maison familiale de Coupvray où naquit Louis Braille en 1809, avec l'atelier de bourrellerie paternel où il perdit la vue enfant. Le musée retrace sa vie et l'invention de l'alphabet en points saillants utilisé par les aveugles du monde entier."
+  },
+  "memorial-de-la-shoah": {
+    "description": "Principal lieu de mémoire de la Shoah en France, au cœur du Marais. Le Mur des Noms porte les noms des 76 000 Juifs déportés de France ; une exposition permanente et un important centre de documentation retracent le génocide et la vie juive en Europe."
+  },
+  "memorial-de-la-shoah-de-drancy": {
+    "description": "Mémorial ouvert en 2012 face à la cité de la Muette, qui servit de camp d'internement de 1941 à 1944 : environ 63 000 Juifs en furent déportés. L'exposition documente l'histoire du camp de Drancy et la vie quotidienne des internés."
+  },
+  "mus-musee-d-histoire-urbaine-et-sociale-de-suresnes": {
+    "description": "Musée d'histoire urbaine et sociale installé dans l'ancienne gare Suresnes-Longchamp. Il raconte les transformations de la ville au XXe siècle, de la cité-jardins d'Henri Sellier à l'école de plein air, pionnière en son temps."
+  },
+  "musee": {
+    "description": "Musée d'histoire des bords de Marne : canotage, baignade et guinguettes firent de Nogent, dès le XIXe siècle, un haut lieu des loisirs populaires parisiens. Tableaux, affiches et cartes postales documentent l'histoire du territoire et de ses communes."
+  },
+  "musee-adrien-mentienne": {
+    "description": "Musée municipal de Bry-sur-Marne, qui porte le nom d'un maire historien de la ville. Outre l'histoire locale, il conserve l'un des plus importants fonds français consacrés à Louis Daguerre, inventeur du daguerréotype, qui passa ses dernières années à Bry."
+  },
+  "musee-alfred-bonno": {
+    "description": "Musée d'archéologie de Chelles, rouvert en 2026 dans des espaces entièrement repensés. Les fouilles locales y déroulent le temps, des silex paléolithiques à l'époque mérovingienne, avec de rares textiles liés à la reine Bathilde et à l'abbaye royale."
+  },
+  "musee-archeologique-departemental-du-val-d-oise": {
+    "description": "Musée départemental d'archéologie du Val-d'Oise, au cœur du Vexin à Guiry. Le parcours chronologique va de la préhistoire au XXe siècle, avec les découvertes du site gallo-romain de Genainville et la plus grande collection française de stèles mérovingiennes."
+  },
+  "musee-belmondo-et-de-la-sculpture-figurative-du-xxe-siecle": {
+    "description": "Installé dans le château Buchillot (XVIIIe siècle), le musée est consacré au sculpteur Paul Belmondo (1898-1982), figure de la sculpture figurative du XXe siècle : marbres, bronzes, médailles et dessins donnés à Boulogne-Billancourt par ses enfants."
+  },
+  "musee-bossuet": {
+    "description": "Musée d'art de Meaux, installé dans l'ancien palais épiscopal au pied de la cathédrale et dédié à Bossuet, illustre évêque et prédicateur du XVIIe siècle. Peintures et sculptures du XVIe au XIXe siècle, avec un jardin en forme de mitre attribué à Le Nôtre."
+  },
+  "musee-bourdelle": {
+    "description": "Ateliers et jardins de Montparnasse où vécut et travailla le sculpteur Antoine Bourdelle, élève et praticien de Rodin. Plâtres, marbres et bronzes monumentaux, dont Héraklès archer, sont présentés dans les ateliers préservés et une extension moderne."
+  },
+  "musee-carnavalet-histoire-de-paris": {
+    "description": "Installé dans deux hôtels du Marais, dont l'hôtel Carnavalet où vécut Madame de Sévigné, le musée retrace l'histoire de Paris, des pirogues préhistoriques à la Révolution française et à la capitale d'aujourd'hui."
+  },
+  "musee-cernuschi-musee-des-arts-de-l-asie-de-la-ville-de-paris": {
+    "description": "Musée des arts de l'Asie de la Ville de Paris, aménagé dans l'hôtel particulier du banquier Henri Cernuschi, en bordure du parc Monceau. Il est réputé pour ses bronzes chinois anciens et son grand Bouddha japonais rapporté de Meguro."
+  },
+  "musee-cognacq-jay-musee-du-xviiie-siecle-de-la-ville-de-paris": {
+    "description": "Dans l'hôtel Donon, au cœur du Marais, ce musée intimiste présente la collection d'art du XVIIIe siècle réunie par Ernest Cognacq, fondateur de la Samaritaine : peintures de Boucher, Fragonard et Chardin, pastels, porcelaines et mobilier."
+  },
+  "musee-curie": {
+    "description": "Aménagé dans l'ancien laboratoire de Marie Curie à l'Institut du radium, où elle travailla jusqu'à sa mort en 1934, le musée conserve son bureau et son laboratoire de chimie et retrace l'histoire de la radioactivité et d'une famille aux cinq prix Nobel."
+  },
+  "musee-d-archeologie-nationale-des-origines-a-l-an-mille-chateau-de-saint-germain-en-laye": {
+    "description": "Le musée d'Archéologie nationale occupe le château royal de Saint-Germain-en-Laye, reconstruit sous François Ier. Ses collections couvrent du Paléolithique au premier Moyen Âge, avec notamment la Dame de Brassempouy, vieille de 25 000 ans."
+  },
+  "musee-d-art-contemporain-du-val-de-marne": {
+    "description": "Ouvert en 2005 à Vitry-sur-Seine, le MAC VAL est le premier musée entièrement consacré à la scène artistique française depuis les années 1950. Sa collection se découvre au fil d'accrochages renouvelés, complétés d'expositions temporaires et d'un jardin de sculptures."
+  },
+  "musee-d-art-et-d-histoire": {
+    "description": "Le musée d'art et d'histoire de Meudon occupe la plus ancienne demeure de la ville, qui appartint au chirurgien Ambroise Paré puis à Armande Béjart, veuve de Molière. Il évoque l'histoire locale et le paysage peint, et son jardin abrite des sculptures du XXe siècle."
+  },
+  "musee-d-art-et-d-histoire-de-l-hopital-sainte-anne": {
+    "description": "Au sein de l'hôpital psychiatrique Sainte-Anne, dans le 14e arrondissement, ce musée présente la collection d'œuvres réalisées par des patients, constituée depuis le milieu du XXe siècle — un ensemble majeur d'art brut — ainsi que des expositions temporaires."
+  },
+  "musee-d-art-et-d-histoire-du-judaisme": {
+    "description": "Installé dans l'hôtel de Saint-Aignan (XVIIe siècle), dans le Marais, le musée retrace l'art et l'histoire des juifs du Moyen Âge à nos jours : objets de culte, archives de l'affaire Dreyfus, œuvres de Chagall, Modigliani ou Soutine."
+  },
+  "musee-d-art-et-d-histoire-louis-senlecq": {
+    "description": "Installé dans un hôtel particulier du XVIIIe siècle, le musée d'art et d'histoire de L'Isle-Adam conserve l'une des plus belles collections du paysagiste Jules Dupré, figure de l'école de Barbizon installée dans la ville, ainsi que des œuvres liées au patrimoine local."
+  },
+  "musee-d-art-et-d-histoire-paul-eluard": {
+    "description": "Le musée d'art et d'histoire de Saint-Denis occupe un ancien carmel où vécut Madame Louise, fille de Louis XV. Ses collections vont des cellules restaurées du couvent à la Commune de Paris de 1871 et au poète Paul Éluard, natif de la ville."
+  },
+  "musee-d-art-moderne-de-la-ville-de-paris": {
+    "description": "Le musée d'art moderne de la Ville de Paris, dans l'aile est du Palais de Tokyo (1937), parcourt l'art des XXe et XXIe siècles, du fauvisme à nos jours, avec des œuvres majeures de Matisse, Delaunay et Dufy, dont l'immense « Fée Électricité »."
+  },
+  "musee-d-ennery": {
+    "description": "Rattaché au musée Guimet, cet hôtel particulier de l'avenue Foch conserve, dans son décor Second Empire d'origine, la collection d'art japonais et chinois réunie au XIXe siècle par Clémence d'Ennery : netsuke, céramiques et créatures fantastiques."
+  },
+  "musee-d-histoire-locale-memoire-de-la-ville": {
+    "description": "Aménagé dans l'ancienne mairie du XIXe siècle, ce musée retrace l'histoire de Rueil-Malmaison des origines à nos jours, avec notamment des figurines de la Grande Armée et des souvenirs de l'impératrice Joséphine, qui vécut à la Malmaison voisine."
+  },
+  "musee-d-orsay": {
+    "description": "Aménagé dans l'ancienne gare d'Orsay, édifiée pour l'Exposition universelle de 1900, le musée abrite la plus riche collection au monde de peinture impressionniste et postimpressionniste — Monet, Renoir, Degas, Van Gogh — et l'art français de 1848 à 1914."
+  },
+  "musee-daubigny": {
+    "description": "Installé dans le manoir des Colombières (XVIIe siècle) à Auvers-sur-Oise, le musée est consacré à Charles-François Daubigny, précurseur de l'impressionnisme, avec des œuvres de son entourage et des peintres de la vallée de l'Oise, ainsi que des fonds d'art naïf et d'art félin."
+  },
+  "musee-de-l-air-et-de-l-espace": {
+    "description": "L'un des plus anciens musées aéronautiques au monde, fondé en 1919 sur l'aéroport de Paris-Le Bourget. Ses collections vont des machines volantes des pionniers aux Concorde et aux fusées Ariane, présentées dans l'aérogare de 1937 et sur le tarmac."
+  },
+  "musee-de-l-armee": {
+    "description": "Le grand musée d'histoire militaire de la France, aux Invalides, l'hôtel fondé par Louis XIV pour ses soldats. Ses collections vont des armures médiévales aux deux guerres mondiales, et l'église du Dôme abrite le tombeau de Napoléon Ier."
+  },
+  "musee-de-l-ecole-de-barbizon-auberge-ganne": {
+    "description": "L'ancienne auberge Ganne, où logeaient dès les années 1820 les peintres paysagistes, conserve ses murs et ses meubles ornés de leurs peintures. Le musée raconte l'école de Barbizon, animée par Millet et Théodore Rousseau à l'orée de la forêt de Fontainebleau."
+  },
+  "musee-de-l-ecole-nationale-superieure-des-beaux-arts": {
+    "description": "Les collections de l'École des beaux-arts, riches de quelque 450 000 œuvres — dessins et estampes de maîtres anciens, envois du prix de Rome —, sont présentées lors d'expositions temporaires dans les bâtiments de l'école, quai Malaquais."
+  },
+  "musee-de-l-histoire-vivante": {
+    "description": "Fondé en 1937 et installé dans une demeure du parc Montreau, à Montreuil, ce musée est consacré à l'histoire sociale et ouvrière de la France : photographies, estampes et objets retracent le mouvement ouvrier et les luttes politiques depuis la Révolution."
+  },
+  "musee-de-l-hotel-dieu": {
+    "description": "Le musée de Mantes-la-Jolie occupe l'ancienne chapelle classée de l'hôtel-Dieu, rénovée en 2018. Il conserve la plus importante collection publique française d'œuvres du peintre néo-impressionniste Maximilien Luce."
+  },
+  "musee-de-l-institut-du-monde-arabe": {
+    "description": "Dans le bâtiment emblématique de Jean Nouvel (1987), à la façade de moucharabiehs mécaniques, le musée de l'Institut du monde arabe parcourt les arts et civilisations du monde arabe, de l'Antiquité préislamique à la création contemporaine."
+  },
+  "musee-de-l-orangerie-des-tuileries": {
+    "description": "Dans l'ancienne orangerie du jardin des Tuileries, les Nymphéas de Monet se déploient dans deux salles ovales conçues pour eux. Le musée présente aussi la collection Walter-Guillaume : Renoir, Cézanne, Matisse, Picasso, Modigliani."
+  },
+  "musee-de-la-batellerie": {
+    "description": "Depuis le château du Prieuré, qui domine Conflans-Sainte-Honorine, capitale historique de la batellerie, le musée retrace la navigation fluviale : maquettes de bateaux, outils et documents sur les canaux, le halage et la vie des mariniers."
+  },
+  "musee-de-la-chasse-et-de-la-nature": {
+    "description": "Dans deux hôtels particuliers du Marais, Guénégaud et Mongelas, le musée interroge les liens entre l'homme et l'animal en mêlant peintures anciennes, animaux naturalisés, armes de chasse et créations contemporaines."
+  },
+  "musee-de-la-franc-maconnerie": {
+    "description": "Au siège du Grand Orient de France, rue Cadet, le musée retrace trois siècles de franc-maçonnerie en France : objets rituels, tabliers, décors de loge et documents liés à des maçons célèbres, de Voltaire à La Fayette."
+  },
+  "musee-de-la-gendarmerie": {
+    "description": "Ouvert en 2015 à Melun, aux côtés de l'école des officiers, le musée national de la Gendarmerie retrace l'histoire de l'institution, de la maréchaussée médiévale à nos jours : uniformes, armes, véhicules et archives."
+  },
+  "musee-de-la-grande-guerre": {
+    "description": "Ouvert en 2011 aux portes du champ de bataille de la Marne, le musée de Meaux conserve l'une des plus riches collections d'Europe sur la Première Guerre mondiale : près de 70 000 objets et documents réunis autour du fonds Jean-Pierre Verney."
+  },
+  "musee-de-la-grande-loge-de-france": {
+    "description": "Au siège de la Grande Loge de France, ancien couvent franciscain du 17e arrondissement, ce musée consacré à l'histoire, aux symboles et à l'art de la franc-maçonnerie conserve plus de 3 000 objets, du XVIIIe siècle à nos jours."
+  },
+  "musee-de-la-liberation-de-paris-musee-du-general-leclerc-musee-jean-moulin": {
+    "description": "Réinstallé en 2019 dans les pavillons Ledoux de la place Denfert-Rochereau, ce musée de la Ville de Paris raconte l'Occupation et la Libération à travers les figures du général Leclerc et de Jean Moulin, jusqu'au poste de commandement souterrain du colonel Rol-Tanguy."
+  },
+  "musee-de-la-musique": {
+    "description": "Au sein de la Philharmonie de Paris, à la Villette, le musée expose un millier d'instruments et d'objets d'art choisis parmi plus de 8 000 pièces — violons de Stradivari, clavecins, guitares rares — sur cinq siècles de musique européenne et du monde."
+  },
+  "musee-de-la-poste": {
+    "description": "Près de Montparnasse, le musée de La Poste, entièrement rénové en 2019, retrace l'histoire du service postal : malles-poste, uniformes, boîtes aux lettres, épopée de l'Aéropostale et l'une des grandes collections philatéliques de France."
+  },
+  "musee-de-la-prefecture-de-police": {
+    "description": "Installé au sein d'un commissariat du Quartier latin, ce musée retrace l'histoire de la police parisienne depuis le XVIIe siècle : archives, uniformes, armes et pièces à conviction d'affaires criminelles célèbres."
+  },
+  "musee-de-la-renaissance-chateau-d-ecouen": {
+    "description": "Dans le château élevé au XVIe siècle pour le connétable Anne de Montmorency, le musée national de la Renaissance déploie tapisseries — dont la tenture de David et Bethsabée en dix pièces —, émaux, céramiques et cheminées peintes."
+  },
+  "musee-de-la-resistance-nationale": {
+    "description": "À Champigny-sur-Marne, le musée conserve l'un des plus importants fonds consacrés à la Résistance — presse clandestine, tracts, armes et objets personnels — présenté depuis 2020 dans un nouveau bâtiment, l'espace Aimé-Césaire."
+  },
+  "musee-de-la-toile-de-jouy": {
+    "description": "Au château de l'Églantine, le musée raconte l'aventure de la toile de Jouy, ces cotonnades imprimées par la manufacture Oberkampf, fondée à Jouy-en-Josas en 1760 : étoffes, planches d'impression et costumes d'époque."
+  },
+  "musee-de-la-vie-romantique": {
+    "description": "Dans la maison-atelier du peintre Ary Scheffer (1830), au cœur de la Nouvelle Athènes, le musée fait revivre l'époque romantique : souvenirs de George Sand, œuvres de Scheffer et de son cercle, et un jardin abritant un salon de thé."
+  },
+  "musee-de-melun": {
+    "description": "Fondé en 1860 et installé dans l'hôtel de la Vicomté (XVIe siècle), le musée d'art et d'histoire de Melun présente l'archéologie gallo-romaine et médiévale de la ville, des peintures et un important fonds consacré au sculpteur Henri Chapu."
+  },
+  "musee-de-montmartre": {
+    "description": "Installé dans l'une des plus anciennes maisons de la Butte, où vécurent Renoir, Suzanne Valadon et Utrillo, le musée fait revivre le Montmartre des cabarets et de la bohème : peintures, affiches, atelier reconstitué de Valadon et jardins dominant la vigne du Clos Montmartre."
+  },
+  "musee-de-port-royal-des-champs": {
+    "description": "Musée national établi sur le site de l'abbaye de Port-Royal-des-Champs, haut lieu du jansénisme au XVIIe siècle, lié à Pascal et à Racine. Les anciennes Petites Écoles présentent des peintures de Philippe de Champaigne et des souvenirs de la communauté, au cœur du domaine et des ruines."
+  },
+  "musee-de-prehistoire-d-ile-de-france": {
+    "description": "Musée départemental consacré à la préhistoire de l'Île-de-France, dans un bâtiment de béton brut conçu par Roland Simounet, en lisière de la forêt de Nemours. Les collections couvrent du paléolithique à l'âge du fer, avec les fouilles de grands sites comme Pincevent et Étiolles."
+  },
+  "musee-de-provins-et-du-provinois": {
+    "description": "Dans la Maison Romane, l'une des plus anciennes demeures de Provins, cité médiévale inscrite au patrimoine mondial, le musée retrace l'histoire de la ville et du Provinois, de la préhistoire au XIXe siècle : sculpture médiévale, carreaux de pavement, trésors religieux."
+  },
+  "musee-de-saint-maur-villa-medicis": {
+    "description": "Le musée de Saint-Maur occupe une ancienne demeure rebaptisée « Villa Médicis » en souvenir des séjours de Catherine de Médicis au château de la ville. Il conserve les vestiges lapidaires de l'abbaye médiévale, peintures et estampes, et un important fonds du céramiste Art déco Édouard Cazaux."
+  },
+  "musee-departemental-albert-kahn": {
+    "description": "Le musée conserve les « Archives de la Planète » du banquier philanthrope Albert Kahn : quelque 72 000 autochromes réalisés à travers le monde entre 1909 et 1931. Le bâtiment signé Kengo Kuma s'ouvre sur quatre hectares de jardins aux scènes japonaise, anglaise et française."
+  },
+  "musee-departemental-maurice-denis": {
+    "description": "Consacré au peintre Maurice Denis et aux nabis, le musée occupe le Prieuré, ancien hôpital royal du XVIIe siècle que l'artiste acquit en 1914 et habita jusqu'à sa mort. Œuvres de Denis, Sérusier, Bonnard et de leur cercle, chapelle décorée par le peintre, jardin en terrasses."
+  },
+  "musee-departemental-stephane-mallarme": {
+    "description": "La maison des bords de Seine, face à la forêt de Fontainebleau, où Stéphane Mallarmé séjourna dès 1874 et s'éteignit en 1898. On y découvre le mobilier, les objets personnels, portraits et manuscrits du poète, ainsi qu'un jardin restitué tel qu'il le cultivait."
+  },
+  "musee-des-annees-trente": {
+    "description": "Consacré à la création de l'entre-deux-guerres, le musée réunit peinture figurative, sculpture, mobilier Art déco et maquettes des villas modernistes élevées à Boulogne-Billancourt par Le Corbusier, Mallet-Stevens ou Perret. Il fait partie de l'espace Landowski."
+  },
+  "musee-des-archives-nationales-hotel-de-soubise": {
+    "description": "Le musée des Archives nationales occupe l'hôtel de Soubise, demeure princière du Marais aux appartements rocaille décorés par Germain Boffrand. Il expose par roulement de grands documents de l'histoire de France, des testaments royaux à la dernière lettre de Marie-Antoinette."
+  },
+  "musee-des-arts-asiatiques-guimet": {
+    "description": "Musée national des arts asiatiques fondé en 1889 par l'industriel Émile Guimet, il abrite l'une des plus riches collections d'art asiatique hors d'Asie : sculpture khmère, bronzes et porcelaines de Chine, paravents japonais, arts de l'Inde et de l'Himalaya."
+  },
+  "musee-des-arts-decoratifs-union-centrale-des-arts-decoratifs": {
+    "description": "Installé dans l'aile de Rivoli du palais du Louvre, le musée des Arts décoratifs présente mobilier, verrerie, céramique, papiers peints, graphisme et mode du Moyen Âge à nos jours, avec ses period rooms reconstituées et de riches ensembles Art nouveau et Art déco."
+  },
+  "musee-des-arts-et-metiers": {
+    "description": "Musée des techniques fondé en 1794 avec le Conservatoire des arts et métiers, installé en partie dans l'ancien prieuré de Saint-Martin-des-Champs. Instruments scientifiques, machines et véhicules s'y côtoient : pendule de Foucault, laboratoire de Lavoisier, avions pionniers d'Ader et de Blériot."
+  },
+  "musee-des-avelines-musee-d-art-et-d-histoire-de-saint-cloud": {
+    "description": "Musée d'art et d'histoire de Saint-Cloud, installé dans une villa des années 1930 inspirée de la villa Kérylos. Ses collections évoquent le château royal incendié en 1870, la manufacture de porcelaine tendre de Saint-Cloud et les artistes locaux, peintres comme sculpteurs."
+  },
+  "musee-des-monnaies-et-medailles": {
+    "description": "Le musée de la Monnaie de Paris — institution fondée en 864 — occupe son palais néoclassique du XVIIIe siècle, quai de Conti. Le parcours « 11 Conti » présente monnaies, médailles et presses, avec des vues sur les ateliers où l'on frappe toujours médailles et monnaies de collection."
+  },
+  "musee-des-monuments-francais": {
+    "description": "Au sein de la Cité de l'architecture et du patrimoine, au palais de Chaillot, ce musée imaginé par Viollet-le-Duc rassemble des moulages grandeur nature de portails et de sculptures des cathédrales et châteaux de France, ainsi que des copies de peintures murales médiévales."
+  },
+  "musee-des-pays-de-seine-et-marne": {
+    "description": "Musée départemental consacré à la vie rurale en Seine-et-Marne : outillage agricole, métiers et traditions populaires de la Brie, avec un espace dédié à l'écrivain Pierre Mac Orlan, qui vécut à Saint-Cyr-sur-Morin jusqu'à sa mort en 1970."
+  },
+  "musee-des-plans-reliefs": {
+    "description": "Sous les combles de l'hôtel des Invalides, le musée conserve la collection de plans-reliefs des villes fortifiées commencée pour Louis XIV en 1668 : des maquettes d'une grande minutie qui servaient à préparer sièges et défenses aux frontières du royaume."
+  },
+  "musee-des-transports-urbains-interurbains-et-ruraux": {
+    "description": "Conservée par les bénévoles de l'association AMTUIR dans un dépôt de Chelles, cette collection retrace plus d'un siècle de transports publics français : omnibus à chevaux, tramways, trolleybus, autobus et voitures de métro, présentés lors de journées portes ouvertes et d'événements patrimoniaux."
+  },
+  "musee-du-chateau": {
+    "description": "Au cœur du château de Dourdan, forteresse élevée vers 1220 pour Philippe Auguste puis longtemps utilisée comme prison, le musée présente l'histoire du site, l'archéologie locale et la céramique médiévale."
+  },
+  "musee-du-domaine-royal-de-marly-louveciennes-marly-le-roi": {
+    "description": "Ce musée fait revivre le domaine royal de Marly, résidence de repos de Louis XIV aujourd'hui disparue : peintures, sculptures et maquettes évoquent le château démoli, ses jardins et la célèbre machine de Marly qui élevait l'eau de la Seine vers les bassins."
+  },
+  "musee-du-jouet-pierre-pinel": {
+    "description": "Aménagé dans la porterie fortifiée du XIVe siècle de l'ancien prieuré royal de Poissy fondé par Philippe le Bel, le musée réunit quelque 800 jouets français de 1850 à 1950 : poupées de porcelaine, ours en peluche, chevaux à bascule et trains électriques."
+  },
+  "musee-du-louvre": {
+    "description": "Ancien palais des rois de France devenu le plus grand musée d'art du monde, le Louvre rassemble des collections allant de l'Antiquité à 1848, des antiquités égyptiennes et de la Vénus de Milo à la Joconde, sous la pyramide de verre de Pei."
+  },
+  "musee-du-moyen-age-thermes-et-hotel-de-cluny": {
+    "description": "Le musée national du Moyen Âge occupe les thermes gallo-romains de Lutèce et l'hôtel de Cluny du XVe siècle. Sculptures, vitraux et orfèvrerie du Moyen Âge y entourent la célèbre tenture de La Dame à la licorne."
+  },
+  "musee-du-parfum-fragonard": {
+    "description": "Dans un hôtel particulier Napoléon III proche de l'Opéra Garnier, la maison grassoise Fragonard retrace trois millénaires de parfumerie : alambics de cuivre, essences et flacons anciens illustrent la fabrication du parfum, de l'Égypte antique à nos jours."
+  },
+  "musee-du-quai-branly-jacques-chirac": {
+    "description": "Consacré aux arts et civilisations d'Afrique, d'Asie, d'Océanie et des Amériques, ce musée ouvert en 2006 dans un bâtiment de Jean Nouvel au bord de la Seine conserve près de 370 000 œuvres : masques, textiles, sculptures rituelles."
+  },
+  "musee-du-service-de-sante-des-armees-du-val-de-grace": {
+    "description": "Installé dans le cloître de l'abbaye royale du Val-de-Grâce, fondée au XVIIe siècle par Anne d'Autriche, le musée retrace l'histoire de la médecine militaire française : instruments, uniformes et matériel de campagne, de l'Ancien Régime à nos jours."
+  },
+  "musee-dunoyer-de-segonzac": {
+    "description": "Ce petit musée municipal rend hommage au peintre et graveur André Dunoyer de Segonzac (1884-1974), né à Boussy-Saint-Antoine : eaux-fortes, lithographies, affiches, photographies et ouvrages provenant pour l'essentiel de sa bibliothèque personnelle."
+  },
+  "musee-emile-jean": {
+    "description": "Fondé en 1973 par la société historique de Villiers-sur-Marne dans une demeure du XIXe siècle, ce musée d'histoire locale fait revivre la vie briarde d'autrefois : documents, photographies et objets du quotidien, de l'école communale à la guerre de 1870."
+  },
+  "musee-eugene-delacroix": {
+    "description": "Dernière demeure d'Eugène Delacroix, place de Furstenberg, où le peintre romantique vécut de 1857 à sa mort en 1863. Son appartement et son atelier ouvrant sur le jardin présentent peintures, dessins et souvenirs personnels."
+  },
+  "musee-fragonard": {
+    "description": "Créé en 1766 au sein de l'École vétérinaire d'Alfort, c'est l'un des plus anciens musées de France. Ses collections d'anatomie et de pathologie culminent avec les écorchés d'Honoré Fragonard, dont le fameux cavalier de l'Apocalypse."
+  },
+  "musee-francais-de-la-carte-a-jouer-et-galerie-d-histoire-de-la-ville": {
+    "description": "Unique musée français consacré à la carte à jouer : jeux anciens, tarots et planches gravées du monde entier. Une galerie attenante retrace l'histoire d'Issy-les-Moulineaux et de son château disparu."
+  },
+  "musee-gustave-moreau": {
+    "description": "Maison-atelier du peintre symboliste Gustave Moreau, conçue en musée par l'artiste lui-même avant sa mort en 1898. Des milliers de peintures, aquarelles et dessins tapissent les murs autour du célèbre escalier en colimaçon."
+  },
+  "musee-henri-chapu": {
+    "description": "Créé en 1887 dans le village natal du sculpteur Henri Chapu, à partir d'œuvres offertes par l'artiste au Mée-sur-Seine, le musée réunit plus de soixante modèles en plâtre et bronzes retraçant la carrière de ce grand sculpteur officiel du XIXe siècle."
+  },
+  "musee-jardin-paul-landowski": {
+    "description": "Musée-jardin aménagé sur le site de l'atelier boulonnais de Paul Landowski, sculpteur du Christ rédempteur de Rio de Janeiro. Une centaine de sculptures et de modèles se répartissent entre le jardin et deux salles souterraines."
+  },
+  "musee-jean-jacques-henner": {
+    "description": "Musée national consacré au peintre alsacien Jean-Jacques Henner (1829-1905), dans un hôtel particulier de la plaine Monceau ayant appartenu au peintre Guillaume Dubufe. Portraits, paysages et nus idéalisés jalonnent le parcours."
+  },
+  "musee-jean-jacques-rousseau": {
+    "description": "Modeste maison de Mont-Louis où Jean-Jacques Rousseau vécut de 1757 à 1762 et écrivit La Nouvelle Héloïse, l'Émile et Du contrat social. Les intérieurs d'époque et le cabinet de verdure évoquent le quotidien du philosophe."
+  },
+  "musee-lambinet": {
+    "description": "Le musée de la ville de Versailles occupe un élégant hôtel particulier du XVIIIe siècle : intérieurs d'époque, beaux-arts et arts décoratifs, et riches collections sur l'histoire de la ville, notamment la Révolution française."
+  },
+  "musee-librairie-du-compagnonnage": {
+    "description": "Petit musée des compagnons du Tour de France présentant des chefs-d'œuvre réalisés par les compagnons — escaliers modèles, travaux du bois, de la pierre et du fer — complété d'une librairie spécialisée sur le compagnonnage."
+  },
+  "musee-municipal": {
+    "description": "Musée d'histoire locale de Moret-sur-Loing, cité médiévale fortifiée des bords du Loing où Alfred Sisley passa ses dernières années ; ses quelque 1 400 objets retracent le passé de la ville et ses figures marquantes."
+  },
+  "musee-municipal-91150": {
+    "description": "Fondé en 1875 dans une dépendance de l'hôtel de ville, le musée évoque le pays d'Étampes, des fossiles à l'archéologie médiévale, avec des œuvres du XIXe siècle d'artistes locaux comme le sculpteur Élias Robert ou le peintre Narcisse Berchère."
+  },
+  "musee-municipal-d-art-et-d-histoire": {
+    "description": "Musée municipal retraçant l'histoire de Colombes : archéologie gallo-romaine, domaine d'Henriette d'Angleterre au XVIIe siècle, industries locales comme Hispano-Suiza, et stade Yves-du-Manoir, haut lieu des Jeux olympiques de 1924."
+  },
+  "musee-municipal-ducastel-vera-de-saint-germain-en-laye": {
+    "description": "Les collections municipales de Saint-Germain-en-Laye, nées du legs de Louis-Alexandre Ducastel en 1872 : près de 9 000 œuvres, de l'Égypte antique au XXe siècle, dont de beaux pastels du XVIIIe siècle et une apothicairerie royale conservée."
+  },
+  "musee-municipal-robert-dubois-corneau": {
+    "description": "Installé dans l'ancienne demeure du collectionneur Robert Dubois-Corneau, le musée raconte Brunoy et la vallée de l'Yerres à travers peintures, estampes et objets d'art du XVIIIe siècle à nos jours."
+  },
+  "musee-national-de-l-histoire-et-des-cultures-de-l-immigration": {
+    "description": "Musée national consacré à l'histoire de l'immigration en France, installé dans le Palais de la Porte Dorée, chef-d'œuvre Art déco construit pour l'Exposition coloniale de 1931 ; collections et témoignages y retracent deux siècles de migrations."
+  },
+  "musee-national-de-la-legion-d-honneur-et-des-ordres-de-chevalerie": {
+    "description": "Installé dans l'hôtel de Salm, face au musée d'Orsay, le musée présente décorations, insignes et peintures retraçant la Légion d'honneur, créée par Napoléon en 1802, ainsi que les ordres de chevalerie français et étrangers."
+  },
+  "musee-national-de-la-marine": {
+    "description": "Installé au palais de Chaillot, l'un des plus anciens musées maritimes du monde retrace l'aventure navale française à travers maquettes de navires, peintures, figures de proue et instruments, de la marine à voile à nos jours."
+  },
+  "musee-national-des-chateaux-de-malmaison-et-de-bois-preau": {
+    "description": "Résidence de campagne de Napoléon et de l'impératrice Joséphine, qui y vécut jusqu'à sa mort en 1814, le château de Malmaison conserve ses décors du Consulat, son mobilier impérial et de nombreux souvenirs, au cœur d'un parc planté de roses."
+  },
+  "musee-national-des-chateaux-de-versailles-et-de-trianon": {
+    "description": "L'immense palais de Louis XIV et de ses successeurs, inscrit au patrimoine mondial de l'UNESCO : galerie des Glaces, Grands Appartements, châteaux de Trianon et jardins dessinés par Le Nôtre."
+  },
+  "musee-national-du-chateau-de-fontainebleau": {
+    "description": "Demeure des souverains français durant huit siècles, des Capétiens à Napoléon III, le château conserve d'exceptionnels décors Renaissance créés pour François Ier, les appartements de Napoléon et de vastes jardins, inscrits au patrimoine mondial de l'UNESCO."
+  },
+  "musee-nissim-de-camondo-union-centrale-des-arts-decoratifs": {
+    "description": "L'hôtel particulier du comte Moïse de Camondo, édifié en 1911-1914 et conservé en l'état, abrite son exceptionnelle collection de mobilier et d'objets d'art français du XVIIIe siècle ; il porte le nom de son fils Nissim, mort au combat en 1917."
+  },
+  "musee-picasso": {
+    "description": "La plus importante collection publique au monde de l'œuvre de Picasso — peintures, sculptures, dessins et archives personnelles de l'artiste — présentée dans l'hôtel Salé, somptueuse demeure du XVIIe siècle au cœur du Marais."
+  },
+  "musee-pissarro": {
+    "description": "Sur les hauteurs de Pontoise, ce musée est consacré à Camille Pissarro, qui peignit la ville pendant près de vingt ans ; il conserve estampes et dessins du maître impressionniste ainsi que des œuvres des peintres de la vallée de l'Oise."
+  },
+  "musee-rambolitrain": {
+    "description": "Musée du train jouet et du modélisme ferroviaire à Rambouillet : plus de 4 000 pièces depuis le XIXe siècle et un grand réseau miniature en fonctionnement racontent l'histoire du chemin de fer."
+  },
+  "musee-rodin": {
+    "description": "Consacré à Auguste Rodin, le musée occupe l'hôtel Biron, demeure du XVIIIe siècle où le sculpteur vécut et travailla ; Le Penseur, Le Baiser et La Porte de l'Enfer y sont présentés, dans l'hôtel comme dans le vaste jardin de sculptures."
+  },
+  "musee-rodin-meudon": {
+    "description": "À la villa des Brillants, à Meudon, Rodin vécut et installa son principal atelier ; plâtres et études y dévoilent le processus de création du sculpteur, dont la tombe, dans le jardin, est surmontée d'un Penseur."
+  },
+  "musee-roybet-fould": {
+    "description": "Musée municipal de Courbevoie installé dans le pavillon de la Suède et de la Norvège, chalet de bois construit pour l'Exposition universelle de 1878 et remonté au parc de Bécon. Il conserve des peintures du XIXe siècle de Ferdinand Roybet et Consuelo Fould, ainsi que des œuvres de Carpeaux."
+  },
+  "musee-victor-aubert": {
+    "description": "Petit musée d'histoire locale aménagé dans les vestiges d'un prieuré bénédictin du XIe siècle, au pied de l'église de Maule. Fondé par l'archéologue autodidacte Victor Aubert, il présente fossiles, vestiges préhistoriques et mérovingiens, et les arts et traditions populaires de la région."
+  },
+  "musee-yves-saint-laurent-paris": {
+    "description": "Dans l'hôtel particulier du 5 avenue Marceau où Yves Saint Laurent créa ses collections de 1974 à 2002, le musée retrace l'œuvre du couturier : modèles de haute couture, croquis et studio de création conservé en l'état."
+  },
+  "musee-zadkine": {
+    "description": "Maison et ateliers où le sculpteur d'origine russe Ossip Zadkine vécut et travailla de 1928 à 1967, à deux pas du jardin du Luxembourg. Ce musée de la Ville de Paris présente ses tailles directes et ses bronzes, prolongés par un petit jardin de sculptures."
+  },
+  "musee-zola-dreyfus": {
+    "description": "La maison de campagne d'Émile Zola à Médan, où il écrivit une grande partie des Rougon-Macquart, abrite aussi le premier musée consacré à l'affaire Dreyfus, en écho à « J'accuse... ! » et au combat de l'écrivain pour la réhabilitation du capitaine."
+  },
+  "museum-national-d-histoire-naturelle": {
+    "description": "Le grand établissement français d'histoire naturelle, fondé en 1793 au Jardin des Plantes. Ses galeries vont de la Grande Galerie de l'Évolution aux vastes collections de paléontologie, d'anatomie comparée, de minéralogie et de botanique."
+  },
+  "palais-galliera-musee-de-la-mode-et-de-la-ville-de-paris": {
+    "description": "Le musée de la mode de la Ville de Paris occupe un palais de style Renaissance élevé au XIXe siècle près du Trocadéro. Ses collections retracent le vêtement du XVIIIe siècle à nos jours, haute couture comprise, au fil d'accrochages et d'expositions."
+  },
+  "pantheon": {
+    "description": "Monument néoclassique élevé par Soufflot sur la montagne Sainte-Geneviève, devenu la nécropole des grandes figures de la nation : Voltaire, Hugo, Zola ou Marie Curie y reposent. Sous la coupole oscille le pendule de Foucault."
+  },
+  "petit-palais-musee-des-beaux-arts-de-la-ville-de-paris": {
+    "description": "Édifié par Charles Girault pour l'Exposition universelle de 1900, le musée des beaux-arts de la Ville de Paris présente peintures, sculptures et arts décoratifs de l'Antiquité à 1914 — Rembrandt, Monet, Courbet — autour d'un jardin intérieur."
+  },
+  "sainte-chapelle": {
+    "description": "Chapelle royale gothique de l'île de la Cité, élevée dans les années 1240 par Saint Louis pour abriter les reliques de la Passion. Sa chapelle haute est ceinte de quinze verrières monumentales du XIIIe siècle."
+  },
+  "tours-de-notre-dame-de-paris": {
+    "description": "Les tours médiévales de Notre-Dame, rouvertes après la restauration qui a suivi l'incendie. L'ascension passe par la galerie des chimères et le beffroi du bourdon Emmanuel avant d'offrir un panorama sur la Seine et le cœur de Paris."
+  },
+  "villa-savoye": {
+    "description": "Villa moderniste construite par Le Corbusier à Poissy entre 1928 et 1931, manifeste de ses « cinq points de l'architecture » : pilotis, fenêtres en bandeau, toit-jardin. Elle est inscrite au patrimoine mondial de l'UNESCO."
+  }
+}

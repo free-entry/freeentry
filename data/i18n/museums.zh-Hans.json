@@ -1,0 +1,483 @@
+{
+  "arc-de-triomphe": {
+    "description": "拿破仑于1806年下令修建、1836年落成的凯旋门，矗立在香榭丽舍大街的最高处。拱门下安葬着无名烈士墓，登上顶层平台可俯瞰以星形广场为中心向外辐射的十二条大道。",
+    "name": "凯旋门"
+  },
+  "archea-archeologie-en-pays-de-france": {
+    "description": "鲁瓦西法兰西地区（Roissy Pays de France）的考古博物馆，2010年在卢夫尔镇（Louvres）开馆。展品均来自本地考古发掘，尤其是奥尔维尔中世纪城堡和福斯制陶作坊的出土文物，呈现巴黎以北两千年的生活图景。"
+  },
+  "arenes-de-lutece": {
+    "description": "拉丁区内一座公元1世纪高卢-罗马竞技场的遗址，当年可容纳约1.5万名观众观看戏剧和角斗表演。竞技场于1869年在施工中被重新发现，如今是一处对外开放的街心公园。",
+    "name": "吕特斯竞技场"
+  },
+  "basilique-cathedrale-de-saint-denis": {
+    "description": "1135年起在絮热院长主持下重建的修道院教堂，被视为哥特式建筑的发源地。作为法国王室的安葬地，这里保存着从达戈贝尔特到路易十六和玛丽·安托瓦内特的七十余尊卧像和陵墓。",
+    "name": "圣德尼大教堂"
+  },
+  "basilique-du-sacre-coeur-de-montmartre": {
+    "description": "耸立于蒙马特高地之巅的罗马-拜占庭风格圣殿，1875年作为国民还愿工程动工，1919年祝圣。洁白的穹顶是巴黎的标志性景观，教堂前的广场可将全城风光尽收眼底。",
+    "name": "圣心大教堂"
+  },
+  "bourse-de-commerce-pinault-collection": {
+    "description": "2021年在巴黎旧商品交易所开幕的当代艺术馆，这座圆形建筑顶部覆盖着19世纪的玻璃铁架穹顶。经安藤忠雄改造后，馆内轮流展出弗朗索瓦·皮诺的收藏。"
+  },
+  "cathedrale-notre-dame-de-paris": {
+    "description": "位于西岱岛的哥特式主教座堂，建于1163年至1345年间，以双塔立面、玫瑰花窗和飞扶壁闻名于世。2019年遭大火损毁后经修复，于2024年12月重新向公众开放。",
+    "name": "巴黎圣母院"
+  },
+  "chapelle-expiatoire": {
+    "description": "路易十八于1815年至1826年间在原玛德莱娜墓地上修建的新古典主义礼拜堂，路易十六和玛丽·安托瓦内特被处决后曾安葬于此。礼拜堂由建筑师皮埃尔·方丹设计，用以纪念大革命的罹难者。"
+  },
+  "chateau-de-champs-sur-marne": {
+    "description": "巴黎以东的18世纪初城堡，蓬帕杜夫人曾一度租住于此，以洛可可式内饰、中国风装饰和时代家具著称。85公顷的园林将法式规则花园与英式风景园融为一体。"
+  },
+  "chateau-de-maisons": {
+    "description": "弗朗索瓦·芒萨尔于1630年至1646年间为勒内·德·隆格伊建造的城堡，被视为法国古典主义建筑的奠基之作。其气势恢宏的楼梯和石雕内饰影响了后来凡尔赛宫的设计。"
+  },
+  "chateau-de-rambouillet": {
+    "description": "坐落于广袤林园中的王室行宫、后来的总统官邸，国王弗朗索瓦一世1547年在此去世。参观内容包括18世纪的套房、玛丽·安托瓦内特的奶坊，以及为朗巴勒亲王妃建造的贝壳茅屋。"
+  },
+  "chateau-de-sceaux-musee-departemental": {
+    "description": "位于柯尔贝尔昔日领地中心一座19世纪城堡内的省立博物馆。馆藏绘画、家具和索城彩陶诉说着这片庄园的历史和法兰西岛的生活风貌，园林由安德烈·勒诺特尔设计。"
+  },
+  "chateau-de-vincennes": {
+    "description": "巴黎东缘的中世纪王室居所，拥有高52米、欧洲同类建筑中最高的主塔，以及始建于1379年的圣礼拜堂。在凡尔赛宫建成之前，法国国王曾居住于此；主塔后来成为国家监狱。",
+    "name": "万塞讷城堡"
+  },
+  "chateau-musee-de-nemours": {
+    "description": "位于讷穆尔市中心的12世纪城堡，经当地艺术家奔走保护后于1903年辟为博物馆。馆藏以19世纪末至20世纪初的美术作品为主，包括雕塑家桑松（Justin-Chrysostome Sanson）的作品。"
+  },
+  "collections-de-la-fondation-de-coubertin": {
+    "description": "位于舍夫勒兹谷的顾拜旦基金会博物馆，以雕塑家约瑟夫·贝尔纳为中心，展示雕塑艺术与精工技艺。青铜雕塑在露天的青铜园（Jardin des Bronzes）中展出，毗邻庄园内声名远播的工坊。"
+  },
+  "conciergerie": {
+    "description": "西岱岛上中世纪王宫的存留部分，后来成为大革命时期最著名的监狱，玛丽·安托瓦内特在被处决前曾囚禁于此。哥特式的卫兵大厅建于14世纪初。",
+    "name": "巴黎古监狱"
+  },
+  "ecomusee-94260": {
+    "description": "1979年在弗雷讷的科坦维尔旧农庄（ferme de Cottinville）创立的社区博物馆，记录巴黎南郊的日常生活与社会变迁。馆方收集居民的物件与记忆，举办以社会为主题的展览。"
+  },
+  "europa-experience": {
+    "description": "欧洲议会设在玛德莱娜广场的游客中心，2022年开放。互动装置、360度影院和角色扮演游戏，生动讲解欧盟的运作方式及其与日常生活的关联。"
+  },
+  "fondation-arp": {
+    "description": "艺术家让·阿尔普与索菲·陶伯-阿尔普位于克拉马尔的故居和工作室，1929年按陶伯-阿尔普本人的设计建造。房间和花园中陈列着夫妇二人的雕塑、浮雕和纸上作品，基本保持原初布置。"
+  },
+  "hotel-de-la-marine": {
+    "description": "昂热-雅克·加布里埃尔设计的18世纪宫殿，坐落于协和广场，先是王室家具储藏总署所在地，之后两个世纪为海军部驻地。2021年重新开放，展示修复后的时代套房和俯瞰广场的华美沙龙。"
+  },
+  "la-cinematheque-francaise": {
+    "description": "由亨利·朗格卢瓦于1936年创立的电影档案馆和博物馆，坐落在贝尔西一座弗兰克·盖里设计的建筑内。馆内的梅里爱博物馆（Musée Méliès）以摄影机、戏服和幻灯装置讲述电影史，另有每日放映和专题展览。",
+    "name": "法国电影资料馆"
+  },
+  "la-maison-elysee": {
+    "description": "位于圣奥诺雷市郊路88号、爱丽舍宫对面的参观空间，集小型博物馆、精品店和茶室于一体。实物、肖像和3D影片回顾这座宫殿从1722年的埃夫勒府邸（Hôtel d'Évreux）到今日总统府的历史。"
+  },
+  "le-plateau-frac-ile-de-france": {
+    "description": "法兰西岛大区当代艺术基金会（Frac Île-de-France）的展览空间，位于19区肖蒙山丘街区。每年举办数场当代艺术展览，内容取自大区收藏，也呈现新锐及国际艺术家。"
+  },
+  "maison-de-balzac": {
+    "description": "巴尔扎克在帕西的简朴居所，是他在巴黎的住所中唯一留存至今的一处；1840年至1847年他在此居住并修订《人间喜剧》。手稿、肖像和那根著名的镶绿松石手杖，处处映照着这位作家的生平与创作。",
+    "name": "巴尔扎克故居"
+  },
+  "maison-de-victor-hugo": {
+    "description": "维克多·雨果1832年至1848年在孚日广场居住的公寓，如今已辟为博物馆。素描、手稿、肖像以及他为朱丽叶·德鲁埃布置的中国风客厅，串起这位作家从童年到流亡的一生。",
+    "name": "维克多·雨果故居"
+  },
+  "maison-des-jardies": {
+    "description": "塞夫尔的一座葡萄农旧居，巴尔扎克1837年至1840年在此居住，莱昂·甘必大1882年在此去世。故居由国家古迹中心（Centre des monuments nationaux）管理，甘必大的房间保持原貌，花园里立有巴托尔迪创作的纪念碑。"
+  },
+  "maison-musee-maurice-ravel": {
+    "description": "贝尔维德小屋（Le Belvédère）——莫里斯·拉威尔1921年至1937年居住的蒙福尔拉莫里小宅，《波莱罗》等作品即诞生于此。屋内的家具、机械玩具和装饰，完全保持着作曲家生前布置的模样。"
+  },
+  "maison-natale-de-louis-braille": {
+    "description": "路易·布莱叶1809年出生的库夫赖老宅，保留着他幼年失明时所在的马具作坊。博物馆讲述他的一生，以及他发明的、如今全世界盲人通用的凸点文字。"
+  },
+  "memorial-de-la-shoah": {
+    "description": "法国最重要的犹太人大屠杀纪念馆和博物馆，位于玛黑区。“姓名墙”上镌刻着76000名从法国被驱逐的犹太人的名字，常设展览和大型文献中心系统梳理大屠杀历史与欧洲犹太人的生活。",
+    "name": "犹太人大屠杀纪念馆"
+  },
+  "memorial-de-la-shoah-de-drancy": {
+    "description": "2012年在“寂静之城”（Cité de la Muette）对面落成的纪念馆——这处住宅区曾于1941年至1944年被用作德朗西拘留营，约63000名犹太人从这里被驱逐。展览记录了拘留营的历史与营中日常。",
+    "name": "德朗西犹太人大屠杀纪念馆"
+  },
+  "mus-musee-d-histoire-urbaine-et-sociale-de-suresnes": {
+    "description": "设在叙雷讷-隆尚旧火车站内的城市与社会历史博物馆，讲述这座城市在20世纪的变迁，尤其是亨利·塞利耶主持建设的花园城市和开风气之先的露天学校。"
+  },
+  "musee": {
+    "description": "马恩河畔的地方历史博物馆，讲述划船、河浴和河畔露天歌舞餐馆如何让诺让自19世纪起成为巴黎人周日休闲的胜地。绘画、海报和明信片记录着周边市镇的往昔。"
+  },
+  "musee-adrien-mentienne": {
+    "description": "马恩河畔布里的市立博物馆，以当地一位历史学家兼市长的名字命名。除地方历史藏品外，馆内还保存着法国最重要的达盖尔专藏之一——银版摄影术发明人路易·达盖尔晚年即定居于布里。"
+  },
+  "musee-alfred-bonno": {
+    "description": "谢勒的考古博物馆，2026年在全面改造后的空间中重新开放。本地发掘的文物从旧石器时代的燧石工具一直延续到墨洛温王朝时期，包括与巴蒂尔德王后和谢勒王家修道院相关的罕见中世纪早期纺织品。"
+  },
+  "musee-archeologique-departemental-du-val-d-oise": {
+    "description": "瓦兹河谷省考古博物馆，位于韦克桑地区的吉里村。展陈按年代顺序从史前直至20世纪，包括热南维尔高卢-罗马遗址的出土文物，以及法国规模最大的墨洛温石碑收藏。"
+  },
+  "musee-belmondo-et-de-la-sculpture-figurative-du-xxe-siecle": {
+    "description": "设于18世纪比希约城堡（Château Buchillot）的博物馆，纪念20世纪具象雕塑代表人物保罗·贝尔蒙多（1898-1982）。馆内展出其子女捐赠给布洛涅-比扬古的大理石雕、青铜像、纪念章和素描。"
+  },
+  "musee-bossuet": {
+    "description": "莫城的美术博物馆，设在主教座堂旁的旧主教宫内，以该城17世纪著名主教、布道家博絮埃命名。馆藏16至19世纪的绘画和雕塑，另有一座相传出自勒诺特尔之手的主教冠形花园。"
+  },
+  "musee-bourdelle": {
+    "description": "雕塑家安托万·布德尔——罗丹的学生兼助手——在蒙帕纳斯生活和创作的工作室与花园。石膏、大理石雕和《拉弓的赫拉克勒斯》等巨型青铜像，陈列在保存完好的工作室和现代展厅中。"
+  },
+  "musee-carnavalet-histoire-de-paris": {
+    "description": "巴黎历史博物馆，坐落于玛黑区的两座府邸之中，其中的卡纳瓦莱府（Hôtel Carnavalet）曾是书信名家塞维涅夫人的住所。馆藏从史前独木舟一直延伸到法国大革命和现代都市。",
+    "name": "卡纳瓦莱博物馆"
+  },
+  "musee-cernuschi-musee-des-arts-de-l-asie-de-la-ville-de-paris": {
+    "description": "巴黎市立亚洲艺术博物馆，以银行家亨利·赛努奇的收藏为基础，设在他位于蒙索公园旁的宅邸内。馆藏以中国古代青铜器和一尊购自东京目黑的巨型日本佛像著称。",
+    "name": "赛努奇博物馆"
+  },
+  "musee-cognacq-jay-musee-du-xviiie-siecle-de-la-ville-de-paris": {
+    "description": "玛黑区多农府（Hôtel Donon）内一座氛围亲切的18世纪艺术博物馆，藏品来自莎玛丽丹百货创始人埃内斯特·科尼亚克的收藏：布歇、弗拉戈纳尔和夏尔丹的绘画，以及色粉画、瓷器和家具。",
+    "name": "科尼亚克-杰伊博物馆"
+  },
+  "musee-curie": {
+    "description": "博物馆设在镭研究所玛丽·居里旧日的实验室内——她在这里工作直至1934年去世。馆内保存着她的办公室和化学实验室，讲述放射性研究的历史，以及这个共获五项诺贝尔奖的家族。",
+    "name": "居里博物馆"
+  },
+  "musee-d-archeologie-nationale-des-origines-a-l-an-mille-chateau-de-saint-germain-en-laye": {
+    "description": "法国国家考古博物馆坐落于圣日耳曼昂莱王家城堡，城堡在弗朗索瓦一世时期重建。馆藏跨越旧石器时代至中世纪早期，包括距今约2.5万年的布拉桑普伊夫人像。",
+    "name": "法国国家考古博物馆"
+  },
+  "musee-d-art-contemporain-du-val-de-marne": {
+    "description": "2005年在塞纳河畔维特里开馆的MAC VAL，是首家专门收藏1950年代以来法国当代艺术的博物馆。馆藏定期轮换展出，并辅以临时展览和雕塑花园。"
+  },
+  "musee-d-art-et-d-histoire": {
+    "description": "默东艺术与历史博物馆坐落于该城最古老的宅邸，王室外科医生昂布鲁瓦兹·帕雷和莫里哀的遗孀阿尔芒德·贝雅尔都曾在此居住。展陈涵盖地方历史和风景绘画，花园里陈列着20世纪雕塑。"
+  },
+  "musee-d-art-et-d-histoire-de-l-hopital-sainte-anne": {
+    "description": "位于14区圣安娜精神病院内的博物馆，展出该院自20世纪中叶起收集的病人创作——一批重要的原生艺术（art brut）作品——并举办临时展览。"
+  },
+  "musee-d-art-et-d-histoire-du-judaisme": {
+    "description": "博物馆设在玛黑区17世纪的圣艾尼昂府（Hôtel de Saint-Aignan），梳理从中世纪至今的犹太艺术与历史，藏有宗教礼仪器物、德雷福斯事件档案，以及夏加尔、莫迪利亚尼和苏丁的作品。",
+    "name": "犹太艺术与历史博物馆"
+  },
+  "musee-d-art-et-d-histoire-louis-senlecq": {
+    "description": "利勒亚当的艺术与历史博物馆，设在一座18世纪宅邸内，拥有风景画家朱尔·杜普雷最精彩的收藏之一——这位巴比松画派画家生前一直在此地保有画室——另有关于地方文化遗产的作品。"
+  },
+  "musee-d-art-et-d-histoire-paul-eluard": {
+    "description": "圣德尼艺术与历史博物馆设在一座旧加尔默罗会修道院内，路易十五之女路易丝公主曾在此修行。馆藏从修复后的修女居室，延伸至1871年巴黎公社和出生于当地的诗人保罗·艾吕雅。"
+  },
+  "musee-d-art-moderne-de-la-ville-de-paris": {
+    "description": "位于1937年建成的东京宫东翼，馆藏纵贯20至21世纪艺术，从野兽派直到当下，拥有马蒂斯、德劳内和杜菲的重要作品，包括杜菲的巨幅壁画《电气仙女》。",
+    "name": "巴黎市立现代艺术博物馆"
+  },
+  "musee-d-ennery": {
+    "description": "福煦大街上一座隶属于吉美博物馆的宅邸博物馆，保存着克莱芒丝·德内里19世纪收藏的日本和中国艺术品——根付、瓷器和神怪造像——陈列于原汁原味的第二帝国时期内饰中。"
+  },
+  "musee-d-histoire-locale-memoire-de-la-ville": {
+    "description": "吕埃-马尔梅松19世纪旧市政厅内的地方历史博物馆，讲述这座城市从起源至今的变迁，有拿破仑大军团的兵俑陈列，以及曾居住在附近马尔梅松的约瑟芬皇后的纪念物。"
+  },
+  "musee-d-orsay": {
+    "description": "博物馆设于为1900年世界博览会而建的奥赛火车站旧址，拥有全球最丰富的印象派与后印象派绘画收藏——莫奈、雷诺阿、德加、梵高——以及1848年至1914年的法国艺术。",
+    "name": "奥赛博物馆"
+  },
+  "musee-daubigny": {
+    "description": "位于瓦兹河畔欧韦17世纪科隆比耶庄园（Manoir des Colombières）内的博物馆，纪念印象派先驱夏尔-弗朗索瓦·多比尼，展出其友人及瓦兹河谷画家的作品，另有朴素派艺术和以猫为主题的收藏。"
+  },
+  "musee-de-l-air-et-de-l-espace": {
+    "description": "世界上历史最悠久的航空博物馆之一，1919年创建于巴黎-布尔歇机场。藏品从飞行先驱时代的飞行器到协和式客机和阿丽亚娜火箭，陈列在1937年的候机楼和停机坪上。",
+    "name": "法国航空航天博物馆"
+  },
+  "musee-de-l-armee": {
+    "description": "法国军事历史博物馆，位于路易十四为老兵修建的荣军院内。馆藏从中世纪盔甲延续到两次世界大战，金色穹顶的教堂下安放着拿破仑一世的陵墓。",
+    "name": "法国军事博物馆"
+  },
+  "musee-de-l-ecole-de-barbizon-auberge-ganne": {
+    "description": "巴比松的甘纳客栈（Auberge Ganne）旧址——1820年代起风景画家们的寄宿之所，墙壁和橱柜上仍留着他们绘制的装饰。博物馆讲述米勒和泰奥多尔·卢梭在枫丹白露森林边缘领军的画派故事。"
+  },
+  "musee-de-l-ecole-nationale-superieure-des-beaux-arts": {
+    "description": "法国历史悠久的美术学院的收藏，拥有约45万件作品，从古典大师素描、版画到罗马大奖学生作品，通过临时展览在学院位于左岸的校舍中展出。"
+  },
+  "musee-de-l-histoire-vivante": {
+    "description": "1937年创立的法国社会与工人运动历史博物馆，设在蒙特勒伊蒙特罗公园（Parc Montreau）的一座宅邸内。照片、版画和实物追溯从大革命至今的工人运动和政治斗争。"
+  },
+  "musee-de-l-hotel-dieu": {
+    "description": "芒特拉若利的美术博物馆，设在该城主宫医院（Hôtel-Dieu）被列入保护名录的旧礼拜堂内，2018年完成翻修。馆内拥有法国最重要的新印象派画家马克西米利安·吕斯公共收藏。"
+  },
+  "musee-de-l-institut-du-monde-arabe": {
+    "description": "阿拉伯世界研究所（Institut du monde arabe）的博物馆，纵览阿拉伯世界的艺术与文明，从前伊斯兰时代的古代文物到当代创作，坐落于让·努维尔1987年设计的地标建筑中——其几何镂花立面可以调节光线。",
+    "name": "阿拉伯世界研究所博物馆"
+  },
+  "musee-de-l-orangerie-des-tuileries": {
+    "description": "杜乐丽花园的旧橘园，如今在两间专门设计的椭圆形展厅中陈列莫奈的巨幅《睡莲》组画，并展出瓦尔特-纪尧姆收藏中雷诺阿、塞尚、马蒂斯、毕加索和莫迪利亚尼的作品。",
+    "name": "橘园美术馆"
+  },
+  "musee-de-la-batellerie": {
+    "description": "博物馆设在俯瞰孔夫朗-圣奥诺里讷的普里厄雷城堡（Château du Prieuré）内——这座城市是法国内河船民的历史之都。船模、工具和文献展现运河、拖曳与内河贸易的航运史。"
+  },
+  "musee-de-la-chasse-et-de-la-nature": {
+    "description": "在玛黑区的盖内戈府（Hôtel de Guénégaud）和蒙热拉府（Hôtel de Mongelas）两座府邸中，博物馆探讨人与动物的关系，将古典大师绘画、动物标本、古董猎具与当代艺术并置一堂。"
+  },
+  "musee-de-la-franc-maconnerie": {
+    "description": "位于卡代街法国大东方社（Grand Orient de France）总部的博物馆，通过礼仪器物、围裙、会所服饰以及与伏尔泰、拉法耶特等著名会员相关的文献，讲述共济会在法国三百年的历史。"
+  },
+  "musee-de-la-gendarmerie": {
+    "description": "法国国家宪兵博物馆，2015年在默伦的宪兵军官学校旁开馆，通过制服、武器、车辆和档案，追溯这支队伍从中世纪骑警队（maréchaussée）到今天的历史。"
+  },
+  "musee-de-la-grande-guerre": {
+    "description": "2011年在马恩河第一次会战战场边缘开馆，拥有欧洲规模最大的第一次世界大战收藏之一——约7万件实物和文献，以收藏家让-皮埃尔·韦尔内的旧藏为基础。"
+  },
+  "musee-de-la-grande-loge-de-france": {
+    "description": "博物馆设在法国大会所（Grande Loge de France）总部——17区一座旧方济各会修道院内，收藏共济会历史、符号与艺术方面18世纪以来的3000多件藏品。"
+  },
+  "musee-de-la-liberation-de-paris-musee-du-general-leclerc-musee-jean-moulin": {
+    "description": "2019年迁入当费尔-罗什罗广场的勒杜关卡亭（pavillons Ledoux），这座巴黎市立博物馆借勒克莱尔将军和让·穆兰的生平，讲述占领时期与巴黎解放的历史，并保留了罗尔-唐吉上校1944年8月的地下指挥部。"
+  },
+  "musee-de-la-musique": {
+    "description": "巴黎爱乐音乐厅设于拉维莱特的乐器博物馆，从8000余件馆藏中选展约1000件——斯特拉迪瓦里小提琴、羽管键琴、珍稀吉他——纵贯欧洲及世界音乐五个世纪。"
+  },
+  "musee-de-la-poste": {
+    "description": "法国邮政博物馆，毗邻蒙帕纳斯，2019年全面翻修后重新开放。藏品从邮政马车、制服和邮筒，到航空邮政的传奇岁月，以及法国最重要的集邮收藏之一。"
+  },
+  "musee-de-la-prefecture-de-police": {
+    "description": "藏身于拉丁区一座仍在办公的警察局内，博物馆追溯17世纪以来巴黎警察的历史，展出档案、制服、武器以及著名刑案的物证。"
+  },
+  "musee-de-la-renaissance-chateau-d-ecouen": {
+    "description": "法国国家文艺复兴博物馆占据巴黎以北为大元帅安内·德·蒙莫朗西建造的16世纪城堡。馆藏包括十幅一套的《大卫与拔示巴》挂毯、珐琅、陶瓷和彩绘壁炉。"
+  },
+  "musee-de-la-resistance-nationale": {
+    "description": "位于马恩河畔尚皮尼的博物馆，拥有关于法国抵抗运动规模最大的收藏之一——地下报刊、传单、武器和个人物品——2020年起在新落成的艾梅·塞泽尔馆中展出。"
+  },
+  "musee-de-la-toile-de-jouy": {
+    "description": "博物馆设在野蔷薇城堡（Château de l'Églantine），讲述茹伊印花布的故事——这种印花棉布产自1760年在茹伊昂若萨创办的奥贝尔康普印染厂——展出布料、印版和时代服饰。"
+  },
+  "musee-de-la-vie-romantique": {
+    "description": "画家阿里·舍费尔1830年的故居和画室，位于蒙马特脚下的“新雅典”街区，以乔治·桑的纪念物、舍费尔及其友人的作品和花园茶室，重现浪漫主义时代的氛围。",
+    "name": "浪漫生活博物馆"
+  },
+  "musee-de-melun": {
+    "description": "默伦的艺术与历史博物馆，创建于1860年，设在16世纪的子爵府（Hôtel de la Vicomté）内。馆藏包括本城出土的高卢-罗马和中世纪文物、绘画，以及雕塑家亨利·夏皮的大量作品。"
+  },
+  "musee-de-montmartre": {
+    "description": "博物馆设在蒙马特高地最古老的宅院之一，雷诺阿、苏珊娜·瓦拉东和郁特里罗都曾在此居住或创作。绘画和歌舞厅海报重现蒙马特的波希米亚岁月，另有复原的瓦拉东画室，花园俯瞰蒙马特葡萄园。",
+    "name": "蒙马特博物馆"
+  },
+  "musee-de-port-royal-des-champs": {
+    "description": "国家博物馆，坐落在皇港修道院（Port-Royal-des-Champs）废墟遗址上——这里是17世纪与帕斯卡尔和拉辛渊源深厚的冉森派中心。旧“小学校”（Petites Écoles）内展出菲利普·德·尚帕涅的绘画和修会遗物，四周是修道院旧址园地。"
+  },
+  "musee-de-prehistoire-d-ile-de-france": {
+    "description": "法兰西岛史前博物馆，为省立博物馆，位于讷穆尔森林边缘一座由建筑师罗兰·西穆内设计的清水混凝土建筑内。展陈从旧石器时代到铁器时代，包括潘斯旺和埃蒂奥勒等塞纳河谷重要遗址的出土文物。"
+  },
+  "musee-de-provins-et-du-provinois": {
+    "description": "中世纪集市名城普罗万（联合国教科文组织世界遗产）的地方博物馆，设在该城最古老的宅邸之一“罗曼式屋”（Maison Romane）内。馆藏从史前延续到19世纪，从中世纪雕塑、釉面地砖到宗教珍宝。"
+  },
+  "musee-de-saint-maur-villa-medicis": {
+    "description": "圣莫尔的艺术与历史博物馆，设在一座因凯瑟琳·德·美第奇曾驻跸当地城堡而得名“美第奇别墅”的老宅内。馆藏包括中世纪修道院的石雕构件、绘画和版画，以及装饰艺术陶艺家爱德华·卡佐（Édouard Cazaux）的重要收藏。"
+  },
+  "musee-departemental-albert-kahn": {
+    "description": "银行家兼慈善家阿尔贝·卡恩“地球档案”的博物馆——1909年至1931年间在世界各地拍摄的约7.2万张早期彩色照片。隈研吾设计的新馆连通四公顷花园，日式、英式与法式景致交织其间。"
+  },
+  "musee-departemental-maurice-denis": {
+    "description": "画家莫里斯·德尼与纳比派的博物馆，设在“修道院”（Le Prieuré）——一座17世纪旧王家医院，德尼1914年购得并居住终老。馆内展出德尼、塞吕西耶、博纳尔及其友人的作品、德尼装饰的礼拜堂和层层台地花园。"
+  },
+  "musee-departemental-stephane-mallarme": {
+    "description": "诗人斯特凡·马拉美自1874年起消夏、直至1898年去世的河畔居所，与枫丹白露森林隔河相望。故居保存着他的陈设、遗物、肖像和手稿，花园也按当年的模样重新栽种。"
+  },
+  "musee-des-annees-trente": {
+    "description": "两次大战之间的艺术与设计博物馆：具象绘画、雕塑、装饰艺术家具，以及勒·柯布西耶、马莱-史蒂文斯和佩雷在布洛涅-比扬古建造的现代主义别墅模型。博物馆隶属朗多夫斯基文化空间（Espace Landowski）。"
+  },
+  "musee-des-archives-nationales-hotel-de-soubise": {
+    "description": "法国国家档案馆博物馆，设在玛黑区亲王级府邸苏比斯府（Hôtel de Soubise）内，洛可可式套房由热尔曼·博弗朗装饰。馆内轮换展出法国历史上的标志性文献，从王室遗嘱到玛丽·安托瓦内特的绝笔信。"
+  },
+  "musee-des-arts-asiatiques-guimet": {
+    "description": "法国国立亚洲艺术博物馆，由实业家埃米尔·吉美1889年创建，拥有亚洲以外规模最大的亚洲艺术收藏之一：高棉雕塑、中国青铜器和瓷器、日本屏风以及印度和喜马拉雅艺术。",
+    "name": "吉美博物馆"
+  },
+  "musee-des-arts-decoratifs-union-centrale-des-arts-decoratifs": {
+    "description": "位于卢浮宫里沃利翼的装饰艺术与设计博物馆，涵盖从中世纪至今的家具、玻璃、陶瓷、壁纸、平面设计和时装，设有时代场景展厅，新艺术运动和装饰艺术藏品尤为丰富。",
+    "name": "巴黎装饰艺术博物馆"
+  },
+  "musee-des-arts-et-metiers": {
+    "description": "1794年随国立工艺院（Conservatoire des arts et métiers）创建的技术博物馆，部分馆舍为中世纪修道院旧址。仪器、机械和交通工具中包括傅科摆、拉瓦锡的实验室，以及阿代尔和布莱里奥的早期飞机。",
+    "name": "法国工艺博物馆"
+  },
+  "musee-des-avelines-musee-d-art-et-d-histoire-de-saint-cloud": {
+    "description": "圣克卢的艺术与历史博物馆，设在一座仿凯里洛斯别墅（Villa Kérylos）风格的1930年代别墅中。馆藏追忆1870年焚毁的王家城堡、该城18世纪的软质瓷工场，以及本地画家和雕塑家。"
+  },
+  "musee-des-monnaies-et-medailles": {
+    "description": "巴黎造币厂（Monnaie de Paris，创办于864年）的博物馆，位于孔蒂河岸其18世纪新古典主义宫殿内。“11 Conti”参观路线展示钱币、纪念章和压印机，并可探看工匠至今仍在打制纪念章的工坊。"
+  },
+  "musee-des-monuments-francais": {
+    "description": "位于夏约宫的建筑与遗产之城（Cité de l'architecture et du patrimoine）内，这座由维奥莱-勒-杜克构想的博物馆，汇集法国各地主教座堂和城堡门廊与雕塑的原尺寸石膏模制品，以及中世纪壁画摹本。"
+  },
+  "musee-des-pays-de-seine-et-marne": {
+    "description": "塞纳-马恩省乡村生活博物馆：布里乡间的农具、行当和民间传统，另设专区纪念作家皮埃尔·马克·奥尔朗——他在莫兰河畔圣西尔一直生活到1970年去世。"
+  },
+  "musee-des-plans-reliefs": {
+    "description": "在荣军院的屋顶层下，博物馆保存着1668年为路易十四启建的要塞城市立体地图收藏：这些细节精微的比例模型，当年用于筹划法国边境的攻防。"
+  },
+  "musee-des-transports-urbains-interurbains-et-ruraux": {
+    "description": "由AMTUIR协会志愿者运营的博物馆，保存法国公共交通一个多世纪的记忆：马拉公共马车、有轨电车、无轨电车、公共汽车和地铁车厢存放在谢勒的大型车库中，在开放日和遗产活动期间对外展示。"
+  },
+  "musee-du-chateau": {
+    "description": "博物馆位于杜尔当城堡内——这座保存完好的要塞约建于1220年，为国王腓力二世（奥古斯都）所建，长期用作监狱。馆藏涵盖城堡历史、地方考古和中世纪陶器。"
+  },
+  "musee-du-domaine-royal-de-marly-louveciennes-marly-le-roi": {
+    "description": "纪念已消失的马尔利王家苑囿的博物馆——那里是路易十四在凡尔赛之外的静憩之所。绘画、雕塑和模型再现被拆毁的城堡、园林，以及将塞纳河水提升到喷泉的著名“马尔利机器”。"
+  },
+  "musee-du-jouet-pierre-pinel": {
+    "description": "玩具博物馆设在普瓦西旧王家修道院14世纪的设防门楼内，修道院由“美男子”腓力四世创建。约800件1850年至1950年的法国玩具，包括瓷娃娃、泰迪熊、摇木马和电动火车。"
+  },
+  "musee-du-louvre": {
+    "description": "世界最大的艺术博物馆，坐落于法国历代国王的旧王宫。馆藏上起远古、下至1848年，从古埃及文物、《米洛的维纳斯》到《蒙娜丽莎》，观众经由贝聿铭设计的玻璃金字塔入内。",
+    "name": "卢浮宫"
+  },
+  "musee-du-moyen-age-thermes-et-hotel-de-cluny": {
+    "description": "法国国家中世纪博物馆，设在吕特斯高卢-罗马浴场遗址和15世纪的克吕尼府邸内。中世纪雕塑、彩绘玻璃和金银器环绕着著名的《贵妇与独角兽》挂毯。",
+    "name": "克吕尼博物馆"
+  },
+  "musee-du-parfum-fragonard": {
+    "description": "格拉斯香水世家花宫娜（Fragonard）的博物馆，设在加尼叶歌剧院附近一座拿破仑三世时期的宅邸内。铜制蒸馏器、香精和古董香水瓶，讲述从古埃及到现代萃取工艺的三千年香水史。",
+    "name": "花宫娜香水博物馆"
+  },
+  "musee-du-quai-branly-jacques-chirac": {
+    "description": "非洲、亚洲、大洋洲与美洲艺术和文明博物馆，2006年在塞纳河畔让·努维尔设计的建筑中开馆。约37万件藏品包括面具、织物和祭祀雕塑。",
+    "name": "凯布朗利博物馆"
+  },
+  "musee-du-service-de-sante-des-armees-du-val-de-grace": {
+    "description": "法国军事医学博物馆，设在17世纪奥地利的安娜创建的圣宠谷（Val-de-Grâce）王家修道院回廊内。医疗器械、制服和野战装备，追溯从旧制度至今的军队医护史。"
+  },
+  "musee-dunoyer-de-segonzac": {
+    "description": "纪念画家兼版画家安德烈·迪努瓦耶·德·塞贡扎克（1884-1974）的小型市立博物馆，他出生于布西-圣安托万。馆藏蚀刻版画、石版画、海报、照片和书籍，大多来自艺术家本人的藏书。"
+  },
+  "musee-emile-jean": {
+    "description": "1973年由马恩河畔维利耶历史学会创办的地方历史博物馆，设在一座19世纪宅邸内。文献、照片和日常物件重现布里地区的生活，从乡村学堂到1870年战争。"
+  },
+  "musee-eugene-delacroix": {
+    "description": "浪漫主义画家欧仁·德拉克罗瓦最后的居所和画室，位于清幽的菲斯滕贝格广场，1857年起他在此居住直至1863年去世。公寓和花园画室中展出绘画、素描和个人纪念物。"
+  },
+  "musee-fragonard": {
+    "description": "法国最古老的博物馆之一，1766年创建于阿尔福尔兽医学校内。其解剖学和病理学收藏以奥诺雷·弗拉戈纳尔18世纪的剥制人体标本收尾，包括他著名的“天启骑士”。"
+  },
+  "musee-francais-de-la-carte-a-jouer-et-galerie-d-histoire-de-la-ville": {
+    "description": "法国唯一的纸牌博物馆，收藏世界各地的古董纸牌、塔罗牌和雕版。附设的展廊讲述伊西莱穆利诺的历史及其已消失的城堡。"
+  },
+  "musee-gustave-moreau": {
+    "description": "象征主义画家居斯塔夫·莫罗的故居和画室，1898年去世前由画家亲自布置成博物馆。数千幅油画、水彩和素描沿着一座旋转楼梯，从地面一直挂到天花板。"
+  },
+  "musee-henri-chapu": {
+    "description": "位于雕塑家亨利·夏皮故乡的博物馆，1887年以他捐赠给塞纳河畔勒梅的作品创立。六十余件石膏模型和青铜像，展现这位19世纪法国官方雕塑名家的艺术生涯。"
+  },
+  "musee-jardin-paul-landowski": {
+    "description": "花园博物馆，坐落于里约热内卢基督像作者、雕塑家保罗·兰多夫斯基在布洛涅的工作室旧址。约百件雕塑和模型陈列在花园和两座地下展厅中。"
+  },
+  "musee-jean-jacques-henner": {
+    "description": "纪念阿尔萨斯画家让-雅克·亨纳（1829-1905）的国家博物馆，设在蒙索平原街区一座曾属于画家纪尧姆·迪布夫的宅邸内。馆内展出亨纳的肖像画、风景画和理想化的人体作品。"
+  },
+  "musee-jean-jacques-rousseau": {
+    "description": "蒙莫朗西的蒙路易小宅（Mont-Louis），让-雅克·卢梭1757年至1762年在此居住，写下《新爱洛伊丝》《爱弥儿》和《社会契约论》。时代陈设的房间和花园凉亭，重现哲学家的日常生活。"
+  },
+  "musee-lambinet": {
+    "description": "凡尔赛的市立博物馆，设在一座雅致的18世纪宅邸内，有时代风格的室内陈设、美术与装饰艺术收藏，以及关于城市历史（尤其是法国大革命）的藏品。"
+  },
+  "musee-librairie-du-compagnonnage": {
+    "description": "法兰西环游行会（compagnons du Tour de France）的小型博物馆，展出行会工匠制作的“杰作”——楼梯模型以及木、石、铁制品——附设一间专营行会传统的书店。"
+  },
+  "musee-municipal": {
+    "description": "卢万河畔莫雷的地方历史博物馆——这座卢万河畔的中世纪设防小城，是阿尔弗雷德·西斯莱度过晚年的地方。1400余件藏品追溯小城的过往和名人。"
+  },
+  "musee-municipal-91150": {
+    "description": "1875年在市政厅旁创立的博物馆，展陈涵盖埃唐普地区，从化石、中世纪考古到19世纪本地艺术家的作品，如雕塑家埃利亚斯·罗贝尔和画家纳西斯·贝尔谢。"
+  },
+  "musee-municipal-d-art-et-d-histoire": {
+    "description": "追溯科隆布历史的市立博物馆，从高卢-罗马考古、17世纪英格兰的亨利埃塔的庄园，到Hispano-Suiza等本地工业和1924年奥运会的奥林匹克体育场。"
+  },
+  "musee-municipal-ducastel-vera-de-saint-germain-en-laye": {
+    "description": "圣日耳曼昂莱的市立收藏，源自路易-亚历山大·迪卡斯泰尔1872年的遗赠：近9000件作品，从古埃及文物到20世纪艺术，包括精美的18世纪色粉画和一间保存完好的王家药房。"
+  },
+  "musee-municipal-robert-dubois-corneau": {
+    "description": "设在收藏家罗贝尔·迪布瓦-科尔诺故居内的博物馆，通过18世纪至今的绘画、版画和工艺美术品，讲述布吕努瓦和耶尔河谷的故事。"
+  },
+  "musee-national-de-l-histoire-et-des-cultures-de-l-immigration": {
+    "description": "法国国家移民历史博物馆，设在为1931年殖民博览会建造的装饰艺术风格建筑金门宫（Palais de la Porte Dorée）内；藏品和个人证言追溯两个世纪以来移居法国的历史。"
+  },
+  "musee-national-de-la-legion-d-honneur-et-des-ordres-de-chevalerie": {
+    "description": "博物馆设在奥赛博物馆对面的萨尔姆府（Hôtel de Salm），展出勋章、绶章和绘画，追溯拿破仑1802年创立的荣誉军团勋章，以及法国和各国的骑士勋位。"
+  },
+  "musee-national-de-la-marine": {
+    "description": "世界上最古老的海事博物馆之一，位于夏约宫，通过船模、绘画、船艏像和航海仪器讲述法国海军史，从风帆时代直至现代航海。"
+  },
+  "musee-national-des-chateaux-de-malmaison-et-de-bois-preau": {
+    "description": "拿破仑与约瑟芬皇后的乡间居所，约瑟芬在马尔梅松一直居住到1814年去世；城堡保存着执政府时期的内饰、帝国家具和个人纪念物，坐落在遍植玫瑰的园林中。",
+    "name": "马尔梅松城堡"
+  },
+  "musee-national-des-chateaux-de-versailles-et-de-trianon": {
+    "description": "路易十四及其继任者的宏伟王宫，联合国教科文组织世界遗产，拥有镜厅、国王大套间、特里亚农宫和勒诺特尔设计的法式园林。",
+    "name": "凡尔赛宫"
+  },
+  "musee-national-du-chateau-de-fontainebleau": {
+    "description": "从卡佩王朝到拿破仑三世，八个世纪法国君主的居所；宫内保存着为弗朗索瓦一世打造的珍稀文艺复兴内饰、拿破仑的套房和广阔的园林，为联合国教科文组织世界遗产。",
+    "name": "枫丹白露宫"
+  },
+  "musee-nissim-de-camondo-union-centrale-des-arts-decoratifs": {
+    "description": "莫伊兹·德·卡蒙多伯爵1911年至1914年建造的宅邸，保持着主人离开时的原貌，收藏着他杰出的18世纪法国家具和装饰艺术精品；宅邸以他在一战中阵亡的儿子尼西姆命名。"
+  },
+  "musee-picasso": {
+    "description": "世界规模最大的毕加索作品公共收藏——绘画、雕塑、素描及艺术家的个人档案——陈列在玛黑区17世纪的宏伟府邸萨莱府（Hôtel Salé）内。",
+    "name": "巴黎毕加索博物馆"
+  },
+  "musee-pissarro": {
+    "description": "位于蓬图瓦兹高地的博物馆，纪念在此写生近二十年的卡米耶·毕沙罗，收藏这位印象派大师的版画和素描，以及瓦兹河谷画家的作品。"
+  },
+  "musee-rambolitrain": {
+    "description": "朗布依埃的玩具火车和火车模型博物馆，藏有19世纪以来的4000多件藏品，还有一条大型微缩铁路在运转中重现铁路旅行的历史。"
+  },
+  "musee-rodin": {
+    "description": "纪念雕塑家奥古斯特·罗丹的博物馆，设在他生前居住和创作的18世纪比隆府（Hôtel Biron）内；《思想者》《吻》和《地狱之门》陈列在府邸和宽阔的雕塑花园中。",
+    "name": "罗丹博物馆"
+  },
+  "musee-rodin-meudon": {
+    "description": "默东的布里扬别墅（Villa des Brillants）是罗丹的住所和主要工作室；石膏模型和习作揭示雕塑家的创作过程，他在花园中的墓上立着一尊《思想者》铸像。"
+  },
+  "musee-roybet-fould": {
+    "description": "库尔布瓦的市立博物馆，设在为1878年世界博览会建造、后迁至贝孔公园的瑞典-挪威木构展馆内。馆藏费迪南·鲁瓦贝和孔苏埃洛·富尔德的19世纪绘画，以及雕塑家让-巴蒂斯特·卡尔波的作品。"
+  },
+  "musee-victor-aubert": {
+    "description": "莫勒教堂旁一座11世纪本笃会修道院遗存中的小型地方历史博物馆。由自学成才的考古学家维克托·奥贝尔创立，展出化石、史前和墨洛温时期的文物，以及当地的乡村民俗。"
+  },
+  "musee-yves-saint-laurent-paris": {
+    "description": "马索大街5号的历史悠久的高级时装屋，伊夫·圣罗兰1974年至2002年在此创作他的时装系列，如今是纪念他的博物馆，收藏高级定制时装和设计手稿，其工作室也保持原貌。",
+    "name": "巴黎伊夫·圣罗兰博物馆"
+  },
+  "musee-zadkine": {
+    "description": "卢森堡公园附近的故居和工作室，俄裔雕塑家奥西普·扎德金1928年至1967年在此生活创作。这座巴黎市立博物馆在工作室和小雕塑园中展出他的木石雕刻和青铜像。"
+  },
+  "musee-zola-dreyfus": {
+    "description": "埃米尔·左拉位于梅当的乡间居所——《卢贡-马卡尔家族》的大部分篇章在此写成——并设有首座德雷福斯事件博物馆，纪念作家的《我控诉……！》及其为德雷福斯上尉平反而进行的斗争。"
+  },
+  "museum-national-d-histoire-naturelle": {
+    "description": "法国国家级自然历史博物馆，1793年创建于巴黎植物园。展馆从进化大展厅（Grande Galerie de l'Évolution）延伸到规模庞大的古生物学、比较解剖学、矿物学和植物学收藏。",
+    "name": "法国国家自然历史博物馆"
+  },
+  "palais-galliera-musee-de-la-mode-et-de-la-ville-de-paris": {
+    "description": "巴黎市立时装博物馆，设在特罗卡德罗附近一座19世纪文艺复兴风格的宫殿内。馆藏梳理18世纪至今的服饰（包括高级定制），以轮换陈列和专题展览的形式呈现。",
+    "name": "加列拉宫（巴黎时装博物馆）"
+  },
+  "pantheon": {
+    "description": "圣热讷维耶芙山上的新古典主义建筑，最初由苏夫洛设计为教堂，后来成为法国伟人的安息之所——伏尔泰、雨果、左拉和玛丽·居里都长眠于此。穹顶下悬挂着傅科摆。",
+    "name": "先贤祠"
+  },
+  "petit-palais-musee-des-beaux-arts-de-la-ville-de-paris": {
+    "description": "由夏尔·吉罗为1900年世界博览会设计建造，这座巴黎市立美术馆围绕花园庭院，展出从古代到1914年的绘画、雕塑和装饰艺术——伦勃朗、莫奈和库尔贝的作品均在其列。",
+    "name": "小皇宫（巴黎市立美术馆）"
+  },
+  "sainte-chapelle": {
+    "description": "西岱岛上的哥特式王家礼拜堂，1240年代由路易九世为供奉基督受难圣物而建。上层礼拜堂环绕着十五扇宏伟的13世纪彩绘玻璃窗。",
+    "name": "圣礼拜堂"
+  },
+  "tours-de-notre-dame-de-paris": {
+    "description": "巴黎圣母院的中世纪塔楼，在火灾后的修复中重新开放。攀登途中经过奇美拉怪兽走廊和悬挂大钟“伊曼纽尔”的钟楼，最终可眺望塞纳河与巴黎市中心的全景。",
+    "name": "巴黎圣母院塔楼"
+  },
+  "villa-savoye": {
+    "description": "勒·柯布西耶1928年至1931年在普瓦西建造的现代主义别墅，以底层架空柱、横向长窗和屋顶花园践行其“建筑五点”宣言。已列入联合国教科文组织世界遗产。",
+    "name": "萨伏伊别墅"
+  }
+}

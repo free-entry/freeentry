@@ -1,0 +1,151 @@
+{
+  "app": {
+    "title": "Museos gratuitos — París e Île-de-France",
+    "tagline": "Todos los museos y monumentos que puedes visitar gratis, y cuándo",
+    "skipToList": "Saltar a la lista de resultados",
+    "loading": "Cargando…",
+    "offlineBanner": "Estás sin conexión — se muestran los datos guardados. Las zonas del mapa que no hayas visitado pueden aparecer en blanco.",
+    "updateAvailable": "Hay una nueva versión de la aplicación disponible.",
+    "updateReload": "Recargar"
+  },
+  "header": {
+    "searchPlaceholder": "Buscar museos…",
+    "searchLabel": "Buscar museos por nombre",
+    "filters": "Filtros",
+    "language": "Idioma",
+    "calendar": "Calendario"
+  },
+  "categories": {
+    "always": "Siempre gratis",
+    "first-sunday": "Gratis el 1.er domingo",
+    "first-sunday-booking": "1.er domingo, con reserva",
+    "first-sunday-low-season": "1.er domingo, temporada baja",
+    "first-saturday": "Gratis el 1.er sábado",
+    "nocturne": "Nocturna mensual gratuita",
+    "special-days": "Solo días especiales",
+    "under-26-only": "Gratis para menores de 26 años",
+    "none": "Sin entrada gratuita"
+  },
+  "filters": {
+    "title": "Filtros",
+    "freeType": "Tipo de gratuidad",
+    "date": "Gratis en una fecha",
+    "today": "Hoy",
+    "anyDate": "Cualquier fecha",
+    "distance": "Distancia",
+    "useMyLocation": "Usar mi ubicación",
+    "pickOnMap": "Elegir un punto en el mapa",
+    "pickOnMapHint": "Haz clic o toca el mapa para fijar el centro",
+    "locationDenied": "Ubicación no disponible — elige un punto en el mapa.",
+    "radius": "Radio",
+    "radiusValue": "{{km}} km",
+    "area": "Zona",
+    "departments": "Departamentos",
+    "communes": "Municipios",
+    "communesSearch": "Buscar un municipio…",
+    "arrondissements": "Distritos de París",
+    "arrondissementLabel": "Distrito {{number}}",
+    "under26": "Tengo menos de 26 años (residente en la UE)",
+    "under26Hint": "Cuenta la gratuidad para menores de 26 como acceso gratuito",
+    "includePaid": "Mostrar también museos sin entrada gratuita",
+    "reset": "Restablecer filtros",
+    "close": "Cerrar filtros",
+    "resultCount_one": "{{count}} museo",
+    "resultCount_other": "{{count}} museos",
+    "showResults_one": "Mostrar {{count}} museo",
+    "showResults_other": "Mostrar {{count}} museos",
+    "activeFilters": "Filtros activos",
+    "removeFilter": "Quitar filtro: {{label}}",
+    "freeOnDate": "Gratis el {{date}}",
+    "withinKm": "A menos de {{km}} km",
+    "aroundMyLocation": "alrededor de mi ubicación",
+    "aroundPoint": "alrededor del punto elegido"
+  },
+  "list": {
+    "empty": "Ningún museo coincide con tus filtros.",
+    "emptyHint": "Prueba a quitar un filtro o a ampliar la distancia.",
+    "showList": "Lista",
+    "showMap": "Mapa",
+    "sortedByDistance": "Ordenado por distancia",
+    "sortedByName": "Ordenado alfabéticamente"
+  },
+  "museum": {
+    "freeAccessTitle": "Entrada gratuita",
+    "nextFreeDate": "Próximo día gratis: {{date}}",
+    "estimated": "estimado",
+    "todayFree": "Gratis hoy",
+    "eveningOnly": "solo por la noche",
+    "bookingRequired": "Reserva obligatoria",
+    "book": "Reservar una entrada gratuita",
+    "website": "Sitio web",
+    "directions": "Cómo llegar",
+    "share": "Compartir",
+    "linkCopied": "Enlace copiado al portapapeles",
+    "address": "Dirección",
+    "openingHours": "Horario de apertura",
+    "source": "Fuente",
+    "checkedOn": "comprobado el {{date}}",
+    "distanceAway": "a {{km}} km",
+    "frenchName": "Nombre en francés",
+    "noFreeScheme": "No se conoce ninguna gratuidad regular para este lugar.",
+    "back": "Volver a los resultados",
+    "close": "Cerrar detalles"
+  },
+  "rules": {
+    "always": "Gratis todos los días",
+    "alwaysUnder26": "Gratis todos los días para menores de 26 años residentes en la UE",
+    "alwaysUnder18": "Gratis todos los días para menores de 18 años",
+    "firstWeekday": "Gratis el primer {{weekday}} de cada mes",
+    "lastWeekday": "Gratis el último {{weekday}} de cada mes",
+    "monthsRange": "de {{from}} a {{to}}",
+    "evening": "por la noche",
+    "july14": "Gratis el 14 de julio (fiesta nacional francesa)",
+    "museumNight": "Gratis durante la Noche Europea de los Museos",
+    "heritageDays": "Gratis durante las Jornadas Europeas del Patrimonio",
+    "annualDate": "Gratis cada año el {{date}}",
+    "nextDate": "próxima fecha: {{date}}"
+  },
+  "calendar": {
+    "title": "Calendario de días gratuitos",
+    "freeCount_one": "{{count}} museo gratis",
+    "freeCount_other": "{{count}} museos gratis",
+    "prevMonth": "Mes anterior",
+    "nextMonth": "Mes siguiente",
+    "selectDay": "{{date}} — mostrar {{count}} museos gratis",
+    "upcoming": "Próximos días gratis",
+    "estimatedBadge": "Fecha estimada — aún sin confirmar",
+    "events": {
+      "museum-night": "Noche Europea de los Museos",
+      "heritage-days": "Jornadas Europeas del Patrimonio",
+      "july-14": "14 de julio",
+      "first-sunday": "Primer domingo del mes",
+      "first-saturday": "Primer sábado del mes"
+    }
+  },
+  "map": {
+    "ariaLabel": "Mapa interactivo de museos",
+    "markerLabel": "{{name}} — {{category}}",
+    "clusterLabel": "{{count}} museos — acerca el zoom para separarlos",
+    "recenter": "Centrar en París"
+  },
+  "about": {
+    "dataSources": "Fuentes de datos",
+    "dataSourcesBody": "Datos de gratuidad de parisjetaime.com y de los sitios web oficiales de los museos; directorio de museos de data.gouv.fr (Licence Ouverte); mapa © colaboradores de OpenStreetMap, teselas de OpenFreeMap.",
+    "github": "Código fuente en GitHub",
+    "license": "Licencia MIT",
+    "disclaimer": "Las condiciones de gratuidad cambian — comprueba siempre el sitio web oficial del museo antes de la visita."
+  },
+  "a11y": {
+    "resultsUpdated_one": "{{count}} museo mostrado",
+    "resultsUpdated_other": "{{count}} museos mostrados",
+    "dialogClose": "Cerrar la ventana",
+    "sheetExpand": "Desplegar el panel de resultados",
+    "sheetCollapse": "Plegar el panel de resultados",
+    "selectedMarker": "Seleccionado: {{name}}"
+  },
+  "notFound": {
+    "title": "Museo no encontrado",
+    "body": "Puede que este enlace esté obsoleto o que el museo se haya retirado de los datos.",
+    "backHome": "Volver al mapa"
+  }
+}

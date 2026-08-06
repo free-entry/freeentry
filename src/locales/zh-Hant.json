@@ -1,0 +1,147 @@
+{
+  "app": {
+    "title": "免費博物館 — 巴黎與法蘭西島",
+    "tagline": "哪些博物館與古蹟可以免費參觀、什麼時候去，一目瞭然",
+    "skipToList": "跳至結果列表",
+    "loading": "載入中…",
+    "offlineBanner": "目前處於離線狀態，顯示的是先前儲存的資料；尚未瀏覽過的地圖區域可能呈現空白。",
+    "updateAvailable": "應用程式有新版本可用。",
+    "updateReload": "重新載入"
+  },
+  "header": {
+    "searchPlaceholder": "搜尋博物館…",
+    "searchLabel": "依名稱搜尋博物館",
+    "filters": "篩選",
+    "language": "語言",
+    "calendar": "日曆"
+  },
+  "categories": {
+    "always": "全年免費",
+    "first-sunday": "每月首個週日免費",
+    "first-sunday-booking": "每月首個週日免費，須預約",
+    "first-sunday-low-season": "每月首個週日免費（淡季）",
+    "first-saturday": "每月首個週六免費",
+    "nocturne": "每月夜間場免費",
+    "special-days": "僅特定日子免費",
+    "under-26-only": "未滿 26 歲免費",
+    "none": "無免費入場"
+  },
+  "filters": {
+    "title": "篩選條件",
+    "freeType": "免費類型",
+    "date": "指定日期免費",
+    "today": "今天",
+    "anyDate": "任何日期",
+    "distance": "距離",
+    "useMyLocation": "使用我的位置",
+    "pickOnMap": "在地圖上選取一點",
+    "pickOnMapHint": "點按地圖以設定中心點",
+    "locationDenied": "無法取得您的位置，請改在地圖上選取一點。",
+    "radius": "半徑",
+    "radiusValue": "{{km}} 公里",
+    "area": "區域",
+    "departments": "省份",
+    "communes": "市鎮",
+    "communesSearch": "搜尋市鎮…",
+    "arrondissements": "巴黎行政區",
+    "arrondissementLabel": "第 {{number}} 區",
+    "under26": "我未滿 26 歲（歐盟居民）",
+    "under26Hint": "將未滿 26 歲的免費優惠計入免費入場",
+    "includePaid": "同時顯示無免費入場的博物館",
+    "reset": "重設篩選條件",
+    "close": "關閉篩選",
+    "resultCount_other": "{{count}} 間博物館",
+    "showResults_other": "顯示 {{count}} 間博物館",
+    "activeFilters": "已套用的篩選",
+    "removeFilter": "移除篩選：{{label}}",
+    "freeOnDate": "{{date}} 免費",
+    "withinKm": "{{km}} 公里內",
+    "aroundMyLocation": "以我的位置為中心",
+    "aroundPoint": "以所選地點為中心"
+  },
+  "list": {
+    "empty": "沒有符合篩選條件的博物館。",
+    "emptyHint": "請試著移除篩選條件，或放寬距離範圍。",
+    "showList": "列表",
+    "showMap": "地圖",
+    "sortedByDistance": "依距離排序",
+    "sortedByName": "依名稱排序"
+  },
+  "museum": {
+    "freeAccessTitle": "免費入場",
+    "nextFreeDate": "下一個免費日：{{date}}",
+    "estimated": "預估",
+    "todayFree": "今天免費",
+    "eveningOnly": "僅限夜間",
+    "bookingRequired": "須預約",
+    "book": "預約免費門票",
+    "website": "網站",
+    "directions": "路線",
+    "share": "分享",
+    "linkCopied": "連結已複製到剪貼簿",
+    "address": "地址",
+    "openingHours": "開放時間",
+    "source": "資料來源",
+    "checkedOn": "查核於 {{date}}",
+    "distanceAway": "距離 {{km}} 公里",
+    "frenchName": "法文名稱",
+    "noFreeScheme": "此場館目前沒有已知的常設免費入場方案。",
+    "back": "返回結果列表",
+    "close": "關閉詳細資訊"
+  },
+  "rules": {
+    "always": "每天免費",
+    "alwaysUnder26": "未滿 26 歲的歐盟居民每天免費",
+    "alwaysUnder18": "未滿 18 歲的訪客每天免費",
+    "firstWeekday": "每月第一個{{weekday}}免費",
+    "lastWeekday": "每月最後一個{{weekday}}免費",
+    "monthsRange": "{{from}}至{{to}}",
+    "evening": "夜間時段",
+    "july14": "法國國慶日（7 月 14 日）免費",
+    "museumNight": "歐洲博物館之夜期間免費",
+    "heritageDays": "歐洲遺產日期間免費",
+    "annualDate": "每年 {{date}} 免費",
+    "nextDate": "下一次：{{date}}"
+  },
+  "calendar": {
+    "title": "免費入場日曆",
+    "freeCount_other": "{{count}} 間博物館免費",
+    "prevMonth": "上個月",
+    "nextMonth": "下個月",
+    "selectDay": "{{date}} — 顯示 {{count}} 間免費博物館",
+    "upcoming": "即將到來的免費日",
+    "estimatedBadge": "預估日期，尚未確認",
+    "events": {
+      "museum-night": "歐洲博物館之夜",
+      "heritage-days": "歐洲遺產日",
+      "july-14": "法國國慶日（7 月 14 日）",
+      "first-sunday": "每月首個週日",
+      "first-saturday": "每月首個週六"
+    }
+  },
+  "map": {
+    "ariaLabel": "博物館互動地圖",
+    "markerLabel": "{{name}} — {{category}}",
+    "clusterLabel": "{{count}} 間博物館 — 放大以分開顯示",
+    "recenter": "重新置中於巴黎"
+  },
+  "about": {
+    "dataSources": "資料來源",
+    "dataSourcesBody": "免費入場資訊來自 parisjetaime.com 及各博物館官方網站；博物館名錄來自 data.gouv.fr（Licence Ouverte 開放授權）；地圖 © OpenStreetMap 貢獻者，圖磚由 OpenFreeMap 提供。",
+    "github": "GitHub 上的原始碼",
+    "license": "MIT 授權條款",
+    "disclaimer": "免費入場條件可能隨時變動，出發前請務必查閱博物館官方網站。"
+  },
+  "a11y": {
+    "resultsUpdated_other": "已顯示 {{count}} 間博物館",
+    "dialogClose": "關閉對話框",
+    "sheetExpand": "展開結果面板",
+    "sheetCollapse": "收合結果面板",
+    "selectedMarker": "已選取：{{name}}"
+  },
+  "notFound": {
+    "title": "找不到此博物館",
+    "body": "此連結可能已過期，或該博物館已從資料集中移除。",
+    "backHome": "返回地圖"
+  }
+}

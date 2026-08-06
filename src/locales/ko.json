@@ -1,0 +1,147 @@
+{
+  "app": {
+    "title": "파리·일드프랑스 무료 박물관",
+    "tagline": "무료로 관람할 수 있는 모든 박물관과 기념물, 그리고 무료 개방 날짜까지 한눈에",
+    "skipToList": "결과 목록으로 건너뛰기",
+    "loading": "불러오는 중…",
+    "offlineBanner": "오프라인 상태입니다. 저장된 데이터를 표시합니다. 방문하지 않은 지도 영역은 비어 있을 수 있습니다.",
+    "updateAvailable": "앱의 새 버전을 사용할 수 있습니다.",
+    "updateReload": "새로고침"
+  },
+  "header": {
+    "searchPlaceholder": "박물관 검색…",
+    "searchLabel": "박물관 이름으로 검색",
+    "filters": "필터",
+    "language": "언어",
+    "calendar": "달력"
+  },
+  "categories": {
+    "always": "상시 무료",
+    "first-sunday": "첫째 일요일 무료",
+    "first-sunday-booking": "첫째 일요일, 예약 필수",
+    "first-sunday-low-season": "첫째 일요일, 비수기 한정",
+    "first-saturday": "첫째 토요일 무료",
+    "nocturne": "월 1회 야간 무료",
+    "special-days": "특별한 날만 무료",
+    "under-26-only": "26세 미만 무료",
+    "none": "무료입장 없음"
+  },
+  "filters": {
+    "title": "필터",
+    "freeType": "무료입장 유형",
+    "date": "무료인 날짜",
+    "today": "오늘",
+    "anyDate": "모든 날짜",
+    "distance": "거리",
+    "useMyLocation": "내 위치 사용",
+    "pickOnMap": "지도에서 지점 선택",
+    "pickOnMapHint": "지도를 클릭하거나 탭하여 중심점을 설정하세요",
+    "locationDenied": "위치를 사용할 수 없습니다. 대신 지도에서 지점을 선택하세요.",
+    "radius": "반경",
+    "radiusValue": "{{km}} km",
+    "area": "지역",
+    "departments": "데파르트망",
+    "communes": "코뮌",
+    "communesSearch": "코뮌 검색…",
+    "arrondissements": "파리 구 (아롱디스망)",
+    "arrondissementLabel": "{{number}}구",
+    "under26": "저는 26세 미만입니다 (EU 거주자)",
+    "under26Hint": "26세 미만 무료 혜택을 무료입장으로 계산합니다",
+    "includePaid": "무료입장이 없는 박물관도 표시",
+    "reset": "필터 초기화",
+    "close": "필터 닫기",
+    "resultCount_other": "박물관 {{count}}곳",
+    "showResults_other": "박물관 {{count}}곳 보기",
+    "activeFilters": "적용된 필터",
+    "removeFilter": "필터 제거: {{label}}",
+    "freeOnDate": "{{date}} 무료",
+    "withinKm": "{{km}} km 이내",
+    "aroundMyLocation": "내 위치 주변",
+    "aroundPoint": "선택한 지점 주변"
+  },
+  "list": {
+    "empty": "필터에 맞는 박물관이 없습니다.",
+    "emptyHint": "필터를 하나 제거하거나 거리를 넓혀 보세요.",
+    "showList": "목록",
+    "showMap": "지도",
+    "sortedByDistance": "거리순 정렬",
+    "sortedByName": "이름순 정렬"
+  },
+  "museum": {
+    "freeAccessTitle": "무료입장",
+    "nextFreeDate": "다음 무료 개방일: {{date}}",
+    "estimated": "예상",
+    "todayFree": "오늘 무료",
+    "eveningOnly": "야간에만",
+    "bookingRequired": "예약 필수",
+    "book": "무료 티켓 예약",
+    "website": "웹사이트",
+    "directions": "길찾기",
+    "share": "공유",
+    "linkCopied": "링크가 클립보드에 복사되었습니다",
+    "address": "주소",
+    "openingHours": "운영 시간",
+    "source": "출처",
+    "checkedOn": "{{date}} 확인",
+    "distanceAway": "{{km}} km 거리",
+    "frenchName": "프랑스어 이름",
+    "noFreeScheme": "이곳은 알려진 정기 무료입장이 없습니다.",
+    "back": "결과로 돌아가기",
+    "close": "상세 정보 닫기"
+  },
+  "rules": {
+    "always": "매일 무료",
+    "alwaysUnder26": "26세 미만 EU 거주자는 매일 무료",
+    "alwaysUnder18": "18세 미만 방문객은 매일 무료",
+    "firstWeekday": "매월 첫째 {{weekday}} 무료",
+    "lastWeekday": "매월 마지막 {{weekday}} 무료",
+    "monthsRange": "{{from}}부터 {{to}}까지",
+    "evening": "야간에",
+    "july14": "7월 14일(프랑스 혁명 기념일) 무료",
+    "museumNight": "유럽 박물관의 밤 기간 무료",
+    "heritageDays": "유럽 문화유산의 날 기간 무료",
+    "annualDate": "매년 {{date}} 무료",
+    "nextDate": "다음: {{date}}"
+  },
+  "calendar": {
+    "title": "무료입장 달력",
+    "freeCount_other": "박물관 {{count}}곳 무료",
+    "prevMonth": "이전 달",
+    "nextMonth": "다음 달",
+    "selectDay": "{{date}} — 무료 박물관 {{count}}곳 보기",
+    "upcoming": "다가오는 무료 개방일",
+    "estimatedBadge": "예상 날짜 — 아직 확정되지 않음",
+    "events": {
+      "museum-night": "유럽 박물관의 밤",
+      "heritage-days": "유럽 문화유산의 날",
+      "july-14": "7월 14일",
+      "first-sunday": "매월 첫째 일요일",
+      "first-saturday": "매월 첫째 토요일"
+    }
+  },
+  "map": {
+    "ariaLabel": "박물관 인터랙티브 지도",
+    "markerLabel": "{{name}} — {{category}}",
+    "clusterLabel": "박물관 {{count}}곳 — 확대하면 나뉘어 표시됩니다",
+    "recenter": "파리 중심으로 이동"
+  },
+  "about": {
+    "dataSources": "데이터 출처",
+    "dataSourcesBody": "무료입장 정보: parisjetaime.com 및 각 박물관 공식 웹사이트, 박물관 목록: data.gouv.fr (Licence Ouverte), 지도 © OpenStreetMap 기여자, 타일: OpenFreeMap.",
+    "github": "GitHub에서 소스 코드 보기",
+    "license": "MIT 라이선스",
+    "disclaimer": "무료입장 조건은 변경될 수 있습니다. 방문 전 반드시 박물관 공식 웹사이트를 확인하세요."
+  },
+  "a11y": {
+    "resultsUpdated_other": "박물관 {{count}}곳 표시됨",
+    "dialogClose": "대화 상자 닫기",
+    "sheetExpand": "결과 패널 펼치기",
+    "sheetCollapse": "결과 패널 접기",
+    "selectedMarker": "선택됨: {{name}}"
+  },
+  "notFound": {
+    "title": "박물관을 찾을 수 없습니다",
+    "body": "링크가 오래되었거나 해당 박물관이 데이터에서 제거되었을 수 있습니다.",
+    "backHome": "지도로 돌아가기"
+  }
+}
