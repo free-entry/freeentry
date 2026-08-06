@@ -1,0 +1,50 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  background: rgb(10 16 24 / 0.45);
+  display: flex;
+}
+
+.panel {
+  background: var(--color-bg);
+  color: var(--color-text);
+  inline-size: min(26rem, 100%);
+  block-size: 100%;
+  overflow-y: auto;
+  box-shadow: var(--shadow-floating);
+  animation: slide-in 0.2s ease-out;
+}
+
+.center {
+  background: var(--color-bg);
+  color: var(--color-text);
+  margin: auto;
+  inline-size: min(30rem, calc(100% - 2rem));
+  max-block-size: calc(100% - 2rem);
+  overflow-y: auto;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-floating);
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+html[dir='rtl'] .panel {
+  animation-name: slide-in-rtl;
+}
+
+@keyframes slide-in-rtl {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

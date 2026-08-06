@@ -90,6 +90,22 @@ export function isFreeOn(museum: Museum, date: string, ctx: RuleContext): boolea
   return museum.freeAccess.some((rule) => ruleActiveOn(rule, date, ctx));
 }
 
+/** Number of museums free on each day of a month (keys are ISO dates). */
+export function freeCountByDay(
+  museums: Museum[],
+  year: number,
+  month: number,
+  ctx: RuleContext,
+): Map<string, number> {
+  const counts = new Map<string, number>();
+  const daysInMonth = new Date(Date.UTC(year, month, 0)).getUTCDate();
+  for (let day = 1; day <= daysInMonth; day++) {
+    const date = toISO(Date.UTC(year, month - 1, day));
+    counts.set(date, museums.reduce((n, m) => n + (isFreeOn(m, date, ctx) ? 1 : 0), 0));
+  }
+  return counts;
+}
+
 const NEXT_FREE_HORIZON_DAYS = 730;
 
 /**

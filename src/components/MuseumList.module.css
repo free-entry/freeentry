@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-block-size: 0;
+}
+
+.count {
+  margin: 0;
+  padding-block: 0.5rem 0.4rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.sort {
+  font-weight: 400;
+  color: var(--color-text-muted);
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.empty {
+  padding-block: 2rem;
+  text-align: center;
+  color: var(--color-text-muted);
+}
+
+.emptyHint {
+  font-size: 0.85rem;
+}

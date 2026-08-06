@@ -47,11 +47,9 @@
   min-block-size: 0;
 }
 
-.mapPlaceholder {
-  display: grid;
-  place-items: center;
-  block-size: 100%;
-  background: var(--color-bg-sunken);
+.selectedNote {
+  margin: 0.4rem 0;
+  font-size: 0.8rem;
   color: var(--color-text-muted);
 }
 

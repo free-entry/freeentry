@@ -1,0 +1,123 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.monthBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.monthLabel {
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-transform: capitalize;
+}
+
+.navButton {
+  font: inherit;
+  font-size: 1.1rem;
+  line-height: 1;
+  color: var(--color-text);
+  background: var(--color-bg-raised);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-small);
+  inline-size: 2rem;
+  block-size: 2rem;
+  cursor: pointer;
+}
+
+.navButton:hover {
+  border-color: var(--color-accent);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.2rem;
+}
+
+.weekday {
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  padding-block: 0.15rem;
+}
+
+.day {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1rem;
+  font: inherit;
+  color: var(--color-text-muted);
+  background: none;
+  border: 1px solid transparent;
+  border-radius: var(--radius-small);
+  padding-block: 0.25rem 0.35rem;
+  cursor: pointer;
+  min-block-size: 2.6rem;
+}
+
+.dayHasFree {
+  color: var(--color-text);
+  background: var(--color-bg-raised);
+  border-color: var(--color-border);
+}
+
+.day:hover {
+  border-color: var(--color-accent);
+}
+
+.day[aria-pressed='true'] {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-accent-contrast);
+}
+
+.day[aria-pressed='true'] .count {
+  color: var(--color-accent-contrast);
+}
+
+.dayToday .dayNumber {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 1px;
+  border-radius: 50%;
+}
+
+.dayNumber {
+  font-size: 0.8rem;
+  font-variant-numeric: tabular-nums;
+  inline-size: 1.2rem;
+  block-size: 1.2rem;
+  display: grid;
+  place-items: center;
+}
+
+.count {
+  font-size: 0.62rem;
+  font-weight: 700;
+  color: var(--color-positive);
+  font-variant-numeric: tabular-nums;
+}
+
+.eventDot,
+.eventDotEstimated {
+  position: absolute;
+  inset-block-start: 0.2rem;
+  inset-inline-end: 0.2rem;
+  inline-size: 0.4rem;
+  block-size: 0.4rem;
+  border-radius: 50%;
+  background: #cc79a7;
+}
+
+.eventDotEstimated {
+  background: transparent;
+  border: 1.5px dashed #cc79a7;
+}
