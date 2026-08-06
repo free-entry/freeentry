@@ -46,13 +46,18 @@ function museumHead(museum: Museum): string {
     ? `${freeSummary(museum)}. ${content[museum.id].description}`
     : `${freeSummary(museum)}. ${museum.name}, ${museum.commune}, Île-de-France — opening days, free-admission rules and directions.`;
   const url = `${SITE}/museum/${museum.id}`;
+  const sameAs = [
+    ...(museum.website ? [museum.website] : []),
+    ...(museum.wikidata ? [`https://www.wikidata.org/wiki/${museum.wikidata}`] : []),
+    ...(museum.wikipediaFr ? [museum.wikipediaFr] : []),
+  ];
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Museum',
     name: museum.name,
     ...(content[museum.id]?.name ? { alternateName: content[museum.id].name } : {}),
     url,
-    ...(museum.website ? { sameAs: museum.website } : {}),
+    ...(sameAs.length > 0 ? { sameAs } : {}),
     address: {
       '@type': 'PostalAddress',
       streetAddress: museum.address,
@@ -96,7 +101,7 @@ for (const museum of museums) {
 const homeJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  name: 'Free Museums Paris & Île-de-France',
+  name: 'Free Museums & Monuments — Paris & Île-de-France',
   url: `${SITE}/`,
   inLanguage: LOCALES,
 };
