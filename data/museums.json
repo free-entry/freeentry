@@ -1,5 +1,440 @@
 [
   {
+    "id": "abbaye-de-beaulieu-en-rouergue",
+    "name": "Abbaye de Beaulieu-en-Rouergue",
+    "coordinates": [
+      1.853889,
+      44.210278
+    ],
+    "address": "Route de l'Abbaye",
+    "postalCode": "82330",
+    "commune": "Ginals",
+    "department": "82",
+    "website": "https://www.beaulieu-en-rouergue.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.beaulieu-en-rouergue.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.beaulieu-en-rouergue.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q1137826",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Abbaye_de_Beaulieu-en-Rouergue",
+    "image": {
+      "file": "images/museums/abbaye-de-beaulieu-en-rouergue.jpg",
+      "author": "Sgbrown",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abbaye_de_Beaulieu.jpg",
+      "wikimediaFile": "File:Abbaye de Beaulieu.jpg"
+    }
+  },
+  {
+    "id": "abbaye-de-charroux",
+    "name": "Abbaye de Charroux",
+    "coordinates": [
+      0.404417,
+      46.143417
+    ],
+    "address": "Place Saint Pierre",
+    "postalCode": "86250",
+    "commune": "Charroux",
+    "department": "86",
+    "website": "https://www.abbaye-charroux.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.abbaye-charroux.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.abbaye-charroux.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q333861",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Abbaye_Saint-Sauveur_de_Charroux",
+    "note": "Closed to individual visitors from November to March (groups on reservation).",
+    "image": {
+      "file": "images/museums/abbaye-de-charroux.jpg",
+      "author": "JLPC",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Charroux_86_Tour_Charlemagne_2012.jpg",
+      "wikimediaFile": "File:Charroux 86 Tour Charlemagne 2012.jpg"
+    }
+  },
+  {
+    "id": "abbaye-de-cluny",
+    "name": "Abbaye de Cluny",
+    "coordinates": [
+      4.659221,
+      46.434051
+    ],
+    "address": "rue du 11-Août",
+    "postalCode": "71250",
+    "commune": "Cluny",
+    "department": "71",
+    "website": "https://www.cluny-abbaye.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.cluny-abbaye.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.cluny-abbaye.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.cluny-abbaye.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q220301",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Abbaye_de_Cluny",
+    "image": {
+      "file": "images/museums/abbaye-de-cluny.jpg",
+      "author": "Unknown",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cluny-Abtei-Ostfluegel-mtob.jpg",
+      "wikimediaFile": "File:Cluny-Abtei-Ostfluegel-mtob.jpg"
+    }
+  },
+  {
+    "id": "abbaye-de-la-sauve-majeure",
+    "name": "Abbaye de La Sauve-Majeure",
+    "coordinates": [
+      -0.311781,
+      44.768678
+    ],
+    "address": "Place Saint Jean",
+    "postalCode": "33670",
+    "commune": "La Sauve",
+    "department": "33",
+    "website": "https://www.abbaye-la-sauve-majeure.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.abbaye-la-sauve-majeure.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.abbaye-la-sauve-majeure.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q333984",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Abbaye_de_La_Sauve-Majeure",
+    "image": {
+      "file": "images/museums/abbaye-de-la-sauve-majeure.jpg",
+      "author": "Ophelia2",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abbaye_de_la_Sauve_Majeure1.JPG",
+      "wikimediaFile": "File:Abbaye de la Sauve Majeure1.JPG"
+    }
+  },
+  {
+    "id": "abbaye-de-montmajour",
+    "name": "Abbaye de Montmajour",
+    "coordinates": [
+      4.663889,
+      43.705556
+    ],
+    "address": "",
+    "postalCode": "13104",
+    "commune": "Arles",
+    "department": "13",
+    "website": "https://www.abbaye-montmajour.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.abbaye-montmajour.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.abbaye-montmajour.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q334060",
+    "image": {
+      "file": "images/museums/abbaye-de-montmajour.jpg",
+      "author": "Unknown",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Montmajour-VueG%C3%A9n%C3%A9rale1.jpg",
+      "wikimediaFile": "File:Montmajour-VueGénérale1.jpg"
+    }
+  },
+  {
+    "id": "abbaye-du-bec-hellouin",
+    "name": "Abbaye du Bec-Hellouin",
+    "coordinates": [
+      0.721494,
+      49.228688
+    ],
+    "address": "place de l'Abbé-Hellouin",
+    "postalCode": "27800",
+    "commune": "Le Bec-Hellouin",
+    "department": "27",
+    "website": "https://www.bec-hellouin.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.bec-hellouin.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q32989",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Abbaye_Notre-Dame_du_Bec",
+    "image": {
+      "file": "images/museums/abbaye-du-bec-hellouin.jpg",
+      "author": "Roland Brierre",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abbaye_du_Bec_-_Fa%C3%A7ade_sud_vue_du_Bec.jpg",
+      "wikimediaFile": "File:Abbaye du Bec - Façade sud vue du Bec.jpg"
+    }
+  },
+  {
+    "id": "abbaye-du-mont-saint-michel",
+    "name": "Abbaye du Mont-Saint-Michel",
+    "coordinates": [
+      -1.511385,
+      48.636051
+    ],
+    "address": "Chemin de Ronde",
+    "postalCode": "50170",
+    "commune": "Le Mont-Saint-Michel",
+    "department": "50",
+    "website": "https://www.abbaye-mont-saint-michel.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.abbaye-mont-saint-michel.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.abbaye-mont-saint-michel.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.abbaye-mont-saint-michel.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q651388",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Abbaye_du_Mont-Saint-Michel",
+    "image": {
+      "file": "images/museums/abbaye-du-mont-saint-michel.jpg",
+      "author": "Zairon",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_Mont-Saint-Michel_Abbaye_de_Mont-Saint-Michel_S%C3%BCdseite_03.jpg",
+      "wikimediaFile": "File:Le Mont-Saint-Michel Abbaye de Mont-Saint-Michel Südseite 03.jpg"
+    }
+  },
+  {
+    "id": "abbaye-du-thoronet",
+    "name": "Abbaye du Thoronet",
+    "coordinates": [
+      6.263889,
+      43.460278
+    ],
+    "address": "route de l'Abbaye",
+    "postalCode": "83340",
+    "commune": "Le Thoronet",
+    "department": "83",
+    "website": "https://www.le-thoronet.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.le-thoronet.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.le-thoronet.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q306155",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Abbaye_du_Thoronet",
+    "image": {
+      "file": "images/museums/abbaye-du-thoronet.jpg",
+      "author": "Unknown",
+      "license": "Public Domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cloitre.Thoronet.png",
+      "wikimediaFile": "File:Cloitre.Thoronet.png"
+    }
+  },
+  {
+    "id": "alignements-de-carnac",
+    "name": "Alignements de Carnac",
+    "coordinates": [
+      -3.079722,
+      47.593333
+    ],
+    "address": "Route des Alignements",
+    "postalCode": "56340",
+    "commune": "Carnac",
+    "department": "56",
+    "website": "https://www.menhirs-carnac.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [],
+    "wikidata": "Q833850",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Alignements_de_Carnac",
+    "note": "The footpaths around the alignments are free year-round, and some sites offer free self-guided visits from October to March; in season, access is by paid guided tour.",
+    "image": {
+      "file": "images/museums/alignements-de-carnac.jpg",
+      "author": "--Pinpin 17:43, 1 August 2006 (UTC)",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:France-Carnac-Alignement_de_Kermario.jpg",
+      "wikimediaFile": "File:France-Carnac-Alignement de Kermario.jpg"
+    }
+  },
+  {
     "id": "arc-de-triomphe",
     "name": "Arc de triomphe",
     "coordinates": [
@@ -284,6 +719,166 @@
     }
   },
   {
+    "id": "cairn-de-barnenez",
+    "name": "Cairn de Barnenez",
+    "coordinates": [
+      -3.858611,
+      48.6675
+    ],
+    "address": "Cairn de Barnénez",
+    "postalCode": "29252",
+    "commune": "Plouezoc'h",
+    "department": "29",
+    "website": "https://www.barnenez.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.barnenez.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.barnenez.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q808456",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Cairn_de_Barnenez",
+    "image": {
+      "file": "images/museums/cairn-de-barnenez.jpg",
+      "author": "No machine-readable author provided. NewPapillon assumed (based on copyright claims).",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barnenez_front2.jpg",
+      "wikimediaFile": "File:Barnenez front2.jpg"
+    }
+  },
+  {
+    "id": "cathedrale-de-besancon-et-son-horloge-astronomique",
+    "name": "Cathédrale de Besançon et son horloge astronomique",
+    "coordinates": [
+      6.0308,
+      47.2336
+    ],
+    "address": "rue du chapitre",
+    "postalCode": "25000",
+    "commune": "Besançon",
+    "department": "25",
+    "website": "https://www.horloge-astronomique-besancon.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          1,
+          2
+        ],
+        "source": {
+          "url": "https://www.horloge-astronomique-besancon.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.horloge-astronomique-besancon.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q751968",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Horloge_astronomique_de_Besan%C3%A7on",
+    "note": "The astronomical clock mechanism is halted pending restoration; the monument stays open.",
+    "image": {
+      "file": "images/museums/cathedrale-de-besancon-et-son-horloge-astronomique.jpg",
+      "author": "No machine-readable author provided. Arnaud 25 assumed (based on copyright claims).",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Horloge_astronomique_Besancon.jpg",
+      "wikimediaFile": "File:Horloge astronomique Besancon.jpg"
+    }
+  },
+  {
+    "id": "cathedrale-et-tresor-de-chartres",
+    "name": "Cathédrale et trésor de Chartres",
+    "coordinates": [
+      1.487778,
+      48.447778
+    ],
+    "address": "Cloitre Notre Dame",
+    "postalCode": "28000",
+    "commune": "Chartres",
+    "department": "28",
+    "website": "https://www.chartres-cathedrale.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.chartres-cathedrale.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.chartres-cathedrale.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.chartres-cathedrale.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q180274",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Notre-Dame_de_Chartres",
+    "image": {
+      "file": "images/museums/cathedrale-et-tresor-de-chartres.jpg",
+      "author": "BT",
+      "license": "Public Domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Westfassade_Chartres.jpg",
+      "wikimediaFile": "File:Westfassade Chartres.jpg"
+    }
+  },
+  {
     "id": "cathedrale-notre-dame-de-paris",
     "name": "Cathédrale Notre-Dame de Paris",
     "coordinates": [
@@ -324,6 +919,57 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Notre-Dame_de_Paris_2013-07-24.jpg",
       "wikimediaFile": "File:Notre-Dame de Paris 2013-07-24.jpg"
+    }
+  },
+  {
+    "id": "chapelle-des-moines-de-berze-la-ville",
+    "name": "Chapelle des moines de Berzé-la-Ville",
+    "coordinates": [
+      4.70044,
+      46.36353
+    ],
+    "address": "Rue de la Chapelle",
+    "postalCode": "71960",
+    "commune": "Berzé-la-Ville",
+    "department": "71",
+    "website": "https://www.chapelle-des-moines.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.chapelle-des-moines.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.chapelle-des-moines.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q1062714",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Chapelle_des_moines_de_Berz%C3%A9-la-Ville",
+    "note": "Closed from November to March.",
+    "image": {
+      "file": "images/museums/chapelle-des-moines-de-berze-la-ville.jpg",
+      "author": "Yelkrokoyade",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chapelle_des_moines_Berz%C3%A9-la-ville.jpg",
+      "wikimediaFile": "File:Chapelle des moines Berzé-la-ville.jpg"
     }
   },
   {
@@ -368,6 +1014,542 @@
       "license": "CC BY-SA 2.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chapelle_expiatoire_Louis_XVI_mg_4546.jpg",
       "wikimediaFile": "File:Chapelle expiatoire Louis XVI mg 4546.jpg"
+    }
+  },
+  {
+    "id": "chateau-d-angers",
+    "name": "Château d'Angers",
+    "coordinates": [
+      -0.56,
+      47.47
+    ],
+    "address": "promenade du Bout du Monde",
+    "postalCode": "49100",
+    "commune": "Angers",
+    "department": "49",
+    "website": "https://www.chateau-angers.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.chateau-angers.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.chateau-angers.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.chateau-angers.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q1048155",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_d'Angers",
+    "image": {
+      "file": "images/museums/chateau-d-angers.jpg",
+      "author": "Nataloche",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_d'Angers-2015b.JPG",
+      "wikimediaFile": "File:Château d'Angers-2015b.JPG"
+    }
+  },
+  {
+    "id": "chateau-d-assier",
+    "name": "Château d'Assier",
+    "coordinates": [
+      1.8786,
+      44.675
+    ],
+    "address": "place du Château",
+    "postalCode": "46320",
+    "commune": "Assier",
+    "department": "46",
+    "website": "https://www.chateau-assier.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.chateau-assier.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.chateau-assier.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q2483849",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_d'Assier",
+    "note": "From September to April, open to groups of 8+ on reservation only.",
+    "image": {
+      "file": "images/museums/chateau-d-assier.jpg",
+      "author": "Clenpat (Patrick Clenet)",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_d'Assier_-_20050819.jpg",
+      "wikimediaFile": "File:Château d'Assier - 20050819.jpg"
+    }
+  },
+  {
+    "id": "chateau-d-aulteribe",
+    "name": "Château d'Aulteribe",
+    "coordinates": [
+      3.498889,
+      45.775
+    ],
+    "address": "Route de Lezoux",
+    "postalCode": "63120",
+    "commune": "Sermentizon",
+    "department": "63",
+    "website": "https://www.chateau-aulteribe.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.chateau-aulteribe.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.chateau-aulteribe.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q2744194",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_d'Aulteribe",
+    "note": "First-Sunday free entry covers self-guided visits only.",
+    "image": {
+      "file": "images/museums/chateau-d-aulteribe.jpg",
+      "author": "Thierry de Villepin",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:63_-_Aulteribe_Ch%C3%A2teau.jpg",
+      "wikimediaFile": "File:63 - Aulteribe Château.jpg"
+    }
+  },
+  {
+    "id": "chateau-d-azay-le-rideau",
+    "name": "Château d'Azay-le-Rideau",
+    "coordinates": [
+      0.465792,
+      47.259006
+    ],
+    "address": "Villa La Loutinière",
+    "postalCode": "37190",
+    "commune": "Cheillé",
+    "department": "37",
+    "website": "https://www.azay-le-rideau.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.azay-le-rideau.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.azay-le-rideau.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q113389",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_d'Azay-le-Rideau",
+    "image": {
+      "file": "images/museums/chateau-d-azay-le-rideau.jpg",
+      "author": "Manfred Heyde,",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:AzeyParkseite.jpg",
+      "wikimediaFile": "File:AzeyParkseite.jpg"
+    }
+  },
+  {
+    "id": "chateau-d-if",
+    "name": "Château d'If",
+    "coordinates": [
+      5.325139,
+      43.279861
+    ],
+    "address": "",
+    "postalCode": "13007",
+    "commune": "Marseille",
+    "department": "13",
+    "website": "https://www.chateau-if.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.chateau-if.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.chateau-if.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q622500",
+    "image": {
+      "file": "images/museums/chateau-d-if.jpg",
+      "author": "Rémih",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_d'If_%40_Baie_de_Marseille_01.jpg",
+      "wikimediaFile": "File:Château d'If @ Baie de Marseille 01.jpg"
+    }
+  },
+  {
+    "id": "chateau-d-oiron",
+    "name": "Château d'Oiron",
+    "coordinates": [
+      -0.0775,
+      46.9517
+    ],
+    "address": "Rue Sainte-Anne",
+    "postalCode": "79100",
+    "commune": "Plaine-et-Vallées",
+    "department": "79",
+    "website": "https://www.chateau-oiron.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.chateau-oiron.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.chateau-oiron.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q905650",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_d'Oiron",
+    "image": {
+      "file": "images/museums/chateau-d-oiron.jpg",
+      "author": "Père Igor",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oiron_ch%C3%A2teau.JPG",
+      "wikimediaFile": "File:Oiron château.JPG"
+    }
+  },
+  {
+    "id": "chateau-de-bouges",
+    "name": "Château de Bouges",
+    "coordinates": [
+      1.673056,
+      47.042222
+    ],
+    "address": "Le Bourg",
+    "postalCode": "36110",
+    "commune": "Bouges-le-Château",
+    "department": "36",
+    "website": "https://www.chateau-bouges.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.chateau-bouges.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.chateau-bouges.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q2409187",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Bouges",
+    "note": "Closed December to February outside special events.",
+    "image": {
+      "file": "images/museums/chateau-de-bouges.jpg",
+      "author": "SiefkinDR",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chateau_de_Bouges_House_and_Basin.jpg",
+      "wikimediaFile": "File:Chateau de Bouges House and Basin.jpg"
+    }
+  },
+  {
+    "id": "chateau-de-bussy-rabutin",
+    "name": "Château de Bussy-Rabutin",
+    "coordinates": [
+      4.523611,
+      47.561389
+    ],
+    "address": "Rue du Chateau",
+    "postalCode": "21150",
+    "commune": "Bussy-le-Grand",
+    "department": "21",
+    "website": "https://www.chateau-bussy-rabutin.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.chateau-bussy-rabutin.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.chateau-bussy-rabutin.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q1552130",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Bussy-Rabutin",
+    "image": {
+      "file": "images/museums/chateau-de-bussy-rabutin.jpg",
+      "author": "Christophe.Finot",
+      "license": "CC BY-SA 2.5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chateau_Bussy_Rabutin_-_vue1.JPG",
+      "wikimediaFile": "File:Chateau Bussy Rabutin - vue1.JPG"
+    }
+  },
+  {
+    "id": "chateau-de-carrouges",
+    "name": "Château de Carrouges",
+    "coordinates": [
+      -0.1544,
+      48.5601
+    ],
+    "address": "Route du Château",
+    "postalCode": "61320",
+    "commune": "Carrouges",
+    "department": "61",
+    "website": "https://www.chateau-carrouges.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.chateau-carrouges.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.chateau-carrouges.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.chateau-carrouges.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q2968783",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Carrouges",
+    "image": {
+      "file": "images/museums/chateau-de-carrouges.jpg",
+      "author": "PY. Stucki",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chateau_Carrouges.jpg",
+      "wikimediaFile": "File:Chateau Carrouges.jpg"
+    }
+  },
+  {
+    "id": "chateau-de-castelnau-bretenoux",
+    "name": "Château de Castelnau-Bretenoux",
+    "coordinates": [
+      1.8264,
+      44.8992
+    ],
+    "address": "Rue Jean II de Castelnau",
+    "postalCode": "46130",
+    "commune": "Prudhomat",
+    "department": "46",
+    "website": "https://www.castelnau-bretenoux.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.castelnau-bretenoux.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.castelnau-bretenoux.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.castelnau-bretenoux.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q425789",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Castelnau-Bretenoux",
+    "image": {
+      "file": "images/museums/chateau-de-castelnau-bretenoux.jpg",
+      "author": "The original uploader was Luna04 at French Wikipedia.",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chateau_de_Castelnau-Bretenoux.jpg",
+      "wikimediaFile": "File:Chateau de Castelnau-Bretenoux.jpg"
     }
   },
   {
@@ -437,6 +1619,294 @@
     }
   },
   {
+    "id": "chateau-de-chareil-cintrat",
+    "name": "Château de Chareil-Cintrat",
+    "coordinates": [
+      3.224167,
+      46.265833
+    ],
+    "address": "Route de Bayet",
+    "postalCode": "03140",
+    "commune": "Chareil-Cintrat",
+    "department": "03",
+    "website": "https://www.chareil-cintrat.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.chareil-cintrat.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q2968876",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Chareil-Cintrat",
+    "note": "Open daily except Monday from mid-June to mid-September; by appointment the rest of the year.",
+    "image": {
+      "file": "images/museums/chateau-de-chareil-cintrat.jpg",
+      "author": "Patrick Boyer",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chareil-Cintrat_-_Ch%C3%A2teau_de_Chareil.jpg",
+      "wikimediaFile": "File:Chareil-Cintrat - Château de Chareil.jpg"
+    }
+  },
+  {
+    "id": "chateau-de-chateaudun",
+    "name": "Château de Châteaudun",
+    "coordinates": [
+      1.323611,
+      48.070556
+    ],
+    "address": "Ruelle Saint-lubin",
+    "postalCode": "28200",
+    "commune": "Châteaudun",
+    "department": "28",
+    "website": "https://www.chateau-chateaudun.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.chateau-chateaudun.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.chateau-chateaudun.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q1815544",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Ch%C3%A2teaudun",
+    "image": {
+      "file": "images/museums/chateau-de-chateaudun.jpg",
+      "author": "Patrick GIRAUD",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chateaudun_Chateau_06.jpg",
+      "wikimediaFile": "File:Chateaudun Chateau 06.jpg"
+    }
+  },
+  {
+    "id": "chateau-de-coucy",
+    "name": "Château de Coucy",
+    "coordinates": [
+      3.318611,
+      49.521667
+    ],
+    "address": "Rue du Mont du Charme",
+    "postalCode": "02380",
+    "commune": "Coucy-le-Château-Auffrique",
+    "department": "02",
+    "website": "https://www.chateau-coucy.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.chateau-coucy.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.chateau-coucy.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q576534",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Coucy",
+    "image": {
+      "file": "images/museums/chateau-de-coucy.jpg",
+      "author": "Stardsen",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coucy_comparaison.jpg",
+      "wikimediaFile": "File:Coucy comparaison.jpg"
+    }
+  },
+  {
+    "id": "chateau-de-fougeres-sur-bievre",
+    "name": "Château de Fougères-sur-Bièvre",
+    "coordinates": [
+      1.343611,
+      47.447778
+    ],
+    "address": "Rue Église St Eloi",
+    "postalCode": "41120",
+    "commune": "Le Controis-en-Sologne",
+    "department": "41",
+    "website": "https://www.fougeres-sur-bievre.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.fougeres-sur-bievre.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.fougeres-sur-bievre.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q1787326",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Foug%C3%A8res-sur-Bi%C3%A8vre",
+    "image": {
+      "file": "images/museums/chateau-de-fougeres-sur-bievre.jpg",
+      "author": "Patrick Clenet",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chateau_fougeres_sur_bievre_062006.jpg",
+      "wikimediaFile": "File:Chateau fougeres sur bievre 062006.jpg"
+    }
+  },
+  {
+    "id": "chateau-de-gramont",
+    "name": "Château de Gramont",
+    "coordinates": [
+      0.76611,
+      43.9372
+    ],
+    "address": "Chemin de Ronde",
+    "postalCode": "82120",
+    "commune": "Gramont",
+    "department": "82",
+    "website": "https://www.chateau-gramont.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.chateau-gramont.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.chateau-gramont.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q2969342",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Gramont_(Tarn-et-Garonne)",
+    "image": {
+      "file": "images/museums/chateau-de-gramont.jpg",
+      "author": "User:Pinpin -",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:France_-_Gramont_-_chateau_-_2005-01-15.JPG",
+      "wikimediaFile": "File:France - Gramont - chateau - 2005-01-15.JPG"
+    }
+  },
+  {
+    "id": "chateau-de-la-motte-tilly",
+    "name": "Château de La Motte-Tilly",
+    "coordinates": [
+      3.4315,
+      48.4671
+    ],
+    "address": "",
+    "postalCode": "10400",
+    "commune": "La Motte-Tilly",
+    "department": "10",
+    "website": "https://www.chateau-la-motte-tilly.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.chateau-la-motte-tilly.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.chateau-la-motte-tilly.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q2242009",
+    "image": {
+      "file": "images/museums/chateau-de-la-motte-tilly.jpg",
+      "author": "A.D.",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_La_Motte-Tilly_-_Grille_principale_A_421.jpg",
+      "wikimediaFile": "File:Château de La Motte-Tilly - Grille principale A 421.jpg"
+    }
+  },
+  {
     "id": "chateau-de-maisons",
     "name": "Château de Maisons",
     "coordinates": [
@@ -492,6 +1962,175 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Maisons-Laffitte_001.jpg",
       "wikimediaFile": "File:Château de Maisons-Laffitte 001.jpg"
+    }
+  },
+  {
+    "id": "chateau-de-montal",
+    "name": "Château de Montal",
+    "coordinates": [
+      1.86844,
+      44.86039
+    ],
+    "address": "Le Révery",
+    "postalCode": "46400",
+    "commune": "Saint-Jean-Lespinasse",
+    "department": "46",
+    "website": "https://www.chateau-montal.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.chateau-montal.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.chateau-montal.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.chateau-montal.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q2969939",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Montal_(Lot)",
+    "image": {
+      "file": "images/museums/chateau-de-montal.jpg",
+      "author": "Alouvrier",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Domaine_de_Montal.jpg",
+      "wikimediaFile": "File:Domaine de Montal.jpg"
+    }
+  },
+  {
+    "id": "chateau-de-pierrefonds",
+    "name": "Château de Pierrefonds",
+    "coordinates": [
+      2.980278,
+      49.346944
+    ],
+    "address": "Rue Viollet le Duc",
+    "postalCode": "60350",
+    "commune": "Pierrefonds",
+    "department": "60",
+    "website": "https://www.chateau-pierrefonds.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.chateau-pierrefonds.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.chateau-pierrefonds.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q376699",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Pierrefonds",
+    "image": {
+      "file": "images/museums/chateau-de-pierrefonds.jpg",
+      "author": "Crazyswan85",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_Ch%C3%A2teau_de_Pierrefonds.jpg",
+      "wikimediaFile": "File:Le Château de Pierrefonds.jpg"
+    }
+  },
+  {
+    "id": "chateau-de-puyguilhem",
+    "name": "Château de Puyguilhem",
+    "coordinates": [
+      0.744444,
+      45.425833
+    ],
+    "address": "Rue Mondot de la Marthonie",
+    "postalCode": "24530",
+    "commune": "Villars",
+    "department": "24",
+    "website": "https://www.chateau-puyguilhem.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.chateau-puyguilhem.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.chateau-puyguilhem.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.chateau-puyguilhem.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q2970324",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Puyguilhem_(Villars)",
+    "image": {
+      "file": "images/museums/chateau-de-puyguilhem.jpg",
+      "author": "Père Igor",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Villars_Puyguilhem_(2).JPG",
+      "wikimediaFile": "File:Villars Puyguilhem (2).JPG"
     }
   },
   {
@@ -600,6 +2239,92 @@
     }
   },
   {
+    "id": "chateau-de-talcy",
+    "name": "Château de Talcy",
+    "coordinates": [
+      1.444444,
+      47.769722
+    ],
+    "address": "Rue du Château",
+    "postalCode": "41370",
+    "commune": "Talcy",
+    "department": "41",
+    "website": "https://www.chateau-talcy.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.chateau-talcy.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q1479356",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Talcy",
+    "image": {
+      "file": "images/museums/chateau-de-talcy.jpg",
+      "author": "Patrick GIRAUD",
+      "license": "CC BY 2.5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Castle_of_Talcy_02.jpg",
+      "wikimediaFile": "File:Castle of Talcy 02.jpg"
+    }
+  },
+  {
+    "id": "chateau-de-villeneuve-lembron",
+    "name": "Château de Villeneuve-Lembron",
+    "coordinates": [
+      3.18597,
+      45.478
+    ],
+    "address": "Rue de la Dame Jaune",
+    "postalCode": "63340",
+    "commune": "Villeneuve",
+    "department": "63",
+    "website": "https://www.chateau-villeneuve-lembron.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.chateau-villeneuve-lembron.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.chateau-villeneuve-lembron.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q2729516",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Villeneuve-Lembron",
+    "image": {
+      "file": "images/museums/chateau-de-villeneuve-lembron.jpg",
+      "author": "Loulousteph",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Villeneuve-Lembron.jpg",
+      "wikimediaFile": "File:Villeneuve-Lembron.jpg"
+    }
+  },
+  {
     "id": "chateau-de-vincennes",
     "name": "Château de Vincennes",
     "coordinates": [
@@ -658,6 +2383,167 @@
     }
   },
   {
+    "id": "chateau-de-voltaire-a-ferney",
+    "name": "Château de Voltaire à Ferney",
+    "coordinates": [
+      6.1036,
+      46.2574
+    ],
+    "address": "1 allée du Château",
+    "postalCode": "01210",
+    "commune": "Ferney-Voltaire",
+    "department": "01",
+    "website": "https://www.chateau-ferney-voltaire.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.chateau-ferney-voltaire.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.chateau-ferney-voltaire.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q2969210",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Voltaire",
+    "image": {
+      "file": "images/museums/chateau-de-voltaire-a-ferney.jpg",
+      "author": "Chateau de Voltaire",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vue_sur_la_fa%C3%A7ade_Est_du_ch%C3%A2teau_de_Voltaire_depuis_le_jardin_fran%C3%A7ais.jpg",
+      "wikimediaFile": "File:Vue sur la façade Est du château de Voltaire depuis le jardin français.jpg"
+    }
+  },
+  {
+    "id": "chateau-ducal-de-cadillac",
+    "name": "Château ducal de Cadillac",
+    "coordinates": [
+      -0.3204,
+      44.638
+    ],
+    "address": "Rue Cazeaux-cazalet",
+    "postalCode": "33410",
+    "commune": "Cadillac-sur-Garonne",
+    "department": "33",
+    "website": "https://www.chateau-cadillac.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.chateau-cadillac.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.chateau-cadillac.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q2968730",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Cadillac",
+    "image": {
+      "file": "images/museums/chateau-ducal-de-cadillac.jpg",
+      "author": "Fabien.lotte",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_des_ducs_d'%C3%A9pernons_-_Cadillac.jpg",
+      "wikimediaFile": "File:Château des ducs d'épernons - Cadillac.jpg"
+    }
+  },
+  {
+    "id": "chateau-et-remparts-de-la-cite-de-carcassonne",
+    "name": "Château et remparts de la cité de Carcassonne",
+    "coordinates": [
+      2.363788,
+      43.206439
+    ],
+    "address": "Rue du Comte Roger",
+    "postalCode": "11000",
+    "commune": "Carcassonne",
+    "department": "11",
+    "website": "https://www.remparts-carcassonne.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.remparts-carcassonne.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.remparts-carcassonne.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.remparts-carcassonne.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q389269",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Cit%C3%A9_de_Carcassonne",
+    "image": {
+      "file": "images/museums/chateau-et-remparts-de-la-cite-de-carcassonne.jpg",
+      "author": "Jondu11",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cit%C3%A9_de_Carcassonne.jpg",
+      "wikimediaFile": "File:Cité de Carcassonne.jpg"
+    }
+  },
+  {
     "id": "chateau-musee-de-nemours",
     "name": "Château musée de Nemours",
     "coordinates": [
@@ -702,6 +2588,177 @@
     }
   },
   {
+    "id": "cite-internationale-de-la-langue-francaise-au-chateau-de-villers-cotterets",
+    "name": "Cité internationale de la langue française au château de Villers-Cotterêts",
+    "coordinates": [
+      3.091787,
+      49.25509
+    ],
+    "address": "Impasse du Marché",
+    "postalCode": "02600",
+    "commune": "Villers-Cotterêts",
+    "department": "02",
+    "website": "https://www.cite-langue-francaise.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.cite-langue-francaise.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q118368023",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Cit%C3%A9_internationale_de_la_langue_fran%C3%A7aise",
+    "image": {
+      "file": "images/museums/cite-internationale-de-la-langue-francaise-au-chateau-de-villers-cotterets.jpg",
+      "author": "Eliselfg",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logis_royal_du_ch%C3%A2teau_de_Villers-Cotter%C3%AAts_en_cours_de_restauration_(mars_2022).jpg",
+      "wikimediaFile": "File:Logis royal du château de Villers-Cotterêts en cours de restauration (mars 2022).jpg"
+    }
+  },
+  {
+    "id": "cloitre-de-la-cathedrale-de-bayonne",
+    "name": "Cloître de la Cathédrale de Bayonne",
+    "coordinates": [
+      -1.477222,
+      43.490556
+    ],
+    "address": "rue Notre-Dame",
+    "postalCode": "64100",
+    "commune": "Bayonne",
+    "department": "64",
+    "website": "https://www.cloitre-bayonne.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://www.cloitre-bayonne.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q1736171",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Sainte-Marie_de_Bayonne",
+    "image": {
+      "file": "images/museums/cloitre-de-la-cathedrale-de-bayonne.jpg",
+      "author": "--Pinpin 11:01, 12 November 2006 (UTC)",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:France-Bayonne-Cathedrale_Sainte-Cecile.jpg",
+      "wikimediaFile": "File:France-Bayonne-Cathedrale Sainte-Cecile.jpg"
+    }
+  },
+  {
+    "id": "cloitre-de-la-cathedrale-de-frejus",
+    "name": "Cloître de la cathédrale de Fréjus",
+    "coordinates": [
+      6.736944,
+      43.433194
+    ],
+    "address": "rue Bausset",
+    "postalCode": "83600",
+    "commune": "Fréjus",
+    "department": "83",
+    "website": "https://www.cloitre-frejus.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.cloitre-frejus.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.cloitre-frejus.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q1135277",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Saint-L%C3%A9once_de_Fr%C3%A9jus",
+    "image": {
+      "file": "images/museums/cloitre-de-la-cathedrale-de-frejus.jpg",
+      "author": "Patricia.fidi",
+      "license": "Public Domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cathedrale_Saint-Leonce_02.jpg",
+      "wikimediaFile": "File:Cathedrale Saint-Leonce 02.jpg"
+    }
+  },
+  {
+    "id": "cloitre-de-la-psalette",
+    "name": "Cloître de la Psalette",
+    "coordinates": [
+      0.69508,
+      47.3961
+    ],
+    "address": "7, rue de la Psalette",
+    "postalCode": "37000",
+    "commune": "Tours",
+    "department": "37",
+    "website": "https://www.cloitre-de-la-psalette.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.cloitre-de-la-psalette.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.cloitre-de-la-psalette.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q2979785",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Clo%C3%AEtre_de_la_Psalette",
+    "image": {
+      "file": "images/museums/cloitre-de-la-psalette.jpg",
+      "author": "Croquant",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tours_escalier_du_clo%C3%AEtre_de_la_Psalette.jpg",
+      "wikimediaFile": "File:Tours escalier du cloître de la Psalette.jpg"
+    }
+  },
+  {
     "id": "collections-de-la-fondation-de-coubertin",
     "name": "Collections de la Fondation de Coubertin",
     "coordinates": [
@@ -739,6 +2796,42 @@
     }
   },
   {
+    "id": "colonne-de-la-grande-armee-a-wimille",
+    "name": "Colonne de la Grande Armée à Wimille",
+    "coordinates": [
+      1.618333,
+      50.741189
+    ],
+    "address": "Camp de Boulogne",
+    "postalCode": "62126",
+    "commune": "Wimille",
+    "department": "62",
+    "website": "https://www.colonne-grande-armee.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.colonne-grande-armee.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q2782334",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Colonne_de_la_Grande_Arm%C3%A9e",
+    "note": "The museum and park are free; only the column climb is ticketed. Closed annually 8 November to 18 December.",
+    "image": {
+      "file": "images/museums/colonne-de-la-grande-armee-a-wimille.jpg",
+      "author": "Roger Davies",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Colonne_de_la_Grande_Arm%C3%A9e.jpg",
+      "wikimediaFile": "File:Colonne de la Grande Armée.jpg"
+    }
+  },
+  {
     "id": "conciergerie",
     "name": "Conciergerie",
     "coordinates": [
@@ -762,13 +2855,12 @@
         "weekday": "sunday",
         "months": [
           11,
-          12,
           1,
           2,
           3
         ],
         "source": {
-          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
       },
@@ -798,45 +2890,222 @@
     }
   },
   {
-    "id": "ecomusee-94260",
-    "name": "Écomusée du Grand-Orly Seine Bièvre",
+    "id": "crypte-et-tour-de-la-cathedrale-de-bourges",
+    "name": "Crypte et tour de la cathédrale de Bourges",
     "coordinates": [
-      2.326389,
-      48.75525
+      2.39917,
+      47.08222
     ],
-    "address": "41, rue Maurice Tenine, Ferme de Cottinville",
-    "postalCode": "94260",
-    "commune": "Fresnes",
-    "department": "94",
-    "website": "https://www.fresnes94.fr/a-votre-service/culture-sports-et-loisirs/equipements-culturels/ecomusee-du-val-de-bievre/",
-    "phone": "01 41 24 32 24",
+    "address": "Rue des 3 Maillets",
+    "postalCode": "18000",
+    "commune": "Bourges",
+    "department": "18",
+    "website": "https://www.bourges-cathedrale.fr",
     "tags": [
-      "museum"
+      "monument"
     ],
     "freeAccess": [
       {
-        "kind": "always",
-        "note": "Events are also free, most needing reservation; the museum also closes for most of August.",
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
         "source": {
-          "url": "https://ecomusee.grandorlyseinebievre.fr/horaires-acces-0",
+          "url": "https://www.bourges-cathedrale.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.bourges-cathedrale.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
       }
     ],
-    "wikidata": "Q23639828",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/%C3%89comus%C3%A9e_de_Fresnes",
-    "openingHours": "We 10:00-13:00,14:00-19:00; Th-Fr 14:00-18:00; Sa 10:00-13:00,14:00-19:00; PH off",
-    "openingHoursSource": {
-      "url": "https://ecomusee.grandorlyseinebievre.fr/",
-      "checkedAt": "2026-08-04"
-    },
-    "museofile": "M0426",
+    "wikidata": "Q207985",
     "image": {
-      "file": "images/museums/ecomusee-94260.jpg",
-      "author": "Unknown authorUnknown author",
-      "license": "CC0 1.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C3%89comus%C3%A9e_de_Fresnes.webp",
-      "wikimediaFile": "File:Écomusée de Fresnes.webp"
+      "file": "images/museums/crypte-et-tour-de-la-cathedrale-de-bourges.jpg",
+      "author": "Gerd Eichmann",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bourges-Kathedrale-110-2008-gje.jpg",
+      "wikimediaFile": "File:Bourges-Kathedrale-110-2008-gje.jpg"
+    }
+  },
+  {
+    "id": "domaine-national-de-saint-cloud",
+    "name": "Domaine national de Saint-Cloud",
+    "coordinates": [
+      2.2,
+      48.8333
+    ],
+    "address": "",
+    "postalCode": "92210",
+    "commune": "Saint-Cloud",
+    "department": "92",
+    "website": "https://www.domaine-saint-cloud.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://www.domaine-saint-cloud.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q2030715",
+    "note": "The park is free for pedestrians, cyclists and riders; vehicle access is ticketed.",
+    "image": {
+      "file": "images/museums/domaine-national-de-saint-cloud.jpg",
+      "author": "Unknown",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parc_saint-cloud.jpg",
+      "wikimediaFile": "File:Parc saint-cloud.jpg"
+    }
+  },
+  {
+    "id": "domaine-national-du-palais-royal",
+    "name": "Domaine national du Palais-Royal",
+    "coordinates": [
+      2.336944,
+      48.863333
+    ],
+    "address": "Galerie de Chartres",
+    "postalCode": "75001",
+    "commune": "Paris",
+    "department": "75",
+    "website": "https://www.domaine-palais-royal.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://www.domaine-palais-royal.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q329948",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Palais-Royal",
+    "arrondissement": 1,
+    "image": {
+      "file": "images/museums/domaine-national-du-palais-royal.jpg",
+      "author": "Marie-Lan Nguyen",
+      "license": "Public Domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Conseil_d'Etat_Paris_WA.jpg",
+      "wikimediaFile": "File:Conseil d'Etat Paris WA.jpg"
+    }
+  },
+  {
+    "id": "ensemble-cathedral-du-puy-en-velay",
+    "name": "Ensemble cathédral du Puy-En-Velay",
+    "coordinates": [
+      3.88478,
+      45.04557
+    ],
+    "address": "Place du For",
+    "postalCode": "43000",
+    "commune": "Le Puy-en-Velay",
+    "department": "43",
+    "website": "https://www.cathedrale-puy-en-velay.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.cathedrale-puy-en-velay.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.cathedrale-puy-en-velay.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q1537302",
+    "image": {
+      "file": "images/museums/ensemble-cathedral-du-puy-en-velay.jpg",
+      "author": "GIRAUD Patrick",
+      "license": "CC BY-SA 1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_Puy_en_Velay_03.jpg",
+      "wikimediaFile": "File:Le Puy en Velay 03.jpg"
+    }
+  },
+  {
+    "id": "enserune-oppidum-et-musee-archeologique",
+    "name": "Ensérune, oppidum et musée archéologique",
+    "coordinates": [
+      3.110556,
+      43.309722
+    ],
+    "address": "",
+    "postalCode": "34440",
+    "commune": "Nissan-lez-Enserune",
+    "department": "34",
+    "website": "https://www.enserune.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.enserune.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.enserune.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q77221",
+    "image": {
+      "file": "images/museums/enserune-oppidum-et-musee-archeologique.jpg",
+      "author": "classe unique St-Sulpice-des-Rivoires Isère - FRANCE",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Silo_Enserunes_(France).jpg",
+      "wikimediaFile": "File:Silo Enserunes (France).jpg"
     }
   },
   {
@@ -900,6 +3169,159 @@
     }
   },
   {
+    "id": "fort-saint-andre-a-villeneuve-lez-avignon",
+    "name": "Fort Saint-André à Villeneuve-lez-Avignon",
+    "coordinates": [
+      4.801436,
+      43.96657
+    ],
+    "address": "Rue Montée du Fort",
+    "postalCode": "30400",
+    "commune": "Villeneuve-lès-Avignon",
+    "department": "30",
+    "website": "https://www.fort-saint-andre.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.fort-saint-andre.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.fort-saint-andre.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q3078019",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Fort_Saint-Andr%C3%A9_(Villeneuve-l%C3%A8s-Avignon)",
+    "image": {
+      "file": "images/museums/fort-saint-andre-a-villeneuve-lez-avignon.jpg",
+      "author": "Vi..Cult...",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vue_sur_le_ch%C3%A2teau_fort_Saint_Andr%C3%A9.JPG",
+      "wikimediaFile": "File:Vue sur le château fort Saint André.JPG"
+    }
+  },
+  {
+    "id": "forteresse-de-salses",
+    "name": "Forteresse de Salses",
+    "coordinates": [
+      2.918333,
+      42.839722
+    ],
+    "address": "Avenue du Château Fort",
+    "postalCode": "66600",
+    "commune": "Salses-le-Château",
+    "department": "66",
+    "website": "https://www.forteresse-salses.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.forteresse-salses.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.forteresse-salses.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q371069",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Forteresse_de_Salses",
+    "image": {
+      "file": "images/museums/forteresse-de-salses.jpg",
+      "author": "Albert Sarola Juanola",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panor%C3%A0mica_Castell_de_Salses.jpg",
+      "wikimediaFile": "File:Panoràmica Castell de Salses.jpg"
+    }
+  },
+  {
+    "id": "grotte-de-pair-non-pair",
+    "name": "Grotte de Pair-non-Pair",
+    "coordinates": [
+      -0.501781,
+      45.038978
+    ],
+    "address": "2, chemin de Pair non Pair 33710 Prignac et Marcamps",
+    "postalCode": "33710",
+    "commune": "Prignac-et-Marcamps",
+    "department": "33",
+    "website": "https://www.pair-non-pair.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.pair-non-pair.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.pair-non-pair.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q1643799",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Grotte_de_Pair-non-Pair",
+    "image": {
+      "file": "images/museums/grotte-de-pair-non-pair.jpg",
+      "author": "Xabi Rome-Hérault",
+      "license": "CC BY 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Entr%C3%A9e_de_Pair-non-Pair.jpg",
+      "wikimediaFile": "File:Entrée de Pair-non-Pair.jpg"
+    }
+  },
+  {
     "id": "hotel-de-la-marine",
     "name": "Hôtel de la Marine",
     "coordinates": [
@@ -956,6 +3378,77 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_de_la_Marine_en_f%C3%A9vrier_2014_4.jpg",
       "wikimediaFile": "File:Hôtel de la Marine en février 2014 4.jpg"
+    }
+  },
+  {
+    "id": "hotel-de-sade",
+    "name": "Hôtel de Sade",
+    "coordinates": [
+      4.830889,
+      43.789523
+    ],
+    "address": "rue Kléber",
+    "postalCode": "13210",
+    "commune": "Saint-Rémy-de-Provence",
+    "department": "13",
+    "website": "https://www.hotel-de-sade.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.hotel-de-sade.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q22916252",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/H%C3%B4tel_de_Sade_de_Saint-R%C3%A9my-de-Provence",
+    "image": {
+      "file": "images/museums/hotel-de-sade.jpg",
+      "author": "Reinhard Dietrich",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_de_Sade_Therme.jpg",
+      "wikimediaFile": "File:Hôtel de Sade Therme.jpg"
+    }
+  },
+  {
+    "id": "hotel-de-sully",
+    "name": "Hôtel de Sully",
+    "coordinates": [
+      2.363778,
+      48.854583
+    ],
+    "address": "62 rue Saint-Antoine, 75004 Paris",
+    "postalCode": "75004",
+    "commune": "Paris",
+    "department": "75",
+    "website": "https://www.hotel-de-sully.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://www.hotel-de-sully.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q1643144",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/H%C3%B4tel_de_Sully",
+    "note": "The courtyard and garden are freely accessible; the interiors only open for paid guided tours.",
+    "arrondissement": 4,
+    "image": {
+      "file": "images/museums/hotel-de-sully.jpg",
+      "author": "Original: jean-louis ZimmermannDerivative work: Sir Gawain",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_de_Sully_07-2.jpg",
+      "wikimediaFile": "File:Hôtel de Sully 07-2.jpg"
     }
   },
   {
@@ -1080,6 +3573,56 @@
     }
   },
   {
+    "id": "maison-d-ernest-renan-a-treguier",
+    "name": "Maison d'Ernest Renan à Tréguier",
+    "coordinates": [
+      -3.228661,
+      48.788261
+    ],
+    "address": "20, rue Ernest-Renan, 22220 Tréguier",
+    "postalCode": "22220",
+    "commune": "Tréguier",
+    "department": "22",
+    "website": "https://www.maison-ernest-renan.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.maison-ernest-renan.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.maison-ernest-renan.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q3329144",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Ernest-Renan",
+    "image": {
+      "file": "images/museums/maison-d-ernest-renan-a-treguier.jpg",
+      "author": "Moreau.henri",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:18_Tr%C3%A9guier_Maison_d'Ernest_Renan_-avant-.JPG",
+      "wikimediaFile": "File:18 Tréguier Maison d'Ernest Renan -avant-.JPG"
+    }
+  },
+  {
     "id": "maison-de-balzac",
     "name": "Maison de Balzac",
     "coordinates": [
@@ -1121,6 +3664,107 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maison_de_Balzac%2C_Paris_16e_5.jpg",
       "wikimediaFile": "File:Maison de Balzac, Paris 16e 5.jpg"
+    }
+  },
+  {
+    "id": "maison-de-george-sand-a-nohant",
+    "name": "Maison de George Sand à Nohant",
+    "coordinates": [
+      1.975389,
+      46.625083
+    ],
+    "address": "allée George Sand",
+    "postalCode": "36400",
+    "commune": "Nohant-Vic",
+    "department": "36",
+    "website": "https://www.maison-george-sand.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.maison-george-sand.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.maison-george-sand.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q1885888",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Domaine_de_George_Sand",
+    "image": {
+      "file": "images/museums/maison-de-george-sand-a-nohant.jpg",
+      "author": "Manfred Heyde",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nohant_06_2009.jpg",
+      "wikimediaFile": "File:Nohant 06 2009.jpg"
+    }
+  },
+  {
+    "id": "maison-de-georges-clemenceau-a-saint-vincent-sur-jard",
+    "name": "Maison de Georges Clemenceau à Saint-Vincent-sur-Jard",
+    "coordinates": [
+      -1.5475,
+      46.4063
+    ],
+    "address": "Rue georges clemenceau",
+    "postalCode": "85520",
+    "commune": "Saint-Vincent-sur-Jard",
+    "department": "85",
+    "website": "https://www.maison-de-clemenceau.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.maison-de-clemenceau.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.maison-de-clemenceau.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q3279371",
+    "image": {
+      "file": "images/museums/maison-de-georges-clemenceau-a-saint-vincent-sur-jard.jpg",
+      "author": "Zeisterre",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Clemenceau.jpg",
+      "wikimediaFile": "File:Musée Clemenceau.jpg"
     }
   },
   {
@@ -1210,34 +3854,6 @@
     }
   },
   {
-    "id": "maison-musee-maurice-ravel",
-    "name": "Maison-musée Maurice Ravel",
-    "coordinates": [
-      1.805464,
-      48.776137
-    ],
-    "address": "5 rue Maurice-Ravel, Le Belvédère",
-    "postalCode": "78490",
-    "commune": "Montfort-l'Amaury",
-    "department": "78",
-    "website": "https://www.montfortlamaury.fr/culture-tourisme/sites-et-monuments/la-maison-musee-de-maurice-ravel/",
-    "phone": "01 34 86 00 89",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": [],
-    "wikidata": "Q1230290",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Maurice-Ravel",
-    "museofile": "M0392",
-    "image": {
-      "file": "images/museums/maison-musee-maurice-ravel.jpg",
-      "author": "ℍenry Salomé (Jaser !) 08:17, 21 November 2006 (UTC)",
-      "license": "CC BY-SA 3.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Montfort-l'Amaury_Maison_Ravel.jpg",
-      "wikimediaFile": "File:Montfort-l'Amaury Maison Ravel.jpg"
-    }
-  },
-  {
     "id": "maison-natale-de-louis-braille",
     "name": "Maison natale de Louis Braille",
     "coordinates": [
@@ -1266,86 +3882,133 @@
     }
   },
   {
-    "id": "memorial-de-la-shoah",
-    "name": "Mémorial de la Shoah",
+    "id": "maison-musee-maurice-ravel",
+    "name": "Maison-musée Maurice Ravel",
     "coordinates": [
-      2.3562,
-      48.8548
+      1.805464,
+      48.776137
     ],
-    "address": "17 rue Geoffroy-l'Asnier",
-    "postalCode": "75004",
-    "commune": "Paris",
-    "arrondissement": 4,
-    "department": "75",
-    "website": "https://www.memorialdelashoah.org/",
+    "address": "5 rue Maurice-Ravel, Le Belvédère",
+    "postalCode": "78490",
+    "commune": "Montfort-l'Amaury",
+    "department": "78",
+    "website": "https://www.montfortlamaury.fr/culture-tourisme/sites-et-monuments/la-maison-musee-de-maurice-ravel/",
+    "phone": "01 34 86 00 89",
     "tags": [
-      "museum",
-      "history"
+      "museum"
     ],
-    "freeAccess": [
-      {
-        "kind": "always",
-        "source": {
-          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
-          "checkedAt": "2026-08-06"
-        }
-      }
-    ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/memorial-de-la-shoah-paris-p3518",
-    "wikidata": "Q479218",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/M%C3%A9morial_de_la_Shoah",
-    "openingHours": "Su-We 10:00-18:00; Th 10:00-22:00; Fr 10:00-18:00",
-    "openingHoursSource": {
-      "url": "https://www.memorialdelashoah.org",
-      "checkedAt": "2026-08-04"
-    },
+    "freeAccess": [],
+    "wikidata": "Q1230290",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Maurice-Ravel",
+    "museofile": "M0392",
     "image": {
-      "file": "images/museums/memorial-de-la-shoah.jpg",
-      "author": "BrnGrby",
-      "license": "CC BY-SA 4.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crypte_au_m%C3%A9morial_de_la_Shoah_%C3%A0_Paris.jpg",
-      "wikimediaFile": "File:Crypte au mémorial de la Shoah à Paris.jpg"
+      "file": "images/museums/maison-musee-maurice-ravel.jpg",
+      "author": "ℍenry Salomé (Jaser !) 08:17, 21 November 2006 (UTC)",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Montfort-l'Amaury_Maison_Ravel.jpg",
+      "wikimediaFile": "File:Montfort-l'Amaury Maison Ravel.jpg"
     }
   },
   {
-    "id": "memorial-de-la-shoah-de-drancy",
-    "name": "Mémorial de la Shoah de Drancy",
+    "id": "monastere-de-saorge",
+    "name": "Monastère de Saorge",
     "coordinates": [
-      2.4534,
-      48.91882
+      7.55509,
+      43.9849
     ],
-    "address": "110-112 avenue Jean-Jaurès",
-    "postalCode": "93700",
-    "commune": "Drancy",
-    "department": "93",
-    "website": "https://drancy.memorialdelashoah.org/",
+    "address": "Camin de Repentia",
+    "postalCode": "06540",
+    "commune": "Saorge",
+    "department": "06",
+    "website": "https://www.monastere-saorge.fr",
     "tags": [
-      "museum",
-      "history"
+      "monument"
     ],
     "freeAccess": [
       {
-        "kind": "always",
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          1,
+          2,
+          3
+        ],
         "source": {
-          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "url": "https://www.monastere-saorge.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.monastere-saorge.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/memorial-de-la-shoah-drancy-p3627",
-    "wikidata": "Q85854201",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/M%C3%A9morial_de_la_Shoah_%C3%A0_Drancy",
-    "openingHours": "Su-Th 10:00-18:00",
-    "openingHoursSource": {
-      "url": "https://www.memorialdelashoah.org",
-      "checkedAt": "2026-08-04"
-    },
+    "wikidata": "Q15952778",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Monast%C3%A8re_de_Saorge",
+    "note": "Closed annually from November to January.",
     "image": {
-      "file": "images/museums/memorial-de-la-shoah-de-drancy.jpg",
-      "author": "Eléonore Ward",
-      "license": "CC BY 4.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:M%C3%A9morial_de_la_Shoah_de_Drancy.jpg",
-      "wikimediaFile": "File:Mémorial de la Shoah de Drancy.jpg"
+      "file": "images/museums/monastere-de-saorge.jpg",
+      "author": "MOSSOT",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monast%C3%A8re_de_Saorge_-02.JPG",
+      "wikimediaFile": "File:Monastère de Saorge -02.JPG"
+    }
+  },
+  {
+    "id": "monastere-royal-de-brou-a-bourg-en-bresse",
+    "name": "Monastère royal de Brou à Bourg-en-Bresse",
+    "coordinates": [
+      5.236213,
+      46.197983
+    ],
+    "address": "rue marguerite d'autriche",
+    "postalCode": "01000",
+    "commune": "Bourg-en-Bresse",
+    "department": "01",
+    "website": "https://www.monastere-de-brou.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.monastere-de-brou.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.monastere-de-brou.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q3320413",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Monast%C3%A8re_royal_de_Brou",
+    "image": {
+      "file": "images/museums/monastere-royal-de-brou-a-bourg-en-bresse.jpg",
+      "author": "Marmontel",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monast%C3%A8re_de_Brou.jpg",
+      "wikimediaFile": "File:Monastère de Brou.jpg"
     }
   },
   {
@@ -1399,48 +4062,6 @@
       "license": "CC BY 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:2013_MUS_Musee_Urbanisme_de_Suresnes.JPG",
       "wikimediaFile": "File:2013 MUS Musee Urbanisme de Suresnes.JPG"
-    }
-  },
-  {
-    "id": "musee",
-    "name": "Musée intercommunal de Nogent-sur-Marne",
-    "coordinates": [
-      2.484292,
-      48.84026
-    ],
-    "address": "36, boulevard Gallieni, Bâtiment industriel",
-    "postalCode": "94130",
-    "commune": "Nogent-sur-Marne",
-    "department": "94",
-    "website": "https://museenogentsurmarne.net/",
-    "phone": "01 48 75 51 25",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": [
-      {
-        "kind": "always",
-        "note": "Free guided tours for groups by reservation; also closed on public holidays and Sundays in August.",
-        "source": {
-          "url": "https://museenogentsurmarne.net/index.php?page=horaires&id=1024",
-          "checkedAt": "2026-08-06"
-        }
-      }
-    ],
-    "wikidata": "Q3329734",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_Nogent-sur-Marne",
-    "openingHours": "Tu-Th 14:00-18:00; Sa 10:00-12:00,14:00-18:00; Su 14:00-18:00; Aug Su off; PH off",
-    "openingHoursSource": {
-      "url": "https://museenogentsurmarne.net/",
-      "checkedAt": "2026-08-04"
-    },
-    "museofile": "M0427",
-    "image": {
-      "file": "images/museums/musee.jpg",
-      "author": "AmapolaV7!",
-      "license": "CC0 1.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patrimoine_Nogent-sur-Marne.jpg",
-      "wikimediaFile": "File:Patrimoine Nogent-sur-Marne.jpg"
     }
   },
   {
@@ -1535,57 +4156,6 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guiry-en-Vexin_-_Musee.JPG",
       "wikimediaFile": "File:Guiry-en-Vexin - Musee.JPG"
-    }
-  },
-  {
-    "id": "musee-belmondo-et-de-la-sculpture-figurative-du-xxe-siecle",
-    "name": "Musée Paul Belmondo",
-    "coordinates": [
-      2.232883,
-      48.847492
-    ],
-    "address": "14 rue de l'Abreuvoir",
-    "postalCode": "92100",
-    "commune": "Boulogne-Billancourt",
-    "department": "92",
-    "website": "https://www.boulognebillancourt.com/loisirs/culture/les-musees/musee-paul-belmondo",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": [
-      {
-        "kind": "nth-weekday",
-        "nth": 1,
-        "weekday": "sunday",
-        "note": "Otherwise 8 EUR full price.",
-        "source": {
-          "url": "https://musees.boulognebillancourt.com/fr/horaires-tarifs-acces",
-          "checkedAt": "2026-08-06"
-        }
-      },
-      {
-        "kind": "always",
-        "audience": "under-26-eu",
-        "source": {
-          "url": "https://musees.boulognebillancourt.com/files/musees-conditions-tarifs-rduits-et-gratuit_3555b020f773e38f658cf6194f309442.pdf",
-          "checkedAt": "2026-08-06"
-        }
-      }
-    ],
-    "wikidata": "Q3329303",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Paul-Belmondo",
-    "openingHours": "We,Sa,Su 14:00-18:00",
-    "openingHoursSource": {
-      "url": "https://musees.boulognebillancourt.com/",
-      "checkedAt": "2026-08-04"
-    },
-    "museofile": "M1170",
-    "image": {
-      "file": "images/museums/musee-belmondo-et-de-la-sculpture-figurative-du-xxe-siecle.jpg",
-      "author": "Moonik",
-      "license": "CC BY-SA 3.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Paul_Belmondo_%C3%A0_Boulogne-Billancourt_001.jpg",
-      "wikimediaFile": "File:Musée Paul Belmondo à Boulogne-Billancourt 001.jpg"
     }
   },
   {
@@ -1945,6 +4515,39 @@
     }
   },
   {
+    "id": "musee-d-art-et-d-histoire-de-l-hopital-sainte-anne",
+    "name": "Musée d'art et d'histoire de l'hôpital Sainte-Anne",
+    "coordinates": [
+      2.340376,
+      48.830264
+    ],
+    "address": "1 rue Cabanis, Hôpital Sainte-Anne",
+    "postalCode": "75014",
+    "commune": "Paris",
+    "arrondissement": 14,
+    "department": "75",
+    "website": "https://musee-mahhsa.com",
+    "phone": "06 78 09 12 04",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "note": "Standard entry (for visitors 26 and over) is 5 EUR. The museum is open only during its temporary exhibitions, Wed-Sun 13:00-18:00.",
+        "source": {
+          "url": "https://mahhsa.fr/informations-pratiques/",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q88645654",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_et_d'Histoire_de_l'h%C3%B4pital_Sainte-Anne",
+    "note": "Temporarily closed; reopening announced for 3 September 2026.",
+    "museofile": "M1202"
+  },
+  {
     "id": "musee-d-art-et-d-histoire",
     "name": "Musée d'art et d'histoire de Meudon",
     "coordinates": [
@@ -1985,39 +4588,6 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9eartethistoiremeudon.jpg",
       "wikimediaFile": "File:Muséeartethistoiremeudon.jpg"
     }
-  },
-  {
-    "id": "musee-d-art-et-d-histoire-de-l-hopital-sainte-anne",
-    "name": "Musée d'art et d'histoire de l'hôpital Sainte-Anne",
-    "coordinates": [
-      2.340376,
-      48.830264
-    ],
-    "address": "1 rue Cabanis, Hôpital Sainte-Anne",
-    "postalCode": "75014",
-    "commune": "Paris",
-    "arrondissement": 14,
-    "department": "75",
-    "website": "https://musee-mahhsa.com",
-    "phone": "06 78 09 12 04",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": [
-      {
-        "kind": "always",
-        "audience": "under-26-eu",
-        "note": "Standard entry (for visitors 26 and over) is 5 EUR. The museum is open only during its temporary exhibitions, Wed-Sun 13:00-18:00.",
-        "source": {
-          "url": "https://mahhsa.fr/informations-pratiques/",
-          "checkedAt": "2026-08-06"
-        }
-      }
-    ],
-    "wikidata": "Q88645654",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_et_d'Histoire_de_l'h%C3%B4pital_Sainte-Anne",
-    "note": "Temporarily closed; reopening announced for 3 September 2026.",
-    "museofile": "M1202"
   },
   {
     "id": "musee-d-art-et-d-histoire-du-judaisme",
@@ -2173,6 +4743,50 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saint-Denis_(93)_Chapelle_du_Carmel.JPG",
       "wikimediaFile": "File:Saint-Denis (93) Chapelle du Carmel.JPG"
+    }
+  },
+  {
+    "id": "musee-pissarro",
+    "name": "Musée d'Art et d'Histoire Pissarro-Pontoise (MAHPP)",
+    "coordinates": [
+      2.099887,
+      49.048396
+    ],
+    "address": "17, rue du Château, 17, rue du Château",
+    "postalCode": "95300",
+    "commune": "Pontoise",
+    "department": "95",
+    "website": "https://www.ville-pontoise.fr/equipement/musee-camille-pissarro",
+    "phone": "01 30 38 02 40",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "note": "Also free for under-18s year-round. The park is free Wednesday to Sunday.",
+        "source": {
+          "url": "https://ville-pontoise.fr/le-musee-dart-et-dhistoire-pissarro-pontoise-mahpp",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q1955692",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_et_d'Histoire_Pissarro-Pontoise",
+    "openingHours": "We-Su 11:00-12:30,13:30-18:00; PH off",
+    "openingHoursSource": {
+      "url": "https://ville-pontoise.fr/le-musee-dart-et-dhistoire-pissarro-pontoise-mahpp",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M0439",
+    "image": {
+      "file": "images/museums/musee-pissarro.jpg",
+      "author": "Popolon",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Camille_Pissarro.jpg",
+      "wikimediaFile": "File:Musée Camille Pissarro.jpg"
     }
   },
   {
@@ -2380,6 +4994,60 @@
     }
   },
   {
+    "id": "musee-du-moyen-age-thermes-et-hotel-de-cluny",
+    "name": "Musée de Cluny - musée national du Moyen Âge",
+    "coordinates": [
+      2.344553,
+      48.850437
+    ],
+    "address": "6, place Paul Painlevé, Hôtel de Cluny",
+    "postalCode": "75005",
+    "commune": "Paris",
+    "arrondissement": 5,
+    "department": "75",
+    "website": "https://www.musee-moyenage.fr/",
+    "phone": "01 53 73 78 00",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "source": {
+          "url": "https://www.musee-moyenage.fr/visiter/informations-pratiques/tarifs.html",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "note": "Free entry for under-26s applies to the permanent collections only, not temporary exhibitions; full price is 12 EUR.",
+        "source": {
+          "url": "https://www.musee-moyenage.fr/visiter/informations-pratiques/tarifs.html",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-cluny-musee-national-du-moyen-age-p3555",
+    "wikidata": "Q1124095",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_Cluny",
+    "openingHours": "Tu-Su 09:30-18:15",
+    "openingHoursSource": {
+      "url": "https://www.musee-moyenage.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M5003",
+    "image": {
+      "file": "images/museums/musee-du-moyen-age-thermes-et-hotel-de-cluny.jpg",
+      "author": "ctj71081",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_de_Cluny%2C_Paris_24_April_2012.jpg",
+      "wikimediaFile": "File:Hôtel de Cluny, Paris 24 April 2012.jpg"
+    }
+  },
+  {
     "id": "musee-de-l-air-et-de-l-espace",
     "name": "Musée de l'air et de l'espace",
     "coordinates": [
@@ -2467,74 +5135,6 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_de_l'Arm%C3%A9e%2C_Paris_4_May_2019.jpg",
       "wikimediaFile": "File:Musée de l'Armée, Paris 4 May 2019.jpg"
     }
-  },
-  {
-    "id": "musee-de-l-ecole-de-barbizon-auberge-ganne",
-    "name": "Musée de l'école de Barbizon - auberge Ganne",
-    "coordinates": [
-      2.602464,
-      48.446181
-    ],
-    "address": "92, Grande Rue, Auberge Ganne",
-    "postalCode": "77630",
-    "commune": "Barbizon",
-    "department": "77",
-    "website": "https://www.musee-peintres-barbizon.fr/fr",
-    "phone": "01 60 66 22 27",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": [
-      {
-        "kind": "always",
-        "audience": "under-18",
-        "note": "The actual free-entry threshold is under 25 (not under 18); also free for jobseekers, welfare recipients, and visitors with disabilities.",
-        "source": {
-          "url": "https://www.musee-peintres-barbizon.fr/fr/horaires-tarifs",
-          "checkedAt": "2026-08-06"
-        }
-      }
-    ],
-    "wikidata": "Q3330523",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_Peintres_de_Barbizon",
-    "museofile": "M0370",
-    "image": {
-      "file": "images/museums/musee-de-l-ecole-de-barbizon-auberge-ganne.jpg",
-      "author": "Velvet",
-      "license": "CC BY-SA 3.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barbizon_musee_ganne.JPG",
-      "wikimediaFile": "File:Barbizon musee ganne.JPG"
-    }
-  },
-  {
-    "id": "musee-de-l-ecole-nationale-superieure-des-beaux-arts",
-    "name": "Musée de l'École nationale supérieure des beaux-arts",
-    "coordinates": [
-      2.334499,
-      48.856491
-    ],
-    "address": "14 rue Bonaparte",
-    "postalCode": "75006",
-    "commune": "Paris",
-    "arrondissement": 6,
-    "department": "75",
-    "website": "https://beauxartsparis.fr/fr/collection/presentation",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": [
-      {
-        "kind": "event",
-        "event": "heritage-days",
-        "note": "During Heritage Days, guided tours of the buildings, chapel and collections are included for free; at other times, exhibitions use pay-what-you-choose tickets (2, 5 or 10 EUR).",
-        "source": {
-          "url": "https://beauxartsparis.fr/en/evenement/journees-europeennes-du-patrimoine-2025",
-          "checkedAt": "2026-08-06"
-        }
-      }
-    ],
-    "wikidata": "Q88640485",
-    "museofile": "M5051"
   },
   {
     "id": "musee-de-l-histoire-vivante",
@@ -2713,6 +5313,74 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:2011-12-Musee_de_lorangerie.jpg",
       "wikimediaFile": "File:2011-12-Musee de lorangerie.jpg"
     }
+  },
+  {
+    "id": "musee-de-l-ecole-de-barbizon-auberge-ganne",
+    "name": "Musée de l'école de Barbizon - auberge Ganne",
+    "coordinates": [
+      2.602464,
+      48.446181
+    ],
+    "address": "92, Grande Rue, Auberge Ganne",
+    "postalCode": "77630",
+    "commune": "Barbizon",
+    "department": "77",
+    "website": "https://www.musee-peintres-barbizon.fr/fr",
+    "phone": "01 60 66 22 27",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "note": "The actual free-entry threshold is under 25 (not under 18); also free for jobseekers, welfare recipients, and visitors with disabilities.",
+        "source": {
+          "url": "https://www.musee-peintres-barbizon.fr/fr/horaires-tarifs",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q3330523",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_Peintres_de_Barbizon",
+    "museofile": "M0370",
+    "image": {
+      "file": "images/museums/musee-de-l-ecole-de-barbizon-auberge-ganne.jpg",
+      "author": "Velvet",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barbizon_musee_ganne.JPG",
+      "wikimediaFile": "File:Barbizon musee ganne.JPG"
+    }
+  },
+  {
+    "id": "musee-de-l-ecole-nationale-superieure-des-beaux-arts",
+    "name": "Musée de l'École nationale supérieure des beaux-arts",
+    "coordinates": [
+      2.334499,
+      48.856491
+    ],
+    "address": "14 rue Bonaparte",
+    "postalCode": "75006",
+    "commune": "Paris",
+    "arrondissement": 6,
+    "department": "75",
+    "website": "https://beauxartsparis.fr/fr/collection/presentation",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "note": "During Heritage Days, guided tours of the buildings, chapel and collections are included for free; at other times, exhibitions use pay-what-you-choose tickets (2, 5 or 10 EUR).",
+        "source": {
+          "url": "https://beauxartsparis.fr/en/evenement/journees-europeennes-du-patrimoine-2025",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q88640485",
+    "museofile": "M5051"
   },
   {
     "id": "musee-de-la-batellerie",
@@ -2983,6 +5651,54 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barri%C3%A8re_d'Enfer%2C_place_Denfert-Rochereau%2C_Paris_03.jpg",
       "wikimediaFile": "File:Barrière d'Enfer, place Denfert-Rochereau, Paris 03.jpg"
+    }
+  },
+  {
+    "id": "musee-des-monnaies-et-medailles",
+    "name": "Musée de la Monnaie de Paris (11 Conti)",
+    "coordinates": [
+      2.338699,
+      48.857003
+    ],
+    "address": "11, quai de Conti, La Monnaie de Paris",
+    "postalCode": "75006",
+    "commune": "Paris",
+    "arrondissement": 6,
+    "department": "75",
+    "website": "https://www.monnaiedeparis.fr/",
+    "phone": "01 40 46 57 57",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "note": "Full price is 12 EUR.",
+        "source": {
+          "url": "https://www.monnaiedeparis.fr/en/tickets-and-admission-fees",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.monnaiedeparis.fr/en/tickets-and-admission-fees",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q48746193",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Le_Mus%C3%A9e_du_11_Conti_-_Monnaie_de_Paris",
+    "museofile": "M5066",
+    "image": {
+      "file": "images/museums/musee-des-monnaies-et-medailles.jpg",
+      "author": "MOSSOT",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_-_H%C3%B4tel_des_Monnaies_-_Fa%C3%A7ade_c%C3%B4t%C3%A9_cour.JPG",
+      "wikimediaFile": "File:Paris - Hôtel des Monnaies - Façade côté cour.JPG"
     }
   },
   {
@@ -3425,6 +6141,26 @@
     }
   },
   {
+    "id": "musee-de-provins-et-du-provinois",
+    "name": "Musée de Provins et du provinois",
+    "coordinates": [
+      3.290374,
+      48.561624
+    ],
+    "address": "7, rue du Palais",
+    "postalCode": "77160",
+    "commune": "Provins",
+    "department": "77",
+    "website": "https://www.provins.net/decouvrir-visiter/samuser-au-musee/le-musee-de-provins-et-du-provinois/",
+    "phone": "01 64 01 40 19",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [],
+    "wikidata": "Q23600664",
+    "museofile": "M0383"
+  },
+  {
     "id": "musee-de-prehistoire-d-ile-de-france",
     "name": "Musée de préhistoire d'Île-de-France",
     "coordinates": [
@@ -3465,172 +6201,6 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nemours---Entr%C3%A9e-Mus%C3%A9e-de-P.gif",
       "wikimediaFile": "File:Nemours---Entrée-Musée-de-P.gif"
-    }
-  },
-  {
-    "id": "musee-de-provins-et-du-provinois",
-    "name": "Musée de Provins et du provinois",
-    "coordinates": [
-      3.290374,
-      48.561624
-    ],
-    "address": "7, rue du Palais",
-    "postalCode": "77160",
-    "commune": "Provins",
-    "department": "77",
-    "website": "https://www.provins.net/decouvrir-visiter/samuser-au-musee/le-musee-de-provins-et-du-provinois/",
-    "phone": "01 64 01 40 19",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": [],
-    "wikidata": "Q23600664",
-    "museofile": "M0383"
-  },
-  {
-    "id": "musee-de-saint-maur-villa-medicis",
-    "name": "Villa Médicis – Maison des arts et de la culture",
-    "coordinates": [
-      2.5149018357668425,
-      48.79310937814309
-    ],
-    "address": "5, rue Saint-Hilaire - 92, avenue du Bac - Rue de la Poste, Carré Médicis",
-    "postalCode": "94210",
-    "commune": "Saint-Maur-des-Fossés",
-    "department": "94",
-    "website": "https://www.saint-maur.com/?id=127",
-    "phone": "01 48 86 33 28",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": [
-      {
-        "kind": "nth-weekday",
-        "nth": 1,
-        "weekday": "sunday",
-        "note": "Otherwise 7 EUR full price / 4 EUR reduced; under-12s are always free.",
-        "source": {
-          "url": "https://www.saint-maur.com/?id=127",
-          "checkedAt": "2026-08-06"
-        }
-      }
-    ],
-    "wikidata": "Q23639850",
-    "openingHours": "Tu-Su 14:00-18:00",
-    "openingHoursSource": {
-      "url": "https://www.saint-maur.com/?id=127",
-      "checkedAt": "2026-08-04"
-    },
-    "museofile": "M0429"
-  },
-  {
-    "id": "musee-departemental-albert-kahn",
-    "name": "Musée départemental Albert-Kahn",
-    "coordinates": [
-      2.227488,
-      48.841354
-    ],
-    "address": "14, rue du Port",
-    "postalCode": "92100",
-    "commune": "Boulogne-Billancourt",
-    "department": "92",
-    "website": "https://albert-kahn.hauts-de-seine.fr/",
-    "phone": "01 55 19 28 00",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": [
-      {
-        "kind": "nth-weekday",
-        "nth": 1,
-        "weekday": "sunday",
-        "source": {
-          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
-          "checkedAt": "2026-08-06"
-        }
-      }
-    ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-departemental-albert-kahn-p966",
-    "wikidata": "Q3330509",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d%C3%A9partemental_Albert-Kahn",
-    "openingHours": "Apr-Sep Tu-Su 11:00-19:00; Oct-Mar Tu-Su 11:00-18:00",
-    "openingHoursSource": {
-      "url": "https://albert-kahn.hauts-de-seine.fr",
-      "checkedAt": "2026-08-04"
-    },
-    "museofile": "M0407",
-    "image": {
-      "file": "images/museums/musee-departemental-albert-kahn.jpg",
-      "author": "Salix",
-      "license": "CC BY 2.5",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Azaleas_at_Albert_Kahn_Garden.jpg",
-      "wikimediaFile": "File:Azaleas at Albert Kahn Garden.jpg"
-    }
-  },
-  {
-    "id": "musee-departemental-maurice-denis",
-    "name": "Musée départemental Maurice Denis",
-    "coordinates": [
-      2.087541,
-      48.892495
-    ],
-    "address": "2bis, rue Maurice Denis",
-    "postalCode": "78100",
-    "commune": "Saint-Germain-en-Laye",
-    "department": "78",
-    "website": "https://www.musee-mauricedenis.fr/",
-    "phone": "01 39 07 87 87",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": [],
-    "wikidata": "Q3330506",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d%C3%A9partemental_Maurice-Denis",
-    "museofile": "M0396",
-    "image": {
-      "file": "images/museums/musee-departemental-maurice-denis.jpg",
-      "author": "Heurtelions",
-      "license": "CC BY-SA 4.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ancien_h%C3%B4pital_Maintenon_05961.jpg",
-      "wikimediaFile": "File:Ancien hôpital Maintenon 05961.jpg"
-    }
-  },
-  {
-    "id": "musee-departemental-stephane-mallarme",
-    "name": "Musée départemental Stéphane Mallarmé",
-    "coordinates": [
-      2.746605,
-      48.430323
-    ],
-    "address": "4, quai Stéphane-Mallarmé, Pont de Valvins",
-    "postalCode": "77870",
-    "commune": "Vulaines-sur-Seine",
-    "department": "77",
-    "website": "https://www.musee-mallarme.fr/fr",
-    "phone": "01 64 23 73 27",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": [
-      {
-        "kind": "always",
-        "audience": "under-26-eu",
-        "note": "The museum only opens seasonally.",
-        "source": {
-          "url": "https://www.musee-mallarme.fr/fr/horaires-et-tarifs",
-          "checkedAt": "2026-08-06"
-        }
-      }
-    ],
-    "wikidata": "Q3330504",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d%C3%A9partemental_St%C3%A9phane-Mallarm%C3%A9",
-    "museofile": "M0386",
-    "image": {
-      "file": "images/museums/musee-departemental-stephane-mallarme.jpg",
-      "author": "Prosopee",
-      "license": "CC BY-SA 3.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maison_de_St%C3%A9phane_Mallarm%C3%A9e_vue_d'ensemble_1.JPG",
-      "wikimediaFile": "File:Maison de Stéphane Mallarmée vue d'ensemble 1.JPG"
     }
   },
   {
@@ -3919,54 +6489,6 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saint-Cloud_Mus%C3%A9e_des_Avelines_003.JPG",
       "wikimediaFile": "File:Saint-Cloud Musée des Avelines 003.JPG"
-    }
-  },
-  {
-    "id": "musee-des-monnaies-et-medailles",
-    "name": "Musée de la Monnaie de Paris (11 Conti)",
-    "coordinates": [
-      2.338699,
-      48.857003
-    ],
-    "address": "11, quai de Conti, La Monnaie de Paris",
-    "postalCode": "75006",
-    "commune": "Paris",
-    "arrondissement": 6,
-    "department": "75",
-    "website": "https://www.monnaiedeparis.fr/",
-    "phone": "01 40 46 57 57",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": [
-      {
-        "kind": "nth-weekday",
-        "nth": 1,
-        "weekday": "sunday",
-        "note": "Full price is 12 EUR.",
-        "source": {
-          "url": "https://www.monnaiedeparis.fr/en/tickets-and-admission-fees",
-          "checkedAt": "2026-08-06"
-        }
-      },
-      {
-        "kind": "always",
-        "audience": "under-26-eu",
-        "source": {
-          "url": "https://www.monnaiedeparis.fr/en/tickets-and-admission-fees",
-          "checkedAt": "2026-08-06"
-        }
-      }
-    ],
-    "wikidata": "Q48746193",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Le_Mus%C3%A9e_du_11_Conti_-_Monnaie_de_Paris",
-    "museofile": "M5066",
-    "image": {
-      "file": "images/museums/musee-des-monnaies-et-medailles.jpg",
-      "author": "MOSSOT",
-      "license": "CC BY-SA 3.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_-_H%C3%B4tel_des_Monnaies_-_Fa%C3%A7ade_c%C3%B4t%C3%A9_cour.JPG",
-      "wikimediaFile": "File:Paris - Hôtel des Monnaies - Façade côté cour.JPG"
     }
   },
   {
@@ -4353,60 +6875,6 @@
     }
   },
   {
-    "id": "musee-du-moyen-age-thermes-et-hotel-de-cluny",
-    "name": "Musée de Cluny - musée national du Moyen Âge",
-    "coordinates": [
-      2.344553,
-      48.850437
-    ],
-    "address": "6, place Paul Painlevé, Hôtel de Cluny",
-    "postalCode": "75005",
-    "commune": "Paris",
-    "arrondissement": 5,
-    "department": "75",
-    "website": "https://www.musee-moyenage.fr/",
-    "phone": "01 53 73 78 00",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": [
-      {
-        "kind": "nth-weekday",
-        "nth": 1,
-        "weekday": "sunday",
-        "source": {
-          "url": "https://www.musee-moyenage.fr/visiter/informations-pratiques/tarifs.html",
-          "checkedAt": "2026-08-06"
-        }
-      },
-      {
-        "kind": "always",
-        "audience": "under-26-eu",
-        "note": "Free entry for under-26s applies to the permanent collections only, not temporary exhibitions; full price is 12 EUR.",
-        "source": {
-          "url": "https://www.musee-moyenage.fr/visiter/informations-pratiques/tarifs.html",
-          "checkedAt": "2026-08-06"
-        }
-      }
-    ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-cluny-musee-national-du-moyen-age-p3555",
-    "wikidata": "Q1124095",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_Cluny",
-    "openingHours": "Tu-Su 09:30-18:15",
-    "openingHoursSource": {
-      "url": "https://www.musee-moyenage.fr",
-      "checkedAt": "2026-08-04"
-    },
-    "museofile": "M5003",
-    "image": {
-      "file": "images/museums/musee-du-moyen-age-thermes-et-hotel-de-cluny.jpg",
-      "author": "ctj71081",
-      "license": "CC BY-SA 2.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_de_Cluny%2C_Paris_24_April_2012.jpg",
-      "wikimediaFile": "File:Hôtel de Cluny, Paris 24 April 2012.jpg"
-    }
-  },
-  {
     "id": "musee-du-parfum-fragonard",
     "name": "Musée du Parfum Fragonard",
     "coordinates": [
@@ -4558,39 +7026,113 @@
     }
   },
   {
-    "id": "musee-emile-jean",
-    "name": "Musée Émile Jean",
+    "id": "musee-departemental-albert-kahn",
+    "name": "Musée départemental Albert-Kahn",
     "coordinates": [
-      2.543144,
-      48.826701
+      2.227488,
+      48.841354
     ],
-    "address": "31, rue Louis-Lenoir",
-    "postalCode": "94350",
-    "commune": "Villiers-sur-Marne",
-    "department": "94",
-    "website": "https://www.villiers94.fr/culture-et-sports/patrimoine/musee-emile-jean/",
-    "phone": "01 49 30 46 96",
+    "address": "14, rue du Port",
+    "postalCode": "92100",
+    "commune": "Boulogne-Billancourt",
+    "department": "92",
+    "website": "https://albert-kahn.hauts-de-seine.fr/",
+    "phone": "01 55 19 28 00",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-departemental-albert-kahn-p966",
+    "wikidata": "Q3330509",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d%C3%A9partemental_Albert-Kahn",
+    "openingHours": "Apr-Sep Tu-Su 11:00-19:00; Oct-Mar Tu-Su 11:00-18:00",
+    "openingHoursSource": {
+      "url": "https://albert-kahn.hauts-de-seine.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M0407",
+    "image": {
+      "file": "images/museums/musee-departemental-albert-kahn.jpg",
+      "author": "Salix",
+      "license": "CC BY 2.5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Azaleas_at_Albert_Kahn_Garden.jpg",
+      "wikimediaFile": "File:Azaleas at Albert Kahn Garden.jpg"
+    }
+  },
+  {
+    "id": "musee-departemental-maurice-denis",
+    "name": "Musée départemental Maurice Denis",
+    "coordinates": [
+      2.087541,
+      48.892495
+    ],
+    "address": "2bis, rue Maurice Denis",
+    "postalCode": "78100",
+    "commune": "Saint-Germain-en-Laye",
+    "department": "78",
+    "website": "https://www.musee-mauricedenis.fr/",
+    "phone": "01 39 07 87 87",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [],
+    "wikidata": "Q3330506",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d%C3%A9partemental_Maurice-Denis",
+    "museofile": "M0396",
+    "image": {
+      "file": "images/museums/musee-departemental-maurice-denis.jpg",
+      "author": "Heurtelions",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ancien_h%C3%B4pital_Maintenon_05961.jpg",
+      "wikimediaFile": "File:Ancien hôpital Maintenon 05961.jpg"
+    }
+  },
+  {
+    "id": "musee-departemental-stephane-mallarme",
+    "name": "Musée départemental Stéphane Mallarmé",
+    "coordinates": [
+      2.746605,
+      48.430323
+    ],
+    "address": "4, quai Stéphane-Mallarmé, Pont de Valvins",
+    "postalCode": "77870",
+    "commune": "Vulaines-sur-Seine",
+    "department": "77",
+    "website": "https://www.musee-mallarme.fr/fr",
+    "phone": "01 64 23 73 27",
     "tags": [
       "museum"
     ],
     "freeAccess": [
       {
         "kind": "always",
-        "note": "Small local-history museum, open limited afternoon hours on Wednesdays and weekends.",
+        "audience": "under-26-eu",
+        "note": "The museum only opens seasonally.",
         "source": {
-          "url": "https://www.villiers94.fr/sorties-et-activites/culture/musee-emile-jean/",
+          "url": "https://www.musee-mallarme.fr/fr/horaires-et-tarifs",
           "checkedAt": "2026-08-06"
         }
       }
     ],
-    "wikidata": "Q23641285",
-    "museofile": "M0430",
+    "wikidata": "Q3330504",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d%C3%A9partemental_St%C3%A9phane-Mallarm%C3%A9",
+    "museofile": "M0386",
     "image": {
-      "file": "images/museums/musee-emile-jean.jpg",
-      "author": "Chabe01",
-      "license": "CC BY-SA 4.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_%C3%89mile_Jean_-_Villiers-sur-Marne_(FR94)_-_2022-03-14_-_2.jpg",
-      "wikimediaFile": "File:Musée Émile Jean - Villiers-sur-Marne (FR94) - 2022-03-14 - 2.jpg"
+      "file": "images/museums/musee-departemental-stephane-mallarme.jpg",
+      "author": "Prosopee",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maison_de_St%C3%A9phane_Mallarm%C3%A9e_vue_d'ensemble_1.JPG",
+      "wikimediaFile": "File:Maison de Stéphane Mallarmée vue d'ensemble 1.JPG"
     }
   },
   {
@@ -4833,49 +7375,74 @@
     }
   },
   {
-    "id": "musee-jardin-paul-landowski",
-    "name": "Musée Paul Landowski",
+    "id": "musee-municipal-91150",
+    "name": "Musée intercommunal d'Étampes",
     "coordinates": [
-      2.246847,
-      48.844261
+      2.161909,
+      48.434307
     ],
-    "address": "14, rue Max-Blondat",
-    "postalCode": "92100",
-    "commune": "Boulogne-Billancourt",
-    "department": "92",
-    "website": "https://www.boulognebillancourt.com/loisirs/culture/les-musees/musee-paul-landowski",
-    "phone": "01 55 1 8 46 42",
+    "address": "Hôtel de ville, Hôtel de ville",
+    "postalCode": "91150",
+    "commune": "Etampes",
+    "department": "91",
+    "website": "https://www.mairie-etampes.fr/le-musee/",
+    "phone": "01 69 92 69 12",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [],
+    "wikidata": "Q3330653",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_intercommunal_d'%C3%89tampes",
+    "museofile": "M0405",
+    "image": {
+      "file": "images/museums/musee-municipal-91150.jpg",
+      "author": "Chabe01",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_ville_%C3%89tampes_1.jpg",
+      "wikimediaFile": "File:Hôtel ville Étampes 1.jpg"
+    }
+  },
+  {
+    "id": "musee",
+    "name": "Musée intercommunal de Nogent-sur-Marne",
+    "coordinates": [
+      2.484292,
+      48.84026
+    ],
+    "address": "36, boulevard Gallieni, Bâtiment industriel",
+    "postalCode": "94130",
+    "commune": "Nogent-sur-Marne",
+    "department": "94",
+    "website": "https://museenogentsurmarne.net/",
+    "phone": "01 48 75 51 25",
     "tags": [
       "museum"
     ],
     "freeAccess": [
       {
-        "kind": "nth-weekday",
-        "nth": 1,
-        "weekday": "sunday",
-        "note": "Otherwise 8 EUR full price.",
-        "source": {
-          "url": "https://musees.boulognebillancourt.com/fr/horaires-tarifs-acces",
-          "checkedAt": "2026-08-06"
-        }
-      },
-      {
         "kind": "always",
-        "audience": "under-26-eu",
+        "note": "Free guided tours for groups by reservation; also closed on public holidays and Sundays in August.",
         "source": {
-          "url": "https://musees.boulognebillancourt.com/files/musees-conditions-tarifs-rduits-et-gratuit_3555b020f773e38f658cf6194f309442.pdf",
+          "url": "https://museenogentsurmarne.net/index.php?page=horaires&id=1024",
           "checkedAt": "2026-08-06"
         }
       }
     ],
-    "wikidata": "Q3329026",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Paul-Landowski",
-    "openingHours": "Tu-Su 11:00-18:00",
+    "wikidata": "Q3329734",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_Nogent-sur-Marne",
+    "openingHours": "Tu-Th 14:00-18:00; Sa 10:00-12:00,14:00-18:00; Su 14:00-18:00; Aug Su off; PH off",
     "openingHoursSource": {
-      "url": "https://musees.boulognebillancourt.com/",
+      "url": "https://museenogentsurmarne.net/",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M0408"
+    "museofile": "M0427",
+    "image": {
+      "file": "images/museums/musee.jpg",
+      "author": "AmapolaV7!",
+      "license": "CC0 1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patrimoine_Nogent-sur-Marne.jpg",
+      "wikimediaFile": "File:Patrimoine Nogent-sur-Marne.jpg"
+    }
   },
   {
     "id": "musee-jean-jacques-henner",
@@ -5028,45 +7595,45 @@
     }
   },
   {
-    "id": "musee-librairie-du-compagnonnage",
-    "name": "Musée-librairie du Compagnonnage",
+    "id": "musee-municipal-d-art-et-d-histoire",
+    "name": "Musée municipal d'art et d'histoire de Colombes",
     "coordinates": [
-      2.33501,
-      48.85223
+      2.252039,
+      48.923321
     ],
-    "address": "10 rue Mabillon",
-    "postalCode": "75006",
-    "commune": "Paris",
-    "arrondissement": 6,
-    "department": "75",
-    "website": "https://paris.compagnonsdutourdefrance.org/",
+    "address": "2, rue Gabriel Péri",
+    "postalCode": "92700",
+    "commune": "Colombes",
+    "department": "92",
+    "website": "https://www.colombes.fr/culture/musee-municipal-d-art-et-d-histoire-983.html",
+    "phone": "01 47 86 38 85",
     "tags": [
-      "museum",
-      "history"
+      "museum"
     ],
     "freeAccess": [
       {
         "kind": "always",
+        "note": "Open Sundays are limited to the first two of each month, not every Sunday; also closed during school holidays and public holidays.",
         "source": {
-          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "url": "https://www.colombes.fr/culture/musee-municipal-d-art-et-d-histoire-983.html",
           "checkedAt": "2026-08-06"
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-librairie-du-compagnonnage-p971",
-    "wikidata": "Q3329030",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e-librairie_du_compagnonnage",
-    "openingHours": "Tu-Fr 14:00-18:00",
+    "wikidata": "Q23599912",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_municipal_d'Art_et_d'Histoire_de_Colombes",
+    "openingHours": "We-Fr 13:00-18:00; Sa 14:00-18:00; PH off",
     "openingHoursSource": {
-      "url": "https://www.compagnons-du-devoir.com",
+      "url": "https://www.colombes.fr/la-ville/la-vie-quotidienne/culture-et-loisirs/musee-municipal-dart-et-dhistoire/",
       "checkedAt": "2026-08-04"
     },
+    "museofile": "M0409",
     "image": {
-      "file": "images/museums/musee-librairie-du-compagnonnage.jpg",
-      "author": "Hadonos",
-      "license": "CC BY-SA 3.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_2014_Mus%C3%A9e-librairie_du_compagnonnage_03.jpg",
-      "wikimediaFile": "File:Paris 2014 Musée-librairie du compagnonnage 03.jpg"
+      "file": "images/museums/musee-municipal-d-art-et-d-histoire.jpg",
+      "author": "Tangopaso",
+      "license": "Public Domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Municipal_d'Art_et_d'Histoire_de_Colombes.jpg",
+      "wikimediaFile": "File:Musée Municipal d'Art et d'Histoire de Colombes.jpg"
     }
   },
   {
@@ -5110,76 +7677,6 @@
       "checkedAt": "2026-08-04"
     },
     "museofile": "M0380"
-  },
-  {
-    "id": "musee-municipal-91150",
-    "name": "Musée intercommunal d'Étampes",
-    "coordinates": [
-      2.161909,
-      48.434307
-    ],
-    "address": "Hôtel de ville, Hôtel de ville",
-    "postalCode": "91150",
-    "commune": "Etampes",
-    "department": "91",
-    "website": "https://www.mairie-etampes.fr/le-musee/",
-    "phone": "01 69 92 69 12",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": [],
-    "wikidata": "Q3330653",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_intercommunal_d'%C3%89tampes",
-    "museofile": "M0405",
-    "image": {
-      "file": "images/museums/musee-municipal-91150.jpg",
-      "author": "Chabe01",
-      "license": "CC BY-SA 4.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_ville_%C3%89tampes_1.jpg",
-      "wikimediaFile": "File:Hôtel ville Étampes 1.jpg"
-    }
-  },
-  {
-    "id": "musee-municipal-d-art-et-d-histoire",
-    "name": "Musée municipal d'art et d'histoire de Colombes",
-    "coordinates": [
-      2.252039,
-      48.923321
-    ],
-    "address": "2, rue Gabriel Péri",
-    "postalCode": "92700",
-    "commune": "Colombes",
-    "department": "92",
-    "website": "https://www.colombes.fr/culture/musee-municipal-d-art-et-d-histoire-983.html",
-    "phone": "01 47 86 38 85",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": [
-      {
-        "kind": "always",
-        "note": "Open Sundays are limited to the first two of each month, not every Sunday; also closed during school holidays and public holidays.",
-        "source": {
-          "url": "https://www.colombes.fr/culture/musee-municipal-d-art-et-d-histoire-983.html",
-          "checkedAt": "2026-08-06"
-        }
-      }
-    ],
-    "wikidata": "Q23599912",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_municipal_d'Art_et_d'Histoire_de_Colombes",
-    "openingHours": "We-Fr 13:00-18:00; Sa 14:00-18:00; PH off",
-    "openingHoursSource": {
-      "url": "https://www.colombes.fr/la-ville/la-vie-quotidienne/culture-et-loisirs/musee-municipal-dart-et-dhistoire/",
-      "checkedAt": "2026-08-04"
-    },
-    "museofile": "M0409",
-    "image": {
-      "file": "images/museums/musee-municipal-d-art-et-d-histoire.jpg",
-      "author": "Tangopaso",
-      "license": "Public Domain",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Municipal_d'Art_et_d'Histoire_de_Colombes.jpg",
-      "wikimediaFile": "File:Musée Municipal d'Art et d'Histoire de Colombes.jpg"
-    }
   },
   {
     "id": "musee-municipal-ducastel-vera-de-saint-germain-en-laye",
@@ -5606,6 +8103,102 @@
     }
   },
   {
+    "id": "musee-belmondo-et-de-la-sculpture-figurative-du-xxe-siecle",
+    "name": "Musée Paul Belmondo",
+    "coordinates": [
+      2.232883,
+      48.847492
+    ],
+    "address": "14 rue de l'Abreuvoir",
+    "postalCode": "92100",
+    "commune": "Boulogne-Billancourt",
+    "department": "92",
+    "website": "https://www.boulognebillancourt.com/loisirs/culture/les-musees/musee-paul-belmondo",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "note": "Otherwise 8 EUR full price.",
+        "source": {
+          "url": "https://musees.boulognebillancourt.com/fr/horaires-tarifs-acces",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://musees.boulognebillancourt.com/files/musees-conditions-tarifs-rduits-et-gratuit_3555b020f773e38f658cf6194f309442.pdf",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q3329303",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Paul-Belmondo",
+    "openingHours": "We,Sa,Su 14:00-18:00",
+    "openingHoursSource": {
+      "url": "https://musees.boulognebillancourt.com/",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M1170",
+    "image": {
+      "file": "images/museums/musee-belmondo-et-de-la-sculpture-figurative-du-xxe-siecle.jpg",
+      "author": "Moonik",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Paul_Belmondo_%C3%A0_Boulogne-Billancourt_001.jpg",
+      "wikimediaFile": "File:Musée Paul Belmondo à Boulogne-Billancourt 001.jpg"
+    }
+  },
+  {
+    "id": "musee-jardin-paul-landowski",
+    "name": "Musée Paul Landowski",
+    "coordinates": [
+      2.246847,
+      48.844261
+    ],
+    "address": "14, rue Max-Blondat",
+    "postalCode": "92100",
+    "commune": "Boulogne-Billancourt",
+    "department": "92",
+    "website": "https://www.boulognebillancourt.com/loisirs/culture/les-musees/musee-paul-landowski",
+    "phone": "01 55 1 8 46 42",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "note": "Otherwise 8 EUR full price.",
+        "source": {
+          "url": "https://musees.boulognebillancourt.com/fr/horaires-tarifs-acces",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://musees.boulognebillancourt.com/files/musees-conditions-tarifs-rduits-et-gratuit_3555b020f773e38f658cf6194f309442.pdf",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q3329026",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Paul-Landowski",
+    "openingHours": "Tu-Su 11:00-18:00",
+    "openingHoursSource": {
+      "url": "https://musees.boulognebillancourt.com/",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M0408"
+  },
+  {
     "id": "musee-picasso",
     "name": "Musée Picasso",
     "coordinates": [
@@ -5657,50 +8250,6 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_3e_H%C3%B4tel_Sal%C3%A9_640.jpg",
       "wikimediaFile": "File:Paris 3e Hôtel Salé 640.jpg"
-    }
-  },
-  {
-    "id": "musee-pissarro",
-    "name": "Musée d'Art et d'Histoire Pissarro-Pontoise (MAHPP)",
-    "coordinates": [
-      2.099887,
-      49.048396
-    ],
-    "address": "17, rue du Château, 17, rue du Château",
-    "postalCode": "95300",
-    "commune": "Pontoise",
-    "department": "95",
-    "website": "https://www.ville-pontoise.fr/equipement/musee-camille-pissarro",
-    "phone": "01 30 38 02 40",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": [
-      {
-        "kind": "nth-weekday",
-        "nth": 1,
-        "weekday": "sunday",
-        "note": "Also free for under-18s year-round. The park is free Wednesday to Sunday.",
-        "source": {
-          "url": "https://ville-pontoise.fr/le-musee-dart-et-dhistoire-pissarro-pontoise-mahpp",
-          "checkedAt": "2026-08-06"
-        }
-      }
-    ],
-    "wikidata": "Q1955692",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_et_d'Histoire_Pissarro-Pontoise",
-    "openingHours": "We-Su 11:00-12:30,13:30-18:00; PH off",
-    "openingHoursSource": {
-      "url": "https://ville-pontoise.fr/le-musee-dart-et-dhistoire-pissarro-pontoise-mahpp",
-      "checkedAt": "2026-08-04"
-    },
-    "museofile": "M0439",
-    "image": {
-      "file": "images/museums/musee-pissarro.jpg",
-      "author": "Popolon",
-      "license": "CC BY-SA 4.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Camille_Pissarro.jpg",
-      "wikimediaFile": "File:Musée Camille Pissarro.jpg"
     }
   },
   {
@@ -6018,6 +8567,84 @@
     }
   },
   {
+    "id": "musee-emile-jean",
+    "name": "Musée Émile Jean",
+    "coordinates": [
+      2.543144,
+      48.826701
+    ],
+    "address": "31, rue Louis-Lenoir",
+    "postalCode": "94350",
+    "commune": "Villiers-sur-Marne",
+    "department": "94",
+    "website": "https://www.villiers94.fr/culture-et-sports/patrimoine/musee-emile-jean/",
+    "phone": "01 49 30 46 96",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "note": "Small local-history museum, open limited afternoon hours on Wednesdays and weekends.",
+        "source": {
+          "url": "https://www.villiers94.fr/sorties-et-activites/culture/musee-emile-jean/",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q23641285",
+    "museofile": "M0430",
+    "image": {
+      "file": "images/museums/musee-emile-jean.jpg",
+      "author": "Chabe01",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_%C3%89mile_Jean_-_Villiers-sur-Marne_(FR94)_-_2022-03-14_-_2.jpg",
+      "wikimediaFile": "File:Musée Émile Jean - Villiers-sur-Marne (FR94) - 2022-03-14 - 2.jpg"
+    }
+  },
+  {
+    "id": "musee-librairie-du-compagnonnage",
+    "name": "Musée-librairie du Compagnonnage",
+    "coordinates": [
+      2.33501,
+      48.85223
+    ],
+    "address": "10 rue Mabillon",
+    "postalCode": "75006",
+    "commune": "Paris",
+    "arrondissement": 6,
+    "department": "75",
+    "website": "https://paris.compagnonsdutourdefrance.org/",
+    "tags": [
+      "museum",
+      "history"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-librairie-du-compagnonnage-p971",
+    "wikidata": "Q3329030",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e-librairie_du_compagnonnage",
+    "openingHours": "Tu-Fr 14:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.compagnons-du-devoir.com",
+      "checkedAt": "2026-08-04"
+    },
+    "image": {
+      "file": "images/museums/musee-librairie-du-compagnonnage.jpg",
+      "author": "Hadonos",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_2014_Mus%C3%A9e-librairie_du_compagnonnage_03.jpg",
+      "wikimediaFile": "File:Paris 2014 Musée-librairie du compagnonnage 03.jpg"
+    }
+  },
+  {
     "id": "museum-national-d-histoire-naturelle",
     "name": "Muséum national d'histoire naturelle",
     "coordinates": [
@@ -6062,6 +8689,116 @@
     }
   },
   {
+    "id": "memorial-de-la-shoah",
+    "name": "Mémorial de la Shoah",
+    "coordinates": [
+      2.3562,
+      48.8548
+    ],
+    "address": "17 rue Geoffroy-l'Asnier",
+    "postalCode": "75004",
+    "commune": "Paris",
+    "arrondissement": 4,
+    "department": "75",
+    "website": "https://www.memorialdelashoah.org/",
+    "tags": [
+      "museum",
+      "history"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/memorial-de-la-shoah-paris-p3518",
+    "wikidata": "Q479218",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/M%C3%A9morial_de_la_Shoah",
+    "openingHours": "Su-We 10:00-18:00; Th 10:00-22:00; Fr 10:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.memorialdelashoah.org",
+      "checkedAt": "2026-08-04"
+    },
+    "image": {
+      "file": "images/museums/memorial-de-la-shoah.jpg",
+      "author": "BrnGrby",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crypte_au_m%C3%A9morial_de_la_Shoah_%C3%A0_Paris.jpg",
+      "wikimediaFile": "File:Crypte au mémorial de la Shoah à Paris.jpg"
+    }
+  },
+  {
+    "id": "memorial-de-la-shoah-de-drancy",
+    "name": "Mémorial de la Shoah de Drancy",
+    "coordinates": [
+      2.4534,
+      48.91882
+    ],
+    "address": "110-112 avenue Jean-Jaurès",
+    "postalCode": "93700",
+    "commune": "Drancy",
+    "department": "93",
+    "website": "https://drancy.memorialdelashoah.org/",
+    "tags": [
+      "museum",
+      "history"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/memorial-de-la-shoah-drancy-p3627",
+    "wikidata": "Q85854201",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/M%C3%A9morial_de_la_Shoah_%C3%A0_Drancy",
+    "openingHours": "Su-Th 10:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.memorialdelashoah.org",
+      "checkedAt": "2026-08-04"
+    },
+    "image": {
+      "file": "images/museums/memorial-de-la-shoah-de-drancy.jpg",
+      "author": "Eléonore Ward",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:M%C3%A9morial_de_la_Shoah_de_Drancy.jpg",
+      "wikimediaFile": "File:Mémorial de la Shoah de Drancy.jpg"
+    }
+  },
+  {
+    "id": "palais-du-tau-a-reims",
+    "name": "Palais du Tau à Reims",
+    "coordinates": [
+      4.034444,
+      49.253056
+    ],
+    "address": "Rue Cardinal de Lorraine",
+    "postalCode": "51100",
+    "commune": "Reims",
+    "department": "51",
+    "website": "https://www.palais-du-tau.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [],
+    "wikidata": "Q578771",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Palais_du_Tau_(Reims)",
+    "note": "Closed for renovation; reopening announced for 2027.",
+    "image": {
+      "file": "images/museums/palais-du-tau-a-reims.jpg",
+      "author": "Tournasol7",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palais_du_Tau_in_Reims_(7).jpg",
+      "wikimediaFile": "File:Palais du Tau in Reims (7).jpg"
+    }
+  },
+  {
     "id": "palais-galliera-musee-de-la-mode-et-de-la-ville-de-paris",
     "name": "Palais Galliera, musée de la mode et de la ville de Paris",
     "coordinates": [
@@ -6088,6 +8825,57 @@
       "license": "CC0 1.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Galliera%2C_Paris_21_July_2017.jpg",
       "wikimediaFile": "File:Musée Galliera, Paris 21 July 2017.jpg"
+    }
+  },
+  {
+    "id": "palais-jacques-c-ur",
+    "name": "Palais Jacques Cœur",
+    "coordinates": [
+      2.39405,
+      47.0847
+    ],
+    "address": "12, rue Jacques-Cœur",
+    "postalCode": "18000",
+    "commune": "Bourges",
+    "department": "18",
+    "website": "https://www.palais-jacques-coeur.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.palais-jacques-coeur.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.palais-jacques-coeur.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q3360877",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Palais_Jacques-C%C5%93ur",
+    "image": {
+      "file": "images/museums/palais-jacques-c-ur.jpg",
+      "author": "Remi Mathis",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jacques_Coeur_Palace_main_tower.JPG",
+      "wikimediaFile": "File:Jacques Coeur Palace main tower.JPG"
     }
   },
   {
@@ -6252,6 +9040,418 @@
     }
   },
   {
+    "id": "site-archeologique-de-glanum",
+    "name": "Site archéologique de Glanum",
+    "coordinates": [
+      4.8325,
+      43.773889
+    ],
+    "address": "Avenue Vincent Van-Gogh",
+    "postalCode": "13210",
+    "commune": "Saint-Rémy-de-Provence",
+    "department": "13",
+    "website": "https://www.site-glanum.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.site-glanum.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.site-glanum.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q674543",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Glanum",
+    "image": {
+      "file": "images/museums/site-archeologique-de-glanum.jpg",
+      "author": "Greudin",
+      "license": "Public Domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Glanum-triomphal_arch-arc_de_triomphe.jpg",
+      "wikimediaFile": "File:Glanum-triomphal arch-arc de triomphe.jpg"
+    }
+  },
+  {
+    "id": "site-des-megalithes-de-locmariaquer",
+    "name": "Site des mégalithes de Locmariaquer",
+    "coordinates": [
+      -2.950222,
+      47.571306
+    ],
+    "address": "Route d'Auray",
+    "postalCode": "56740",
+    "commune": "Locmariaquer",
+    "department": "56",
+    "website": "https://www.site-megalithique-locmariaquer.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.site-megalithique-locmariaquer.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.site-megalithique-locmariaquer.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.site-megalithique-locmariaquer.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q133545489",
+    "image": {
+      "file": "images/museums/site-des-megalithes-de-locmariaquer.jpg",
+      "author": "Kamel15",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Locmariaquer_2008_PD_22.JPG",
+      "wikimediaFile": "File:Locmariaquer 2008 PD 22.JPG"
+    }
+  },
+  {
+    "id": "site-gallo-romain-de-sanxay",
+    "name": "Site gallo-romain de Sanxay",
+    "coordinates": [
+      -0.02208,
+      46.494891
+    ],
+    "address": "La Marzelle",
+    "postalCode": "86600",
+    "commune": "Sanxay",
+    "department": "86",
+    "website": "https://www.site-galloromain-de-sanxay.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.site-galloromain-de-sanxay.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.site-galloromain-de-sanxay.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q21099821",
+    "image": {
+      "file": "images/museums/site-gallo-romain-de-sanxay.jpg",
+      "author": "Jochen Jahnke at German Wikipedia",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sanxay_Amphitheatre-1.jpg",
+      "wikimediaFile": "File:Sanxay Amphitheatre-1.jpg"
+    }
+  },
+  {
+    "id": "sites-et-musee-archeologiques-de-montmaurin",
+    "name": "Sites et musée archéologiques de Montmaurin",
+    "coordinates": [
+      0.64556,
+      43.2164
+    ],
+    "address": "",
+    "postalCode": "31350",
+    "commune": "Montmaurin",
+    "department": "31",
+    "website": "https://www.montmaurin-archeo.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.montmaurin-archeo.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.montmaurin-archeo.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q3558912",
+    "image": {
+      "file": "images/museums/sites-et-musee-archeologiques-de-montmaurin.jpg",
+      "author": "Florent Pécassou",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aile_thermale_(Villa_gallo-romaine_de_Montmaurin).JPG",
+      "wikimediaFile": "File:Aile thermale (Villa gallo-romaine de Montmaurin).JPG"
+    }
+  },
+  {
+    "id": "sites-prehistoriques-de-la-vallee-de-la-vezere",
+    "name": "Sites préhistoriques de la vallée de la Vézère",
+    "coordinates": [
+      1.17,
+      45.0575
+    ],
+    "address": "Avenue de Lascaux",
+    "postalCode": "24290",
+    "commune": "Montignac-Lascaux",
+    "department": "24",
+    "website": "https://www.sites-les-eyzies.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.sites-les-eyzies.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.sites-les-eyzies.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q463159",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Sites_pr%C3%A9historiques_et_grottes_orn%C3%A9es_de_la_vall%C3%A9e_de_la_V%C3%A9z%C3%A8re",
+    "note": "First-Sunday free entry applies to the Font-de-Gaume and Combarelles caves and the Cap-Blanc shelter.",
+    "image": {
+      "file": "images/museums/sites-prehistoriques-de-la-vallee-de-la-vezere.jpg",
+      "author": "EU",
+      "license": "Public Domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lascaux_painting.jpg",
+      "wikimediaFile": "File:Lascaux painting.jpg"
+    }
+  },
+  {
+    "id": "tour-pey-berland-a-bordeaux",
+    "name": "Tour Pey-Berland à Bordeaux",
+    "coordinates": [
+      -0.576556,
+      44.837619
+    ],
+    "address": "place Pey-Berland",
+    "postalCode": "33000",
+    "commune": "Bordeaux",
+    "department": "33",
+    "website": "https://www.pey-berland.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.pey-berland.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.pey-berland.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q954262",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Tour_Pey-Berland",
+    "image": {
+      "file": "images/museums/tour-pey-berland-a-bordeaux.jpg",
+      "author": "Olivier Aumage",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bordeaux_Tour_Pey_Berland_3.jpg",
+      "wikimediaFile": "File:Bordeaux Tour Pey Berland 3.jpg"
+    }
+  },
+  {
+    "id": "tours-de-la-cathedrale-de-reims",
+    "name": "Tours de la cathédrale de Reims",
+    "coordinates": [
+      4.034167,
+      49.253889
+    ],
+    "address": "rue du Trésor",
+    "postalCode": "51100",
+    "commune": "Reims",
+    "department": "51",
+    "website": "https://www.cathedrale-reims.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          3
+        ],
+        "source": {
+          "url": "https://www.cathedrale-reims.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.cathedrale-reims.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q206823",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Notre-Dame_de_Reims",
+    "note": "Towers closed annually from 16 November to 14 February; visits are guided only.",
+    "image": {
+      "file": "images/museums/tours-de-la-cathedrale-de-reims.jpg",
+      "author": "Ludvig14",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Reims_Cathedral_016_8341.jpg",
+      "wikimediaFile": "File:Reims Cathedral 016 8341.jpg"
+    }
+  },
+  {
+    "id": "tours-de-la-rochelle",
+    "name": "Tours de La Rochelle",
+    "coordinates": [
+      -1.15333,
+      46.1558
+    ],
+    "address": "Rue de l'Armide",
+    "postalCode": "17000",
+    "commune": "La Rochelle",
+    "department": "17",
+    "website": "https://www.tours-la-rochelle.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.tours-la-rochelle.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.tours-la-rochelle.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q3533170",
+    "note": "The Saint-Nicolas tower is closed for works; the Chaîne and Lanterne towers remain open.",
+    "image": {
+      "file": "images/museums/tours-de-la-rochelle.jpg",
+      "author": "Brice Rothschild",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tour_Saint-Nicolas.jpg",
+      "wikimediaFile": "File:Tour Saint-Nicolas.jpg"
+    }
+  },
+  {
     "id": "tours-de-notre-dame-de-paris",
     "name": "Tours de Notre-Dame de Paris",
     "coordinates": [
@@ -6305,6 +9505,328 @@
     }
   },
   {
+    "id": "tours-et-remparts-d-aigues-mortes",
+    "name": "Tours et remparts d'Aigues-Mortes",
+    "coordinates": [
+      4.19684,
+      43.5619
+    ],
+    "address": "Chemin Haut de Peccais",
+    "postalCode": "30220",
+    "commune": "Aigues-Mortes",
+    "department": "30",
+    "website": "https://www.aigues-mortes-monument.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.aigues-mortes-monument.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.aigues-mortes-monument.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q3424607",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Remparts_d'Aigues-Mortes",
+    "image": {
+      "file": "images/museums/tours-et-remparts-d-aigues-mortes.jpg",
+      "author": "Benjamin Smith",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aigues-Mortes_-_Remparts_-_05.jpg",
+      "wikimediaFile": "File:Aigues-Mortes - Remparts - 05.jpg"
+    }
+  },
+  {
+    "id": "tours-et-tresor-de-la-cathedrale-d-amiens",
+    "name": "Tours et trésor de la cathédrale d'Amiens",
+    "coordinates": [
+      2.3021,
+      49.89457
+    ],
+    "address": "Rue Cormont",
+    "postalCode": "80000",
+    "commune": "Amiens",
+    "department": "80",
+    "website": "https://www.cathedrale-amiens.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.cathedrale-amiens.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.cathedrale-amiens.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q106934",
+    "image": {
+      "file": "images/museums/tours-et-tresor-de-la-cathedrale-d-amiens.jpg",
+      "author": "Jean-Pol GRANDMONT",
+      "license": "CC BY 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:0_Amiens_-_Cath%C3%A9drale_Notre-Dame_(1).JPG",
+      "wikimediaFile": "File:0 Amiens - Cathédrale Notre-Dame (1).JPG"
+    }
+  },
+  {
+    "id": "trophee-d-auguste-a-la-turbie",
+    "name": "Trophée d'Auguste à la Turbie",
+    "coordinates": [
+      7.401803,
+      43.744778
+    ],
+    "address": "Rue Capouane",
+    "postalCode": "06320",
+    "commune": "La Turbie",
+    "department": "06",
+    "website": "https://www.trophee-auguste.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.trophee-auguste.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.trophee-auguste.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q747588",
+    "image": {
+      "file": "images/museums/trophee-d-auguste-a-la-turbie.jpg",
+      "author": "Berthold Werner",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_Turbie_BW_1.JPG",
+      "wikimediaFile": "File:La Turbie BW 1.JPG"
+    }
+  },
+  {
+    "id": "tresor-de-la-cathedrale-d-autun",
+    "name": "Trésor de la cathédrale d'Autun",
+    "coordinates": [
+      4.299167,
+      46.945
+    ],
+    "address": "Place du Terreau",
+    "postalCode": "71400",
+    "commune": "Autun",
+    "department": "71",
+    "website": "https://www.tresor-cathedrale-autun.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.tresor-cathedrale-autun.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "museum-night",
+        "source": {
+          "url": "https://www.tresor-cathedrale-autun.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.tresor-cathedrale-autun.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q611944",
+    "note": "Students under 26 also enter free.",
+    "image": {
+      "file": "images/museums/tresor-de-la-cathedrale-d-autun.jpg",
+      "author": "Kokin",
+      "license": "Public Domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_Autun_02.JPG",
+      "wikimediaFile": "File:Cathédrale Autun 02.JPG"
+    }
+  },
+  {
+    "id": "tresor-de-la-cathedrale-de-lyon",
+    "name": "Trésor de la cathédrale de Lyon",
+    "coordinates": [
+      4.827222,
+      45.760833
+    ],
+    "address": "8 place Saint-Jean 69005 Lyon",
+    "postalCode": "69005",
+    "commune": "Lyon",
+    "department": "69",
+    "website": "https://www.tresor-cathedrale-lyon.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://www.tresor-cathedrale-lyon.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q1521",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Primatiale_Saint-Jean_de_Lyon",
+    "image": {
+      "file": "images/museums/tresor-de-la-cathedrale-de-lyon.jpg",
+      "author": "Otourly",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:007._Photo_prise_depuis_les_toits_de_la_Basilique_Notre-Dame_de_Fourvi%C3%A8re.JPG",
+      "wikimediaFile": "File:007. Photo prise depuis les toits de la Basilique Notre-Dame de Fourvière.JPG"
+    }
+  },
+  {
+    "id": "villa-cavrois",
+    "name": "Villa Cavrois",
+    "coordinates": [
+      3.164053,
+      50.666736
+    ],
+    "address": "60 avenue du président John-Fitzgerald-Kennedy",
+    "postalCode": "59170",
+    "commune": "Croix",
+    "department": "59",
+    "website": "https://www.villa-cavrois.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.villa-cavrois.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.villa-cavrois.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q518747",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Villa_Cavrois",
+    "image": {
+      "file": "images/museums/villa-cavrois.jpg",
+      "author": "Velvet",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Croix_villa_cavrois_arriere_quart.JPG",
+      "wikimediaFile": "File:Croix villa cavrois arriere quart.JPG"
+    }
+  },
+  {
+    "id": "musee-de-saint-maur-villa-medicis",
+    "name": "Villa Médicis – Maison des arts et de la culture",
+    "coordinates": [
+      2.5149018357668425,
+      48.79310937814309
+    ],
+    "address": "5, rue Saint-Hilaire - 92, avenue du Bac - Rue de la Poste, Carré Médicis",
+    "postalCode": "94210",
+    "commune": "Saint-Maur-des-Fossés",
+    "department": "94",
+    "website": "https://www.saint-maur.com/?id=127",
+    "phone": "01 48 86 33 28",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "note": "Otherwise 7 EUR full price / 4 EUR reduced; under-12s are always free.",
+        "source": {
+          "url": "https://www.saint-maur.com/?id=127",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q23639850",
+    "openingHours": "Tu-Su 14:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.saint-maur.com/?id=127",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M0429"
+  },
+  {
     "id": "villa-savoye",
     "name": "Villa Savoye",
     "coordinates": [
@@ -6353,6 +9875,98 @@
     "openingHoursSource": {
       "url": "https://www.villa-savoye.fr",
       "checkedAt": "2026-08-04"
+    }
+  },
+  {
+    "id": "village-fortifie-mont-dauphin",
+    "name": "Village fortifié Mont-Dauphin",
+    "coordinates": [
+      6.6241,
+      44.6697
+    ],
+    "address": "Rue Colonel Cabrié",
+    "postalCode": "05600",
+    "commune": "Mont-Dauphin",
+    "department": "05",
+    "website": "https://www.village-fortifie-montdauphin.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://www.village-fortifie-montdauphin.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.village-fortifie-montdauphin.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q22998467",
+    "note": "The fortified village itself is freely accessible year-round; the fortifications and military buildings are ticketed.",
+    "image": {
+      "file": "images/museums/village-fortifie-mont-dauphin.jpg",
+      "author": "photo personnelle xyzauctore",
+      "license": "CC0 1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Montdauphin_demi-lune_d'anjou_corps_de_garde_2009.JPG",
+      "wikimediaFile": "File:Montdauphin demi-lune d'anjou corps de garde 2009.JPG"
+    }
+  },
+  {
+    "id": "ecomusee-94260",
+    "name": "Écomusée du Grand-Orly Seine Bièvre",
+    "coordinates": [
+      2.326389,
+      48.75525
+    ],
+    "address": "41, rue Maurice Tenine, Ferme de Cottinville",
+    "postalCode": "94260",
+    "commune": "Fresnes",
+    "department": "94",
+    "website": "https://www.fresnes94.fr/a-votre-service/culture-sports-et-loisirs/equipements-culturels/ecomusee-du-val-de-bievre/",
+    "phone": "01 41 24 32 24",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "note": "Events are also free, most needing reservation; the museum also closes for most of August.",
+        "source": {
+          "url": "https://ecomusee.grandorlyseinebievre.fr/horaires-acces-0",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "wikidata": "Q23639828",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/%C3%89comus%C3%A9e_de_Fresnes",
+    "openingHours": "We 10:00-13:00,14:00-19:00; Th-Fr 14:00-18:00; Sa 10:00-13:00,14:00-19:00; PH off",
+    "openingHoursSource": {
+      "url": "https://ecomusee.grandorlyseinebievre.fr/",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M0426",
+    "image": {
+      "file": "images/museums/ecomusee-94260.jpg",
+      "author": "Unknown authorUnknown author",
+      "license": "CC0 1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C3%89comus%C3%A9e_de_Fresnes.webp",
+      "wikimediaFile": "File:Écomusée de Fresnes.webp"
     }
   }
 ]

@@ -79,21 +79,43 @@ async function api(base: string, params: Record<string, string>): Promise<unknow
   return res.json();
 }
 
+/** frwiki full-text search → Wikidata ids, for names prefix search misses. */
+async function frwikiCandidates(name: string): Promise<string[]> {
+  const data = (await api('https://fr.wikipedia.org/w/api.php', {
+    action: 'query',
+    generator: 'search',
+    gsrsearch: name,
+    gsrlimit: '5',
+    prop: 'pageprops',
+    ppprop: 'wikibase_item',
+  })) as { query?: { pages?: Record<string, { pageprops?: { wikibase_item?: string } }> } };
+  return Object.values(data.query?.pages ?? {})
+    .map((p) => p.pageprops?.wikibase_item)
+    .filter((q): q is string => q !== undefined);
+}
+
 async function searchCandidates(name: string): Promise<string[]> {
   const ids = new Set<string>();
-  for (const language of ['fr', 'en']) {
-    const data = (await api(WD_API, {
-      action: 'wbsearchentities',
-      search: name,
-      language,
-      uselang: 'fr',
-      type: 'item',
-      limit: '7',
-    })) as { search?: { id: string }[] };
-    for (const hit of data.search ?? []) ids.add(hit.id);
-    await sleep(80);
-    if (ids.size >= 5) break;
+  const variants = [name];
+  const beforeAt = name.split(/ à | de la cathédrale /)[0].trim();
+  if (beforeAt !== name && beforeAt.split(' ').length > 1) variants.push(beforeAt);
+  for (const variant of variants) {
+    for (const language of ['fr', 'en']) {
+      const data = (await api(WD_API, {
+        action: 'wbsearchentities',
+        search: variant,
+        language,
+        uselang: 'fr',
+        type: 'item',
+        limit: '7',
+      })) as { search?: { id: string }[] };
+      for (const hit of data.search ?? []) ids.add(hit.id);
+      await sleep(80);
+      if (language === 'fr' && ids.size >= 5) break;
+    }
   }
+  for (const q of await frwikiCandidates(name)) ids.add(q);
+  await sleep(80);
   return [...ids];
 }
 
