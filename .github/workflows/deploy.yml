@@ -1,0 +1,89 @@
+name: Test, build and deploy
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run tests
+        run: npm run test
+
+      - name: Build
+        run: npm run build
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/
+
+  deploy:
+    # Deploys dist/ into the free-museums-paris/ directory of the
+    # travel-eu.github.io repository. Requires the DEPLOY_TOKEN secret —
+    # a fine-grained PAT with contents:write on travel-eu/travel-eu.github.io
+    # (see docs/DEPLOYMENT.md). Skipped on forks and pull requests.
+    needs: build
+    if: github.event_name != 'pull_request' && github.repository == 'travel-eu/free-museums-paris'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist
+
+      - name: Check deploy token
+        id: token
+        env:
+          DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+        run: |
+          if [ -z "$DEPLOY_TOKEN" ]; then
+            echo "DEPLOY_TOKEN secret is not configured — skipping deploy (see docs/DEPLOYMENT.md)."
+            echo "present=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "present=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Checkout site repository
+        if: steps.token.outputs.present == 'true'
+        uses: actions/checkout@v4
+        with:
+          repository: travel-eu/travel-eu.github.io
+          token: ${{ secrets.DEPLOY_TOKEN }}
+          path: site
+
+      - name: Sync build into site
+        if: steps.token.outputs.present == 'true'
+        run: |
+          rm -rf site/free-museums-paris
+          mkdir -p site/free-museums-paris
+          cp -r dist/. site/free-museums-paris/
+
+      - name: Commit and push
+        if: steps.token.outputs.present == 'true'
+        run: |
+          cd site
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add free-museums-paris
+          if git diff --cached --quiet; then
+            echo "No changes to deploy."
+          else
+            git commit -m "deploy: free-museums-paris ${GITHUB_SHA::7}"
+            git push
+          fi
