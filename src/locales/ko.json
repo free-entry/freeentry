@@ -43,7 +43,7 @@
     "departments": "데파르트망",
     "communes": "코뮌",
     "communesSearch": "코뮌 검색…",
-    "arrondissements": "파리 구 (아롱디스망)",
+    "arrondissements": "파리 구(아롱디스망)",
     "arrondissementLabel": "{{number}}구",
     "under26": "저는 26세 미만입니다 (EU 거주자)",
     "under26Hint": "26세 미만 무료 혜택을 무료입장으로 계산합니다",
@@ -85,7 +85,7 @@
     "checkedOn": "{{date}} 확인",
     "distanceAway": "{{km}} km 거리",
     "frenchName": "프랑스어 이름",
-    "noFreeScheme": "이곳은 알려진 정기 무료입장이 없습니다.",
+    "noFreeScheme": "이 시설에는 알려진 정기 무료입장 제도가 없습니다.",
     "back": "결과로 돌아가기",
     "close": "상세 정보 닫기"
   },
@@ -134,7 +134,7 @@
   },
   "a11y": {
     "resultsUpdated_other": "박물관 {{count}}곳 표시됨",
-    "dialogClose": "대화 상자 닫기",
+    "dialogClose": "창 닫기",
     "sheetExpand": "결과 패널 펼치기",
     "sheetCollapse": "결과 패널 접기",
     "selectedMarker": "선택됨: {{name}}"

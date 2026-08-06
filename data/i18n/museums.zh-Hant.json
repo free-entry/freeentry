@@ -94,9 +94,11 @@
     "description": "路易·布萊爾（Louis Braille）1809 年誕生於 Coupvray 的家宅，包括他幼年失明之處——父親的馬具工坊。博物館回顧他的一生，以及如今全球視障讀者通用的凸點文字的發明歷程。"
   },
   "memorial-de-la-shoah": {
+    "name": "猶太人大屠殺紀念館",
     "description": "法國最重要的猶太大屠殺紀念館與博物館，位於瑪黑區。「姓名之牆」銘刻自法國被遣送的 76,000 名猶太人的名字；常設展與大型文獻中心則梳理猶太大屠殺與歐洲猶太人的歷史。"
   },
   "memorial-de-la-shoah-de-drancy": {
+    "name": "德朗西猶太人大屠殺紀念館",
     "description": "2012 年開幕的紀念館與博物館，面對 Cité de la Muette——這片集合住宅在 1941 至 1944 年間是德朗西（Drancy）拘留營，約 63,000 名猶太人自此被遣送。展覽記錄拘留營的歷史與日常。"
   },
   "mus-musee-d-histoire-urbaine-et-sociale-de-suresnes": {
@@ -132,6 +134,7 @@
     "description": "巴黎市立亞洲藝術博物館，源自銀行家亨利·賽努奇（Henri Cernuschi）的收藏，設於他在蒙梭公園旁的宅邸。以中國古代青銅器與一尊購自東京目黑的巨型日本佛像著稱。"
   },
   "musee-cognacq-jay-musee-du-xviiie-siecle-de-la-ville-de-paris": {
+    "name": "科尼亞克-傑伊博物館",
     "description": "瑪黑區 Hôtel Donon 內一座精緻的十八世紀藝術博物館，源於莎瑪麗丹百貨（La Samaritaine）創辦人 Ernest Cognacq 的收藏：布雪、福拉哥納爾與夏爾丹的繪畫，以及粉彩、瓷器與家具。"
   },
   "musee-curie": {
@@ -152,6 +155,7 @@
     "description": "位於十四區聖安娜精神病院內的博物館，展出院方自二十世紀中葉蒐集的病患創作——一批重要的原生藝術（art brut）收藏——並舉辦特展。"
   },
   "musee-d-art-et-d-histoire-du-judaisme": {
+    "name": "猶太藝術與歷史博物館",
     "description": "設於瑪黑區十七世紀的 Hôtel de Saint-Aignan，梳理中世紀迄今的猶太藝術與歷史：禮儀器物、德雷福斯事件檔案，以及夏卡爾、莫迪利亞尼與蘇丁的作品。"
   },
   "musee-d-art-et-d-histoire-louis-senlecq": {
@@ -198,6 +202,7 @@
     "description": "芒特拉若利（Mantes-la-Jolie）的美術館，設於該城主宮醫院（Hôtel-Dieu）列級保護的舊禮拜堂內，2018 年整修完成。館內擁有法國最重要的新印象派畫家馬克西米連·呂斯（Maximilien Luce）公共收藏。"
   },
   "musee-de-l-institut-du-monde-arabe": {
+    "name": "阿拉伯世界學院博物館",
     "description": "阿拉伯世界學院（Institut du monde arabe）的博物館，縱覽阿拉伯世界的藝術與文明，自前伊斯蘭時代直到當代創作。館舍為讓·努維勒 1987 年落成的地標建築，以能過濾光線的幾何立面聞名。"
   },
   "musee-de-l-orangerie-des-tuileries": {
@@ -208,21 +213,25 @@
     "description": "設於 Château du Prieuré，俯瞰法國內河船民的歷史首府 Conflans-Sainte-Honorine。館內以船模、工具與文獻，回顧運河、拖曳與河運貿易交織而成的內河航運史。"
   },
   "musee-de-la-chasse-et-de-la-nature": {
+    "name": "狩獵自然博物館",
     "description": "設於瑪黑區的 Hôtel de Guénégaud 與 Hôtel de Mongelas 兩座宅邸，探索人與動物的關係，將古典大師繪畫、動物標本、古董獵具與當代藝術冶於一爐。"
   },
   "musee-de-la-franc-maconnerie": {
+    "name": "共濟會博物館",
     "description": "位於卡德街（rue Cadet）法國大東方社（Grand Orient de France）總部，透過儀式器物、圍裙、會所配飾，以及伏爾泰、拉法葉等著名會員的相關文獻，講述共濟會在法國三百年的歷史。"
   },
   "musee-de-la-gendarmerie": {
     "description": "法國國家憲兵博物館，2015 年於默倫（Melun）憲兵軍官學校旁開幕，以制服、武器、車輛與檔案，回顧這支部隊從中世紀騎警隊（maréchaussée）至今的歷史。"
   },
   "musee-de-la-grande-guerre": {
+    "name": "第一次世界大戰博物館",
     "description": "2011 年在馬恩河第一次會戰的戰場邊開幕，擁有歐洲規模數一數二的第一次世界大戰收藏——約七萬件文物與文獻，以收藏家 Jean-Pierre Verney 的舊藏為基礎。"
   },
   "musee-de-la-grande-loge-de-france": {
     "description": "設於十七區法蘭西大會所（Grande Loge de France）總部——一座前方濟會修道院——的博物館，以共濟會的歷史、象徵與藝術為主題，保存三千餘件十八世紀以來的文物。"
   },
   "musee-de-la-liberation-de-paris-musee-du-general-leclerc-musee-jean-moulin": {
+    "name": "巴黎解放博物館",
     "description": "2019 年遷入丹費爾-羅什洛（Denfert-Rochereau）的勒杜雙亭，這座巴黎市立博物館透過勒克萊爾將軍與讓·穆蘭（Jean Moulin）講述占領時期與巴黎解放的歷史，並包含羅爾-唐吉上校 1944 年 8 月的地下指揮所。"
   },
   "musee-de-la-musique": {
@@ -235,15 +244,18 @@
     "description": "藏身於拉丁區一座仍在運作的警察局內，追溯十七世紀以來巴黎警察的歷史，展出檔案、制服、武器與著名刑案的物證。"
   },
   "musee-de-la-renaissance-chateau-d-ecouen": {
+    "name": "法國國家文藝復興博物館",
     "description": "法國國家文藝復興博物館，設於巴黎以北為蒙莫朗西元帥安納（Anne de Montmorency）所建的十六世紀城堡。館藏包括十幅一組的《大衛與拔示巴》掛毯、琺瑯、陶瓷與彩繪壁爐。"
   },
   "musee-de-la-resistance-nationale": {
     "description": "位於馬恩河畔尚皮尼（Champigny-sur-Marne），擁有規模最大的法國抵抗運動收藏之一——地下報刊、傳單、武器與個人物品——2020 年起於新落成的 Aimé Césaire 館展出。"
   },
   "musee-de-la-toile-de-jouy": {
+    "name": "茹伊印花布博物館",
     "description": "設於 Château de l'Églantine，講述茹伊印花布（toile de Jouy）的故事：1760 年 Oberkampf 印染廠於 Jouy-en-Josas 創立後生產的印花棉布。展品包括布料、印版與時代服飾。"
   },
   "musee-de-la-vie-romantique": {
+    "name": "浪漫生活博物館",
     "description": "畫家阿里·謝弗（Ary Scheffer）1830 年的宅邸與畫室，位於蒙馬特山腳的「新雅典」街區，以喬治·桑的紀念物、謝弗及其交遊圈的作品重現浪漫主義時代的氛圍，庭園中設有茶室。"
   },
   "musee-de-melun": {
@@ -266,6 +278,7 @@
     "description": "聖莫爾（Saint-Maur）的藝術與歷史博物館，設於一座因凱薩琳·德·麥地奇曾駐蹕當地城堡而得名「梅迪奇別墅」的老宅。保存中世紀修道院的石雕構件、繪畫與版畫，以及裝飾藝術陶藝家 Édouard Cazaux 的重要收藏。"
   },
   "musee-departemental-albert-kahn": {
+    "name": "阿爾貝·卡恩博物館",
     "description": "以銀行家暨慈善家阿爾貝·卡恩（Albert Kahn）的「地球檔案」為主題的博物館——1909 至 1931 年間在世界各地拍攝的約 72,000 張早期彩色照片。隈研吾設計的館舍面向四公頃庭園，日式、英式與法式景致錯落其間。"
   },
   "musee-departemental-maurice-denis": {
@@ -328,6 +341,7 @@
     "description": "法國國家中世紀博物館，設於呂特斯（Lutetia）高盧-羅馬浴場遺址與十五世紀的克呂尼府邸。中世紀雕塑、彩繪玻璃與金銀工藝，環繞著名聞遐邇的《貴婦與獨角獸》掛毯。"
   },
   "musee-du-parfum-fragonard": {
+    "name": "花宮娜香水博物館",
     "description": "格拉斯（Grasse）香水世家 Fragonard 的博物館，設於加尼葉歌劇院附近一座拿破崙三世時期的宅邸。銅製蒸餾器、香精與古董香水瓶，追溯自古埃及到現代萃取技術的三千年製香史。"
   },
   "musee-du-quai-branly-jacques-chirac": {
@@ -351,6 +365,7 @@
     "description": "法國最古老的博物館之一，1766 年創立於阿爾福（Alfort）獸醫學院內。解剖與病理收藏以奧諾雷·法戈納（Honoré Fragonard）十八世紀的剝皮標本為壓卷之作，包括著名的「天啟騎士」。"
   },
   "musee-francais-de-la-carte-a-jouer-et-galerie-d-histoire-de-la-ville": {
+    "name": "法國撲克牌博物館",
     "description": "法國唯一以撲克牌為主題的博物館，收藏來自世界各地的古董牌組、塔羅牌與雕版。附設展廳講述伊西萊穆利諾（Issy-les-Moulineaux）的歷史與其已消失的城堡。"
   },
   "musee-gustave-moreau": {
@@ -390,6 +405,7 @@
     "description": "設於收藏家 Robert Dubois-Corneau 的故居，以十八世紀至今的繪畫、版畫與工藝美術品，講述布呂努瓦（Brunoy）與耶爾河谷的故事。"
   },
   "musee-national-de-l-histoire-et-des-cultures-de-l-immigration": {
+    "name": "法國國家移民史博物館",
     "description": "法國國家移民史博物館，設於為 1931 年殖民博覽會而建的裝飾藝術風格金門宮（Palais de la Porte Dorée）；館藏與個人見證追溯兩個世紀以來移居法國的歷史。"
   },
   "musee-national-de-la-legion-d-honneur-et-des-ordres-de-chevalerie": {
@@ -453,6 +469,7 @@
     "description": "法國的國家自然史博物館，1793 年創立於植物園（Jardin des Plantes）。展館從演化大展廳（Grande Galerie de l'Évolution）延伸到古生物學、比較解剖學、礦物學與植物學的浩瀚收藏。"
   },
   "palais-galliera-musee-de-la-mode-et-de-la-ville-de-paris": {
+    "name": "加列拉宮（巴黎市立時尚博物館）",
     "description": "巴黎市立時尚博物館，設於特羅卡德羅（Trocadéro）附近一座十九世紀文藝復興風格的宮殿。館藏梳理十八世紀至今的服裝，包括高級訂製服，以輪展與特展方式呈現。"
   },
   "pantheon": {

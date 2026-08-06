@@ -18,8 +18,8 @@
   "categories": {
     "always": "常年免费",
     "first-sunday": "每月第一个周日免费",
-    "first-sunday-booking": "第一个周日免费，需预约",
-    "first-sunday-low-season": "淡季第一个周日免费",
+    "first-sunday-booking": "每月第一个周日免费，需预约",
+    "first-sunday-low-season": "淡季每月第一个周日免费",
     "first-saturday": "每月第一个周六免费",
     "nocturne": "每月夜场免费",
     "special-days": "仅特定日期免费",
