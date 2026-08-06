@@ -14,15 +14,15 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['icons/apple-touch-icon.png', 'icons/icon.svg', 'robots.txt'],
       manifest: {
-        name: 'Free Museums Paris & Île-de-France',
+        name: 'Free Museums & Monuments — Paris & Île-de-France',
         short_name: 'Free Museums',
         description:
           'Interactive map of free museums and monuments in Paris and Île-de-France: always free, first Sundays, Museum Night, Heritage Days and more.',
         lang: 'en',
         start_url: '.',
         display: 'standalone',
-        theme_color: '#1d4e79',
-        background_color: '#fbfaf8',
+        theme_color: '#1266d3',
+        background_color: '#f8fbfe',
         categories: ['travel', 'education'],
         icons: [
           { src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' },
