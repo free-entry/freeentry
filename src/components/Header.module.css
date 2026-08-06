@@ -1,0 +1,97 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  block-size: var(--header-height);
+  padding-inline: 0.75rem;
+  background: var(--color-accent);
+  color: var(--color-accent-contrast);
+  box-shadow: var(--shadow-raised);
+  position: relative;
+  z-index: 20;
+}
+
+.wordmark {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: inherit;
+  text-decoration: none;
+  min-inline-size: 0;
+}
+
+.mark {
+  inline-size: 1.5rem;
+  block-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.05rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.search {
+  flex: 1;
+  min-inline-size: 0;
+  max-inline-size: 26rem;
+}
+
+.searchInput {
+  inline-size: 100%;
+  font: inherit;
+  color: var(--color-text);
+  background: var(--color-bg-raised);
+  border: none;
+  border-radius: 999px;
+  padding-block: 0.45rem;
+  padding-inline: 1rem;
+}
+
+.filtersButton {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font: inherit;
+  font-weight: 500;
+  color: inherit;
+  background: rgb(255 255 255 / 0.12);
+  border: 1px solid rgb(255 255 255 / 0.35);
+  border-radius: 999px;
+  padding-block: 0.4rem;
+  padding-inline: 0.8rem;
+  cursor: pointer;
+}
+
+.filtersButton:hover {
+  background: rgb(255 255 255 / 0.22);
+}
+
+.filterIcon {
+  inline-size: 1rem;
+  block-size: 1rem;
+}
+
+.count {
+  background: var(--color-accent-contrast);
+  color: var(--color-accent);
+  font-size: 0.75rem;
+  font-weight: 700;
+  border-radius: 999px;
+  padding-block: 0.05rem;
+  padding-inline: 0.45rem;
+}
+
+@media (max-width: 640px) {
+  .title {
+    display: none;
+  }
+  .filtersButton span:not(.count) {
+    display: none;
+  }
+}
