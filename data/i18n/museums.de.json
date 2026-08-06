@@ -1,11 +1,14 @@
 {
   "arc-de-triomphe": {
+    "name": "Triumphbogen",
     "description": "Triumphbogen, 1806 von Napoleon in Auftrag gegeben und 1836 am oberen Ende der Champs-Élysées vollendet. Unter ihm liegt das Grab des Unbekannten Soldaten; von der Dachterrasse blickt man auf die zwölf Avenuen, die strahlenförmig von der Place de l'Étoile ausgehen."
   },
   "archea-archeologie-en-pays-de-france": {
+    "name": "ARCHÉA – Archäologie im Pays de France",
     "description": "Archäologisches Museum des Gebiets Roissy Pays de France, 2010 in Louvres eröffnet. Die Exponate stammen aus örtlichen Grabungen, vor allem von der mittelalterlichen Burg Orville und aus den Töpferwerkstätten von Fosses, und umspannen zwei Jahrtausende Leben nördlich von Paris."
   },
   "arenes-de-lutece": {
+    "name": "Arènes de Lutèce",
     "description": "Überreste eines gallorömischen Amphitheaters aus dem 1. Jahrhundert im Quartier Latin, das rund 15.000 Zuschauern Platz für Theateraufführungen und Kampfspiele bot. 1869 bei Bauarbeiten wiederentdeckt, dient die Arena heute als öffentlicher Platz."
   },
   "basilique-cathedrale-de-saint-denis": {
@@ -17,6 +20,7 @@
     "description": "Romanisch-byzantinische Basilika auf dem Hügel von Montmartre, 1875 als nationales Gelübde begonnen und 1919 geweiht. Ihre weißen Kuppeln sind ein Wahrzeichen von Paris, und der Vorplatz bietet ein weites Panorama über die Stadt."
   },
   "bourse-de-commerce-pinault-collection": {
+    "name": "Bourse de Commerce – Pinault Collection",
     "description": "Museum für zeitgenössische Kunst, 2021 in der ehemaligen Pariser Warenbörse eröffnet, einem Rundbau unter einer Glas-Eisen-Kuppel des 19. Jahrhunderts. Von Tadao Ando umgestaltet, zeigt es wechselnde Ausstellungen aus der Sammlung von François Pinault."
   },
   "cathedrale-notre-dame-de-paris": {
@@ -24,6 +28,7 @@
     "description": "Gotische Kathedrale auf der Île de la Cité, erbaut zwischen 1163 und 1345, berühmt für ihre Doppelturmfassade, ihre Rosettenfenster und ihr Strebewerk. Nach dem Brand von 2019 und der Restaurierung ist sie seit Dezember 2024 wieder für Besucher geöffnet."
   },
   "chapelle-expiatoire": {
+    "name": "Sühnekapelle",
     "description": "Klassizistische Kapelle, zwischen 1815 und 1826 für Ludwig XVIII. auf dem ehemaligen Madeleine-Friedhof errichtet, wo Ludwig XVI. und Marie-Antoinette nach ihrer Hinrichtung begraben worden waren. Der Bau von Pierre Fontaine ist eine Gedenkstätte für die Opfer der Revolution."
   },
   "chateau-de-champs-sur-marne": {
@@ -47,48 +52,63 @@
     "description": "Mittelalterliche Königsresidenz am östlichen Stadtrand von Paris mit einem 52 Meter hohen Donjon, dem höchsten seiner Art in Europa, und einer 1379 begonnenen Sainte-Chapelle. Vor Versailles residierten hier die französischen Könige; der Donjon diente später als Staatsgefängnis."
   },
   "chateau-musee-de-nemours": {
+    "name": "Museumsschloss Nemours",
     "description": "Burg aus dem 12. Jahrhundert im Zentrum von Nemours, von örtlichen Künstlern gerettet und 1903 als Museum eröffnet. Die Sammlungen konzentrieren sich auf die Kunst des späten 19. und frühen 20. Jahrhunderts, darunter Werke des Bildhauers Justin-Chrysostome Sanson."
   },
   "collections-de-la-fondation-de-coubertin": {
+    "name": "Sammlungen der Fondation de Coubertin",
     "description": "Museum der Fondation de Coubertin im Tal der Chevreuse, der Bildhauerei rund um Joseph Bernard und dem feinen Kunsthandwerk gewidmet. Bronzen stehen unter freiem Himmel im Jardin des Bronzes, gleich neben den renommierten Werkstätten des Anwesens."
   },
   "conciergerie": {
+    "name": "Conciergerie",
     "description": "Erhaltener Teil des mittelalterlichen Königspalasts auf der Île de la Cité, später das berüchtigtste Gefängnis der Revolution, in dem Marie-Antoinette vor ihrer Hinrichtung einsaß. Der gotische Saal der Gens d'armes stammt aus dem frühen 14. Jahrhundert."
   },
   "ecomusee-94260": {
+    "name": "Ökomuseum Grand-Orly Seine Bièvre",
     "description": "Stadtteil- und Alltagsmuseum, 1979 in der ehemaligen Ferme de Cottinville in Fresnes gegründet; es dokumentiert Alltagsleben und sozialen Wandel in den südlichen Vororten von Paris. Gesammelt werden Objekte und Erinnerungen der Bewohner, dazu kommen gesellschaftsbezogene Ausstellungen."
   },
   "europa-experience": {
+    "name": "Europa Experience",
     "description": "Besucherzentrum des Europäischen Parlaments an der Place de la Madeleine, eröffnet 2022. Interaktive Stationen, ein 360-Grad-Kino und Rollenspiele erklären, wie die Europäische Union funktioniert und was sie im Alltag bewirkt."
   },
   "fondation-arp": {
+    "name": "Fondation Arp",
     "description": "Wohnhaus und Ateliers der Künstler Hans Arp und Sophie Taeuber-Arp in Clamart, 1929 nach Taeuber-Arps eigenem Entwurf erbaut. Räume und Garten zeigen Skulpturen, Reliefs und Papierarbeiten des Paares, weitgehend in der ursprünglichen Anordnung belassen."
   },
   "hotel-de-la-marine": {
+    "name": "Hôtel de la Marine",
     "description": "Der von Ange-Jacques Gabriel im 18. Jahrhundert errichtete Palast an der Place de la Concorde beherbergte das königliche Möbellager und danach zwei Jahrhunderte lang das Marineministerium. Seit der Wiedereröffnung 2021 sind restaurierte Appartements und Prunksäle mit Blick auf den Platz zu sehen."
   },
   "la-cinematheque-francaise": {
+    "name": "Cinémathèque française",
     "description": "1936 von Henri Langlois gegründetes Filmarchiv und -museum in einem Bau von Frank Gehry in Bercy. Das Musée Méliès erzählt die Filmgeschichte anhand von Kameras, Kostümen und Laterna-magica-Apparaten; dazu kommen tägliche Vorführungen und Ausstellungen."
   },
   "la-maison-elysee": {
+    "name": "Maison Élysée",
     "description": "Besucherraum gegenüber dem Élysée-Palast in der Rue du Faubourg Saint-Honoré 88 mit kleinem Museum, Boutique und Teesalon. Objekte, Porträts und ein 3D-Film erzählen die Geschichte des Palasts vom Hôtel d'Évreux von 1722 bis zur heutigen Präsidentschaft."
   },
   "le-plateau-frac-ile-de-france": {
+    "name": "Le Plateau – Frac Île-de-France",
     "description": "Ausstellungsraum des Fonds régional d'art contemporain d'Île-de-France im Viertel Buttes-Chaumont im 19. Arrondissement. Mehrmals im Jahr zeigt er zeitgenössische Kunst aus der Regionalsammlung sowie aufstrebende und internationale Künstler."
   },
   "maison-de-balzac": {
+    "name": "Balzac-Haus",
     "description": "Das bescheidene Haus des Schriftstellers in Passy, das einzige erhaltene seiner Pariser Domizile, in dem er von 1840 bis 1847 lebte und La Comédie humaine überarbeitete. Manuskripte, Porträts und sein berühmter türkisbesetzter Spazierstock erzählen von Leben und Werk."
   },
   "maison-de-victor-hugo": {
+    "name": "Victor-Hugo-Haus",
     "description": "Die Wohnung an der Place des Vosges, in der Victor Hugo von 1832 bis 1848 lebte, heute ein Museum. Zeichnungen, Manuskripte, Porträts und der chinesisch inspirierte Salon, den er für Juliette Drouet gestaltete, zeichnen das Leben des Schriftstellers von der Kindheit bis zum Exil nach."
   },
   "maison-des-jardies": {
+    "name": "Maison des Jardies",
     "description": "Ehemaliges Winzerhaus in Sèvres, in dem Balzac von 1837 bis 1840 lebte und Léon Gambetta 1882 starb. Vom Centre des monuments nationaux betreut, bewahrt es Gambettas Zimmer im Originalzustand; im Garten steht ein Denkmal von Bartholdi."
   },
   "maison-musee-maurice-ravel": {
+    "name": "Maurice-Ravel-Haus",
     "description": "Le Belvédère, das kleine Haus in Montfort-l'Amaury, in dem Maurice Ravel von 1921 bis 1937 lebte und unter anderem den Boléro komponierte. Die Räume bewahren Möbel, mechanisches Spielzeug und Dekor genau so, wie der Komponist sie eingerichtet hatte."
   },
   "maison-natale-de-louis-braille": {
+    "name": "Geburtshaus von Louis Braille",
     "description": "Das Elternhaus in Coupvray, in dem Louis Braille 1809 geboren wurde, mit der Sattlerwerkstatt, in der er als Kind sein Augenlicht verlor. Das Museum zeichnet sein Leben und die Erfindung der Punktschrift nach, die blinde Menschen weltweit nutzen."
   },
   "memorial-de-la-shoah": {
@@ -100,27 +120,35 @@
     "description": "2012 eröffnete Gedenkstätte mit Museum gegenüber der Cité de la Muette, jener Wohnsiedlung, die von 1941 bis 1944 als Internierungslager Drancy diente und von der aus rund 63.000 Jüdinnen und Juden deportiert wurden. Die Ausstellung dokumentiert Geschichte und Alltag des Lagers."
   },
   "mus-musee-d-histoire-urbaine-et-sociale-de-suresnes": {
+    "name": "MUS – Museum für Stadt- und Sozialgeschichte von Suresnes",
     "description": "Museum für Stadt- und Sozialgeschichte im ehemaligen Bahnhof Suresnes-Longchamp. Es erzählt, wie sich die Stadt im 20. Jahrhundert wandelte, insbesondere durch Henri Selliers Gartenstadt und die wegweisende Freiluftschule."
   },
   "musee": {
+    "name": "Interkommunales Museum von Nogent-sur-Marne",
     "description": "Lokalgeschichtliches Museum der Marne-Ufer, das erzählt, wie Bootspartien, Flussbäder und die Guinguettes am Wasser Nogent seit dem 19. Jahrhundert zu einem Zentrum des Pariser Sonntagsvergnügens machten. Gemälde, Plakate und Postkarten dokumentieren die umliegenden Gemeinden."
   },
   "musee-adrien-mentienne": {
+    "name": "Adrien-Mentienne-Museum",
     "description": "Städtisches Museum von Bry-sur-Marne, benannt nach einem örtlichen Historiker und Bürgermeister. Neben lokalgeschichtlichen Beständen besitzt es eine der bedeutendsten Sammlungen Frankreichs zu Louis Daguerre, dem Erfinder der Daguerreotypie, der seine letzten Jahre in Bry verbrachte."
   },
   "musee-alfred-bonno": {
+    "name": "Alfred-Bonno-Museum",
     "description": "Archäologisches Museum von Chelles, 2026 in vollständig neu gestalteten Räumen wiedereröffnet. Die Funde aus örtlichen Grabungen reichen von altsteinzeitlichen Feuersteinwerkzeugen bis in die Merowingerzeit, darunter seltene frühmittelalterliche Textilien, die mit Königin Bathilde und der königlichen Abtei von Chelles verbunden sind."
   },
   "musee-archeologique-departemental-du-val-d-oise": {
+    "name": "Archäologisches Museum des Val-d'Oise (MADVO)",
     "description": "Das archäologische Museum des Départements Val-d'Oise im Vexin-Dorf Guiry. Der chronologische Rundgang reicht von der Vorgeschichte bis ins 20. Jahrhundert, mit Funden aus der gallorömischen Stätte von Genainville und Frankreichs größter Sammlung merowingischer Stelen."
   },
   "musee-belmondo-et-de-la-sculpture-figurative-du-xxe-siecle": {
+    "name": "Paul-Belmondo-Museum",
     "description": "Museum im Château Buchillot aus dem 18. Jahrhundert, dem Bildhauer Paul Belmondo (1898–1982) gewidmet, einer führenden Figur der figurativen Skulptur des 20. Jahrhunderts. Gezeigt werden seine Marmorarbeiten, Bronzen, Medaillen und Zeichnungen, die seine Kinder der Stadt Boulogne-Billancourt schenkten."
   },
   "musee-bossuet": {
+    "name": "Bossuet-Museum",
     "description": "Museum der schönen Künste von Meaux im ehemaligen Bischofspalast neben der Kathedrale, benannt nach Bossuet, dem berühmten Bischof und Prediger des 17. Jahrhunderts. Es zeigt Malerei und Skulptur vom 16. bis zum 19. Jahrhundert; der mitraförmige Garten wird Le Nôtre zugeschrieben."
   },
   "musee-bourdelle": {
+    "name": "Bourdelle-Museum",
     "description": "Die Ateliers und Gärten in Montparnasse, in denen der Bildhauer Antoine Bourdelle, Schüler und Mitarbeiter Rodins, lebte und arbeitete. Gipse, Marmorarbeiten und monumentale Bronzen wie der Herakles als Bogenschütze sind in den erhaltenen Werkstätten und einem modernen Anbau zu sehen."
   },
   "musee-carnavalet-histoire-de-paris": {
@@ -144,12 +172,15 @@
     "description": "Frankreichs nationales Archäologiemuseum residiert im königlichen Schloss von Saint-Germain-en-Laye, das unter Franz I. neu erbaut wurde. Die Sammlungen reichen vom Paläolithikum bis ins frühe Mittelalter und umfassen die 25.000 Jahre alte Dame von Brassempouy."
   },
   "musee-d-art-contemporain-du-val-de-marne": {
+    "name": "MAC VAL – Museum für zeitgenössische Kunst des Val-de-Marne",
     "description": "Das 2005 in Vitry-sur-Seine eröffnete MAC VAL war das erste Museum, das sich ausschließlich der in Frankreich seit den 1950er-Jahren entstandenen Gegenwartskunst widmet. Die Sammlung wird in regelmäßig erneuerten Präsentationen gezeigt, ergänzt durch Wechselausstellungen und einen Skulpturengarten."
   },
   "musee-d-art-et-d-histoire": {
+    "name": "Kunst- und Geschichtsmuseum von Meudon",
     "description": "Das Kunst- und Geschichtsmuseum von Meudon befindet sich im ältesten Haus der Stadt, einst Heim des königlichen Chirurgen Ambroise Paré und später von Molières Witwe Armande Béjart. Es widmet sich der Lokalgeschichte und der Landschaftsmalerei; im Garten sind Skulpturen des 20. Jahrhunderts zu sehen."
   },
   "musee-d-art-et-d-histoire-de-l-hopital-sainte-anne": {
+    "name": "Kunst- und Geschichtsmuseum des Krankenhauses Sainte-Anne",
     "description": "Museum auf dem Gelände der psychiatrischen Klinik Sainte-Anne im 14. Arrondissement. Es zeigt die seit Mitte des 20. Jahrhunderts zusammengetragene Sammlung von Werken der Patientinnen und Patienten – ein bedeutendes Ensemble der Art brut – sowie Wechselausstellungen."
   },
   "musee-d-art-et-d-histoire-du-judaisme": {
@@ -157,24 +188,31 @@
     "description": "Im Hôtel de Saint-Aignan aus dem 17. Jahrhundert im Marais zeichnet das Museum jüdische Kunst und Geschichte vom Mittelalter bis heute nach – mit Zeremonialobjekten, Archivalien zur Dreyfus-Affäre und Werken von Chagall, Modigliani und Soutine."
   },
   "musee-d-art-et-d-histoire-louis-senlecq": {
+    "name": "Kunst- und Geschichtsmuseum Louis Senlecq",
     "description": "Das Kunst- und Geschichtsmuseum von L'Isle-Adam in einem Stadtpalais des 18. Jahrhunderts besitzt eine der schönsten Sammlungen des Landschaftsmalers Jules Dupré, eines Vertreters der Schule von Barbizon, der sein Atelier in der Stadt hatte, sowie Werke zum lokalen Erbe."
   },
   "musee-d-art-et-d-histoire-paul-eluard": {
+    "name": "Kunst- und Geschichtsmuseum Paul Éluard",
     "description": "Das Kunst- und Geschichtsmuseum von Saint-Denis liegt in einem ehemaligen Karmelitinnenkloster, in dem Louise, die Tochter Ludwigs XV., Nonne war. Die Sammlungen reichen von den restaurierten Klosterzellen über die Pariser Kommune von 1871 bis zum Dichter Paul Éluard, der in der Stadt geboren wurde."
   },
   "musee-d-art-moderne-de-la-ville-de-paris": {
+    "name": "Museum für moderne Kunst der Stadt Paris",
     "description": "Das Museum für moderne Kunst der Stadt Paris im Ostflügel des Palais de Tokyo von 1937 umspannt die Kunst des 20. und 21. Jahrhunderts vom Fauvismus bis heute, mit Hauptwerken von Matisse, Delaunay und Dufy, darunter dessen riesiges Wandbild „La Fée Électricité“."
   },
   "musee-d-ennery": {
+    "name": "Musée d'Ennery",
     "description": "Ein Sammlerhaus an der Avenue Foch, dem Musée Guimet angegliedert; es bewahrt die japanische und chinesische Kunst, die Clémence d'Ennery im 19. Jahrhundert zusammentrug – Netsuke, Keramik und Fabelwesen – in den originalen Interieurs des Second Empire."
   },
   "musee-d-histoire-locale-memoire-de-la-ville": {
+    "name": "Lokalgeschichtliches Museum von Rueil-Malmaison",
     "description": "Lokalgeschichtliches Museum im ehemaligen Rathaus von Rueil-Malmaison aus dem 19. Jahrhundert. Es erzählt die Geschichte der Stadt von den Anfängen bis heute, mit Figurendioramen der Grande Armée Napoleons und Erinnerungsstücken an Kaiserin Joséphine, die im nahen Malmaison lebte."
   },
   "musee-d-orsay": {
+    "name": "Musée d'Orsay",
     "description": "Im ehemaligen Bahnhof Orsay, gebaut für die Weltausstellung 1900, beherbergt das Museum die weltweit reichste Sammlung impressionistischer und postimpressionistischer Malerei – Monet, Renoir, Degas, Van Gogh – sowie französische Kunst von 1848 bis 1914."
   },
   "musee-daubigny": {
+    "name": "Daubigny-Museum",
     "description": "Museum im Manoir des Colombières aus dem 17. Jahrhundert in Auvers-sur-Oise, Charles-François Daubigny gewidmet, einem Wegbereiter des Impressionismus, mit Werken seines Umkreises und der Maler des Oise-Tals sowie Sammlungen naiver Kunst und von Katzendarstellungen."
   },
   "musee-de-l-air-et-de-l-espace": {
@@ -186,15 +224,19 @@
     "description": "Frankreichs militärgeschichtliches Museum im Hôtel des Invalides, dem von Ludwig XIV. errichteten Veteranenkomplex. Die Sammlungen reichen von mittelalterlichen Rüstungen bis zu den beiden Weltkriegen; im Invalidendom mit seiner goldenen Kuppel ruht Napoleon I."
   },
   "musee-de-l-ecole-de-barbizon-auberge-ganne": {
+    "name": "Museum der Schule von Barbizon – Auberge Ganne",
     "description": "Die ehemalige Auberge Ganne in Barbizon, in der ab den 1820er-Jahren Landschaftsmaler logierten, bewahrt Wände und Schränke voller von ihnen gemalter Dekorationen. Das Museum erzählt von der Schule um Millet und Théodore Rousseau am Rand des Walds von Fontainebleau."
   },
   "musee-de-l-ecole-nationale-superieure-des-beaux-arts": {
+    "name": "Museum der École nationale supérieure des beaux-arts",
     "description": "Die Sammlung von Frankreichs traditionsreicher Kunsthochschule umfasst rund 450.000 Werke, von Altmeisterzeichnungen und Druckgrafik bis zu Studentenarbeiten des Prix de Rome, gezeigt in Wechselausstellungen in den Gebäuden der Schule am linken Seine-Ufer."
   },
   "musee-de-l-histoire-vivante": {
+    "name": "Museum der lebendigen Geschichte",
     "description": "Museum zur französischen Sozial- und Arbeitergeschichte, 1937 gegründet und in einem Herrenhaus im Parc Montreau in Montreuil untergebracht. Fotografien, Druckgrafik und Objekte zeichnen die Arbeiterbewegung und die politischen Kämpfe von der Revolution bis heute nach."
   },
   "musee-de-l-hotel-dieu": {
+    "name": "Museum des Hôtel-Dieu",
     "description": "Das Museum der schönen Künste von Mantes-la-Jolie residiert in der denkmalgeschützten ehemaligen Kapelle des städtischen Hôtel-Dieu-Hospitals, 2018 renoviert. Es besitzt Frankreichs bedeutendste öffentliche Sammlung von Werken des neoimpressionistischen Malers Maximilien Luce."
   },
   "musee-de-l-institut-du-monde-arabe": {
@@ -202,9 +244,11 @@
     "description": "Das Museum des Institut du monde arabe gibt einen Überblick über die Künste und Kulturen der arabischen Welt, von der vorislamischen Antike bis zum zeitgenössischen Schaffen – in Jean Nouvels markantem Bau von 1987 mit seiner lichtregulierenden geometrischen Fassade."
   },
   "musee-de-l-orangerie-des-tuileries": {
+    "name": "Musée de l'Orangerie",
     "description": "Eine ehemalige Orangerie der Tuilerien, die heute Monets monumentalen Seerosen-Zyklus in zwei eigens dafür gestalteten ovalen Sälen zeigt, dazu die Sammlung Walter-Guillaume mit Renoir, Cézanne, Matisse, Picasso und Modigliani."
   },
   "musee-de-la-batellerie": {
+    "name": "Museum der Binnenschifffahrt",
     "description": "Im Château du Prieuré hoch über Conflans-Sainte-Honorine, der historischen Hauptstadt der französischen Binnenschiffer, zeichnet dieses Museum die Flussschifffahrt nach – mit Schiffsmodellen, Werkzeugen und Dokumenten zu Kanälen, Treidelei und Flusshandel."
   },
   "musee-de-la-chasse-et-de-la-nature": {
@@ -216,6 +260,7 @@
     "description": "Am Sitz des Grand Orient de France in der Rue Cadet erzählt dieses Museum drei Jahrhunderte Freimaurerei in Frankreich – mit Ritualgegenständen, Schurzen, Logeninsignien und Dokumenten berühmter Freimaurer wie Voltaire und La Fayette."
   },
   "musee-de-la-gendarmerie": {
+    "name": "Museum der Nationalen Gendarmerie",
     "description": "Das nationale Museum der französischen Gendarmerie, 2015 neben der Offiziersschule in Melun eröffnet, zeichnet die Geschichte der Truppe von der mittelalterlichen Maréchaussée bis heute nach – mit Uniformen, Waffen, Fahrzeugen und Archivalien."
   },
   "musee-de-la-grande-guerre": {
@@ -223,6 +268,7 @@
     "description": "2011 am Rand des Schlachtfelds der ersten Marneschlacht eröffnet, besitzt dieses Museum eine der größten Sammlungen Europas zum Ersten Weltkrieg: rund 70.000 Objekte und Dokumente, aufgebaut um die Bestände des Sammlers Jean-Pierre Verney."
   },
   "musee-de-la-grande-loge-de-france": {
+    "name": "Museum der Grande Loge de France",
     "description": "Im Sitz der Grande Loge de France, einem ehemaligen Franziskanerkloster im 17. Arrondissement, bewahrt dieses Museum zur Geschichte, Symbolik und Kunst der Freimaurerei über 3.000 Objekte vom 18. Jahrhundert bis heute."
   },
   "musee-de-la-liberation-de-paris-musee-du-general-leclerc-musee-jean-moulin": {
@@ -230,12 +276,15 @@
     "description": "Seit 2019 in den Ledoux-Pavillons an der Place Denfert-Rochereau untergebracht, erzählt dieses Museum der Stadt Paris von Besatzung und Befreiung der Stadt anhand von General Leclerc und Jean Moulin – samt dem unterirdischen Gefechtsstand von Colonel Rol-Tanguy vom August 1944."
   },
   "musee-de-la-musique": {
+    "name": "Musikmuseum",
     "description": "Das Instrumentenmuseum der Philharmonie de Paris in La Villette zeigt rund 1.000 Stücke aus einer Sammlung von über 8.000 – Stradivari-Geigen, Cembali, seltene Gitarren – und umspannt fünf Jahrhunderte europäischer und außereuropäischer Musik."
   },
   "musee-de-la-poste": {
+    "name": "Postmuseum",
     "description": "Das Museum der französischen Post nahe Montparnasse, 2019 nach Komplettsanierung wiedereröffnet. Die Sammlungen reichen von Postkutschen, Uniformen und Briefkästen über das Epos der Luftpost bis zu einer der bedeutendsten philatelistischen Sammlungen Frankreichs."
   },
   "musee-de-la-prefecture-de-police": {
+    "name": "Museum der Polizeipräfektur Paris",
     "description": "Versteckt in einem aktiven Kommissariat im Quartier Latin, zeichnet dieses Museum die Geschichte der Pariser Polizei seit dem 17. Jahrhundert nach – mit Archivalien, Uniformen, Waffen und Beweisstücken aus berühmten Kriminalfällen."
   },
   "musee-de-la-renaissance-chateau-d-ecouen": {
@@ -243,6 +292,7 @@
     "description": "Frankreichs nationales Renaissancemuseum füllt das im 16. Jahrhundert für den Connétable Anne de Montmorency erbaute Schloss nördlich von Paris. Zu den Sammlungen zählen der zehnteilige Tapisserienzyklus von David und Bathseba, Emailarbeiten, Keramik und bemalte Kamine."
   },
   "musee-de-la-resistance-nationale": {
+    "name": "Museum des nationalen Widerstands",
     "description": "Dieses Museum in Champigny-sur-Marne besitzt eine der größten Sammlungen zur französischen Résistance – Untergrundzeitungen, Flugblätter, Waffen und persönliche Gegenstände –, seit 2020 präsentiert im neuen Gebäude Aimé Césaire."
   },
   "musee-de-la-toile-de-jouy": {
@@ -254,21 +304,27 @@
     "description": "Haus und Atelier des Malers Ary Scheffer von 1830 im Viertel „Nouvelle Athènes“ am Fuß des Montmartre beschwören die Epoche der Romantik – mit Erinnerungsstücken an George Sand, Werken Scheffers und seines Kreises und einem Teesalon im Garten."
   },
   "musee-de-melun": {
+    "name": "Museum von Melun",
     "description": "Das Kunst- und Geschichtsmuseum von Melun, 1860 gegründet und im Hôtel de la Vicomté aus dem 16. Jahrhundert untergebracht. Es zeigt gallorömische und mittelalterliche Funde aus der Stadt sowie Gemälde und ein umfangreiches Werk des Bildhauers Henri Chapu."
   },
   "musee-de-montmartre": {
+    "name": "Museum von Montmartre",
     "description": "In einem der ältesten Häuser des Hügels, in dem Renoir, Suzanne Valadon und Utrillo lebten oder arbeiteten, zeichnet das Museum die Bohème-Ära von Montmartre nach – mit Gemälden und Kabarettplakaten, Valadons rekonstruiertem Atelier und Gärten über dem Weinberg Clos Montmartre."
   },
   "musee-de-port-royal-des-champs": {
+    "name": "Museum von Port-Royal des Champs",
     "description": "Nationalmuseum am Ort der zerstörten Abtei Port-Royal-des-Champs, dem mit Pascal und Racine verbundenen Zentrum des Jansenismus im 17. Jahrhundert. Die ehemaligen Petites Écoles zeigen Gemälde von Philippe de Champaigne und Erinnerungsstücke der Gemeinschaft, inmitten des Abteigeländes."
   },
   "musee-de-prehistoire-d-ile-de-france": {
+    "name": "Vorgeschichtsmuseum der Île-de-France",
     "description": "Départementsmuseum zur Vorgeschichte der Region in einem Sichtbetonbau des Architekten Roland Simounet am Waldrand von Nemours. Der Rundgang reicht vom Paläolithikum bis zur Eisenzeit, mit Funden bedeutender Fundplätze des Seine-Tals wie Pincevent und Étiolles."
   },
   "musee-de-provins-et-du-provinois": {
+    "name": "Museum von Provins und dem Provinois",
     "description": "Lokalmuseum der mittelalterlichen Messestadt Provins, die zum UNESCO-Welterbe zählt, in der Maison Romane, einem ihrer ältesten Häuser. Die Sammlungen reichen von der Vorgeschichte bis ins 19. Jahrhundert, von mittelalterlicher Skulptur und glasierten Bodenfliesen bis zu Kirchenschätzen."
   },
   "musee-de-saint-maur-villa-medicis": {
+    "name": "Villa Médicis – Haus der Künste und der Kultur",
     "description": "Das Kunst- und Geschichtsmuseum von Saint-Maur in einem alten Haus, das nach den Aufenthalten Katharinas von Medici im Schloss der Stadt „Villa Médicis“ genannt wird. Es bewahrt Bauplastik der mittelalterlichen Abtei, Gemälde und Druckgrafik sowie eine große Sammlung des Art-déco-Keramikers Édouard Cazaux."
   },
   "musee-departemental-albert-kahn": {
@@ -276,15 +332,19 @@
     "description": "Museum der „Archive des Planeten“ des Bankiers und Philanthropen Albert Kahn: rund 72.000 frühe Farbfotografien, zwischen 1909 und 1931 in aller Welt aufgenommen. Der von Kengo Kuma entworfene Bau öffnet sich auf vier Hektar Gärten mit japanischen, englischen und französischen Szenerien."
   },
   "musee-departemental-maurice-denis": {
+    "name": "Maurice-Denis-Museum",
     "description": "Museum zum Maler Maurice Denis und den Nabis im Prieuré, einem ehemaligen königlichen Hospital aus dem 17. Jahrhundert, das Denis 1914 kaufte und bis zu seinem Tod bewohnte. Zu sehen sind Werke von Denis, Sérusier, Bonnard und ihrem Kreis, die von ihm ausgemalte Kapelle und Terrassengärten."
   },
   "musee-departemental-stephane-mallarme": {
+    "name": "Stéphane-Mallarmé-Museum",
     "description": "Das Haus am Flussufer gegenüber dem Wald von Fontainebleau, in dem der Dichter Stéphane Mallarmé ab 1874 seine Sommer verbrachte und 1898 starb. Erhalten sind seine möblierten Zimmer, persönliche Gegenstände, Porträts und Manuskripte sowie ein Garten, der wie zu seiner Zeit bepflanzt ist."
   },
   "musee-des-annees-trente": {
+    "name": "Museum der 1930er-Jahre",
     "description": "Museum für Kunst und Gestaltung der Zwischenkriegszeit: figurative Malerei, Skulptur, Art-déco-Möbel und Modelle der modernistischen Villen, die Le Corbusier, Mallet-Stevens und Perret in Boulogne-Billancourt bauten. Es gehört zum Kulturkomplex Espace Landowski."
   },
   "musee-des-archives-nationales-hotel-de-soubise": {
+    "name": "Museum des Nationalarchivs – Hôtel de Soubise",
     "description": "Museum des französischen Nationalarchivs im Hôtel de Soubise, einem fürstlichen Marais-Palais mit Rokoko-Appartements von Germain Boffrand. In wechselnden Präsentationen sind Schlüsseldokumente der französischen Geschichte zu sehen, von Königstestamenten bis zum letzten Brief Marie-Antoinettes."
   },
   "musee-des-arts-asiatiques-guimet": {
@@ -296,33 +356,43 @@
     "description": "Museum für Kunstgewerbe und Design im Rivoli-Flügel des Louvre-Palasts: Möbel, Glas, Keramik, Tapeten, Grafikdesign und Mode vom Mittelalter bis heute, mit Stilräumen und bedeutenden Beständen des Jugendstils und Art déco."
   },
   "musee-des-arts-et-metiers": {
+    "name": "Museum der Künste und Gewerbe",
     "description": "Technikmuseum, 1794 mit dem Conservatoire des arts et métiers gegründet und teilweise in einem ehemaligen mittelalterlichen Priorat untergebracht. Zu den Instrumenten, Maschinen und Fahrzeugen zählen das Foucaultsche Pendel, Lavoisiers Labor und die frühen Flugzeuge von Ader und Blériot."
   },
   "musee-des-avelines-musee-d-art-et-d-histoire-de-saint-cloud": {
+    "name": "Musée des Avelines, Kunst- und Geschichtsmuseum von Saint-Cloud",
     "description": "Das Kunst- und Geschichtsmuseum von Saint-Cloud in einer von der Villa Kérylos inspirierten Villa der 1930er-Jahre. Die Sammlungen erinnern an das 1870 abgebrannte königliche Schloss, die Weichporzellan-Manufaktur des 18. Jahrhunderts und lokale Maler und Bildhauer."
   },
   "musee-des-monnaies-et-medailles": {
+    "name": "Museum der Monnaie de Paris (11 Conti)",
     "description": "Museum der Monnaie de Paris – der 864 gegründeten französischen Münzprägeanstalt – in ihrem klassizistischen Palast des 18. Jahrhunderts am Quai de Conti. Der Rundgang „11 Conti“ zeigt Münzen, Medaillen und Prägepressen und gewährt Einblick in Werkstätten, in denen bis heute Medaillen geprägt werden."
   },
   "musee-des-monuments-francais": {
+    "name": "Museum der französischen Denkmäler",
     "description": "In der Cité de l'architecture et du patrimoine im Palais de Chaillot versammelt dieses von Viollet-le-Duc erdachte Museum lebensgroße Abgüsse von Portalen und Skulpturen französischer Kathedralen und Schlösser sowie Kopien mittelalterlicher Wandmalereien."
   },
   "musee-des-pays-de-seine-et-marne": {
+    "name": "Museum der Landschaften der Seine-et-Marne",
     "description": "Départementsmuseum zum ländlichen Leben in Seine-et-Marne: Hofgeräte, Handwerke und Volkstraditionen der Brie, mit einer Abteilung zum Schriftsteller Pierre Mac Orlan, der bis zu seinem Tod 1970 in Saint-Cyr-sur-Morin lebte."
   },
   "musee-des-plans-reliefs": {
+    "name": "Museum der Reliefpläne",
     "description": "Unter dem Dach des Hôtel des Invalides bewahrt dieses Museum die 1668 für Ludwig XIV. begonnene Sammlung von Reliefplänen befestigter Städte: minutiös detaillierte Modelle, mit denen einst Belagerungen und Verteidigungsanlagen entlang der französischen Grenzen geplant wurden."
   },
   "musee-des-transports-urbains-interurbains-et-ruraux": {
+    "name": "Museum für städtische, überörtliche und ländliche Verkehrsmittel",
     "description": "Von Ehrenamtlichen betriebenes Museum des Vereins AMTUIR, das über ein Jahrhundert französischen Nahverkehr bewahrt: Pferdeomnibusse, Straßenbahnen, Obusse, Busse und Métro-Wagen in einem großen Depot in Chelles, zugänglich an Öffnungstagen und bei Kulturerbe-Veranstaltungen."
   },
   "musee-du-chateau": {
+    "name": "Museum der Burg Dourdan",
     "description": "Museum in der Burg von Dourdan, einer gut erhaltenen Festung, um 1220 für König Philipp II. August erbaut und lange als Gefängnis genutzt. Die Sammlungen widmen sich der Geschichte der Burg, der lokalen Archäologie und mittelalterlicher Keramik."
   },
   "musee-du-domaine-royal-de-marly-louveciennes-marly-le-roi": {
+    "name": "Museum der königlichen Domäne von Marly",
     "description": "Museum zur verschwundenen königlichen Domäne von Marly, dem Rückzugsort Ludwigs XIV. abseits von Versailles. Gemälde, Skulpturen und Modelle vergegenwärtigen das abgerissene Schloss, seine Gärten und die berühmte Maschine von Marly, die Seine-Wasser zu den Fontänen hob."
   },
   "musee-du-jouet-pierre-pinel": {
+    "name": "Pierre-Pinel-Spielzeugmuseum",
     "description": "Spielzeugmuseum im befestigten Torhaus des ehemaligen königlichen Priorats von Poissy aus dem 14. Jahrhundert, gegründet von Philipp dem Schönen. Rund 800 französische Spielzeuge von 1850 bis 1950, darunter Porzellanpuppen, Teddybären, Schaukelpferde und elektrische Eisenbahnen."
   },
   "musee-du-louvre": {
@@ -330,6 +400,7 @@
     "description": "Das größte Kunstmuseum der Welt im ehemaligen Palast der französischen Könige. Die Sammlungen reichen von der Antike bis 1848, von ägyptischen Altertümern und der Venus von Milo bis zur Mona Lisa; der Eingang liegt unter der Glaspyramide von I. M. Pei."
   },
   "musee-du-moyen-age-thermes-et-hotel-de-cluny": {
+    "name": "Musée de Cluny, Nationalmuseum des Mittelalters",
     "description": "Frankreichs Nationalmuseum des Mittelalters in den gallorömischen Thermen von Lutetia und dem Hôtel de Cluny aus dem 15. Jahrhundert. Mittelalterliche Skulptur, Glasmalerei und Goldschmiedekunst umgeben die berühmten Tapisserien der Dame mit dem Einhorn."
   },
   "musee-du-parfum-fragonard": {
@@ -337,21 +408,27 @@
     "description": "Museum des Grasser Parfümhauses Fragonard in einem Stadtpalais im Stil Napoleons III. nahe der Opéra Garnier. Kupferdestillen, Essenzen und historische Flakons erzählen dreitausend Jahre Parfümgeschichte, vom alten Ägypten bis zu modernen Extraktionsverfahren."
   },
   "musee-du-quai-branly-jacques-chirac": {
+    "name": "Musée du quai Branly – Jacques Chirac",
     "description": "Museum der Künste und Kulturen Afrikas, Asiens, Ozeaniens und der Amerikas, 2006 in einem Bau von Jean Nouvel an der Seine eröffnet. Die Sammlung von rund 370.000 Objekten umfasst Masken, Textilien und Ritualskulptur."
   },
   "musee-du-service-de-sante-des-armees-du-val-de-grace": {
+    "name": "Museum des Sanitätsdienstes der Armee im Val-de-Grâce",
     "description": "Museum der französischen Militärmedizin im Kreuzgang der königlichen Abtei Val-de-Grâce aus dem 17. Jahrhundert, gestiftet von Anna von Österreich. Instrumente, Uniformen und Feldausrüstung zeichnen die Versorgung der Soldaten vom Ancien Régime bis heute nach."
   },
   "musee-dunoyer-de-segonzac": {
+    "name": "Dunoyer-de-Segonzac-Museum",
     "description": "Kleines städtisches Museum zu Ehren des Malers und Grafikers André Dunoyer de Segonzac (1884–1974), der in Boussy-Saint-Antoine geboren wurde. Es besitzt Radierungen, Lithografien, Plakate, Fotografien und Bücher, größtenteils aus der Bibliothek des Künstlers."
   },
   "musee-emile-jean": {
+    "name": "Émile-Jean-Museum",
     "description": "Lokalgeschichtliches Museum, 1973 vom Geschichtsverein von Villiers-sur-Marne in einem Haus des 19. Jahrhunderts gegründet. Dokumente, Fotografien und Alltagsgegenstände lassen das Leben in der Brie wiederaufleben, von der Dorfschule bis zum Krieg von 1870."
   },
   "musee-eugene-delacroix": {
+    "name": "Delacroix-Museum",
     "description": "Letzte Wohnung und Atelier des romantischen Malers Eugène Delacroix an der stillen Place de Furstenberg, wo er von 1857 bis zu seinem Tod 1863 lebte. Gemälde, Zeichnungen und persönliche Erinnerungsstücke sind in seiner Wohnung und im Gartenatelier zu sehen."
   },
   "musee-fragonard": {
+    "name": "Fragonard-Museum",
     "description": "Eines der ältesten Museen Frankreichs, 1766 an der Veterinärschule von Alfort gegründet. Höhepunkt der Anatomie- und Pathologiesammlungen sind die im 18. Jahrhundert entstandenen Écorchés von Honoré Fragonard, darunter sein berühmter Reiter der Apokalypse."
   },
   "musee-francais-de-la-carte-a-jouer-et-galerie-d-histoire-de-la-ville": {
@@ -359,39 +436,51 @@
     "description": "Das einzige Museum Frankreichs, das der Spielkarte gewidmet ist – mit historischen Kartenspielen, Tarots und Druckplatten aus aller Welt. Eine angeschlossene Galerie erzählt die Geschichte von Issy-les-Moulineaux und seines verschwundenen Schlosses."
   },
   "musee-gustave-moreau": {
+    "name": "Gustave-Moreau-Museum",
     "description": "Wohnhaus und Atelier des symbolistischen Malers Gustave Moreau, vom Künstler selbst vor seinem Tod 1898 als Museum eingerichtet. Tausende seiner Gemälde, Aquarelle und Zeichnungen hängen vom Boden bis zur Decke rund um eine Wendeltreppe."
   },
   "musee-henri-chapu": {
+    "name": "Henri-Chapu-Museum",
     "description": "Museum im Heimatort des Bildhauers Henri Chapu, 1887 mit Werken gegründet, die er Le Mée-sur-Seine schenkte. Mehr als sechzig Gipsmodelle und Bronzen zeichnen die Laufbahn dieses führenden offiziellen Bildhauers im Frankreich des 19. Jahrhunderts nach."
   },
   "musee-jardin-paul-landowski": {
+    "name": "Paul-Landowski-Museum",
     "description": "Gartenmuseum am Ort des Ateliers von Paul Landowski in Boulogne, dem Bildhauer der Christusstatue von Rio de Janeiro. Rund hundert Skulpturen und Modelle sind im Garten und in zwei unterirdischen Galerien ausgestellt."
   },
   "musee-jean-jacques-henner": {
+    "name": "Jean-Jacques-Henner-Museum",
     "description": "Nationalmuseum zum elsässischen Maler Jean-Jacques Henner (1829–1905) in einem Stadtpalais der Plaine Monceau, das dem Malerkollegen Guillaume Dubufe gehörte. Gezeigt werden Henners Porträts, Landschaften und idealisierte Akte."
   },
   "musee-jean-jacques-rousseau": {
+    "name": "Jean-Jacques-Rousseau-Museum",
     "description": "Das bescheidene Haus Mont-Louis in Montmorency, in dem Jean-Jacques Rousseau von 1757 bis 1762 lebte und Julie, Émile und den Gesellschaftsvertrag schrieb. Historische Räume und der Gartenpavillon vergegenwärtigen den Alltag des Philosophen."
   },
   "musee-lambinet": {
+    "name": "Lambinet-Museum",
     "description": "Das städtische Museum von Versailles in einem eleganten Stadtpalais des 18. Jahrhunderts, mit historischen Interieurs, bildender und angewandter Kunst und Sammlungen zur Stadtgeschichte, insbesondere zur Französischen Revolution."
   },
   "musee-librairie-du-compagnonnage": {
+    "name": "Museum und Buchhandlung des Compagnonnage",
     "description": "Kleines Museum der Handwerksbruderschaften der Compagnons du Tour de France mit Meisterstücken der Gesellen – Modelltreppen und Arbeiten aus Holz, Stein und Eisen – sowie einer Buchhandlung zur Tradition des Compagnonnage."
   },
   "musee-municipal": {
+    "name": "Städtisches Museum von Moret-sur-Loing",
     "description": "Lokalgeschichtliches Museum von Moret-sur-Loing, der befestigten mittelalterlichen Stadt am Loing, in der Alfred Sisley seine letzten Jahre verbrachte; die Sammlung von über 1.400 Objekten erzählt von der Vergangenheit der Stadt und ihren bekannten Persönlichkeiten."
   },
   "musee-municipal-91150": {
+    "name": "Interkommunales Museum von Étampes",
     "description": "1875 neben dem Rathaus gegründet, widmet sich dieses Museum der Region um Étampes – von Fossilien und mittelalterlicher Archäologie bis zu Werken lokaler Künstler des 19. Jahrhunderts wie dem Bildhauer Élias Robert und dem Maler Narcisse Berchère."
   },
   "musee-municipal-d-art-et-d-histoire": {
+    "name": "Städtisches Kunst- und Geschichtsmuseum von Colombes",
     "description": "Städtisches Museum zur Geschichte von Colombes – von gallorömischer Archäologie über den Landsitz Henriettas von England im 17. Jahrhundert bis zu lokalen Industrien wie Hispano-Suiza und dem Olympiastadion der Spiele von 1924."
   },
   "musee-municipal-ducastel-vera-de-saint-germain-en-laye": {
+    "name": "Städtisches Museum Ducastel-Vera von Saint-Germain-en-Laye",
     "description": "Die städtische Sammlung von Saint-Germain-en-Laye, hervorgegangen aus dem Vermächtnis von Louis-Alexandre Ducastel von 1872: fast 9.000 Werke von der ägyptischen Antike bis ins 20. Jahrhundert, darunter feine Pastelle des 18. Jahrhunderts und eine erhaltene königliche Apotheke."
   },
   "musee-municipal-robert-dubois-corneau": {
+    "name": "Städtisches Robert-Dubois-Corneau-Museum",
     "description": "Im ehemaligen Wohnhaus des Sammlers Robert Dubois-Corneau erzählt dieses Museum die Geschichte von Brunoy und des Yerres-Tals – mit Gemälden, Druckgrafik und Kunstobjekten vom 18. Jahrhundert bis heute."
   },
   "musee-national-de-l-histoire-et-des-cultures-de-l-immigration": {
@@ -399,9 +488,11 @@
     "description": "Frankreichs Nationalmuseum zur Geschichte der Einwanderung im Art-déco-Bau des Palais de la Porte Dorée, errichtet für die Kolonialausstellung von 1931; Sammlungen und persönliche Zeugnisse zeichnen zwei Jahrhunderte Migration nach Frankreich nach."
   },
   "musee-national-de-la-legion-d-honneur-et-des-ordres-de-chevalerie": {
+    "name": "Nationalmuseum der Ehrenlegion und der Ritterorden",
     "description": "Im Hôtel de Salm gegenüber dem Musée d'Orsay zeigt dieses Museum Orden, Insignien und Gemälde zur Geschichte der 1802 von Napoleon gestifteten Ehrenlegion sowie von Ritterorden aus Frankreich und aller Welt."
   },
   "musee-national-de-la-marine": {
+    "name": "Nationales Marinemuseum",
     "description": "Eines der ältesten Schifffahrtsmuseen der Welt im Palais de Chaillot. Schiffsmodelle, Gemälde, Galionsfiguren und Instrumente erzählen die französische Marinegeschichte vom Zeitalter der Segelschiffe bis zur modernen Seefahrt."
   },
   "musee-national-des-chateaux-de-malmaison-et-de-bois-preau": {
@@ -417,36 +508,47 @@
     "description": "Acht Jahrhunderte lang Residenz der französischen Herrscher, von den Kapetingern bis Napoleon III.; das Schloss bewahrt außergewöhnliche Renaissance-Interieurs aus der Zeit Franz' I., die Appartements Napoleons und ausgedehnte Gärten – UNESCO-Welterbe."
   },
   "musee-nissim-de-camondo-union-centrale-des-arts-decoratifs": {
+    "name": "Nissim-de-Camondo-Museum",
     "description": "Das 1911–1914 erbaute und unverändert erhaltene Palais des Grafen Moïse de Camondo birgt seine herausragende Sammlung französischer Möbel und angewandter Kunst des 18. Jahrhunderts; benannt ist es nach seinem im Ersten Weltkrieg gefallenen Sohn Nissim."
   },
   "musee-picasso": {
+    "name": "Picasso-Museum",
     "description": "Die weltweit größte öffentliche Sammlung von Picassos Werk – Gemälde, Skulpturen, Zeichnungen und das persönliche Archiv des Künstlers – im Hôtel Salé, einem prächtigen Stadtpalais des 17. Jahrhunderts im Marais."
   },
   "musee-pissarro": {
+    "name": "Kunst- und Geschichtsmuseum Pissarro-Pontoise (MAHPP)",
     "description": "Museum auf den Höhen von Pontoise, Camille Pissarro gewidmet, der die Stadt fast zwei Jahrzehnte lang malte; es besitzt Druckgrafik und Zeichnungen des impressionistischen Meisters sowie Werke der Maler des Oise-Tals."
   },
   "musee-rambolitrain": {
+    "name": "Rambolitrain-Museum",
     "description": "Museum für Spielzeug- und Modelleisenbahnen in Rambouillet mit mehr als 4.000 Stücken ab dem 19. Jahrhundert und einer großen fahrenden Miniaturbahn, die die Geschichte der Eisenbahn nachzeichnet."
   },
   "musee-rodin": {
+    "name": "Rodin-Museum",
     "description": "Museum zum Bildhauer Auguste Rodin im Hôtel Biron aus dem 18. Jahrhundert, in dem er lebte und arbeitete; Der Denker, Der Kuss und Das Höllentor sind im Palais und im großen Skulpturengarten zu sehen."
   },
   "musee-rodin-meudon": {
+    "name": "Rodin-Museum Meudon",
     "description": "Die Villa des Brillants in Meudon war Rodins Wohnhaus und Hauptatelier; Gipsabgüsse und Studien zeigen die Arbeitsweise des Bildhauers, und sein Grab im Garten krönt ein Abguss des Denkers."
   },
   "musee-roybet-fould": {
+    "name": "Roybet-Fould-Museum",
     "description": "Städtisches Museum von Courbevoie im hölzernen Pavillon Schwedens und Norwegens von der Weltausstellung 1878, wiedererrichtet im Parc de Bécon. Es bewahrt Gemälde des 19. Jahrhunderts von Ferdinand Roybet und Consuelo Fould sowie Werke des Bildhauers Jean-Baptiste Carpeaux."
   },
   "musee-victor-aubert": {
+    "name": "Victor-Aubert-Museum",
     "description": "Kleines heimatgeschichtliches Museum in den Resten eines Benediktinerpriorats aus dem 11. Jahrhundert neben der Kirche von Maule. Gegründet vom autodidaktischen Archäologen Victor Aubert, zeigt es Fossilien, prähistorische und merowingische Funde sowie die ländlichen Traditionen der Gegend."
   },
   "musee-yves-saint-laurent-paris": {
+    "name": "Yves-Saint-Laurent-Museum Paris",
     "description": "Das historische Couturehaus in der Avenue Marceau 5, in dem Yves Saint Laurent von 1974 bis 2002 seine Kollektionen entwarf, heute ein Museum zu seinem Werk – mit Haute-Couture-Modellen, Skizzen und dem original erhaltenen Studio des Designers."
   },
   "musee-zadkine": {
+    "name": "Zadkine-Museum",
     "description": "Wohnhaus und Ateliers nahe dem Jardin du Luxembourg, in denen der aus Russland stammende Bildhauer Ossip Zadkine von 1928 bis 1967 lebte und arbeitete. Das Museum der Stadt Paris zeigt seine Skulpturen und Bronzen in den Werkstätten und einem kleinen Skulpturengarten."
   },
   "musee-zola-dreyfus": {
+    "name": "Zola-Dreyfus-Museum",
     "description": "Émile Zolas Landhaus in Médan, wo er einen Großteil des Rougon-Macquart-Zyklus schrieb, verbunden mit dem ersten Museum zur Dreyfus-Affäre – in Erinnerung an Zolas „J'accuse…!“ und seinen Kampf für die Rehabilitierung des Hauptmanns."
   },
   "museum-national-d-histoire-naturelle": {
@@ -458,6 +560,7 @@
     "description": "Das Modemuseum der Stadt Paris in einem Palais im Neorenaissance-Stil des 19. Jahrhunderts nahe dem Trocadéro. Die Sammlungen zeichnen die Kleidung vom 18. Jahrhundert bis zur Gegenwart nach, Haute Couture eingeschlossen, präsentiert in wechselnden Ausstellungen."
   },
   "pantheon": {
+    "name": "Pantheon",
     "description": "Klassizistisches Monument auf der Montagne Sainte-Geneviève, von Soufflot als Kirche erbaut und zur Ruhestätte großer Persönlichkeiten Frankreichs bestimmt – darunter Voltaire, Hugo, Zola und Marie Curie. Unter der Kuppel schwingt das Foucaultsche Pendel."
   },
   "petit-palais-musee-des-beaux-arts-de-la-ville-de-paris": {
@@ -465,6 +568,7 @@
     "description": "Von Charles Girault für die Weltausstellung 1900 erbaut, zeigt das Museum der schönen Künste der Stadt Paris Malerei, Skulptur und Kunsthandwerk von der Antike bis 1914 – darunter Rembrandt, Monet und Courbet – rund um einen Gartenhof."
   },
   "sainte-chapelle": {
+    "name": "Sainte-Chapelle",
     "description": "Die gotische Palastkapelle auf der Île de la Cité, in den 1240er-Jahren von Ludwig IX. für die Reliquien der Passion erbaut. Ihre Oberkapelle umschließen fünfzehn monumentale Glasfenster aus dem 13. Jahrhundert."
   },
   "tours-de-notre-dame-de-paris": {
@@ -472,6 +576,7 @@
     "description": "Die mittelalterlichen Türme der Kathedrale Notre-Dame, nach der Restaurierung infolge des Brandes wieder geöffnet. Der Aufstieg führt an der Galerie der Chimären und dem Glockenstuhl der großen Glocke Emmanuel vorbei zu einem Panorama über die Seine und das Zentrum von Paris."
   },
   "villa-savoye": {
+    "name": "Villa Savoye",
     "description": "Le Corbusiers modernistische Villa von 1928–1931 in Poissy, ein Manifest seiner „fünf Punkte der Architektur“ mit Pilotis, Fensterbändern und Dachgarten. Sie zählt zum UNESCO-Welterbe."
   }
 }

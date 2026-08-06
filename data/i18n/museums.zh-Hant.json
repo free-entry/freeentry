@@ -1,128 +1,154 @@
 {
   "arc-de-triomphe": {
     "name": "凱旋門",
-    "description": "拿破崙於 1806 年下令興建、1836 年落成的凱旋門，聳立於香榭麗舍大道頂端。拱門下方安放著無名戰士墓，頂層平台可俯瞰自星形廣場輻射而出的十二條大道。"
+    "description": "拿破崙於1806年下令興建、1836年落成的凱旋門，聳立於香榭麗舍大道頂端。拱門下方安放著無名戰士墓，頂層平台可俯瞰自星形廣場輻射而出的十二條大道。"
   },
   "archea-archeologie-en-pays-de-france": {
-    "description": "羅瓦西法蘭西地區（Roissy Pays de France）的考古博物館，2010 年於 Louvres 開幕。展品皆出自當地考古發掘，尤以 Orville 中世紀城堡與 Fosses 陶工作坊為代表，呈現巴黎以北兩千年來的生活面貌。"
+    "name": "ARCHÉA法蘭西地區考古博物館",
+    "description": "羅瓦西法蘭西地區（Roissy Pays de France）的考古博物館，2010年於Louvres開幕。展品皆出自當地考古發掘，尤以Orville中世紀城堡與Fosses陶工作坊為代表，呈現巴黎以北兩千年來的生活面貌。"
   },
   "arenes-de-lutece": {
-    "description": "拉丁區內一座一世紀高盧-羅馬圓形劇場的遺跡，當年可容納約一萬五千名觀眾觀賞戲劇與競技。1869 年因工程施工重見天日，如今是一座對外開放的公共廣場。"
+    "name": "盧泰西亞競技場",
+    "description": "拉丁區內一座一世紀高盧-羅馬圓形劇場的遺跡，當年可容納約一萬五千名觀眾觀賞戲劇與競技。1869年因工程施工重見天日，如今是一座對外開放的公共廣場。"
   },
   "basilique-cathedrale-de-saint-denis": {
     "name": "聖德尼聖殿主教座堂",
-    "description": "自 1135 年起在敘熱（Suger）院長主持下重建的修道院教堂，被視為哥德式建築的發源地。這裡是法國王室的陵寢所在，保存七十餘座臥像與陵墓，從達戈貝爾特到路易十六與瑪麗·安東妮。"
+    "description": "自1135年起在敘熱（Suger）院長主持下重建的修道院教堂，被視為哥德式建築的發源地。這裡是法國王室的陵寢所在，保存七十餘座臥像與陵墓，從達戈貝爾特到路易十六與瑪麗·安東妮。"
   },
   "basilique-du-sacre-coeur-de-montmartre": {
     "name": "聖心堂",
-    "description": "聳立於蒙馬特山丘之巔的羅馬-拜占庭式聖殿，1875 年以「國家誓願」之名動工，1919 年祝聖啟用。潔白的圓頂是巴黎的地標，教堂前的廣場可將全城景色盡收眼底。"
+    "description": "聳立於蒙馬特山丘之巔的羅馬-拜占庭式聖殿，1875年以「國家誓願」之名動工，1919年祝聖啟用。潔白的圓頂是巴黎的地標，教堂前的廣場可將全城景色盡收眼底。"
   },
   "bourse-de-commerce-pinault-collection": {
-    "description": "2021 年開幕的當代藝術博物館，設於昔日的巴黎商品交易所——一座頂著十九世紀玻璃鐵架圓頂的環形建築。經安藤忠雄改造後，輪流展出收藏家 François Pinault 的藏品。"
+    "name": "商品交易所－皮諾收藏",
+    "description": "2021年開幕的當代藝術博物館，設於昔日的巴黎商品交易所——一座頂著十九世紀玻璃鐵架圓頂的環形建築。經安藤忠雄改造後，輪流展出收藏家François Pinault的藏品。"
   },
   "cathedrale-notre-dame-de-paris": {
     "name": "巴黎聖母院",
-    "description": "位於西堤島上的哥德式主教座堂，建於 1163 至 1345 年間，以雙塔立面、玫瑰花窗與飛扶壁聞名。2019 年遭大火損毀，經修復後已於 2024 年 12 月重新開放參觀。"
+    "description": "位於西堤島上的哥德式主教座堂，建於1163至1345年間，以雙塔立面、玫瑰花窗與飛扶壁聞名。2019年遭大火損毀，經修復後已於2024年12月重新開放參觀。"
   },
   "chapelle-expiatoire": {
-    "description": "1815 至 1826 年間為路易十八所建的新古典主義禮拜堂，座落於昔日的瑪德蓮墓園——路易十六與瑪麗·安東妮處決後最初安葬之地。由建築師 Pierre Fontaine 設計，用以悼念大革命的罹難者。"
+    "name": "贖罪禮拜堂",
+    "description": "1815至1826年間為路易十八所建的新古典主義禮拜堂，座落於昔日的瑪德蓮墓園——路易十六與瑪麗·安東妮處決後最初安葬之地。由建築師Pierre Fontaine設計，用以悼念大革命的罹難者。"
   },
   "chateau-de-champs-sur-marne": {
-    "description": "巴黎以東的十八世紀初城堡，龐巴度夫人曾一度租居於此，以洛可可式內裝、中國風裝飾與時代家具著稱。85 公頃的園林融合法式規則庭園與英式景觀綠地。"
+    "name": "馬恩河畔尚城堡",
+    "description": "巴黎以東的十八世紀初城堡，龐巴度夫人曾一度租居於此，以洛可可式內裝、中國風裝飾與時代家具著稱。85公頃的園林融合法式規則庭園與英式景觀綠地。"
   },
   "chateau-de-maisons": {
-    "description": "建築師 François Mansart 於 1630 至 1646 年間為 René de Longueil 興建的城堡，被視為法國古典主義建築的奠基之作。其宏偉的樓梯與石雕內裝，影響了日後凡爾賽宮的設計。"
+    "name": "梅松城堡",
+    "description": "建築師François Mansart於1630至1646年間為René de Longueil興建的城堡，被視為法國古典主義建築的奠基之作。其宏偉的樓梯與石雕內裝，影響了日後凡爾賽宮的設計。"
   },
   "chateau-de-rambouillet": {
     "name": "朗布依埃城堡",
-    "description": "座落於廣闊林園中的王室行宮、後來的總統官邸，法王法蘭索瓦一世 1547 年於此駕崩。參觀內容包括十八世紀的居室、瑪麗·安東妮的乳品坊，以及為朗巴勒親王妃建造、以貝殼鑲飾的小屋。"
+    "description": "座落於廣闊林園中的王室行宮、後來的總統官邸，法王法蘭索瓦一世1547年於此駕崩。參觀內容包括十八世紀的居室、瑪麗·安東妮的乳品坊，以及為朗巴勒親王妃建造、以貝殼鑲飾的小屋。"
   },
   "chateau-de-sceaux-musee-departemental": {
-    "description": "設於一座十九世紀城堡內的省立博物館，位居柯爾貝（Colbert）創建的園林中心。繪畫、家具與 Sceaux 彩陶娓娓道出這片領地的歷史與法蘭西島的生活風貌，園林出自勒諾特（André Le Nôtre）之手。"
+    "name": "索城堡省立博物館",
+    "description": "設於一座十九世紀城堡內的省立博物館，位居柯爾貝（Colbert）創建的園林中心。繪畫、家具與Sceaux彩陶娓娓道出這片領地的歷史與法蘭西島的生活風貌，園林出自勒諾特（André Le Nôtre）之手。"
   },
   "chateau-de-vincennes": {
     "name": "文森城堡",
-    "description": "巴黎東緣的中世紀王室居所，擁有高達 52 公尺、全歐同類建築之最的主塔，以及 1379 年動工的聖禮拜堂。在凡爾賽宮之前，法國君主曾居於此；主塔後來成為國家監獄。"
+    "description": "巴黎東緣的中世紀王室居所，擁有高達52公尺、全歐同類建築之最的主塔，以及1379年動工的聖禮拜堂。在凡爾賽宮之前，法國君主曾居於此；主塔後來成為國家監獄。"
   },
   "chateau-musee-de-nemours": {
-    "description": "位於 Nemours 市中心的十二世紀城堡，經當地藝術家奔走保存後，於 1903 年闢為博物館。館藏以十九世紀末至二十世紀初的美術為主，包括雕塑家 Justin-Chrysostome Sanson 的作品。"
+    "name": "訥穆爾城堡博物館",
+    "description": "位於Nemours市中心的十二世紀城堡，經當地藝術家奔走保存後，於1903年闢為博物館。館藏以十九世紀末至二十世紀初的美術為主，包括雕塑家Justin-Chrysostome Sanson的作品。"
   },
   "collections-de-la-fondation-de-coubertin": {
-    "description": "位於雪弗勒斯谷地的 Fondation de Coubertin 博物館，以雕塑家 Joseph Bernard 為核心，兼及精湛工藝。青銅作品陳列於露天的 Jardin des Bronzes，一旁便是莊園裡聲名遠播的工坊。"
+    "name": "顧拜旦基金會典藏館",
+    "description": "位於雪弗勒斯谷地的Fondation de Coubertin博物館，以雕塑家Joseph Bernard為核心，兼及精湛工藝。青銅作品陳列於露天的Jardin des Bronzes，一旁便是莊園裡聲名遠播的工坊。"
   },
   "conciergerie": {
     "name": "巴黎古監獄",
     "description": "西堤島中世紀王宮的倖存部分，後來成為大革命時期最惡名昭彰的監獄，瑪麗·安東妮行刑前即囚禁於此。哥德式的衛兵大廳（salle des Gens d'armes）建於十四世紀初。"
   },
   "ecomusee-94260": {
-    "description": "1979 年成立於 Fresnes 的 Cottinville 舊農莊，是一座記錄巴黎南郊日常生活與社會變遷的社區博物館。館方蒐集居民的物件與記憶，並推出以社會議題為主軸的展覽。"
+    "name": "大奧利塞納－比耶夫爾生態博物館",
+    "description": "1979年成立於Fresnes的Cottinville舊農莊，是一座記錄巴黎南郊日常生活與社會變遷的社區博物館。館方蒐集居民的物件與記憶，並推出以社會議題為主軸的展覽。"
   },
   "europa-experience": {
-    "description": "歐洲議會設於瑪德蓮廣場的遊客中心，2022 年開幕。互動展示、360 度環形影院與角色扮演遊戲，深入淺出地說明歐盟的運作方式及其與日常生活的關聯。"
+    "name": "歐洲體驗館",
+    "description": "歐洲議會設於瑪德蓮廣場的遊客中心，2022年開幕。互動展示、360度環形影院與角色扮演遊戲，深入淺出地說明歐盟的運作方式及其與日常生活的關聯。"
   },
   "fondation-arp": {
-    "description": "藝術家讓·阿爾普（Jean Arp）與蘇菲·陶柏-阿爾普（Sophie Taeuber-Arp）位於 Clamart 的住家與工作室，1929 年依陶柏-阿爾普本人的設計建成。室內與庭園陳列兩人的雕塑、浮雕與紙上作品，大致保持原有的擺設。"
+    "name": "阿爾普基金會",
+    "description": "藝術家讓·阿爾普（Jean Arp）與蘇菲·陶柏-阿爾普（Sophie Taeuber-Arp）位於Clamart的住家與工作室，1929年依陶柏-阿爾普本人的設計建成。室內與庭園陳列兩人的雕塑、浮雕與紙上作品，大致保持原有的擺設。"
   },
   "hotel-de-la-marine": {
-    "description": "Ange-Jacques Gabriel 設計的十八世紀宮殿，矗立於協和廣場旁，先是王室家具總署所在，其後兩百年為海軍部辦公地。2021 年重新開放，展示修復後的時代居室與面向廣場的華麗沙龍。"
+    "name": "海軍部大樓",
+    "description": "Ange-Jacques Gabriel設計的十八世紀宮殿，矗立於協和廣場旁，先是王室家具總署所在，其後兩百年為海軍部辦公地。2021年重新開放，展示修復後的時代居室與面向廣場的華麗沙龍。"
   },
   "la-cinematheque-francaise": {
     "name": "法國電影資料館",
-    "description": "由 Henri Langlois 於 1936 年創立的電影資料館與博物館，座落於貝西（Bercy）一棟法蘭克·蓋瑞設計的建築內。館內的梅里葉博物館（Musée Méliès）以攝影機、戲服與魔術幻燈細數電影史，每日並有放映與特展。"
+    "description": "由Henri Langlois於1936年創立的電影資料館與博物館，座落於貝西（Bercy）一棟法蘭克·蓋瑞設計的建築內。館內的梅里葉博物館（Musée Méliès）以攝影機、戲服與魔術幻燈細數電影史，每日並有放映與特展。"
   },
   "la-maison-elysee": {
-    "description": "位於聖多諾黑市郊街 88 號、艾麗榭宮對面的遊客空間，集小型博物館、精品店與茶室於一身。文物、肖像與 3D 影片回顧宮殿的歷史，從 1722 年的 Hôtel d'Évreux 直到今日的總統府。"
+    "name": "艾麗榭之家",
+    "description": "位於聖多諾黑市郊街88號、艾麗榭宮對面的遊客空間，集小型博物館、精品店與茶室於一身。文物、肖像與3D影片回顧宮殿的歷史，從1722年的Hôtel d'Évreux直到今日的總統府。"
   },
   "le-plateau-frac-ile-de-france": {
+    "name": "Le Plateau－法蘭西島當代藝術基金會",
     "description": "法蘭西島當代藝術區域基金會（Fonds régional d'art contemporain d'Île-de-France）的展覽空間，位於十九區的秀蒙丘一帶。每年推出數檔當代藝術展，內容涵蓋區域典藏與新銳或國際藝術家。"
   },
   "maison-de-balzac": {
     "name": "巴爾扎克故居",
-    "description": "巴爾扎克在帕西（Passy）的簡樸居所，是他在巴黎的住處中唯一保存至今者；1840 至 1847 年間他在此生活並修訂《人間喜劇》。手稿、肖像與那支鑲滿綠松石的名杖，映照出作家的生平與創作。"
+    "description": "巴爾扎克在帕西（Passy）的簡樸居所，是他在巴黎的住處中唯一保存至今者；1840至1847年間他在此生活並修訂《人間喜劇》。手稿、肖像與那支鑲滿綠松石的名杖，映照出作家的生平與創作。"
   },
   "maison-de-victor-hugo": {
     "name": "維克多·雨果故居",
-    "description": "維克多·雨果 1832 至 1848 年間居住的孚日廣場公寓，現已闢為博物館。素描、手稿、肖像，以及他為茱麗葉·德魯埃打造的中國風沙龍，串起作家從童年到流亡的一生。"
+    "description": "維克多·雨果1832至1848年間居住的孚日廣場公寓，現已闢為博物館。素描、手稿、肖像，以及他為茱麗葉·德魯埃打造的中國風沙龍，串起作家從童年到流亡的一生。"
   },
   "maison-des-jardies": {
-    "description": "塞夫爾（Sèvres）一座昔日葡萄農之家，巴爾扎克 1837 至 1840 年間居住於此，甘必大（Léon Gambetta）亦於 1882 年在此辭世。由 Centre des monuments nationaux 管理，甘必大的房間保持原貌，庭園中立有巴托爾迪雕製的紀念碑。"
+    "name": "雅爾迪之家",
+    "description": "塞夫爾（Sèvres）一座昔日葡萄農之家，巴爾扎克1837至1840年間居住於此，甘必大（Léon Gambetta）亦於1882年在此辭世。由Centre des monuments nationaux管理，甘必大的房間保持原貌，庭園中立有巴托爾迪雕製的紀念碑。"
   },
   "maison-musee-maurice-ravel": {
-    "description": "「Le Belvédère」是作曲家拉威爾位於 Montfort-l'Amaury 的小屋，1921 至 1937 年間他在此生活，並創作出《波麗露》等名曲。屋內的家具、機械玩具與陳設，完全保留作曲家當年親手安排的模樣。"
+    "name": "拉威爾故居博物館",
+    "description": "「Le Belvédère」是作曲家拉威爾位於Montfort-l'Amaury的小屋，1921至1937年間他在此生活，並創作出《波麗露》等名曲。屋內的家具、機械玩具與陳設，完全保留作曲家當年親手安排的模樣。"
   },
   "maison-natale-de-louis-braille": {
-    "description": "路易·布萊爾（Louis Braille）1809 年誕生於 Coupvray 的家宅，包括他幼年失明之處——父親的馬具工坊。博物館回顧他的一生，以及如今全球視障讀者通用的凸點文字的發明歷程。"
+    "name": "路易·布萊爾故居",
+    "description": "路易·布萊爾（Louis Braille）1809年誕生於Coupvray的家宅，包括他幼年失明之處——父親的馬具工坊。博物館回顧他的一生，以及如今全球視障讀者通用的凸點文字的發明歷程。"
   },
   "memorial-de-la-shoah": {
     "name": "猶太人大屠殺紀念館",
-    "description": "法國最重要的猶太大屠殺紀念館與博物館，位於瑪黑區。「姓名之牆」銘刻自法國被遣送的 76,000 名猶太人的名字；常設展與大型文獻中心則梳理猶太大屠殺與歐洲猶太人的歷史。"
+    "description": "法國最重要的猶太大屠殺紀念館與博物館，位於瑪黑區。「姓名之牆」銘刻自法國被遣送的76,000名猶太人的名字；常設展與大型文獻中心則梳理猶太大屠殺與歐洲猶太人的歷史。"
   },
   "memorial-de-la-shoah-de-drancy": {
     "name": "德朗西猶太人大屠殺紀念館",
-    "description": "2012 年開幕的紀念館與博物館，面對 Cité de la Muette——這片集合住宅在 1941 至 1944 年間是德朗西（Drancy）拘留營，約 63,000 名猶太人自此被遣送。展覽記錄拘留營的歷史與日常。"
+    "description": "2012年開幕的紀念館與博物館，面對Cité de la Muette——這片集合住宅在1941至1944年間是德朗西（Drancy）拘留營，約63,000名猶太人自此被遣送。展覽記錄拘留營的歷史與日常。"
   },
   "mus-musee-d-histoire-urbaine-et-sociale-de-suresnes": {
-    "description": "設於昔日 Suresnes-Longchamp 火車站的城市與社會史博物館，講述這座城鎮在二十世紀的蛻變，尤以 Henri Sellier 推動的花園城市與開風氣之先的露天學校最為著名。"
+    "name": "MUS－敘雷訥城市與社會史博物館",
+    "description": "設於昔日Suresnes-Longchamp火車站的城市與社會史博物館，講述這座城鎮在二十世紀的蛻變，尤以Henri Sellier推動的花園城市與開風氣之先的露天學校最為著名。"
   },
   "musee": {
-    "description": "馬恩河畔的地方史博物館，述說自十九世紀起，划船、戲水與河畔小酒館（guinguette）如何讓 Nogent 成為巴黎人週日休閒的勝地。繪畫、海報與明信片記錄了周邊市鎮的風貌。"
+    "name": "馬恩河畔諾讓聯合博物館",
+    "description": "馬恩河畔的地方史博物館，述說自十九世紀起，划船、戲水與河畔小酒館（guinguette）如何讓Nogent成為巴黎人週日休閒的勝地。繪畫、海報與明信片記錄了周邊市鎮的風貌。"
   },
   "musee-adrien-mentienne": {
-    "description": "Bry-sur-Marne 的市立博物館，以當地史學家暨市長 Adrien Mentienne 命名。除地方史收藏外，館內還有法國數一數二的達蓋爾（Louis Daguerre）專藏；這位銀版攝影術的發明人晚年即定居於 Bry。"
+    "name": "阿德里安·蒙蒂耶納博物館",
+    "description": "Bry-sur-Marne的市立博物館，以當地史學家暨市長Adrien Mentienne命名。除地方史收藏外，館內還有法國數一數二的達蓋爾（Louis Daguerre）專藏；這位銀版攝影術的發明人晚年即定居於Bry。"
   },
   "musee-alfred-bonno": {
-    "description": "Chelles 的考古博物館，2026 年在全面改造後的空間中重新開幕。當地出土文物上起舊石器時代的燧石器，下至墨洛溫王朝，包括與王后巴蒂爾德及 Chelles 王家修道院相關的罕見中世紀早期織品。"
+    "name": "阿爾弗雷德·博諾博物館",
+    "description": "Chelles的考古博物館，2026年在全面改造後的空間中重新開幕。當地出土文物上起舊石器時代的燧石器，下至墨洛溫王朝，包括與王后巴蒂爾德及Chelles王家修道院相關的罕見中世紀早期織品。"
   },
   "musee-archeologique-departemental-du-val-d-oise": {
-    "description": "瓦茲河谷省（Val-d'Oise）的省立考古博物館，位於維克桑（Vexin）地區的 Guiry 村。展覽依年代鋪陳，自史前直到二十世紀，包括 Genainville 高盧-羅馬遺址的出土文物，以及法國規模最大的墨洛溫石碑收藏。"
+    "name": "瓦茲河谷省立考古博物館（MADVO）",
+    "description": "瓦茲河谷省（Val-d'Oise）的省立考古博物館，位於維克桑（Vexin）地區的Guiry村。展覽依年代鋪陳，自史前直到二十世紀，包括Genainville高盧-羅馬遺址的出土文物，以及法國規模最大的墨洛溫石碑收藏。"
   },
   "musee-belmondo-et-de-la-sculpture-figurative-du-xxe-siecle": {
-    "description": "設於十八世紀 Château Buchillot 的博物館，紀念二十世紀具象雕塑名家保羅·貝爾蒙多（Paul Belmondo，1898-1982）。館內陳列其大理石雕、青銅、獎章與素描，皆由其子女捐贈給 Boulogne-Billancourt 市。"
+    "name": "保羅·貝爾蒙多博物館",
+    "description": "設於十八世紀Château Buchillot的博物館，紀念二十世紀具象雕塑名家保羅·貝爾蒙多（Paul Belmondo，1898-1982）。館內陳列其大理石雕、青銅、獎章與素描，皆由其子女捐贈給Boulogne-Billancourt市。"
   },
   "musee-bossuet": {
+    "name": "博須埃博物館",
     "description": "莫城（Meaux）的美術館，設於主教座堂旁的舊主教宮，以該城十七世紀著名的主教與佈道家波舒哀（Bossuet）為名。展出十六至十九世紀的繪畫與雕塑，並有一座相傳出自勒諾特之手、狀似主教冠的庭園。"
   },
   "musee-bourdelle": {
+    "name": "布爾代勒博物館",
     "description": "雕塑家安托萬·布爾代勒（Antoine Bourdelle）——羅丹的學生與助手——在蒙帕納斯生活與創作的工作室與庭園。石膏、大理石與《拉弓的海克力斯》等紀念性青銅雕塑，陳列於保存完好的工坊與新建展廳中。"
   },
   "musee-carnavalet-histoire-de-paris": {
@@ -135,112 +161,130 @@
   },
   "musee-cognacq-jay-musee-du-xviiie-siecle-de-la-ville-de-paris": {
     "name": "科尼亞克-傑伊博物館",
-    "description": "瑪黑區 Hôtel Donon 內一座精緻的十八世紀藝術博物館，源於莎瑪麗丹百貨（La Samaritaine）創辦人 Ernest Cognacq 的收藏：布雪、福拉哥納爾與夏爾丹的繪畫，以及粉彩、瓷器與家具。"
+    "description": "瑪黑區Hôtel Donon內一座精緻的十八世紀藝術博物館，源於莎瑪麗丹百貨（La Samaritaine）創辦人Ernest Cognacq的收藏：布雪、福拉哥納爾與夏爾丹的繪畫，以及粉彩、瓷器與家具。"
   },
   "musee-curie": {
     "name": "居禮博物館",
-    "description": "設於鐳研究所（Institut du Radium）中瑪麗·居禮生前的實驗室——她在此工作直到 1934 年辭世。博物館保存她的辦公室與化學實驗室，回顧放射性研究的歷史，以及這個共獲五座諾貝爾獎的家族。"
+    "description": "設於鐳研究所（Institut du Radium）中瑪麗·居禮生前的實驗室——她在此工作直到1934年辭世。博物館保存她的辦公室與化學實驗室，回顧放射性研究的歷史，以及這個共獲五座諾貝爾獎的家族。"
   },
   "musee-d-archeologie-nationale-des-origines-a-l-an-mille-chateau-de-saint-germain-en-laye": {
     "name": "法國國家考古博物館",
-    "description": "法國國家考古博物館座落於聖日耳曼昂萊（Saint-Germain-en-Laye）的王家城堡，城堡於法蘭索瓦一世時期重建。館藏自舊石器時代延伸至中世紀早期，包括距今約 25,000 年的布拉桑普伊夫人像。"
+    "description": "法國國家考古博物館座落於聖日耳曼昂萊（Saint-Germain-en-Laye）的王家城堡，城堡於法蘭索瓦一世時期重建。館藏自舊石器時代延伸至中世紀早期，包括距今約25,000年的布拉桑普伊夫人像。"
   },
   "musee-d-art-contemporain-du-val-de-marne": {
-    "description": "2005 年於 Vitry-sur-Seine 開幕的 MAC VAL，是首座專門收藏 1950 年代以來法國當代藝術的博物館。常設典藏定期更新展陳，另有特展與雕塑公園。"
+    "name": "瓦勒德馬恩當代藝術博物館（MAC VAL）",
+    "description": "2005年於Vitry-sur-Seine開幕的MAC VAL，是首座專門收藏1950年代以來法國當代藝術的博物館。常設典藏定期更新展陳，另有特展與雕塑公園。"
   },
   "musee-d-art-et-d-histoire": {
-    "description": "默東（Meudon）的藝術與歷史博物館，設於全城最古老的宅邸——王室外科醫師帕雷（Ambroise Paré）故居，後來莫里哀的遺孀 Armande Béjart 亦居於此。內容涵蓋地方史與風景繪畫，庭園裡陳列二十世紀雕塑。"
+    "name": "默東藝術與歷史博物館",
+    "description": "默東（Meudon）的藝術與歷史博物館，設於全城最古老的宅邸——王室外科醫師帕雷（Ambroise Paré）故居，後來莫里哀的遺孀Armande Béjart亦居於此。內容涵蓋地方史與風景繪畫，庭園裡陳列二十世紀雕塑。"
   },
   "musee-d-art-et-d-histoire-de-l-hopital-sainte-anne": {
+    "name": "聖安娜醫院藝術與歷史博物館",
     "description": "位於十四區聖安娜精神病院內的博物館，展出院方自二十世紀中葉蒐集的病患創作——一批重要的原生藝術（art brut）收藏——並舉辦特展。"
   },
   "musee-d-art-et-d-histoire-du-judaisme": {
     "name": "猶太藝術與歷史博物館",
-    "description": "設於瑪黑區十七世紀的 Hôtel de Saint-Aignan，梳理中世紀迄今的猶太藝術與歷史：禮儀器物、德雷福斯事件檔案，以及夏卡爾、莫迪利亞尼與蘇丁的作品。"
+    "description": "設於瑪黑區十七世紀的Hôtel de Saint-Aignan，梳理中世紀迄今的猶太藝術與歷史：禮儀器物、德雷福斯事件檔案，以及夏卡爾、莫迪利亞尼與蘇丁的作品。"
   },
   "musee-d-art-et-d-histoire-louis-senlecq": {
-    "description": "L'Isle-Adam 的藝術與歷史博物館，設於一座十八世紀宅邸，擁有風景畫家朱爾·杜普雷（Jules Dupré）數一數二的收藏；這位巴比松畫派畫家的畫室就設在鎮上。另有以地方文化資產為題的作品。"
+    "name": "路易·桑勒克藝術與歷史博物館",
+    "description": "L'Isle-Adam的藝術與歷史博物館，設於一座十八世紀宅邸，擁有風景畫家朱爾·杜普雷（Jules Dupré）數一數二的收藏；這位巴比松畫派畫家的畫室就設在鎮上。另有以地方文化資產為題的作品。"
   },
   "musee-d-art-et-d-histoire-paul-eluard": {
-    "description": "聖德尼（Saint-Denis）的藝術與歷史博物館，設於一座前加爾默羅會修道院，路易十五之女露易絲曾在此修行。館藏從修復後的修女斗室，到 1871 年的巴黎公社，再到生於此城的詩人保羅·艾呂雅。"
+    "name": "保羅·艾呂雅藝術與歷史博物館",
+    "description": "聖德尼（Saint-Denis）的藝術與歷史博物館，設於一座前加爾默羅會修道院，路易十五之女露易絲曾在此修行。館藏從修復後的修女斗室，到1871年的巴黎公社，再到生於此城的詩人保羅·艾呂雅。"
   },
   "musee-d-art-moderne-de-la-ville-de-paris": {
     "name": "巴黎市立現代藝術博物館",
-    "description": "巴黎市立現代藝術博物館位於 1937 年落成的東京宮（Palais de Tokyo）東翼，收藏野獸派以降的二十與二十一世紀藝術，馬諦斯、德洛內與杜菲的重要作品皆在其列，包括杜菲的巨幅壁畫《電氣精靈》。"
+    "description": "巴黎市立現代藝術博物館位於1937年落成的東京宮（Palais de Tokyo）東翼，收藏野獸派以降的二十與二十一世紀藝術，馬諦斯、德洛內與杜菲的重要作品皆在其列，包括杜菲的巨幅壁畫《電氣精靈》。"
   },
   "musee-d-ennery": {
+    "name": "德恩里博物館",
     "description": "福煦大道上一座隸屬吉美博物館的宅邸博物館，保存克萊芒絲·德恩里（Clémence d'Ennery）於十九世紀蒐集的日本與中國藝術——根付、陶瓷與奇獸造像——並維持第二帝國時期的原初內裝。"
   },
   "musee-d-histoire-locale-memoire-de-la-ville": {
-    "description": "設於 Rueil-Malmaison 十九世紀舊市政廳的地方史博物館，敘述城鎮從起源至今的歷史，包括拿破崙大軍團的兵偶場景，以及曾居於鄰近馬爾梅松堡的約瑟芬皇后的相關文物。"
+    "name": "呂埃－馬爾梅松地方史博物館",
+    "description": "設於Rueil-Malmaison十九世紀舊市政廳的地方史博物館，敘述城鎮從起源至今的歷史，包括拿破崙大軍團的兵偶場景，以及曾居於鄰近馬爾梅松堡的約瑟芬皇后的相關文物。"
   },
   "musee-d-orsay": {
     "name": "奧塞美術館",
-    "description": "設於為 1900 年世界博覽會而建的奧塞火車站舊址，擁有全球最豐富的印象派與後印象派繪畫收藏——莫內、雷諾瓦、竇加、梵谷——以及 1848 至 1914 年間的法國藝術。"
+    "description": "設於為1900年世界博覽會而建的奧塞火車站舊址，擁有全球最豐富的印象派與後印象派繪畫收藏——莫內、雷諾瓦、竇加、梵谷——以及1848至1914年間的法國藝術。"
   },
   "musee-daubigny": {
-    "description": "位於瓦茲河畔歐韋（Auvers-sur-Oise）十七世紀 Manoir des Colombières 的博物館，以印象派先驅杜比尼（Charles-François Daubigny）為主題，收藏其友人圈與瓦茲河谷畫家的作品，另闢素人藝術與貓主題藝術收藏。"
+    "name": "杜比尼博物館",
+    "description": "位於瓦茲河畔歐韋（Auvers-sur-Oise）十七世紀Manoir des Colombières的博物館，以印象派先驅杜比尼（Charles-François Daubigny）為主題，收藏其友人圈與瓦茲河谷畫家的作品，另闢素人藝術與貓主題藝術收藏。"
   },
   "musee-de-l-air-et-de-l-espace": {
     "name": "法國航空太空博物館",
-    "description": "世界最古老的航空博物館之一，1919 年創立於巴黎-勒布爾熱（Le Bourget）機場。館藏從飛行先驅時代的飛行器到協和號客機與亞利安火箭，陳列於 1937 年的航站大樓與停機坪上。"
+    "description": "世界最古老的航空博物館之一，1919年創立於巴黎-勒布爾熱（Le Bourget）機場。館藏從飛行先驅時代的飛行器到協和號客機與亞利安火箭，陳列於1937年的航站大樓與停機坪上。"
   },
   "musee-de-l-armee": {
     "name": "法國軍事博物館",
     "description": "法國的軍事史博物館，位於路易十四為傷殘軍人興建的榮軍院（Les Invalides）。館藏自中世紀盔甲跨越至兩次世界大戰，金頂教堂下安放著拿破崙一世的陵墓。"
   },
   "musee-de-l-ecole-de-barbizon-auberge-ganne": {
-    "description": "巴比松的甘納客棧（Auberge Ganne）自 1820 年代起接待風景畫家投宿，牆面與櫥櫃上仍留著他們繪製的裝飾。博物館講述米勒與泰奧多爾·盧梭在楓丹白露森林邊領導的巴比松畫派的故事。"
+    "name": "巴比松畫派博物館－甘納客棧",
+    "description": "巴比松的甘納客棧（Auberge Ganne）自1820年代起接待風景畫家投宿，牆面與櫥櫃上仍留著他們繪製的裝飾。博物館講述米勒與泰奧多爾·盧梭在楓丹白露森林邊領導的巴比松畫派的故事。"
   },
   "musee-de-l-ecole-nationale-superieure-des-beaux-arts": {
-    "description": "法國歷史悠久的美術學府——巴黎國立高等美術學院——的收藏約有 45 萬件，從大師素描、版畫到羅馬大獎的學生作品，於左岸校舍以特展形式輪流展出。"
+    "name": "巴黎國立高等美術學院博物館",
+    "description": "法國歷史悠久的美術學府——巴黎國立高等美術學院——的收藏約有45萬件，從大師素描、版畫到羅馬大獎的學生作品，於左岸校舍以特展形式輪流展出。"
   },
   "musee-de-l-histoire-vivante": {
-    "description": "1937 年創立的法國社會與勞工歷史博物館，設於蒙特勒伊（Montreuil）Parc Montreau 中的一座宅邸。攝影、版畫與文物追溯自大革命至今的工人運動與政治抗爭。"
+    "name": "鮮活歷史博物館",
+    "description": "1937年創立的法國社會與勞工歷史博物館，設於蒙特勒伊（Montreuil）Parc Montreau中的一座宅邸。攝影、版畫與文物追溯自大革命至今的工人運動與政治抗爭。"
   },
   "musee-de-l-hotel-dieu": {
-    "description": "芒特拉若利（Mantes-la-Jolie）的美術館，設於該城主宮醫院（Hôtel-Dieu）列級保護的舊禮拜堂內，2018 年整修完成。館內擁有法國最重要的新印象派畫家馬克西米連·呂斯（Maximilien Luce）公共收藏。"
+    "name": "主宮醫院博物館",
+    "description": "芒特拉若利（Mantes-la-Jolie）的美術館，設於該城主宮醫院（Hôtel-Dieu）列級保護的舊禮拜堂內，2018年整修完成。館內擁有法國最重要的新印象派畫家馬克西米連·呂斯（Maximilien Luce）公共收藏。"
   },
   "musee-de-l-institut-du-monde-arabe": {
     "name": "阿拉伯世界學院博物館",
-    "description": "阿拉伯世界學院（Institut du monde arabe）的博物館，縱覽阿拉伯世界的藝術與文明，自前伊斯蘭時代直到當代創作。館舍為讓·努維勒 1987 年落成的地標建築，以能過濾光線的幾何立面聞名。"
+    "description": "阿拉伯世界學院（Institut du monde arabe）的博物館，縱覽阿拉伯世界的藝術與文明，自前伊斯蘭時代直到當代創作。館舍為讓·努維勒1987年落成的地標建築，以能過濾光線的幾何立面聞名。"
   },
   "musee-de-l-orangerie-des-tuileries": {
     "name": "橘園美術館",
     "description": "杜樂麗花園的舊橘園，如今在兩間專為其設計的橢圓形展廳中陳列莫內的巨幅《睡蓮》系列，並展出瓦爾特-紀庸收藏中雷諾瓦、塞尚、馬諦斯、畢卡索與莫迪利亞尼的作品。"
   },
   "musee-de-la-batellerie": {
-    "description": "設於 Château du Prieuré，俯瞰法國內河船民的歷史首府 Conflans-Sainte-Honorine。館內以船模、工具與文獻，回顧運河、拖曳與河運貿易交織而成的內河航運史。"
+    "name": "內河航運博物館",
+    "description": "設於Château du Prieuré，俯瞰法國內河船民的歷史首府Conflans-Sainte-Honorine。館內以船模、工具與文獻，回顧運河、拖曳與河運貿易交織而成的內河航運史。"
   },
   "musee-de-la-chasse-et-de-la-nature": {
     "name": "狩獵自然博物館",
-    "description": "設於瑪黑區的 Hôtel de Guénégaud 與 Hôtel de Mongelas 兩座宅邸，探索人與動物的關係，將古典大師繪畫、動物標本、古董獵具與當代藝術冶於一爐。"
+    "description": "設於瑪黑區的Hôtel de Guénégaud與Hôtel de Mongelas兩座宅邸，探索人與動物的關係，將古典大師繪畫、動物標本、古董獵具與當代藝術冶於一爐。"
   },
   "musee-de-la-franc-maconnerie": {
     "name": "共濟會博物館",
     "description": "位於卡德街（rue Cadet）法國大東方社（Grand Orient de France）總部，透過儀式器物、圍裙、會所配飾，以及伏爾泰、拉法葉等著名會員的相關文獻，講述共濟會在法國三百年的歷史。"
   },
   "musee-de-la-gendarmerie": {
-    "description": "法國國家憲兵博物館，2015 年於默倫（Melun）憲兵軍官學校旁開幕，以制服、武器、車輛與檔案，回顧這支部隊從中世紀騎警隊（maréchaussée）至今的歷史。"
+    "name": "法國國家憲兵博物館",
+    "description": "法國國家憲兵博物館，2015年於默倫（Melun）憲兵軍官學校旁開幕，以制服、武器、車輛與檔案，回顧這支部隊從中世紀騎警隊（maréchaussée）至今的歷史。"
   },
   "musee-de-la-grande-guerre": {
     "name": "第一次世界大戰博物館",
-    "description": "2011 年在馬恩河第一次會戰的戰場邊開幕，擁有歐洲規模數一數二的第一次世界大戰收藏——約七萬件文物與文獻，以收藏家 Jean-Pierre Verney 的舊藏為基礎。"
+    "description": "2011年在馬恩河第一次會戰的戰場邊開幕，擁有歐洲規模數一數二的第一次世界大戰收藏——約七萬件文物與文獻，以收藏家Jean-Pierre Verney的舊藏為基礎。"
   },
   "musee-de-la-grande-loge-de-france": {
+    "name": "法國大會所博物館",
     "description": "設於十七區法蘭西大會所（Grande Loge de France）總部——一座前方濟會修道院——的博物館，以共濟會的歷史、象徵與藝術為主題，保存三千餘件十八世紀以來的文物。"
   },
   "musee-de-la-liberation-de-paris-musee-du-general-leclerc-musee-jean-moulin": {
     "name": "巴黎解放博物館",
-    "description": "2019 年遷入丹費爾-羅什洛（Denfert-Rochereau）的勒杜雙亭，這座巴黎市立博物館透過勒克萊爾將軍與讓·穆蘭（Jean Moulin）講述占領時期與巴黎解放的歷史，並包含羅爾-唐吉上校 1944 年 8 月的地下指揮所。"
+    "description": "2019年遷入丹費爾-羅什洛（Denfert-Rochereau）的勒杜雙亭，這座巴黎市立博物館透過勒克萊爾將軍與讓·穆蘭（Jean Moulin）講述占領時期與巴黎解放的歷史，並包含羅爾-唐吉上校1944年8月的地下指揮所。"
   },
   "musee-de-la-musique": {
+    "name": "音樂博物館",
     "description": "巴黎愛樂廳（Philharmonie de Paris）位於拉維萊特的樂器博物館，從逾八千件館藏中展出約一千件——史特拉底瓦里名琴、大鍵琴、珍稀吉他——涵蓋五個世紀的歐洲與世界音樂。"
   },
   "musee-de-la-poste": {
-    "description": "法國郵政博物館，鄰近蒙帕納斯，2019 年全面整修後重新開放。館藏從郵政馬車、制服與郵筒，到航空郵遞的傳奇年代，以及法國首屈一指的集郵收藏。"
+    "name": "法國郵政博物館",
+    "description": "法國郵政博物館，鄰近蒙帕納斯，2019年全面整修後重新開放。館藏從郵政馬車、制服與郵筒，到航空郵遞的傳奇年代，以及法國首屈一指的集郵收藏。"
   },
   "musee-de-la-prefecture-de-police": {
+    "name": "巴黎警察總署博物館",
     "description": "藏身於拉丁區一座仍在運作的警察局內，追溯十七世紀以來巴黎警察的歷史，展出檔案、制服、武器與著名刑案的物證。"
   },
   "musee-de-la-renaissance-chateau-d-ecouen": {
@@ -248,54 +292,64 @@
     "description": "法國國家文藝復興博物館，設於巴黎以北為蒙莫朗西元帥安納（Anne de Montmorency）所建的十六世紀城堡。館藏包括十幅一組的《大衛與拔示巴》掛毯、琺瑯、陶瓷與彩繪壁爐。"
   },
   "musee-de-la-resistance-nationale": {
-    "description": "位於馬恩河畔尚皮尼（Champigny-sur-Marne），擁有規模最大的法國抵抗運動收藏之一——地下報刊、傳單、武器與個人物品——2020 年起於新落成的 Aimé Césaire 館展出。"
+    "name": "法國國家抵抗運動博物館",
+    "description": "位於馬恩河畔尚皮尼（Champigny-sur-Marne），擁有規模最大的法國抵抗運動收藏之一——地下報刊、傳單、武器與個人物品——2020年起於新落成的Aimé Césaire館展出。"
   },
   "musee-de-la-toile-de-jouy": {
     "name": "茹伊印花布博物館",
-    "description": "設於 Château de l'Églantine，講述茹伊印花布（toile de Jouy）的故事：1760 年 Oberkampf 印染廠於 Jouy-en-Josas 創立後生產的印花棉布。展品包括布料、印版與時代服飾。"
+    "description": "設於Château de l'Églantine，講述茹伊印花布（toile de Jouy）的故事：1760年Oberkampf印染廠於Jouy-en-Josas創立後生產的印花棉布。展品包括布料、印版與時代服飾。"
   },
   "musee-de-la-vie-romantique": {
     "name": "浪漫生活博物館",
-    "description": "畫家阿里·謝弗（Ary Scheffer）1830 年的宅邸與畫室，位於蒙馬特山腳的「新雅典」街區，以喬治·桑的紀念物、謝弗及其交遊圈的作品重現浪漫主義時代的氛圍，庭園中設有茶室。"
+    "description": "畫家阿里·謝弗（Ary Scheffer）1830年的宅邸與畫室，位於蒙馬特山腳的「新雅典」街區，以喬治·桑的紀念物、謝弗及其交遊圈的作品重現浪漫主義時代的氛圍，庭園中設有茶室。"
   },
   "musee-de-melun": {
-    "description": "默倫的藝術與歷史博物館，1860 年創立，設於十六世紀的 Hôtel de la Vicomté。展出城中出土的高盧-羅馬與中世紀文物、繪畫，以及雕塑家亨利·夏普（Henri Chapu）的大批作品。"
+    "name": "默倫博物館",
+    "description": "默倫的藝術與歷史博物館，1860年創立，設於十六世紀的Hôtel de la Vicomté。展出城中出土的高盧-羅馬與中世紀文物、繪畫，以及雕塑家亨利·夏普（Henri Chapu）的大批作品。"
   },
   "musee-de-montmartre": {
     "name": "蒙馬特博物館",
     "description": "設於山丘上最古老的宅邸之一，雷諾瓦、蘇珊·瓦拉東與尤特里羅皆曾在此居住或創作。博物館以繪畫與歌舞廳海報重現蒙馬特的波希米亞年代，並復原瓦拉東的畫室，庭園俯臨蒙馬特葡萄園。"
   },
   "musee-de-port-royal-des-champs": {
+    "name": "皇家港修道院博物館",
     "description": "設於皇家港修道院（Port-Royal-des-Champs）遺址的國立博物館；這裡是十七世紀楊森主義的重鎮，與帕斯卡、拉辛淵源深厚。昔日的「小學校」展出菲利普·德·尚帕涅的繪畫與修道團體的遺物，四周是修道院舊園。"
   },
   "musee-de-prehistoire-d-ile-de-france": {
-    "description": "法蘭西島史前史省立博物館，館舍為建築師 Roland Simounet 設計的清水混凝土建築，位於 Nemours 森林邊緣。展覽自舊石器時代至鐵器時代，包括 Pincevent 與 Étiolles 等塞納河谷重要遺址的出土文物。"
+    "name": "法蘭西島史前史省立博物館",
+    "description": "法蘭西島史前史省立博物館，館舍為建築師Roland Simounet設計的清水混凝土建築，位於Nemours森林邊緣。展覽自舊石器時代至鐵器時代，包括Pincevent與 Étiolles等塞納河谷重要遺址的出土文物。"
   },
   "musee-de-provins-et-du-provinois": {
+    "name": "普羅萬地區博物館",
     "description": "中世紀集市之城普羅萬（Provins，聯合國教科文組織世界遺產）的地方博物館，設於城中最古老的宅邸之一「羅曼之家」（Maison Romane）。館藏自史前至十九世紀，從中世紀雕刻、釉面地磚到宗教珍寶。"
   },
   "musee-de-saint-maur-villa-medicis": {
-    "description": "聖莫爾（Saint-Maur）的藝術與歷史博物館，設於一座因凱薩琳·德·麥地奇曾駐蹕當地城堡而得名「梅迪奇別墅」的老宅。保存中世紀修道院的石雕構件、繪畫與版畫，以及裝飾藝術陶藝家 Édouard Cazaux 的重要收藏。"
+    "name": "梅迪奇別墅－藝術與文化之家",
+    "description": "聖莫爾（Saint-Maur）的藝術與歷史博物館，設於一座因凱薩琳·德·麥地奇曾駐蹕當地城堡而得名「梅迪奇別墅」的老宅。保存中世紀修道院的石雕構件、繪畫與版畫，以及裝飾藝術陶藝家 Édouard Cazaux的重要收藏。"
   },
   "musee-departemental-albert-kahn": {
     "name": "阿爾貝·卡恩博物館",
-    "description": "以銀行家暨慈善家阿爾貝·卡恩（Albert Kahn）的「地球檔案」為主題的博物館——1909 至 1931 年間在世界各地拍攝的約 72,000 張早期彩色照片。隈研吾設計的館舍面向四公頃庭園，日式、英式與法式景致錯落其間。"
+    "description": "以銀行家暨慈善家阿爾貝·卡恩（Albert Kahn）的「地球檔案」為主題的博物館——1909至1931年間在世界各地拍攝的約72,000張早期彩色照片。隈研吾設計的館舍面向四公頃庭園，日式、英式與法式景致錯落其間。"
   },
   "musee-departemental-maurice-denis": {
-    "description": "以畫家莫里斯·德尼（Maurice Denis）與納比派為主題的博物館，設於十七世紀的前王家醫院「Le Prieuré」；德尼 1914 年購得此屋並居住終老。展出德尼、塞呂西耶、波納爾及其同儕的作品、德尼親手裝飾的禮拜堂，以及層層台地花園。"
+    "name": "莫里斯·德尼省立博物館",
+    "description": "以畫家莫里斯·德尼（Maurice Denis）與納比派為主題的博物館，設於十七世紀的前王家醫院「Le Prieuré」；德尼1914年購得此屋並居住終老。展出德尼、塞呂西耶、波納爾及其同儕的作品、德尼親手裝飾的禮拜堂，以及層層台地花園。"
   },
   "musee-departemental-stephane-mallarme": {
-    "description": "詩人馬拉美自 1874 年起消夏、並於 1898 年辭世的河畔小屋，隔水面對楓丹白露森林。他起居的房間連同私人物品、肖像與手稿完好保存，庭園亦依當年樣貌重新栽植。"
+    "name": "斯特凡·馬拉美省立博物館",
+    "description": "詩人馬拉美自1874年起消夏、並於1898年辭世的河畔小屋，隔水面對楓丹白露森林。他起居的房間連同私人物品、肖像與手稿完好保存，庭園亦依當年樣貌重新栽植。"
   },
   "musee-des-annees-trente": {
-    "description": "以兩次大戰之間的藝術與設計為主題：具象繪畫、雕塑、裝飾藝術家具，以及柯比意、馬萊-史蒂文斯與佩雷在 Boulogne-Billancourt 建造的現代主義別墅模型。隸屬 Espace Landowski 文化中心。"
+    "name": "三十年代博物館",
+    "description": "以兩次大戰之間的藝術與設計為主題：具象繪畫、雕塑、裝飾藝術家具，以及柯比意、馬萊-史蒂文斯與佩雷在Boulogne-Billancourt建造的現代主義別墅模型。隸屬Espace Landowski文化中心。"
   },
   "musee-des-archives-nationales-hotel-de-soubise": {
-    "description": "法國國家檔案館的博物館，設於瑪黑區的親王宅邸蘇比斯府（Hôtel de Soubise），洛可可式居室出自 Germain Boffrand 之手。輪流展出法國歷史上的關鍵文獻，從王室遺囑到瑪麗·安東妮的絕筆信。"
+    "name": "法國國家檔案館博物館－蘇比斯府",
+    "description": "法國國家檔案館的博物館，設於瑪黑區的親王宅邸蘇比斯府（Hôtel de Soubise），洛可可式居室出自Germain Boffrand之手。輪流展出法國歷史上的關鍵文獻，從王室遺囑到瑪麗·安東妮的絕筆信。"
   },
   "musee-des-arts-asiatiques-guimet": {
     "name": "吉美博物館",
-    "description": "法國國家亞洲藝術博物館，1889 年由實業家愛米爾·吉美（Émile Guimet）創立，擁有亞洲以外最龐大的亞洲藝術收藏之一：高棉雕刻、中國青銅器與瓷器、日本屏風、印度與喜馬拉雅藝術。"
+    "description": "法國國家亞洲藝術博物館，1889年由實業家愛米爾·吉美（Émile Guimet）創立，擁有亞洲以外最龐大的亞洲藝術收藏之一：高棉雕刻、中國青銅器與瓷器、日本屏風、印度與喜馬拉雅藝術。"
   },
   "musee-des-arts-decoratifs-union-centrale-des-arts-decoratifs": {
     "name": "巴黎裝飾藝術博物館",
@@ -303,38 +357,47 @@
   },
   "musee-des-arts-et-metiers": {
     "name": "巴黎工藝博物館",
-    "description": "1794 年隨國立工藝院（Conservatoire des arts et métiers）創立的技術博物館，部分館舍為中世紀修道院舊址。儀器、機械與交通工具包括傅科擺、拉瓦節的實驗室，以及阿代爾與布萊里奧的早期飛行器。"
+    "description": "1794年隨國立工藝院（Conservatoire des arts et métiers）創立的技術博物館，部分館舍為中世紀修道院舊址。儀器、機械與交通工具包括傅科擺、拉瓦節的實驗室，以及阿代爾與布萊里奧的早期飛行器。"
   },
   "musee-des-avelines-musee-d-art-et-d-histoire-de-saint-cloud": {
-    "description": "聖克盧（Saint-Cloud）的藝術與歷史博物館，設於一座仿 Villa Kérylos 的 1930 年代別墅。館藏追憶 1870 年焚毀的王家城堡、城中十八世紀的軟質瓷工坊，以及在地畫家與雕塑家。"
+    "name": "阿弗林博物館－聖克盧藝術與歷史博物館",
+    "description": "聖克盧（Saint-Cloud）的藝術與歷史博物館，設於一座仿Villa Kérylos的1930年代別墅。館藏追憶1870年焚毀的王家城堡、城中十八世紀的軟質瓷工坊，以及在地畫家與雕塑家。"
   },
   "musee-des-monnaies-et-medailles": {
-    "description": "巴黎造幣廠（Monnaie de Paris，創於 864 年）的博物館，設於孔蒂河岸的十八世紀新古典主義宮殿內。「11 Conti」參觀動線展出錢幣、獎章與壓印機，並可一窺工匠至今仍在打製獎章的工坊。"
+    "name": "巴黎造幣廠博物館（11 Conti）",
+    "description": "巴黎造幣廠（Monnaie de Paris，創於864年）的博物館，設於孔蒂河岸的十八世紀新古典主義宮殿內。「11 Conti」參觀動線展出錢幣、獎章與壓印機，並可一窺工匠至今仍在打製獎章的工坊。"
   },
   "musee-des-monuments-francais": {
+    "name": "法國建築文物博物館",
     "description": "位於夏悠宮（Palais de Chaillot）建築與文化資產城內，這座由維奧萊-勒-杜克構想的博物館，匯集法國各地主教座堂與城堡門廊及雕刻的等比例石膏鑄模，以及中世紀壁畫的摹本。"
   },
   "musee-des-pays-de-seine-et-marne": {
-    "description": "塞納-馬恩省的鄉村生活省立博物館：布里（Brie）鄉間的農具、行業與民俗，並闢專區介紹作家皮耶·馬克·奧爾朗（Pierre Mac Orlan）——他在 Saint-Cyr-sur-Morin 定居，直到 1970 年去世。"
+    "name": "塞納-馬恩省鄉土博物館",
+    "description": "塞納-馬恩省的鄉村生活省立博物館：布里（Brie）鄉間的農具、行業與民俗，並闢專區介紹作家皮耶·馬克·奧爾朗（Pierre Mac Orlan）——他在Saint-Cyr-sur-Morin定居，直到1970年去世。"
   },
   "musee-des-plans-reliefs": {
-    "description": "在榮軍院的屋頂層下，保存 1668 年起為路易十四製作的要塞城市立體地圖收藏：細節纖毫畢現的縮尺模型，昔日用於籌畫法國邊境的攻城與防禦。"
+    "name": "軍事地形模型博物館",
+    "description": "在榮軍院的屋頂層下，保存1668年起為路易十四製作的要塞城市立體地圖收藏：細節纖毫畢現的縮尺模型，昔日用於籌畫法國邊境的攻城與防禦。"
   },
   "musee-des-transports-urbains-interurbains-et-ruraux": {
-    "description": "由 AMTUIR 協會志工經營的博物館，保存一個多世紀的法國大眾運輸史：馬拉公共馬車、路面電車、無軌電車、公車與地鐵車廂庋藏於 Chelles 的大型車庫，於開放日與文化資產活動期間展出。"
+    "name": "城市、城際與鄉村交通博物館",
+    "description": "由AMTUIR協會志工經營的博物館，保存一個多世紀的法國大眾運輸史：馬拉公共馬車、路面電車、無軌電車、公車與地鐵車廂庋藏於Chelles的大型車庫，於開放日與文化資產活動期間展出。"
   },
   "musee-du-chateau": {
-    "description": "設於杜爾丹（Dourdan）城堡內的博物館；這座保存完好的要塞約建於 1220 年，為法王腓力·奧古斯都所建，長期用作監獄。館藏涵蓋城堡歷史、地方考古與中世紀陶器。"
+    "name": "杜爾丹城堡博物館",
+    "description": "設於杜爾丹（Dourdan）城堡內的博物館；這座保存完好的要塞約建於1220年，為法王腓力·奧古斯都所建，長期用作監獄。館藏涵蓋城堡歷史、地方考古與中世紀陶器。"
   },
   "musee-du-domaine-royal-de-marly-louveciennes-marly-le-roi": {
+    "name": "馬爾利王家莊園博物館",
     "description": "以已消失的馬爾利王家園林為主題的博物館——路易十四遠離凡爾賽的靜居之所。繪畫、雕塑與模型重現已拆毀的城堡與園林，以及將塞納河水提升至噴泉的著名「馬爾利機器」。"
   },
   "musee-du-jouet-pierre-pinel": {
-    "description": "設於普瓦西（Poissy）前王家修道院十四世紀設防門樓內的玩具博物館，修道院由美男子腓力創建。約 800 件 1850 至 1950 年的法國玩具，包括瓷偶、泰迪熊、搖搖馬與電動火車。"
+    "name": "皮耶·皮內爾玩具博物館",
+    "description": "設於普瓦西（Poissy）前王家修道院十四世紀設防門樓內的玩具博物館，修道院由美男子腓力創建。約800件1850至1950年的法國玩具，包括瓷偶、泰迪熊、搖搖馬與電動火車。"
   },
   "musee-du-louvre": {
     "name": "羅浮宮",
-    "description": "全球最大的藝術博物館，設於法國歷代國王的舊王宮。館藏自上古至 1848 年，從埃及文物、米洛的維納斯到《蒙娜麗莎》，觀眾由貝聿銘的玻璃金字塔下方入館。"
+    "description": "全球最大的藝術博物館，設於法國歷代國王的舊王宮。館藏自上古至1848年，從埃及文物、米洛的維納斯到《蒙娜麗莎》，觀眾由貝聿銘的玻璃金字塔下方入館。"
   },
   "musee-du-moyen-age-thermes-et-hotel-de-cluny": {
     "name": "克呂尼中世紀博物館",
@@ -342,74 +405,91 @@
   },
   "musee-du-parfum-fragonard": {
     "name": "花宮娜香水博物館",
-    "description": "格拉斯（Grasse）香水世家 Fragonard 的博物館，設於加尼葉歌劇院附近一座拿破崙三世時期的宅邸。銅製蒸餾器、香精與古董香水瓶，追溯自古埃及到現代萃取技術的三千年製香史。"
+    "description": "格拉斯（Grasse）香水世家Fragonard的博物館，設於加尼葉歌劇院附近一座拿破崙三世時期的宅邸。銅製蒸餾器、香精與古董香水瓶，追溯自古埃及到現代萃取技術的三千年製香史。"
   },
   "musee-du-quai-branly-jacques-chirac": {
     "name": "凱布朗利博物館",
-    "description": "以非洲、亞洲、大洋洲與美洲的藝術與文明為主題，2006 年開幕於讓·努維勒設計、緊鄰塞納河的建築內。約 37 萬件館藏包括面具、織品與祭儀雕刻。"
+    "description": "以非洲、亞洲、大洋洲與美洲的藝術與文明為主題，2006年開幕於讓·努維勒設計、緊鄰塞納河的建築內。約37萬件館藏包括面具、織品與祭儀雕刻。"
   },
   "musee-du-service-de-sante-des-armees-du-val-de-grace": {
+    "name": "聖寵谷軍事醫學博物館",
     "description": "法國軍事醫學博物館，設於安妮王太后創建的十七世紀恩典谷（Val-de-Grâce）王家修道院迴廊內。器械、制服與野戰裝備，回顧自舊制度至今的軍中醫療。"
   },
   "musee-dunoyer-de-segonzac": {
-    "description": "紀念生於 Boussy-Saint-Antoine 的畫家暨版畫家 André Dunoyer de Segonzac（1884-1974）的小型市立博物館，收藏蝕刻版畫、石版畫、海報、照片與書籍，多出自藝術家本人的藏書。"
+    "name": "杜諾耶·德·塞貢扎克博物館",
+    "description": "紀念生於Boussy-Saint-Antoine的畫家暨版畫家André Dunoyer de Segonzac（1884-1974）的小型市立博物館，收藏蝕刻版畫、石版畫、海報、照片與書籍，多出自藝術家本人的藏書。"
   },
   "musee-emile-jean": {
-    "description": "由 Villiers-sur-Marne 歷史學會於 1973 年創立的地方史博物館，設於一座十九世紀宅邸。文獻、照片與日常器物重現布里地區的生活，從村校歲月到 1870 年的戰爭。"
+    "name": "艾米爾·讓博物館",
+    "description": "由Villiers-sur-Marne歷史學會於1973年創立的地方史博物館，設於一座十九世紀宅邸。文獻、照片與日常器物重現布里地區的生活，從村校歲月到1870年的戰爭。"
   },
   "musee-eugene-delacroix": {
     "name": "德拉克洛瓦博物館",
-    "description": "浪漫主義畫家德拉克洛瓦最後的居所與畫室，位於幽靜的富爾斯滕貝格廣場，他自 1857 年居住於此，1863 年辭世。公寓與花園畫室中展出繪畫、素描與私人紀念物。"
+    "description": "浪漫主義畫家德拉克洛瓦最後的居所與畫室，位於幽靜的富爾斯滕貝格廣場，他自1857年居住於此，1863年辭世。公寓與花園畫室中展出繪畫、素描與私人紀念物。"
   },
   "musee-fragonard": {
-    "description": "法國最古老的博物館之一，1766 年創立於阿爾福（Alfort）獸醫學院內。解剖與病理收藏以奧諾雷·法戈納（Honoré Fragonard）十八世紀的剝皮標本為壓卷之作，包括著名的「天啟騎士」。"
+    "name": "弗拉戈納爾博物館",
+    "description": "法國最古老的博物館之一，1766年創立於阿爾福（Alfort）獸醫學院內。解剖與病理收藏以奧諾雷·法戈納（Honoré Fragonard）十八世紀的剝皮標本為壓卷之作，包括著名的「天啟騎士」。"
   },
   "musee-francais-de-la-carte-a-jouer-et-galerie-d-histoire-de-la-ville": {
     "name": "法國撲克牌博物館",
     "description": "法國唯一以撲克牌為主題的博物館，收藏來自世界各地的古董牌組、塔羅牌與雕版。附設展廳講述伊西萊穆利諾（Issy-les-Moulineaux）的歷史與其已消失的城堡。"
   },
   "musee-gustave-moreau": {
-    "description": "象徵主義畫家居斯塔夫·牟侯（Gustave Moreau）的故居與畫室，由藝術家本人在 1898 年去世前親自規畫為博物館。數以千計的油畫、水彩與素描沿螺旋梯從地面直掛到天花板。"
+    "name": "牟侯博物館",
+    "description": "象徵主義畫家居斯塔夫·牟侯（Gustave Moreau）的故居與畫室，由藝術家本人在1898年去世前親自規畫為博物館。數以千計的油畫、水彩與素描沿螺旋梯從地面直掛到天花板。"
   },
   "musee-henri-chapu": {
-    "description": "設於雕塑家亨利·夏普故鄉的博物館，1887 年以他捐贈給 Le Mée-sur-Seine 的作品創立。六十餘件石膏模型與青銅雕塑，回顧這位十九世紀法國官方雕塑名家的生涯。"
+    "name": "亨利·夏普博物館",
+    "description": "設於雕塑家亨利·夏普故鄉的博物館，1887年以他捐贈給Le Mée-sur-Seine的作品創立。六十餘件石膏模型與青銅雕塑，回顧這位十九世紀法國官方雕塑名家的生涯。"
   },
   "musee-jardin-paul-landowski": {
+    "name": "保羅·蘭多斯基博物館",
     "description": "設於保羅·蘭多斯基（Paul Landowski）——里約熱內盧基督像的雕塑家——布洛涅工作室舊址的庭園博物館。約百件雕塑與模型陳列於庭園及兩座地下展廳。"
   },
   "musee-jean-jacques-henner": {
-    "description": "紀念阿爾薩斯畫家讓-雅克·恩內（Jean-Jacques Henner，1829-1905）的國立博物館，設於蒙梭平原一座曾屬畫家 Guillaume Dubufe 的宅邸，展出恩內的肖像、風景與理想化裸像。"
+    "name": "讓-雅克·亨納博物館",
+    "description": "紀念阿爾薩斯畫家讓-雅克·恩內（Jean-Jacques Henner，1829-1905）的國立博物館，設於蒙梭平原一座曾屬畫家Guillaume Dubufe的宅邸，展出恩內的肖像、風景與理想化裸像。"
   },
   "musee-jean-jacques-rousseau": {
-    "description": "蒙莫朗西（Montmorency）的蒙路易小屋，盧梭 1757 至 1762 年間居住於此，寫下《新愛洛伊絲》、《愛彌兒》與《社會契約論》。時代陳設的房間與花園小亭，重現哲學家的日常。"
+    "name": "讓-雅克·盧梭博物館",
+    "description": "蒙莫朗西（Montmorency）的蒙路易小屋，盧梭1757至1762年間居住於此，寫下《新愛洛伊絲》、《愛彌兒》與《社會契約論》。時代陳設的房間與花園小亭，重現哲學家的日常。"
   },
   "musee-lambinet": {
+    "name": "朗比內博物館",
     "description": "凡爾賽的市立博物館，設於一座優雅的十八世紀宅邸，有時代內裝、美術與裝飾藝術收藏，以及城市歷史文物，尤以法國大革命相關收藏見長。"
   },
   "musee-librairie-du-compagnonnage": {
+    "name": "工匠行會博物館暨書店",
     "description": "以法國環法工匠行會（compagnons du Tour de France）為主題的小型博物館，展出工匠晉升時打造的傑作——樓梯模型與木、石、鐵各式工藝——並附設專營行會傳統的書店。"
   },
   "musee-municipal": {
-    "description": "盧萬河畔莫雷（Moret-sur-Loing）的地方史博物館；這座中世紀設防小城是希斯里（Alfred Sisley）度過晚年之地。館藏逾 1,400 件文物，回顧城鎮的過往與名人。"
+    "name": "盧萬河畔莫雷市立博物館",
+    "description": "盧萬河畔莫雷（Moret-sur-Loing）的地方史博物館；這座中世紀設防小城是希斯里（Alfred Sisley）度過晚年之地。館藏逾1,400件文物，回顧城鎮的過往與名人。"
   },
   "musee-municipal-91150": {
-    "description": "1875 年創立於市政廳旁，涵蓋埃唐普（Étampes）地區的化石、中世紀考古，以及雕塑家 Élias Robert、畫家 Narcisse Berchère 等在地藝術家的十九世紀作品。"
+    "name": "埃唐普聯合博物館",
+    "description": "1875年創立於市政廳旁，涵蓋埃唐普（Étampes）地區的化石、中世紀考古，以及雕塑家 Élias Robert、畫家Narcisse Berchère等在地藝術家的十九世紀作品。"
   },
   "musee-municipal-d-art-et-d-histoire": {
-    "description": "追溯科隆布（Colombes）歷史的市立博物館，從高盧-羅馬考古、英格蘭的亨利埃塔十七世紀的莊園，到 Hispano-Suiza 等地方工業與 1924 年奧運會的競技場。"
+    "name": "科隆布市立藝術與歷史博物館",
+    "description": "追溯科隆布（Colombes）歷史的市立博物館，從高盧-羅馬考古、英格蘭的亨利埃塔十七世紀的莊園，到Hispano-Suiza等地方工業與1924年奧運會的競技場。"
   },
   "musee-municipal-ducastel-vera-de-saint-germain-en-laye": {
-    "description": "聖日耳曼昂萊的市立收藏，源自 Louis-Alexandre Ducastel 1872 年的遺贈：近九千件作品，自古埃及至二十世紀，包括精美的十八世紀粉彩與一間保存完好的王家藥房。"
+    "name": "聖日耳曼昂萊迪卡斯特-維拉市立博物館",
+    "description": "聖日耳曼昂萊的市立收藏，源自Louis-Alexandre Ducastel 1872年的遺贈：近九千件作品，自古埃及至二十世紀，包括精美的十八世紀粉彩與一間保存完好的王家藥房。"
   },
   "musee-municipal-robert-dubois-corneau": {
-    "description": "設於收藏家 Robert Dubois-Corneau 的故居，以十八世紀至今的繪畫、版畫與工藝美術品，講述布呂努瓦（Brunoy）與耶爾河谷的故事。"
+    "name": "羅貝爾·杜布瓦-科爾諾市立博物館",
+    "description": "設於收藏家Robert Dubois-Corneau的故居，以十八世紀至今的繪畫、版畫與工藝美術品，講述布呂努瓦（Brunoy）與耶爾河谷的故事。"
   },
   "musee-national-de-l-histoire-et-des-cultures-de-l-immigration": {
     "name": "法國國家移民史博物館",
-    "description": "法國國家移民史博物館，設於為 1931 年殖民博覽會而建的裝飾藝術風格金門宮（Palais de la Porte Dorée）；館藏與個人見證追溯兩個世紀以來移居法國的歷史。"
+    "description": "法國國家移民史博物館，設於為1931年殖民博覽會而建的裝飾藝術風格金門宮（Palais de la Porte Dorée）；館藏與個人見證追溯兩個世紀以來移居法國的歷史。"
   },
   "musee-national-de-la-legion-d-honneur-et-des-ordres-de-chevalerie": {
-    "description": "設於奧塞美術館對面的薩爾姆府（Hôtel de Salm），展出勳章、綬帶與繪畫，追溯拿破崙 1802 年創立的榮譽軍團勳章，以及法國與各國的騎士勳位。"
+    "name": "法國國家榮譽軍團與騎士勳位博物館",
+    "description": "設於奧塞美術館對面的薩爾姆府（Hôtel de Salm），展出勳章、綬帶與繪畫，追溯拿破崙1802年創立的榮譽軍團勳章，以及法國與各國的騎士勳位。"
   },
   "musee-national-de-la-marine": {
     "name": "法國國家海事博物館",
@@ -417,7 +497,7 @@
   },
   "musee-national-des-chateaux-de-malmaison-et-de-bois-preau": {
     "name": "馬爾梅松城堡",
-    "description": "拿破崙與約瑟芬皇后的鄉間宅邸，皇后在此居住直到 1814 年去世；城堡保存執政府時期的內裝、帝國家具與私人紀念物，園中玫瑰似錦。"
+    "description": "拿破崙與約瑟芬皇后的鄉間宅邸，皇后在此居住直到1814年去世；城堡保存執政府時期的內裝、帝國家具與私人紀念物，園中玫瑰似錦。"
   },
   "musee-national-des-chateaux-de-versailles-et-de-trianon": {
     "name": "凡爾賽宮",
@@ -428,16 +508,19 @@
     "description": "八個世紀以來法國君主的居所，從卡佩王朝到拿破崙三世；宮內保存為法蘭索瓦一世打造的文藝復興內裝精品、拿破崙的居室與廣闊庭園，為聯合國教科文組織世界遺產。"
   },
   "musee-nissim-de-camondo-union-centrale-des-arts-decoratifs": {
-    "description": "莫伊斯·德·卡蒙多伯爵 1911 至 1914 年間興建的宅邸，一切維持他離世時的原貌，收藏出類拔萃的十八世紀法國家具與裝飾藝術；館名紀念他在第一次世界大戰中陣亡的兒子尼西姆（Nissim）。"
+    "name": "尼西姆·德·卡蒙多博物館",
+    "description": "莫伊斯·德·卡蒙多伯爵1911至1914年間興建的宅邸，一切維持他離世時的原貌，收藏出類拔萃的十八世紀法國家具與裝飾藝術；館名紀念他在第一次世界大戰中陣亡的兒子尼西姆（Nissim）。"
   },
   "musee-picasso": {
     "name": "畢卡索美術館",
     "description": "全球規模最大的畢卡索公共收藏——繪畫、雕塑、素描與藝術家的個人檔案——陳列於瑪黑區宏偉的十七世紀鹽稅府邸（Hôtel Salé）。"
   },
   "musee-pissarro": {
+    "name": "畢沙羅-蓬圖瓦茲藝術與歷史博物館（MAHPP）",
     "description": "位於蓬圖瓦茲（Pontoise）高地、以卡米耶·畢沙羅為主題的博物館；這位印象派大師描繪此城近二十年。館藏其版畫與素描，兼及瓦茲河谷畫家的作品。"
   },
   "musee-rambolitrain": {
+    "name": "朗布依埃火車博物館",
     "description": "朗布依埃的玩具火車與鐵道模型博物館，收藏四千餘件十九世紀以來的展品，並有一座大型動態微縮鐵道，重現鐵路旅行的歷史。"
   },
   "musee-rodin": {
@@ -449,24 +532,28 @@
     "description": "默東的布里揚別墅（Villa des Brillants）是羅丹的住家與主要工作室；石膏鑄模與習作揭示雕塑家的創作過程，他在花園中的墓上立著一尊《沉思者》。"
   },
   "musee-roybet-fould": {
-    "description": "庫爾布瓦（Courbevoie）的市立博物館，設於為 1878 年世界博覽會建造、後遷至貝孔公園重組的瑞典-挪威木造展館內。收藏 Ferdinand Roybet 與 Consuelo Fould 的十九世紀繪畫，以及雕塑家卡爾波（Jean-Baptiste Carpeaux）的作品。"
+    "name": "魯瓦貝-富爾德博物館",
+    "description": "庫爾布瓦（Courbevoie）的市立博物館，設於為1878年世界博覽會建造、後遷至貝孔公園重組的瑞典-挪威木造展館內。收藏Ferdinand Roybet與Consuelo Fould的十九世紀繪畫，以及雕塑家卡爾波（Jean-Baptiste Carpeaux）的作品。"
   },
   "musee-victor-aubert": {
-    "description": "設於莫勒（Maule）教堂旁十一世紀本篤會修道院遺構中的小型地方史博物館。由自學考古學家 Victor Aubert 創立，展出化石、史前與墨洛溫時期文物，以及當地的鄉村民俗。"
+    "name": "維克多·奧貝爾博物館",
+    "description": "設於莫勒（Maule）教堂旁十一世紀本篤會修道院遺構中的小型地方史博物館。由自學考古學家Victor Aubert創立，展出化石、史前與墨洛溫時期文物，以及當地的鄉村民俗。"
   },
   "musee-yves-saint-laurent-paris": {
     "name": "巴黎伊夫·聖羅蘭博物館",
-    "description": "位於馬索大道 5 號的傳奇高級訂製服之家，1974 至 2002 年間伊夫·聖羅蘭在此創作，如今是以其作品為主題的博物館，收藏高級訂製服、設計手稿，並原樣保存設計師的工作室。"
+    "description": "位於馬索大道5號的傳奇高級訂製服之家，1974至2002年間伊夫·聖羅蘭在此創作，如今是以其作品為主題的博物館，收藏高級訂製服、設計手稿，並原樣保存設計師的工作室。"
   },
   "musee-zadkine": {
-    "description": "俄裔雕塑家奧西普·札德金（Ossip Zadkine）1928 至 1967 年間在盧森堡公園附近生活與創作的住家與工作室。這座巴黎市立博物館在工坊與小巧的雕塑園中展出其雕刻與青銅作品。"
+    "name": "扎德金博物館",
+    "description": "俄裔雕塑家奧西普·札德金（Ossip Zadkine）1928至1967年間在盧森堡公園附近生活與創作的住家與工作室。這座巴黎市立博物館在工坊與小巧的雕塑園中展出其雕刻與青銅作品。"
   },
   "musee-zola-dreyfus": {
+    "name": "左拉-德雷福斯博物館",
     "description": "左拉位於梅當（Médan）的鄉間宅邸，《盧貢-馬卡爾家族》泰半在此寫成；並設有首座以德雷福斯事件為主題的博物館，回顧作家的〈我控訴…！〉及其為上尉平反的奮鬥。"
   },
   "museum-national-d-histoire-naturelle": {
     "name": "法國國家自然史博物館",
-    "description": "法國的國家自然史博物館，1793 年創立於植物園（Jardin des Plantes）。展館從演化大展廳（Grande Galerie de l'Évolution）延伸到古生物學、比較解剖學、礦物學與植物學的浩瀚收藏。"
+    "description": "法國的國家自然史博物館，1793年創立於植物園（Jardin des Plantes）。展館從演化大展廳（Grande Galerie de l'Évolution）延伸到古生物學、比較解剖學、礦物學與植物學的浩瀚收藏。"
   },
   "palais-galliera-musee-de-la-mode-et-de-la-ville-de-paris": {
     "name": "加列拉宮（巴黎市立時尚博物館）",
@@ -478,11 +565,11 @@
   },
   "petit-palais-musee-des-beaux-arts-de-la-ville-de-paris": {
     "name": "小皇宮",
-    "description": "由夏爾·吉羅（Charles Girault）為 1900 年世界博覽會建造，是巴黎市立美術館，環繞庭園展出自上古至 1914 年的繪畫、雕塑與裝飾藝術，林布蘭、莫內與庫爾貝的作品皆在其列。"
+    "description": "由夏爾·吉羅（Charles Girault）為1900年世界博覽會建造，是巴黎市立美術館，環繞庭園展出自上古至1914年的繪畫、雕塑與裝飾藝術，林布蘭、莫內與庫爾貝的作品皆在其列。"
   },
   "sainte-chapelle": {
     "name": "聖禮拜堂",
-    "description": "西堤島上的哥德式王家禮拜堂，1240 年代由路易九世興建，用以供奉基督受難聖髑。上層禮拜堂由十五面十三世紀的巨型彩繪玻璃窗環繞。"
+    "description": "西堤島上的哥德式王家禮拜堂，1240年代由路易九世興建，用以供奉基督受難聖髑。上層禮拜堂由十五面十三世紀的巨型彩繪玻璃窗環繞。"
   },
   "tours-de-notre-dame-de-paris": {
     "name": "巴黎聖母院塔樓",
@@ -490,6 +577,6 @@
   },
   "villa-savoye": {
     "name": "薩伏伊別墅",
-    "description": "柯比意 1928 至 1931 年間在普瓦西建造的現代主義別墅，以底層架空柱、水平帶窗與屋頂花園體現其「新建築五點」宣言，現列聯合國教科文組織世界遺產。"
+    "description": "柯比意1928至1931年間在普瓦西建造的現代主義別墅，以底層架空柱、水平帶窗與屋頂花園體現其「新建築五點」宣言，現列聯合國教科文組織世界遺產。"
   }
 }
