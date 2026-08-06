@@ -1,6 +1,6 @@
 /**
  * Links every museum in data/museums.json to its Wikidata item and French
- * Wikipedia article: sets `wikidata` (QID) and `wikipediaFr` (article URL).
+ * Wikipedia article: sets `wikidata` (QID) and `wikipedia` (article URL).
  *
  * Matching: wbsearchentities candidates for the French name, verified against
  * P625 coordinates (distance to our record), P856 official website and label
@@ -254,7 +254,7 @@ async function main() {
       if (!entity) throw new Error(`override ${qid} for ${museum.id} not found`);
       museum.wikidata = qid;
       const title = entity.sitelinks?.frwiki?.title;
-      if (title) museum.wikipediaFr = frwikiUrl(title);
+      if (title) museum.wikipedia = frwikiUrl(title);
       matched++;
       continue;
     }
@@ -297,7 +297,7 @@ async function main() {
     }
 
     museum.wikidata = winner.id;
-    if (winner.frwiki) museum.wikipediaFr = frwikiUrl(winner.frwiki);
+    if (winner.frwiki) museum.wikipedia = frwikiUrl(winner.frwiki);
     else noFrwiki++;
     matched++;
     console.log(

@@ -1,10 +1,16 @@
 # Data update runbook
 
-All venue data lives in `data/` with per-fact provenance: every free-admission
-rule carries `source.url` + `source.checkedAt`, opening hours carry
-`openingHoursSource`, identity links carry `wikidata` / `museofile` ids.
+All venue data lives in `data/<country>/` (`fr`, `it`, `be`) with per-fact
+provenance: every free-admission rule carries `source.url` +
+`source.checkedAt`, opening hours carry `openingHoursSource`, identity links
+carry `wikidata` / `museofile` ids.
 The re-verification interval is **365 days** — `npm run check:freshness` (and
 the monthly *Data freshness* workflow) turns red when anything exceeds it.
+
+Country-generic scripts read the `COUNTRY` env var (default `fr`):
+`COUNTRY=it npm run check:freshness`, `COUNTRY=be npm run update:images`, …
+France-specific pipelines (parisjetaime, data.gouv register, CMN, P1 hours
+import) are pinned to `data/fr` and ignore `COUNTRY`.
 
 Two kinds of maintenance:
 
@@ -29,6 +35,8 @@ Two kinds of maintenance:
 | `npm run update:hours` | Re-imports verified hours from a `../free-museums-paris` checkout (`--dry-run`, `--p1 <path>`) | yes |
 | `npm run update:all` | rules → wikidata → link refresh → museofile ids → freshness report | yes |
 | `npx tsx scripts/build-cmn.ts --out <staging>` | Bootstrap resolver for new CMN monuments (Wikidata identity via official-site domain, BAN reverse geocoding, department cross-check) — feeds the AI verification pass | staging file only |
+| `npx tsx scripts/sources/it/build-domenicalmuseo.ts` | Italy: resolves the Domenica al Museo venue list (fixture `scripts/fixtures/it/domenicalmuseo.json`) against Wikidata + Nominatim and rebuilds `data/it/museums.json` rules (first Sunday, national free days, under-18). Incremental — re-running only touches unresolved venues | yes (`data/it`) |
+| `npx tsx scripts/sources/be/build-be.ts` | Belgium: pools the Brussels/FWB first-Sunday networks, Ghent/Antwerp resident schemes and always-free museums (fixture `scripts/fixtures/be/free-museums.json`), resolves against Wikidata with photon address fallback, rebuilds `data/be/museums.json`. Incremental | yes (`data/be`) |
 
 Yearly sequence (what the *Data update* workflow runs): `update:all`, then
 `check:osm-hours`, then `npm test`. It opens a PR — **a green run means the
@@ -69,10 +77,12 @@ repository checked out. Translation and translation review must run on
 Opus/Sonnet-class models, not be improvised.
 
 ```text
-You are updating the data of free-museums-france (a map of free museums in
-Paris/Île-de-France). Read docs/DATA-UPDATE.md first. Work in small,
-reviewable diffs; run `npm test` after every change; never mark something
-verified you did not actually verify.
+You are updating the data of the free-museums monorepo (maps of free museums
+in France, Italy and Belgium — data/fr, data/it, data/be). Read
+docs/DATA-UPDATE.md first. Work in small, reviewable diffs; run `npm test`
+after every change; never mark something verified you did not actually
+verify. Steps 1–4 are France; steps 6–7 are Italy and Belgium — run
+check:freshness for those countries with COUNTRY=it / COUNTRY=be.
 
 1. TRIAGE THE DETERMINISTIC REPORTS
    Run: npm run check:data && npm run check:osm-hours
@@ -123,8 +133,35 @@ verified you did not actually verify.
    - For venues gone from the list: check the site for closure or transfer
      out of CMN management, and update status/note accordingly.
 
-5. FINISH
-   npm test && npm run build must pass. Summarize per museum: what changed,
-   which source confirmed it, and anything you could not verify (say so
-   plainly rather than guessing).
+5. FINISH (per country)
+   npm test && npm run build (and build:it / build:be) must pass. Summarize
+   per museum: what changed, which source confirmed it, and anything you
+   could not verify (say so plainly rather than guessing).
+
+6. ITALY (yearly)
+   - Re-read https://cultura.gov.it/domenicalmuseo (via the Wayback Machine
+     if the site blocks your network) and confirm Domenica al Museo is still
+     running; bump checkedAt on every rule citing it.
+   - Re-read the national free-days page
+     (https://cultura.gov.it/agevolazioni) — confirm 25 April / 2 June /
+     4 November and the under-18 rule; bump their checkedAt.
+   - Re-fetch the participating-venues list. New venues: add to
+     scripts/fixtures/it/domenicalmuseo.json, run build-domenicalmuseo
+     (incremental), manually verify any venue the resolver leaves without a
+     QID, then give each the full step-3 content treatment (10 locales).
+     Vanished venues: check the venue's own page before removing — regional
+     lists fluctuate; only remove on positive evidence.
+
+7. BELGIUM (yearly)
+   - Brussels network: re-read https://www.brusselsmuseums.be/en/free-museums
+     — membership changes yearly. FWB/Wallonia network: re-read
+     https://artsetpublics.be/programmes/musees-gratuits/.
+   - City schemes: Ghent (degentsemusea.be — Late Donderdag pauses in
+     July/August, resident first Sundays), Antwerp (A-kaart first Tuesdays,
+     pers.antwerpen.be tariff announcements). These are RESIDENT-ONLY —
+     audience: "residents" — and must never gain a general-audience rule
+     without a source saying so.
+   - Always-free museums: spot-check each venue's own tickets page.
+   - Membership changes: update scripts/fixtures/be/free-museums.json, run
+     build-be (incremental), then full content treatment for new venues.
 ```

@@ -284,7 +284,7 @@ async function main() {
         freeAccess: [],
         wikidata: e.id,
         ...(frwiki
-          ? { wikipediaFr: `https://fr.wikipedia.org/wiki/${encodeURIComponent(frwiki.replace(/ /g, '_'))}` }
+          ? { wikipedia: `https://fr.wikipedia.org/wiki/${encodeURIComponent(frwiki.replace(/ /g, '_'))}` }
           : {}),
         cmnUrl: url,
       });

@@ -102,10 +102,12 @@ const DOWNLOAD_PACE_MS = 1500;
  * Fallback for items without a P18 claim: the French Wikipedia article's lead
  * (infobox) image, resolved through the same Commons license gate.
  */
-async function frwikiLeadImage(wikipediaFrUrl: string): Promise<string | null> {
-  const title = decodeURIComponent(wikipediaFrUrl.split('/wiki/')[1] ?? '');
+async function frwikiLeadImage(wikipediaUrl: string): Promise<string | null> {
+  const title = decodeURIComponent(wikipediaUrl.split('/wiki/')[1] ?? '');
   if (!title) return null;
-  const url = `https://fr.wikipedia.org/w/api.php?${new URLSearchParams({
+  // Language-generic: the article's own wiki answers (fr for France, it for Italy…).
+  const host = new URL(wikipediaUrl).hostname;
+  const url = `https://${host}/w/api.php?${new URLSearchParams({
     format: 'json',
     action: 'query',
     titles: title,
@@ -210,8 +212,8 @@ async function main() {
 
       let sourceFile = wikimediaFile;
       let via = 'P18';
-      if (!sourceFile && museum.wikipediaFr) {
-        sourceFile = await frwikiLeadImage(museum.wikipediaFr);
+      if (!sourceFile && museum.wikipedia) {
+        sourceFile = await frwikiLeadImage(museum.wikipedia);
         via = 'frwiki infobox';
       }
       if (!sourceFile) {
