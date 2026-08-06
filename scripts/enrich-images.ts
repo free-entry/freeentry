@@ -97,7 +97,7 @@ async function downloadAndResize(url: string, destPath: string): Promise<void> {
   if (!res.ok) throw new Error(`${res.status} ${res.statusText} for ${url}`);
   const buffer = Buffer.from(await res.arrayBuffer());
   await sharp(buffer)
-    .resize({ width: MAX_WIDTH, withoutEnlargement: true })
+    .resize({ width: MAX_WIDTH, height: MAX_WIDTH, fit: 'inside', withoutEnlargement: true })
     .jpeg({ quality: JPEG_QUALITY })
     .toFile(destPath);
 }
