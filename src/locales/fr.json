@@ -98,6 +98,7 @@
     "checkedOn": "vérifié le {{date}}",
     "distanceAway": "à {{km}} km",
     "frenchName": "Nom français : ",
+    "photoCredit": "Photo : {{author}} · {{license}}",
     "noFreeScheme": "Aucune gratuité régulière connue pour ce lieu.",
     "back": "Retour aux résultats",
     "close": "Fermer les détails"

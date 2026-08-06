@@ -94,6 +94,7 @@
     "checkedOn": "核实于{{date}}",
     "distanceAway": "距此{{km}}公里",
     "frenchName": "法语名称：",
+    "photoCredit": "图片：{{author}} · {{license}}",
     "noFreeScheme": "该场馆暂无已知的常规免费开放政策。",
     "back": "返回结果列表",
     "close": "关闭详情"

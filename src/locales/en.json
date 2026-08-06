@@ -96,6 +96,7 @@
     "checkedOn": "checked on {{date}}",
     "distanceAway": "{{km}} km away",
     "frenchName": "French name: ",
+    "photoCredit": "Photo: {{author}} · {{license}}",
     "noFreeScheme": "No regular free admission is known for this venue.",
     "back": "Back to results",
     "close": "Close details"

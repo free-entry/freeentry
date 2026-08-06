@@ -96,6 +96,7 @@
     "checkedOn": "geprüft am {{date}}",
     "distanceAway": "{{km}} km entfernt",
     "frenchName": "Französischer Name: ",
+    "photoCredit": "Foto: {{author}} · {{license}}",
     "noFreeScheme": "Für diesen Ort ist kein regulärer freier Eintritt bekannt.",
     "back": "Zurück zu den Ergebnissen",
     "close": "Details schließen"

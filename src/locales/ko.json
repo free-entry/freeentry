@@ -94,6 +94,7 @@
     "checkedOn": "{{date}} 확인",
     "distanceAway": "{{km}} km 거리",
     "frenchName": "프랑스어 이름: ",
+    "photoCredit": "사진: {{author}} · {{license}}",
     "noFreeScheme": "이 시설에는 알려진 정기 무료입장 제도가 없습니다.",
     "back": "결과로 돌아가기",
     "close": "상세 정보 닫기"

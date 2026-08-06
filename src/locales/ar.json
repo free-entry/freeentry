@@ -104,6 +104,7 @@
     "checkedOn": "تم التحقق في {{date}}",
     "distanceAway": "على بُعد {{km}} كم",
     "frenchName": "الاسم الفرنسي: ",
+    "photoCredit": "الصورة: {{author}} · {{license}}",
     "noFreeScheme": "لا يُعرف نظام دخول مجاني منتظم لهذا المكان.",
     "back": "العودة إلى النتائج",
     "close": "إغلاق التفاصيل"

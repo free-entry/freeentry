@@ -94,6 +94,7 @@
     "checkedOn": "查核於{{date}}",
     "distanceAway": "距離{{km}}公里",
     "frenchName": "法文名稱：",
+    "photoCredit": "圖片：{{author}} · {{license}}",
     "noFreeScheme": "此場館目前沒有已知的常設免費入場方案。",
     "back": "返回結果列表",
     "close": "關閉詳細資訊"

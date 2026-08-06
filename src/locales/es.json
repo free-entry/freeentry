@@ -96,6 +96,7 @@
     "checkedOn": "comprobado el {{date}}",
     "distanceAway": "a {{km}} km",
     "frenchName": "Nombre en francés: ",
+    "photoCredit": "Foto: {{author}} · {{license}}",
     "noFreeScheme": "No se conoce ninguna gratuidad regular para este lugar.",
     "back": "Volver a los resultados",
     "close": "Cerrar detalles"
