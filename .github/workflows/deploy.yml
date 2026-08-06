@@ -33,12 +33,12 @@ jobs:
           path: dist/
 
   deploy:
-    # Deploys dist/ into the free-museums-paris/ directory of the
+    # Deploys dist/ into the free-museums-france/ directory of the
     # travel-eu.github.io repository. Requires the DEPLOY_TOKEN secret —
     # a fine-grained PAT with contents:write on travel-eu/travel-eu.github.io
     # (see docs/DEPLOYMENT.md). Skipped on forks and pull requests.
     needs: build
-    if: github.event_name != 'pull_request' && github.repository == 'travel-eu/free-museums-paris'
+    if: github.event_name != 'pull_request' && github.repository == 'travel-eu/free-museums-france'
     runs-on: ubuntu-latest
     steps:
       - name: Download build artifact
@@ -70,9 +70,9 @@ jobs:
       - name: Sync build into site
         if: steps.token.outputs.present == 'true'
         run: |
-          rm -rf site/free-museums-paris
-          mkdir -p site/free-museums-paris
-          cp -r dist/. site/free-museums-paris/
+          rm -rf site/free-museums-france
+          mkdir -p site/free-museums-france
+          cp -r dist/. site/free-museums-france/
 
       - name: Commit and push
         if: steps.token.outputs.present == 'true'
@@ -80,10 +80,10 @@ jobs:
           cd site
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add free-museums-paris
+          git add free-museums-france
           if git diff --cached --quiet; then
             echo "No changes to deploy."
           else
-            git commit -m "deploy: free-museums-paris ${GITHUB_SHA::7}"
+            git commit -m "deploy: free-museums-france ${GITHUB_SHA::7}"
             git push
           fi

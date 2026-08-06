@@ -3,7 +3,7 @@ import { AppStateProvider } from './state/AppState';
 import Layout from './components/Layout';
 import NotFound from './components/NotFound';
 
-// BASE_URL is '/free-museums-paris/' in every mode (see vite.config.ts).
+// BASE_URL is '/free-museums-france/' in every mode (see vite.config.ts).
 const basename = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 export default function App() {

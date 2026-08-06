@@ -1,14 +1,14 @@
 # Deployment
 
 The app is a fully static build served by GitHub Pages at
-`https://travel-eu.github.io/free-museums-paris`.
+`https://travel-eu.github.io/free-museums-france`.
 
 Two repositories are involved:
 
 | Repository | Role |
 |---|---|
-| `travel-eu/free-museums-paris` | Source code + CI. Every push to `main` tests, builds and deploys. |
-| `travel-eu/travel-eu.github.io` | The GitHub Pages site. The build lands in its `free-museums-paris/` directory. |
+| `travel-eu/free-museums-france` | Source code + CI. Every push to `main` tests, builds and deploys. |
+| `travel-eu/travel-eu.github.io` | The GitHub Pages site. The build lands in its `free-museums-france/` directory. |
 
 ## One-time setup
 
@@ -19,11 +19,11 @@ Two repositories are involved:
    Add any placeholder `index.html` at its root and enable GitHub Pages:
    repo Settings → Pages → Source: *Deploy from a branch*, branch `main`, folder `/ (root)`.
 
-3. **Create the source repository** `travel-eu/free-museums-paris` (public) and
+3. **Create the source repository** `travel-eu/free-museums-france` (public) and
    push this project:
 
    ```bash
-   git remote add origin git@github.com:travel-eu/free-museums-paris.git
+   git remote add origin git@github.com:travel-eu/free-museums-france.git
    git push -u origin main
    ```
 
@@ -34,14 +34,14 @@ Two repositories are involved:
    - Permissions: **Contents: Read and write**
    - Expiration: your choice (you will need to rotate it).
 
-5. **Add the secret.** In `travel-eu/free-museums-paris` → Settings → Secrets
+5. **Add the secret.** In `travel-eu/free-museums-france` → Settings → Secrets
    and variables → Actions → New repository secret:
    - Name: `DEPLOY_TOKEN`
    - Value: the token from step 4.
 
 6. Push to `main` (or run the workflow manually via Actions → *Test, build and
    deploy* → Run workflow). The site appears at
-   `https://travel-eu.github.io/free-museums-paris/` after the Pages build.
+   `https://travel-eu.github.io/free-museums-france/` after the Pages build.
 
 Without the secret, CI still runs tests and builds (useful for forks and PRs) —
 only the deploy step is skipped, with a notice in the log.

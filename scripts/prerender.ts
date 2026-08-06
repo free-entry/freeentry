@@ -10,7 +10,7 @@ import type { Museum, MuseumContent } from '../src/lib/types';
 
 const ROOT = join(import.meta.dirname, '..');
 const DIST = join(ROOT, 'dist');
-const SITE = 'https://travel-eu.github.io/free-museums-paris';
+const SITE = 'https://travel-eu.github.io/free-museums-france';
 const LOCALES = ['en', 'fr', 'es', 'it', 'de', 'zh-Hans', 'zh-Hant', 'ja', 'ko', 'ar'];
 
 const museums: Museum[] = JSON.parse(readFileSync(join(ROOT, 'data/museums.json'), 'utf-8'));
@@ -30,7 +30,7 @@ function freeSummary(museum: Museum): string {
   if (museum.freeAccess.some((r) => r.kind === 'always' && !r.audience)) return 'Free admission';
   if (kinds.has('nth-weekday')) return 'Free on selected days each month';
   if (kinds.has('event') || kinds.has('annual-date')) return 'Free on special days';
-  return 'Museum in Île-de-France';
+  return 'Museum in France';
 }
 
 function alternates(path: string): string {
@@ -44,7 +44,7 @@ function alternates(path: string): string {
 function museumHead(museum: Museum): string {
   const description = content[museum.id]?.description
     ? `${freeSummary(museum)}. ${content[museum.id].description}`
-    : `${freeSummary(museum)}. ${museum.name}, ${museum.commune}, Île-de-France — opening days, free-admission rules and directions.`;
+    : `${freeSummary(museum)}. ${museum.name}, ${museum.commune}, France — opening days, free-admission rules and directions.`;
   const url = `${SITE}/museum/${museum.id}`;
   const sameAs = [
     ...(museum.website ? [museum.website] : []),
@@ -72,7 +72,7 @@ function museumHead(museum: Museum): string {
     },
     isAccessibleForFree: museum.freeAccess.some((r) => r.kind === 'always' && !r.audience),
   };
-  const title = `${museum.name} — ${freeSummary(museum)} | Free Museums Paris`;
+  const title = `${museum.name} — ${freeSummary(museum)} | Free Museums France`;
   return `<title>${esc(title)}</title>
     <meta name="description" content="${esc(description)}" />
     <link rel="canonical" href="${url}" />
@@ -101,7 +101,7 @@ for (const museum of museums) {
 const homeJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  name: 'Free Museums & Monuments — Paris & Île-de-France',
+  name: 'Free Museums & Monuments — France',
   url: `${SITE}/`,
   inLanguage: LOCALES,
 };

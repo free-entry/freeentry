@@ -23,7 +23,7 @@ import type { Museum } from '../src/lib/types';
 const ROOT = join(import.meta.dirname, '..');
 const MUSEUMS_PATH = join(ROOT, 'data/museums.json');
 const API = 'https://www.wikidata.org/w/api.php';
-const UA = 'free-museums-paris-check/1.0 (https://travel-eu.github.io/free-museums-paris/; tomchen.org@gmail.com)';
+const UA = 'free-museums-france-check/1.0 (https://travel-eu.github.io/free-museums-france/; tomchen.org@gmail.com)';
 const DISAGREEMENT_KM = 0.6;
 
 /**

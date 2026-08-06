@@ -1,12 +1,12 @@
 {
-  "name": "free-museums-paris",
+  "name": "free-museums-france",
   "version": "1.0.0",
   "description": "Map PWA of free museums and monuments in Paris & Île-de-France",
   "license": "MIT",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/travel-eu/free-museums-paris.git"
+    "url": "https://github.com/travel-eu/free-museums-france.git"
   },
   "scripts": {
     "dev": "vite",

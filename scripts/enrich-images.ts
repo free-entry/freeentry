@@ -19,7 +19,7 @@ const PUBLIC_DIR = join(ROOT, 'public');
 const WD_API = 'https://www.wikidata.org/w/api.php';
 const COMMONS_API = 'https://commons.wikimedia.org/w/api.php';
 const UA =
-  'free-museums-paris-enrich/1.0 (https://travel-eu.github.io/free-museums-paris/; tomchen.org@gmail.com)';
+  'free-museums-france-enrich/1.0 (https://travel-eu.github.io/free-museums-france/; tomchen.org@gmail.com)';
 const MAX_WIDTH = 1200;
 const JPEG_QUALITY = 78;
 

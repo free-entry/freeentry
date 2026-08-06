@@ -4,20 +4,20 @@ import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
 import { fileURLToPath } from 'node:url';
 
-// Served from https://travel-eu.github.io/free-museums-paris/ — the base path is
+// Served from https://travel-eu.github.io/free-museums-france/ — the base path is
 // kept identical in dev so path handling never diverges between environments.
 export default defineConfig({
-  base: '/free-museums-paris/',
+  base: '/free-museums-france/',
   plugins: [
     react(),
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['icons/apple-touch-icon.png', 'icons/icon.svg', 'robots.txt'],
       manifest: {
-        name: 'Free Museums & Monuments — Paris & Île-de-France',
+        name: 'Free Museums & Monuments — France',
         short_name: 'Free Museums',
         description:
-          'Interactive map of free museums and monuments in Paris and Île-de-France: always free, first Sundays, Museum Night, Heritage Days and more.',
+          'Interactive map of free museums and monuments in France: always free, first Sundays, Museum Night, Heritage Days and more.',
         lang: 'en',
         start_url: '.',
         display: 'standalone',
@@ -38,7 +38,7 @@ export default defineConfig({
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,woff2}'],
         maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
-        navigateFallback: '/free-museums-paris/index.html',
+        navigateFallback: '/free-museums-france/index.html',
         runtimeCaching: [
           {
             // Vector tiles, glyphs, sprites and styles — capped, offline-friendly.

@@ -17,7 +17,7 @@ import type { Museum } from '../src/lib/types';
 const ROOT = join(import.meta.dirname, '..');
 const MUSEUMS_PATH = join(ROOT, 'data/museums.json');
 const API = 'https://www.wikidata.org/w/api.php';
-const UA = 'free-museums-paris-enrich/1.0 (https://travel-eu.github.io/free-museums-paris/; tomchen.org@gmail.com)';
+const UA = 'free-museums-france-enrich/1.0 (https://travel-eu.github.io/free-museums-france/; tomchen.org@gmail.com)';
 
 /** Hand-verified matches the heuristics can't settle; null = no Wikidata item. */
 const OVERRIDES: Record<string, string | null> = {

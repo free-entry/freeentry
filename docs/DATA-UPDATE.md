@@ -67,7 +67,7 @@ repository checked out. Translation and translation review must run on
 Opus/Sonnet-class models, not be improvised.
 
 ```text
-You are updating the data of free-museums-paris (a map of free museums in
+You are updating the data of free-museums-france (a map of free museums in
 Paris/Île-de-France). Read docs/DATA-UPDATE.md first. Work in small,
 reviewable diffs; run `npm test` after every change; never mark something
 verified you did not actually verify.

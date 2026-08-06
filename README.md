@@ -6,7 +6,7 @@ Sunday of the month (including booking-required and low-season variants), first
 Saturdays, monthly free evenings, 14 July, the European Museum Night, the
 European Heritage Days, and under-26 (EU) free admission.
 
-**Live app:** <https://travel-eu.github.io/free-museums-paris/>
+**Live app:** <https://travel-eu.github.io/free-museums-france/>
 
 ## Features
 
@@ -58,7 +58,7 @@ touched), printing a reviewable diff. See
 
 ```bash
 npm install       # also copies the RTL text plugin into public/vendor/
-npm run dev       # http://localhost:5173/free-museums-paris/
+npm run dev       # http://localhost:5173/free-museums-france/
 npm run test      # vitest: rule engine, filters, scraper, dataset validation
 npm run build     # typecheck + vite build + prerender (dist/)
 npm run preview   # serve the production build
@@ -91,7 +91,7 @@ tests/             vitest suites, incl. dataset & locale integrity checks
 ## Deployment
 
 Pushes to `main` test, build and deploy to
-`travel-eu/travel-eu.github.io/free-museums-paris/` via GitHub Actions — setup
+`travel-eu/travel-eu.github.io/free-museums-france/` via GitHub Actions — setup
 in [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md).
 
 ## Attribution

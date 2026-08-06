@@ -1,9 +1,9 @@
 {
   "app": {
-    "title": "Museos y monumentos gratuitos — París e Île-de-France",
-    "titleShort": "Museos gratis en París",
+    "title": "Museos y monumentos gratuitos — Francia",
+    "titleShort": "Museos gratis en Francia",
     "tagline": "Todos los museos y monumentos que puedes visitar gratis, y cuándo",
-    "metaDescription": "Mapa interactivo de museos y monumentos gratuitos en París e Île-de-France: siempre gratis, gratis el primer domingo de cada mes, Noche de los Museos, Jornadas Europeas del Patrimonio y más.",
+    "metaDescription": "Mapa interactivo de museos y monumentos gratuitos en Francia: siempre gratis, gratis el primer domingo de cada mes, Noche de los Museos, Jornadas Europeas del Patrimonio y más.",
     "skipToList": "Saltar a la lista de resultados",
     "loading": "Cargando…",
     "offlineBanner": "Estás sin conexión — se muestran los datos guardados. Las zonas del mapa que no hayas visitado pueden aparecer en blanco.",
