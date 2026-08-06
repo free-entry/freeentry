@@ -1,0 +1,150 @@
+{
+  "app": {
+    "title": "Free Museums — Paris & Île-de-France",
+    "tagline": "Every museum and monument you can visit for free, and when",
+    "skipToList": "Skip to results list",
+    "loading": "Loading…",
+    "offlineBanner": "You are offline — showing saved data. Map areas you haven't visited may be blank.",
+    "updateAvailable": "A new version of the app is available.",
+    "updateReload": "Reload"
+  },
+  "header": {
+    "searchPlaceholder": "Search museums…",
+    "searchLabel": "Search museums by name",
+    "filters": "Filters",
+    "language": "Language",
+    "calendar": "Calendar"
+  },
+  "categories": {
+    "always": "Always free",
+    "first-sunday": "Free 1st Sunday",
+    "first-sunday-booking": "1st Sunday, booking required",
+    "first-sunday-low-season": "1st Sunday, low season",
+    "first-saturday": "Free 1st Saturday",
+    "nocturne": "Free monthly evening",
+    "special-days": "Special days only",
+    "under-26-only": "Free under 26",
+    "none": "No free admission"
+  },
+  "filters": {
+    "title": "Filters",
+    "freeType": "Type of free admission",
+    "date": "Free on a date",
+    "today": "Today",
+    "anyDate": "Any date",
+    "distance": "Distance",
+    "useMyLocation": "Use my location",
+    "pickOnMap": "Pick a point on the map",
+    "pickOnMapHint": "Click or tap the map to set the centre",
+    "locationDenied": "Location unavailable — pick a point on the map instead.",
+    "radius": "Radius",
+    "radiusValue": "{{km}} km",
+    "area": "Area",
+    "departments": "Départements",
+    "communes": "Municipalities",
+    "communesSearch": "Search a municipality…",
+    "arrondissements": "Paris arrondissements",
+    "arrondissementLabel": "{{number}}ᵉ arrondissement",
+    "under26": "I am under 26 (EU resident)",
+    "under26Hint": "Counts under-26 free admission as free access",
+    "includePaid": "Also show museums with no free admission",
+    "reset": "Reset filters",
+    "close": "Close filters",
+    "resultCount_one": "{{count}} museum",
+    "resultCount_other": "{{count}} museums",
+    "showResults_one": "Show {{count}} museum",
+    "showResults_other": "Show {{count}} museums",
+    "activeFilters": "Active filters",
+    "removeFilter": "Remove filter: {{label}}",
+    "freeOnDate": "Free on {{date}}",
+    "withinKm": "Within {{km}} km",
+    "aroundMyLocation": "around my location",
+    "aroundPoint": "around the chosen point"
+  },
+  "list": {
+    "empty": "No museums match your filters.",
+    "emptyHint": "Try removing a filter or widening the distance.",
+    "showList": "List",
+    "showMap": "Map",
+    "sortedByDistance": "Sorted by distance",
+    "sortedByName": "Sorted alphabetically"
+  },
+  "museum": {
+    "freeAccessTitle": "Free admission",
+    "nextFreeDate": "Next free day: {{date}}",
+    "estimated": "estimated",
+    "todayFree": "Free today",
+    "eveningOnly": "evening only",
+    "bookingRequired": "Booking required",
+    "book": "Book a free ticket",
+    "website": "Website",
+    "directions": "Directions",
+    "share": "Share",
+    "linkCopied": "Link copied to clipboard",
+    "address": "Address",
+    "openingHours": "Opening hours",
+    "source": "Source",
+    "checkedOn": "checked on {{date}}",
+    "distanceAway": "{{km}} km away",
+    "frenchName": "French name",
+    "noFreeScheme": "No regular free admission is known for this venue.",
+    "back": "Back to results",
+    "close": "Close details"
+  },
+  "rules": {
+    "always": "Free every day",
+    "alwaysUnder26": "Free every day for under-26 EU residents",
+    "alwaysUnder18": "Free every day for visitors under 18",
+    "firstWeekday": "Free on the first {{weekday}} of every month",
+    "monthsRange": "from {{from}} to {{to}}",
+    "evening": "in the evening",
+    "july14": "Free on 14 July (Bastille Day)",
+    "museumNight": "Free during the European Museum Night",
+    "heritageDays": "Free during the European Heritage Days",
+    "annualDate": "Free every year on {{date}}",
+    "nextDate": "next: {{date}}"
+  },
+  "calendar": {
+    "title": "Free-admission calendar",
+    "freeCount_one": "{{count}} museum free",
+    "freeCount_other": "{{count}} museums free",
+    "prevMonth": "Previous month",
+    "nextMonth": "Next month",
+    "selectDay": "{{date}} — show {{count}} free museums",
+    "upcoming": "Upcoming free days",
+    "estimatedBadge": "Estimated date — not confirmed yet",
+    "events": {
+      "museum-night": "European Museum Night",
+      "heritage-days": "European Heritage Days",
+      "july-14": "14 July",
+      "first-sunday": "First Sunday of the month",
+      "first-saturday": "First Saturday of the month"
+    }
+  },
+  "map": {
+    "ariaLabel": "Interactive map of museums",
+    "markerLabel": "{{name}} — {{category}}",
+    "clusterLabel": "{{count}} museums — zoom in to separate",
+    "recenter": "Recenter on Paris"
+  },
+  "about": {
+    "dataSources": "Data sources",
+    "dataSourcesBody": "Free-admission data from parisjetaime.com and official museum websites; museum directory from data.gouv.fr (Licence Ouverte); map © OpenStreetMap contributors, tiles by OpenFreeMap.",
+    "github": "Source code on GitHub",
+    "license": "MIT license",
+    "disclaimer": "Free-admission conditions change — always check the museum's official website before visiting."
+  },
+  "a11y": {
+    "resultsUpdated_one": "{{count}} museum shown",
+    "resultsUpdated_other": "{{count}} museums shown",
+    "dialogClose": "Close dialog",
+    "sheetExpand": "Expand the results panel",
+    "sheetCollapse": "Collapse the results panel",
+    "selectedMarker": "Selected: {{name}}"
+  },
+  "notFound": {
+    "title": "Museum not found",
+    "body": "This link may be outdated or the museum was removed from the dataset.",
+    "backHome": "Back to the map"
+  }
+}
