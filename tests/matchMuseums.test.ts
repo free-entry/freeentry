@@ -51,4 +51,12 @@ describe('matchMuseum', () => {
   it('returns null for unknown names', () => {
     expect(matchMuseum('Musée Imaginaire', MUSEUMS, {})).toBeNull();
   });
+  it('rejects single-significant-word containment (too ambiguous)', () => {
+    // "Musée du château" normalizes to just "chateau" — it must NOT swallow
+    // every "Château de X" name (real bug found against the full dataset).
+    const generic = [museum('musee-du-chateau', 'Musée du château')];
+    expect(matchMuseum('Château de Versailles', generic, {})).toBeNull();
+    const fragonard = [museum('musee-fragonard', 'Musée Fragonard')];
+    expect(matchMuseum('Musée du Parfum - Fragonard', fragonard, {})).toBeNull();
+  });
 });

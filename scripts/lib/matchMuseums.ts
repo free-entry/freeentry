@@ -32,7 +32,10 @@ export function normalizeName(s: string): string {
 }
 
 function containsWords(haystack: string, needle: string): boolean {
-  return needle.length > 0 && ` ${haystack} `.includes(` ${needle} `);
+  // Single-word needles ("chateau", "fragonard") are too ambiguous — they
+  // would swallow unrelated venues sharing one common word.
+  if (needle.split(' ').length < 2) return false;
+  return ` ${haystack} `.includes(` ${needle} `);
 }
 
 /**
