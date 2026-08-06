@@ -87,6 +87,24 @@
   padding-inline: 0.45rem;
 }
 
+.aboutButton {
+  font: inherit;
+  font-size: 1.05rem;
+  line-height: 1;
+  color: inherit;
+  background: none;
+  border: none;
+  border-radius: 50%;
+  inline-size: 1.9rem;
+  block-size: 1.9rem;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.aboutButton:hover {
+  background: rgb(255 255 255 / 0.18);
+}
+
 @media (max-width: 640px) {
   .title {
     display: none;

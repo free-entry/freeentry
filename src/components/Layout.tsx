@@ -11,12 +11,14 @@ import DetailPanel from './DetailPanel';
 import BottomSheet from './BottomSheet';
 import OfflineBanner from './OfflineBanner';
 import UpdateToast from './UpdateToast';
+import AboutDialog from './AboutDialog';
 import styles from './Layout.module.css';
 
 export default function Layout() {
   const { t } = useTranslation();
   const { selected, select, results, filters, setFilters, today } = useAppState();
   const [filtersOpen, setFiltersOpen] = useState(false);
+  const [aboutOpen, setAboutOpen] = useState(false);
   const isWide = useIsWide();
 
   const todayChip = (
@@ -35,7 +37,7 @@ export default function Layout() {
       <a href="#results" className={styles.skipLink}>
         {t('app.skipToList')}
       </a>
-      <Header onOpenFilters={() => setFiltersOpen(true)} />
+      <Header onOpenFilters={() => setFiltersOpen(true)} onOpenAbout={() => setAboutOpen(true)} />
       <OfflineBanner />
       <div className={styles.body}>
         {isWide && (
@@ -88,6 +90,7 @@ export default function Layout() {
         ))}
 
       {filtersOpen && <FilterPanel onClose={() => setFiltersOpen(false)} />}
+      {aboutOpen && <AboutDialog onClose={() => setAboutOpen(false)} />}
       <UpdateToast />
     </div>
   );

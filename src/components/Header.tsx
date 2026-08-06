@@ -5,9 +5,10 @@ import styles from './Header.module.css';
 
 interface HeaderProps {
   onOpenFilters: () => void;
+  onOpenAbout: () => void;
 }
 
-export default function Header({ onOpenFilters }: HeaderProps) {
+export default function Header({ onOpenFilters, onOpenAbout }: HeaderProps) {
   const { t } = useTranslation();
   const { filters, setFilters, results } = useAppState();
 
@@ -54,6 +55,15 @@ export default function Header({ onOpenFilters }: HeaderProps) {
       </button>
 
       <LanguageSwitcher />
+
+      <button
+        type="button"
+        className={styles.aboutButton}
+        aria-label={t('about.dataSources')}
+        onClick={onOpenAbout}
+      >
+        ⓘ
+      </button>
     </header>
   );
 }
