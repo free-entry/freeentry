@@ -95,6 +95,7 @@
     "distanceAway": "{{km}} km先",
     "frenchName": "フランス語名：",
     "photoCredit": "{{author}}・{{license}}",
+    "photoCreditToggle": "写真クレジット",
     "noFreeScheme": "この施設には定期的な無料入場の制度は確認されていません。",
     "back": "結果一覧に戻る",
     "close": "詳細を閉じる"

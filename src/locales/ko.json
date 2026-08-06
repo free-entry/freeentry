@@ -95,6 +95,7 @@
     "distanceAway": "{{km}} km 거리",
     "frenchName": "프랑스어 이름: ",
     "photoCredit": "{{author}} · {{license}}",
+    "photoCreditToggle": "사진 출처",
     "noFreeScheme": "이 시설에는 알려진 정기 무료입장 제도가 없습니다.",
     "back": "결과로 돌아가기",
     "close": "상세 정보 닫기"

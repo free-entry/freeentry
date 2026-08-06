@@ -99,6 +99,7 @@
     "distanceAway": "à {{km}} km",
     "frenchName": "Nom français : ",
     "photoCredit": "{{author}} · {{license}}",
+    "photoCreditToggle": "Crédit photo",
     "noFreeScheme": "Aucune gratuité régulière connue pour ce lieu.",
     "back": "Retour aux résultats",
     "close": "Fermer les détails"

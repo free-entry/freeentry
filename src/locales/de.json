@@ -97,6 +97,7 @@
     "distanceAway": "{{km}} km entfernt",
     "frenchName": "Französischer Name: ",
     "photoCredit": "{{author}} · {{license}}",
+    "photoCreditToggle": "Bildnachweis",
     "noFreeScheme": "Für diesen Ort ist kein regulärer freier Eintritt bekannt.",
     "back": "Zurück zu den Ergebnissen",
     "close": "Details schließen"

@@ -95,6 +95,7 @@
     "distanceAway": "距此{{km}}公里",
     "frenchName": "法语名称：",
     "photoCredit": "{{author}} · {{license}}",
+    "photoCreditToggle": "图片版权",
     "noFreeScheme": "该场馆暂无已知的常规免费开放政策。",
     "back": "返回结果列表",
     "close": "关闭详情"

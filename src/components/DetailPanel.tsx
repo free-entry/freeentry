@@ -114,10 +114,11 @@ export default function DetailPanel({ museum, onBack }: DetailPanelProps) {
         {museum.note && <p className={styles.note}>{notes[museum.note] ?? museum.note}</p>}
         {museum.image && (
           <details className={styles.creditToggle}>
-            <summary className={styles.creditButton} aria-label={t('museum.photoCredit', {
-              author: museum.image.author,
-              license: museum.image.license,
-            })}>
+            <summary
+              className={styles.creditButton}
+              title={t('museum.photoCreditToggle')}
+              aria-label={t('museum.photoCreditToggle')}
+            >
               <svg
                 viewBox="0 0 24 24"
                 aria-hidden="true"

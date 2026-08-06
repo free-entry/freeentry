@@ -105,6 +105,7 @@
     "distanceAway": "على بُعد {{km}} كم",
     "frenchName": "الاسم الفرنسي: ",
     "photoCredit": "{{author}} · {{license}}",
+    "photoCreditToggle": "حقوق الصورة",
     "noFreeScheme": "لا يُعرف نظام دخول مجاني منتظم لهذا المكان.",
     "back": "العودة إلى النتائج",
     "close": "إغلاق التفاصيل"
