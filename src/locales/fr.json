@@ -1,6 +1,7 @@
 {
   "app": {
-    "title": "Musées gratuits — Paris & Île-de-France",
+    "title": "Musées & monuments gratuits — Paris & Île-de-France",
+    "titleShort": "Musées gratuits Paris & ÎdF",
     "tagline": "Tous les musées et monuments à visiter gratuitement, et quand",
     "skipToList": "Aller à la liste des résultats",
     "loading": "Chargement…",
@@ -22,6 +23,7 @@
     "first-sunday-low-season": "1ᵉʳ dimanche, basse saison",
     "first-saturday": "Gratuit le 1ᵉʳ samedi",
     "nocturne": "Nocturne mensuelle gratuite",
+    "july-14": "Gratuit le 14 juillet",
     "special-days": "Jours exceptionnels uniquement",
     "under-26-only": "Gratuit pour les moins de 26 ans",
     "none": "Pas d'accès gratuit"
@@ -57,7 +59,7 @@
     "showResults_many": "Afficher {{count}} musées",
     "showResults_other": "Afficher {{count}} musées",
     "activeFilters": "Filtres actifs",
-    "removeFilter": "Retirer le filtre : {{label}}",
+    "removeFilter": "Retirer le filtre : {{label}}",
     "freeOnDate": "Gratuit le {{date}}",
     "withinKm": "Dans un rayon de {{km}} km",
     "aroundMyLocation": "autour de ma position",
@@ -73,22 +75,28 @@
   },
   "museum": {
     "freeAccessTitle": "Accès gratuit",
-    "nextFreeDate": "Prochain jour gratuit : {{date}}",
+    "nextFreeDate": "Prochain jour gratuit : {{date}}",
     "estimated": "estimé",
     "todayFree": "Gratuit aujourd'hui",
     "eveningOnly": "en soirée uniquement",
     "bookingRequired": "Réservation obligatoire",
     "book": "Réserver un billet gratuit",
     "website": "Site web",
+    "googleMaps": "Google Maps",
+    "appleMaps": "Apple Plans",
+    "wikipedia": "Wikipédia",
     "directions": "Itinéraire",
-    "share": "Partager",
+    "copyLink": "Copier le lien",
     "linkCopied": "Lien copié dans le presse-papiers",
     "address": "Adresse",
     "openingHours": "Horaires d'ouverture",
+    "hoursClosed": "Fermé",
+    "hoursPublicHolidays": "Jours fériés",
+    "hoursAlways": "Ouvert 24h/24",
     "source": "Source",
     "checkedOn": "vérifié le {{date}}",
     "distanceAway": "à {{km}} km",
-    "frenchName": "Nom français",
+    "frenchName": "Nom français : ",
     "noFreeScheme": "Aucune gratuité régulière connue pour ce lieu.",
     "back": "Retour aux résultats",
     "close": "Fermer les détails"
@@ -105,7 +113,7 @@
     "museumNight": "Gratuit pendant la Nuit européenne des musées",
     "heritageDays": "Gratuit pendant les Journées européennes du patrimoine",
     "annualDate": "Gratuit chaque année le {{date}}",
-    "nextDate": "prochaine date : {{date}}"
+    "nextDate": "prochaine date : {{date}}"
   },
   "calendar": {
     "title": "Calendrier des gratuités",
@@ -128,15 +136,15 @@
   "map": {
     "ariaLabel": "Carte interactive des musées",
     "markerLabel": "{{name}} — {{category}}",
-    "clusterLabel": "{{count}} musées — zoomez pour les séparer",
     "recenter": "Recentrer sur Paris"
   },
   "about": {
     "dataSources": "Sources des données",
-    "dataSourcesBody": "Données de gratuité : parisjetaime.com et sites officiels des musées ; annuaire des musées : data.gouv.fr (Licence Ouverte) ; carte © contributeurs OpenStreetMap, tuiles OpenFreeMap.",
+    "dataSourcesBody": "Données de gratuité : parisjetaime.com et sites officiels des musées ; annuaire des musées : data.gouv.fr (Licence Ouverte) ; carte © contributeurs OpenStreetMap, tuiles OpenFreeMap.",
     "github": "Code source sur GitHub",
     "license": "Licence MIT",
-    "disclaimer": "Les conditions de gratuité évoluent — vérifiez toujours le site officiel du musée avant votre visite."
+    "disclaimer": "Les conditions de gratuité évoluent — vérifiez toujours le site officiel du musée avant votre visite.",
+    "author": "Créé par"
   },
   "a11y": {
     "resultsUpdated_one": "{{count}} musée affiché",
@@ -145,7 +153,7 @@
     "dialogClose": "Fermer la fenêtre",
     "sheetExpand": "Déplier le panneau des résultats",
     "sheetCollapse": "Replier le panneau des résultats",
-    "selectedMarker": "Sélectionné : {{name}}"
+    "selectedMarker": "Sélectionné : {{name}}"
   },
   "notFound": {
     "title": "Musée introuvable",

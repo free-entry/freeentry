@@ -1,6 +1,7 @@
 {
   "app": {
-    "title": "Museos gratuitos — París e Île-de-France",
+    "title": "Museos y monumentos gratuitos — París e Île-de-France",
+    "titleShort": "Museos gratis en París",
     "tagline": "Todos los museos y monumentos que puedes visitar gratis, y cuándo",
     "skipToList": "Saltar a la lista de resultados",
     "loading": "Cargando…",
@@ -22,6 +23,7 @@
     "first-sunday-low-season": "1.er domingo, temporada baja",
     "first-saturday": "Gratis el 1.er sábado",
     "nocturne": "Nocturna mensual gratuita",
+    "july-14": "Gratis el 14 de julio",
     "special-days": "Solo días especiales",
     "under-26-only": "Gratis para menores de 26 años",
     "none": "Sin entrada gratuita"
@@ -78,15 +80,21 @@
     "bookingRequired": "Reserva obligatoria",
     "book": "Reservar una entrada gratuita",
     "website": "Sitio web",
+    "googleMaps": "Google Maps",
+    "appleMaps": "Apple Mapas",
+    "wikipedia": "Wikipedia (en francés)",
     "directions": "Cómo llegar",
-    "share": "Compartir",
+    "copyLink": "Copiar enlace",
     "linkCopied": "Enlace copiado al portapapeles",
     "address": "Dirección",
     "openingHours": "Horario de apertura",
+    "hoursClosed": "Cerrado",
+    "hoursPublicHolidays": "Días festivos",
+    "hoursAlways": "Abierto 24 h",
     "source": "Fuente",
     "checkedOn": "comprobado el {{date}}",
     "distanceAway": "a {{km}} km",
-    "frenchName": "Nombre en francés",
+    "frenchName": "Nombre en francés: ",
     "noFreeScheme": "No se conoce ninguna gratuidad regular para este lugar.",
     "back": "Volver a los resultados",
     "close": "Cerrar detalles"
@@ -125,7 +133,6 @@
   "map": {
     "ariaLabel": "Mapa interactivo de museos",
     "markerLabel": "{{name}} — {{category}}",
-    "clusterLabel": "{{count}} museos — acerca el zoom para separarlos",
     "recenter": "Centrar en París"
   },
   "about": {
@@ -133,7 +140,8 @@
     "dataSourcesBody": "Datos de gratuidad de parisjetaime.com y de los sitios web oficiales de los museos; directorio de museos de data.gouv.fr (Licence Ouverte); mapa © colaboradores de OpenStreetMap, teselas de OpenFreeMap.",
     "github": "Código fuente en GitHub",
     "license": "Licencia MIT",
-    "disclaimer": "Las condiciones de gratuidad cambian — comprueba siempre el sitio web oficial del museo antes de la visita."
+    "disclaimer": "Las condiciones de gratuidad cambian — comprueba siempre el sitio web oficial del museo antes de la visita.",
+    "author": "Creado por"
   },
   "a11y": {
     "resultsUpdated_one": "{{count}} museo mostrado",

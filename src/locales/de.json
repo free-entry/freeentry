@@ -1,6 +1,7 @@
 {
   "app": {
-    "title": "Kostenlose Museen – Paris & Île-de-France",
+    "title": "Kostenlose Museen und Denkmäler – Paris & Île-de-France",
+    "titleShort": "Kostenlose Museen in Paris",
     "tagline": "Alle Museen und Denkmäler, die Sie gratis besuchen können – und wann",
     "skipToList": "Zur Ergebnisliste springen",
     "loading": "Wird geladen…",
@@ -22,6 +23,7 @@
     "first-sunday-low-season": "1. Sonntag, Nebensaison",
     "first-saturday": "Kostenlos am 1. Samstag",
     "nocturne": "Einmal im Monat abends kostenlos",
+    "july-14": "Kostenlos am 14. Juli",
     "special-days": "Nur an besonderen Tagen",
     "under-26-only": "Kostenlos unter 26",
     "none": "Kein freier Eintritt"
@@ -78,15 +80,21 @@
     "bookingRequired": "Reservierung erforderlich",
     "book": "Kostenloses Ticket reservieren",
     "website": "Website",
+    "googleMaps": "Google Maps",
+    "appleMaps": "Apple Karten",
+    "wikipedia": "Wikipedia (auf Französisch)",
     "directions": "Route",
-    "share": "Teilen",
+    "copyLink": "Link kopieren",
     "linkCopied": "Link in die Zwischenablage kopiert",
     "address": "Adresse",
     "openingHours": "Öffnungszeiten",
+    "hoursClosed": "Geschlossen",
+    "hoursPublicHolidays": "Feiertage",
+    "hoursAlways": "Durchgehend geöffnet",
     "source": "Quelle",
     "checkedOn": "geprüft am {{date}}",
     "distanceAway": "{{km}} km entfernt",
-    "frenchName": "Französischer Name",
+    "frenchName": "Französischer Name: ",
     "noFreeScheme": "Für diesen Ort ist kein regulärer freier Eintritt bekannt.",
     "back": "Zurück zu den Ergebnissen",
     "close": "Details schließen"
@@ -125,7 +133,6 @@
   "map": {
     "ariaLabel": "Interaktive Karte der Museen",
     "markerLabel": "{{name}} – {{category}}",
-    "clusterLabel": "{{count}} Museen – zoomen Sie hinein, um sie einzeln zu sehen",
     "recenter": "Auf Paris zentrieren"
   },
   "about": {
@@ -133,7 +140,8 @@
     "dataSourcesBody": "Daten zum freien Eintritt von parisjetaime.com und den offiziellen Websites der Museen; Museumsverzeichnis von data.gouv.fr (Licence Ouverte); Karte © OpenStreetMap-Mitwirkende, Kacheln von OpenFreeMap.",
     "github": "Quellcode auf GitHub",
     "license": "MIT-Lizenz",
-    "disclaimer": "Die Bedingungen für freien Eintritt ändern sich – prüfen Sie vor dem Besuch immer die offizielle Website des Museums."
+    "disclaimer": "Die Bedingungen für freien Eintritt ändern sich – prüfen Sie vor dem Besuch immer die offizielle Website des Museums.",
+    "author": "Erstellt von"
   },
   "a11y": {
     "resultsUpdated_one": "{{count}} Museum angezeigt",

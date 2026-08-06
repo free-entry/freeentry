@@ -1,6 +1,7 @@
 {
   "app": {
-    "title": "Free Museums — Paris & Île-de-France",
+    "title": "Free Museums & Monuments — Paris & Île-de-France",
+    "titleShort": "Free Museums Paris & ÎdF",
     "tagline": "Every museum and monument you can visit for free, and when",
     "skipToList": "Skip to results list",
     "loading": "Loading…",
@@ -22,6 +23,7 @@
     "first-sunday-low-season": "1st Sunday, low season",
     "first-saturday": "Free 1st Saturday",
     "nocturne": "Free monthly evening",
+    "july-14": "Free on 14 July",
     "special-days": "Special days only",
     "under-26-only": "Free under 26",
     "none": "No free admission"
@@ -78,15 +80,21 @@
     "bookingRequired": "Booking required",
     "book": "Book a free ticket",
     "website": "Website",
+    "googleMaps": "Google Maps",
+    "appleMaps": "Apple Maps",
+    "wikipedia": "Wikipedia (in French)",
     "directions": "Directions",
-    "share": "Share",
+    "copyLink": "Copy link",
     "linkCopied": "Link copied to clipboard",
     "address": "Address",
     "openingHours": "Opening hours",
+    "hoursClosed": "Closed",
+    "hoursPublicHolidays": "Public holidays",
+    "hoursAlways": "Open 24/7",
     "source": "Source",
     "checkedOn": "checked on {{date}}",
     "distanceAway": "{{km}} km away",
-    "frenchName": "French name",
+    "frenchName": "French name: ",
     "noFreeScheme": "No regular free admission is known for this venue.",
     "back": "Back to results",
     "close": "Close details"
@@ -125,7 +133,6 @@
   "map": {
     "ariaLabel": "Interactive map of museums",
     "markerLabel": "{{name}} — {{category}}",
-    "clusterLabel": "{{count}} museums — zoom in to separate",
     "recenter": "Recenter on Paris"
   },
   "about": {
@@ -133,7 +140,8 @@
     "dataSourcesBody": "Free-admission data from parisjetaime.com and official museum websites; museum directory from data.gouv.fr (Licence Ouverte); map © OpenStreetMap contributors, tiles by OpenFreeMap.",
     "github": "Source code on GitHub",
     "license": "MIT license",
-    "disclaimer": "Free-admission conditions change — always check the museum's official website before visiting."
+    "disclaimer": "Free-admission conditions change — always check the museum's official website before visiting.",
+    "author": "Made by"
   },
   "a11y": {
     "resultsUpdated_one": "{{count}} museum shown",

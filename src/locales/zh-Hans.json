@@ -1,6 +1,7 @@
 {
   "app": {
-    "title": "巴黎与法兰西岛免费博物馆",
+    "title": "巴黎与法兰西岛免费博物馆和古迹",
+    "titleShort": "巴黎免费博物馆",
     "tagline": "所有可以免费参观的博物馆和古迹，以及免费开放的时间",
     "skipToList": "跳转到结果列表",
     "loading": "加载中…",
@@ -22,6 +23,7 @@
     "first-sunday-low-season": "淡季每月第一个周日免费",
     "first-saturday": "每月第一个周六免费",
     "nocturne": "每月夜场免费",
+    "july-14": "7月14日法国国庆免费",
     "special-days": "仅特定日期免费",
     "under-26-only": "26 岁以下免费",
     "none": "无免费开放"
@@ -76,15 +78,21 @@
     "bookingRequired": "需要预约",
     "book": "预约免费门票",
     "website": "官网",
+    "googleMaps": "Google 地图",
+    "appleMaps": "Apple 地图",
+    "wikipedia": "维基百科（法语）",
     "directions": "路线",
-    "share": "分享",
+    "copyLink": "复制链接",
     "linkCopied": "链接已复制到剪贴板",
     "address": "地址",
     "openingHours": "开放时间",
+    "hoursClosed": "闭馆",
+    "hoursPublicHolidays": "公众假期",
+    "hoursAlways": "全天候开放",
     "source": "数据来源",
     "checkedOn": "核实于 {{date}}",
     "distanceAway": "距此 {{km}} 公里",
-    "frenchName": "法语名称",
+    "frenchName": "法语名称：",
     "noFreeScheme": "该场馆暂无已知的常规免费开放政策。",
     "back": "返回结果列表",
     "close": "关闭详情"
@@ -122,7 +130,6 @@
   "map": {
     "ariaLabel": "博物馆互动地图",
     "markerLabel": "{{name}} — {{category}}",
-    "clusterLabel": "{{count}} 家博物馆 — 放大后可分开显示",
     "recenter": "回到巴黎中心"
   },
   "about": {
@@ -130,7 +137,8 @@
     "dataSourcesBody": "免费开放信息来自 parisjetaime.com 及各博物馆官方网站；博物馆名录来自 data.gouv.fr（Licence Ouverte 开放许可）；地图 © OpenStreetMap 贡献者，瓦片由 OpenFreeMap 提供。",
     "github": "在 GitHub 上查看源代码",
     "license": "MIT 许可证",
-    "disclaimer": "免费开放政策可能随时调整，出行前请务必在博物馆官方网站上确认。"
+    "disclaimer": "免费开放政策可能随时调整，出行前请务必在博物馆官方网站上确认。",
+    "author": "作者"
   },
   "a11y": {
     "resultsUpdated_other": "已显示 {{count}} 家博物馆",

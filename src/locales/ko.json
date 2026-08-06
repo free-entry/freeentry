@@ -1,6 +1,7 @@
 {
   "app": {
-    "title": "파리·일드프랑스 무료 박물관",
+    "title": "파리·일드프랑스 무료 박물관·기념물",
+    "titleShort": "파리 무료 박물관",
     "tagline": "무료로 관람할 수 있는 모든 박물관과 기념물, 그리고 무료 개방 날짜까지 한눈에",
     "skipToList": "결과 목록으로 건너뛰기",
     "loading": "불러오는 중…",
@@ -22,6 +23,7 @@
     "first-sunday-low-season": "첫째 일요일, 비수기 한정",
     "first-saturday": "첫째 토요일 무료",
     "nocturne": "월 1회 야간 무료",
+    "july-14": "7월 14일(바스티유의 날) 무료",
     "special-days": "특별한 날만 무료",
     "under-26-only": "26세 미만 무료",
     "none": "무료입장 없음"
@@ -76,15 +78,21 @@
     "bookingRequired": "예약 필수",
     "book": "무료 티켓 예약",
     "website": "웹사이트",
+    "googleMaps": "Google 지도",
+    "appleMaps": "Apple 지도",
+    "wikipedia": "위키백과(프랑스어판)",
     "directions": "길찾기",
-    "share": "공유",
+    "copyLink": "링크 복사",
     "linkCopied": "링크가 클립보드에 복사되었습니다",
     "address": "주소",
     "openingHours": "운영 시간",
+    "hoursClosed": "휴관",
+    "hoursPublicHolidays": "공휴일",
+    "hoursAlways": "24시간 개관",
     "source": "출처",
     "checkedOn": "{{date}} 확인",
     "distanceAway": "{{km}} km 거리",
-    "frenchName": "프랑스어 이름",
+    "frenchName": "프랑스어 이름: ",
     "noFreeScheme": "이 시설에는 알려진 정기 무료입장 제도가 없습니다.",
     "back": "결과로 돌아가기",
     "close": "상세 정보 닫기"
@@ -122,7 +130,6 @@
   "map": {
     "ariaLabel": "박물관 인터랙티브 지도",
     "markerLabel": "{{name}} — {{category}}",
-    "clusterLabel": "박물관 {{count}}곳 — 확대하면 나뉘어 표시됩니다",
     "recenter": "파리 중심으로 이동"
   },
   "about": {
@@ -130,7 +137,8 @@
     "dataSourcesBody": "무료입장 정보: parisjetaime.com 및 각 박물관 공식 웹사이트, 박물관 목록: data.gouv.fr (Licence Ouverte), 지도 © OpenStreetMap 기여자, 타일: OpenFreeMap.",
     "github": "GitHub에서 소스 코드 보기",
     "license": "MIT 라이선스",
-    "disclaimer": "무료입장 조건은 변경될 수 있습니다. 방문 전 반드시 박물관 공식 웹사이트를 확인하세요."
+    "disclaimer": "무료입장 조건은 변경될 수 있습니다. 방문 전 반드시 박물관 공식 웹사이트를 확인하세요.",
+    "author": "제작자"
   },
   "a11y": {
     "resultsUpdated_other": "박물관 {{count}}곳 표시됨",

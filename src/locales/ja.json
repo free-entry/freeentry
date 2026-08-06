@@ -1,6 +1,7 @@
 {
   "app": {
-    "title": "無料ミュージアム — パリ＆イル・ド・フランス",
+    "title": "無料ミュージアム＆モニュメント — パリ＆イル・ド・フランス",
+    "titleShort": "パリ無料ミュージアム",
     "tagline": "無料で見学できる美術館・博物館・モニュメントと、その日程がすべてわかる",
     "skipToList": "結果リストへ移動",
     "loading": "読み込み中…",
@@ -22,6 +23,7 @@
     "first-sunday-low-season": "第1日曜（オフシーズン）",
     "first-saturday": "第1土曜無料",
     "nocturne": "月1回の夜間無料",
+    "july-14": "7月14日（パリ祭）無料",
     "special-days": "特別な日のみ",
     "under-26-only": "26歳未満無料",
     "none": "無料入場なし"
@@ -53,7 +55,7 @@
     "resultCount_other": "{{count}}件のミュージアム",
     "showResults_other": "{{count}}件を表示",
     "activeFilters": "適用中の絞り込み",
-    "removeFilter": "絞り込みを解除: {{label}}",
+    "removeFilter": "絞り込みを解除：{{label}}",
     "freeOnDate": "{{date}}に無料",
     "withinKm": "{{km}} km以内",
     "aroundMyLocation": "現在地の周辺",
@@ -69,22 +71,28 @@
   },
   "museum": {
     "freeAccessTitle": "無料入場",
-    "nextFreeDate": "次の無料日: {{date}}",
+    "nextFreeDate": "次の無料日：{{date}}",
     "estimated": "推定",
     "todayFree": "本日無料",
     "eveningOnly": "夜間のみ",
     "bookingRequired": "要予約",
     "book": "無料チケットを予約",
     "website": "公式サイト",
+    "googleMaps": "Google マップ",
+    "appleMaps": "Apple マップ",
+    "wikipedia": "ウィキペディア（フランス語版）",
     "directions": "経路",
-    "share": "共有",
+    "copyLink": "リンクをコピー",
     "linkCopied": "リンクをコピーしました",
     "address": "住所",
     "openingHours": "開館時間",
+    "hoursClosed": "休館",
+    "hoursPublicHolidays": "祝日",
+    "hoursAlways": "24時間開館",
     "source": "出典",
     "checkedOn": "{{date}}に確認",
     "distanceAway": "{{km}} km先",
-    "frenchName": "フランス語名",
+    "frenchName": "フランス語名：",
     "noFreeScheme": "この施設には定期的な無料入場の制度は確認されていません。",
     "back": "結果一覧に戻る",
     "close": "詳細を閉じる"
@@ -101,7 +109,7 @@
     "museumNight": "「ヨーロッパ美術館の夜」は無料",
     "heritageDays": "「ヨーロッパ文化遺産の日」は無料",
     "annualDate": "毎年{{date}}は無料",
-    "nextDate": "次回: {{date}}"
+    "nextDate": "次回：{{date}}"
   },
   "calendar": {
     "title": "無料入場カレンダー",
@@ -122,7 +130,6 @@
   "map": {
     "ariaLabel": "ミュージアムのインタラクティブ地図",
     "markerLabel": "{{name}} — {{category}}",
-    "clusterLabel": "{{count}}館 — ズームインすると個別に表示されます",
     "recenter": "パリ中心部に戻す"
   },
   "about": {
@@ -130,14 +137,15 @@
     "dataSourcesBody": "無料入場の情報は parisjetaime.com および各ミュージアムの公式サイト、ミュージアム一覧は data.gouv.fr（Licence Ouverte）によるものです。地図 © OpenStreetMap contributors、タイルは OpenFreeMap 提供。",
     "github": "GitHubのソースコード",
     "license": "MITライセンス",
-    "disclaimer": "無料入場の条件は変わることがあります。訪問前に必ず各ミュージアムの公式サイトでご確認ください。"
+    "disclaimer": "無料入場の条件は変わることがあります。訪問前に必ず各ミュージアムの公式サイトでご確認ください。",
+    "author": "作成者"
   },
   "a11y": {
     "resultsUpdated_other": "{{count}}館を表示中",
     "dialogClose": "ダイアログを閉じる",
     "sheetExpand": "結果パネルを展開",
     "sheetCollapse": "結果パネルを折りたたむ",
-    "selectedMarker": "選択中: {{name}}"
+    "selectedMarker": "選択中：{{name}}"
   },
   "notFound": {
     "title": "ミュージアムが見つかりません",

@@ -1,6 +1,7 @@
 {
   "app": {
-    "title": "Musei gratuiti — Parigi e Île-de-France",
+    "title": "Musei e monumenti gratuiti — Parigi e Île-de-France",
+    "titleShort": "Musei gratis a Parigi",
     "tagline": "Tutti i musei e i monumenti da visitare gratis, e quando",
     "skipToList": "Vai all'elenco dei risultati",
     "loading": "Caricamento…",
@@ -22,6 +23,7 @@
     "first-sunday-low-season": "1ª domenica, bassa stagione",
     "first-saturday": "Gratis il 1º sabato",
     "nocturne": "Serata gratuita mensile",
+    "july-14": "Gratis il 14 luglio",
     "special-days": "Solo giornate speciali",
     "under-26-only": "Gratis per gli under 26",
     "none": "Nessun ingresso gratuito"
@@ -78,15 +80,21 @@
     "bookingRequired": "Prenotazione obbligatoria",
     "book": "Prenota un biglietto gratuito",
     "website": "Sito web",
+    "googleMaps": "Google Maps",
+    "appleMaps": "Apple Mappe",
+    "wikipedia": "Wikipedia (in francese)",
     "directions": "Indicazioni stradali",
-    "share": "Condividi",
+    "copyLink": "Copia link",
     "linkCopied": "Link copiato negli appunti",
     "address": "Indirizzo",
     "openingHours": "Orari di apertura",
+    "hoursClosed": "Chiuso",
+    "hoursPublicHolidays": "Festivi",
+    "hoursAlways": "Aperto 24/7",
     "source": "Fonte",
     "checkedOn": "verificato il {{date}}",
     "distanceAway": "a {{km}} km",
-    "frenchName": "Nome francese",
+    "frenchName": "Nome francese: ",
     "noFreeScheme": "Per questo luogo non è nota alcuna gratuità regolare.",
     "back": "Torna ai risultati",
     "close": "Chiudi i dettagli"
@@ -125,7 +133,6 @@
   "map": {
     "ariaLabel": "Mappa interattiva dei musei",
     "markerLabel": "{{name}} — {{category}}",
-    "clusterLabel": "{{count}} musei — ingrandisci per separarli",
     "recenter": "Ricentra su Parigi"
   },
   "about": {
@@ -133,7 +140,8 @@
     "dataSourcesBody": "Dati sugli ingressi gratuiti da parisjetaime.com e dai siti ufficiali dei musei; elenco dei musei da data.gouv.fr (Licence Ouverte); mappa © contributori OpenStreetMap, tile di OpenFreeMap.",
     "github": "Codice sorgente su GitHub",
     "license": "Licenza MIT",
-    "disclaimer": "Le condizioni di gratuità cambiano — verifica sempre il sito ufficiale del museo prima della visita."
+    "disclaimer": "Le condizioni di gratuità cambiano — verifica sempre il sito ufficiale del museo prima della visita.",
+    "author": "Creato da"
   },
   "a11y": {
     "resultsUpdated_one": "{{count}} museo mostrato",
