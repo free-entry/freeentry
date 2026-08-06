@@ -7,6 +7,9 @@
 
 .back {
   align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
   font: inherit;
   font-size: 0.85rem;
   color: var(--color-accent);
@@ -14,6 +17,12 @@
   border: none;
   padding: 0.4rem 0;
   cursor: pointer;
+}
+
+.backIcon {
+  inline-size: 1rem;
+  block-size: 1rem;
+  flex-shrink: 0;
 }
 
 .back:hover {
@@ -75,6 +84,16 @@
   border-radius: 999px;
   padding-block: 0.15rem;
   padding-inline: 0.55rem;
+}
+
+.note {
+  margin: 0.6rem 0 0;
+  padding: 0.5rem 0.7rem;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  border-inline-start: 3px solid var(--color-warning, #b5850f);
+  background: color-mix(in srgb, var(--color-warning, #b5850f) 10%, transparent);
+  border-radius: 0 4px 4px 0;
 }
 
 .description {
@@ -139,6 +158,56 @@
   color: var(--color-text-muted);
 }
 
+.mapActions {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-inline-start: 0.55rem;
+  vertical-align: middle;
+}
+
+.mapActions .iconAction {
+  inline-size: 1.9rem;
+  block-size: 1.9rem;
+}
+
+.mapActions .iconAction svg {
+  inline-size: 1.05rem;
+  block-size: 1.05rem;
+}
+
+.iconAction {
+  display: inline-grid;
+  place-items: center;
+  inline-size: 2.3rem;
+  block-size: 2.3rem;
+  border-radius: 50%;
+  color: var(--color-accent);
+  background: var(--color-bg-raised);
+  border: 1px solid var(--color-border);
+  cursor: pointer;
+  padding: 0;
+}
+
+.iconAction svg {
+  inline-size: 1.25rem;
+  block-size: 1.25rem;
+}
+
+.iconAction:hover {
+  background: color-mix(in srgb, var(--color-accent) 12%, var(--color-bg-raised));
+}
+
+.iconActionPrimary {
+  color: var(--color-accent-contrast);
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+.iconActionPrimary:hover {
+  background: color-mix(in srgb, var(--color-accent) 85%, black);
+}
+
 .actions {
   display: flex;
   flex-wrap: wrap;
@@ -181,6 +250,23 @@
 .sources {
   border-block-start: 1px solid var(--color-border);
   padding-block-start: 0.7rem;
+}
+
+.sourceSummary {
+  cursor: pointer;
+  user-select: none;
+}
+
+.sourceSummary .sectionTitle {
+  display: inline;
+}
+
+.sourceSummary:hover .sectionTitle {
+  color: var(--color-accent);
+}
+
+.sources .sourceList {
+  margin-block-start: 0.45rem;
 }
 
 .sourceList {
