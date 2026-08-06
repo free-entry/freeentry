@@ -1,6 +1,7 @@
 .header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 0.75rem;
   block-size: var(--header-height);
   padding-inline: 0.75rem;
@@ -11,13 +12,29 @@
   z-index: 20;
 }
 
+.side {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+/* Truly centered regardless of the side groups' widths. */
 .wordmark {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   align-items: center;
   gap: 0.5rem;
   color: inherit;
   text-decoration: none;
-  min-inline-size: 0;
+  max-inline-size: 40vw;
+}
+
+.smallIcon {
+  inline-size: 1.15rem;
+  block-size: 1.15rem;
 }
 
 .mark {
@@ -34,23 +51,6 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-
-.search {
-  flex: 1;
-  min-inline-size: 0;
-  max-inline-size: 26rem;
-}
-
-.searchInput {
-  inline-size: 100%;
-  font: inherit;
-  color: var(--color-text);
-  background: var(--color-bg-raised);
-  border: none;
-  border-radius: 999px;
-  padding-block: 0.45rem;
-  padding-inline: 1rem;
 }
 
 .filtersButton {
