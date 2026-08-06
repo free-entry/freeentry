@@ -38,8 +38,10 @@ export interface FreeRule {
   audience?: Audience;
   reservationRequired?: boolean;
   reservationUrl?: string;
-  /** Short clarification in English, translated at display time when possible. */
+  /** Short clarification in English, translated at display time via data/i18n/notes.<locale>.json. */
   note?: string;
+  /** The note is a more detailed version of the rule — render it instead of the generated sentence. */
+  noteReplacesSentence?: boolean;
   source: RuleSource;
 }
 
@@ -57,10 +59,19 @@ export interface Museum {
   department: Department;
   website?: string;
   phone?: string;
+  /** Restricted OSM opening_hours syntax (e.g. 'Tu-Su 10:00-18:00'). */
   openingHours?: string;
+  /** Where and when the opening hours were last verified. */
+  openingHoursSource?: RuleSource;
   tags: string[];
   freeAccess: FreeRule[];
   parisjetaimeUrl?: string;
+  /** Muséofile register id (e.g. 'M5031') — identity key for data.gouv diffs. */
+  museofile?: string;
+  /** Wikidata item id (e.g. 'Q19675'). */
+  wikidata?: string;
+  /** French Wikipedia article URL, from the item's frwiki sitelink. */
+  wikipediaFr?: string;
   /** Venue-level caveat shown on the detail page (e.g. temporary closure). */
   note?: string;
 }

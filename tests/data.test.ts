@@ -73,6 +73,31 @@ describe('museums.json integrity', () => {
     }
   });
 
+  it('pairs opening hours with a dated source', () => {
+    for (const m of museums) {
+      if (m.openingHours) {
+        expect(m.openingHours.trim(), m.id).not.toBe('');
+        expect(m.openingHoursSource?.url, m.id).toMatch(/^https?:\/\//);
+        expect(m.openingHoursSource?.checkedAt, m.id).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+      } else {
+        expect(m.openingHoursSource, m.id).toBeUndefined();
+      }
+    }
+  });
+
+  it('has well-formed, unique Wikidata links', () => {
+    const qids = museums.filter((m) => m.wikidata).map((m) => m.wikidata as string);
+    expect(new Set(qids).size).toBe(qids.length);
+    for (const m of museums) {
+      if (m.wikidata) expect(m.wikidata, m.id).toMatch(/^Q\d+$/);
+      if (m.wikipediaFr) {
+        expect(m.wikipediaFr, m.id).toMatch(/^https:\/\/fr\.wikipedia\.org\/wiki\/./);
+        // A Wikipedia link without its Wikidata item means enrichment went wrong.
+        expect(m.wikidata, m.id).toBeDefined();
+      }
+    }
+  });
+
   it('contains no leftover placeholder values', () => {
     const raw = JSON.stringify(museums);
     expect(raw).not.toContain('"undefined"');
