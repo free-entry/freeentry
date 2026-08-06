@@ -41,7 +41,14 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/arc-de-triomphe-p3559"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/arc-de-triomphe-p3559",
+    "wikidata": "Q64436",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Arc_de_triomphe_de_l'%C3%89toile",
+    "openingHours": "Apr-Sep 10:00-23:00; Oct-Mar 10:00-22:30",
+    "openingHoursSource": {
+      "url": "https://www.paris-arc-de-triomphe.fr",
+      "checkedAt": "2026-08-04"
+    }
   },
   {
     "id": "archea-archeologie-en-pays-de-france",
@@ -64,13 +71,21 @@
         "kind": "nth-weekday",
         "nth": 1,
         "weekday": "sunday",
-        "note": "Free for everyone the 1st Sunday of the month, or the following Sunday when the museum is closed on the 1st ('Gratuité temporaire le 1er dimanche du mois (ou le dimanche suivant lorsque le 1er est fermé) pour tous')",
+        "note": "If the museum is closed on the first Sunday, free admission moves to the following Sunday.",
         "source": {
           "url": "https://archea.roissypaysdefrance.fr/tarifs",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q2860590",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Arch%C3%A9a",
+    "openingHours": "We-Fr 13:30-18:00; Sa-Su 11:00-18:00",
+    "openingHoursSource": {
+      "url": "https://archea.roissypaysdefrance.fr/",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M0436"
   },
   {
     "id": "arenes-de-lutece",
@@ -98,7 +113,14 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/arenes-de-lutece-et-square-capitan-p1094"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/arenes-de-lutece-et-square-capitan-p1094",
+    "wikidata": "Q641548",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ar%C3%A8nes_de_Lut%C3%A8ce",
+    "openingHours": "24/7",
+    "openingHoursSource": {
+      "url": "https://opendata.paris.fr/explore/dataset/espaces_verts/",
+      "checkedAt": "2026-08-04"
+    }
   },
   {
     "id": "basilique-cathedrale-de-saint-denis",
@@ -128,14 +150,21 @@
       },
       {
         "kind": "always",
-        "note": "Nave (worship area) is free for everyone; the royal necropolis, transept and crypt require a paid ticket. The monument does not take part in first-Sunday free entry.",
+        "note": "Only the nave (worship area) is free; the royal necropolis, transept and crypt require a paid ticket, and this monument does not offer first-Sunday free entry.",
         "source": {
           "url": "https://www.saint-denis-basilique.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/basilique-cathedrale-de-saint-denis-p3579"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/basilique-cathedrale-de-saint-denis-p3579",
+    "wikidata": "Q184407",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Basilique_Saint-Denis",
+    "openingHours": "Apr-Sep Mo-Sa 10:00-18:15; Apr-Sep Su 12:00-18:15; Oct-Mar Mo-Sa 10:00-17:15; Oct-Mar Su 12:00-17:15",
+    "openingHoursSource": {
+      "url": "https://www.saint-denis-basilique.fr",
+      "checkedAt": "2026-08-04"
+    }
   },
   {
     "id": "basilique-du-sacre-coeur-de-montmartre",
@@ -157,14 +186,21 @@
     "freeAccess": [
       {
         "kind": "always",
-        "note": "Basilica entry is free; the dome visit and crypt tour require a paid ticket",
+        "note": "Basilica entry is free; the dome climb and crypt tour require a paid ticket.",
         "source": {
           "url": "https://www.sacre-coeur-montmartre.com/english/visit/",
           "checkedAt": "2026-08-06"
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/basilique-du-sacre-coeur-de-montmartre-p3526"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/basilique-du-sacre-coeur-de-montmartre-p3526",
+    "wikidata": "Q28785",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Basilique_du_Sacr%C3%A9-C%C5%93ur_de_Montmartre",
+    "openingHours": "Mo-Su 06:00-22:30",
+    "openingHoursSource": {
+      "url": "https://www.sacre-coeur-montmartre.com",
+      "checkedAt": "2026-08-04"
+    }
   },
   {
     "id": "bourse-de-commerce-pinault-collection",
@@ -193,10 +229,17 @@
         "source": {
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
-        }
+        },
+        "noteReplacesSentence": true
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/bourse-de-commerce-pinault-collection-p3638"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/bourse-de-commerce-pinault-collection-p3638",
+    "wikidata": "Q108740128",
+    "openingHours": "We-Th 11:00-19:00; Fr 11:00-21:00; Sa-Mo 11:00-19:00",
+    "openingHoursSource": {
+      "url": "https://www.pinaultcollection.com/boursedecommerce",
+      "checkedAt": "2026-08-04"
+    }
   },
   {
     "id": "cathedrale-notre-dame-de-paris",
@@ -218,14 +261,21 @@
     "freeAccess": [
       {
         "kind": "always",
-        "note": "Cathedral entry is free (optional free time-slot reservation online); the treasury (tresor) requires a paid ticket sold on site",
+        "note": "Cathedral entry is free; the treasury requires a separate paid ticket, sold on site.",
         "source": {
           "url": "https://www.notredamedeparis.fr/visiter/visiter-le-tresor/",
           "checkedAt": "2026-08-06"
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/cathedrale-notre-dame-de-paris-et-son-tresor-p3576"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/cathedrale-notre-dame-de-paris-et-son-tresor-p3576",
+    "wikidata": "Q2981",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Notre-Dame_de_Paris",
+    "openingHours": "Mo-We 07:50-19:00; Th 07:50-22:00; Fr 07:50-19:00; Sa,Su 08:15-19:30",
+    "openingHoursSource": {
+      "url": "https://www.notredamedeparis.fr",
+      "checkedAt": "2026-08-04"
+    }
   },
   {
     "id": "chapelle-expiatoire",
@@ -255,7 +305,14 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/chapelle-expiatoire-p3495"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/chapelle-expiatoire-p3495",
+    "wikidata": "Q1062732",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Chapelle_expiatoire",
+    "openingHours": "Th-Sa 10:00-12:30,13:30-17:00",
+    "openingHoursSource": {
+      "url": "https://www.chapelle-expiatoire-paris.fr",
+      "checkedAt": "2026-08-04"
+    }
   },
   {
     "id": "chateau-de-champs-sur-marne",
@@ -300,14 +357,21 @@
       },
       {
         "kind": "always",
-        "note": "Free access to the park every open day; château interior is ticketed",
+        "note": "The park is free every day the site is open; the château interior requires a paid ticket.",
         "source": {
           "url": "https://www.chateau-champs-sur-marne.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/chateau-de-champs-sur-marne-p3558"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/chateau-de-champs-sur-marne-p3558",
+    "wikidata": "Q161787",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Champs-sur-Marne",
+    "openingHours": "Apr-Sep 10:00-18:00; Oct-Mar 10:00-17:00",
+    "openingHoursSource": {
+      "url": "https://www.chateau-champs-sur-marne.fr",
+      "checkedAt": "2026-08-04"
+    }
   },
   {
     "id": "chateau-de-maisons",
@@ -351,7 +415,14 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/chateau-de-maisons-p3497"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/chateau-de-maisons-p3497",
+    "wikidata": "Q2092716",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Maisons",
+    "openingHours": "Apr-Sep 10:00-18:00; Oct-Mar 10:00-17:00",
+    "openingHoursSource": {
+      "url": "https://www.chateau-maisons.fr",
+      "checkedAt": "2026-08-04"
+    }
   },
   {
     "id": "chateau-de-rambouillet",
@@ -396,14 +467,21 @@
       },
       {
         "kind": "always",
-        "note": "Free access to the park every day; château, Queen's Dairy and Shell Cottage are ticketed",
+        "note": "The park is free every day; the château, Queen's Dairy and Shell Cottage require paid tickets.",
         "source": {
           "url": "https://www.chateau-rambouillet.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/chateau-de-rambouillet-p3505"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/chateau-de-rambouillet-p3505",
+    "wikidata": "Q648534",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Rambouillet",
+    "openingHours": "Apr-Sep Mo,We-Su 10:00-12:00,13:30-18:00; Oct-Mar Mo,We-Su 10:00-12:00,13:30-17:00",
+    "openingHoursSource": {
+      "url": "https://www.chateau-rambouillet.fr",
+      "checkedAt": "2026-08-04"
+    }
   },
   {
     "id": "chateau-de-sceaux-musee-departemental",
@@ -426,13 +504,16 @@
         "kind": "nth-weekday",
         "nth": 1,
         "weekday": "sunday",
-        "note": "'Tous les publics, le premier dimanche du mois' get in free; otherwise 6 EUR full price. The surrounding 180-ha park is free every day.",
+        "note": "Otherwise 6 EUR full price; the surrounding 180-hectare park is free every day.",
         "source": {
           "url": "https://domaine-de-sceaux.hauts-de-seine.fr/preparez-votre-visite/informations-pratiques/tarifs/billetterie",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q1579344",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Sceaux",
+    "museofile": "M0417"
   },
   {
     "id": "chateau-de-vincennes",
@@ -476,7 +557,14 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/chateau-de-vincennes-p3493"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/chateau-de-vincennes-p3493",
+    "wikidata": "Q663673",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Vincennes",
+    "openingHours": "Apr-Sep 10:00-18:00; Oct-Mar 10:00-17:00",
+    "openingHoursSource": {
+      "url": "https://www.chateau-vincennes.fr",
+      "checkedAt": "2026-08-04"
+    }
   },
   {
     "id": "chateau-musee-de-nemours",
@@ -499,20 +587,28 @@
         "kind": "nth-weekday",
         "nth": 1,
         "weekday": "sunday",
-        "note": "City site: 'Gratuite : ... chaque premier dimanche du mois' (also free for under-19s, jobseekers, RSA/ASPA beneficiaries, disabled visitors)",
+        "note": "Also free for under-19s, jobseekers, RSA/ASPA welfare recipients, and visitors with disabilities.",
         "source": {
           "url": "https://www.nemours.fr/contacts/chateau-musee/",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q131561076",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau-Mus%C3%A9e_de_Nemours",
+    "openingHours": "We 10:00-12:30,14:00-18:00; Th 14:00-18:00; Fr-Su 10:00-12:30,14:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.nemours.fr/contacts/chateau-musee/",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M0381"
   },
   {
     "id": "collections-de-la-fondation-de-coubertin",
     "name": "Collections de la Fondation de Coubertin",
     "coordinates": [
-      2.069096,
-      48.706544
+      2.059919,
+      48.700981
     ],
     "address": "Conservation des collections, Domaine de Coubertin",
     "postalCode": "78470",
@@ -527,13 +623,15 @@
       {
         "kind": "always",
         "audience": "under-26-eu",
-        "note": "Museum states free for all visitors under 26; individual visits only on weekend afternoons during temporary exhibitions",
+        "note": "Individual visits only, on weekend afternoons during temporary exhibitions.",
         "source": {
           "url": "https://musee.coubertin.fr/informations-pratiques/",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q125844960",
+    "museofile": "M0399"
   },
   {
     "id": "conciergerie",
@@ -578,7 +676,14 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/conciergerie-p3496"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/conciergerie-p3496",
+    "wikidata": "Q138101",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Conciergerie_de_Paris",
+    "openingHours": "Mo-Su 09:30-18:00",
+    "openingHoursSource": {
+      "url": "https://www.paris-conciergerie.fr",
+      "checkedAt": "2026-08-04"
+    }
   },
   {
     "id": "ecomusee-94260",
@@ -599,13 +704,21 @@
     "freeAccess": [
       {
         "kind": "always",
-        "note": "Entrée gratuite - all events also free, most on reservation. Closed Sundays, Mondays, Tuesdays, public holidays and most of August.",
+        "note": "Events are also free, most needing reservation; the museum also closes for most of August.",
         "source": {
           "url": "https://ecomusee.grandorlyseinebievre.fr/horaires-acces-0",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q23639828",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/%C3%89comus%C3%A9e_de_Fresnes",
+    "openingHours": "We 10:00-13:00,14:00-19:00; Th-Fr 14:00-18:00; Sa 10:00-13:00,14:00-19:00; PH off",
+    "openingHoursSource": {
+      "url": "https://ecomusee.grandorlyseinebievre.fr/",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M0426"
   },
   {
     "id": "europa-experience",
@@ -632,7 +745,12 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/europa-experience-p3678"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/europa-experience-p3678",
+    "openingHours": "We-Mo 10:00-18:00",
+    "openingHoursSource": {
+      "url": "https://europa-experience.eu",
+      "checkedAt": "2026-08-04"
+    }
   },
   {
     "id": "fondation-arp",
@@ -650,7 +768,10 @@
     "tags": [
       "museum"
     ],
-    "freeAccess": []
+    "freeAccess": [],
+    "wikidata": "Q3075375",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Fondation_Arp",
+    "museofile": "M1126"
   },
   {
     "id": "hotel-de-la-marine",
@@ -689,14 +810,20 @@
       {
         "kind": "always",
         "audience": "under-26-eu",
-        "note": "Free for under-26s (EU residents), per CMN gratuity conditions",
         "source": {
           "url": "https://www.hotel-de-la-marine.paris/",
           "checkedAt": "2026-08-06"
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/hotel-de-la-marine-p3647"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/hotel-de-la-marine-p3647",
+    "wikidata": "Q2059518",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/H%C3%B4tel_de_la_Marine",
+    "openingHours": "Mo-Su 10:00-19:00",
+    "openingHoursSource": {
+      "url": "https://www.hotel-de-la-marine.paris",
+      "checkedAt": "2026-08-04"
+    }
   },
   {
     "id": "la-cinematheque-francaise",
@@ -720,14 +847,21 @@
         "kind": "nth-weekday",
         "nth": 1,
         "weekday": "sunday",
-        "note": "Free entry applies to the Musée Méliès collections; film screenings remain paid",
+        "note": "Free entry covers the Musée Méliès collections only; film screenings remain paid.",
         "source": {
           "url": "https://www.cinematheque.fr/informations-pratiques.html",
           "checkedAt": "2026-08-06"
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/la-cinematheque-francaise-p3552"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/la-cinematheque-francaise-p3552",
+    "wikidata": "Q174274",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Cin%C3%A9math%C3%A8que_fran%C3%A7aise",
+    "openingHours": "Mo 12:00-19:00; We-Su 12:00-19:00",
+    "openingHoursSource": {
+      "url": "https://www.cinematheque.fr",
+      "checkedAt": "2026-08-04"
+    }
   },
   {
     "id": "la-maison-elysee",
@@ -755,7 +889,14 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/la-maison-elysee-p4434"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/la-maison-elysee-p4434",
+    "wikidata": "Q134347159",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/La_Maison_%C3%89lys%C3%A9e",
+    "openingHours": "Tu-Sa 11:00-18:30",
+    "openingHoursSource": {
+      "url": "https://www.elysee.fr",
+      "checkedAt": "2026-08-04"
+    }
   },
   {
     "id": "le-plateau-frac-ile-de-france",
@@ -782,7 +923,14 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/le-plateau-centre-d-art-contemporain-p1133"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/le-plateau-centre-d-art-contemporain-p1133",
+    "wikidata": "Q3225673",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Le_Plateau_(centre_d'art_contemporain)",
+    "openingHours": "We-Su 14:00-19:00",
+    "openingHoursSource": {
+      "url": "https://fracidf.com",
+      "checkedAt": "2026-08-04"
+    }
   },
   {
     "id": "maison-de-balzac",
@@ -804,14 +952,22 @@
     "freeAccess": [
       {
         "kind": "always",
-        "note": "Permanent collections free to visit only outside temporary-exhibition periods",
+        "note": "The permanent collections are free to visit only when there is no temporary exhibition running.",
         "source": {
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/maison-de-balzac-p3501"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/maison-de-balzac-p3501",
+    "wikidata": "Q547789",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Maison_de_Balzac",
+    "openingHours": "Tu-Su 10:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.maisondebalzac.paris.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M1102"
   },
   {
     "id": "maison-de-victor-hugo",
@@ -839,7 +995,15 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/maison-de-victor-hugo-p3500"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/maison-de-victor-hugo-p3500",
+    "wikidata": "Q2599177",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Maison_de_Victor_Hugo",
+    "openingHours": "Tu-Su 10:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.maisonsvictorhugo.paris.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M1114"
   },
   {
     "id": "maison-des-jardies",
@@ -868,7 +1032,14 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/maison-des-jardies-a-sevres-p953"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/maison-des-jardies-a-sevres-p953",
+    "wikidata": "Q2348375",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Maison_des_Jardies",
+    "openingHours": "Th-Su 14:00-18:30",
+    "openingHoursSource": {
+      "url": "https://www.maison-des-jardies.fr",
+      "checkedAt": "2026-08-04"
+    }
   },
   {
     "id": "maison-musee-maurice-ravel",
@@ -886,14 +1057,17 @@
     "tags": [
       "museum"
     ],
-    "freeAccess": []
+    "freeAccess": [],
+    "wikidata": "Q1230290",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Maurice-Ravel",
+    "museofile": "M0392"
   },
   {
     "id": "maison-natale-de-louis-braille",
     "name": "Maison natale de Louis Braille",
     "coordinates": [
-      2.712931,
-      48.867372
+      2.792,
+      48.8945
     ],
     "address": "13, rue Louis Braille",
     "postalCode": "77400",
@@ -904,7 +1078,10 @@
     "tags": [
       "museum"
     ],
-    "freeAccess": []
+    "freeAccess": [],
+    "wikidata": "Q22922427",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Maison_natale_de_Louis_Braille",
+    "museofile": "M0373"
   },
   {
     "id": "memorial-de-la-shoah",
@@ -932,7 +1109,14 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/memorial-de-la-shoah-paris-p3518"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/memorial-de-la-shoah-paris-p3518",
+    "wikidata": "Q479218",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/M%C3%A9morial_de_la_Shoah",
+    "openingHours": "Su-We 10:00-18:00; Th 10:00-22:00; Fr 10:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.memorialdelashoah.org",
+      "checkedAt": "2026-08-04"
+    }
   },
   {
     "id": "memorial-de-la-shoah-de-drancy",
@@ -959,7 +1143,14 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/memorial-de-la-shoah-drancy-p3627"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/memorial-de-la-shoah-drancy-p3627",
+    "wikidata": "Q85854201",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/M%C3%A9morial_de_la_Shoah_%C3%A0_Drancy",
+    "openingHours": "Su-Th 10:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.memorialdelashoah.org",
+      "checkedAt": "2026-08-04"
+    }
   },
   {
     "id": "mus-musee-d-histoire-urbaine-et-sociale-de-suresnes",
@@ -982,7 +1173,7 @@
         "kind": "nth-weekday",
         "nth": 1,
         "weekday": "sunday",
-        "note": "Free for everyone on the first Sunday of the month; otherwise 6 EUR full / 4 EUR reduced.",
+        "note": "Otherwise 6 EUR full price / 4 EUR reduced.",
         "source": {
           "url": "https://mus.suresnes.fr/informations-pratiques/",
           "checkedAt": "2026-08-06"
@@ -991,13 +1182,21 @@
       {
         "kind": "always",
         "audience": "under-26-eu",
-        "note": "Free for all visitors under 26 and students with ID (not limited to EU residents).",
+        "note": "Students with ID also get free entry, regardless of age.",
         "source": {
           "url": "https://mus.suresnes.fr/informations-pratiques/",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q28033642",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Histoire_urbaine_et_sociale_de_Suresnes",
+    "openingHours": "We-Su 14:00-18:00; PH off",
+    "openingHoursSource": {
+      "url": "https://mus.suresnes.fr/",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M0418"
   },
   {
     "id": "musee",
@@ -1018,13 +1217,21 @@
     "freeAccess": [
       {
         "kind": "always",
-        "note": "Entrée libre; free guided tours for groups on reservation. Closed public holidays and Sundays in August.",
+        "note": "Free guided tours for groups by reservation; also closed on public holidays and Sundays in August.",
         "source": {
           "url": "https://museenogentsurmarne.net/index.php?page=horaires&id=1024",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q3329734",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_Nogent-sur-Marne",
+    "openingHours": "Tu-Th 14:00-18:00; Sa 10:00-12:00,14:00-18:00; Su 14:00-18:00; Aug Su off; PH off",
+    "openingHoursSource": {
+      "url": "https://museenogentsurmarne.net/",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M0427"
   },
   {
     "id": "musee-adrien-mentienne",
@@ -1045,13 +1252,16 @@
     "freeAccess": [
       {
         "kind": "always",
-        "note": "Free access. Venue is split: permanent Daguerre exhibition in the town-hall hall (open weekdays + Sat morning), Daguerre diorama in the parish church, and Espace Maurice Joron open by reservation only (musee@bry94.fr). Main collections are in reserve, shown during temporary exhibitions.",
+        "note": "Spread across three sites: the Daguerre exhibition in the town hall (weekdays and Saturday mornings), the Daguerre diorama in the parish church, and the reservation-only Espace Maurice Joron; most of the collection is in storage, shown only during temporary exhibitions.",
         "source": {
           "url": "https://tourisme-vincennes-marnebois.fr/fr/patrimoine-culturel/musee-adrien-mentienne",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q23599751",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Adrien_Mentienne",
+    "museofile": "M0424"
   },
   {
     "id": "musee-alfred-bonno",
@@ -1069,7 +1279,9 @@
     "tags": [
       "museum"
     ],
-    "freeAccess": []
+    "freeAccess": [],
+    "wikidata": "Q23599848",
+    "museofile": "M0371"
   },
   {
     "id": "musee-archeologique-departemental-du-val-d-oise",
@@ -1091,22 +1303,24 @@
       {
         "kind": "event",
         "event": "heritage-days",
-        "note": "Own site confirms free museum entry during the European Heritage Days weekend ('entrée gratuite', Sat-Sun 13h-18h with animations)",
         "source": {
           "url": "https://musee-archeologique-valdoise.fr/evenements/journees-europeennes-du-patrimoine/",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q2420675",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_arch%C3%A9ologique_du_Val-d'Oise",
+    "museofile": "M0434"
   },
   {
     "id": "musee-belmondo-et-de-la-sculpture-figurative-du-xxe-siecle",
     "name": "Musée Paul Belmondo",
     "coordinates": [
-      2.241177,
-      48.834945
+      2.232883,
+      48.847492
     ],
-    "address": "",
+    "address": "14 rue de l'Abreuvoir",
     "postalCode": "92100",
     "commune": "Boulogne-Billancourt",
     "department": "92",
@@ -1119,7 +1333,7 @@
         "kind": "nth-weekday",
         "nth": 1,
         "weekday": "sunday",
-        "note": "Free for everyone on the first Sunday of the month; otherwise 8 EUR full price.",
+        "note": "Otherwise 8 EUR full price.",
         "source": {
           "url": "https://musees.boulognebillancourt.com/fr/horaires-tarifs-acces",
           "checkedAt": "2026-08-06"
@@ -1128,13 +1342,20 @@
       {
         "kind": "always",
         "audience": "under-26-eu",
-        "note": "City policy: free for all visitors under 26 with ID (not limited to EU residents).",
         "source": {
           "url": "https://musees.boulognebillancourt.com/files/musees-conditions-tarifs-rduits-et-gratuit_3555b020f773e38f658cf6194f309442.pdf",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q3329303",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Paul-Belmondo",
+    "openingHours": "We,Sa,Su 14:00-18:00",
+    "openingHoursSource": {
+      "url": "https://musees.boulognebillancourt.com/",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M1170"
   },
   {
     "id": "musee-bossuet",
@@ -1157,13 +1378,20 @@
         "kind": "nth-weekday",
         "nth": 1,
         "weekday": "sunday",
-        "note": "Official site: 'L'entree du musee est gratuite tous les premiers dimanches du mois'",
         "source": {
           "url": "https://www.musee-bossuet.fr/preparez-votre-visite/horaires-et-tarifs",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q82748",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Bossuet",
+    "openingHours": "Apr-Oct We-Mo 10:00-12:30,14:00-18:00; Nov-Mar We-Sa 10:00-12:30,14:00-17:00; Nov-Mar Su 14:00-17:00",
+    "openingHoursSource": {
+      "url": "https://www.musee-bossuet.fr/",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M0378"
   },
   {
     "id": "musee-bourdelle",
@@ -1185,14 +1413,22 @@
     "freeAccess": [
       {
         "kind": "always",
-        "note": "Permanent collections only partially on view during temporary exhibitions",
+        "note": "During temporary exhibitions, only part of the permanent collection is on view.",
         "source": {
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-bourdelle-p3539"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-bourdelle-p3539",
+    "wikidata": "Q2715373",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Bourdelle",
+    "openingHours": "Tu-Su 10:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.bourdelle.paris.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M1103"
   },
   {
     "id": "musee-carnavalet-histoire-de-paris",
@@ -1220,7 +1456,15 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-carnavalet-histoire-de-paris-p3492"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-carnavalet-histoire-de-paris-p3492",
+    "wikidata": "Q640447",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Carnavalet",
+    "openingHours": "Tu-Su 10:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.carnavalet.paris.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M1104"
   },
   {
     "id": "musee-cernuschi-musee-des-arts-de-l-asie-de-la-ville-de-paris",
@@ -1248,7 +1492,15 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-cernuschi-musee-des-arts-de-l-asie-de-la-ville-de-paris-p3499"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-cernuschi-musee-des-arts-de-l-asie-de-la-ville-de-paris-p3499",
+    "wikidata": "Q1667022",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Cernuschi",
+    "openingHours": "Tu-Su 10:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.cernuschi.paris.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M1106"
   },
   {
     "id": "musee-cognacq-jay-musee-du-xviiie-siecle-de-la-ville-de-paris",
@@ -1270,14 +1522,22 @@
     "freeAccess": [
       {
         "kind": "always",
-        "note": "Permanent collections only partially on view during temporary exhibitions",
+        "note": "During temporary exhibitions, only part of the permanent collection is on view.",
         "source": {
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-cognacq-jay-le-gout-du-xviiie-p3509"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-cognacq-jay-le-gout-du-xviiie-p3509",
+    "wikidata": "Q1572452",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Cognacq-Jay",
+    "openingHours": "Tu-Su 10:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.museecognacqjay.paris.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M1107"
   },
   {
     "id": "musee-curie",
@@ -1305,7 +1565,14 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-curie-p999"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-curie-p999",
+    "wikidata": "Q589336",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Curie",
+    "openingHours": "We-Sa 13:00-17:00",
+    "openingHoursSource": {
+      "url": "https://musee.curie.fr",
+      "checkedAt": "2026-08-04"
+    }
   },
   {
     "id": "musee-d-archeologie-nationale-des-origines-a-l-an-mille-chateau-de-saint-germain-en-laye",
@@ -1328,7 +1595,7 @@
         "kind": "nth-weekday",
         "nth": 1,
         "weekday": "sunday",
-        "note": "Free entry to the permanent collections on the first Sunday of each month",
+        "note": "Free entry on the first Sunday applies to the permanent collections only.",
         "source": {
           "url": "https://musee-archeologienationale.fr/tarifs",
           "checkedAt": "2026-08-06"
@@ -1337,14 +1604,21 @@
       {
         "kind": "always",
         "audience": "under-26-eu",
-        "note": "Free for under-18s (all nationalities) and 18-25-year-old EU residents",
         "source": {
           "url": "https://musee-archeologienationale.fr/tarifs",
           "checkedAt": "2026-08-06"
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-d-archeologie-nationale-domaine-national-de-saint-germain-en-laye-p945"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-d-archeologie-nationale-domaine-national-de-saint-germain-en-laye-p945",
+    "wikidata": "Q2342844",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Arch%C3%A9ologie_nationale",
+    "openingHours": "Mo,We-Su 10:00-17:00",
+    "openingHoursSource": {
+      "url": "https://musee-archeologienationale.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M5001"
   },
   {
     "id": "musee-d-art-contemporain-du-val-de-marne",
@@ -1373,7 +1647,15 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/mac-val-musee-d-art-contemporain-du-val-de-marne-p962"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/mac-val-musee-d-art-contemporain-du-val-de-marne-p962",
+    "wikidata": "Q3329594",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_contemporain_du_Val-de-Marne",
+    "openingHours": "Tu-Fr 10:00-18:00; Sa,Su 12:00-19:00",
+    "openingHoursSource": {
+      "url": "https://www.macval.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M0431"
   },
   {
     "id": "musee-d-art-et-d-histoire",
@@ -1394,13 +1676,21 @@
     "freeAccess": [
       {
         "kind": "always",
-        "note": "'Entrée libre et gratuite' Tue-Sun 14:00-18:00; closed Mondays, public holidays and in August.",
+        "note": "Also closed on public holidays and throughout August.",
         "source": {
           "url": "https://musee.meudon.fr/",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q3329618",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_et_d'Histoire_de_Meudon",
+    "openingHours": "Tu-Su 14:00-18:00; PH off",
+    "openingHoursSource": {
+      "url": "https://musee.meudon.fr/",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M0412"
   },
   {
     "id": "musee-d-art-et-d-histoire-de-l-hopital-sainte-anne",
@@ -1423,13 +1713,17 @@
       {
         "kind": "always",
         "audience": "under-26-eu",
-        "note": "Free for all visitors under 26 per the museum ('les - de 26 ans'; no EU-residency requirement stated); standard entry 5 EUR. Museum open only during its temporary exhibitions (Wed-Sun 13:00-18:00); official site now mahhsa.fr",
+        "note": "Standard entry (for visitors 26 and over) is 5 EUR. The museum is open only during its temporary exhibitions, Wed-Sun 13:00-18:00.",
         "source": {
           "url": "https://mahhsa.fr/informations-pratiques/",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q88645654",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_et_d'Histoire_de_l'h%C3%B4pital_Sainte-Anne",
+    "note": "Temporarily closed; reopening announced for 3 September 2026.",
+    "museofile": "M1202"
   },
   {
     "id": "musee-d-art-et-d-histoire-du-judaisme",
@@ -1478,7 +1772,15 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-d-art-et-d-histoire-du-judaisme-p3581"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-d-art-et-d-histoire-du-judaisme-p3581",
+    "wikidata": "Q977732",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_et_d'Histoire_du_juda%C3%AFsme",
+    "openingHours": "Tu-Fr 11:00-18:00; Sa,Su 10:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.mahj.org",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M0364"
   },
   {
     "id": "musee-d-art-et-d-histoire-louis-senlecq",
@@ -1501,17 +1803,20 @@
         "kind": "nth-weekday",
         "nth": 1,
         "weekday": "sunday",
-        "note": "Free for everyone the 1st Sunday of the month ('Pour tous le 1er dimanche du mois'); museum only opens during temporary exhibitions, Wed-Sun 14h-18h; also free for under-18s and L'Isle-Adam residents",
+        "note": "The museum only opens during its temporary exhibitions, Wednesday-Sunday 14:00-18:00. Also free for under-18s and residents of L'Isle-Adam.",
         "source": {
           "url": "https://ville-isle-adam.fr/musee/le-musee/tarifs",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q23639858",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_et_d'Histoire_Louis-Senlecq",
+    "museofile": "M0435"
   },
   {
     "id": "musee-d-art-et-d-histoire-paul-eluard",
-    "name": "Musée d'art et d'histoire Paul Eluard",
+    "name": "Musée d'art et d'histoire Paul Éluard",
     "coordinates": [
       2.355796,
       48.932336
@@ -1530,7 +1835,7 @@
         "kind": "nth-weekday",
         "nth": 1,
         "weekday": "sunday",
-        "note": "Free on the first Sunday of each month; reduced rate (3 EUR) on other Sundays",
+        "note": "Reduced rate of 3 EUR on other Sundays.",
         "source": {
           "url": "https://musee-saint-denis.com/horaires-acces-et-tarifs/",
           "checkedAt": "2026-08-06"
@@ -1539,13 +1844,21 @@
       {
         "kind": "always",
         "audience": "under-26-eu",
-        "note": "Free for all visitors under 26 with ID (site does not restrict to EU residents); also free for students and job seekers",
+        "note": "Also free for students and job seekers, regardless of age.",
         "source": {
           "url": "https://musee-saint-denis.com/horaires-acces-et-tarifs/",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q3329627",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_et_d'Histoire_Paul-%C3%89luard",
+    "openingHours": "Tu-Fr 10:00-17:30; Sa 11:00-18:30; Su 14:00-18:30; Mo off; PH off",
+    "openingHoursSource": {
+      "url": "https://musee-saint-denis.com/infos-pratiques/horaires-acces-et-tarifs/",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M0422"
   },
   {
     "id": "musee-d-art-moderne-de-la-ville-de-paris",
@@ -1567,14 +1880,22 @@
     "freeAccess": [
       {
         "kind": "always",
-        "note": "Permanent collections free for everyone, no reservation needed (optional 5 EUR donation ticket); temporary exhibitions are paid",
+        "note": "Permanent collections are free (optional 5 EUR donation ticket); temporary exhibitions require a paid ticket.",
         "source": {
           "url": "https://www.mam.paris.fr/fr/individuels",
           "checkedAt": "2026-08-06"
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-d-art-moderne-de-paris-p3491"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-d-art-moderne-de-paris-p3491",
+    "wikidata": "Q857276",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_moderne_de_Paris",
+    "openingHours": "Tu-Su 10:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.mam.paris.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M1101"
   },
   {
     "id": "musee-d-ennery",
@@ -1593,7 +1914,10 @@
     "tags": [
       "museum"
     ],
-    "freeAccess": []
+    "freeAccess": [],
+    "wikidata": "Q1579504",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Ennery",
+    "museofile": "M5040"
   },
   {
     "id": "musee-d-histoire-locale-memoire-de-la-ville",
@@ -1614,13 +1938,20 @@
     "freeAccess": [
       {
         "kind": "always",
-        "note": "Free admission ('Tarifs : Gratuit'); open Mon-Sat 14:00-17:45 in the former town hall.",
         "source": {
           "url": "https://www.rueil-tourisme.com/patrimoine-culturel/musee-dhistoire-locale/",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q3329678",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'histoire_locale_de_Rueil-Malmaison",
+    "openingHours": "Mo-Sa 14:00-17:45",
+    "openingHoursSource": {
+      "url": "https://www.villederueil.fr/sortir-loisirs/les-lieux-culturels-et-patrimoniaux/musees-et-lieux-dexposition/musee-dhistoire-locale/",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M0415"
   },
   {
     "id": "musee-d-orsay",
@@ -1659,7 +1990,15 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-d-orsay-p3592"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-d-orsay-p3592",
+    "wikidata": "Q23402",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Orsay",
+    "openingHours": "Tu-We 09:30-18:00; Th 09:30-21:45; Fr-Su 09:30-18:00",
+    "openingHoursSource": {
+      "url": "https://www.musee-orsay.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M5060"
   },
   {
     "id": "musee-daubigny",
@@ -1680,13 +2019,15 @@
     "freeAccess": [
       {
         "kind": "always",
-        "note": "Self-guided visits free ('Visite libre : gratuit') at the temporary venue La Maison de l'Isle, rue Marcel Martin, Auvers-sur-Oise, while the museum building undergoes a two-year expansion; guided tours 3 EUR on reservation",
+        "note": "While the museum building is closed for a two-year expansion, free self-guided visits take place at the temporary venue, La Maison de l'Isle, rue Marcel Martin, Auvers-sur-Oise; guided tours cost 3 EUR and require reservation.",
         "source": {
           "url": "https://museedaubigny.com/horaires-et-tarifs/",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q105988788",
+    "museofile": "M1213"
   },
   {
     "id": "musee-de-l-air-et-de-l-espace",
@@ -1715,7 +2056,15 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-l-air-et-de-l-espace-p3548"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-l-air-et-de-l-espace-p3548",
+    "wikidata": "Q1189955",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_l'Air_et_de_l'Espace",
+    "openingHours": "Tu-Su 10:00-17:00",
+    "openingHoursSource": {
+      "url": "https://www.museeairespace.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M5024"
   },
   {
     "id": "musee-de-l-armee",
@@ -1738,14 +2087,22 @@
       {
         "kind": "always",
         "audience": "under-26-eu",
-        "note": "Permanent collections free for under-18s and under-26 EU/EEA residents with ID; ticket still required. Full price 24 EUR",
+        "note": "Free entry applies to the permanent collections only, and a ticket is still required even though it's free. Full price is 24 EUR.",
         "source": {
           "url": "https://www.musee-armee.fr/votre-visite/horaires-et-tarifs/gratuites-et-reduction.html",
           "checkedAt": "2026-08-06"
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-l-armee-invalides-p3587"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-l-armee-invalides-p3587",
+    "wikidata": "Q1996069",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_l'Arm%C3%A9e_(Paris)",
+    "openingHours": "Apr-Oct 10:00-18:00; Nov-Mar 10:00-17:00",
+    "openingHoursSource": {
+      "url": "https://www.musee-armee.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M5025"
   },
   {
     "id": "musee-de-l-ecole-de-barbizon-auberge-ganne",
@@ -1767,17 +2124,20 @@
       {
         "kind": "always",
         "audience": "under-18",
-        "note": "Officially free for all visitors under 25 ('Gratuit : moins de 25 ans', plus jobseekers, minima sociaux, disabled visitors); encoded as under-18 because the threshold is 25, not 26",
+        "note": "The actual free-entry threshold is under 25 (not under 18); also free for jobseekers, welfare recipients, and visitors with disabilities.",
         "source": {
           "url": "https://www.musee-peintres-barbizon.fr/fr/horaires-tarifs",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q3330523",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_Peintres_de_Barbizon",
+    "museofile": "M0370"
   },
   {
     "id": "musee-de-l-ecole-nationale-superieure-des-beaux-arts",
-    "name": "Musée de l'Ecole nationale supérieure des beaux-arts",
+    "name": "Musée de l'École nationale supérieure des beaux-arts",
     "coordinates": [
       2.33167,
       48.845748
@@ -1795,13 +2155,15 @@
       {
         "kind": "event",
         "event": "heritage-days",
-        "note": "Beaux-Arts de Paris opens its listed buildings, chapel and collections free with guided tours during European Heritage Days (participation confirmed for 2025 and 2026 on its site); regular exhibitions use pay-what-you-choose tickets (2/5/10 EUR)",
+        "note": "During Heritage Days, guided tours of the buildings, chapel and collections are included for free; at other times, exhibitions use pay-what-you-choose tickets (2, 5 or 10 EUR).",
         "source": {
           "url": "https://beauxartsparis.fr/en/evenement/journees-europeennes-du-patrimoine-2025",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q88640485",
+    "museofile": "M5051"
   },
   {
     "id": "musee-de-l-histoire-vivante",
@@ -1823,13 +2185,16 @@
       {
         "kind": "always",
         "audience": "under-26-eu",
-        "note": "Free for all visitors under 26 (site does not restrict to EU residents); also free for students, teachers, job seekers and ICOM holders",
+        "note": "Also free for students, teachers, job seekers, and ICOM cardholders, regardless of age.",
         "source": {
           "url": "https://www.museehistoirevivante.fr/infos-pratiques",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q3329788",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_l'Histoire_vivante",
+    "museofile": "M0420"
   },
   {
     "id": "musee-de-l-hotel-dieu",
@@ -1850,22 +2215,30 @@
     "freeAccess": [
       {
         "kind": "always",
-        "note": "Self-guided visits free for everyone; guided tours paid (free on first Sunday of the month)",
+        "note": "Self-guided visits are always free; guided tours are normally paid, but free on the first Sunday of the month.",
         "source": {
           "url": "https://www.manteslajolie.fr/loisirs-sorties-asso/culture/etablissements-culturels/musee-de-lhotel-dieu",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q23600382",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_l'H%C3%B4tel-Dieu",
+    "openingHours": "Mo,Th 09:00-12:00,14:00-18:00; We,Fr,Sa,Su 14:00-18:00; Tu off; PH 14:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.manteslajolie.fr/loisirs-sorties-asso/culture/etablissements-culturels/musee-de-lhotel-dieu",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M0389"
   },
   {
     "id": "musee-de-l-institut-du-monde-arabe",
     "name": "Musée de l'Institut du monde arabe",
     "coordinates": [
-      2.352176,
-      48.843955
+      2.357041,
+      48.848903
     ],
-    "address": "",
+    "address": "1 rue des Fossés Saint-Bernard",
     "postalCode": "75005",
     "commune": "Paris",
     "arrondissement": 5,
@@ -1884,7 +2257,15 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/institut-du-monde-arabe-p3524"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/institut-du-monde-arabe-p3524",
+    "wikidata": "Q860166",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Institut_du_monde_arabe",
+    "openingHours": "Tu-Fr 10:00-18:00; Sa,Su 10:00-19:00",
+    "openingHoursSource": {
+      "url": "https://www.imarabe.org",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M0365"
   },
   {
     "id": "musee-de-l-orangerie-des-tuileries",
@@ -1910,7 +2291,6 @@
         "weekday": "sunday",
         "reservationRequired": true,
         "reservationUrl": "https://billetterie.musee-orangerie.fr/",
-        "note": "Free for everyone (collections, Water Lilies rooms and exhibitions) on the first Sunday of each month; online time-slot booking mandatory",
         "source": {
           "url": "https://www.musee-orangerie.fr/en/whats-on/tours-and-workshops/1st-sunday-month-free-all-online-time-slot-booking-mandatory",
           "checkedAt": "2026-08-06"
@@ -1919,14 +2299,21 @@
       {
         "kind": "always",
         "audience": "under-26-eu",
-        "note": "Free for under-18s and 18-25-year-old EU nationals or long-term (3+ months) residents of an EU member state",
         "source": {
           "url": "https://www.musee-orangerie.fr/fr/node/582",
           "checkedAt": "2026-08-06"
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-l-orangerie-p3513"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-l-orangerie-p3513",
+    "wikidata": "Q726781",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_l'Orangerie",
+    "openingHours": "Mo,We-Su 09:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.musee-orangerie.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M5030"
   },
   {
     "id": "musee-de-la-batellerie",
@@ -1944,7 +2331,10 @@
     "tags": [
       "museum"
     ],
-    "freeAccess": []
+    "freeAccess": [],
+    "wikidata": "Q3329993",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_batellerie_(Conflans-Sainte-Honorine)",
+    "museofile": "M0387"
   },
   {
     "id": "musee-de-la-chasse-et-de-la-nature",
@@ -1974,7 +2364,15 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-la-chasse-et-de-la-nature-p997"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-la-chasse-et-de-la-nature-p997",
+    "wikidata": "Q1128657",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_Chasse_et_de_la_Nature",
+    "openingHours": "Tu 11:00-18:00; We 11:00-21:30; Th-Su 11:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.chassenature.org",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M0363"
   },
   {
     "id": "musee-de-la-franc-maconnerie",
@@ -1993,7 +2391,10 @@
     "tags": [
       "museum"
     ],
-    "freeAccess": []
+    "freeAccess": [],
+    "wikidata": "Q2597719",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_Franc-ma%C3%A7onnerie",
+    "museofile": "M0366"
   },
   {
     "id": "musee-de-la-gendarmerie",
@@ -2016,7 +2417,7 @@
         "kind": "nth-weekday",
         "nth": 1,
         "weekday": "sunday",
-        "note": "'Gratuit pour les visiteurs, le 1er dimanche du mois' (individual visitors only, not groups)",
+        "note": "First-Sunday free entry applies to individual visitors only, not groups.",
         "source": {
           "url": "https://www.melunvaldeseine-tourisme.com/patrimoine-culturel/musee-de-la-gendarmerie-nationale",
           "checkedAt": "2026-08-06"
@@ -2025,20 +2426,27 @@
       {
         "kind": "always",
         "audience": "under-26-eu",
-        "note": "Free for EU/EEA residents under 26 (standard national-museum scheme)",
         "source": {
           "url": "https://www.melunvaldeseine-tourisme.com/patrimoine-culturel/musee-de-la-gendarmerie-nationale",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q23057803",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_Gendarmerie_nationale_de_Melun",
+    "openingHours": "Apr-Sep We-Mo 10:00-18:00; Oct-Mar We-Mo 10:00-17:30",
+    "openingHoursSource": {
+      "url": "https://www.gendarmerie.interieur.gouv.fr/musee/",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M9013"
   },
   {
     "id": "musee-de-la-grande-guerre",
     "name": "Musée de la Grande Guerre du Pays de Meaux",
     "coordinates": [
-      2.901461,
-      48.955281
+      2.904167,
+      48.971389
     ],
     "address": "Rue Lazare Ponticelli",
     "postalCode": "77100",
@@ -2054,13 +2462,21 @@
         "kind": "nth-weekday",
         "nth": 1,
         "weekday": "sunday",
-        "note": "Free for everyone on the 1st Sunday of each month per the museum's own site; museum closed during its annual break (mid-August to early September), so no free Sunday then",
+        "note": "The museum closes for its annual break from mid-August to early September, so there is no free Sunday during that time.",
         "source": {
           "url": "https://www.museedelagrandeguerre.com/entree-gratuite-tous-les-1er-dimanches-du-mois/",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q611062",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_Grande_Guerre_du_pays_de_Meaux",
+    "openingHours": "We-Mo 09:30-18:00",
+    "openingHoursSource": {
+      "url": "https://www.museedelagrandeguerre.com/",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M1171"
   },
   {
     "id": "musee-de-la-grande-loge-de-france",
@@ -2083,13 +2499,14 @@
       {
         "kind": "event",
         "event": "heritage-days",
-        "note": "GLDF opens its headquarters at 8 rue Puteaux (including the museum) free during European Heritage Days (participations documented on gldf.org for 2016, 2023 and 2026); otherwise guided visits only, online reservation mandatory, 7 EUR",
+        "note": "Outside Heritage Days, visits are guided-tour only, with mandatory online reservation, at 7 EUR.",
         "source": {
           "url": "https://gldf.org/culture-et-patrimoine/journees-europeennes-du-patrimoine-2023/lhotel-de-la-rue-puteaux/historique-des-locaux.html",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "museofile": "M1124"
   },
   {
     "id": "musee-de-la-liberation-de-paris-musee-du-general-leclerc-musee-jean-moulin",
@@ -2117,7 +2534,15 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-la-liberation-de-paris-musee-du-general-leclerc-musee-jean-moulin-p3508"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-la-liberation-de-paris-musee-du-general-leclerc-musee-jean-moulin-p3508",
+    "wikidata": "Q85854194",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_Lib%C3%A9ration_de_Paris_-_mus%C3%A9e_du_G%C3%A9n%C3%A9ral_Leclerc_-_mus%C3%A9e_Jean-Moulin",
+    "openingHours": "Tu-Su 10:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.museeliberation-leclerc-moulin.paris.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M1109"
   },
   {
     "id": "musee-de-la-musique",
@@ -2140,14 +2565,22 @@
       {
         "kind": "always",
         "audience": "under-26-eu",
-        "note": "Permanent collection free for all visitors under 26 per the Philharmonie ('Gratuit pour les moins de 26 ans'; no EU-residency requirement stated); full price 10 EUR",
+        "note": "Free entry applies to the permanent collection; full price otherwise is 10 EUR.",
         "source": {
           "url": "https://philharmoniedeparis.fr/fr/musee-de-la-musique",
           "checkedAt": "2026-08-06"
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/cite-de-la-musique-philharmonie-de-paris-p3544"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/cite-de-la-musique-philharmonie-de-paris-p3544",
+    "wikidata": "Q1094302",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_Musique_(Paris)",
+    "openingHours": "Tu-Fr 12:00-18:00; Sa,Su 10:00-18:00",
+    "openingHoursSource": {
+      "url": "https://philharmoniedeparis.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M5057"
   },
   {
     "id": "musee-de-la-poste",
@@ -2178,7 +2611,7 @@
         "kind": "nth-weekday",
         "nth": 1,
         "weekday": "sunday",
-        "note": "Free for everyone on the first Sunday of each month; otherwise full price 11 EUR (no under-26 gratuity: 18-25s pay a reduced 8 EUR rate)",
+        "note": "Otherwise, full price is 11 EUR; there's no free entry for under-26s here, though 18-25-year-olds get a reduced rate of 8 EUR.",
         "source": {
           "url": "https://www.museedelaposte.fr/fr/tarifs",
           "checkedAt": "2026-08-06"
@@ -2186,7 +2619,15 @@
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-la-poste-p3485",
-    "arrondissement": 15
+    "arrondissement": 15,
+    "wikidata": "Q2445818",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Postal_(Paris)",
+    "openingHours": "Mo-Sa 10:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.museedelaposte.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M1116"
   },
   {
     "id": "musee-de-la-prefecture-de-police",
@@ -2210,23 +2651,30 @@
         "kind": "always",
         "reservationRequired": true,
         "reservationUrl": "https://www.smartagenda.fr/pro/prefecture-de-police-musee/rendez-vous/",
-        "note": "Free entry, but every visitor must be registered in advance (the museum is inside a working police headquarters)",
+        "note": "The museum is located inside a working police headquarters.",
         "source": {
           "url": "https://www.prefecturedepolice.interieur.gouv.fr/musee",
           "checkedAt": "2026-08-06"
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-la-prefecture-de-police-p1067"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-la-prefecture-de-police-p1067",
+    "wikidata": "Q642825",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_pr%C3%A9fecture_de_police",
+    "openingHours": "Mo-Fr 09:30-17:00",
+    "openingHoursSource": {
+      "url": "https://www.prefecturedepolice.interieur.gouv.fr",
+      "checkedAt": "2026-08-04"
+    }
   },
   {
     "id": "musee-de-la-renaissance-chateau-d-ecouen",
-    "name": "Musée de la Renaissance - château d'Ecouen",
+    "name": "Musée de la Renaissance - château d'Écouen",
     "coordinates": [
       2.378424,
       49.015862
     ],
-    "address": "Château d'Ecouen",
+    "address": "Château d'Écouen",
     "postalCode": "95440",
     "commune": "Ecouen",
     "department": "95",
@@ -2254,7 +2702,14 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-de-la-renaissance-chateau-d-ecouen-p1000"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-de-la-renaissance-chateau-d-ecouen-p1000",
+    "wikidata": "Q30538871",
+    "openingHours": "We-Mo 09:30-12:45,14:00-17:15",
+    "openingHoursSource": {
+      "url": "https://musee-renaissance.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M5012"
   },
   {
     "id": "musee-de-la-resistance-nationale",
@@ -2276,7 +2731,7 @@
       {
         "kind": "event",
         "event": "heritage-days",
-        "note": "Free admission during European Heritage Days (museum otherwise closed in September, but opens for the event)",
+        "note": "The museum is normally closed in September but opens specially for Heritage Days.",
         "source": {
           "url": "https://www.musee-resistance.com/votre-visite/tarifs-et-reservations/",
           "checkedAt": "2026-08-06"
@@ -2285,7 +2740,6 @@
       {
         "kind": "annual-date",
         "date": "05-08",
-        "note": "Free on 8 May (WWII Victory Day)",
         "source": {
           "url": "https://www.musee-resistance.com/votre-visite/tarifs-et-reservations/",
           "checkedAt": "2026-08-06"
@@ -2294,13 +2748,15 @@
       {
         "kind": "annual-date",
         "date": "05-27",
-        "note": "Free on 27 May (National Day of the Resistance)",
         "source": {
           "url": "https://www.musee-resistance.com/votre-visite/tarifs-et-reservations/",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q3329963",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_R%C3%A9sistance_nationale",
+    "museofile": "M0425"
   },
   {
     "id": "musee-de-la-toile-de-jouy",
@@ -2322,13 +2778,15 @@
       {
         "kind": "event",
         "event": "heritage-days",
-        "note": "Free museum entry and activities during European Heritage Days",
         "source": {
           "url": "https://www.museedelatoiledejouy.fr/journees-europeennes-du-patrimoine/",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q3330076",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_toile_de_Jouy",
+    "museofile": "M0388"
   },
   {
     "id": "musee-de-la-vie-romantique",
@@ -2350,14 +2808,22 @@
     "freeAccess": [
       {
         "kind": "always",
-        "note": "Reopened 14 February 2026 after renovation, with a new permanent-collection display",
+        "note": "Reopened 14 February 2026 after renovation, with a new permanent-collection display.",
         "source": {
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-la-vie-romantique-p3580"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-la-vie-romantique-p3580",
+    "wikidata": "Q2714932",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_Vie_romantique",
+    "openingHours": "Tu-Su 10:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.museevieromantique.paris.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M1113"
   },
   {
     "id": "musee-de-melun",
@@ -2375,7 +2841,9 @@
     "tags": [
       "museum"
     ],
-    "freeAccess": []
+    "freeAccess": [],
+    "wikidata": "Q23600488",
+    "museofile": "M0379"
   },
   {
     "id": "musee-de-montmartre",
@@ -2398,13 +2866,16 @@
       {
         "kind": "event",
         "event": "museum-night",
-        "note": "European Museum Night: free entry without registration, within capacity limits (2025 edition: 18:30-22:00); museum otherwise paid",
+        "note": "During European Museum Night, entry is free without registration but subject to capacity limits; the museum is otherwise paid.",
         "source": {
           "url": "https://museedemontmartre.fr/evenements/nuit-europeenne-des-musees-2025/",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q2919066",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_Montmartre",
+    "museofile": "M0369"
   },
   {
     "id": "musee-de-port-royal-des-champs",
@@ -2432,7 +2903,15 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-de-port-royal-des-champs-p943"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-de-port-royal-des-champs-p943",
+    "wikidata": "Q3330694",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_national_de_Port-Royal_des_Champs",
+    "openingHours": "Mo-Fr 09:45-12:00,14:00-17:30; Sa,Su 10:30-18:00",
+    "openingHoursSource": {
+      "url": "https://www.port-royal-des-champs.eu",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M5045"
   },
   {
     "id": "musee-de-prehistoire-d-ile-de-france",
@@ -2454,13 +2933,21 @@
       {
         "kind": "always",
         "audience": "under-26-eu",
-        "note": "Departmental museum: site lists free entry for 'moins de 26 ans' (no EU-residency condition stated), plus jobseekers, minima sociaux, disabled visitors",
+        "note": "Also free for jobseekers, welfare recipients, and visitors with disabilities.",
         "source": {
           "url": "https://www.musee-prehistoire-idf.fr/fr/horaires-et-tarifs",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q3330518",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d%C3%A9partemental_de_Pr%C3%A9histoire_d'%C3%8Ele-de-France",
+    "openingHours": "Mo-Su 10:00-12:30,14:00-17:30; We,Sa 14:00-17:30; Jul-Aug Mo-Su 10:00-12:30,14:00-18:00; Jul-Aug We,Sa 14:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.musee-prehistoire-idf.fr/",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M0382"
   },
   {
     "id": "musee-de-provins-et-du-provinois",
@@ -2478,7 +2965,9 @@
     "tags": [
       "museum"
     ],
-    "freeAccess": []
+    "freeAccess": [],
+    "wikidata": "Q23600664",
+    "museofile": "M0383"
   },
   {
     "id": "musee-de-saint-maur-villa-medicis",
@@ -2501,13 +2990,20 @@
         "kind": "nth-weekday",
         "nth": 1,
         "weekday": "sunday",
-        "note": "Premier dimanche du mois : gratuit. Otherwise 7 EUR full / 4 EUR reduced; under-12s always free.",
+        "note": "Otherwise 7 EUR full price / 4 EUR reduced; under-12s are always free.",
         "source": {
           "url": "https://www.saint-maur.com/?id=127",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q23639850",
+    "openingHours": "Tu-Su 14:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.saint-maur.com/?id=127",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M0429"
   },
   {
     "id": "musee-departemental-albert-kahn",
@@ -2536,7 +3032,15 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-departemental-albert-kahn-p966"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-departemental-albert-kahn-p966",
+    "wikidata": "Q3330509",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d%C3%A9partemental_Albert-Kahn",
+    "openingHours": "Apr-Sep Tu-Su 11:00-19:00; Oct-Mar Tu-Su 11:00-18:00",
+    "openingHoursSource": {
+      "url": "https://albert-kahn.hauts-de-seine.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M0407"
   },
   {
     "id": "musee-departemental-maurice-denis",
@@ -2554,7 +3058,10 @@
     "tags": [
       "museum"
     ],
-    "freeAccess": []
+    "freeAccess": [],
+    "wikidata": "Q3330506",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d%C3%A9partemental_Maurice-Denis",
+    "museofile": "M0396"
   },
   {
     "id": "musee-departemental-stephane-mallarme",
@@ -2576,13 +3083,16 @@
       {
         "kind": "always",
         "audience": "under-26-eu",
-        "note": "Museum site lists free entry for under-18s and 18-25-year-olds (no EU-residency condition stated); note the museum opens seasonally only",
+        "note": "The museum only opens seasonally.",
         "source": {
           "url": "https://www.musee-mallarme.fr/fr/horaires-et-tarifs",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q3330504",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d%C3%A9partemental_St%C3%A9phane-Mallarm%C3%A9",
+    "museofile": "M0386"
   },
   {
     "id": "musee-des-annees-trente",
@@ -2605,7 +3115,7 @@
         "kind": "nth-weekday",
         "nth": 1,
         "weekday": "sunday",
-        "note": "Free for everyone on the first Sunday of the month; otherwise 8 EUR full price.",
+        "note": "Otherwise 8 EUR full price.",
         "source": {
           "url": "https://musees.boulognebillancourt.com/fr/horaires-tarifs-acces",
           "checkedAt": "2026-08-06"
@@ -2614,14 +3124,21 @@
       {
         "kind": "always",
         "audience": "under-26-eu",
-        "note": "City policy: free for all visitors under 26 with ID (not limited to EU residents).",
         "source": {
           "url": "https://musees.boulognebillancourt.com/files/musees-conditions-tarifs-rduits-et-gratuit_3555b020f773e38f658cf6194f309442.pdf",
           "checkedAt": "2026-08-06"
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-des-annees-30-p989"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-des-annees-30-p989",
+    "wikidata": "Q3330124",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_Ann%C3%A9es_Trente",
+    "openingHours": "Tu-Su 11:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.boulognebillancourt.com",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M0406"
   },
   {
     "id": "musee-des-archives-nationales-hotel-de-soubise",
@@ -2649,7 +3166,14 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-des-archives-nationales-hotel-de-soubise-p1001"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-des-archives-nationales-hotel-de-soubise-p1001",
+    "wikidata": "Q3330111",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_Archives_nationales",
+    "openingHours": "Mo,We-Fr 10:00-17:30; Sa,Su 14:00-17:30",
+    "openingHoursSource": {
+      "url": "https://www.archives-nationales.culture.gouv.fr",
+      "checkedAt": "2026-08-04"
+    }
   },
   {
     "id": "musee-des-arts-asiatiques-guimet",
@@ -2687,7 +3211,15 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-des-arts-asiatiques-guimet-p3588"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-des-arts-asiatiques-guimet-p3588",
+    "wikidata": "Q860994",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_national_des_Arts_asiatiques_-_Guimet",
+    "openingHours": "We-Mo 10:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.guimet.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M5005"
   },
   {
     "id": "musee-des-arts-decoratifs-union-centrale-des-arts-decoratifs",
@@ -2710,14 +3242,22 @@
       {
         "kind": "always",
         "audience": "under-26-eu",
-        "note": "Collections and exhibitions of the MAD free for under-26s (18-25 within available capacity; museum wording 'moins de 26 ans', no EU-residency requirement stated); online booking strongly recommended",
+        "note": "Free entry for 18-25-year-olds is subject to available capacity; online booking is strongly recommended.",
         "source": {
           "url": "https://madparis.fr/Tarifs-et-gratuites",
           "checkedAt": "2026-08-06"
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/mad-musee-des-arts-decoratifs-p3554"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/mad-musee-des-arts-decoratifs-p3554",
+    "wikidata": "Q1547286",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Les_Arts_d%C3%A9coratifs",
+    "openingHours": "Tu-We 11:00-18:00; Th 11:00-21:00; Fr-Su 11:00-18:00",
+    "openingHoursSource": {
+      "url": "https://madparis.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M5021"
   },
   {
     "id": "musee-des-arts-et-metiers",
@@ -2755,7 +3295,15 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-des-arts-et-metiers-p3596"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-des-arts-et-metiers-p3596",
+    "wikidata": "Q1538826",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_Arts_et_M%C3%A9tiers",
+    "openingHours": "Tu-Th 10:00-18:00; Fr 10:00-21:00; Sa,Su 10:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.arts-et-metiers.net",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M5065"
   },
   {
     "id": "musee-des-avelines-musee-d-art-et-d-histoire-de-saint-cloud",
@@ -2776,13 +3324,21 @@
     "freeAccess": [
       {
         "kind": "always",
-        "note": "'L'entrée du musée est gratuite'; open Wed-Sat 12:00-18:00 and Sun 14:00-18:00; closed public holidays, late December and August.",
+        "note": "Also closed on public holidays, late December, and throughout August.",
         "source": {
           "url": "https://www.musee-saintcloud.fr/",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q2391572",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_Avelines",
+    "openingHours": "We-Sa 12:00-18:00; Su 14:00-18:00; PH off",
+    "openingHoursSource": {
+      "url": "https://www.musee-saintcloud.fr/",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M0416"
   },
   {
     "id": "musee-des-monnaies-et-medailles",
@@ -2806,7 +3362,7 @@
         "kind": "nth-weekday",
         "nth": 1,
         "weekday": "sunday",
-        "note": "Museum free for everyone on the first Sunday of each month; full price 12 EUR",
+        "note": "Full price is 12 EUR.",
         "source": {
           "url": "https://www.monnaiedeparis.fr/en/tickets-and-admission-fees",
           "checkedAt": "2026-08-06"
@@ -2815,13 +3371,15 @@
       {
         "kind": "always",
         "audience": "under-26-eu",
-        "note": "Museum free for under-26s (official price list: 'Youth (-26 years): free'; no EU-residency requirement stated)",
         "source": {
           "url": "https://www.monnaiedeparis.fr/en/tickets-and-admission-fees",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q48746193",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Le_Mus%C3%A9e_du_11_Conti_-_Monnaie_de_Paris",
+    "museofile": "M5066"
   },
   {
     "id": "musee-des-monuments-francais",
@@ -2845,7 +3403,6 @@
         "kind": "nth-weekday",
         "nth": 1,
         "weekday": "sunday",
-        "note": "Museum and temporary exhibitions free for everyone on the first Sunday of each month",
         "source": {
           "url": "https://www.citedelarchitecture.fr/fr/article/billets-et-tarifs",
           "checkedAt": "2026-08-06"
@@ -2854,14 +3411,22 @@
       {
         "kind": "always",
         "audience": "under-26-eu",
-        "note": "Permanent collections (Musée des monuments français, within the Cité de l'architecture) free for under-18s and 18-25 EU residents, per the national-museums scheme",
+        "note": "Free entry for under-26s applies to the permanent collections only.",
         "source": {
           "url": "https://www.culture.gouv.fr/thematiques/musees/Les-musees-en-France/les-politiques-des-musees-de-france/politique-des-publics/la-gratuite-des-collections-permanentes-pour-les-moins-de-26-ans-dans-les-musees-nationaux",
           "checkedAt": "2026-08-06"
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/cite-de-l-architecture-du-patrimoine-p3506"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/cite-de-l-architecture-du-patrimoine-p3506",
+    "wikidata": "Q537515",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Cit%C3%A9_de_l'architecture_et_du_patrimoine",
+    "openingHours": "Mo,We 11:00-19:00; Th 11:00-21:00; Fr-Su 11:00-19:00",
+    "openingHoursSource": {
+      "url": "https://www.citedelarchitecture.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M5042"
   },
   {
     "id": "musee-des-pays-de-seine-et-marne",
@@ -2883,13 +3448,21 @@
       {
         "kind": "always",
         "audience": "under-26-eu",
-        "note": "Departmental museum: site lists 'Gratuit : moins de 26 ans' (no EU-residency condition stated), plus jobseekers, minima sociaux, disabled visitors",
+        "note": "Also free for jobseekers, welfare recipients, and visitors with disabilities.",
         "source": {
           "url": "https://www.musee-seine-et-marne.fr/fr/horaires-tarifs",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q3330528",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d%C3%A9partemental_de_la_Seine-et-Marne",
+    "openingHours": "Mo,Tu,Th,Fr,Su 10:00-12:30,14:00-17:30; We 10:00-12:30; Jul Mo,Tu,Th,Fr,Su 10:00-12:30,14:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.musee-seine-et-marne.fr/",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M0384"
   },
   {
     "id": "musee-des-plans-reliefs",
@@ -2918,7 +3491,15 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-des-plans-reliefs-hotel-national-des-invalides-p937"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-des-plans-reliefs-hotel-national-des-invalides-p937",
+    "wikidata": "Q2915606",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_Plans-reliefs",
+    "openingHours": "Apr-Sep 10:00-18:00; Oct-Mar 10:00-17:00",
+    "openingHoursSource": {
+      "url": "https://www.museedesplansreliefs.culture.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M5071"
   },
   {
     "id": "musee-des-transports-urbains-interurbains-et-ruraux",
@@ -2940,7 +3521,6 @@
       {
         "kind": "event",
         "event": "heritage-days",
-        "note": "Museum announces opening for the Journees Europeennes du Patrimoine (19-20 Sep 2026) on its official site",
         "source": {
           "url": "https://amtuir.org/",
           "checkedAt": "2026-08-06"
@@ -2950,13 +3530,15 @@
         "kind": "event",
         "event": "museum-night",
         "evening": true,
-        "note": "Opens 17h-21h for the Nuit Europeenne des Musees per its official site",
         "source": {
           "url": "https://amtuir.org/",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q3330300",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_transports_urbains%2C_interurbains_et_ruraux",
+    "museofile": "M0428"
   },
   {
     "id": "musee-du-chateau",
@@ -2978,7 +3560,6 @@
       {
         "kind": "event",
         "event": "heritage-days",
-        "note": "Official tariff page grants free entry 'pour tout public, à l'occasion des Journées Nationales organisées par l'État auxquelles le Musée du château de Dourdan participe'",
         "source": {
           "url": "https://chateau.dourdan.fr/preparer-ma-visite/infos-pratiques/",
           "checkedAt": "2026-08-06"
@@ -2987,13 +3568,15 @@
       {
         "kind": "event",
         "event": "museum-night",
-        "note": "Regular participant in the European Night of Museums (own site documents e.g. 2017 and 2020 editions at https://chateau.dourdan.fr/nuit-europeenne-des-musees-2020/); free entry falls under the same state national-days gratuity - check the yearly programme",
         "source": {
           "url": "https://chateau.dourdan.fr/preparer-ma-visite/infos-pratiques/",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q36362855",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_ch%C3%A2teau_de_Dourdan",
+    "museofile": "M0404"
   },
   {
     "id": "musee-du-domaine-royal-de-marly-louveciennes-marly-le-roi",
@@ -3015,13 +3598,15 @@
       {
         "kind": "event",
         "event": "heritage-days",
-        "note": "Entry and activities free all weekend during European Heritage Days",
         "source": {
           "url": "https://musee-domaine-marly.fr/journees-europeennes-du-patrimoine-samedi-21-et-dimanche-22-septembre-2024/",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q23600219",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_domaine_royal_de_Marly",
+    "museofile": "M0390"
   },
   {
     "id": "musee-du-jouet-pierre-pinel",
@@ -3044,13 +3629,15 @@
         "kind": "nth-weekday",
         "nth": 1,
         "weekday": "sunday",
-        "note": "Free for everyone on the first Sunday of each month",
         "source": {
           "url": "https://musees.ville-poissy.fr/files/220318-communique-presse-maison-fer-expo-bestiaux-la-foire_b32f6d00edc3ea8872a1b86298730eb6.pdf",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q3330439",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_jouet_de_Poissy",
+    "museofile": "M0394"
   },
   {
     "id": "musee-du-louvre",
@@ -3090,7 +3677,8 @@
         "source": {
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
-        }
+        },
+        "noteReplacesSentence": true
       },
       {
         "kind": "annual-date",
@@ -3110,7 +3698,15 @@
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-du-louvre-p3489",
-    "arrondissement": 1
+    "arrondissement": 1,
+    "wikidata": "Q19675",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_Louvre",
+    "openingHours": "We-Mo 09:00-18:00; Tu off",
+    "openingHoursSource": {
+      "url": "https://www.louvre.fr/",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M5031"
   },
   {
     "id": "musee-du-moyen-age-thermes-et-hotel-de-cluny",
@@ -3134,7 +3730,6 @@
         "kind": "nth-weekday",
         "nth": 1,
         "weekday": "sunday",
-        "note": "Free for everyone on the first Sunday of each month",
         "source": {
           "url": "https://www.musee-moyenage.fr/visiter/informations-pratiques/tarifs.html",
           "checkedAt": "2026-08-06"
@@ -3143,14 +3738,22 @@
       {
         "kind": "always",
         "audience": "under-26-eu",
-        "note": "Permanent collections (outside temporary exhibitions) free for under-26 EU residents; full price 12 EUR",
+        "note": "Free entry for under-26s applies to the permanent collections only, not temporary exhibitions; full price is 12 EUR.",
         "source": {
           "url": "https://www.musee-moyenage.fr/visiter/informations-pratiques/tarifs.html",
           "checkedAt": "2026-08-06"
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-cluny-musee-national-du-moyen-age-p3555"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-cluny-musee-national-du-moyen-age-p3555",
+    "wikidata": "Q1124095",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_Cluny",
+    "openingHours": "Tu-Su 09:30-18:15",
+    "openingHoursSource": {
+      "url": "https://www.musee-moyenage.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M5003"
   },
   {
     "id": "musee-du-parfum-fragonard",
@@ -3178,7 +3781,14 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-du-parfum-fragonard-p3626"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-du-parfum-fragonard-p3626",
+    "wikidata": "Q4820646",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_Parfum_(Paris)",
+    "openingHours": "Mo-Sa 09:00-17:30; Su 09:00-17:00",
+    "openingHoursSource": {
+      "url": "https://musee-parfum-paris.fragonard.com",
+      "checkedAt": "2026-08-04"
+    }
   },
   {
     "id": "musee-du-quai-branly-jacques-chirac",
@@ -3216,7 +3826,15 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-du-quai-branly-jacques-chirac-p3480"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-du-quai-branly-jacques-chirac-p3480",
+    "wikidata": "Q167863",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_Quai_Branly_-_Jacques-Chirac",
+    "openingHours": "Tu-We 10:30-19:00; Th 10:30-22:00; Fr-Su 10:30-19:00",
+    "openingHoursSource": {
+      "url": "https://www.quaibranly.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M5055"
   },
   {
     "id": "musee-du-service-de-sante-des-armees-du-val-de-grace",
@@ -3235,7 +3853,10 @@
     "tags": [
       "museum"
     ],
-    "freeAccess": []
+    "freeAccess": [],
+    "wikidata": "Q3330482",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_Service_de_sant%C3%A9_des_arm%C3%A9es",
+    "museofile": "M9024"
   },
   {
     "id": "musee-dunoyer-de-segonzac",
@@ -3253,11 +3874,13 @@
     "tags": [
       "museum"
     ],
-    "freeAccess": []
+    "freeAccess": [],
+    "wikidata": "Q23599717",
+    "museofile": "M0402"
   },
   {
     "id": "musee-emile-jean",
-    "name": "Musée Emile Jean",
+    "name": "Musée Émile Jean",
     "coordinates": [
       2.543144,
       48.826701
@@ -3274,13 +3897,15 @@
     "freeAccess": [
       {
         "kind": "always",
-        "note": "Accès gratuit. Small local-history museum open limited afternoon hours (Wednesday and weekends); programme on musee-emile-jean.fr.",
+        "note": "Small local-history museum, open limited afternoon hours on Wednesdays and weekends.",
         "source": {
           "url": "https://www.villiers94.fr/sorties-et-activites/culture/musee-emile-jean/",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q23641285",
+    "museofile": "M0430"
   },
   {
     "id": "musee-eugene-delacroix",
@@ -3326,7 +3951,15 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-eugene-delacroix-p3507"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-eugene-delacroix-p3507",
+    "wikidata": "Q1782606",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_national_Eug%C3%A8ne-Delacroix",
+    "openingHours": "We-Mo 09:30-17:30; Tu off",
+    "openingHoursSource": {
+      "url": "https://www.musee-delacroix.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M5004"
   },
   {
     "id": "musee-fragonard",
@@ -3348,14 +3981,22 @@
       {
         "kind": "always",
         "audience": "under-26-eu",
-        "note": "Free for EU residents under 26 (individual visits only). Museum closes annually 31 July - 1 September.",
+        "note": "Free entry for under-26 EU residents applies to individual visits only, not groups. The museum closes annually from 31 July to 1 September.",
         "source": {
           "url": "https://www.vet-alfort.fr/domaine-d-alfort/musee-fragonard/visiter-le-musee/horaires-tarifs-musee-fragonard",
           "checkedAt": "2026-08-06"
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-fragonard-ecole-nationale-veterinaire-d-alfort-p1118"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-fragonard-ecole-nationale-veterinaire-d-alfort-p1118",
+    "wikidata": "Q1631711",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Fragonard_de_l'%C3%89cole_v%C3%A9t%C3%A9rinaire_de_Maisons-Alfort",
+    "openingHours": "We-Th 14:00-18:00; Sa,Su 14:00-18:00",
+    "openingHoursSource": {
+      "url": "https://musee.vet-alfort.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M5064"
   },
   {
     "id": "musee-francais-de-la-carte-a-jouer-et-galerie-d-histoire-de-la-ville",
@@ -3384,7 +4025,15 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-francais-de-la-carte-a-jouer-et-galerie-d-histoire-de-la-ville-p1045"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-francais-de-la-carte-a-jouer-et-galerie-d-histoire-de-la-ville-p1045",
+    "wikidata": "Q1530976",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_fran%C3%A7ais_de_la_carte_%C3%A0_jouer",
+    "openingHours": "We-Fr 11:00-17:00; Sa,Su 14:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.issy.com/musee",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M0411"
   },
   {
     "id": "musee-gustave-moreau",
@@ -3422,7 +4071,15 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-gustave-moreau-p1087"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-gustave-moreau-p1087",
+    "wikidata": "Q2296362",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Gustave-Moreau",
+    "openingHours": "We-Mo 10:00-18:00",
+    "openingHoursSource": {
+      "url": "https://musee-moreau.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M5041"
   },
   {
     "id": "musee-henri-chapu",
@@ -3443,13 +4100,16 @@
     "freeAccess": [
       {
         "kind": "always",
-        "note": "Free admission per the town website ('Ouvert sur rendez-vous pour les groupes, les scolaires, et lors des manifestations nationales (Gratuit)'); very limited opening - by appointment and during national event days; the agglomeration directory also lists Saturday 15h-17h30 for individuals",
+        "note": "Opening is very limited: mostly by appointment or during national event days, though Saturday 15:00-17:30 is also listed for individual visitors.",
         "source": {
           "url": "https://www.lemeesurseine.fr/les-loisirs/culture/",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q2415229",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Henri-Chapu",
+    "museofile": "M0377"
   },
   {
     "id": "musee-jardin-paul-landowski",
@@ -3472,7 +4132,7 @@
         "kind": "nth-weekday",
         "nth": 1,
         "weekday": "sunday",
-        "note": "Free for everyone on the first Sunday of the month; otherwise 8 EUR full price.",
+        "note": "Otherwise 8 EUR full price.",
         "source": {
           "url": "https://musees.boulognebillancourt.com/fr/horaires-tarifs-acces",
           "checkedAt": "2026-08-06"
@@ -3481,13 +4141,20 @@
       {
         "kind": "always",
         "audience": "under-26-eu",
-        "note": "City policy: free for all visitors under 26 with ID (not limited to EU residents).",
         "source": {
           "url": "https://musees.boulognebillancourt.com/files/musees-conditions-tarifs-rduits-et-gratuit_3555b020f773e38f658cf6194f309442.pdf",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q3329026",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Paul-Landowski",
+    "openingHours": "Tu-Su 11:00-18:00",
+    "openingHoursSource": {
+      "url": "https://musees.boulognebillancourt.com/",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M0408"
   },
   {
     "id": "musee-jean-jacques-henner",
@@ -3525,7 +4192,15 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-jean-jacques-henner-p1084"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-jean-jacques-henner-p1084",
+    "wikidata": "Q1955698",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_national_Jean-Jacques-Henner",
+    "openingHours": "We-Mo 11:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.musee-henner.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M5039"
   },
   {
     "id": "musee-jean-jacques-rousseau",
@@ -3547,7 +4222,6 @@
       {
         "kind": "event",
         "event": "heritage-days",
-        "note": "The museum features in the city's annual European Heritage Days programme (guided visits, family workshops, exhibitions)",
         "source": {
           "url": "https://www.ville-montmorency.fr/ma-ville/jep-montmorency-un-patrimoine-monumental",
           "checkedAt": "2026-08-06"
@@ -3557,13 +4231,15 @@
         "kind": "event",
         "event": "museum-night",
         "evening": true,
-        "note": "Regular participant in the European Night of Museums (city site publishes the museum's Nuit des musées programme, e.g. 2025 edition); check the yearly programme",
         "source": {
           "url": "https://www.ville-montmorency.fr/media/5941",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q3329216",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Jean-Jacques-Rousseau",
+    "museofile": "M0437"
   },
   {
     "id": "musee-lambinet",
@@ -3586,7 +4262,6 @@
         "kind": "nth-weekday",
         "nth": -1,
         "weekday": "sunday",
-        "note": "Free for everyone on the LAST Sunday of each month ('Dernier dimanche du mois : gratuite pour tout le monde')",
         "source": {
           "url": "https://www.versailles.fr/museelambinet/",
           "checkedAt": "2026-08-06"
@@ -3595,13 +4270,20 @@
       {
         "kind": "always",
         "audience": "under-26-eu",
-        "note": "Free for under-26 EU residents",
         "source": {
           "url": "https://www.versailles.fr/museelambinet/",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q3329245",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Lambinet",
+    "openingHours": "We-Fr 12:00-19:00; Sa,Su 10:00-19:00; PH off",
+    "openingHoursSource": {
+      "url": "https://www.versailles.fr/51/culture/musee-lambinet.htm",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M0400"
   },
   {
     "id": "musee-librairie-du-compagnonnage",
@@ -3629,7 +4311,14 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-librairie-du-compagnonnage-p971"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-librairie-du-compagnonnage-p971",
+    "wikidata": "Q3329030",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e-librairie_du_compagnonnage",
+    "openingHours": "Tu-Fr 14:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.compagnons-du-devoir.com",
+      "checkedAt": "2026-08-04"
+    }
   },
   {
     "id": "musee-municipal",
@@ -3659,13 +4348,19 @@
           10,
           11
         ],
-        "note": "Free admission; open Fridays, weekends and public holidays only, from late April to end of November",
         "source": {
           "url": "https://www.tourisme-seine-et-marne.fr/en/explore-the-area/727479-town-museum-of-moret-sur-loing/",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q23600534",
+    "openingHours": "Apr Fr-Su 14:00-18:00; May-Aug Fr-Su 14:00-19:00; Sep-Nov Fr-Su 14:00-18:00; Apr PH 14:00-18:00; May-Aug PH 14:00-19:00; Sep-Nov PH 14:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.moretloingetorvanne.fr/musee-municipal/",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M0380"
   },
   {
     "id": "musee-municipal-91150",
@@ -3683,7 +4378,10 @@
     "tags": [
       "museum"
     ],
-    "freeAccess": []
+    "freeAccess": [],
+    "wikidata": "Q3330653",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_intercommunal_d'%C3%89tampes",
+    "museofile": "M0405"
   },
   {
     "id": "musee-municipal-d-art-et-d-histoire",
@@ -3704,13 +4402,21 @@
     "freeAccess": [
       {
         "kind": "always",
-        "note": "'Le musée est accessible à tous, en entrée libre'; open Wed-Fri 13:00-18:00, Sat 14:00-18:00 and the first two Sundays of the month 14:00-18:00 (outside school and public holidays).",
+        "note": "Open Sundays are limited to the first two of each month, not every Sunday; also closed during school holidays and public holidays.",
         "source": {
           "url": "https://www.colombes.fr/culture/musee-municipal-d-art-et-d-histoire-983.html",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q23599912",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_municipal_d'Art_et_d'Histoire_de_Colombes",
+    "openingHours": "We-Fr 13:00-18:00; Sa 14:00-18:00; PH off",
+    "openingHoursSource": {
+      "url": "https://www.colombes.fr/la-ville/la-vie-quotidienne/culture-et-loisirs/musee-municipal-dart-et-dhistoire/",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M0409"
   },
   {
     "id": "musee-municipal-ducastel-vera-de-saint-germain-en-laye",
@@ -3731,7 +4437,7 @@
     "freeAccess": [
       {
         "kind": "always",
-        "note": "Permanent Vera collections at the Espace Paul-et-Andre-Vera free for everyone ('Gratuit pour tous'); the combined ticket for the Maison natale Claude-Debussy and temporary exhibitions is paid (6 EUR)",
+        "note": "Free entry applies to the permanent Vera collections at the Espace Paul-André-Vera; the combined ticket for the Maison natale Claude-Debussy and temporary exhibitions costs 6 EUR.",
         "source": {
           "url": "https://culture.saintgermainenlaye.fr/1553/musee-municipal-ducastel-vera/informations-pratiques.htm",
           "checkedAt": "2026-08-06"
@@ -3741,13 +4447,16 @@
         "kind": "nth-weekday",
         "nth": 1,
         "weekday": "sunday",
-        "note": "Combined ticket (Maison natale Claude-Debussy + temporary exhibitions) free for everyone on the first Sunday of each month",
+        "note": "First-Sunday free entry applies to the combined ticket (Maison natale Claude-Debussy plus temporary exhibitions).",
         "source": {
           "url": "https://culture.saintgermainenlaye.fr/1553/musee-municipal-ducastel-vera/informations-pratiques.htm",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q3330662",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_municipal_de_Saint-Germain-en-Laye",
+    "museofile": "M0397"
   },
   {
     "id": "musee-municipal-robert-dubois-corneau",
@@ -3768,22 +4477,30 @@
     "freeAccess": [
       {
         "kind": "always",
-        "note": "Free entry ('Entrée libre'); open Wednesday-Saturday afternoons, closed public holidays and mid-July to mid-August; some workshops and guided activities are paid",
+        "note": "Closed on public holidays and from mid-July to mid-August; some workshops and guided activities are paid.",
         "source": {
           "url": "https://www.brunoy.fr/vos-demarches-services/vie-culturelle-et-animations/musee/",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q3329327",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Robert-Dubois-Corneau",
+    "openingHours": "May-Oct We-Sa 14:00-18:00; Nov-Apr We-Sa 14:00-17:00; PH off",
+    "openingHoursSource": {
+      "url": "https://www.brunoy.fr/vos-demarches-services/vie-culturelle-et-animations/musee/",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M0403"
   },
   {
     "id": "musee-national-de-l-histoire-et-des-cultures-de-l-immigration",
     "name": "Musée national de l'histoire de l'immigration",
     "coordinates": [
-      2.390394,
-      48.836753
+      2.409444,
+      48.835278
     ],
-    "address": "",
+    "address": "293 avenue Daumesnil",
     "postalCode": "75012",
     "commune": "Paris",
     "arrondissement": 12,
@@ -3798,7 +4515,6 @@
         "kind": "nth-weekday",
         "nth": 1,
         "weekday": "sunday",
-        "note": "Museum and exhibitions free for everyone on the first Sunday of each month ('Le 1er dimanche de chaque mois, le Musée et ses expositions sont gratuits pour tous')",
         "source": {
           "url": "https://www.palais-portedoree.fr/informations-pratiques",
           "checkedAt": "2026-08-06"
@@ -3807,14 +4523,21 @@
       {
         "kind": "always",
         "audience": "under-26-eu",
-        "note": "Free for all under-26s (museum wording 'Moins de 26 ans'; no EU-residency requirement stated)",
         "source": {
           "url": "https://www.palais-portedoree.fr/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-de-l-histoire-de-l-immigration-p3541"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-de-l-histoire-de-l-immigration-p3541",
+    "wikidata": "Q1094332",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_l'Histoire_de_l'immigration",
+    "openingHours": "Tu-Fr 10:00-17:30; Sa,Su 10:00-19:00",
+    "openingHoursSource": {
+      "url": "https://www.histoire-immigration.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M5084"
   },
   {
     "id": "musee-national-de-la-legion-d-honneur-et-des-ordres-de-chevalerie",
@@ -3842,7 +4565,15 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-la-legion-d-honneur-et-des-ordres-de-chevalerie-p912"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-la-legion-d-honneur-et-des-ordres-de-chevalerie-p912",
+    "wikidata": "Q3329915",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_L%C3%A9gion_d'honneur",
+    "openingHours": "We-Su 13:00-18:00; PH off",
+    "openingHoursSource": {
+      "url": "https://www.musee-legiondhonneur.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M5059"
   },
   {
     "id": "musee-national-de-la-marine",
@@ -3871,7 +4602,15 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-de-la-marine-p3482"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-de-la-marine-p3482",
+    "wikidata": "Q1286709",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_national_de_la_Marine_de_Paris",
+    "openingHours": "Mo,We-Fr 11:00-18:00; Sa,Su 11:00-19:00",
+    "openingHoursSource": {
+      "url": "https://www.musee-marine.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M5026"
   },
   {
     "id": "musee-national-des-chateaux-de-malmaison-et-de-bois-preau",
@@ -3908,14 +4647,22 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-des-chateaux-de-malmaison-bois-preau-p972"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-des-chateaux-de-malmaison-bois-preau-p972",
+    "wikidata": "Q684846",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Malmaison",
+    "openingHours": "Mo,We-Su 10:00-12:30,13:30-17:15",
+    "openingHoursSource": {
+      "url": "https://musees-nationaux-malmaison.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M5016"
   },
   {
     "id": "musee-national-des-chateaux-de-versailles-et-de-trianon",
     "name": "Musée national des châteaux de Versailles et de Trianon",
     "coordinates": [
-      2.134053,
-      48.804537
+      2.123851,
+      48.803887
     ],
     "address": "Château de Versailles",
     "postalCode": "78000",
@@ -3940,7 +4687,7 @@
         ],
         "reservationRequired": true,
         "reservationUrl": "https://billetterie.chateauversailles.fr/",
-        "note": "Whole estate (Palace, Trianon, Marie-Antoinette's estate) free on first Sundays November-March; timed reservation required for the Palace",
+        "note": "Timed reservation is required specifically for the Palace; other parts of the estate do not require one.",
         "source": {
           "url": "https://www.chateauversailles.fr/resources/vel/gratuit.html",
           "checkedAt": "2026-08-06"
@@ -3949,14 +4696,21 @@
       {
         "kind": "always",
         "audience": "under-26-eu",
-        "note": "Free for under-18s (all nationalities) and 18-25-year-old EU residents; includes permanent collections, Trianon and temporary exhibitions",
         "source": {
           "url": "https://www.chateauversailles.fr/resources/vel/gratuit.html",
           "checkedAt": "2026-08-06"
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/chateau-de-versailles-p3560"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/chateau-de-versailles-p3560",
+    "wikidata": "Q3329787",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_l'Histoire_de_France_(Versailles)",
+    "openingHours": "Apr-Oct Tu-Su 09:00-18:30; Nov-Mar Tu-Su 09:00-17:30",
+    "openingHoursSource": {
+      "url": "https://www.chateauversailles.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M5077"
   },
   {
     "id": "musee-national-du-chateau-de-fontainebleau",
@@ -3984,7 +4738,14 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/chateau-de-fontainebleau-p3533"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/chateau-de-fontainebleau-p3533",
+    "wikidata": "Q17560765",
+    "openingHours": "Apr-Sep We-Mo 09:30-18:00; Oct-Mar We-Mo 09:30-17:00",
+    "openingHoursSource": {
+      "url": "https://www.chateaudefontainebleau.fr/",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M5013"
   },
   {
     "id": "musee-nissim-de-camondo-union-centrale-des-arts-decoratifs",
@@ -4007,13 +4768,16 @@
       {
         "kind": "always",
         "audience": "under-26-eu",
-        "note": "MAD gratuity explicitly covers the Musée Nissim de Camondo: free for under-26s (18-25 within available capacity; no EU-residency requirement stated); online booking recommended",
+        "note": "Free entry for 18-25-year-olds is subject to available capacity; online booking is recommended.",
         "source": {
           "url": "https://madparis.fr/Tarifs-et-gratuites",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q1954498",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Nissim-de-Camondo",
+    "museofile": "M5073"
   },
   {
     "id": "musee-picasso",
@@ -4037,7 +4801,7 @@
         "kind": "nth-weekday",
         "nth": 1,
         "weekday": "sunday",
-        "note": "Free for everyone on the first Sunday of each month; entry without reservation (free tickets cannot be booked in advance)",
+        "note": "Free tickets can't be booked in advance; just show up on the day.",
         "source": {
           "url": "https://www.museepicassoparis.fr/fr/tarifs",
           "checkedAt": "2026-08-06"
@@ -4046,14 +4810,21 @@
       {
         "kind": "always",
         "audience": "under-26-eu",
-        "note": "Free for under-18s (all nationalities) and 18-25 EU residents/nationals with ID",
         "source": {
           "url": "https://www.museepicassoparis.fr/fr/tarifs",
           "checkedAt": "2026-08-06"
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-picasso-paris-p3516"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-picasso-paris-p3516",
+    "wikidata": "Q743206",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Picasso_(Paris)",
+    "openingHours": "Tu-Fr 10:30-18:00; Sa,Su 09:30-18:00",
+    "openingHoursSource": {
+      "url": "https://www.museepicassoparis.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M5043"
   },
   {
     "id": "musee-pissarro",
@@ -4076,13 +4847,21 @@
         "kind": "nth-weekday",
         "nth": 1,
         "weekday": "sunday",
-        "note": "Official city page: 'Gratuit moins de 18 ans et 1er dimanche du mois' - free for everyone the 1st Sunday of the month; also free for under-18s; park free Wed-Sun",
+        "note": "Also free for under-18s year-round. The park is free Wednesday to Sunday.",
         "source": {
           "url": "https://ville-pontoise.fr/le-musee-dart-et-dhistoire-pissarro-pontoise-mahpp",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q1955692",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_et_d'Histoire_Pissarro-Pontoise",
+    "openingHours": "We-Su 11:00-12:30,13:30-18:00; PH off",
+    "openingHoursSource": {
+      "url": "https://ville-pontoise.fr/le-musee-dart-et-dhistoire-pissarro-pontoise-mahpp",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M0439"
   },
   {
     "id": "musee-rambolitrain",
@@ -4100,7 +4879,10 @@
     "tags": [
       "museum"
     ],
-    "freeAccess": []
+    "freeAccess": [],
+    "wikidata": "Q3418414",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Rambolitrain",
+    "museofile": "M0395"
   },
   {
     "id": "musee-rodin",
@@ -4132,7 +4914,6 @@
           2,
           3
         ],
-        "note": "Free for everyone on the first Sunday of the month from October to March (Paris and Meudon sites); no advance booking required",
         "source": {
           "url": "https://www.musee-rodin.fr/en/plan-your-visit/plan-your-visit-musee-rodin",
           "checkedAt": "2026-08-06"
@@ -4141,14 +4922,21 @@
       {
         "kind": "always",
         "audience": "under-26-eu",
-        "note": "Free for under-18s and 18-25-year-old EU residents with ID showing age and nationality/residence",
         "source": {
           "url": "https://www.musee-rodin.fr/en/plan-your-visit/plan-your-visit/are-you-entitled-free-admission",
           "checkedAt": "2026-08-06"
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-rodin-paris-p3529"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-rodin-paris-p3529",
+    "wikidata": "Q650519",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Rodin",
+    "openingHours": "Tu-Su 10:00-18:30",
+    "openingHoursSource": {
+      "url": "https://www.musee-rodin.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M5044"
   },
   {
     "id": "musee-rodin-meudon",
@@ -4178,14 +4966,20 @@
       },
       {
         "kind": "always",
-        "note": "Admission free for everyone, but the Meudon site is only open on weekends (Sat-Sun 10:00-18:00)",
         "source": {
           "url": "https://www.meudon.musee-rodin.fr/en",
           "checkedAt": "2026-08-06"
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-rodin-meudon-p1559"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-rodin-meudon-p1559",
+    "wikidata": "Q3558853",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Villa_des_Brillants",
+    "openingHours": "Apr-Sep Sa,Su 13:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.musee-rodin.fr",
+      "checkedAt": "2026-08-04"
+    }
   },
   {
     "id": "musee-roybet-fould",
@@ -4206,13 +5000,20 @@
     "freeAccess": [
       {
         "kind": "always",
-        "note": "'Entrée gratuite' (free admission, self-guided or guided); open Wed-Sun 10:30-18:00 in the Pavillon de la Suède et de la Norvège, parc de Bécon.",
         "source": {
           "url": "https://www.ville-courbevoie.fr/2788/culture-loisirs/service-patrimoine-et-musee/pavillon-de-la-suede-et-de-la-norvege-musee-roybet-fould.htm",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q3329330",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Roybet-Fould",
+    "openingHours": "We-Su 10:30-18:00",
+    "openingHoursSource": {
+      "url": "https://www.ville-courbevoie.fr/2788/culture-loisirs/service-patrimoine-et-musee/pavillon-de-la-suede-et-de-la-norvege-musee-roybet-fould.htm",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M0410"
   },
   {
     "id": "musee-victor-aubert",
@@ -4233,20 +5034,27 @@
     "freeAccess": [
       {
         "kind": "always",
-        "note": "Free for everyone; open Wednesday afternoons and the first Saturday and Sunday of each month, other times by appointment",
+        "note": "Outside its usual hours, visits are by appointment only.",
         "source": {
           "url": "https://www.maule.fr/culture-loisirs/equipements-culturels/musee-victor-aubert",
           "checkedAt": "2026-08-06"
         }
       }
-    ]
+    ],
+    "wikidata": "Q23600423",
+    "openingHours": "Apr-Oct We 14:30-18:00; Nov-Mar We 14:30-17:30",
+    "openingHoursSource": {
+      "url": "http://museeaubertmaule.free.fr/",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M0391"
   },
   {
     "id": "musee-yves-saint-laurent-paris",
     "name": "Musée Yves Saint Laurent Paris",
     "coordinates": [
-      2.280339,
-      48.873694
+      2.299603,
+      48.865619
     ],
     "address": "5 avenue Marceau",
     "postalCode": "75116",
@@ -4258,7 +5066,10 @@
       "museum"
     ],
     "freeAccess": [],
-    "note": "Temporarily closed for renovation; reopening announced for autumn 2026."
+    "note": "Temporarily closed for renovation; reopening announced for autumn 2026.",
+    "wikidata": "Q43688220",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Yves-Saint-Laurent_de_Paris",
+    "museofile": "M1204"
   },
   {
     "id": "musee-zadkine",
@@ -4280,14 +5091,22 @@
     "freeAccess": [
       {
         "kind": "always",
-        "note": "Permanent collections only partially on view during temporary exhibitions",
+        "note": "During temporary exhibitions, only part of the permanent collection is on view.",
         "source": {
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-zadkine-p3502"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-zadkine-p3502",
+    "wikidata": "Q2613771",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Zadkine",
+    "openingHours": "Tu-Su 10:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.zadkine.paris.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M1115"
   },
   {
     "id": "musee-zola-dreyfus",
@@ -4304,7 +5123,10 @@
     "tags": [
       "museum"
     ],
-    "freeAccess": []
+    "freeAccess": [],
+    "wikidata": "Q2588025",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Maison_d'%C3%89mile_Zola",
+    "museofile": "M1186"
   },
   {
     "id": "museum-national-d-histoire-naturelle",
@@ -4333,7 +5155,15 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/grande-galerie-de-l-evolution-museum-national-d-histoire-naturelle-p3621"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/grande-galerie-de-l-evolution-museum-national-d-histoire-naturelle-p3621",
+    "wikidata": "Q838691",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9um_national_d'histoire_naturelle",
+    "openingHours": "We-Mo 10:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.mnhn.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M7003"
   },
   {
     "id": "palais-galliera-musee-de-la-mode-et-de-la-ville-de-paris",
@@ -4352,7 +5182,10 @@
     "tags": [
       "museum"
     ],
-    "freeAccess": []
+    "freeAccess": [],
+    "wikidata": "Q1632912",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Palais_Galliera%2C_mus%C3%A9e_de_la_Mode_de_la_ville_de_Paris",
+    "museofile": "M1108"
   },
   {
     "id": "pantheon",
@@ -4397,7 +5230,14 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/pantheon-p3494"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/pantheon-p3494",
+    "wikidata": "Q188856",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Panth%C3%A9on_(Paris)",
+    "openingHours": "Apr-Sep 10:00-18:30; Oct-Mar 10:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.paris-pantheon.fr",
+      "checkedAt": "2026-08-04"
+    }
   },
   {
     "id": "petit-palais-musee-des-beaux-arts-de-la-ville-de-paris",
@@ -4425,7 +5265,15 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/petit-palais-musee-des-beaux-arts-de-la-ville-de-paris-p3490"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/petit-palais-musee-des-beaux-arts-de-la-ville-de-paris-p3490",
+    "wikidata": "Q820892",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Petit_Palais",
+    "openingHours": "Tu-Su 10:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.petitpalais.paris.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M1111"
   },
   {
     "id": "sainte-chapelle",
@@ -4470,7 +5318,14 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/sainte-chapelle-p3556"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/sainte-chapelle-p3556",
+    "wikidata": "Q193193",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Sainte-Chapelle",
+    "openingHours": "Jan-Mar 09:00-17:00; Apr-Sep 09:00-19:00; Oct-Dec 09:00-17:00",
+    "openingHoursSource": {
+      "url": "https://www.sainte-chapelle.fr",
+      "checkedAt": "2026-08-04"
+    }
   },
   {
     "id": "tours-de-notre-dame-de-paris",
@@ -4511,14 +5366,19 @@
         "audience": "under-26-eu",
         "reservationRequired": true,
         "reservationUrl": "https://www.tours-notre-dame-de-paris.fr/",
-        "note": "Free for under-18s and 18-25 EU residents; timed e-ticket mandatory for all visitors, no on-site sales",
+        "note": "Tickets can't be bought on site; you must book a timed e-ticket in advance.",
         "source": {
           "url": "https://www.tours-notre-dame-de-paris.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/tours-de-notre-dame-de-paris-p3540"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/tours-de-notre-dame-de-paris-p3540",
+    "openingHours": "Jan-Mar 10:00-17:30; Apr-Sep 10:00-18:30; Oct-Dec 10:00-17:30",
+    "openingHoursSource": {
+      "url": "https://www.tours-notre-dame-de-paris.fr",
+      "checkedAt": "2026-08-04"
+    }
   },
   {
     "id": "villa-savoye",
@@ -4562,6 +5422,13 @@
         }
       }
     ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/villa-savoye-p3498"
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/villa-savoye-p3498",
+    "wikidata": "Q940746",
+    "wikipediaFr": "https://fr.wikipedia.org/wiki/Villa_Savoye",
+    "openingHours": "Tu-Su 10:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.villa-savoye.fr",
+      "checkedAt": "2026-08-04"
+    }
   }
 ]
