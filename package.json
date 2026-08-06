@@ -18,13 +18,15 @@
     "update-data": "tsx scripts/update-parisjetaime.ts",
     "update:rules": "tsx scripts/update-parisjetaime.ts",
     "update:wikidata": "tsx scripts/enrich-wikidata.ts",
+    "update:images": "tsx scripts/enrich-images.ts",
     "update:hours": "tsx scripts/import-opening-hours.ts",
-    "update:all": "npm run update:rules && npm run update:wikidata && tsx scripts/check-wikidata.ts --write && tsx scripts/check-datagouv.ts --write && npm run check:freshness",
+    "update:all": "npm run update:rules && npm run update:wikidata && tsx scripts/check-wikidata.ts --write && npm run update:images && tsx scripts/check-datagouv.ts --write && npm run check:freshness",
     "check:freshness": "tsx scripts/check-freshness.ts",
     "check:wikidata": "tsx scripts/check-wikidata.ts",
+    "check:images": "tsx scripts/check-images.ts",
     "check:datagouv": "tsx scripts/check-datagouv.ts",
     "check:osm-hours": "tsx scripts/check-osm-hours.ts",
-    "check:data": "npm run check:freshness && npm run check:wikidata && npm run check:datagouv",
+    "check:data": "npm run check:freshness && npm run check:wikidata && npm run check:images && npm run check:datagouv",
     "icons": "tsx scripts/generate-icons.ts"
   },
   "dependencies": {
