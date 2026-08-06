@@ -19,6 +19,7 @@
   },
   "categories": {
     "always": "常時無料",
+    "weekly": "週1回無料",
     "first-sunday": "第1日曜無料",
     "first-sunday-booking": "第1日曜（要予約）",
     "first-sunday-low-season": "第1日曜（オフシーズン）",
@@ -27,6 +28,8 @@
     "july-14": "7月14日（パリ祭）無料",
     "special-days": "特別な日のみ",
     "under-26-only": "26歳未満無料",
+    "under-18-only": "18歳未満無料",
+    "residents-only": "地元住民限定無料",
     "none": "無料入場なし"
   },
   "filters": {
@@ -94,6 +97,7 @@
     "checkedOn": "{{date}}に確認",
     "distanceAway": "{{km}} km先",
     "frenchName": "フランス語名：",
+    "originalName": "原語名：",
     "photoCredit": "{{author}}・{{license}}",
     "photoCreditToggle": "写真クレジット",
     "noFreeScheme": "この施設には定期的な無料入場の制度は確認されていません。",
@@ -112,7 +116,9 @@
     "museumNight": "「ヨーロッパ美術館の夜」は無料",
     "heritageDays": "「ヨーロッパ文化遺産の日」は無料",
     "annualDate": "毎年{{date}}は無料",
-    "nextDate": "次回：{{date}}"
+    "nextDate": "次回：{{date}}",
+    "weekly": "毎週{{weekday}}は無料",
+    "residentsOnly": "（地元住民限定）"
   },
   "calendar": {
     "title": "無料入場カレンダー",

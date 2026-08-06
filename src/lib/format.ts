@@ -42,3 +42,12 @@ export function monthName(locale: string, month: number): string {
     new Date(Date.UTC(2026, month - 1, 15, 12)),
   );
 }
+
+/** Localized month + day for an "MM-DD" annual date ("25 April", "25 avril"). */
+export function annualDateName(locale: string, mmdd: string): string {
+  const [m, d] = mmdd.split('-').map(Number);
+  if (!m || !d) return mmdd;
+  return new Intl.DateTimeFormat(locale, { month: 'long', day: 'numeric' }).format(
+    new Date(Date.UTC(2026, m - 1, d, 12)),
+  );
+}

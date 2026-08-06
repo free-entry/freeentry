@@ -20,8 +20,8 @@ describe.each(countryCodes)('country %s', (cc) => {
     readFileSync(join(DATA_DIR, cc, 'events.json'), 'utf-8'),
   ) as EventDates;
   const DEPARTMENTS = Object.keys(config.adminAreas.names);
-const KINDS = ['always', 'nth-weekday', 'event', 'annual-date'];
-const AUDIENCES = ['everyone', 'under-26-eu', 'under-18'];
+const KINDS = ['always', 'nth-weekday', 'weekly', 'event', 'annual-date'];
+const AUDIENCES = ['everyone', 'under-26-eu', 'under-18', 'residents'];
 const WEEKDAYS = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'];
 
 describe('museums.json integrity', () => {
@@ -74,6 +74,7 @@ describe('museums.json integrity', () => {
           expect(WEEKDAYS, m.id).toContain(rule.weekday);
           expect([1, -1], m.id).toContain(rule.nth);
         }
+        if (rule.kind === 'weekly') expect(WEEKDAYS, m.id).toContain(rule.weekday);
         if (rule.kind === 'annual-date') expect(rule.date, m.id).toMatch(/^\d{2}-\d{2}$/);
         if (rule.kind === 'event') {
           expect(rule.event && events[rule.event], m.id).toBeTruthy();
@@ -106,8 +107,9 @@ describe('museums.json integrity', () => {
     expect(new Set(qids).size).toBe(qids.length);
     for (const m of museums) {
       if (m.wikidata) expect(m.wikidata, m.id).toMatch(/^Q\d+$/);
-      if (m.wikipediaFr) {
-        expect(m.wikipediaFr, m.id).toMatch(/^https:\/\/fr\.wikipedia\.org\/wiki\/./);
+      if (m.wikipedia) {
+        // Canonical-language article; nl fills in for Flemish venues without one.
+        expect(m.wikipedia, m.id).toMatch(/^https:\/\/(fr|it|nl)\.wikipedia\.org\/wiki\/./);
         // A Wikipedia link without its Wikidata item means enrichment went wrong.
         expect(m.wikidata, m.id).toBeDefined();
       }

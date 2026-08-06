@@ -19,6 +19,7 @@
   },
   "categories": {
     "always": "상시 무료",
+    "weekly": "주 1회 무료",
     "first-sunday": "첫째 일요일 무료",
     "first-sunday-booking": "첫째 일요일, 예약 필수",
     "first-sunday-low-season": "첫째 일요일, 비수기 한정",
@@ -27,6 +28,8 @@
     "july-14": "7월 14일(바스티유의 날) 무료",
     "special-days": "특별한 날만 무료",
     "under-26-only": "26세 미만 무료",
+    "under-18-only": "18세 미만 무료",
+    "residents-only": "현지 주민 전용 무료",
     "none": "무료입장 없음"
   },
   "filters": {
@@ -94,6 +97,7 @@
     "checkedOn": "{{date}} 확인",
     "distanceAway": "{{km}} km 거리",
     "frenchName": "프랑스어 이름: ",
+    "originalName": "원어명: ",
     "photoCredit": "{{author}} · {{license}}",
     "photoCreditToggle": "사진 출처",
     "noFreeScheme": "이 시설에는 알려진 정기 무료입장 제도가 없습니다.",
@@ -112,7 +116,9 @@
     "museumNight": "유럽 박물관의 밤 기간 무료",
     "heritageDays": "유럽 문화유산의 날 기간 무료",
     "annualDate": "매년 {{date}} 무료",
-    "nextDate": "다음: {{date}}"
+    "nextDate": "다음: {{date}}",
+    "weekly": "매주 {{weekday}} 무료",
+    "residentsOnly": " (현지 주민 전용)"
   },
   "calendar": {
     "title": "무료입장 달력",

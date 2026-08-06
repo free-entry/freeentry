@@ -41,14 +41,14 @@
       }
     ],
     "wikidata": "Q1137826",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Abbaye_de_Beaulieu-en-Rouergue",
     "image": {
       "file": "images/museums/abbaye-de-beaulieu-en-rouergue.jpg",
       "author": "Sgbrown",
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abbaye_de_Beaulieu.jpg",
       "wikimediaFile": "File:Abbaye de Beaulieu.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Abbaye_de_Beaulieu-en-Rouergue"
   },
   {
     "id": "abbaye-de-charroux",
@@ -92,7 +92,6 @@
       }
     ],
     "wikidata": "Q333861",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Abbaye_Saint-Sauveur_de_Charroux",
     "note": "Closed to individual visitors from November to March (groups on reservation).",
     "image": {
       "file": "images/museums/abbaye-de-charroux.jpg",
@@ -100,7 +99,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Charroux_86_Tour_Charlemagne_2012.jpg",
       "wikimediaFile": "File:Charroux 86 Tour Charlemagne 2012.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Abbaye_Saint-Sauveur_de_Charroux"
   },
   {
     "id": "abbaye-de-cluny",
@@ -152,14 +152,14 @@
       }
     ],
     "wikidata": "Q220301",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Abbaye_de_Cluny",
     "image": {
       "file": "images/museums/abbaye-de-cluny.jpg",
       "author": "Unknown",
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cluny-Abtei-Ostfluegel-mtob.jpg",
       "wikimediaFile": "File:Cluny-Abtei-Ostfluegel-mtob.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Abbaye_de_Cluny"
   },
   {
     "id": "abbaye-de-la-sauve-majeure",
@@ -203,14 +203,14 @@
       }
     ],
     "wikidata": "Q333984",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Abbaye_de_La_Sauve-Majeure",
     "image": {
       "file": "images/museums/abbaye-de-la-sauve-majeure.jpg",
       "author": "Ophelia2",
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abbaye_de_la_Sauve_Majeure1.JPG",
       "wikimediaFile": "File:Abbaye de la Sauve Majeure1.JPG"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Abbaye_de_La_Sauve-Majeure"
   },
   {
     "id": "abbaye-de-montmajour",
@@ -288,14 +288,14 @@
       }
     ],
     "wikidata": "Q32989",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Abbaye_Notre-Dame_du_Bec",
     "image": {
       "file": "images/museums/abbaye-du-bec-hellouin.jpg",
       "author": "Roland Brierre",
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abbaye_du_Bec_-_Fa%C3%A7ade_sud_vue_du_Bec.jpg",
       "wikimediaFile": "File:Abbaye du Bec - Façade sud vue du Bec.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Abbaye_Notre-Dame_du_Bec"
   },
   {
     "id": "abbaye-du-mont-saint-michel",
@@ -347,14 +347,14 @@
       }
     ],
     "wikidata": "Q651388",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Abbaye_du_Mont-Saint-Michel",
     "image": {
       "file": "images/museums/abbaye-du-mont-saint-michel.jpg",
       "author": "Zairon",
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_Mont-Saint-Michel_Abbaye_de_Mont-Saint-Michel_S%C3%BCdseite_03.jpg",
       "wikimediaFile": "File:Le Mont-Saint-Michel Abbaye de Mont-Saint-Michel Südseite 03.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Abbaye_du_Mont-Saint-Michel"
   },
   {
     "id": "abbaye-du-thoronet",
@@ -398,14 +398,14 @@
       }
     ],
     "wikidata": "Q306155",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Abbaye_du_Thoronet",
     "image": {
       "file": "images/museums/abbaye-du-thoronet.jpg",
       "author": "Unknown",
       "license": "Public Domain",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cloitre.Thoronet.png",
       "wikimediaFile": "File:Cloitre.Thoronet.png"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Abbaye_du_Thoronet"
   },
   {
     "id": "alignements-de-carnac",
@@ -424,7 +424,6 @@
     ],
     "freeAccess": [],
     "wikidata": "Q833850",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Alignements_de_Carnac",
     "note": "The footpaths around the alignments are free year-round, and some sites offer free self-guided visits from October to March; in season, access is by paid guided tour.",
     "image": {
       "file": "images/museums/alignements-de-carnac.jpg",
@@ -432,7 +431,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:France-Carnac-Alignement_de_Kermario.jpg",
       "wikimediaFile": "File:France-Carnac-Alignement de Kermario.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Alignements_de_Carnac"
   },
   {
     "id": "arc-de-triomphe",
@@ -478,7 +478,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/arc-de-triomphe-p3559",
     "wikidata": "Q64436",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Arc_de_triomphe_de_l'%C3%89toile",
     "openingHours": "Apr-Sep 10:00-23:00; Oct-Mar 10:00-22:30",
     "openingHoursSource": {
       "url": "https://www.paris-arc-de-triomphe.fr",
@@ -490,7 +489,8 @@
       "license": "CC BY-SA 2.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arc_de_Triomphe%2C_Paris_21_October_2010.jpg",
       "wikimediaFile": "File:Arc de Triomphe, Paris 21 October 2010.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Arc_de_triomphe_de_l'%C3%89toile"
   },
   {
     "id": "archea-archeologie-en-pays-de-france",
@@ -521,7 +521,6 @@
       }
     ],
     "wikidata": "Q2860590",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Arch%C3%A9a",
     "openingHours": "We-Fr 13:30-18:00; Sa-Su 11:00-18:00",
     "openingHoursSource": {
       "url": "https://archea.roissypaysdefrance.fr/",
@@ -534,7 +533,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Arch%C3%A9a.jpg",
       "wikimediaFile": "File:Musée Archéa.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Arch%C3%A9a"
   },
   {
     "id": "arenes-de-lutece",
@@ -564,7 +564,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/arenes-de-lutece-et-square-capitan-p1094",
     "wikidata": "Q641548",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ar%C3%A8nes_de_Lut%C3%A8ce",
     "openingHours": "24/7",
     "openingHoursSource": {
       "url": "https://opendata.paris.fr/explore/dataset/espaces_verts/",
@@ -576,7 +575,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anfiteatro_de_Par%C3%ADs_01.jpg",
       "wikimediaFile": "File:Anfiteatro de París 01.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Ar%C3%A8nes_de_Lut%C3%A8ce"
   },
   {
     "id": "basilique-cathedrale-de-saint-denis",
@@ -615,7 +615,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/basilique-cathedrale-de-saint-denis-p3579",
     "wikidata": "Q184407",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Basilique_Saint-Denis",
     "openingHours": "Apr-Sep Mo-Sa 10:00-18:15; Apr-Sep Su 12:00-18:15; Oct-Mar Mo-Sa 10:00-17:15; Oct-Mar Su 12:00-17:15",
     "openingHoursSource": {
       "url": "https://www.saint-denis-basilique.fr",
@@ -627,7 +626,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Basilique_St_Denis_fa%C3%A7ade_ouest_St_Denis_Seine_St_Denis_20.jpg",
       "wikimediaFile": "File:Basilique St Denis façade ouest St Denis Seine St Denis 20.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Basilique_Saint-Denis"
   },
   {
     "id": "basilique-du-sacre-coeur-de-montmartre",
@@ -658,7 +658,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/basilique-du-sacre-coeur-de-montmartre-p3526",
     "wikidata": "Q28785",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Basilique_du_Sacr%C3%A9-C%C5%93ur_de_Montmartre",
     "openingHours": "Mo-Su 06:00-22:30",
     "openingHoursSource": {
       "url": "https://www.sacre-coeur-montmartre.com",
@@ -670,7 +669,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_sacre_coeur.jpg",
       "wikimediaFile": "File:Le sacre coeur.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Basilique_du_Sacr%C3%A9-C%C5%93ur_de_Montmartre"
   },
   {
     "id": "bourse-de-commerce-pinault-collection",
@@ -760,14 +760,14 @@
       }
     ],
     "wikidata": "Q808456",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Cairn_de_Barnenez",
     "image": {
       "file": "images/museums/cairn-de-barnenez.jpg",
       "author": "No machine-readable author provided. NewPapillon assumed (based on copyright claims).",
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barnenez_front2.jpg",
       "wikimediaFile": "File:Barnenez front2.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Cairn_de_Barnenez"
   },
   {
     "id": "cathedrale-de-besancon-et-son-horloge-astronomique",
@@ -809,7 +809,6 @@
       }
     ],
     "wikidata": "Q751968",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Horloge_astronomique_de_Besan%C3%A7on",
     "note": "The astronomical clock mechanism is halted pending restoration; the monument stays open.",
     "image": {
       "file": "images/museums/cathedrale-de-besancon-et-son-horloge-astronomique.jpg",
@@ -817,7 +816,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Horloge_astronomique_Besancon.jpg",
       "wikimediaFile": "File:Horloge astronomique Besancon.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Horloge_astronomique_de_Besan%C3%A7on"
   },
   {
     "id": "cathedrale-et-tresor-de-chartres",
@@ -869,14 +869,14 @@
       }
     ],
     "wikidata": "Q180274",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Notre-Dame_de_Chartres",
     "image": {
       "file": "images/museums/cathedrale-et-tresor-de-chartres.jpg",
       "author": "BT",
       "license": "Public Domain",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Westfassade_Chartres.jpg",
       "wikimediaFile": "File:Westfassade Chartres.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Notre-Dame_de_Chartres"
   },
   {
     "id": "cathedrale-notre-dame-de-paris",
@@ -907,7 +907,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/cathedrale-notre-dame-de-paris-et-son-tresor-p3576",
     "wikidata": "Q2981",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Notre-Dame_de_Paris",
     "openingHours": "Mo-We 07:50-19:00; Th 07:50-22:00; Fr 07:50-19:00; Sa,Su 08:15-19:30",
     "openingHoursSource": {
       "url": "https://www.notredamedeparis.fr",
@@ -919,7 +918,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Notre-Dame_de_Paris_2013-07-24.jpg",
       "wikimediaFile": "File:Notre-Dame de Paris 2013-07-24.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Notre-Dame_de_Paris"
   },
   {
     "id": "chapelle-des-moines-de-berze-la-ville",
@@ -962,7 +962,6 @@
       }
     ],
     "wikidata": "Q1062714",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Chapelle_des_moines_de_Berz%C3%A9-la-Ville",
     "note": "Closed from November to March.",
     "image": {
       "file": "images/museums/chapelle-des-moines-de-berze-la-ville.jpg",
@@ -970,7 +969,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chapelle_des_moines_Berz%C3%A9-la-ville.jpg",
       "wikimediaFile": "File:Chapelle des moines Berzé-la-ville.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Chapelle_des_moines_de_Berz%C3%A9-la-Ville"
   },
   {
     "id": "chapelle-expiatoire",
@@ -1002,7 +1002,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/chapelle-expiatoire-p3495",
     "wikidata": "Q1062732",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Chapelle_expiatoire",
     "openingHours": "Th-Sa 10:00-12:30,13:30-17:00",
     "openingHoursSource": {
       "url": "https://www.chapelle-expiatoire-paris.fr",
@@ -1014,7 +1013,8 @@
       "license": "CC BY-SA 2.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chapelle_expiatoire_Louis_XVI_mg_4546.jpg",
       "wikimediaFile": "File:Chapelle expiatoire Louis XVI mg 4546.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Chapelle_expiatoire"
   },
   {
     "id": "chateau-d-angers",
@@ -1066,14 +1066,14 @@
       }
     ],
     "wikidata": "Q1048155",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_d'Angers",
     "image": {
       "file": "images/museums/chateau-d-angers.jpg",
       "author": "Nataloche",
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_d'Angers-2015b.JPG",
       "wikimediaFile": "File:Château d'Angers-2015b.JPG"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_d'Angers"
   },
   {
     "id": "chateau-d-assier",
@@ -1117,7 +1117,6 @@
       }
     ],
     "wikidata": "Q2483849",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_d'Assier",
     "note": "From September to April, open to groups of 8+ on reservation only.",
     "image": {
       "file": "images/museums/chateau-d-assier.jpg",
@@ -1125,7 +1124,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_d'Assier_-_20050819.jpg",
       "wikimediaFile": "File:Château d'Assier - 20050819.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_d'Assier"
   },
   {
     "id": "chateau-d-aulteribe",
@@ -1169,7 +1169,6 @@
       }
     ],
     "wikidata": "Q2744194",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_d'Aulteribe",
     "note": "First-Sunday free entry covers self-guided visits only.",
     "image": {
       "file": "images/museums/chateau-d-aulteribe.jpg",
@@ -1177,7 +1176,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:63_-_Aulteribe_Ch%C3%A2teau.jpg",
       "wikimediaFile": "File:63 - Aulteribe Château.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_d'Aulteribe"
   },
   {
     "id": "chateau-d-azay-le-rideau",
@@ -1221,14 +1221,14 @@
       }
     ],
     "wikidata": "Q113389",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_d'Azay-le-Rideau",
     "image": {
       "file": "images/museums/chateau-d-azay-le-rideau.jpg",
       "author": "Manfred Heyde,",
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:AzeyParkseite.jpg",
       "wikimediaFile": "File:AzeyParkseite.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_d'Azay-le-Rideau"
   },
   {
     "id": "chateau-d-if",
@@ -1322,14 +1322,14 @@
       }
     ],
     "wikidata": "Q905650",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_d'Oiron",
     "image": {
       "file": "images/museums/chateau-d-oiron.jpg",
       "author": "Père Igor",
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oiron_ch%C3%A2teau.JPG",
       "wikimediaFile": "File:Oiron château.JPG"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_d'Oiron"
   },
   {
     "id": "chateau-de-bouges",
@@ -1373,7 +1373,6 @@
       }
     ],
     "wikidata": "Q2409187",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Bouges",
     "note": "Closed December to February outside special events.",
     "image": {
       "file": "images/museums/chateau-de-bouges.jpg",
@@ -1381,7 +1380,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chateau_de_Bouges_House_and_Basin.jpg",
       "wikimediaFile": "File:Chateau de Bouges House and Basin.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Bouges"
   },
   {
     "id": "chateau-de-bussy-rabutin",
@@ -1425,14 +1425,14 @@
       }
     ],
     "wikidata": "Q1552130",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Bussy-Rabutin",
     "image": {
       "file": "images/museums/chateau-de-bussy-rabutin.jpg",
       "author": "Christophe.Finot",
       "license": "CC BY-SA 2.5",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chateau_Bussy_Rabutin_-_vue1.JPG",
       "wikimediaFile": "File:Chateau Bussy Rabutin - vue1.JPG"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Bussy-Rabutin"
   },
   {
     "id": "chateau-de-carrouges",
@@ -1484,14 +1484,14 @@
       }
     ],
     "wikidata": "Q2968783",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Carrouges",
     "image": {
       "file": "images/museums/chateau-de-carrouges.jpg",
       "author": "PY. Stucki",
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chateau_Carrouges.jpg",
       "wikimediaFile": "File:Chateau Carrouges.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Carrouges"
   },
   {
     "id": "chateau-de-castelnau-bretenoux",
@@ -1543,14 +1543,14 @@
       }
     ],
     "wikidata": "Q425789",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Castelnau-Bretenoux",
     "image": {
       "file": "images/museums/chateau-de-castelnau-bretenoux.jpg",
       "author": "The original uploader was Luna04 at French Wikipedia.",
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chateau_de_Castelnau-Bretenoux.jpg",
       "wikimediaFile": "File:Chateau de Castelnau-Bretenoux.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Castelnau-Bretenoux"
   },
   {
     "id": "chateau-de-champs-sur-marne",
@@ -1604,7 +1604,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/chateau-de-champs-sur-marne-p3558",
     "wikidata": "Q161787",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Champs-sur-Marne",
     "openingHours": "Apr-Sep 10:00-18:00; Oct-Mar 10:00-17:00",
     "openingHoursSource": {
       "url": "https://www.chateau-champs-sur-marne.fr",
@@ -1616,7 +1615,8 @@
       "license": "CC BY-SA 2.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Champs-sur-Marne_01.jpg",
       "wikimediaFile": "File:Château de Champs-sur-Marne 01.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Champs-sur-Marne"
   },
   {
     "id": "chateau-de-chareil-cintrat",
@@ -1644,7 +1644,6 @@
       }
     ],
     "wikidata": "Q2968876",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Chareil-Cintrat",
     "note": "Open daily except Monday from mid-June to mid-September; by appointment the rest of the year.",
     "image": {
       "file": "images/museums/chateau-de-chareil-cintrat.jpg",
@@ -1652,7 +1651,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chareil-Cintrat_-_Ch%C3%A2teau_de_Chareil.jpg",
       "wikimediaFile": "File:Chareil-Cintrat - Château de Chareil.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Chareil-Cintrat"
   },
   {
     "id": "chateau-de-chateaudun",
@@ -1696,14 +1696,14 @@
       }
     ],
     "wikidata": "Q1815544",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Ch%C3%A2teaudun",
     "image": {
       "file": "images/museums/chateau-de-chateaudun.jpg",
       "author": "Patrick GIRAUD",
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chateaudun_Chateau_06.jpg",
       "wikimediaFile": "File:Chateaudun Chateau 06.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Ch%C3%A2teaudun"
   },
   {
     "id": "chateau-de-coucy",
@@ -1747,14 +1747,14 @@
       }
     ],
     "wikidata": "Q576534",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Coucy",
     "image": {
       "file": "images/museums/chateau-de-coucy.jpg",
       "author": "Stardsen",
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coucy_comparaison.jpg",
       "wikimediaFile": "File:Coucy comparaison.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Coucy"
   },
   {
     "id": "chateau-de-fougeres-sur-bievre",
@@ -1797,14 +1797,14 @@
       }
     ],
     "wikidata": "Q1787326",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Foug%C3%A8res-sur-Bi%C3%A8vre",
     "image": {
       "file": "images/museums/chateau-de-fougeres-sur-bievre.jpg",
       "author": "Patrick Clenet",
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chateau_fougeres_sur_bievre_062006.jpg",
       "wikimediaFile": "File:Chateau fougeres sur bievre 062006.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Foug%C3%A8res-sur-Bi%C3%A8vre"
   },
   {
     "id": "chateau-de-gramont",
@@ -1847,14 +1847,14 @@
       }
     ],
     "wikidata": "Q2969342",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Gramont_(Tarn-et-Garonne)",
     "image": {
       "file": "images/museums/chateau-de-gramont.jpg",
       "author": "User:Pinpin -",
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:France_-_Gramont_-_chateau_-_2005-01-15.JPG",
       "wikimediaFile": "File:France - Gramont - chateau - 2005-01-15.JPG"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Gramont_(Tarn-et-Garonne)"
   },
   {
     "id": "chateau-de-la-motte-tilly",
@@ -1950,7 +1950,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/chateau-de-maisons-p3497",
     "wikidata": "Q2092716",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Maisons",
     "openingHours": "Apr-Sep 10:00-18:00; Oct-Mar 10:00-17:00",
     "openingHoursSource": {
       "url": "https://www.chateau-maisons.fr",
@@ -1962,7 +1961,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Maisons-Laffitte_001.jpg",
       "wikimediaFile": "File:Château de Maisons-Laffitte 001.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Maisons"
   },
   {
     "id": "chateau-de-montal",
@@ -2014,14 +2014,14 @@
       }
     ],
     "wikidata": "Q2969939",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Montal_(Lot)",
     "image": {
       "file": "images/museums/chateau-de-montal.jpg",
       "author": "Alouvrier",
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Domaine_de_Montal.jpg",
       "wikimediaFile": "File:Domaine de Montal.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Montal_(Lot)"
   },
   {
     "id": "chateau-de-pierrefonds",
@@ -2065,14 +2065,14 @@
       }
     ],
     "wikidata": "Q376699",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Pierrefonds",
     "image": {
       "file": "images/museums/chateau-de-pierrefonds.jpg",
       "author": "Crazyswan85",
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_Ch%C3%A2teau_de_Pierrefonds.jpg",
       "wikimediaFile": "File:Le Château de Pierrefonds.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Pierrefonds"
   },
   {
     "id": "chateau-de-puyguilhem",
@@ -2124,14 +2124,14 @@
       }
     ],
     "wikidata": "Q2970324",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Puyguilhem_(Villars)",
     "image": {
       "file": "images/museums/chateau-de-puyguilhem.jpg",
       "author": "Père Igor",
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Villars_Puyguilhem_(2).JPG",
       "wikimediaFile": "File:Villars Puyguilhem (2).JPG"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Puyguilhem_(Villars)"
   },
   {
     "id": "chateau-de-rambouillet",
@@ -2185,7 +2185,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/chateau-de-rambouillet-p3505",
     "wikidata": "Q648534",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Rambouillet",
     "openingHours": "Apr-Sep Mo,We-Su 10:00-12:00,13:30-18:00; Oct-Mar Mo,We-Su 10:00-12:00,13:30-17:00",
     "openingHoursSource": {
       "url": "https://www.chateau-rambouillet.fr",
@@ -2197,7 +2196,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chateau-de-Rambouillet-DSC0044.jpg",
       "wikimediaFile": "File:Chateau-de-Rambouillet-DSC0044.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Rambouillet"
   },
   {
     "id": "chateau-de-sceaux-musee-departemental",
@@ -2228,7 +2228,6 @@
       }
     ],
     "wikidata": "Q1579344",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Sceaux",
     "museofile": "M0417",
     "image": {
       "file": "images/museums/chateau-de-sceaux-musee-departemental.jpg",
@@ -2236,7 +2235,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Sceaux%2C_Hauts-de-Seine_(1).jpg",
       "wikimediaFile": "File:Château de Sceaux, Hauts-de-Seine (1).jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Sceaux"
   },
   {
     "id": "chateau-de-talcy",
@@ -2264,14 +2264,14 @@
       }
     ],
     "wikidata": "Q1479356",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Talcy",
     "image": {
       "file": "images/museums/chateau-de-talcy.jpg",
       "author": "Patrick GIRAUD",
       "license": "CC BY 2.5",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Castle_of_Talcy_02.jpg",
       "wikimediaFile": "File:Castle of Talcy 02.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Talcy"
   },
   {
     "id": "chateau-de-villeneuve-lembron",
@@ -2315,14 +2315,14 @@
       }
     ],
     "wikidata": "Q2729516",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Villeneuve-Lembron",
     "image": {
       "file": "images/museums/chateau-de-villeneuve-lembron.jpg",
       "author": "Loulousteph",
       "license": "CC BY-SA 2.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Villeneuve-Lembron.jpg",
       "wikimediaFile": "File:Villeneuve-Lembron.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Villeneuve-Lembron"
   },
   {
     "id": "chateau-de-vincennes",
@@ -2368,7 +2368,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/chateau-de-vincennes-p3493",
     "wikidata": "Q663673",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Vincennes",
     "openingHours": "Apr-Sep 10:00-18:00; Oct-Mar 10:00-17:00",
     "openingHoursSource": {
       "url": "https://www.chateau-vincennes.fr",
@@ -2380,7 +2379,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Vincennes_Paris_FRA_002.jpg",
       "wikimediaFile": "File:Château de Vincennes Paris FRA 002.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Vincennes"
   },
   {
     "id": "chateau-de-voltaire-a-ferney",
@@ -2424,14 +2424,14 @@
       }
     ],
     "wikidata": "Q2969210",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Voltaire",
     "image": {
       "file": "images/museums/chateau-de-voltaire-a-ferney.jpg",
       "author": "Chateau de Voltaire",
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vue_sur_la_fa%C3%A7ade_Est_du_ch%C3%A2teau_de_Voltaire_depuis_le_jardin_fran%C3%A7ais.jpg",
       "wikimediaFile": "File:Vue sur la façade Est du château de Voltaire depuis le jardin français.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Voltaire"
   },
   {
     "id": "chateau-ducal-de-cadillac",
@@ -2475,14 +2475,14 @@
       }
     ],
     "wikidata": "Q2968730",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Cadillac",
     "image": {
       "file": "images/museums/chateau-ducal-de-cadillac.jpg",
       "author": "Fabien.lotte",
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_des_ducs_d'%C3%A9pernons_-_Cadillac.jpg",
       "wikimediaFile": "File:Château des ducs d'épernons - Cadillac.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Cadillac"
   },
   {
     "id": "chateau-et-remparts-de-la-cite-de-carcassonne",
@@ -2534,14 +2534,14 @@
       }
     ],
     "wikidata": "Q389269",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Cit%C3%A9_de_Carcassonne",
     "image": {
       "file": "images/museums/chateau-et-remparts-de-la-cite-de-carcassonne.jpg",
       "author": "Jondu11",
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cit%C3%A9_de_Carcassonne.jpg",
       "wikimediaFile": "File:Cité de Carcassonne.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Cit%C3%A9_de_Carcassonne"
   },
   {
     "id": "chateau-musee-de-nemours",
@@ -2572,7 +2572,6 @@
       }
     ],
     "wikidata": "Q131561076",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau-Mus%C3%A9e_de_Nemours",
     "openingHours": "We 10:00-12:30,14:00-18:00; Th 14:00-18:00; Fr-Su 10:00-12:30,14:00-18:00",
     "openingHoursSource": {
       "url": "https://www.nemours.fr/contacts/chateau-musee/",
@@ -2585,7 +2584,8 @@
       "license": "CC BY 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Nemours.jpg",
       "wikimediaFile": "File:Château de Nemours.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau-Mus%C3%A9e_de_Nemours"
   },
   {
     "id": "cite-internationale-de-la-langue-francaise-au-chateau-de-villers-cotterets",
@@ -2613,14 +2613,14 @@
       }
     ],
     "wikidata": "Q118368023",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Cit%C3%A9_internationale_de_la_langue_fran%C3%A7aise",
     "image": {
       "file": "images/museums/cite-internationale-de-la-langue-francaise-au-chateau-de-villers-cotterets.jpg",
       "author": "Eliselfg",
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logis_royal_du_ch%C3%A2teau_de_Villers-Cotter%C3%AAts_en_cours_de_restauration_(mars_2022).jpg",
       "wikimediaFile": "File:Logis royal du château de Villers-Cotterêts en cours de restauration (mars 2022).jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Cit%C3%A9_internationale_de_la_langue_fran%C3%A7aise"
   },
   {
     "id": "cloitre-de-la-cathedrale-de-bayonne",
@@ -2647,14 +2647,14 @@
       }
     ],
     "wikidata": "Q1736171",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Sainte-Marie_de_Bayonne",
     "image": {
       "file": "images/museums/cloitre-de-la-cathedrale-de-bayonne.jpg",
       "author": "--Pinpin 11:01, 12 November 2006 (UTC)",
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:France-Bayonne-Cathedrale_Sainte-Cecile.jpg",
       "wikimediaFile": "File:France-Bayonne-Cathedrale Sainte-Cecile.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Sainte-Marie_de_Bayonne"
   },
   {
     "id": "cloitre-de-la-cathedrale-de-frejus",
@@ -2698,14 +2698,14 @@
       }
     ],
     "wikidata": "Q1135277",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Saint-L%C3%A9once_de_Fr%C3%A9jus",
     "image": {
       "file": "images/museums/cloitre-de-la-cathedrale-de-frejus.jpg",
       "author": "Patricia.fidi",
       "license": "Public Domain",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cathedrale_Saint-Leonce_02.jpg",
       "wikimediaFile": "File:Cathedrale Saint-Leonce 02.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Saint-L%C3%A9once_de_Fr%C3%A9jus"
   },
   {
     "id": "cloitre-de-la-psalette",
@@ -2749,14 +2749,14 @@
       }
     ],
     "wikidata": "Q2979785",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Clo%C3%AEtre_de_la_Psalette",
     "image": {
       "file": "images/museums/cloitre-de-la-psalette.jpg",
       "author": "Croquant",
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tours_escalier_du_clo%C3%AEtre_de_la_Psalette.jpg",
       "wikimediaFile": "File:Tours escalier du cloître de la Psalette.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Clo%C3%AEtre_de_la_Psalette"
   },
   {
     "id": "collections-de-la-fondation-de-coubertin",
@@ -2821,7 +2821,6 @@
       }
     ],
     "wikidata": "Q2782334",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Colonne_de_la_Grande_Arm%C3%A9e",
     "note": "The museum and park are free; only the column climb is ticketed. Closed annually 8 November to 18 December.",
     "image": {
       "file": "images/museums/colonne-de-la-grande-armee-a-wimille.jpg",
@@ -2829,7 +2828,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Colonne_de_la_Grande_Arm%C3%A9e.jpg",
       "wikimediaFile": "File:Colonne de la Grande Armée.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Colonne_de_la_Grande_Arm%C3%A9e"
   },
   {
     "id": "conciergerie",
@@ -2875,7 +2875,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/conciergerie-p3496",
     "wikidata": "Q138101",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Conciergerie_de_Paris",
     "openingHours": "Mo-Su 09:30-18:00",
     "openingHoursSource": {
       "url": "https://www.paris-conciergerie.fr",
@@ -2887,7 +2886,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_Conciergerie_265.jpg",
       "wikimediaFile": "File:Paris Conciergerie 265.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Conciergerie_de_Paris"
   },
   {
     "id": "crypte-et-tour-de-la-cathedrale-de-bourges",
@@ -2998,7 +2998,6 @@
       }
     ],
     "wikidata": "Q329948",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Palais-Royal",
     "arrondissement": 1,
     "image": {
       "file": "images/museums/domaine-national-du-palais-royal.jpg",
@@ -3006,7 +3005,8 @@
       "license": "Public Domain",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Conseil_d'Etat_Paris_WA.jpg",
       "wikimediaFile": "File:Conseil d'Etat Paris WA.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Palais-Royal"
   },
   {
     "id": "ensemble-cathedral-du-puy-en-velay",
@@ -3158,7 +3158,6 @@
     ],
     "freeAccess": [],
     "wikidata": "Q3075375",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Fondation_Arp",
     "museofile": "M1126",
     "image": {
       "file": "images/museums/fondation-arp.jpg",
@@ -3166,7 +3165,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fa%C3%A7ade_du_b%C3%A2timent_de_la_fondation_Arp_%C3%A0_Clamart.jpg",
       "wikimediaFile": "File:Façade du bâtiment de la fondation Arp à Clamart.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Fondation_Arp"
   },
   {
     "id": "fort-saint-andre-a-villeneuve-lez-avignon",
@@ -3210,14 +3210,14 @@
       }
     ],
     "wikidata": "Q3078019",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Fort_Saint-Andr%C3%A9_(Villeneuve-l%C3%A8s-Avignon)",
     "image": {
       "file": "images/museums/fort-saint-andre-a-villeneuve-lez-avignon.jpg",
       "author": "Vi..Cult...",
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vue_sur_le_ch%C3%A2teau_fort_Saint_Andr%C3%A9.JPG",
       "wikimediaFile": "File:Vue sur le château fort Saint André.JPG"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Fort_Saint-Andr%C3%A9_(Villeneuve-l%C3%A8s-Avignon)"
   },
   {
     "id": "forteresse-de-salses",
@@ -3261,14 +3261,14 @@
       }
     ],
     "wikidata": "Q371069",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Forteresse_de_Salses",
     "image": {
       "file": "images/museums/forteresse-de-salses.jpg",
       "author": "Albert Sarola Juanola",
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panor%C3%A0mica_Castell_de_Salses.jpg",
       "wikimediaFile": "File:Panoràmica Castell de Salses.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Forteresse_de_Salses"
   },
   {
     "id": "grotte-de-pair-non-pair",
@@ -3312,14 +3312,14 @@
       }
     ],
     "wikidata": "Q1643799",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Grotte_de_Pair-non-Pair",
     "image": {
       "file": "images/museums/grotte-de-pair-non-pair.jpg",
       "author": "Xabi Rome-Hérault",
       "license": "CC BY 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Entr%C3%A9e_de_Pair-non-Pair.jpg",
       "wikimediaFile": "File:Entrée de Pair-non-Pair.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Grotte_de_Pair-non-Pair"
   },
   {
     "id": "hotel-de-la-marine",
@@ -3366,7 +3366,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/hotel-de-la-marine-p3647",
     "wikidata": "Q2059518",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/H%C3%B4tel_de_la_Marine",
     "openingHours": "Mo-Su 10:00-19:00",
     "openingHoursSource": {
       "url": "https://www.hotel-de-la-marine.paris",
@@ -3378,7 +3377,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_de_la_Marine_en_f%C3%A9vrier_2014_4.jpg",
       "wikimediaFile": "File:Hôtel de la Marine en février 2014 4.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/H%C3%B4tel_de_la_Marine"
   },
   {
     "id": "hotel-de-sade",
@@ -3406,14 +3406,14 @@
       }
     ],
     "wikidata": "Q22916252",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/H%C3%B4tel_de_Sade_de_Saint-R%C3%A9my-de-Provence",
     "image": {
       "file": "images/museums/hotel-de-sade.jpg",
       "author": "Reinhard Dietrich",
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_de_Sade_Therme.jpg",
       "wikimediaFile": "File:Hôtel de Sade Therme.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/H%C3%B4tel_de_Sade_de_Saint-R%C3%A9my-de-Provence"
   },
   {
     "id": "hotel-de-sully",
@@ -3440,7 +3440,6 @@
       }
     ],
     "wikidata": "Q1643144",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/H%C3%B4tel_de_Sully",
     "note": "The courtyard and garden are freely accessible; the interiors only open for paid guided tours.",
     "arrondissement": 4,
     "image": {
@@ -3449,7 +3448,8 @@
       "license": "CC BY 2.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_de_Sully_07-2.jpg",
       "wikimediaFile": "File:Hôtel de Sully 07-2.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/H%C3%B4tel_de_Sully"
   },
   {
     "id": "la-cinematheque-francaise",
@@ -3482,12 +3482,12 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/la-cinematheque-francaise-p3552",
     "wikidata": "Q174274",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Cin%C3%A9math%C3%A8que_fran%C3%A7aise",
     "openingHours": "Mo 12:00-19:00; We-Su 12:00-19:00",
     "openingHoursSource": {
       "url": "https://www.cinematheque.fr",
       "checkedAt": "2026-08-04"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Cin%C3%A9math%C3%A8que_fran%C3%A7aise"
   },
   {
     "id": "la-maison-elysee",
@@ -3517,7 +3517,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/la-maison-elysee-p4434",
     "wikidata": "Q134347159",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/La_Maison_%C3%89lys%C3%A9e",
     "openingHours": "Tu-Sa 11:00-18:30",
     "openingHoursSource": {
       "url": "https://www.elysee.fr",
@@ -3529,7 +3528,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maison_Elysee_-_salle_1_et_2.jpg",
       "wikimediaFile": "File:Maison Elysee - salle 1 et 2.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/La_Maison_%C3%89lys%C3%A9e"
   },
   {
     "id": "le-plateau-frac-ile-de-france",
@@ -3558,7 +3558,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/le-plateau-centre-d-art-contemporain-p1133",
     "wikidata": "Q3225673",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Le_Plateau_(centre_d'art_contemporain)",
     "openingHours": "We-Su 14:00-19:00",
     "openingHoursSource": {
       "url": "https://fracidf.com",
@@ -3570,7 +3569,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Place_Hannah_Arendt_-_Paris_XIX_(FR75)_-_2021-03-06_-_3.jpg",
       "wikimediaFile": "File:Place Hannah Arendt - Paris XIX (FR75) - 2021-03-06 - 3.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Le_Plateau_(centre_d'art_contemporain)"
   },
   {
     "id": "maison-d-ernest-renan-a-treguier",
@@ -3613,14 +3613,14 @@
       }
     ],
     "wikidata": "Q3329144",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Ernest-Renan",
     "image": {
       "file": "images/museums/maison-d-ernest-renan-a-treguier.jpg",
       "author": "Moreau.henri",
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:18_Tr%C3%A9guier_Maison_d'Ernest_Renan_-avant-.JPG",
       "wikimediaFile": "File:18 Tréguier Maison d'Ernest Renan -avant-.JPG"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Ernest-Renan"
   },
   {
     "id": "maison-de-balzac",
@@ -3651,7 +3651,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/maison-de-balzac-p3501",
     "wikidata": "Q547789",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Maison_de_Balzac",
     "openingHours": "Tu-Su 10:00-18:00",
     "openingHoursSource": {
       "url": "https://www.maisondebalzac.paris.fr",
@@ -3664,7 +3663,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maison_de_Balzac%2C_Paris_16e_5.jpg",
       "wikimediaFile": "File:Maison de Balzac, Paris 16e 5.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Maison_de_Balzac"
   },
   {
     "id": "maison-de-george-sand-a-nohant",
@@ -3708,14 +3708,14 @@
       }
     ],
     "wikidata": "Q1885888",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Domaine_de_George_Sand",
     "image": {
       "file": "images/museums/maison-de-george-sand-a-nohant.jpg",
       "author": "Manfred Heyde",
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nohant_06_2009.jpg",
       "wikimediaFile": "File:Nohant 06 2009.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Domaine_de_George_Sand"
   },
   {
     "id": "maison-de-georges-clemenceau-a-saint-vincent-sur-jard",
@@ -3795,7 +3795,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/maison-de-victor-hugo-p3500",
     "wikidata": "Q2599177",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Maison_de_Victor_Hugo",
     "openingHours": "Tu-Su 10:00-18:00",
     "openingHoursSource": {
       "url": "https://www.maisonsvictorhugo.paris.fr",
@@ -3808,7 +3807,8 @@
       "license": "CC BY-SA 2.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:PARIS_Place_des_Vosges%2C_Maison_de_Victor_Hugo_2.jpg",
       "wikimediaFile": "File:PARIS Place des Vosges, Maison de Victor Hugo 2.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Maison_de_Victor_Hugo"
   },
   {
     "id": "maison-des-jardies",
@@ -3839,7 +3839,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/maison-des-jardies-a-sevres-p953",
     "wikidata": "Q2348375",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Maison_des_Jardies",
     "openingHours": "Th-Su 14:00-18:30",
     "openingHoursSource": {
       "url": "https://www.maison-des-jardies.fr",
@@ -3851,7 +3850,8 @@
       "license": "Public Domain",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maison-gambetta.JPG",
       "wikimediaFile": "File:Maison-gambetta.JPG"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Maison_des_Jardies"
   },
   {
     "id": "maison-natale-de-louis-braille",
@@ -3871,7 +3871,6 @@
     ],
     "freeAccess": [],
     "wikidata": "Q22922427",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Maison_natale_de_Louis_Braille",
     "museofile": "M0373",
     "image": {
       "file": "images/museums/maison-natale-de-louis-braille.jpg",
@@ -3879,7 +3878,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Braille_house.JPG",
       "wikimediaFile": "File:Braille house.JPG"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Maison_natale_de_Louis_Braille"
   },
   {
     "id": "maison-musee-maurice-ravel",
@@ -3899,7 +3899,6 @@
     ],
     "freeAccess": [],
     "wikidata": "Q1230290",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Maurice-Ravel",
     "museofile": "M0392",
     "image": {
       "file": "images/museums/maison-musee-maurice-ravel.jpg",
@@ -3907,7 +3906,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Montfort-l'Amaury_Maison_Ravel.jpg",
       "wikimediaFile": "File:Montfort-l'Amaury Maison Ravel.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Maurice-Ravel"
   },
   {
     "id": "monastere-de-saorge",
@@ -3950,7 +3950,6 @@
       }
     ],
     "wikidata": "Q15952778",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Monast%C3%A8re_de_Saorge",
     "note": "Closed annually from November to January.",
     "image": {
       "file": "images/museums/monastere-de-saorge.jpg",
@@ -3958,7 +3957,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monast%C3%A8re_de_Saorge_-02.JPG",
       "wikimediaFile": "File:Monastère de Saorge -02.JPG"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Monast%C3%A8re_de_Saorge"
   },
   {
     "id": "monastere-royal-de-brou-a-bourg-en-bresse",
@@ -4002,14 +4002,14 @@
       }
     ],
     "wikidata": "Q3320413",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Monast%C3%A8re_royal_de_Brou",
     "image": {
       "file": "images/museums/monastere-royal-de-brou-a-bourg-en-bresse.jpg",
       "author": "Marmontel",
       "license": "CC BY 2.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monast%C3%A8re_de_Brou.jpg",
       "wikimediaFile": "File:Monastère de Brou.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Monast%C3%A8re_royal_de_Brou"
   },
   {
     "id": "mus-musee-d-histoire-urbaine-et-sociale-de-suresnes",
@@ -4049,7 +4049,6 @@
       }
     ],
     "wikidata": "Q28033642",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Histoire_urbaine_et_sociale_de_Suresnes",
     "openingHours": "We-Su 14:00-18:00; PH off",
     "openingHoursSource": {
       "url": "https://mus.suresnes.fr/",
@@ -4062,7 +4061,8 @@
       "license": "CC BY 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:2013_MUS_Musee_Urbanisme_de_Suresnes.JPG",
       "wikimediaFile": "File:2013 MUS Musee Urbanisme de Suresnes.JPG"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Histoire_urbaine_et_sociale_de_Suresnes"
   },
   {
     "id": "musee-adrien-mentienne",
@@ -4091,7 +4091,6 @@
       }
     ],
     "wikidata": "Q23599751",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Adrien_Mentienne",
     "museofile": "M0424",
     "image": {
       "file": "images/museums/musee-adrien-mentienne.jpg",
@@ -4099,7 +4098,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Adrien_Mentienne_Bry_Marne_2.jpg",
       "wikimediaFile": "File:Musée Adrien Mentienne Bry Marne 2.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Adrien_Mentienne"
   },
   {
     "id": "musee-alfred-bonno",
@@ -4148,7 +4148,6 @@
       }
     ],
     "wikidata": "Q2420675",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_arch%C3%A9ologique_du_Val-d'Oise",
     "museofile": "M0434",
     "image": {
       "file": "images/museums/musee-archeologique-departemental-du-val-d-oise.jpg",
@@ -4156,7 +4155,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guiry-en-Vexin_-_Musee.JPG",
       "wikimediaFile": "File:Guiry-en-Vexin - Musee.JPG"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_arch%C3%A9ologique_du_Val-d'Oise"
   },
   {
     "id": "musee-bossuet",
@@ -4186,7 +4186,6 @@
       }
     ],
     "wikidata": "Q82748",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Bossuet",
     "openingHours": "Apr-Oct We-Mo 10:00-12:30,14:00-18:00; Nov-Mar We-Sa 10:00-12:30,14:00-17:00; Nov-Mar Su 14:00-17:00",
     "openingHoursSource": {
       "url": "https://www.musee-bossuet.fr/",
@@ -4199,7 +4198,8 @@
       "license": "Public Domain",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Meaux_140708_01.jpg",
       "wikimediaFile": "File:Meaux 140708 01.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Bossuet"
   },
   {
     "id": "musee-bourdelle",
@@ -4230,7 +4230,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-bourdelle-p3539",
     "wikidata": "Q2715373",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Bourdelle",
     "openingHours": "Tu-Su 10:00-18:00",
     "openingHoursSource": {
       "url": "https://www.bourdelle.paris.fr",
@@ -4243,7 +4242,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_musee_bourdelle_maison.jpg",
       "wikimediaFile": "File:Paris musee bourdelle maison.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Bourdelle"
   },
   {
     "id": "musee-carnavalet-histoire-de-paris",
@@ -4273,7 +4273,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-carnavalet-histoire-de-paris-p3492",
     "wikidata": "Q640447",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Carnavalet",
     "openingHours": "Tu-Su 10:00-18:00",
     "openingHoursSource": {
       "url": "https://www.carnavalet.paris.fr",
@@ -4286,7 +4285,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carnavalet_Par%C3%ADs_10.JPG",
       "wikimediaFile": "File:Carnavalet París 10.JPG"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Carnavalet"
   },
   {
     "id": "musee-cernuschi-musee-des-arts-de-l-asie-de-la-ville-de-paris",
@@ -4316,7 +4316,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-cernuschi-musee-des-arts-de-l-asie-de-la-ville-de-paris-p3499",
     "wikidata": "Q1667022",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Cernuschi",
     "openingHours": "Tu-Su 10:00-18:00",
     "openingHoursSource": {
       "url": "https://www.cernuschi.paris.fr",
@@ -4329,7 +4328,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monceau_Cernuschi.JPG",
       "wikimediaFile": "File:Monceau Cernuschi.JPG"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Cernuschi"
   },
   {
     "id": "musee-cognacq-jay-musee-du-xviiie-siecle-de-la-ville-de-paris",
@@ -4360,7 +4360,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-cognacq-jay-le-gout-du-xviiie-p3509",
     "wikidata": "Q1572452",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Cognacq-Jay",
     "openingHours": "Tu-Su 10:00-18:00",
     "openingHoursSource": {
       "url": "https://www.museecognacqjay.paris.fr",
@@ -4373,7 +4372,8 @@
       "license": "CC BY 2.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jardin_Lazare-Rachline%2C_Paris_9_June_2017_001.jpg",
       "wikimediaFile": "File:Jardin Lazare-Rachline, Paris 9 June 2017 001.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Cognacq-Jay"
   },
   {
     "id": "musee-curie",
@@ -4403,7 +4403,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-curie-p999",
     "wikidata": "Q589336",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Curie",
     "openingHours": "We-Sa 13:00-17:00",
     "openingHoursSource": {
       "url": "https://musee.curie.fr",
@@ -4415,7 +4414,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pavillon_Pasteur.jpg",
       "wikimediaFile": "File:Pavillon Pasteur.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Curie"
   },
   {
     "id": "musee-d-archeologie-nationale-des-origines-a-l-an-mille-chateau-de-saint-germain-en-laye",
@@ -4455,7 +4455,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-d-archeologie-nationale-domaine-national-de-saint-germain-en-laye-p945",
     "wikidata": "Q2342844",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Arch%C3%A9ologie_nationale",
     "openingHours": "Mo,We-Su 10:00-17:00",
     "openingHoursSource": {
       "url": "https://musee-archeologienationale.fr",
@@ -4468,7 +4467,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chateau_de_St_Germain-en-laye.JPG",
       "wikimediaFile": "File:Chateau de St Germain-en-laye.JPG"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Arch%C3%A9ologie_nationale"
   },
   {
     "id": "musee-d-art-contemporain-du-val-de-marne",
@@ -4499,7 +4499,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/mac-val-musee-d-art-contemporain-du-val-de-marne-p962",
     "wikidata": "Q3329594",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_contemporain_du_Val-de-Marne",
     "openingHours": "Tu-Fr 10:00-18:00; Sa,Su 12:00-19:00",
     "openingHoursSource": {
       "url": "https://www.macval.fr",
@@ -4512,7 +4511,8 @@
       "license": "CC BY 2.5",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vitry_-_Musee_d'art_contemporain_00.jpg",
       "wikimediaFile": "File:Vitry - Musee d'art contemporain 00.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_contemporain_du_Val-de-Marne"
   },
   {
     "id": "musee-d-art-et-d-histoire-de-l-hopital-sainte-anne",
@@ -4543,9 +4543,9 @@
       }
     ],
     "wikidata": "Q88645654",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_et_d'Histoire_de_l'h%C3%B4pital_Sainte-Anne",
     "note": "Temporarily closed; reopening announced for 3 September 2026.",
-    "museofile": "M1202"
+    "museofile": "M1202",
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_et_d'Histoire_de_l'h%C3%B4pital_Sainte-Anne"
   },
   {
     "id": "musee-d-art-et-d-histoire",
@@ -4574,7 +4574,6 @@
       }
     ],
     "wikidata": "Q3329618",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_et_d'Histoire_de_Meudon",
     "openingHours": "Tu-Su 14:00-18:00; PH off",
     "openingHoursSource": {
       "url": "https://musee.meudon.fr/",
@@ -4587,7 +4586,8 @@
       "license": "CC BY 1.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9eartethistoiremeudon.jpg",
       "wikimediaFile": "File:Muséeartethistoiremeudon.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_et_d'Histoire_de_Meudon"
   },
   {
     "id": "musee-d-art-et-d-histoire-du-judaisme",
@@ -4638,7 +4638,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-d-art-et-d-histoire-du-judaisme-p3581",
     "wikidata": "Q977732",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_et_d'Histoire_du_juda%C3%AFsme",
     "openingHours": "Tu-Fr 11:00-18:00; Sa,Su 10:00-18:00",
     "openingHoursSource": {
       "url": "https://www.mahj.org",
@@ -4651,7 +4650,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_-_H%C3%B4tel_de_Saint-Aignan_-_Muse%C3%A9_du_Juda%C3%AFsme.jpg",
       "wikimediaFile": "File:Paris - Hôtel de Saint-Aignan - Museé du Judaïsme.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_et_d'Histoire_du_juda%C3%AFsme"
   },
   {
     "id": "musee-d-art-et-d-histoire-louis-senlecq",
@@ -4682,7 +4682,6 @@
       }
     ],
     "wikidata": "Q23639858",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_et_d'Histoire_Louis-Senlecq",
     "museofile": "M0435",
     "image": {
       "file": "images/museums/musee-d-art-et-d-histoire-louis-senlecq.jpg",
@@ -4690,7 +4689,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Louis-Senlecq_l'Isle-Adam.jpg",
       "wikimediaFile": "File:Musée Louis-Senlecq l'Isle-Adam.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_et_d'Histoire_Louis-Senlecq"
   },
   {
     "id": "musee-d-art-et-d-histoire-paul-eluard",
@@ -4730,7 +4730,6 @@
       }
     ],
     "wikidata": "Q3329627",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_et_d'Histoire_Paul-%C3%89luard",
     "openingHours": "Tu-Fr 10:00-17:30; Sa 11:00-18:30; Su 14:00-18:30; Mo off; PH off",
     "openingHoursSource": {
       "url": "https://musee-saint-denis.com/infos-pratiques/horaires-acces-et-tarifs/",
@@ -4743,7 +4742,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saint-Denis_(93)_Chapelle_du_Carmel.JPG",
       "wikimediaFile": "File:Saint-Denis (93) Chapelle du Carmel.JPG"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_et_d'Histoire_Paul-%C3%89luard"
   },
   {
     "id": "musee-pissarro",
@@ -4774,7 +4774,6 @@
       }
     ],
     "wikidata": "Q1955692",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_et_d'Histoire_Pissarro-Pontoise",
     "openingHours": "We-Su 11:00-12:30,13:30-18:00; PH off",
     "openingHoursSource": {
       "url": "https://ville-pontoise.fr/le-musee-dart-et-dhistoire-pissarro-pontoise-mahpp",
@@ -4787,7 +4786,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Camille_Pissarro.jpg",
       "wikimediaFile": "File:Musée Camille Pissarro.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_et_d'Histoire_Pissarro-Pontoise"
   },
   {
     "id": "musee-d-art-moderne-de-la-ville-de-paris",
@@ -4818,7 +4818,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-d-art-moderne-de-paris-p3491",
     "wikidata": "Q857276",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_moderne_de_Paris",
     "openingHours": "Tu-Su 10:00-18:00",
     "openingHoursSource": {
       "url": "https://www.mam.paris.fr",
@@ -4831,7 +4830,8 @@
       "license": "CC BY 2.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_d'Art_moderne_de_la_Ville_de_Paris.jpg",
       "wikimediaFile": "File:Musée d'Art moderne de la Ville de Paris.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_moderne_de_Paris"
   },
   {
     "id": "musee-d-ennery",
@@ -4852,7 +4852,6 @@
     ],
     "freeAccess": [],
     "wikidata": "Q1579504",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Ennery",
     "museofile": "M5040",
     "image": {
       "file": "images/museums/musee-d-ennery.jpg",
@@ -4860,7 +4859,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_d'Ennery_02.jpg",
       "wikimediaFile": "File:Musée d'Ennery 02.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Ennery"
   },
   {
     "id": "musee-d-histoire-locale-memoire-de-la-ville",
@@ -4888,7 +4888,6 @@
       }
     ],
     "wikidata": "Q3329678",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'histoire_locale_de_Rueil-Malmaison",
     "openingHours": "Mo-Sa 14:00-17:45",
     "openingHoursSource": {
       "url": "https://www.villederueil.fr/sortir-loisirs/les-lieux-culturels-et-patrimoniaux/musees-et-lieux-dexposition/musee-dhistoire-locale/",
@@ -4901,7 +4900,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rueil-Malmaison_Mairie.jpg",
       "wikimediaFile": "File:Rueil-Malmaison Mairie.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'histoire_locale_de_Rueil-Malmaison"
   },
   {
     "id": "musee-d-orsay",
@@ -4942,7 +4942,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-d-orsay-p3592",
     "wikidata": "Q23402",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Orsay",
     "openingHours": "Tu-We 09:30-18:00; Th 09:30-21:45; Fr-Su 09:30-18:00",
     "openingHoursSource": {
       "url": "https://www.musee-orsay.fr",
@@ -4955,7 +4954,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:MuseeDOrsay.jpg",
       "wikimediaFile": "File:MuseeDOrsay.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Orsay"
   },
   {
     "id": "musee-daubigny",
@@ -5032,7 +5032,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-cluny-musee-national-du-moyen-age-p3555",
     "wikidata": "Q1124095",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_Cluny",
     "openingHours": "Tu-Su 09:30-18:15",
     "openingHoursSource": {
       "url": "https://www.musee-moyenage.fr",
@@ -5045,7 +5044,8 @@
       "license": "CC BY-SA 2.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_de_Cluny%2C_Paris_24_April_2012.jpg",
       "wikimediaFile": "File:Hôtel de Cluny, Paris 24 April 2012.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_Cluny"
   },
   {
     "id": "musee-de-l-air-et-de-l-espace",
@@ -5076,7 +5076,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-l-air-et-de-l-espace-p3548",
     "wikidata": "Q1189955",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_l'Air_et_de_l'Espace",
     "openingHours": "Tu-Su 10:00-17:00",
     "openingHoursSource": {
       "url": "https://www.museeairespace.fr",
@@ -5089,7 +5088,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_de_l'Air_et_de_l'Espace_Le_Bourget_FRA_001.jpg",
       "wikimediaFile": "File:Musée de l'Air et de l'Espace Le Bourget FRA 001.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_l'Air_et_de_l'Espace"
   },
   {
     "id": "musee-de-l-armee",
@@ -5121,7 +5121,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-l-armee-invalides-p3587",
     "wikidata": "Q1996069",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_l'Arm%C3%A9e_(Paris)",
     "openingHours": "Apr-Oct 10:00-18:00; Nov-Mar 10:00-17:00",
     "openingHoursSource": {
       "url": "https://www.musee-armee.fr",
@@ -5134,7 +5133,8 @@
       "license": "CC BY 2.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_de_l'Arm%C3%A9e%2C_Paris_4_May_2019.jpg",
       "wikimediaFile": "File:Musée de l'Armée, Paris 4 May 2019.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_l'Arm%C3%A9e_(Paris)"
   },
   {
     "id": "musee-de-l-histoire-vivante",
@@ -5164,7 +5164,6 @@
       }
     ],
     "wikidata": "Q3329788",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_l'Histoire_vivante",
     "museofile": "M0420",
     "image": {
       "file": "images/museums/musee-de-l-histoire-vivante.jpg",
@@ -5172,7 +5171,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Histoire_Vivante_Montreuil_Seine_St_Denis_2.jpg",
       "wikimediaFile": "File:Musée Histoire Vivante Montreuil Seine St Denis 2.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_l'Histoire_vivante"
   },
   {
     "id": "musee-de-l-hotel-dieu",
@@ -5201,7 +5201,6 @@
       }
     ],
     "wikidata": "Q23600382",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_l'H%C3%B4tel-Dieu",
     "openingHours": "Mo,Th 09:00-12:00,14:00-18:00; We,Fr,Sa,Su 14:00-18:00; Tu off; PH 14:00-18:00",
     "openingHoursSource": {
       "url": "https://www.manteslajolie.fr/loisirs-sorties-asso/culture/etablissements-culturels/musee-de-lhotel-dieu",
@@ -5214,7 +5213,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mantes-la-Jolie_-_H%C3%B4tel-Dieu01.jpg",
       "wikimediaFile": "File:Mantes-la-Jolie - Hôtel-Dieu01.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_l'H%C3%B4tel-Dieu"
   },
   {
     "id": "musee-de-l-institut-du-monde-arabe",
@@ -5244,7 +5244,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/institut-du-monde-arabe-p3524",
     "wikidata": "Q860166",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Institut_du_monde_arabe",
     "openingHours": "Tu-Fr 10:00-18:00; Sa,Su 10:00-19:00",
     "openingHoursSource": {
       "url": "https://www.imarabe.org",
@@ -5257,7 +5256,8 @@
       "license": "CC BY 2.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Institut_du_Monde_Arabe_au_bord_de_la_Seine.jpg",
       "wikimediaFile": "File:Institut du Monde Arabe au bord de la Seine.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Institut_du_monde_arabe"
   },
   {
     "id": "musee-de-l-orangerie-des-tuileries",
@@ -5299,7 +5299,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-l-orangerie-p3513",
     "wikidata": "Q726781",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_l'Orangerie",
     "openingHours": "Mo,We-Su 09:00-18:00",
     "openingHoursSource": {
       "url": "https://www.musee-orangerie.fr",
@@ -5312,7 +5311,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:2011-12-Musee_de_lorangerie.jpg",
       "wikimediaFile": "File:2011-12-Musee de lorangerie.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_l'Orangerie"
   },
   {
     "id": "musee-de-l-ecole-de-barbizon-auberge-ganne",
@@ -5342,7 +5342,6 @@
       }
     ],
     "wikidata": "Q3330523",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_Peintres_de_Barbizon",
     "museofile": "M0370",
     "image": {
       "file": "images/museums/musee-de-l-ecole-de-barbizon-auberge-ganne.jpg",
@@ -5350,7 +5349,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barbizon_musee_ganne.JPG",
       "wikimediaFile": "File:Barbizon musee ganne.JPG"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_Peintres_de_Barbizon"
   },
   {
     "id": "musee-de-l-ecole-nationale-superieure-des-beaux-arts",
@@ -5400,7 +5400,6 @@
     ],
     "freeAccess": [],
     "wikidata": "Q3329993",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_batellerie_(Conflans-Sainte-Honorine)",
     "museofile": "M0387",
     "image": {
       "file": "images/museums/musee-de-la-batellerie.jpg",
@@ -5408,7 +5407,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Conflans-ste-honorine-musee-batellerie.jpg",
       "wikimediaFile": "File:Conflans-ste-honorine-musee-batellerie.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_batellerie_(Conflans-Sainte-Honorine)"
   },
   {
     "id": "musee-de-la-chasse-et-de-la-nature",
@@ -5440,7 +5440,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-la-chasse-et-de-la-nature-p997",
     "wikidata": "Q1128657",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_Chasse_et_de_la_Nature",
     "openingHours": "Tu 11:00-18:00; We 11:00-21:30; Th-Su 11:00-18:00",
     "openingHoursSource": {
       "url": "https://www.chassenature.org",
@@ -5453,7 +5452,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:P1000961_Paris_III_Rue_des_Archives_Mus%C3%A9e_de_la_chasse_reductwk.JPG",
       "wikimediaFile": "File:P1000961 Paris III Rue des Archives Musée de la chasse reductwk.JPG"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_Chasse_et_de_la_Nature"
   },
   {
     "id": "musee-de-la-franc-maconnerie",
@@ -5474,7 +5474,6 @@
     ],
     "freeAccess": [],
     "wikidata": "Q2597719",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_Franc-ma%C3%A7onnerie",
     "museofile": "M0366",
     "image": {
       "file": "images/museums/musee-de-la-franc-maconnerie.jpg",
@@ -5482,7 +5481,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:GODF_rue_Cadet_Paris.JPG",
       "wikimediaFile": "File:GODF rue Cadet Paris.JPG"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_Franc-ma%C3%A7onnerie"
   },
   {
     "id": "musee-de-la-gendarmerie",
@@ -5521,7 +5521,6 @@
       }
     ],
     "wikidata": "Q23057803",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_Gendarmerie_nationale_de_Melun",
     "openingHours": "Apr-Sep We-Mo 10:00-18:00; Oct-Mar We-Mo 10:00-17:30",
     "openingHoursSource": {
       "url": "https://www.gendarmerie.interieur.gouv.fr/musee/",
@@ -5534,7 +5533,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9eGN1_Domenjod_140916.jpg",
       "wikimediaFile": "File:MuséeGN1 Domenjod 140916.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_Gendarmerie_nationale_de_Melun"
   },
   {
     "id": "musee-de-la-grande-guerre",
@@ -5565,7 +5565,6 @@
       }
     ],
     "wikidata": "Q611062",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_Grande_Guerre_du_pays_de_Meaux",
     "openingHours": "We-Mo 09:30-18:00",
     "openingHoursSource": {
       "url": "https://www.museedelagrandeguerre.com/",
@@ -5578,7 +5577,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_de_la_Grande_Guerre_de_Meaux_13.jpg",
       "wikimediaFile": "File:Musée de la Grande Guerre de Meaux 13.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_Grande_Guerre_du_pays_de_Meaux"
   },
   {
     "id": "musee-de-la-grande-loge-de-france",
@@ -5638,7 +5638,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-la-liberation-de-paris-musee-du-general-leclerc-musee-jean-moulin-p3508",
     "wikidata": "Q85854194",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_Lib%C3%A9ration_de_Paris_-_mus%C3%A9e_du_G%C3%A9n%C3%A9ral_Leclerc_-_mus%C3%A9e_Jean-Moulin",
     "openingHours": "Tu-Su 10:00-18:00",
     "openingHoursSource": {
       "url": "https://www.museeliberation-leclerc-moulin.paris.fr",
@@ -5651,7 +5650,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barri%C3%A8re_d'Enfer%2C_place_Denfert-Rochereau%2C_Paris_03.jpg",
       "wikimediaFile": "File:Barrière d'Enfer, place Denfert-Rochereau, Paris 03.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_Lib%C3%A9ration_de_Paris_-_mus%C3%A9e_du_G%C3%A9n%C3%A9ral_Leclerc_-_mus%C3%A9e_Jean-Moulin"
   },
   {
     "id": "musee-des-monnaies-et-medailles",
@@ -5691,7 +5691,6 @@
       }
     ],
     "wikidata": "Q48746193",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Le_Mus%C3%A9e_du_11_Conti_-_Monnaie_de_Paris",
     "museofile": "M5066",
     "image": {
       "file": "images/museums/musee-des-monnaies-et-medailles.jpg",
@@ -5699,7 +5698,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_-_H%C3%B4tel_des_Monnaies_-_Fa%C3%A7ade_c%C3%B4t%C3%A9_cour.JPG",
       "wikimediaFile": "File:Paris - Hôtel des Monnaies - Façade côté cour.JPG"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Le_Mus%C3%A9e_du_11_Conti_-_Monnaie_de_Paris"
   },
   {
     "id": "musee-de-la-musique",
@@ -5731,7 +5731,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/cite-de-la-musique-philharmonie-de-paris-p3544",
     "wikidata": "Q1094302",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_Musique_(Paris)",
     "openingHours": "Tu-Fr 12:00-18:00; Sa,Su 10:00-18:00",
     "openingHoursSource": {
       "url": "https://philharmoniedeparis.fr",
@@ -5744,7 +5743,8 @@
       "license": "CC BY-SA 2.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:1984-1995_The_City_of_Music%2C_Paris_03.jpg",
       "wikimediaFile": "File:1984-1995 The City of Music, Paris 03.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_Musique_(Paris)"
   },
   {
     "id": "musee-de-la-poste",
@@ -5785,7 +5785,6 @@
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-la-poste-p3485",
     "arrondissement": 15,
     "wikidata": "Q2445818",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Postal_(Paris)",
     "openingHours": "Mo-Sa 10:00-18:00",
     "openingHoursSource": {
       "url": "https://www.museedelaposte.fr",
@@ -5798,7 +5797,8 @@
       "license": "CC BY 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo-musee-postal.png",
       "wikimediaFile": "File:Logo-musee-postal.png"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Postal_(Paris)"
   },
   {
     "id": "musee-de-la-prefecture-de-police",
@@ -5831,7 +5831,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-la-prefecture-de-police-p1067",
     "wikidata": "Q642825",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_pr%C3%A9fecture_de_police",
     "openingHours": "Mo-Fr 09:30-17:00",
     "openingHoursSource": {
       "url": "https://www.prefecturedepolice.interieur.gouv.fr",
@@ -5843,7 +5842,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_de_la_Pr%C3%A9fecture_de_Police%2C_Paris.JPG",
       "wikimediaFile": "File:Musée de la Préfecture de Police, Paris.JPG"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_pr%C3%A9fecture_de_police"
   },
   {
     "id": "musee-de-la-renaissance-chateau-d-ecouen",
@@ -5940,7 +5940,6 @@
       }
     ],
     "wikidata": "Q3329963",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_R%C3%A9sistance_nationale",
     "museofile": "M0425",
     "image": {
       "file": "images/museums/musee-de-la-resistance-nationale.jpg",
@@ -5948,7 +5947,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_R%C3%A9sistance_Nationale_Champigny_Marne_4.jpg",
       "wikimediaFile": "File:Musée Résistance Nationale Champigny Marne 4.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_R%C3%A9sistance_nationale"
   },
   {
     "id": "musee-de-la-toile-de-jouy",
@@ -5977,7 +5977,6 @@
       }
     ],
     "wikidata": "Q3330076",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_toile_de_Jouy",
     "museofile": "M0388",
     "image": {
       "file": "images/museums/musee-de-la-toile-de-jouy.jpg",
@@ -5985,7 +5984,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jouy-en-Josas_Ch%C3%A2teau_%C3%89glantine.jpg",
       "wikimediaFile": "File:Jouy-en-Josas Château Églantine.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_toile_de_Jouy"
   },
   {
     "id": "musee-de-la-vie-romantique",
@@ -6016,7 +6016,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-la-vie-romantique-p3580",
     "wikidata": "Q2714932",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_Vie_romantique",
     "openingHours": "Tu-Su 10:00-18:00",
     "openingHoursSource": {
       "url": "https://www.museevieromantique.paris.fr",
@@ -6029,7 +6028,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_Mus%C3%A9e_vie_romantique_2012.jpg",
       "wikimediaFile": "File:Paris Musée vie romantique 2012.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_Vie_romantique"
   },
   {
     "id": "musee-de-melun",
@@ -6087,7 +6087,6 @@
       }
     ],
     "wikidata": "Q2919066",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_Montmartre",
     "museofile": "M0369",
     "image": {
       "file": "images/museums/musee-de-montmartre.jpg",
@@ -6095,7 +6094,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_de_Montmartre_-_maison_du_Bel_Air.jpg",
       "wikimediaFile": "File:Musée de Montmartre - maison du Bel Air.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_Montmartre"
   },
   {
     "id": "musee-de-port-royal-des-champs",
@@ -6125,7 +6125,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-de-port-royal-des-champs-p943",
     "wikidata": "Q3330694",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_national_de_Port-Royal_des_Champs",
     "openingHours": "Mo-Fr 09:45-12:00,14:00-17:30; Sa,Su 10:30-18:00",
     "openingHoursSource": {
       "url": "https://www.port-royal-des-champs.eu",
@@ -6138,7 +6137,8 @@
       "license": "CC BY 2.5",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Port-Royal-des-Champs_-_Petites_Ecoles.JPG",
       "wikimediaFile": "File:Port-Royal-des-Champs - Petites Ecoles.JPG"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_national_de_Port-Royal_des_Champs"
   },
   {
     "id": "musee-de-provins-et-du-provinois",
@@ -6188,7 +6188,6 @@
       }
     ],
     "wikidata": "Q3330518",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d%C3%A9partemental_de_Pr%C3%A9histoire_d'%C3%8Ele-de-France",
     "openingHours": "Mo-Su 10:00-12:30,14:00-17:30; We,Sa 14:00-17:30; Jul-Aug Mo-Su 10:00-12:30,14:00-18:00; Jul-Aug We,Sa 14:00-18:00",
     "openingHoursSource": {
       "url": "https://www.musee-prehistoire-idf.fr/",
@@ -6201,7 +6200,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nemours---Entr%C3%A9e-Mus%C3%A9e-de-P.gif",
       "wikimediaFile": "File:Nemours---Entrée-Musée-de-P.gif"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d%C3%A9partemental_de_Pr%C3%A9histoire_d'%C3%8Ele-de-France"
   },
   {
     "id": "musee-des-annees-trente",
@@ -6241,7 +6241,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-des-annees-30-p989",
     "wikidata": "Q3330124",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_Ann%C3%A9es_Trente",
     "openingHours": "Tu-Su 11:00-18:00",
     "openingHoursSource": {
       "url": "https://www.boulognebillancourt.com",
@@ -6254,7 +6253,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parigi%2C_museo_degli_anni_30%2C_nel_centro_landowski.jpg",
       "wikimediaFile": "File:Parigi, museo degli anni 30, nel centro landowski.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_Ann%C3%A9es_Trente"
   },
   {
     "id": "musee-des-archives-nationales-hotel-de-soubise",
@@ -6284,7 +6284,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-des-archives-nationales-hotel-de-soubise-p1001",
     "wikidata": "Q3330111",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_Archives_nationales",
     "openingHours": "Mo,We-Fr 10:00-17:30; Sa,Su 14:00-17:30",
     "openingHoursSource": {
       "url": "https://www.archives-nationales.culture.gouv.fr",
@@ -6296,7 +6295,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_ArchivesNationales_Facade.JPG",
       "wikimediaFile": "File:Paris ArchivesNationales Facade.JPG"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_Archives_nationales"
   },
   {
     "id": "musee-des-arts-asiatiques-guimet",
@@ -6336,7 +6336,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-des-arts-asiatiques-guimet-p3588",
     "wikidata": "Q860994",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_national_des_Arts_asiatiques_-_Guimet",
     "openingHours": "We-Mo 10:00-18:00",
     "openingHoursSource": {
       "url": "https://www.guimet.fr",
@@ -6349,7 +6348,8 @@
       "license": "CC BY 2.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_mus%C3%A9e_Guimet_November_20%2C_2011.jpg",
       "wikimediaFile": "File:Le musée Guimet November 20, 2011.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_national_des_Arts_asiatiques_-_Guimet"
   },
   {
     "id": "musee-des-arts-decoratifs-union-centrale-des-arts-decoratifs",
@@ -6381,7 +6381,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/mad-musee-des-arts-decoratifs-p3554",
     "wikidata": "Q1547286",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Les_Arts_d%C3%A9coratifs",
     "openingHours": "Tu-We 11:00-18:00; Th 11:00-21:00; Fr-Su 11:00-18:00",
     "openingHoursSource": {
       "url": "https://madparis.fr",
@@ -6394,7 +6393,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_des_Arts_d%C3%A9coratifs%2C_Paris_1.jpg",
       "wikimediaFile": "File:Musée des Arts décoratifs, Paris 1.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Les_Arts_d%C3%A9coratifs"
   },
   {
     "id": "musee-des-arts-et-metiers",
@@ -6434,7 +6434,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-des-arts-et-metiers-p3596",
     "wikidata": "Q1538826",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_Arts_et_M%C3%A9tiers",
     "openingHours": "Tu-Th 10:00-18:00; Fr 10:00-21:00; Sa,Su 10:00-18:00",
     "openingHoursSource": {
       "url": "https://www.arts-et-metiers.net",
@@ -6447,7 +6446,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_des_Arts_et_M%C3%A9tiers_337.jpg",
       "wikimediaFile": "File:Musée des Arts et Métiers 337.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_Arts_et_M%C3%A9tiers"
   },
   {
     "id": "musee-des-avelines-musee-d-art-et-d-histoire-de-saint-cloud",
@@ -6476,7 +6476,6 @@
       }
     ],
     "wikidata": "Q2391572",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_Avelines",
     "openingHours": "We-Sa 12:00-18:00; Su 14:00-18:00; PH off",
     "openingHoursSource": {
       "url": "https://www.musee-saintcloud.fr/",
@@ -6489,7 +6488,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saint-Cloud_Mus%C3%A9e_des_Avelines_003.JPG",
       "wikimediaFile": "File:Saint-Cloud Musée des Avelines 003.JPG"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_Avelines"
   },
   {
     "id": "musee-des-monuments-francais",
@@ -6530,7 +6530,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/cite-de-l-architecture-du-patrimoine-p3506",
     "wikidata": "Q537515",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Cit%C3%A9_de_l'architecture_et_du_patrimoine",
     "openingHours": "Mo,We 11:00-19:00; Th 11:00-21:00; Fr-Su 11:00-19:00",
     "openingHoursSource": {
       "url": "https://www.citedelarchitecture.fr",
@@ -6543,7 +6542,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cite_de_l'architecture_et_du_patrimoine.jpg",
       "wikimediaFile": "File:Cite de l'architecture et du patrimoine.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Cit%C3%A9_de_l'architecture_et_du_patrimoine"
   },
   {
     "id": "musee-des-pays-de-seine-et-marne",
@@ -6573,7 +6573,6 @@
       }
     ],
     "wikidata": "Q3330528",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d%C3%A9partemental_de_la_Seine-et-Marne",
     "openingHours": "Mo,Tu,Th,Fr,Su 10:00-12:30,14:00-17:30; We 10:00-12:30; Jul Mo,Tu,Th,Fr,Su 10:00-12:30,14:00-18:00",
     "openingHoursSource": {
       "url": "https://www.musee-seine-et-marne.fr/",
@@ -6586,7 +6585,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:L3531_-_Saint-Cyr-sur-Morin_-_Mus%C3%A9e_d%C3%A9partemental_de_la_Seine-et-Marne.jpg",
       "wikimediaFile": "File:L3531 - Saint-Cyr-sur-Morin - Musée départemental de la Seine-et-Marne.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d%C3%A9partemental_de_la_Seine-et-Marne"
   },
   {
     "id": "musee-des-plans-reliefs",
@@ -6617,7 +6617,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-des-plans-reliefs-hotel-national-des-invalides-p937",
     "wikidata": "Q2915606",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_Plans-reliefs",
     "openingHours": "Apr-Sep 10:00-18:00; Oct-Mar 10:00-17:00",
     "openingHoursSource": {
       "url": "https://www.museedesplansreliefs.culture.fr",
@@ -6630,7 +6629,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Entr%C3%A9e_Mus%C3%A9e_des_Plans-Reliefs_(Les_Invalides).jpg",
       "wikimediaFile": "File:Entrée Musée des Plans-Reliefs (Les Invalides).jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_Plans-reliefs"
   },
   {
     "id": "musee-des-transports-urbains-interurbains-et-ruraux",
@@ -6668,7 +6668,6 @@
       }
     ],
     "wikidata": "Q3330300",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_transports_urbains%2C_interurbains_et_ruraux",
     "museofile": "M0428",
     "image": {
       "file": "images/museums/musee-des-transports-urbains-interurbains-et-ruraux.jpg",
@@ -6676,7 +6675,8 @@
       "license": "Public Domain",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:MALAKOFF_-_Int%C3%A9rieur_du_d%C3%A9pot_des_Tramways.jpg",
       "wikimediaFile": "File:MALAKOFF - Intérieur du dépot des Tramways.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_transports_urbains%2C_interurbains_et_ruraux"
   },
   {
     "id": "musee-du-chateau",
@@ -6713,7 +6713,6 @@
       }
     ],
     "wikidata": "Q36362855",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_ch%C3%A2teau_de_Dourdan",
     "museofile": "M0404",
     "image": {
       "file": "images/museums/musee-du-chateau.jpg",
@@ -6721,7 +6720,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dourdan_(91)%2C_ch%C3%A2teau%2C_logis_neuf.JPG",
       "wikimediaFile": "File:Dourdan (91), château, logis neuf.JPG"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_ch%C3%A2teau_de_Dourdan"
   },
   {
     "id": "musee-du-domaine-royal-de-marly-louveciennes-marly-le-roi",
@@ -6750,7 +6750,6 @@
       }
     ],
     "wikidata": "Q23600219",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_domaine_royal_de_Marly",
     "museofile": "M0390",
     "image": {
       "file": "images/museums/musee-du-domaine-royal-de-marly-louveciennes-marly-le-roi.jpg",
@@ -6758,7 +6757,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_du_domaine_de_Marly_-_vue_de_l'entr%C3%A9e.jpg",
       "wikimediaFile": "File:Musée du domaine de Marly - vue de l'entrée.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_domaine_royal_de_Marly"
   },
   {
     "id": "musee-du-jouet-pierre-pinel",
@@ -6788,7 +6788,6 @@
       }
     ],
     "wikidata": "Q3330439",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_jouet_de_Poissy",
     "museofile": "M0394",
     "image": {
       "file": "images/museums/musee-du-jouet-pierre-pinel.jpg",
@@ -6796,7 +6795,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_du_jouet.jpg",
       "wikimediaFile": "File:Musée du jouet.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_jouet_de_Poissy"
   },
   {
     "id": "musee-du-louvre",
@@ -6859,7 +6859,6 @@
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-du-louvre-p3489",
     "arrondissement": 1,
     "wikidata": "Q19675",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_Louvre",
     "openingHours": "We-Mo 09:00-18:00; Tu off",
     "openingHoursSource": {
       "url": "https://www.louvre.fr/",
@@ -6872,7 +6871,8 @@
       "license": "CC BY 2.5",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cour_Napol%C3%A9on_at_night_-_Louvre.jpg",
       "wikimediaFile": "File:Cour Napoléon at night - Louvre.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_Louvre"
   },
   {
     "id": "musee-du-parfum-fragonard",
@@ -6902,7 +6902,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-du-parfum-fragonard-p3626",
     "wikidata": "Q4820646",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_Parfum_(Paris)",
     "openingHours": "Mo-Sa 09:00-17:30; Su 09:00-17:00",
     "openingHoursSource": {
       "url": "https://musee-parfum-paris.fragonard.com",
@@ -6914,7 +6913,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Parfum_Fragonnard_-_Paris_IX_(FR75)_-_2021-06-28_-_2.jpg",
       "wikimediaFile": "File:Musée Parfum Fragonnard - Paris IX (FR75) - 2021-06-28 - 2.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_Parfum_(Paris)"
   },
   {
     "id": "musee-du-quai-branly-jacques-chirac",
@@ -6954,7 +6954,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-du-quai-branly-jacques-chirac-p3480",
     "wikidata": "Q167863",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_Quai_Branly_-_Jacques-Chirac",
     "openingHours": "Tu-We 10:30-19:00; Th 10:30-22:00; Fr-Su 10:30-19:00",
     "openingHoursSource": {
       "url": "https://www.quaibranly.fr",
@@ -6967,7 +6966,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_du_quai_Branly_-_20150801_16h07_(10629).jpg",
       "wikimediaFile": "File:Musée du quai Branly - 20150801 16h07 (10629).jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_Quai_Branly_-_Jacques-Chirac"
   },
   {
     "id": "musee-du-service-de-sante-des-armees-du-val-de-grace",
@@ -6988,7 +6988,6 @@
     ],
     "freeAccess": [],
     "wikidata": "Q3330482",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_Service_de_sant%C3%A9_des_arm%C3%A9es",
     "museofile": "M9024",
     "image": {
       "file": "images/museums/musee-du-service-de-sante-des-armees-du-val-de-grace.jpg",
@@ -6996,7 +6995,8 @@
       "license": "CC BY 2.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_du_Service_de_Sant%C3%A9_des_Arm%C3%A9es_%40_Val-de-Gr%C3%A2ce_%40_Paris_(32578929882).jpg",
       "wikimediaFile": "File:Musée du Service de Santé des Armées @ Val-de-Grâce @ Paris (32578929882).jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_Service_de_sant%C3%A9_des_arm%C3%A9es"
   },
   {
     "id": "musee-dunoyer-de-segonzac",
@@ -7054,7 +7054,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-departemental-albert-kahn-p966",
     "wikidata": "Q3330509",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d%C3%A9partemental_Albert-Kahn",
     "openingHours": "Apr-Sep Tu-Su 11:00-19:00; Oct-Mar Tu-Su 11:00-18:00",
     "openingHoursSource": {
       "url": "https://albert-kahn.hauts-de-seine.fr",
@@ -7067,7 +7066,8 @@
       "license": "CC BY 2.5",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Azaleas_at_Albert_Kahn_Garden.jpg",
       "wikimediaFile": "File:Azaleas at Albert Kahn Garden.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d%C3%A9partemental_Albert-Kahn"
   },
   {
     "id": "musee-departemental-maurice-denis",
@@ -7087,7 +7087,6 @@
     ],
     "freeAccess": [],
     "wikidata": "Q3330506",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d%C3%A9partemental_Maurice-Denis",
     "museofile": "M0396",
     "image": {
       "file": "images/museums/musee-departemental-maurice-denis.jpg",
@@ -7095,7 +7094,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ancien_h%C3%B4pital_Maintenon_05961.jpg",
       "wikimediaFile": "File:Ancien hôpital Maintenon 05961.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d%C3%A9partemental_Maurice-Denis"
   },
   {
     "id": "musee-departemental-stephane-mallarme",
@@ -7125,7 +7125,6 @@
       }
     ],
     "wikidata": "Q3330504",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d%C3%A9partemental_St%C3%A9phane-Mallarm%C3%A9",
     "museofile": "M0386",
     "image": {
       "file": "images/museums/musee-departemental-stephane-mallarme.jpg",
@@ -7133,7 +7132,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maison_de_St%C3%A9phane_Mallarm%C3%A9e_vue_d'ensemble_1.JPG",
       "wikimediaFile": "File:Maison de Stéphane Mallarmée vue d'ensemble 1.JPG"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d%C3%A9partemental_St%C3%A9phane-Mallarm%C3%A9"
   },
   {
     "id": "musee-eugene-delacroix",
@@ -7181,7 +7181,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-eugene-delacroix-p3507",
     "wikidata": "Q1782606",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_national_Eug%C3%A8ne-Delacroix",
     "openingHours": "We-Mo 09:30-17:30; Tu off",
     "openingHoursSource": {
       "url": "https://www.musee-delacroix.fr",
@@ -7194,7 +7193,8 @@
       "license": "CC BY 2.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Delacroix%2C_Paris_29_May_2017_001.jpg",
       "wikimediaFile": "File:Musée Delacroix, Paris 29 May 2017 001.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_national_Eug%C3%A8ne-Delacroix"
   },
   {
     "id": "musee-fragonard",
@@ -7225,7 +7225,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-fragonard-ecole-nationale-veterinaire-d-alfort-p1118",
     "wikidata": "Q1631711",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Fragonard_de_l'%C3%89cole_v%C3%A9t%C3%A9rinaire_de_Maisons-Alfort",
     "openingHours": "We-Th 14:00-18:00; Sa,Su 14:00-18:00",
     "openingHoursSource": {
       "url": "https://musee.vet-alfort.fr",
@@ -7238,7 +7237,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:ENVA_-_JPO2010_-_Le_mus%C3%A9e_Fragonard2.JPG",
       "wikimediaFile": "File:ENVA - JPO2010 - Le musée Fragonard2.JPG"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Fragonard_de_l'%C3%89cole_v%C3%A9t%C3%A9rinaire_de_Maisons-Alfort"
   },
   {
     "id": "musee-francais-de-la-carte-a-jouer-et-galerie-d-histoire-de-la-ville",
@@ -7269,7 +7269,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-francais-de-la-carte-a-jouer-et-galerie-d-histoire-de-la-ville-p1045",
     "wikidata": "Q1530976",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_fran%C3%A7ais_de_la_carte_%C3%A0_jouer",
     "openingHours": "We-Fr 11:00-17:00; Sa,Su 14:00-18:00",
     "openingHoursSource": {
       "url": "https://www.issy.com/musee",
@@ -7282,7 +7281,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Carte_Jouer_-_Issy-les-Moulineaux_(FR92)_-_2023-09-02_-_1.jpg",
       "wikimediaFile": "File:Musée Carte Jouer - Issy-les-Moulineaux (FR92) - 2023-09-02 - 1.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_fran%C3%A7ais_de_la_carte_%C3%A0_jouer"
   },
   {
     "id": "musee-gustave-moreau",
@@ -7322,7 +7322,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-gustave-moreau-p1087",
     "wikidata": "Q2296362",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Gustave-Moreau",
     "openingHours": "We-Mo 10:00-18:00",
     "openingHoursSource": {
       "url": "https://musee-moreau.fr",
@@ -7335,7 +7334,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_mus%C3%A9e_Gustave-Moreau%2C_19_mai_2013.jpg",
       "wikimediaFile": "File:Paris musée Gustave-Moreau, 19 mai 2013.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Gustave-Moreau"
   },
   {
     "id": "musee-henri-chapu",
@@ -7364,7 +7364,6 @@
       }
     ],
     "wikidata": "Q2415229",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Henri-Chapu",
     "museofile": "M0377",
     "image": {
       "file": "images/museums/musee-henri-chapu.jpg",
@@ -7372,7 +7371,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_M%C3%A9e-Mus%C3%A9e_Chapu.jpg",
       "wikimediaFile": "File:Le Mée-Musée Chapu.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Henri-Chapu"
   },
   {
     "id": "musee-municipal-91150",
@@ -7392,7 +7392,6 @@
     ],
     "freeAccess": [],
     "wikidata": "Q3330653",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_intercommunal_d'%C3%89tampes",
     "museofile": "M0405",
     "image": {
       "file": "images/museums/musee-municipal-91150.jpg",
@@ -7400,7 +7399,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_ville_%C3%89tampes_1.jpg",
       "wikimediaFile": "File:Hôtel ville Étampes 1.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_intercommunal_d'%C3%89tampes"
   },
   {
     "id": "musee",
@@ -7429,7 +7429,6 @@
       }
     ],
     "wikidata": "Q3329734",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_Nogent-sur-Marne",
     "openingHours": "Tu-Th 14:00-18:00; Sa 10:00-12:00,14:00-18:00; Su 14:00-18:00; Aug Su off; PH off",
     "openingHoursSource": {
       "url": "https://museenogentsurmarne.net/",
@@ -7442,7 +7441,8 @@
       "license": "CC0 1.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patrimoine_Nogent-sur-Marne.jpg",
       "wikimediaFile": "File:Patrimoine Nogent-sur-Marne.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_Nogent-sur-Marne"
   },
   {
     "id": "musee-jean-jacques-henner",
@@ -7482,7 +7482,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-jean-jacques-henner-p1084",
     "wikidata": "Q1955698",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_national_Jean-Jacques-Henner",
     "openingHours": "We-Mo 11:00-18:00",
     "openingHoursSource": {
       "url": "https://www.musee-henner.fr",
@@ -7495,7 +7494,8 @@
       "license": "Public Domain",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Henner_museum_facade.jpg",
       "wikimediaFile": "File:Henner museum facade.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_national_Jean-Jacques-Henner"
   },
   {
     "id": "musee-jean-jacques-rousseau",
@@ -7533,7 +7533,6 @@
       }
     ],
     "wikidata": "Q3329216",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Jean-Jacques-Rousseau",
     "museofile": "M0437",
     "image": {
       "file": "images/museums/musee-jean-jacques-rousseau.jpg",
@@ -7541,7 +7540,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:MontmorencyMus%C3%A9eRousseau.jpg",
       "wikimediaFile": "File:MontmorencyMuséeRousseau.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Jean-Jacques-Rousseau"
   },
   {
     "id": "musee-lambinet",
@@ -7579,7 +7579,6 @@
       }
     ],
     "wikidata": "Q3329245",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Lambinet",
     "openingHours": "We-Fr 12:00-19:00; Sa,Su 10:00-19:00; PH off",
     "openingHoursSource": {
       "url": "https://www.versailles.fr/51/culture/musee-lambinet.htm",
@@ -7592,7 +7591,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Versailles_Mus%C3%A9e_Lambinet.jpg",
       "wikimediaFile": "File:Versailles Musée Lambinet.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Lambinet"
   },
   {
     "id": "musee-municipal-d-art-et-d-histoire",
@@ -7621,7 +7621,6 @@
       }
     ],
     "wikidata": "Q23599912",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_municipal_d'Art_et_d'Histoire_de_Colombes",
     "openingHours": "We-Fr 13:00-18:00; Sa 14:00-18:00; PH off",
     "openingHoursSource": {
       "url": "https://www.colombes.fr/la-ville/la-vie-quotidienne/culture-et-loisirs/musee-municipal-dart-et-dhistoire/",
@@ -7634,7 +7633,8 @@
       "license": "Public Domain",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Municipal_d'Art_et_d'Histoire_de_Colombes.jpg",
       "wikimediaFile": "File:Musée Municipal d'Art et d'Histoire de Colombes.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_municipal_d'Art_et_d'Histoire_de_Colombes"
   },
   {
     "id": "musee-municipal",
@@ -7715,7 +7715,6 @@
       }
     ],
     "wikidata": "Q3330662",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_municipal_de_Saint-Germain-en-Laye",
     "museofile": "M0397",
     "image": {
       "file": "images/museums/musee-municipal-ducastel-vera-de-saint-germain-en-laye.jpg",
@@ -7723,7 +7722,8 @@
       "license": "Public Domain",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Conjurer_Bosch.jpg",
       "wikimediaFile": "File:Conjurer Bosch.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_municipal_de_Saint-Germain-en-Laye"
   },
   {
     "id": "musee-municipal-robert-dubois-corneau",
@@ -7752,7 +7752,6 @@
       }
     ],
     "wikidata": "Q3329327",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Robert-Dubois-Corneau",
     "openingHours": "May-Oct We-Sa 14:00-18:00; Nov-Apr We-Sa 14:00-17:00; PH off",
     "openingHoursSource": {
       "url": "https://www.brunoy.fr/vos-demarches-services/vie-culturelle-et-animations/musee/",
@@ -7765,7 +7764,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:P%C3%A2ris-Duverney%2C_buste.JPG",
       "wikimediaFile": "File:Pâris-Duverney, buste.JPG"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Robert-Dubois-Corneau"
   },
   {
     "id": "musee-national-de-l-histoire-et-des-cultures-de-l-immigration",
@@ -7805,7 +7805,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-de-l-histoire-de-l-immigration-p3541",
     "wikidata": "Q1094332",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_l'Histoire_de_l'immigration",
     "openingHours": "Tu-Fr 10:00-17:30; Sa,Su 10:00-19:00",
     "openingHoursSource": {
       "url": "https://www.histoire-immigration.fr",
@@ -7818,7 +7817,8 @@
       "license": "CC BY 2.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:L'exposition_permanente_de_la_CNHI.jpg",
       "wikimediaFile": "File:L'exposition permanente de la CNHI.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_l'Histoire_de_l'immigration"
   },
   {
     "id": "musee-national-de-la-legion-d-honneur-et-des-ordres-de-chevalerie",
@@ -7848,7 +7848,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-la-legion-d-honneur-et-des-ordres-de-chevalerie-p912",
     "wikidata": "Q3329915",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_L%C3%A9gion_d'honneur",
     "openingHours": "We-Su 13:00-18:00; PH off",
     "openingHoursSource": {
       "url": "https://www.musee-legiondhonneur.fr",
@@ -7861,7 +7860,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_Palais_L%C3%A9gion-d'Honneur_Cour_2014_B.jpg",
       "wikimediaFile": "File:Paris Palais Légion-d'Honneur Cour 2014 B.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_L%C3%A9gion_d'honneur"
   },
   {
     "id": "musee-national-de-la-marine",
@@ -7892,7 +7892,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-de-la-marine-p3482",
     "wikidata": "Q1286709",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_national_de_la_Marine_de_Paris",
     "openingHours": "Mo,We-Fr 11:00-18:00; Sa,Su 11:00-19:00",
     "openingHoursSource": {
       "url": "https://www.musee-marine.fr",
@@ -7905,7 +7904,8 @@
       "license": "CC BY 2.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_mus%C3%A9e_national_de_la_Marine_(Paris)_(15883293736).jpg",
       "wikimediaFile": "File:Le musée national de la Marine (Paris) (15883293736).jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_national_de_la_Marine_de_Paris"
   },
   {
     "id": "musee-national-des-chateaux-de-malmaison-et-de-bois-preau",
@@ -7944,7 +7944,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-des-chateaux-de-malmaison-bois-preau-p972",
     "wikidata": "Q684846",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Malmaison",
     "openingHours": "Mo,We-Su 10:00-12:30,13:30-17:15",
     "openingHoursSource": {
       "url": "https://musees-nationaux-malmaison.fr",
@@ -7957,7 +7956,8 @@
       "license": "CC0 1.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:2011_Chateau_de_Malmaison_recto-verso.jpg",
       "wikimediaFile": "File:2011 Chateau de Malmaison recto-verso.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Malmaison"
   },
   {
     "id": "musee-national-des-chateaux-de-versailles-et-de-trianon",
@@ -8006,7 +8006,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/chateau-de-versailles-p3560",
     "wikidata": "Q3329787",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_l'Histoire_de_France_(Versailles)",
     "openingHours": "Apr-Oct Tu-Su 09:00-18:30; Nov-Mar Tu-Su 09:00-17:30",
     "openingHoursSource": {
       "url": "https://www.chateauversailles.fr",
@@ -8019,7 +8018,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Versailles_Ch%C3%A2teau_de_Versailles_Innen_Galerie_des_Batailles_02.jpg",
       "wikimediaFile": "File:Versailles Château de Versailles Innen Galerie des Batailles 02.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_l'Histoire_de_France_(Versailles)"
   },
   {
     "id": "musee-national-du-chateau-de-fontainebleau",
@@ -8092,7 +8092,6 @@
       }
     ],
     "wikidata": "Q1954498",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Nissim-de-Camondo",
     "museofile": "M5073",
     "image": {
       "file": "images/museums/musee-nissim-de-camondo-union-centrale-des-arts-decoratifs.jpg",
@@ -8100,7 +8099,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_(75008)_H%C3%B4tel_Mo%C3%AFse_de_Camondo_05.JPG",
       "wikimediaFile": "File:Paris (75008) Hôtel Moïse de Camondo 05.JPG"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Nissim-de-Camondo"
   },
   {
     "id": "musee-belmondo-et-de-la-sculpture-figurative-du-xxe-siecle",
@@ -8138,7 +8138,6 @@
       }
     ],
     "wikidata": "Q3329303",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Paul-Belmondo",
     "openingHours": "We,Sa,Su 14:00-18:00",
     "openingHoursSource": {
       "url": "https://musees.boulognebillancourt.com/",
@@ -8151,7 +8150,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Paul_Belmondo_%C3%A0_Boulogne-Billancourt_001.jpg",
       "wikimediaFile": "File:Musée Paul Belmondo à Boulogne-Billancourt 001.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Paul-Belmondo"
   },
   {
     "id": "musee-jardin-paul-landowski",
@@ -8190,13 +8190,13 @@
       }
     ],
     "wikidata": "Q3329026",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Paul-Landowski",
     "openingHours": "Tu-Su 11:00-18:00",
     "openingHoursSource": {
       "url": "https://musees.boulognebillancourt.com/",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M0408"
+    "museofile": "M0408",
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Paul-Landowski"
   },
   {
     "id": "musee-picasso",
@@ -8237,7 +8237,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-picasso-paris-p3516",
     "wikidata": "Q743206",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Picasso_(Paris)",
     "openingHours": "Tu-Fr 10:30-18:00; Sa,Su 09:30-18:00",
     "openingHoursSource": {
       "url": "https://www.museepicassoparis.fr",
@@ -8250,7 +8249,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_3e_H%C3%B4tel_Sal%C3%A9_640.jpg",
       "wikimediaFile": "File:Paris 3e Hôtel Salé 640.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Picasso_(Paris)"
   },
   {
     "id": "musee-rambolitrain",
@@ -8270,7 +8270,6 @@
     ],
     "freeAccess": [],
     "wikidata": "Q3418414",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Rambolitrain",
     "museofile": "M0395",
     "image": {
       "file": "images/museums/musee-rambolitrain.jpg",
@@ -8278,7 +8277,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rambolitrain-fa%C3%A7ade.JPG",
       "wikimediaFile": "File:Rambolitrain-façade.JPG"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Rambolitrain"
   },
   {
     "id": "musee-rodin",
@@ -8326,7 +8326,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-rodin-paris-p3529",
     "wikidata": "Q650519",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Rodin",
     "openingHours": "Tu-Su 10:00-18:30",
     "openingHoursSource": {
       "url": "https://www.musee-rodin.fr",
@@ -8339,7 +8338,8 @@
       "license": "CC BY 2.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:L'h%C3%B4tel_Biron_(mus%C3%A9e_Rodin)_%C3%A0_Paris%2C_13_juin_2021_01.jpg",
       "wikimediaFile": "File:L'hôtel Biron (musée Rodin) à Paris, 13 juin 2021 01.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Rodin"
   },
   {
     "id": "musee-rodin-meudon",
@@ -8377,7 +8377,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-rodin-meudon-p1559",
     "wikidata": "Q3558853",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Villa_des_Brillants",
     "openingHours": "Apr-Sep Sa,Su 13:00-18:00",
     "openingHoursSource": {
       "url": "https://www.musee-rodin.fr",
@@ -8389,7 +8388,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Rodin_de_Meudon_01.jpg",
       "wikimediaFile": "File:Musée Rodin de Meudon 01.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Villa_des_Brillants"
   },
   {
     "id": "musee-roybet-fould",
@@ -8417,7 +8417,6 @@
       }
     ],
     "wikidata": "Q3329330",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Roybet-Fould",
     "openingHours": "We-Su 10:30-18:00",
     "openingHoursSource": {
       "url": "https://www.ville-courbevoie.fr/2788/culture-loisirs/service-patrimoine-et-musee/pavillon-de-la-suede-et-de-la-norvege-musee-roybet-fould.htm",
@@ -8430,7 +8429,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pavillon_de_la_Su%C3%A8de_et_de_la_Norv%C3%A8ge%2C_Courbevoie_004.JPG",
       "wikimediaFile": "File:Pavillon de la Suède et de la Norvège, Courbevoie 004.JPG"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Roybet-Fould"
   },
   {
     "id": "musee-victor-aubert",
@@ -8485,7 +8485,6 @@
     "freeAccess": [],
     "note": "Temporarily closed for renovation; reopening announced for autumn 2026.",
     "wikidata": "Q43688220",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Yves-Saint-Laurent_de_Paris",
     "museofile": "M1204",
     "image": {
       "file": "images/museums/musee-yves-saint-laurent-paris.jpg",
@@ -8493,7 +8492,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fondation_Pierre_Berg%C3%A9_%E2%80%93_Yves_Saint_Laurent%2C_5_avenue_Marceau%2C_Paris_16e.jpg",
       "wikimediaFile": "File:Fondation Pierre Bergé – Yves Saint Laurent, 5 avenue Marceau, Paris 16e.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Yves-Saint-Laurent_de_Paris"
   },
   {
     "id": "musee-zadkine",
@@ -8524,7 +8524,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-zadkine-p3502",
     "wikidata": "Q2613771",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Zadkine",
     "openingHours": "Tu-Su 10:00-18:00",
     "openingHoursSource": {
       "url": "https://www.zadkine.paris.fr",
@@ -8537,7 +8536,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Zadkine.jpg",
       "wikimediaFile": "File:Musée Zadkine.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Zadkine"
   },
   {
     "id": "musee-zola-dreyfus",
@@ -8556,7 +8556,6 @@
     ],
     "freeAccess": [],
     "wikidata": "Q2588025",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Maison_d'%C3%89mile_Zola",
     "museofile": "M1186",
     "image": {
       "file": "images/museums/musee-zola-dreyfus.jpg",
@@ -8564,7 +8563,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:M%C3%A9dan_-_Maison_d'%C3%89mile_Zola01.jpg",
       "wikimediaFile": "File:Médan - Maison d'Émile Zola01.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Maison_d'%C3%89mile_Zola"
   },
   {
     "id": "musee-emile-jean",
@@ -8630,7 +8630,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-librairie-du-compagnonnage-p971",
     "wikidata": "Q3329030",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e-librairie_du_compagnonnage",
     "openingHours": "Tu-Fr 14:00-18:00",
     "openingHoursSource": {
       "url": "https://www.compagnons-du-devoir.com",
@@ -8642,7 +8641,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_2014_Mus%C3%A9e-librairie_du_compagnonnage_03.jpg",
       "wikimediaFile": "File:Paris 2014 Musée-librairie du compagnonnage 03.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e-librairie_du_compagnonnage"
   },
   {
     "id": "museum-national-d-histoire-naturelle",
@@ -8673,7 +8673,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/grande-galerie-de-l-evolution-museum-national-d-histoire-naturelle-p3621",
     "wikidata": "Q838691",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9um_national_d'histoire_naturelle",
     "openingHours": "We-Mo 10:00-18:00",
     "openingHoursSource": {
       "url": "https://www.mnhn.fr",
@@ -8686,7 +8685,8 @@
       "license": "CC BY 2.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grande_galerie_de_l'%C3%A9volution%2C_Paris_10_April_2014.jpg",
       "wikimediaFile": "File:Grande galerie de l'évolution, Paris 10 April 2014.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9um_national_d'histoire_naturelle"
   },
   {
     "id": "memorial-de-la-shoah",
@@ -8716,7 +8716,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/memorial-de-la-shoah-paris-p3518",
     "wikidata": "Q479218",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/M%C3%A9morial_de_la_Shoah",
     "openingHours": "Su-We 10:00-18:00; Th 10:00-22:00; Fr 10:00-18:00",
     "openingHoursSource": {
       "url": "https://www.memorialdelashoah.org",
@@ -8728,7 +8727,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crypte_au_m%C3%A9morial_de_la_Shoah_%C3%A0_Paris.jpg",
       "wikimediaFile": "File:Crypte au mémorial de la Shoah à Paris.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/M%C3%A9morial_de_la_Shoah"
   },
   {
     "id": "memorial-de-la-shoah-de-drancy",
@@ -8757,7 +8757,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/memorial-de-la-shoah-drancy-p3627",
     "wikidata": "Q85854201",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/M%C3%A9morial_de_la_Shoah_%C3%A0_Drancy",
     "openingHours": "Su-Th 10:00-18:00",
     "openingHoursSource": {
       "url": "https://www.memorialdelashoah.org",
@@ -8769,7 +8768,8 @@
       "license": "CC BY 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:M%C3%A9morial_de_la_Shoah_de_Drancy.jpg",
       "wikimediaFile": "File:Mémorial de la Shoah de Drancy.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/M%C3%A9morial_de_la_Shoah_%C3%A0_Drancy"
   },
   {
     "id": "palais-du-tau-a-reims",
@@ -8788,7 +8788,6 @@
     ],
     "freeAccess": [],
     "wikidata": "Q578771",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Palais_du_Tau_(Reims)",
     "note": "Closed for renovation; reopening announced for 2027.",
     "image": {
       "file": "images/museums/palais-du-tau-a-reims.jpg",
@@ -8796,7 +8795,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palais_du_Tau_in_Reims_(7).jpg",
       "wikimediaFile": "File:Palais du Tau in Reims (7).jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Palais_du_Tau_(Reims)"
   },
   {
     "id": "palais-galliera-musee-de-la-mode-et-de-la-ville-de-paris",
@@ -8817,7 +8817,6 @@
     ],
     "freeAccess": [],
     "wikidata": "Q1632912",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Palais_Galliera%2C_mus%C3%A9e_de_la_Mode_de_la_ville_de_Paris",
     "museofile": "M1108",
     "image": {
       "file": "images/museums/palais-galliera-musee-de-la-mode-et-de-la-ville-de-paris.jpg",
@@ -8825,7 +8824,8 @@
       "license": "CC0 1.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Galliera%2C_Paris_21_July_2017.jpg",
       "wikimediaFile": "File:Musée Galliera, Paris 21 July 2017.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Palais_Galliera%2C_mus%C3%A9e_de_la_Mode_de_la_ville_de_Paris"
   },
   {
     "id": "palais-jacques-c-ur",
@@ -8869,14 +8869,14 @@
       }
     ],
     "wikidata": "Q3360877",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Palais_Jacques-C%C5%93ur",
     "image": {
       "file": "images/museums/palais-jacques-c-ur.jpg",
       "author": "Remi Mathis",
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jacques_Coeur_Palace_main_tower.JPG",
       "wikimediaFile": "File:Jacques Coeur Palace main tower.JPG"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Palais_Jacques-C%C5%93ur"
   },
   {
     "id": "pantheon",
@@ -8923,7 +8923,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/pantheon-p3494",
     "wikidata": "Q188856",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Panth%C3%A9on_(Paris)",
     "openingHours": "Apr-Sep 10:00-18:30; Oct-Mar 10:00-18:00",
     "openingHoursSource": {
       "url": "https://www.paris-pantheon.fr",
@@ -8935,7 +8934,8 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panth%C3%A9on%2C_Paris_25_March_2012.jpg",
       "wikimediaFile": "File:Panthéon, Paris 25 March 2012.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Panth%C3%A9on_(Paris)"
   },
   {
     "id": "petit-palais-musee-des-beaux-arts-de-la-ville-de-paris",
@@ -8965,7 +8965,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/petit-palais-musee-des-beaux-arts-de-la-ville-de-paris-p3490",
     "wikidata": "Q820892",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Petit_Palais",
     "openingHours": "Tu-Su 10:00-18:00",
     "openingHoursSource": {
       "url": "https://www.petitpalais.paris.fr",
@@ -8978,7 +8977,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Petit_Palais_Paris_2.jpg",
       "wikimediaFile": "File:Petit Palais Paris 2.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Petit_Palais"
   },
   {
     "id": "sainte-chapelle",
@@ -9025,7 +9025,6 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/sainte-chapelle-p3556",
     "wikidata": "Q193193",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Sainte-Chapelle",
     "openingHours": "Jan-Mar 09:00-17:00; Apr-Sep 09:00-19:00; Oct-Dec 09:00-17:00",
     "openingHoursSource": {
       "url": "https://www.sainte-chapelle.fr",
@@ -9037,7 +9036,8 @@
       "license": "CC BY 2.5",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Szensapel.jpg",
       "wikimediaFile": "File:Szensapel.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Sainte-Chapelle"
   },
   {
     "id": "site-archeologique-de-glanum",
@@ -9081,14 +9081,14 @@
       }
     ],
     "wikidata": "Q674543",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Glanum",
     "image": {
       "file": "images/museums/site-archeologique-de-glanum.jpg",
       "author": "Greudin",
       "license": "Public Domain",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Glanum-triomphal_arch-arc_de_triomphe.jpg",
       "wikimediaFile": "File:Glanum-triomphal arch-arc de triomphe.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Glanum"
   },
   {
     "id": "site-des-megalithes-de-locmariaquer",
@@ -9290,7 +9290,6 @@
       }
     ],
     "wikidata": "Q463159",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Sites_pr%C3%A9historiques_et_grottes_orn%C3%A9es_de_la_vall%C3%A9e_de_la_V%C3%A9z%C3%A8re",
     "note": "First-Sunday free entry applies to the Font-de-Gaume and Combarelles caves and the Cap-Blanc shelter.",
     "image": {
       "file": "images/museums/sites-prehistoriques-de-la-vallee-de-la-vezere.jpg",
@@ -9298,7 +9297,8 @@
       "license": "Public Domain",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lascaux_painting.jpg",
       "wikimediaFile": "File:Lascaux painting.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Sites_pr%C3%A9historiques_et_grottes_orn%C3%A9es_de_la_vall%C3%A9e_de_la_V%C3%A9z%C3%A8re"
   },
   {
     "id": "tour-pey-berland-a-bordeaux",
@@ -9342,14 +9342,14 @@
       }
     ],
     "wikidata": "Q954262",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Tour_Pey-Berland",
     "image": {
       "file": "images/museums/tour-pey-berland-a-bordeaux.jpg",
       "author": "Olivier Aumage",
       "license": "CC BY-SA 2.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bordeaux_Tour_Pey_Berland_3.jpg",
       "wikimediaFile": "File:Bordeaux Tour Pey Berland 3.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Tour_Pey-Berland"
   },
   {
     "id": "tours-de-la-cathedrale-de-reims",
@@ -9390,7 +9390,6 @@
       }
     ],
     "wikidata": "Q206823",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Notre-Dame_de_Reims",
     "note": "Towers closed annually from 16 November to 14 February; visits are guided only.",
     "image": {
       "file": "images/museums/tours-de-la-cathedrale-de-reims.jpg",
@@ -9398,7 +9397,8 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Reims_Cathedral_016_8341.jpg",
       "wikimediaFile": "File:Reims Cathedral 016 8341.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Notre-Dame_de_Reims"
   },
   {
     "id": "tours-de-la-rochelle",
@@ -9546,14 +9546,14 @@
       }
     ],
     "wikidata": "Q3424607",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Remparts_d'Aigues-Mortes",
     "image": {
       "file": "images/museums/tours-et-remparts-d-aigues-mortes.jpg",
       "author": "Benjamin Smith",
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aigues-Mortes_-_Remparts_-_05.jpg",
       "wikimediaFile": "File:Aigues-Mortes - Remparts - 05.jpg"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Remparts_d'Aigues-Mortes"
   },
   {
     "id": "tours-et-tresor-de-la-cathedrale-d-amiens",
@@ -9730,14 +9730,14 @@
       }
     ],
     "wikidata": "Q1521",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Primatiale_Saint-Jean_de_Lyon",
     "image": {
       "file": "images/museums/tresor-de-la-cathedrale-de-lyon.jpg",
       "author": "Otourly",
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:007._Photo_prise_depuis_les_toits_de_la_Basilique_Notre-Dame_de_Fourvi%C3%A8re.JPG",
       "wikimediaFile": "File:007. Photo prise depuis les toits de la Basilique Notre-Dame de Fourvière.JPG"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Primatiale_Saint-Jean_de_Lyon"
   },
   {
     "id": "villa-cavrois",
@@ -9781,14 +9781,14 @@
       }
     ],
     "wikidata": "Q518747",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Villa_Cavrois",
     "image": {
       "file": "images/museums/villa-cavrois.jpg",
       "author": "Velvet",
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Croix_villa_cavrois_arriere_quart.JPG",
       "wikimediaFile": "File:Croix villa cavrois arriere quart.JPG"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Villa_Cavrois"
   },
   {
     "id": "musee-de-saint-maur-villa-medicis",
@@ -9870,12 +9870,12 @@
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/villa-savoye-p3498",
     "wikidata": "Q940746",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/Villa_Savoye",
     "openingHours": "Tu-Su 10:00-18:00",
     "openingHoursSource": {
       "url": "https://www.villa-savoye.fr",
       "checkedAt": "2026-08-04"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Villa_Savoye"
   },
   {
     "id": "village-fortifie-mont-dauphin",
@@ -9954,7 +9954,6 @@
       }
     ],
     "wikidata": "Q23639828",
-    "wikipediaFr": "https://fr.wikipedia.org/wiki/%C3%89comus%C3%A9e_de_Fresnes",
     "openingHours": "We 10:00-13:00,14:00-19:00; Th-Fr 14:00-18:00; Sa 10:00-13:00,14:00-19:00; PH off",
     "openingHoursSource": {
       "url": "https://ecomusee.grandorlyseinebievre.fr/",
@@ -9967,6 +9966,7 @@
       "license": "CC0 1.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C3%89comus%C3%A9e_de_Fresnes.webp",
       "wikimediaFile": "File:Écomusée de Fresnes.webp"
-    }
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/%C3%89comus%C3%A9e_de_Fresnes"
   }
 ]

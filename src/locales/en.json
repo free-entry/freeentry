@@ -19,6 +19,7 @@
   },
   "categories": {
     "always": "Always free",
+    "weekly": "Free one day a week",
     "first-sunday": "Free 1st Sunday",
     "first-sunday-booking": "1st Sunday, booking required",
     "first-sunday-low-season": "1st Sunday, low season",
@@ -27,6 +28,8 @@
     "july-14": "Free on 14 July",
     "special-days": "Special days only",
     "under-26-only": "Free under 26",
+    "under-18-only": "Free under 18",
+    "residents-only": "Free for locals only",
     "none": "No free admission"
   },
   "filters": {
@@ -96,6 +99,7 @@
     "checkedOn": "checked on {{date}}",
     "distanceAway": "{{km}} km away",
     "frenchName": "French name: ",
+    "originalName": "Original name: ",
     "photoCredit": "{{author}} · {{license}}",
     "photoCreditToggle": "Photo credit",
     "noFreeScheme": "No regular free admission is known for this venue.",
@@ -114,7 +118,9 @@
     "museumNight": "Free during the European Museum Night",
     "heritageDays": "Free during the European Heritage Days",
     "annualDate": "Free every year on {{date}}",
-    "nextDate": "next: {{date}}"
+    "nextDate": "next: {{date}}",
+    "weekly": "Free every {{weekday}}",
+    "residentsOnly": " (local residents only)"
   },
   "calendar": {
     "title": "Free-admission calendar",

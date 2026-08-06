@@ -19,6 +19,7 @@
   },
   "categories": {
     "always": "常年免费",
+    "weekly": "每周一天免费",
     "first-sunday": "每月第一个周日免费",
     "first-sunday-booking": "每月第一个周日免费，需预约",
     "first-sunday-low-season": "淡季每月第一个周日免费",
@@ -27,6 +28,8 @@
     "july-14": "7月14日法国国庆免费",
     "special-days": "仅特定日期免费",
     "under-26-only": "26岁以下免费",
+    "under-18-only": "18岁以下免费",
+    "residents-only": "仅限本地居民免费",
     "none": "无免费开放"
   },
   "filters": {
@@ -94,6 +97,7 @@
     "checkedOn": "核实于{{date}}",
     "distanceAway": "距此{{km}}公里",
     "frenchName": "法语名称：",
+    "originalName": "原名：",
     "photoCredit": "{{author}} · {{license}}",
     "photoCreditToggle": "图片版权",
     "noFreeScheme": "该场馆暂无已知的常规免费开放政策。",
@@ -112,7 +116,9 @@
     "museumNight": "欧洲博物馆之夜期间免费",
     "heritageDays": "欧洲遗产日期间免费",
     "annualDate": "每年{{date}}免费",
-    "nextDate": "下次：{{date}}"
+    "nextDate": "下次：{{date}}",
+    "weekly": "每周{{weekday}}免费",
+    "residentsOnly": "（仅限本地居民）"
   },
   "calendar": {
     "title": "免费开放日历",

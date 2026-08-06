@@ -5,6 +5,7 @@ import { describe, expect, it } from 'vitest';
 import en from '../src/locales/en.json';
 import { normalizeLocale } from '../src/lib/i18n';
 import { needsEnglishFallback } from '../src/lib/localeData';
+import { COUNTRIES } from '../src/countries';
 
 const LOCALES = ['en', 'fr', 'es', 'it', 'de', 'zh-Hans', 'zh-Hant', 'ja', 'ko', 'ar'];
 const LOCALES_DIR = join(__dirname, '../src/locales');
@@ -99,8 +100,8 @@ describe.each(LOCALES)('museum content %s', (locale) => {
   });
 
   it('provides a localized title for every museum', () => {
-    // French titles are the canonical names in museums.json, not overrides.
-    if (locale === 'fr') return;
+    // Canonical-locale titles are the names in museums.json, not overrides.
+    if (locale === (COUNTRIES[cc]?.canonicalLocale ?? 'fr')) return;
     const content = JSON.parse(readFileSync(path, 'utf-8')) as Record<
       string,
       { name?: string }

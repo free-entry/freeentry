@@ -7,7 +7,7 @@
  * Reports and exits 1 on:
  *  - QIDs that no longer exist or are redirected (--write follows redirects)
  *  - coordinate disagreement > 0.6 km between our record and P625
- *  - frwiki article drift: our wikipediaFr no longer matches the sitelink
+ *  - frwiki article drift: our wikipedia no longer matches the sitelink
  *    (--write refreshes it), or a stored article that disappeared
  *
  * Info only (no failure): items without P625, official-website host
@@ -23,6 +23,9 @@ import type { Museum } from '../src/lib/types';
 const ROOT = join(import.meta.dirname, '..');
 const COUNTRY = process.env.COUNTRY ?? 'fr';
 const MUSEUMS_PATH = join(ROOT, `data/${COUNTRY}/museums.json`);
+// Wikipedia links follow the country's canonical language.
+const WIKI_LANG: Record<string, string> = { fr: 'fr', it: 'it', be: 'fr' };
+const WIKI = WIKI_LANG[COUNTRY] ?? 'fr';
 const API = 'https://www.wikidata.org/w/api.php';
 const UA = 'free-museums-france-check/1.0 (https://travel-eu.github.io/free-museums-france/; tomchen.org@gmail.com)';
 const DISAGREEMENT_KM = 0.6;
@@ -41,6 +44,13 @@ const ACKNOWLEDGED_COORDS: Record<string, string> = {
     'BAN agrees with us; Wikidata P625 still shows another site',
   // BAN puts 14 rue Max Blondat 0.00 km from our point (2026-08-06).
   'musee-jardin-paul-landowski': 'BAN agrees with us; Wikidata P625 is wrong',
+  // IT: large archaeological sites — our point is the visitor entrance, the
+  // item's P625 the ancient-city/park centroid (identity audit, 2026-08-06).
+  'area-archeologica-di-conza': 'entrance point kept; Q5157069 P625 is the Compsa centroid',
+  'area-archeologica-di-nervia': 'entrance point kept; Q3608794 P625 is the Albintimilium centroid',
+  'parco-delle-incisioni-rupestri-con-rupe-magna-di-grosio':
+    'entrance point kept; Q21234614 P625 sits at the castle end of the park',
+  'santuario-di-minerva-di-breno': 'entrance point kept; Q3949899 P625 is off by the site extent',
 };
 
 interface WdEntity {
@@ -50,8 +60,8 @@ interface WdEntity {
   sitelinks?: Record<string, { title: string }>;
 }
 
-function frwikiUrl(title: string): string {
-  return `https://fr.wikipedia.org/wiki/${encodeURIComponent(title.replace(/ /g, '_'))}`;
+function wikiUrl(title: string): string {
+  return `https://${WIKI}.wikipedia.org/wiki/${encodeURIComponent(title.replace(/ /g, '_'))}`;
 }
 
 function hostname(url: string): string | null {
@@ -71,7 +81,7 @@ async function fetchEntities(ids: string[]): Promise<Map<string, WdEntity>> {
       action: 'wbgetentities',
       ids: batch.join('|'),
       props: 'claims|sitelinks',
-      sitefilter: 'frwiki',
+      sitefilter: `${WIKI}wiki`,
     })}`;
     const res = await fetch(url, { headers: { 'User-Agent': UA } });
     if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
@@ -134,17 +144,17 @@ async function main() {
       info.push(`${m.id}: ${qid} has no coordinates to check against`);
     }
 
-    const title = entity.sitelinks?.frwiki?.title;
-    const expected = title ? frwikiUrl(title) : undefined;
-    if (expected !== m.wikipediaFr) {
+    const title = entity.sitelinks?.[`${WIKI}wiki`]?.title;
+    const expected = title ? wikiUrl(title) : undefined;
+    if (expected !== m.wikipedia) {
       if (write) {
-        if (expected) m.wikipediaFr = expected;
-        else delete m.wikipediaFr;
+        if (expected) m.wikipedia = expected;
+        else delete m.wikipedia;
         fixed++;
-        info.push(`${m.id}: wikipediaFr refreshed (${m.wikipediaFr ?? 'removed'})`);
+        info.push(`${m.id}: wikipedia refreshed (${m.wikipedia ?? 'removed'})`);
       } else {
         problems.push(
-          `${m.id}: wikipediaFr drifted — stored ${m.wikipediaFr ?? 'none'}, sitelink says ${expected ?? 'none'} (run --write)`,
+          `${m.id}: wikipedia drifted — stored ${m.wikipedia ?? 'none'}, sitelink says ${expected ?? 'none'} (run --write)`,
         );
       }
     }

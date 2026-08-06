@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { useAppState } from '@/state/AppState';
+import { COUNTRY } from '@/countries';
 import { normalizeLocale } from '@/lib/i18n';
 import type { Museum } from '@/lib/types';
 import { deriveCategories } from '@/lib/categories';
@@ -25,7 +26,7 @@ export default function MuseumCard({ museum, active, onSelect }: MuseumCardProps
   const showFrenchName =
     localized !== undefined &&
     localized !== museum.name &&
-    normalizeLocale(i18n.language) !== 'fr';
+    normalizeLocale(i18n.language) !== COUNTRY.canonicalLocale;
   const categories = deriveCategories(museum);
   const freeToday = isFreeOn(museum, today, ctx);
   const next = freeToday ? null : nextFreeDate(museum, today, ctx);

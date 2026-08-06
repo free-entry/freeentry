@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { useAppState } from '@/state/AppState';
 import type { FreeRule } from '@/lib/types';
 import { eventDatesForYear } from '@/lib/freeRules';
-import { formatDate, monthName, weekdayName } from '@/lib/format';
+import { annualDateName, formatDate, monthName, weekdayName } from '@/lib/format';
 import styles from './RuleExplanation.module.css';
 
 /** One free-access rule as a plain-language sentence in the user's locale. */
@@ -16,6 +16,10 @@ export default function RuleExplanation({ rule }: { rule: FreeRule }) {
   let eventNext: string | null = null;
 
   switch (rule.kind) {
+    case 'weekly':
+      sentence = t('rules.weekly', { weekday: weekdayName(locale, rule.weekday ?? 'sunday') });
+      if (rule.evening) sentence += `, ${t('rules.evening')}`;
+      break;
     case 'always':
       sentence =
         rule.audience === 'under-26-eu'
@@ -38,7 +42,10 @@ export default function RuleExplanation({ rule }: { rule: FreeRule }) {
       break;
     }
     case 'annual-date':
-      sentence = rule.date === '07-14' ? t('rules.july14') : t('rules.annualDate', { date: rule.date ?? '' });
+      sentence =
+        rule.date === '07-14'
+          ? t('rules.july14')
+          : t('rules.annualDate', { date: annualDateName(locale, rule.date ?? '') });
       break;
     case 'event': {
       sentence = rule.event === 'museum-night' ? t('rules.museumNight') : t('rules.heritageDays');
@@ -57,6 +64,8 @@ export default function RuleExplanation({ rule }: { rule: FreeRule }) {
       break;
     }
   }
+
+  if (rule.audience === 'residents') sentence += t('rules.residentsOnly');
 
   // A note flagged as the rule's own, more detailed wording replaces the
   // generated sentence instead of trailing it.

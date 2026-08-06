@@ -6,6 +6,7 @@ import type { FreeRule, Museum } from './types';
  */
 export type Category =
   | 'always'
+  | 'weekly'
   | 'first-sunday'
   | 'first-sunday-booking'
   | 'first-sunday-low-season'
@@ -14,10 +15,13 @@ export type Category =
   | 'july-14'
   | 'special-days'
   | 'under-26-only'
+  | 'under-18-only'
+  | 'residents-only'
   | 'none';
 
 export const CATEGORY_ORDER: Category[] = [
   'always',
+  'weekly',
   'first-sunday',
   'first-sunday-booking',
   'first-sunday-low-season',
@@ -26,6 +30,8 @@ export const CATEGORY_ORDER: Category[] = [
   'july-14',
   'special-days',
   'under-26-only',
+  'under-18-only',
+  'residents-only',
   'none',
 ];
 
@@ -36,6 +42,7 @@ export const CATEGORY_ORDER: Category[] = [
  */
 export const CATEGORY_COLORS: Record<Category, string> = {
   always: '#00ba7c',
+  weekly: '#00a3a3',
   'first-sunday': '#0b84d8',
   'first-sunday-booking': '#64c7f2',
   'first-sunday-low-season': '#8256d0',
@@ -44,15 +51,21 @@ export const CATEGORY_COLORS: Record<Category, string> = {
   'july-14': '#e23a3a',
   'special-days': '#f48fb9',
   'under-26-only': '#e8590c',
+  'under-18-only': '#846c15',
+  'residents-only': '#7f8fa6',
   none: '#9aa7b4',
 };
 
 /** The filter-chip category a single rule belongs to. */
 export function ruleCategory(rule: FreeRule): Category {
+  if (rule.audience === 'residents') return 'residents-only';
+  if (rule.audience === 'under-18') return 'under-18-only';
   if ((rule.audience ?? 'everyone') !== 'everyone') return 'under-26-only';
   switch (rule.kind) {
     case 'always':
       return 'always';
+    case 'weekly':
+      return 'weekly';
     case 'nth-weekday':
       if (rule.evening) return 'nocturne';
       // Rare non-first occurrences (e.g. LAST Sunday of the month) would make

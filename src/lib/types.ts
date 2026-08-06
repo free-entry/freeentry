@@ -12,7 +12,7 @@ export type Weekday =
 
 export type EventKey = 'museum-night' | 'heritage-days';
 
-export type Audience = 'everyone' | 'under-26-eu' | 'under-18';
+export type Audience = 'everyone' | 'under-26-eu' | 'under-18' | 'residents';
 
 export interface RuleSource {
   url: string;
@@ -25,7 +25,8 @@ export interface RuleSource {
  * calendar date; display categories are derived from the full rule set.
  */
 export interface FreeRule {
-  kind: 'always' | 'nth-weekday' | 'event' | 'annual-date';
+  kind: 'always' | 'nth-weekday' | 'weekly' | 'event' | 'annual-date';
+  /** weekly: free every <weekday> (evening flag for evening-only slots). */
   /** nth-weekday: 1 = first <weekday> of the month, -1 = last. */
   nth?: 1 | -1;
   weekday?: Weekday;
@@ -85,7 +86,7 @@ export interface Museum {
   /** Wikidata item id (e.g. 'Q19675'). */
   wikidata?: string;
   /** French Wikipedia article URL, from the item's frwiki sitelink. */
-  wikipediaFr?: string;
+  wikipedia?: string;
   /** Detail-page header photo, sourced from the Wikidata item's image (P18)
    *  or a manual override — see scripts/enrich-images.ts. */
   image?: MuseumImage;

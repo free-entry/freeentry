@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import type { MuseumContent } from './types';
-import { COUNTRY_CODE } from '@/countries';
+import { COUNTRY, COUNTRY_CODE } from '@/countries';
 import { normalizeLocale } from './i18n';
 
 export type MuseumContentMap = Record<string, MuseumContent>;
@@ -26,7 +26,7 @@ const cache = new Map<string, MuseumContentMap>();
  * neither locale may inherit the English name overrides.
  */
 export function needsEnglishFallback(normalized: string): boolean {
-  return normalized !== 'en' && normalized !== 'fr';
+  return normalized !== 'en' && normalized !== COUNTRY.canonicalLocale;
 }
 
 export async function loadMuseumContent(locale: string): Promise<MuseumContentMap> {

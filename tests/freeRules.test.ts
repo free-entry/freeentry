@@ -152,3 +152,17 @@ describe('isFreeOn / nextFreeDate', () => {
     expect(next?.estimated).toBe(true);
   });
 });
+
+describe('weekly and residents rules', () => {
+  const ctx = { events: { 'museum-night': { confirmed: {} }, 'heritage-days': { confirmed: {} } }, under26: false } as never;
+  it('weekly rule fires on its weekday only', () => {
+    const rule = { kind: 'weekly', weekday: 'thursday', source: { url: 'https://x', checkedAt: '2026-08-06' } } as never;
+    expect(ruleActiveOn(rule, '2026-08-06', ctx)).toBe(true); // Thursday
+    expect(ruleActiveOn(rule, '2026-08-07', ctx)).toBe(false);
+  });
+  it('residents-only rules never count as free for the visitor', () => {
+    const rule = { kind: 'nth-weekday', nth: 1, weekday: 'sunday', audience: 'residents', source: { url: 'https://x', checkedAt: '2026-08-06' } } as never;
+    expect(ruleActiveOn(rule, '2026-08-02', ctx)).toBe(false);
+  });
+});
+

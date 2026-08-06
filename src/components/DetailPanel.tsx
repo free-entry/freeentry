@@ -4,6 +4,7 @@ import { useAppState } from '@/state/AppState';
 import type { Museum } from '@/lib/types';
 import { CATEGORY_COLORS, deriveCategories } from '@/lib/categories';
 import { isFreeOn, nextFreeDate } from '@/lib/freeRules';
+import { COUNTRY } from '@/countries';
 import { normalizeLocale } from '@/lib/i18n';
 import { formatOpeningHours } from '@/lib/openingHours';
 import { haversineKm } from '@/lib/distance';
@@ -11,7 +12,6 @@ import { formatDate, formatKm } from '@/lib/format';
 import CategoryBadge from './CategoryBadge';
 import CopyLinkDialog from './CopyLinkDialog';
 import RuleExplanation from './RuleExplanation';
-import { DEPARTMENT_NAMES } from '@/lib/departments';
 import styles from './DetailPanel.module.css';
 
 interface DetailPanelProps {
@@ -45,12 +45,12 @@ export default function DetailPanel({ museum, onBack }: DetailPanelProps) {
   const next = nextFreeDate(museum, today, ctx);
   const distance = filters.center ? haversineKm(filters.center, museum.coordinates) : null;
   const showFrench =
-    localized !== undefined && localized !== museum.name && normalizeLocale(locale) !== 'fr';
+    localized !== undefined && localized !== museum.name && normalizeLocale(locale) !== COUNTRY.canonicalLocale;
 
   const eyebrow =
     museum.arrondissement !== undefined
       ? `${t('filters.arrondissementLabel', { number: museum.arrondissement })} · ${museum.commune}`
-      : `${museum.commune} · ${DEPARTMENT_NAMES[museum.department]}`;
+      : `${museum.commune} · ${COUNTRY.adminAreas.names[museum.department]}`;
 
   const directionsUrl = `https://www.google.com/maps/dir/?api=1&destination=${museum.coordinates[1]},${museum.coordinates[0]}`;
   // Name + address query lands on the Google Maps place card (with hours and
@@ -107,7 +107,7 @@ export default function DetailPanel({ museum, onBack }: DetailPanelProps) {
         <h2 className={styles.name}>{localized ?? museum.name}</h2>
         {showFrench && (
           <p className={styles.frenchName}>
-            <span className={styles.frenchLabel}>{t('museum.frenchName')}</span>
+            <span className={styles.frenchLabel}>{t(COUNTRY.canonicalLocale === 'fr' ? 'museum.frenchName' : 'museum.originalName')}</span>
             {museum.name}
           </p>
         )}
@@ -275,10 +275,10 @@ export default function DetailPanel({ museum, onBack }: DetailPanelProps) {
               </svg>
             </a>
           )}
-          {museum.wikipediaFr && (
+          {museum.wikipedia && (
             <a
               className={styles.iconAction}
-              href={museum.wikipediaFr}
+              href={museum.wikipedia}
               target="_blank"
               rel="noopener noreferrer"
               title={t('museum.wikipedia')}

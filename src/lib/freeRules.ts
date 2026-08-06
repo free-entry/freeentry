@@ -65,11 +65,20 @@ export function eventDatesForYear(events: EventDates, event: EventKey, year: num
 /** Whether a rule grants free entry on the given ISO date. */
 export function ruleActiveOn(rule: FreeRule, date: string, ctx: RuleContext): boolean {
   const audience = rule.audience ?? 'everyone';
+  // Resident-only and under-18 schemes are shown for information but never
+  // counted as "free for the visitor" — the site's audience is travellers,
+  // and the under-26 toggle must not claim minor-only admission.
+  if (audience === 'residents' || audience === 'under-18') return false;
   if (audience !== 'everyone' && !ctx.under26) return false;
 
   switch (rule.kind) {
     case 'always':
       return true;
+    case 'weekly': {
+      const { m, utcMs } = parseISO(date);
+      if (rule.months && !rule.months.includes(m)) return false;
+      return new Date(utcMs).getUTCDay() === WEEKDAY_INDEX[rule.weekday ?? 'sunday'];
+    }
     case 'nth-weekday': {
       const { y, m } = parseISO(date);
       if (rule.months && !rule.months.includes(m)) return false;

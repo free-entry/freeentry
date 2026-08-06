@@ -19,6 +19,7 @@
   },
   "categories": {
     "always": "全年免費",
+    "weekly": "每週一天免費",
     "first-sunday": "每月首個週日免費",
     "first-sunday-booking": "每月首個週日免費，須預約",
     "first-sunday-low-season": "每月首個週日免費（淡季）",
@@ -27,6 +28,8 @@
     "july-14": "7月14日巴士底日免費",
     "special-days": "僅特定日子免費",
     "under-26-only": "未滿26歲免費",
+    "under-18-only": "未滿18歲免費",
+    "residents-only": "僅限本地居民免費",
     "none": "無免費入場"
   },
   "filters": {
@@ -94,6 +97,7 @@
     "checkedOn": "查核於{{date}}",
     "distanceAway": "距離{{km}}公里",
     "frenchName": "法文名稱：",
+    "originalName": "原名：",
     "photoCredit": "{{author}} · {{license}}",
     "photoCreditToggle": "圖片版權",
     "noFreeScheme": "此場館目前沒有已知的常設免費入場方案。",
@@ -112,7 +116,9 @@
     "museumNight": "歐洲博物館之夜期間免費",
     "heritageDays": "歐洲遺產日期間免費",
     "annualDate": "每年{{date}}免費",
-    "nextDate": "下一次：{{date}}"
+    "nextDate": "下一次：{{date}}",
+    "weekly": "每週{{weekday}}免費",
+    "residentsOnly": "（僅限本地居民）"
   },
   "calendar": {
     "title": "免費入場日曆",

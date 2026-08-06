@@ -19,6 +19,7 @@
   },
   "categories": {
     "always": "Immer kostenlos",
+    "weekly": "Einmal pro Woche kostenlos",
     "first-sunday": "Kostenlos am 1. Sonntag",
     "first-sunday-booking": "1. Sonntag, mit Reservierung",
     "first-sunday-low-season": "1. Sonntag, Nebensaison",
@@ -27,6 +28,8 @@
     "july-14": "Kostenlos am 14. Juli",
     "special-days": "Nur an besonderen Tagen",
     "under-26-only": "Kostenlos unter 26",
+    "under-18-only": "Kostenlos unter 18",
+    "residents-only": "Kostenlos nur für Einheimische",
     "none": "Kein freier Eintritt"
   },
   "filters": {
@@ -96,6 +99,7 @@
     "checkedOn": "geprüft am {{date}}",
     "distanceAway": "{{km}} km entfernt",
     "frenchName": "Französischer Name: ",
+    "originalName": "Originalname: ",
     "photoCredit": "{{author}} · {{license}}",
     "photoCreditToggle": "Bildnachweis",
     "noFreeScheme": "Für diesen Ort ist kein regulärer freier Eintritt bekannt.",
@@ -114,7 +118,9 @@
     "museumNight": "Kostenlos während der Europäischen Nacht der Museen",
     "heritageDays": "Kostenlos während der Europäischen Tage des Kulturerbes",
     "annualDate": "Jedes Jahr kostenlos am {{date}}",
-    "nextDate": "nächster Termin: {{date}}"
+    "nextDate": "nächster Termin: {{date}}",
+    "weekly": "Kostenlos jeden {{weekday}}",
+    "residentsOnly": " (nur für Einheimische)"
   },
   "calendar": {
     "title": "Kalender der Gratistage",

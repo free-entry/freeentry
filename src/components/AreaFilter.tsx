@@ -1,8 +1,8 @@
 import { useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { COUNTRY } from '@/countries';
 import { useAppState } from '@/state/AppState';
 import type { Department } from '@/lib/types';
-import { DEPARTMENT_NAMES } from '@/lib/departments';
 import { searchFold } from '@/lib/filters';
 import styles from './AreaFilter.module.css';
 
@@ -72,7 +72,7 @@ export default function AreaFilter() {
                   checked={filters.departments.includes(dep)}
                   onChange={() => toggleDepartment(dep)}
                 />
-                <span className={styles.depCode}>{dep}</span> {DEPARTMENT_NAMES[dep]}
+                <span className={styles.depCode}>{dep}</span> {COUNTRY.adminAreas.names[dep]}
               </label>
             </li>
           ))}

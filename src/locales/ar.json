@@ -19,6 +19,7 @@
   },
   "categories": {
     "always": "مجاني دائمًا",
+    "weekly": "مجاني مرة واحدة أسبوعيًا",
     "first-sunday": "مجاني الأحد الأول من الشهر",
     "first-sunday-booking": "الأحد الأول، بحجز مسبق",
     "first-sunday-low-season": "الأحد الأول، خارج موسم الذروة",
@@ -27,6 +28,8 @@
     "july-14": "مجاني في 14 يوليو",
     "special-days": "في أيام خاصة فقط",
     "under-26-only": "مجاني لمن هم دون 26 عامًا",
+    "under-18-only": "مجاني لمن هم دون 18 عامًا",
+    "residents-only": "مجاني للمقيمين المحليين فقط",
     "none": "لا يوجد دخول مجاني"
   },
   "filters": {
@@ -104,6 +107,7 @@
     "checkedOn": "تم التحقق في {{date}}",
     "distanceAway": "على بُعد {{km}} كم",
     "frenchName": "الاسم الفرنسي: ",
+    "originalName": "الاسم الأصلي: ",
     "photoCredit": "{{author}} · {{license}}",
     "photoCreditToggle": "حقوق الصورة",
     "noFreeScheme": "لا يُعرف نظام دخول مجاني منتظم لهذا المكان.",
@@ -122,7 +126,9 @@
     "museumNight": "مجاني خلال الليلة الأوروبية للمتاحف",
     "heritageDays": "مجاني خلال أيام التراث الأوروبية",
     "annualDate": "مجاني كل عام في {{date}}",
-    "nextDate": "الموعد القادم: {{date}}"
+    "nextDate": "الموعد القادم: {{date}}",
+    "weekly": "مجاني في كل {{weekday}}",
+    "residentsOnly": " (للمقيمين المحليين فقط)"
   },
   "calendar": {
     "title": "تقويم الدخول المجاني",

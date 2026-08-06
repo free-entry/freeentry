@@ -19,6 +19,7 @@
   },
   "categories": {
     "always": "Toujours gratuit",
+    "weekly": "Gratuit un jour par semaine",
     "first-sunday": "Gratuit le 1ᵉʳ dimanche",
     "first-sunday-booking": "1ᵉʳ dimanche, sur réservation",
     "first-sunday-low-season": "1ᵉʳ dimanche, basse saison",
@@ -27,6 +28,8 @@
     "july-14": "Gratuit le 14 juillet",
     "special-days": "Jours exceptionnels uniquement",
     "under-26-only": "Gratuit pour les moins de 26 ans",
+    "under-18-only": "Gratuit pour les moins de 18 ans",
+    "residents-only": "Gratuit pour les résidents",
     "none": "Pas d'accès gratuit"
   },
   "filters": {
@@ -98,6 +101,7 @@
     "checkedOn": "vérifié le {{date}}",
     "distanceAway": "à {{km}} km",
     "frenchName": "Nom français : ",
+    "originalName": "Nom original : ",
     "photoCredit": "{{author}} · {{license}}",
     "photoCreditToggle": "Crédit photo",
     "noFreeScheme": "Aucune gratuité régulière connue pour ce lieu.",
@@ -116,7 +120,9 @@
     "museumNight": "Gratuit pendant la Nuit européenne des musées",
     "heritageDays": "Gratuit pendant les Journées européennes du patrimoine",
     "annualDate": "Gratuit chaque année le {{date}}",
-    "nextDate": "prochaine date : {{date}}"
+    "nextDate": "prochaine date : {{date}}",
+    "weekly": "Gratuit tous les {{weekday}}",
+    "residentsOnly": " (résidents uniquement)"
   },
   "calendar": {
     "title": "Calendrier des gratuités",
