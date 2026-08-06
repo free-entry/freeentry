@@ -50,6 +50,17 @@ export default defineConfig({
               cacheableResponse: { statuses: [0, 200] },
             },
           },
+          {
+            // Museum header photos — cached as the visitor browses, not
+            // eagerly precached (there can be well over 100 of them).
+            urlPattern: /\/images\/museums\/.*\.jpg$/,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'museum-photos',
+              expiration: { maxEntries: 200, maxAgeSeconds: 180 * 24 * 3600 },
+              cacheableResponse: { statuses: [0, 200] },
+            },
+          },
         ],
       },
     }),
