@@ -1,4 +1,5 @@
-export type Department = '75' | '77' | '78' | '91' | '92' | '93' | '94' | '95';
+/** French department code ('01'…'95', '2A'/'2B', '971'…'976') — validated in tests. */
+export type Department = string;
 
 export type Weekday =
   | 'monday'

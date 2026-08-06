@@ -9,9 +9,28 @@ import MapLegend from './MapLegend';
 import styles from './MapView.module.css';
 
 const STYLE_URL = 'https://tiles.openfreemap.org/styles/liberty';
-/** Île-de-France framing. */
-const DEFAULT_CENTER: [number, number] = [2.42, 48.78];
-const DEFAULT_ZOOM = 9.2;
+/** Metropolitan-France fallback framing (used when the dataset is empty). */
+const DEFAULT_CENTER: [number, number] = [2.6, 46.6];
+const DEFAULT_ZOOM = 5.2;
+/** Below this zoom, points aggregate into clusters; at city zooms every
+ *  venue stays individually visible. */
+const CLUSTER_MAX_ZOOM = 8;
+const TEXT_FONT = ['Noto Sans Regular'];
+
+/** Tight bounds around the dataset, so the initial view frames whatever the
+ *  data covers — Île-de-France yesterday, the whole country tomorrow. */
+function datasetBounds(museums: Museum[]): [[number, number], [number, number]] | null {
+  if (museums.length === 0) return null;
+  let minLng = Infinity, minLat = Infinity, maxLng = -Infinity, maxLat = -Infinity;
+  for (const m of museums) {
+    const [lng, lat] = m.coordinates;
+    if (lng < minLng) minLng = lng;
+    if (lat < minLat) minLat = lat;
+    if (lng > maxLng) maxLng = lng;
+    if (lat > maxLat) maxLat = lat;
+  }
+  return [[minLng, minLat], [maxLng, maxLat]];
+}
 
 // Copied from @mapbox/mapbox-gl-rtl-text on postinstall (see scripts/copy-rtl-plugin.mjs).
 const RTL_PLUGIN_URL = `${import.meta.env.BASE_URL}vendor/mapbox-gl-rtl-text.js`;
@@ -97,11 +116,15 @@ export default function MapView() {
     ensureRtlPlugin();
 
     const initial = readHash();
+    const bounds = datasetBounds(stateRef.current.results);
     const map = new MlMap({
       container: containerRef.current,
       style: STYLE_URL,
-      center: initial?.center ?? DEFAULT_CENTER,
-      zoom: initial?.zoom ?? DEFAULT_ZOOM,
+      ...(initial
+        ? { center: initial.center, zoom: initial.zoom }
+        : bounds
+          ? { bounds, fitBoundsOptions: { padding: 48 } }
+          : { center: DEFAULT_CENTER, zoom: DEFAULT_ZOOM }),
       attributionControl: { compact: true },
     });
     mapRef.current = map;
@@ -126,6 +149,9 @@ export default function MapView() {
         type: 'geojson',
         data: museumsToGeoJSON(stateRef.current.results),
         promoteId: 'id',
+        cluster: true,
+        clusterMaxZoom: CLUSTER_MAX_ZOOM,
+        clusterRadius: 46,
       });
       map.addSource('radius', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
 
@@ -133,19 +159,46 @@ export default function MapView() {
         id: 'radius-fill',
         type: 'fill',
         source: 'radius',
-        paint: { 'fill-color': '#1D4E79', 'fill-opacity': 0.08 },
+        paint: { 'fill-color': '#1266D3', 'fill-opacity': 0.08 },
       });
       map.addLayer({
         id: 'radius-line',
         type: 'line',
         source: 'radius',
-        paint: { 'line-color': '#1D4E79', 'line-width': 1.5, 'line-dasharray': [2, 2] },
+        paint: { 'line-color': '#1266D3', 'line-width': 1.5, 'line-dasharray': [2, 2] },
+      });
+
+      map.addLayer({
+        id: 'clusters',
+        type: 'circle',
+        source: 'museums',
+        filter: ['has', 'point_count'],
+        paint: {
+          'circle-color': '#1266D3',
+          'circle-opacity': 0.85,
+          'circle-radius': ['step', ['get', 'point_count'], 14, 25, 18, 75, 24],
+          'circle-stroke-width': 2,
+          'circle-stroke-color': '#ffffff',
+        },
+      });
+      map.addLayer({
+        id: 'cluster-count',
+        type: 'symbol',
+        source: 'museums',
+        filter: ['has', 'point_count'],
+        layout: {
+          'text-field': ['get', 'point_count_abbreviated'],
+          'text-font': TEXT_FONT,
+          'text-size': 12,
+        },
+        paint: { 'text-color': '#ffffff' },
       });
 
       map.addLayer({
         id: 'museum-points',
         type: 'circle',
         source: 'museums',
+        filter: ['!', ['has', 'point_count']],
         paint: {
           'circle-color': categoryColorExpression(),
           'circle-radius': [
@@ -180,6 +233,19 @@ export default function MapView() {
         if (id) stateRef.current.select(id);
       });
 
+      map.on('click', 'clusters', (e) => {
+        const feature = e.features?.[0];
+        const clusterId = feature?.properties?.cluster_id as number | undefined;
+        if (clusterId === undefined) return;
+        const source = map.getSource('museums') as maplibregl.GeoJSONSource;
+        void source.getClusterExpansionZoom(clusterId).then((zoom) => {
+          map.easeTo({
+            center: (feature!.geometry as GeoJSON.Point).coordinates as [number, number],
+            zoom,
+          });
+        });
+      });
+
       // Distance-filter center picking: one click anywhere sets the center.
       map.on('click', (e) => {
         if (!stateRef.current.pickingCenter) return;
@@ -195,7 +261,7 @@ export default function MapView() {
         stateRef.current.setPickingCenter(false);
       });
 
-      for (const layer of ['museum-points']) {
+      for (const layer of ['museum-points', 'clusters']) {
         map.on('mouseenter', layer, () => {
           map.getCanvas().style.cursor = 'pointer';
         });

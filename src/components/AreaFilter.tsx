@@ -2,27 +2,22 @@ import { useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useAppState } from '@/state/AppState';
 import type { Department } from '@/lib/types';
+import { DEPARTMENT_NAMES } from '@/lib/departments';
 import { searchFold } from '@/lib/filters';
 import styles from './AreaFilter.module.css';
 
-export const DEPARTMENT_NAMES: Record<Department, string> = {
-  '75': 'Paris',
-  '77': 'Seine-et-Marne',
-  '78': 'Yvelines',
-  '91': 'Essonne',
-  '92': 'Hauts-de-Seine',
-  '93': 'Seine-Saint-Denis',
-  '94': 'Val-de-Marne',
-  '95': "Val-d'Oise",
-};
-
-const DEPARTMENTS = Object.keys(DEPARTMENT_NAMES) as Department[];
 const ARRONDISSEMENTS = Array.from({ length: 20 }, (_, i) => i + 1);
 
 export default function AreaFilter() {
   const { t } = useTranslation();
   const { museums, filters, setFilters } = useAppState();
   const [communeQuery, setCommuneQuery] = useState('');
+
+  // Only departments the dataset actually covers.
+  const departments = useMemo(
+    () => [...new Set(museums.map((m) => m.department))].sort((a, b) => a.localeCompare(b, 'fr')),
+    [museums],
+  );
 
   const allCommunes = useMemo(
     () => [...new Set(museums.map((m) => m.commune))].sort((a, b) => a.localeCompare(b, 'fr')),
@@ -69,7 +64,7 @@ export default function AreaFilter() {
       <fieldset className={styles.fieldset}>
         <legend className={styles.legend}>{t('filters.departments')}</legend>
         <ul className={styles.departmentList}>
-          {DEPARTMENTS.map((dep) => (
+          {departments.map((dep) => (
             <li key={dep}>
               <label className={styles.departmentItem}>
                 <input

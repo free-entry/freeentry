@@ -11,7 +11,7 @@ import { formatDate, formatKm } from '@/lib/format';
 import CategoryBadge from './CategoryBadge';
 import CopyLinkDialog from './CopyLinkDialog';
 import RuleExplanation from './RuleExplanation';
-import { DEPARTMENT_NAMES } from './AreaFilter';
+import { DEPARTMENT_NAMES } from '@/lib/departments';
 import styles from './DetailPanel.module.css';
 
 interface DetailPanelProps {
@@ -49,7 +49,7 @@ export default function DetailPanel({ museum, onBack }: DetailPanelProps) {
 
   const eyebrow =
     museum.arrondissement !== undefined
-      ? `${t('filters.arrondissementLabel', { number: museum.arrondissement })} · Paris`
+      ? `${t('filters.arrondissementLabel', { number: museum.arrondissement })} · ${museum.commune}`
       : `${museum.commune} · ${DEPARTMENT_NAMES[museum.department]}`;
 
   const directionsUrl = `https://www.google.com/maps/dir/?api=1&destination=${museum.coordinates[1]},${museum.coordinates[0]}`;

@@ -1,8 +1,7 @@
 /**
  * Cross-checks our opening hours against OpenStreetMap — an independent,
  * no-AI outside opinion. One Overpass query pulls every museum/attraction/
- * historic feature carrying an opening_hours tag inside the Île-de-France
- * bounding box; features are matched to our records by proximity plus a
+ * historic feature carrying an opening_hours tag inside metropolitan France; features are matched to our records by proximity plus a
  * distinctive name token (or ≤ 60 m regardless).
  *
  * Report-only. OSM is crowd-sourced: a difference means "check the official
@@ -27,10 +26,10 @@ const MATCH_KM = 0.12;
 const SURE_KM = 0.06;
 
 const QUERY = `
-[out:json][timeout:120];
+[out:json][timeout:180];
 (
-  nwr["opening_hours"]["tourism"~"^(museum|attraction|gallery)$"](48.1,1.4,49.3,3.6);
-  nwr["opening_hours"]["historic"](48.1,1.4,49.3,3.6);
+  nwr["opening_hours"]["tourism"~"^(museum|attraction|gallery)$"](41.2,-5.3,51.2,9.7);
+  nwr["opening_hours"]["historic"~"^(castle|monument|fort|abbey|church|city_gate|tower)$"](41.2,-5.3,51.2,9.7);
 );
 out center tags;
 `;

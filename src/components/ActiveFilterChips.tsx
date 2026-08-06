@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { useAppState } from '@/state/AppState';
 import type { FilterState } from '@/lib/filters';
 import { formatDate } from '@/lib/format';
-import { DEPARTMENT_NAMES } from './AreaFilter';
+import { DEPARTMENT_NAMES } from '@/lib/departments';
 import styles from './ActiveFilterChips.module.css';
 
 interface Chip {

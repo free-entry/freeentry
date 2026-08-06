@@ -4,11 +4,12 @@ import { describe, expect, it } from 'vitest';
 import museumsJson from '../data/museums.json';
 import eventsJson from '../data/events.json';
 import type { EventDates, Museum } from '@/lib/types';
+import { ARRONDISSEMENT_RANGES, DEPARTMENT_NAMES, postalPrefix } from '../src/lib/departments';
 
 const museums = museumsJson as unknown as Museum[];
 const events = eventsJson as unknown as EventDates;
 
-const DEPARTMENTS = ['75', '77', '78', '91', '92', '93', '94', '95'];
+const DEPARTMENTS = Object.keys(DEPARTMENT_NAMES);
 const KINDS = ['always', 'nth-weekday', 'event', 'annual-date'];
 const AUDIENCES = ['everyone', 'under-26-eu', 'under-18'];
 const WEEKDAYS = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'];
@@ -25,26 +26,27 @@ describe('museums.json integrity', () => {
     for (const id of ids) expect(id).toMatch(/^[a-z0-9]+(-[a-z0-9]+)*$/);
   });
 
-  it('keeps every museum inside the Île-de-France bounding box', () => {
+  it('keeps every museum inside metropolitan France', () => {
     for (const m of museums) {
       const [lng, lat] = m.coordinates;
-      expect(lat, m.id).toBeGreaterThan(48.1);
-      expect(lat, m.id).toBeLessThan(49.3);
-      expect(lng, m.id).toBeGreaterThan(1.4);
-      expect(lng, m.id).toBeLessThan(3.6);
+      expect(lat, m.id).toBeGreaterThan(41.2);
+      expect(lat, m.id).toBeLessThan(51.2);
+      expect(lng, m.id).toBeGreaterThan(-5.3);
+      expect(lng, m.id).toBeLessThan(9.7);
     }
   });
 
   it('has consistent departments, postal codes and arrondissements', () => {
     for (const m of museums) {
       expect(DEPARTMENTS, m.id).toContain(m.department);
-      const prefix = m.department === '75' ? /^75[01]/ : new RegExp(`^${m.department}`);
-      expect(m.postalCode, m.id).toMatch(prefix);
-      if (m.department === '75') {
+      expect(m.postalCode, m.id).toMatch(postalPrefix(m.department));
+      const arrMax = ARRONDISSEMENT_RANGES[m.department];
+      if (m.arrondissement !== undefined) {
+        expect(arrMax, `${m.id}: arrondissement outside an arrondissement city`).toBeDefined();
         expect(m.arrondissement, m.id).toBeGreaterThanOrEqual(1);
-        expect(m.arrondissement, m.id).toBeLessThanOrEqual(20);
-      } else {
-        expect(m.arrondissement, m.id).toBeUndefined();
+        expect(m.arrondissement, m.id).toBeLessThanOrEqual(arrMax);
+      } else if (m.department === '75') {
+        expect(m.arrondissement, m.id).toBeDefined();
       }
     }
   });
