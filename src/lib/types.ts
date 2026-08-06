@@ -45,6 +45,19 @@ export interface FreeRule {
   source: RuleSource;
 }
 
+/** Detail-page header photo and its attribution. */
+export interface MuseumImage {
+  /** Path relative to /public, e.g. "images/museums/arc-de-triomphe.jpg". */
+  file: string;
+  author: string;
+  /** Canonical short form, e.g. "CC BY-SA 4.0", "CC0 1.0", "Public Domain". */
+  license: string;
+  /** Commons file page, or the manually-supplied source when overridden. */
+  sourceUrl: string;
+  /** "File:Xxx.jpg" — set only when sourced from Wikimedia Commons. */
+  wikimediaFile?: string;
+}
+
 export interface Museum {
   id: string;
   /** Official French name — always displayed, in every locale. */
@@ -72,6 +85,9 @@ export interface Museum {
   wikidata?: string;
   /** French Wikipedia article URL, from the item's frwiki sitelink. */
   wikipediaFr?: string;
+  /** Detail-page header photo, sourced from the Wikidata item's image (P18)
+   *  or a manual override — see scripts/enrich-images.ts. */
+  image?: MuseumImage;
   /** Venue-level caveat shown on the detail page (e.g. temporary closure). */
   note?: string;
 }

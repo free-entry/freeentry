@@ -1,3 +1,5 @@
+import { existsSync } from 'node:fs';
+import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
 import museumsJson from '../data/museums.json';
 import eventsJson from '../data/events.json';
@@ -95,6 +97,19 @@ describe('museums.json integrity', () => {
         // A Wikipedia link without its Wikidata item means enrichment went wrong.
         expect(m.wikidata, m.id).toBeDefined();
       }
+    }
+  });
+
+  it('has well-formed image metadata for museums that have one', () => {
+    const ALLOWED_LICENSE = /^(CC0 1\.0|Public Domain|CC BY(-SA)? \d\.\d)$/;
+    for (const m of museums) {
+      if (!m.image) continue;
+      expect(m.image.file, m.id).toMatch(/^images\/museums\/[a-z0-9-]+\.jpg$/);
+      expect(m.image.author.trim(), m.id).not.toBe('');
+      expect(m.image.license, m.id).toMatch(ALLOWED_LICENSE);
+      expect(m.image.sourceUrl, m.id).toMatch(/^https?:\/\//);
+      const onDisk = join(__dirname, '..', 'public', m.image.file);
+      expect(existsSync(onDisk), `${m.id}: ${m.image.file} missing under public/`).toBe(true);
     }
   });
 
