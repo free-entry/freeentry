@@ -38,6 +38,9 @@ export default function DetailPanel({ museum, onBack }: DetailPanelProps) {
   const localized = entry?.name;
   const description = entry?.description;
   const categories = deriveCategories(museum);
+  const photoUrl = museum.image
+    ? `${import.meta.env.BASE_URL}${museum.image.file}`
+    : undefined;
   const freeToday = isFreeOn(museum, today, ctx);
   const next = nextFreeDate(museum, today, ctx);
   const distance = filters.center ? haversineKm(filters.center, museum.coordinates) : null;
@@ -93,8 +96,12 @@ export default function DetailPanel({ museum, onBack }: DetailPanelProps) {
       </button>
 
       <header
-        className={styles.header}
-        style={{ borderInlineStartColor: CATEGORY_COLORS[categories[0]] }}
+        className={photoUrl ? `${styles.header} ${styles.headerPhoto}` : styles.header}
+        style={
+          photoUrl
+            ? { backgroundImage: `url(${photoUrl})` }
+            : { borderInlineStartColor: CATEGORY_COLORS[categories[0]] }
+        }
       >
         <p className={styles.eyebrow}>{eyebrow}</p>
         <h2 className={styles.name}>{localized ?? museum.name}</h2>
@@ -111,6 +118,19 @@ export default function DetailPanel({ museum, onBack }: DetailPanelProps) {
           {freeToday && <span className={styles.today}>{t('museum.todayFree')}</span>}
         </div>
         {museum.note && <p className={styles.note}>{notes[museum.note] ?? museum.note}</p>}
+        {museum.image && (
+          <a
+            className={styles.credit}
+            href={museum.image.sourceUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {t('museum.photoCredit', {
+              author: museum.image.author,
+              license: museum.image.license,
+            })}
+          </a>
+        )}
       </header>
 
       {description && <p className={styles.description}>{description}</p>}
