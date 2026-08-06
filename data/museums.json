@@ -3059,7 +3059,7 @@
       2.3378156596817785,
       48.86079459806906
     ],
-    "address": "Musée du Louvre, 75058 Paris CEDEX 01",
+    "address": "Rue de Rivoli",
     "postalCode": "75001",
     "commune": "Paris",
     "department": "75",
@@ -3074,16 +3074,16 @@
         "nth": 1,
         "weekday": "friday",
         "months": [
+          9,
+          10,
+          11,
+          12,
           1,
           2,
           3,
           4,
           5,
-          6,
-          9,
-          10,
-          11,
-          12
+          6
         ],
         "evening": true,
         "note": "Free for all from 6pm to 9pm closing on the first Friday of the month, except July and August; book a time slot on ticket.louvre.fr",

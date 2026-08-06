@@ -3,16 +3,16 @@
     "musee-du-louvre": {
       "weekday": "friday",
       "months": [
+        9,
+        10,
+        11,
+        12,
         1,
         2,
         3,
         4,
         5,
-        6,
-        9,
-        10,
-        11,
-        12
+        6
       ],
       "note": "Free for all from 6pm to 9pm closing on the first Friday of the month, except July and August; book a time slot on ticket.louvre.fr"
     },
