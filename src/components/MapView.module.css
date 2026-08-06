@@ -1,0 +1,30 @@
+.wrapper {
+  position: absolute;
+  inset: 0;
+}
+
+.map {
+  inline-size: 100%;
+  block-size: 100%;
+  background: var(--color-bg-sunken);
+}
+
+.pickHint {
+  position: absolute;
+  inset-block-start: 0.75rem;
+  inset-inline-start: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+  margin: 0;
+  background: var(--color-accent);
+  color: var(--color-accent-contrast);
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  box-shadow: var(--shadow-floating);
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+:global(html[dir='rtl']) .pickHint {
+  transform: translateX(50%);
+}

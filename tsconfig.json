@@ -16,7 +16,7 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": { "@/*": ["src/*"] },
-    "types": ["vite/client", "node"]
+    "types": ["vite/client", "node", "geojson"]
   },
   "include": ["src", "tests", "scripts", "data"]
 }

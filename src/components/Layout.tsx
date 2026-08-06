@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useAppState } from '@/state/AppState';
 import Header from './Header';
+import MapView from './MapView';
 import styles from './Layout.module.css';
 
 export default function Layout() {
@@ -23,8 +24,8 @@ export default function Layout() {
             {selected && <p>{selected.name}</p>}
           </div>
         </aside>
-        <main className={styles.mapArea} aria-label={t('map.ariaLabel')}>
-          <div className={styles.mapPlaceholder}>{t('app.loading')}</div>
+        <main className={styles.mapArea}>
+          <MapView />
         </main>
       </div>
       {filtersOpen && (

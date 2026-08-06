@@ -38,9 +38,9 @@ export const CATEGORY_COLORS: Record<Category, string> = {
   'first-sunday-booking': '#56B4E9',
   'first-sunday-low-season': '#5D3A9B',
   'first-saturday': '#E69F00',
-  nocturne: '#D55E00',
+  nocturne: '#A03A68',
   'special-days': '#CC79A7',
-  'under-26-only': '#8C6D31',
+  'under-26-only': '#D55E00',
   none: '#8D99A6',
 };
 
