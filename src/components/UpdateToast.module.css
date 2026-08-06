@@ -1,0 +1,43 @@
+.toast {
+  position: fixed;
+  inset-block-end: 1rem;
+  inset-inline-start: 50%;
+  transform: translateX(-50%);
+  z-index: 80;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: var(--color-text);
+  color: var(--color-bg);
+  border-radius: 999px;
+  padding-block: 0.5rem;
+  padding-inline: 1rem;
+  box-shadow: var(--shadow-floating);
+  font-size: 0.85rem;
+  max-inline-size: calc(100vw - 2rem);
+}
+
+html[dir='rtl'] .toast {
+  transform: translateX(50%);
+}
+
+.reload {
+  font: inherit;
+  font-weight: 700;
+  color: inherit;
+  background: none;
+  border: 1px solid currentcolor;
+  border-radius: 999px;
+  padding-block: 0.2rem;
+  padding-inline: 0.7rem;
+  cursor: pointer;
+}
+
+.dismiss {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+}

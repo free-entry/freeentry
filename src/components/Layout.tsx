@@ -9,6 +9,8 @@ import ActiveFilterChips from './ActiveFilterChips';
 import FilterPanel from './FilterPanel';
 import DetailPanel from './DetailPanel';
 import BottomSheet from './BottomSheet';
+import OfflineBanner from './OfflineBanner';
+import UpdateToast from './UpdateToast';
 import styles from './Layout.module.css';
 
 export default function Layout() {
@@ -34,6 +36,7 @@ export default function Layout() {
         {t('app.skipToList')}
       </a>
       <Header onOpenFilters={() => setFiltersOpen(true)} />
+      <OfflineBanner />
       <div className={styles.body}>
         {isWide && (
           <aside className={styles.sidebar} aria-label={t('list.showList')}>
@@ -85,6 +88,7 @@ export default function Layout() {
         ))}
 
       {filtersOpen && <FilterPanel onClose={() => setFiltersOpen(false)} />}
+      <UpdateToast />
     </div>
   );
 }

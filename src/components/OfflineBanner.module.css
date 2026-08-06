@@ -1,0 +1,9 @@
+.banner {
+  margin: 0;
+  padding-block: 0.35rem;
+  padding-inline: 1rem;
+  background: var(--color-focus);
+  color: #ffffff;
+  font-size: 0.82rem;
+  text-align: center;
+}
