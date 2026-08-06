@@ -7,11 +7,16 @@
 import { copyFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import type { Museum, MuseumContent } from '../src/lib/types';
+import { COUNTRIES } from '../src/countries';
 
 const ROOT = join(import.meta.dirname, '..');
 const COUNTRY = process.env.VITE_COUNTRY ?? process.env.COUNTRY ?? 'fr';
+const CONFIG = COUNTRIES[COUNTRY];
+if (!CONFIG) throw new Error(`unknown country ${COUNTRY}`);
 const DIST = join(ROOT, 'dist');
-const SITE = 'https://travel-eu.github.io/free-museums-france';
+const SITE = CONFIG.siteUrl;
+const COUNTRY_NAME: Record<string, string> = { fr: 'France', it: 'Italy', be: 'Belgium' };
+const BRAND_EN = CONFIG.brand?.en?.title ?? 'Free Museums France';
 const LOCALES = ['en', 'fr', 'es', 'it', 'de', 'zh-Hans', 'zh-Hant', 'ja', 'ko', 'ar'];
 
 const museums: Museum[] = JSON.parse(readFileSync(join(ROOT, `data/${COUNTRY}/museums.json`), 'utf-8'));
@@ -31,7 +36,7 @@ function freeSummary(museum: Museum): string {
   if (museum.freeAccess.some((r) => r.kind === 'always' && !r.audience)) return 'Free admission';
   if (kinds.has('nth-weekday')) return 'Free on selected days each month';
   if (kinds.has('event') || kinds.has('annual-date')) return 'Free on special days';
-  return 'Museum in France';
+  return `Museum in ${COUNTRY_NAME[COUNTRY]}`;
 }
 
 function alternates(path: string): string {
@@ -45,12 +50,12 @@ function alternates(path: string): string {
 function museumHead(museum: Museum): string {
   const description = content[museum.id]?.description
     ? `${freeSummary(museum)}. ${content[museum.id].description}`
-    : `${freeSummary(museum)}. ${museum.name}, ${museum.commune}, France — opening days, free-admission rules and directions.`;
+    : `${freeSummary(museum)}. ${museum.name}, ${museum.commune}, ${COUNTRY_NAME[COUNTRY]} — opening days, free-admission rules and directions.`;
   const url = `${SITE}/museum/${museum.id}`;
   const sameAs = [
     ...(museum.website ? [museum.website] : []),
     ...(museum.wikidata ? [`https://www.wikidata.org/wiki/${museum.wikidata}`] : []),
-    ...(museum.wikipediaFr ? [museum.wikipediaFr] : []),
+    ...(museum.wikipedia ? [museum.wikipedia] : []),
   ];
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -64,7 +69,7 @@ function museumHead(museum: Museum): string {
       streetAddress: museum.address,
       postalCode: museum.postalCode,
       addressLocality: museum.commune,
-      addressCountry: 'FR',
+      addressCountry: COUNTRY.toUpperCase(),
     },
     geo: {
       '@type': 'GeoCoordinates',
@@ -73,7 +78,7 @@ function museumHead(museum: Museum): string {
     },
     isAccessibleForFree: museum.freeAccess.some((r) => r.kind === 'always' && !r.audience),
   };
-  const title = `${museum.name} — ${freeSummary(museum)} | Free Museums France`;
+  const title = `${museum.name} — ${freeSummary(museum)} | ${BRAND_EN}`;
   return `<title>${esc(title)}</title>
     <meta name="description" content="${esc(description)}" />
     <link rel="canonical" href="${url}" />
@@ -102,7 +107,7 @@ for (const museum of museums) {
 const homeJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  name: 'Free Museums & Monuments — France',
+  name: BRAND_EN,
   url: `${SITE}/`,
   inLanguage: LOCALES,
 };

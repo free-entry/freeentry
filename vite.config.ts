@@ -7,20 +7,55 @@ import { fileURLToPath } from 'node:url';
 // Served from https://travel-eu.github.io/free-museums-france/ — the base path is
 // kept identical in dev so path handling never diverges between environments.
 const COUNTRY = process.env.VITE_COUNTRY ?? 'fr';
-const BASE_PATHS: Record<string, string> = { fr: '/free-museums-france/' };
+const BASE_PATHS: Record<string, string> = {
+  fr: '/free-museums-france/',
+  it: '/free-museums-italy/',
+  be: '/free-museums-belgium/',
+};
+// English manifest strings per deployment; runtime i18n takes over in-app.
+const MANIFESTS: Record<string, { name: string; short_name: string; description: string }> = {
+  fr: {
+    name: 'Free Museums & Monuments — France',
+    short_name: 'Free Museums',
+    description:
+      'Interactive map of free museums and monuments in France: always free, first Sundays, Museum Night, Heritage Days and more.',
+  },
+  it: {
+    name: 'Free Museums & Monuments — Italy',
+    short_name: 'Free Museums',
+    description:
+      'Interactive map of free state museums and archaeological sites in Italy: Domenica al Museo first Sundays, national free days, always free.',
+  },
+  be: {
+    name: 'Free Museums & Monuments — Belgium',
+    short_name: 'Free Museums',
+    description:
+      'Interactive map of free museums in Belgium: first Sundays in Brussels and Wallonia, first Wednesdays, always-free collections.',
+  },
+};
+const MANIFEST = MANIFESTS[COUNTRY] ?? MANIFESTS.fr;
+const ICON_DIR = COUNTRY === 'fr' ? 'icons' : `icons-${COUNTRY}`;
 
 export default defineConfig({
   base: BASE_PATHS[COUNTRY] ?? `/free-museums-${COUNTRY}/`,
   plugins: [
+    {
+      name: 'country-shell-head',
+      transformIndexHtml(html: string) {
+        return html
+          .replace('%VITE_SITE_TITLE%', MANIFEST.name)
+          .replace('%VITE_META_DESCRIPTION%', MANIFEST.description)
+          .replaceAll('%VITE_ICON_DIR%', ICON_DIR);
+      },
+    },
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['icons/apple-touch-icon.png', 'icons/icon.svg', 'robots.txt'],
+      includeAssets: [`${ICON_DIR}/apple-touch-icon.png`, `${ICON_DIR}/icon.svg`, 'robots.txt'],
       manifest: {
-        name: 'Free Museums & Monuments — France',
-        short_name: 'Free Museums',
-        description:
-          'Interactive map of free museums and monuments in France: always free, first Sundays, Museum Night, Heritage Days and more.',
+        name: MANIFEST.name,
+        short_name: MANIFEST.short_name,
+        description: MANIFEST.description,
         lang: 'en',
         start_url: '.',
         display: 'standalone',
@@ -28,10 +63,10 @@ export default defineConfig({
         background_color: '#f8fbfe',
         categories: ['travel', 'education'],
         icons: [
-          { src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' },
-          { src: 'icons/icon-512.png', sizes: '512x512', type: 'image/png' },
+          { src: `${ICON_DIR}/icon-192.png`, sizes: '192x192', type: 'image/png' },
+          { src: `${ICON_DIR}/icon-512.png`, sizes: '512x512', type: 'image/png' },
           {
-            src: 'icons/icon-maskable-512.png',
+            src: `${ICON_DIR}/icon-maskable-512.png`,
             sizes: '512x512',
             type: 'image/png',
             purpose: 'maskable',

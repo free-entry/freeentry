@@ -4,6 +4,7 @@ import { ARRONDISSEMENT_RANGES, DEPARTMENT_NAMES, postalPrefix } from '../lib/de
 /** France — the original deployment. */
 export const fr: CountryConfig = {
   code: 'fr',
+  canonicalLocale: 'fr',
   basePath: '/free-museums-france/',
   siteUrl: 'https://travel-eu.github.io/free-museums-france',
   repoUrl: 'https://github.com/travel-eu/free-museums-france',

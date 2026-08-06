@@ -10,7 +10,11 @@
   },
   "scripts": {
     "dev": "vite",
+    "dev:it": "VITE_COUNTRY=it vite",
+    "dev:be": "VITE_COUNTRY=be vite",
     "build": "tsc --noEmit && vite build && tsx scripts/prerender.ts",
+    "build:it": "tsc --noEmit && VITE_COUNTRY=it vite build && COUNTRY=it tsx scripts/prerender.ts",
+    "build:be": "tsc --noEmit && VITE_COUNTRY=be vite build && COUNTRY=be tsx scripts/prerender.ts",
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",

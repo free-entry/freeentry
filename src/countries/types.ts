@@ -1,6 +1,8 @@
 /** Per-country deployment configuration — see docs/superpowers/specs/2026-08-06-countryization-design.md. */
 export interface CountryConfig {
   code: string;
+  /** Locale whose venue names are the canonical museums.json names (fr for France, it for Italy…). */
+  canonicalLocale: string;
   basePath: string;
   siteUrl: string;
   repoUrl: string;
@@ -16,4 +18,6 @@ export interface CountryConfig {
   };
   /** Which variable-date event calendars this country's events.json carries. */
   eventKeys: string[];
+  /** Per-locale brand strings; omitted (fr) falls back to src/locales app.* keys. */
+  brand?: Record<string, { title: string; titleShort: string; metaDescription: string }>;
 }

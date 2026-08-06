@@ -1,6 +1,9 @@
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useAppState } from '@/state/AppState';
+import { brandString } from '@/lib/brand';
+import { COUNTRY_CODE } from '@/countries';
+import { COUNTRY_MARKS } from '@/countries/marks';
 import LanguageSwitcher from './LanguageSwitcher';
 import SearchDialog from './SearchDialog';
 import styles from './Header.module.css';
@@ -11,7 +14,7 @@ interface HeaderProps {
 }
 
 export default function Header({ onOpenFilters, onOpenAbout }: HeaderProps) {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const { resetFilters, results } = useAppState();
   const [searchOpen, setSearchOpen] = useState(false);
 
@@ -92,19 +95,14 @@ export default function Header({ onOpenFilters, onOpenAbout }: HeaderProps) {
           aria-hidden="true"
           focusable="false"
         >
-          {/* Eiffel Tower silhouette. */}
-          <g fill="currentColor">
-            <path d="M15.25 7.2 15.62 2.5C15.7 1.95 16.3 1.95 16.38 2.5L16.75 7.2Z" />
-            <rect x="14.5" y="5.1" width="3" height="2.1" rx=".45" />
-            <path d="M16.85 7.2c.25 3.4.65 6.4 1.75 9.05h-5.2c1.1-2.65 1.5-5.65 1.75-9.05Z" />
-            <rect x="12.1" y="16.15" width="7.8" height="2.05" rx=".35" />
-            <path d="M12.5 18.2h7l1.8 3.8h-3.65l-.35-3.3h-2.6l-.35 3.3H10.7Z" />
-            <rect x="9.45" y="21.95" width="13.1" height="2.05" rx=".35" />
-            <path d="M10.13 24h11.74L26 30h-5.8a4.2 4.4 0 0 0-8.4 0H6Z" />
-          </g>
+          {/* Country landmark silhouette (Eiffel Tower / Colosseum / belfry). */}
+          <g
+            fill="currentColor"
+            dangerouslySetInnerHTML={{ __html: COUNTRY_MARKS[COUNTRY_CODE] ?? COUNTRY_MARKS.fr }}
+          />
         </svg>
-        <span className={styles.title} title={t('app.title')}>
-          {t('app.titleShort')}
+        <span className={styles.title} title={brandString(i18n.language, 'title', t('app.title'))}>
+          {brandString(i18n.language, 'titleShort', t('app.titleShort'))}
         </span>
       </a>
 

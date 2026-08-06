@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -23,17 +23,39 @@ jobs:
       - name: Run tests
         run: npm run test
 
+  build:
+    needs: test
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        country: [fr, it, be]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
       - name: Build
-        run: npm run build
+        run: |
+          if [ "${{ matrix.country }}" = "fr" ]; then
+            npm run build
+          else
+            npm run build:${{ matrix.country }}
+          fi
 
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
         with:
-          name: dist
+          name: dist-${{ matrix.country }}
           path: dist/
 
   deploy:
-    # Deploys dist/ into the free-museums-france/ directory of the
+    # Deploys each country's dist/ into its directory of the
     # travel-eu.github.io repository. Requires the DEPLOY_TOKEN secret —
     # a fine-grained PAT with contents:write on travel-eu/travel-eu.github.io
     # (see docs/DEPLOYMENT.md). Skipped on forks and pull requests.
@@ -41,10 +63,10 @@ jobs:
     if: github.event_name != 'pull_request' && github.repository == 'travel-eu/free-museums-france'
     runs-on: ubuntu-latest
     steps:
-      - name: Download build artifact
+      - name: Download build artifacts
         uses: actions/download-artifact@v4
         with:
-          name: dist
+          pattern: dist-*
           path: dist
 
       - name: Check deploy token
@@ -67,12 +89,16 @@ jobs:
           token: ${{ secrets.DEPLOY_TOKEN }}
           path: site
 
-      - name: Sync build into site
+      - name: Sync builds into site
         if: steps.token.outputs.present == 'true'
         run: |
-          rm -rf site/free-museums-france
-          mkdir -p site/free-museums-france
-          cp -r dist/. site/free-museums-france/
+          declare -A DIRS=([fr]=free-museums-france [it]=free-museums-italy [be]=free-museums-belgium)
+          for cc in fr it be; do
+            dir="${DIRS[$cc]}"
+            rm -rf "site/$dir"
+            mkdir -p "site/$dir"
+            cp -r "dist/dist-$cc/." "site/$dir/"
+          done
 
       - name: Commit and push
         if: steps.token.outputs.present == 'true'
@@ -80,10 +106,10 @@ jobs:
           cd site
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add free-museums-france
+          git add free-museums-france free-museums-italy free-museums-belgium
           if git diff --cached --quiet; then
             echo "No changes to deploy."
           else
-            git commit -m "deploy: free-museums-france ${GITHUB_SHA::7}"
+            git commit -m "deploy: free-museums fr/it/be ${GITHUB_SHA::7}"
             git push
           fi
