@@ -1,7 +1,8 @@
 import { useTranslation } from 'react-i18next';
 import { useAppState } from '@/state/AppState';
+import { normalizeLocale } from '@/lib/i18n';
 import type { Museum } from '@/lib/types';
-import { deriveCategory } from '@/lib/categories';
+import { deriveCategories } from '@/lib/categories';
 import { nextFreeDate, isFreeOn } from '@/lib/freeRules';
 import { haversineKm } from '@/lib/distance';
 import { formatDate, formatKm } from '@/lib/format';
@@ -19,7 +20,13 @@ export default function MuseumCard({ museum, active, onSelect }: MuseumCardProps
   const { ctx, content, filters, today } = useAppState();
 
   const localized = content[museum.id]?.name;
-  const category = deriveCategory(museum);
+  // The French UI always titles museums by their (French) canonical name, so
+  // the canonical-name subtitle would only repeat the title.
+  const showFrenchName =
+    localized !== undefined &&
+    localized !== museum.name &&
+    normalizeLocale(i18n.language) !== 'fr';
+  const categories = deriveCategories(museum);
   const freeToday = isFreeOn(museum, today, ctx);
   const next = freeToday ? null : nextFreeDate(museum, today, ctx);
   const distance =
@@ -41,10 +48,12 @@ export default function MuseumCard({ museum, active, onSelect }: MuseumCardProps
     >
       <span className={styles.nameRow}>
         <span className={styles.name}>{localized ?? museum.name}</span>
-        {localized && <span className={styles.frenchName}>{museum.name}</span>}
+        {showFrenchName && <span className={styles.frenchName}>{museum.name}</span>}
       </span>
       <span className={styles.badges}>
-        <CategoryBadge category={category} />
+        {categories.map((category) => (
+          <CategoryBadge key={category} category={category} />
+        ))}
         {freeToday && <span className={styles.today}>{t('museum.todayFree')}</span>}
         {hasBooking && (
           <span className={styles.flag} title={t('museum.bookingRequired')}>

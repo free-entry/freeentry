@@ -17,7 +17,7 @@ import type { RuleContext } from '@/lib/freeRules';
 import { applyFilters, DEFAULT_FILTERS, type FilterState } from '@/lib/filters';
 import { decodeFilters, encodeFilters } from '@/lib/urlState';
 import { haversineKm } from '@/lib/distance';
-import { useMuseumContent, type MuseumContentMap } from '@/lib/localeData';
+import { useMuseumContent, useNoteTranslations, type MuseumContentMap } from '@/lib/localeData';
 
 const MUSEUMS = museumsJson as unknown as Museum[];
 const EVENTS = eventsJson as unknown as EventDates;
@@ -33,6 +33,8 @@ export interface AppStateValue {
   select: (id: string | null) => void;
   ctx: RuleContext;
   content: MuseumContentMap;
+  /** English data-note → localized note for the active locale. */
+  notes: Record<string, string>;
   localizedNames: Record<string, string>;
   today: string;
   /** Geolocation result, [lng, lat]. */
@@ -113,6 +115,7 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
   );
 
   const content = useMuseumContent(i18n.language);
+  const notes = useNoteTranslations(i18n.language);
 
   const localizedNames = useMemo(() => {
     const names: Record<string, string> = {};
@@ -150,6 +153,7 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
       select,
       ctx,
       content,
+      notes,
       localizedNames,
       today,
       userLocation,
@@ -166,6 +170,7 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
       select,
       ctx,
       content,
+      notes,
       localizedNames,
       today,
       userLocation,

@@ -3,6 +3,8 @@ import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
 import museumsJson from '../data/museums.json';
 import en from '../src/locales/en.json';
+import { normalizeLocale } from '../src/lib/i18n';
+import { needsEnglishFallback } from '../src/lib/localeData';
 
 const LOCALES = ['en', 'fr', 'es', 'it', 'de', 'zh-Hans', 'zh-Hant', 'ja', 'ko', 'ar'];
 const LOCALES_DIR = join(__dirname, '../src/locales');
@@ -72,10 +74,6 @@ describe.each(LOCALES)('museum content %s', (locale) => {
   const path = join(CONTENT_DIR, `museums.${locale}.json`);
 
   it('exists, covers every museum id and has no empty descriptions', () => {
-    if (locale === 'fr') {
-      // French names are canonical; the fr file still carries descriptions.
-      expect(existsSync(path), path).toBe(true);
-    }
     expect(existsSync(path), path).toBe(true);
     const content = JSON.parse(readFileSync(path, 'utf-8')) as Record<
       string,
@@ -87,9 +85,72 @@ describe.each(LOCALES)('museum content %s', (locale) => {
     const missing = museumIds.filter((id) => !content[id]?.description?.trim());
     expect(missing, `museums without ${locale} description`).toEqual([]);
   });
+
+  it('provides a localized title for every museum', () => {
+    // French titles are the canonical names in museums.json, not overrides.
+    if (locale === 'fr') return;
+    const content = JSON.parse(readFileSync(path, 'utf-8')) as Record<
+      string,
+      { name?: string }
+    >;
+    const missing = museumIds.filter((id) => !content[id]?.name?.trim());
+    expect(missing, `museums without ${locale} title`).toEqual([]);
+  });
+});
+
+describe.each(LOCALES.filter((l) => l !== 'en'))('note catalog %s', (locale) => {
+  it('translates every English data note, with no stale entries', () => {
+    const path = join(CONTENT_DIR, `notes.${locale}.json`);
+    expect(existsSync(path), path).toBe(true);
+    const catalog = JSON.parse(readFileSync(path, 'utf-8')) as Record<string, string>;
+    const englishNotes = new Set<string>();
+    for (const m of museumsJson as { note?: string; freeAccess: { note?: string }[] }[]) {
+      if (m.note) englishNotes.add(m.note);
+      for (const rule of m.freeAccess) if (rule.note) englishNotes.add(rule.note);
+    }
+    const missing = [...englishNotes].filter((n) => !catalog[n]?.trim());
+    const stale = Object.keys(catalog).filter((k) => !englishNotes.has(k));
+    expect(missing, `notes missing a ${locale} translation`).toEqual([]);
+    expect(stale, `stale ${locale} catalog entries`).toEqual([]);
+  });
 });
 
 it('locales directory contains no unexpected files', () => {
   const files = readdirSync(LOCALES_DIR).filter((f) => f.endsWith('.json'));
   expect(files.sort()).toEqual(LOCALES.map((l) => `${l}.json`).sort());
+});
+
+describe('French locale shows canonical French names', () => {
+  it('museums.fr.json defines no name overrides — names in museums.json are already French', () => {
+    const content = JSON.parse(
+      readFileSync(join(CONTENT_DIR, 'museums.fr.json'), 'utf-8'),
+    ) as Record<string, { name?: string }>;
+    const overridden = Object.entries(content)
+      .filter(([, entry]) => entry.name !== undefined)
+      .map(([id]) => id);
+    expect(overridden, 'unexpected French name overrides').toEqual([]);
+  });
+
+  it('French never inherits English name overrides through the fallback merge', () => {
+    expect(needsEnglishFallback('fr')).toBe(false);
+    expect(needsEnglishFallback('en')).toBe(false);
+    for (const locale of LOCALES.filter((l) => l !== 'en' && l !== 'fr')) {
+      expect(needsEnglishFallback(locale), locale).toBe(true);
+    }
+  });
+});
+
+describe('default locale', () => {
+  it('falls back to French for unsupported languages', () => {
+    expect(normalizeLocale('pt')).toBe('fr');
+    expect(normalizeLocale('ru-RU')).toBe('fr');
+  });
+
+  it('still maps supported languages onto their locale', () => {
+    expect(normalizeLocale('en-GB')).toBe('en');
+    expect(normalizeLocale('fr-FR')).toBe('fr');
+    expect(normalizeLocale('zh-TW')).toBe('zh-Hant');
+    expect(normalizeLocale('zh')).toBe('zh-Hans');
+    expect(normalizeLocale('ar')).toBe('ar');
+  });
 });

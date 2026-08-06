@@ -2,9 +2,10 @@ import i18n from 'i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import { initReactI18next } from 'react-i18next';
 
+// French first: it is the site's home language and leads the switcher list.
 export const LOCALES = [
-  'en',
   'fr',
+  'en',
   'es',
   'it',
   'de',
@@ -35,7 +36,10 @@ const RTL_LOCALES: Locale[] = ['ar'];
 // UI string bundles, code-split per locale by Vite.
 const bundles = import.meta.glob<{ default: Record<string, unknown> }>('../locales/*.json');
 
-/** Maps browser languages (zh-CN, zh-TW, pt…) onto the supported locale set. */
+/**
+ * Maps languages (zh-CN, zh-TW, pt…) onto the supported locale set. French is
+ * the site's default: anything unsupported lands on 'fr'.
+ */
 export function normalizeLocale(lng: string): Locale {
   const lower = lng.toLowerCase();
   if (lower.startsWith('zh')) {
@@ -45,7 +49,7 @@ export function normalizeLocale(lng: string): Locale {
   }
   const base = lower.split('-')[0];
   const hit = LOCALES.find((l) => l.toLowerCase() === lower || l.toLowerCase() === base);
-  return hit ?? 'en';
+  return hit ?? 'fr';
 }
 
 export function isRtl(locale: string): boolean {
@@ -79,10 +83,12 @@ export async function initI18n(): Promise<void> {
     })
     .init({
       supportedLngs: [...LOCALES],
-      fallbackLng: 'en',
+      fallbackLng: 'fr',
       load: 'currentOnly',
       interpolation: { escapeValue: false },
       detection: {
+        // First visit without ?lang: follow the browser language; unsupported
+        // languages land on French (the fallback everywhere in this module).
         order: ['querystring', 'localStorage', 'navigator'],
         lookupQuerystring: 'lang',
         lookupLocalStorage: 'lang',

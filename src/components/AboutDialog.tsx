@@ -27,6 +27,12 @@ export default function AboutDialog({ onClose }: AboutDialogProps) {
         <h3 className={styles.sectionTitle}>{t('about.dataSources')}</h3>
         <p className={styles.text}>{t('about.dataSourcesBody')}</p>
         <p className={styles.disclaimer}>{t('about.disclaimer')}</p>
+        <p className={styles.author}>
+          {t('about.author')}{' '}
+          <a href="https://github.com/tomchen" target="_blank" rel="noopener noreferrer">
+            Tom Chen
+          </a>
+        </p>
         <p className={styles.links}>
           <a
             href="https://github.com/travel-eu/free-museums-paris"

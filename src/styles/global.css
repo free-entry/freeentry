@@ -1,21 +1,23 @@
-/* Design tokens — "enamel plaque" chrome: quiet Paris-blue UI so the
- * category-colored data layer stays the loudest thing on screen.
+/* Design tokens — "sunny poster" chrome: bright Paris-sky blues and clean
+ * light surfaces, so the whole app reads like a museum poster on a clear day
+ * while the category-colored data layer stays the loudest thing on screen.
  * Dark theme overrides via prefers-color-scheme. */
 :root {
-  --color-bg: #fbfaf8;
+  --color-bg: #f8fbfe;
   --color-bg-raised: #ffffff;
-  --color-bg-sunken: #f1efeb;
-  --color-text: #20242c;
-  --color-text-muted: #5c6470;
-  --color-border: #dcdcd4;
-  --color-accent: #1d4e79;
-  --color-accent-strong: #163c5d;
-  --color-accent-soft: #e3ecf4;
+  --color-bg-sunken: #eaf2fa;
+  --color-text: #17212e;
+  --color-text-muted: #54657b;
+  --color-border: #d2dfec;
+  --color-accent: #1266d3;
+  --color-accent-strong: #0d53ad;
+  --color-accent-soft: #e3efff;
   --color-accent-contrast: #ffffff;
-  --color-positive: #00694d;
-  --color-focus: #b3542e;
-  --shadow-raised: 0 2px 10px rgb(16 32 48 / 0.14);
-  --shadow-floating: 0 6px 24px rgb(16 32 48 / 0.18);
+  --color-positive: #00875f;
+  --color-warning: #c07a00;
+  --color-focus: #e8551f;
+  --shadow-raised: 0 2px 10px rgb(18 62 122 / 0.12);
+  --shadow-floating: 0 6px 24px rgb(18 62 122 / 0.16);
   --radius: 10px;
   --radius-small: 6px;
   --header-height: 3.5rem;
@@ -33,18 +35,19 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-bg: #14181f;
-    --color-bg-raised: #1c222b;
-    --color-bg-sunken: #10141a;
-    --color-text: #e8ebee;
-    --color-text-muted: #a3adb8;
-    --color-border: #333c47;
-    --color-accent: #79aed9;
-    --color-accent-strong: #a4c8e8;
-    --color-accent-soft: #22344a;
-    --color-accent-contrast: #0f1723;
-    --color-positive: #43c59e;
-    --color-focus: #e08c5a;
+    --color-bg: #0f1726;
+    --color-bg-raised: #172236;
+    --color-bg-sunken: #0b111d;
+    --color-text: #ecf2fa;
+    --color-text-muted: #9fb2c8;
+    --color-border: #2c3d55;
+    --color-accent: #6db0ff;
+    --color-accent-strong: #93c5ff;
+    --color-accent-soft: #1c3050;
+    --color-accent-contrast: #0a1526;
+    --color-positive: #35d99d;
+    --color-warning: #f5b342;
+    --color-focus: #ff9a62;
     --shadow-raised: 0 2px 10px rgb(0 0 0 / 0.5);
     --shadow-floating: 0 6px 24px rgb(0 0 0 / 0.6);
   }
@@ -68,6 +71,9 @@ body {
   background: var(--color-bg);
   color: var(--color-text);
   overscroll-behavior-y: none;
+  /* CJK↔Latin/digit spacing is rendered, not typed — the zh/ja strings carry
+   * no literal spaces at those boundaries. */
+  text-autospace: normal;
 }
 
 :focus-visible {

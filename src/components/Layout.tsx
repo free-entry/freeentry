@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useAppState } from '@/state/AppState';
 import { useIsWide } from '@/lib/useMediaQuery';
+import DocumentMeta from './DocumentMeta';
 import Header from './Header';
 import MapView from './MapView';
 import MuseumList from './MuseumList';
@@ -34,6 +35,7 @@ export default function Layout() {
 
   return (
     <div className={styles.shell}>
+      <DocumentMeta />
       <a href="#results" className={styles.skipLink}>
         {t('app.skipToList')}
       </a>

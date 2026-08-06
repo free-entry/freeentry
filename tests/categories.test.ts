@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import type { FreeRule, Museum } from '@/lib/types';
-import { CATEGORY_COLORS, CATEGORY_ORDER, deriveCategory } from '@/lib/categories';
+import { CATEGORY_COLORS, CATEGORY_ORDER, deriveCategories, deriveCategory } from '@/lib/categories';
 
 const SOURCE = { url: 'https://example.org', checkedAt: '2026-08-06' };
 
@@ -24,6 +24,21 @@ const firstSunday: FreeRule = { kind: 'nth-weekday', nth: 1, weekday: 'sunday', 
 describe('deriveCategory', () => {
   it('always wins over first-sunday', () => {
     expect(deriveCategory(museum([always, firstSunday]))).toBe('always');
+  });
+  it('classifies 14 July as its own category', () => {
+    expect(deriveCategory(museum([{ kind: 'annual-date', date: '07-14', source: SOURCE }]))).toBe(
+      'july-14',
+    );
+  });
+  it('derives every category a rule set covers, in precedence order', () => {
+    const louvre = museum([
+      { kind: 'nth-weekday', nth: 1, weekday: 'friday', evening: true, source: SOURCE },
+      { kind: 'annual-date', date: '07-14', source: SOURCE },
+      { kind: 'always', audience: 'under-26-eu', source: SOURCE },
+    ]);
+    expect(deriveCategories(louvre)).toEqual(['nocturne', 'july-14', 'under-26-only']);
+    expect(deriveCategory(louvre)).toBe('nocturne');
+    expect(deriveCategories(museum([]))).toEqual(['none']);
   });
   it('classifies plain first-sunday', () => {
     expect(deriveCategory(museum([firstSunday]))).toBe('first-sunday');
@@ -52,11 +67,11 @@ describe('deriveCategory', () => {
       ),
     ).toBe('nocturne');
   });
-  it('classifies event/annual-date only museums as special-days', () => {
+  it('classifies event/other-annual-date only museums as special-days', () => {
     expect(
       deriveCategory(
         museum([
-          { kind: 'annual-date', date: '07-14', source: SOURCE },
+          { kind: 'annual-date', date: '05-08', source: SOURCE },
           { kind: 'event', event: 'heritage-days', source: SOURCE },
         ]),
       ),
@@ -72,7 +87,7 @@ describe('deriveCategory', () => {
 
 describe('category metadata', () => {
   it('orders and colors every category', () => {
-    expect(CATEGORY_ORDER).toHaveLength(9);
+    expect(CATEGORY_ORDER).toHaveLength(10);
     for (const c of CATEGORY_ORDER) {
       expect(CATEGORY_COLORS[c]).toMatch(/^#[0-9a-fA-F]{6}$/);
     }

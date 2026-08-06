@@ -11,6 +11,7 @@ export type Category =
   | 'first-sunday-low-season'
   | 'first-saturday'
   | 'nocturne'
+  | 'july-14'
   | 'special-days'
   | 'under-26-only'
   | 'none';
@@ -22,26 +23,28 @@ export const CATEGORY_ORDER: Category[] = [
   'first-sunday-low-season',
   'first-saturday',
   'nocturne',
+  'july-14',
   'special-days',
   'under-26-only',
   'none',
 ];
 
 /**
- * Colorblind-aware palette (Okabe–Ito based). Verified for contrast against
- * the map background in the a11y audit; categories are never encoded by
- * color alone (badges carry text).
+ * Colorblind-aware palette (Okabe–Ito hue relationships, brightened for the
+ * "sunny poster" theme). Categories are never encoded by color alone (badges
+ * carry text); colors appear as outlined dots and edge accents.
  */
 export const CATEGORY_COLORS: Record<Category, string> = {
-  always: '#009E73',
-  'first-sunday': '#0072B2',
-  'first-sunday-booking': '#56B4E9',
-  'first-sunday-low-season': '#5D3A9B',
-  'first-saturday': '#E69F00',
-  nocturne: '#A03A68',
-  'special-days': '#CC79A7',
-  'under-26-only': '#D55E00',
-  none: '#8D99A6',
+  always: '#00ba7c',
+  'first-sunday': '#0b84d8',
+  'first-sunday-booking': '#64c7f2',
+  'first-sunday-low-season': '#8256d0',
+  'first-saturday': '#f2a900',
+  nocturne: '#ba4fa0',
+  'july-14': '#e23a3a',
+  'special-days': '#f48fb9',
+  'under-26-only': '#e8590c',
+  none: '#9aa7b4',
 };
 
 /** The filter-chip category a single rule belongs to. */
@@ -61,18 +64,25 @@ export function ruleCategory(rule: FreeRule): Category {
       }
       if (rule.weekday === 'saturday') return 'first-saturday';
       return 'special-days';
-    case 'event':
     case 'annual-date':
+      return rule.date === '07-14' ? 'july-14' : 'special-days';
+    case 'event':
       return 'special-days';
   }
 }
 
-/** Museum-level category: the highest-precedence category among its rules. */
+/**
+ * Every category a museum's rules cover, in precedence order. Drives the
+ * badge row — a museum with a nocturne, a 14 July rule and an under-26
+ * scheme wears all three.
+ */
+export function deriveCategories(museum: Museum): Category[] {
+  if (museum.freeAccess.length === 0) return ['none'];
+  const present = new Set(museum.freeAccess.map(ruleCategory));
+  return CATEGORY_ORDER.filter((c) => present.has(c));
+}
+
+/** Museum-level primary category (marker color, legend): highest precedence. */
 export function deriveCategory(museum: Museum): Category {
-  if (museum.freeAccess.length === 0) return 'none';
-  let best = CATEGORY_ORDER.length - 1;
-  for (const rule of museum.freeAccess) {
-    best = Math.min(best, CATEGORY_ORDER.indexOf(ruleCategory(rule)));
-  }
-  return CATEGORY_ORDER[best];
+  return deriveCategories(museum)[0];
 }

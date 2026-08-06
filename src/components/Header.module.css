@@ -88,10 +88,13 @@
 }
 
 .aboutButton {
+  display: inline-grid;
+  place-items: center;
   font: inherit;
   font-size: 1.05rem;
   line-height: 1;
   color: inherit;
+  text-decoration: none;
   background: none;
   border: none;
   border-radius: 50%;
@@ -99,6 +102,16 @@
   block-size: 1.9rem;
   cursor: pointer;
   flex-shrink: 0;
+}
+
+.githubIcon {
+  inline-size: 1.15rem;
+  block-size: 1.15rem;
+}
+
+.infoIcon {
+  inline-size: 1.15rem;
+  block-size: 1.15rem;
 }
 
 .aboutButton:hover {

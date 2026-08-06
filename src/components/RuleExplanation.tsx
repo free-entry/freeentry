@@ -8,7 +8,7 @@ import styles from './RuleExplanation.module.css';
 /** One free-access rule as a plain-language sentence in the user's locale. */
 export default function RuleExplanation({ rule }: { rule: FreeRule }) {
   const { t, i18n } = useTranslation();
-  const { ctx, today } = useAppState();
+  const { ctx, notes, today } = useAppState();
   const locale = i18n.language;
 
   let sentence = '';
@@ -58,10 +58,15 @@ export default function RuleExplanation({ rule }: { rule: FreeRule }) {
     }
   }
 
+  // A note flagged as the rule's own, more detailed wording replaces the
+  // generated sentence instead of trailing it.
+  const localizedNote = rule.note ? notes[rule.note] ?? rule.note : undefined;
+  const replacing = rule.noteReplacesSentence === true && localizedNote !== undefined;
+
   return (
     <li className={styles.rule}>
       <span className={styles.sentence}>
-        {sentence}
+        {replacing ? localizedNote : sentence}
         {eventNext && (
           <span className={styles.next}>
             {' '}
@@ -83,7 +88,7 @@ export default function RuleExplanation({ rule }: { rule: FreeRule }) {
           )}
         </span>
       )}
-      {rule.note && <span className={styles.note}>{rule.note}</span>}
+      {localizedNote && !replacing && <span className={styles.note}>{localizedNote}</span>}
     </li>
   );
 }
