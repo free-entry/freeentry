@@ -44,25 +44,32 @@ export const CATEGORY_COLORS: Record<Category, string> = {
   none: '#8D99A6',
 };
 
-function forEveryone(rule: FreeRule): boolean {
-  return (rule.audience ?? 'everyone') === 'everyone';
+/** The filter-chip category a single rule belongs to. */
+export function ruleCategory(rule: FreeRule): Category {
+  if ((rule.audience ?? 'everyone') !== 'everyone') return 'under-26-only';
+  switch (rule.kind) {
+    case 'always':
+      return 'always';
+    case 'nth-weekday':
+      if (rule.evening) return 'nocturne';
+      if (rule.weekday === 'sunday') {
+        if (rule.months) return 'first-sunday-low-season';
+        return rule.reservationRequired ? 'first-sunday-booking' : 'first-sunday';
+      }
+      if (rule.weekday === 'saturday') return 'first-saturday';
+      return 'special-days';
+    case 'event':
+    case 'annual-date':
+      return 'special-days';
+  }
 }
 
+/** Museum-level category: the highest-precedence category among its rules. */
 export function deriveCategory(museum: Museum): Category {
-  const rules = museum.freeAccess;
-  if (rules.length === 0) return 'none';
-
-  const everyone = rules.filter(forEveryone);
-  if (everyone.some((r) => r.kind === 'always')) return 'always';
-
-  const daytime = everyone.filter((r) => r.kind === 'nth-weekday' && !r.evening);
-  const sundays = daytime.filter((r) => r.weekday === 'sunday');
-  if (sundays.some((r) => !r.months && !r.reservationRequired)) return 'first-sunday';
-  if (sundays.some((r) => !r.months && r.reservationRequired)) return 'first-sunday-booking';
-  if (sundays.length > 0) return 'first-sunday-low-season';
-  if (daytime.some((r) => r.weekday === 'saturday')) return 'first-saturday';
-
-  if (everyone.some((r) => r.kind === 'nth-weekday' && r.evening)) return 'nocturne';
-  if (everyone.some((r) => r.kind === 'event' || r.kind === 'annual-date')) return 'special-days';
-  return 'under-26-only';
+  if (museum.freeAccess.length === 0) return 'none';
+  let best = CATEGORY_ORDER.length - 1;
+  for (const rule of museum.freeAccess) {
+    best = Math.min(best, CATEGORY_ORDER.indexOf(ruleCategory(rule)));
+  }
+  return CATEGORY_ORDER[best];
 }
