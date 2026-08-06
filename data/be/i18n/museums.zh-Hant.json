@@ -1,0 +1,842 @@
+{
+ "africa-museum": {
+  "name": "中非皇家博物館（AfricaMuseum）",
+  "description": "位於特爾菲倫的皇家博物館，由建築師Charles Girault於1905年至1910年間興建，採用取法小皇宮的布雜藝術風格，源自利奧波德二世1897年舉辦的殖民博覽會。1960年由比屬剛果博物館更名而來，館藏涵蓋中非地區浩瀚的自然史、民族誌與檔案文獻，並於2018年在一次直面博物館殖民歷史的整修後重新開放。"
+ },
+ "anciens-abattoirs-de-mons": {
+  "name": "蒙斯舊屠宰場",
+  "description": "蒙斯的市立舊屠宰場建築，改建為展覽空間，屬於該市博物館與文化遺產網絡的一部分，用於舉辦臨時展覽。"
+ },
+ "aquarium-museum-de-liege": {
+  "name": "列日水族館博物館",
+  "description": "列日大學的水族館暨自然史博物館，1962年於動物學研究所內開幕。館內約40個水槽展示約200種淡水與海水生物，並陳列一具長19公尺的長鬚鯨骨骼；2017年增設的TréZOOr展廳則展示歷史悠久的動物學藏品，包括Blaschka玻璃模型。"
+ },
+ "archeoforum-de-liege": {
+  "name": "列日Archéoforum",
+  "description": "位於列日聖蘭伯特廣場地下的考古遺址，2003年於昔日聖母與聖蘭伯特主教座堂原址開放。遺址完整呈現此地自史前時代以來的連續居住史，歷經高盧羅馬別墅、墨洛溫時期教堂及歷代中世紀主教座堂，並包含一套羅馬地暖系統。"
+ },
+ "archeosite-et-musee-d-aubechies-bel-il": {
+  "name": "奧貝希考古遺址暨博物館",
+  "description": "位於奧貝希的露天考古公園，1983年由業餘考古學家Léonce Demarez創立，重建了新石器時代至鐵器時代的民居與工坊，並設有一座高盧羅馬別墅與神廟。2013年擴建的CICCA館展示區域考古發掘的出土文物，包括一尊瑪爾斯（Mars）青銅小雕像。"
+ },
+ "art-et-marges-museum": {
+  "name": "Art et Marges博物館",
+  "description": "位於布魯塞爾馬羅勒（Marolles）區的博物館，專門展示原生藝術（art brut）與局外人藝術，1984年以Art en Marge研究中心之名創立，2009年取得博物館地位。館藏逾4,500件作品，聚焦自學藝術家與出身精神病院的創作者，透過輪替的主題展覽呈現。"
+ },
+ "art-history-museum": {
+  "name": "藝術與歷史博物館",
+  "description": "位於布魯塞爾五十週年紀念公園內的博物館，1905年在1847年創立的皇家藝術與歷史博物館旗下開幕，1946年火災後重建，2018年由五十週年博物館更名而來。館內四個部門分別涵蓋古代文明、非歐洲文明、國家考古學與歐洲裝飾藝術，館藏逾11,000件埃及文物，以及保羅·畢戈（Paul Bigot）製作的古羅馬石膏模型。"
+ },
+ "artotheque": {
+  "name": "蒙斯藝術租借圖書館（Artothèque）",
+  "description": "蒙斯的藝術租借圖書館，讓民眾得以像借閱圖書一樣，借出原創藝術作品，並舉辦圍繞當代藝術的展覽與推廣活動，隸屬該市博物館網絡。"
+ },
+ "bastogne-barracks": {
+  "name": "巴斯托涅軍營",
+  "description": "由比利時軍方經營的軍事史遺址，位於巴斯托涅昔日的海因茨軍營（Heintz barracks）原址，1944年12月突出部之役期間，該地曾是安東尼·麥考利夫（Anthony McAuliffe）將軍的指揮部；據傳他在此以一句挑釁的「Nuts!」回應德軍的投降要求。地下掩體與一座車輛修復展廳陳列圍城期間的裝甲車、武器與裝備。"
+ },
+ "belexpo": {
+  "name": "BELEXPO",
+  "description": "位於布魯塞爾的互動展覽，鎖定10至16歲的年輕觀眾，透過750平方公尺內的動手體驗裝置，探討污染、交通壅塞與廢棄物等城市環境議題，並介紹具體的氣候行動方案。"
+ },
+ "belfort": {
+  "name": "布魯日鐘樓",
+  "description": "聳立於布魯日市集廣場呢絨廳（Cloth Hall）上方的鐘樓，最初的木造塔樓於1280年遭焚毀，其後動工重建，1482年至1486年間完成布拉班特哥德式風格的八角形白石頂層。塔高83公尺，略為傾斜，遊客可沿366級台階登頂，塔內設有一套由Joris Dumery在1741年火災後鑄造、共47口鐘的鐘琴。"
+ },
+ "belvue-museum": {
+  "name": "BELvue博物館",
+  "description": "布魯塞爾的比利時歷史博物館，2005年於Hôtel Belle-Vue內開幕；該建築1776年落成為豪華旅館，1905年至1934年間曾作為利奧波德二世的王室居所。九間展廳透過文件、實物與影音見證，回顧國家自1830年以來的歷史，地下通道則通往1731年遭大火焚毀的舊庫登堡宮（Coudenberg Palace）遺跡。"
+ },
+ "bps22-musee-d-art-de-la-province-du-hainaut": {
+  "name": "BPS22－埃諾省藝術博物館",
+  "description": "位於沙勒羅瓦的當代藝術博物館，坐落於建築師Gabriel Devreux為1911年博覽會設計的新古典主義建築內，該建築其後曾作技術學校工坊與倉庫使用，2000年改為藝術空間，2015年取得博物館地位。2014年至2015年間整修，將展覽空間擴大至2,500平方公尺，館內展出埃諾省收藏、自十九世紀末至今的藝術作品。"
+ },
+ "carwash-by-medexmuseum": {
+  "name": "CARWASH by MedexMuseum",
+  "description": "由MedexMuseum在伊克塞爾（Ixelles）一座舊洗車場內經營的展覽空間，透過不斷更新的展覽與工作坊，呈現當代藝術、插畫與詩作。"
+ },
+ "centre-albert-marinus-musee-de-woluwe": {
+  "name": "阿爾貝·馬里努斯中心－沃呂韋博物館",
+  "description": "位於沃呂韋-聖蘭伯特（Woluwe-Saint-Lambert）的博物館，1980年落成，館藏核心為國際知名的比利時民俗學家、社會學家暨作家阿爾貝·馬里努斯（Albert Marinus，1886-1979）所遺贈的圖書館及攝影、影片檔案；該中心並擁有聯合國教科文組織非物質文化遺產諮詢地位，經常舉辦地方文化遺產展覽。"
+ },
+ "centre-archeologique-de-la-grotte-scladina": {
+  "name": "斯克拉迪納洞穴考古中心",
+  "description": "位於安登（Andenne）附近斯克萊恩（Sclayn）的斯克拉迪納洞穴考古中心，考古學家於1993年7月16日在此發現一具年幼尼安德塔人的遺骸，即「斯克萊恩之子」，年代約為12.7萬年前。洞穴內逾120層沉積層的發掘工作仍在持續，橫跨逾10萬年的居住史；該遺址也是比利時唯一常年對外開放的公開考古發掘現場。"
+ },
+ "centre-d-art-contemporain-du-luxembourg-belge-caclb": {
+  "name": "比利時盧森堡省當代藝術中心（CACLB）",
+  "description": "位於埃塔勒（Étalle）蒙托邦-比澤諾（Montauban-Buzenol）的當代藝術中心，自2007年起坐落於現址，園區結合考古遺跡、文化遺產與自然景觀。其展場包括由四個貨櫃改建而成的René Greisch空間、建於1839年的鍛造事務所（Bureau des Forges），以及展示當地出土雕刻石塊的石雕博物館（Musée Lapidaire）。"
+ },
+ "centre-d-art-du-mont-de-piete-espace-freddy-thielemans": {
+  "name": "Mont-de-Piété藝術中心－Espace Freddy Thielemans",
+  "description": "由布魯塞爾Mont-de-Piété經營的免費當代藝術畫廊；Mont-de-Piété是一家已營運逾400年的公立當舖機構，此畫廊為其典當放款與拍賣業務之外的附屬空間，Freddy Thielemans展廳全年舉辦輪替展覽。"
+ },
+ "centre-d-interpretation-de-la-pierre-cip": {
+  "name": "石材詮釋中心（CIP）",
+  "description": "位於斯普里蒙（Sprimont）的博物館，設於1905年建造的舊發電廠內，透過地質學、化石與採石工藝的互動展示，探討當地小花崗岩（petit granit，一種藍灰色石灰岩）開採的歷史；館外設有露天雕塑公園，並自1994年起舉辦年度石雕節。"
+ },
+ "centre-daily-bul-c": {
+  "name": "Daily-Bul & C°中心",
+  "description": "位於拉盧維耶爾（La Louvière）的檔案暨展覽中心，專門介紹1957年由André Balthazar與Pol Bury在當地創立的超現實主義刊物暨出版社Daily-Bul；該刊物共發行14期，刊載Christian Dotremont、Pierre Alechinsky與Folon等藝術家的作品，並於1965年至1979年間出版62冊名為《Poquettes volantes》的口袋書系列。"
+ },
+ "centre-de-la-gravure-et-de-l-image-imprimee": {
+  "name": "版畫與印刷影像中心",
+  "description": "拉盧維耶爾的博物館暨藝術中心，由瓦隆-布魯塞爾聯邦政府經營，專注於版畫與印刷影像，舉辦輪替展覽並設有文獻中心，同時頒發雙年版畫獎。"
+ },
+ "centre-marcel-marlier": {
+  "name": "馬塞爾·馬利耶中心",
+  "description": "位於穆斯克龍（Mouscron）伯爵城堡（Château des Comtes）附樓的博物館，紀念插畫家馬塞爾·馬利耶（Marcel Marlier，1930-2011）；他生於附近的埃爾索（Herseaux），自1954年起與作家Gilbert Delahaye共同創作童書系列《Martine》，繪製約60部作品，全球銷量達數千萬冊。中心展示他的原始草圖與畫作。"
+ },
+ "centre-wallon-d-art-contemporain-la-chataigneraie": {
+  "name": "瓦隆當代藝術中心－La Châtaigneraie",
+  "description": "位於弗萊馬勒（Flémalle，Ivoz-Ramet）的當代藝術中心，舉辦臨時展覽，並設有圖書館、書店、藝術家工作室與駐村計畫，同時頒發年輕雕塑獎（Prix de la Jeune Sculpture）。"
+ },
+ "cid-grand-hornu": {
+  "name": "CID－Grand-Hornu",
+  "description": "位於蒙斯附近Grand-Hornu的舊礦業建築群，1810年至1832年間為實業家Henri De Gorge興建，由建築師François Obin與Bruno Renard設計，將採礦建築與425間工人住宅環繞一座新古典主義橢圓庭院結合而成。採礦作業於1954年停止，經修復的園區自2012年起列入聯合國教科文組織世界遺產名錄，現為Grand-Hornu設計與建築中心CID的所在地。"
+ },
+ "cinematek": {
+  "name": "Cinematek",
+  "description": "比利時國立電影資料館，位於布魯塞爾，1938年由Henri Storck、André Thirifays與Pierre Vermeylen創立，2009年起以Cinematek為名。館舍設於美術宮（Palais des Beaux-Arts），館藏約35,000部影片，另有照片、書籍與幻燈片，並每日放映館藏作品。"
+ },
+ "computer-museum-nam-ip": {
+  "name": "NAM-IP電腦博物館",
+  "description": "位於那慕爾（Namur）的博物館，專門介紹電腦與資訊科技的發展史，展示老式電腦、計算機及相關設備。"
+ },
+ "contretype": {
+  "name": "Contretype",
+  "description": "位於布魯塞爾聖吉爾（Saint-Gilles）的攝影中心，透過展覽及其扶植比利時與鄰國新銳攝影師的計畫archipel，支持當代攝影創作。"
+ },
+ "culture-art-et-patrimoine-cap": {
+  "name": "CAP－文化藝術與遺產",
+  "description": "位於蒙斯的展覽場地，隸屬於該市由十三座博物館與遺產景點組成、圍繞美術、紀念歷史與聯合國教科文組織登錄遺產而規劃的網絡，舉辦臨時展覽。"
+ },
+ "design-museum-brussels": {
+  "name": "Design Museum Brussels",
+  "description": "位於布魯塞爾海塞爾高地（Heysel）的博物館，2015年12月以Art & Design Atomium Museum之名開幕，2020年更名為Design Museum Brussels。其核心館藏為Philippe Decelle的Plasticarium收藏，約2,000件1960年至2000年的塑膠設計作品，2020年再增添以比利時現代與當代設計為主題的第二個常設收藏，展示於1975年落成的Trade Mart大樓內，其入口由建築師Jean Nouvel設計。"
+ },
+ "design-museum-gent": {
+  "name": "Design Museum Gent",
+  "description": "根特博物館，源起1903年，由當地實業家與藝術愛好者創立一批裝飾藝術收藏，其後遷入十八世紀的Hôtel de Coninck。建築師Willy Verstraete設計的現代擴建於1992年落成，館內現藏約22,000件文物，涵蓋新藝術、應用藝術與比利時當代設計，包括Henry van de Velde的作品。"
+ },
+ "diva-museum-antwerpen": {
+  "name": "DIVA－安特衛普鑽石之家",
+  "description": "安特衛普鑽石、珠寶與金銀器博物館，2018年於Suikerrui一座1879年建築改建後開幕，前身為舊鑽石博物館與Sterckshof銀器博物館。館藏約2,500件，其中約650件於七間主題展廳展出，包括Pierre E. Lundens遺贈的96件銀器作品。"
+ },
+ "durbuy-history-art-museum-dham": {
+  "name": "DHAM－杜爾比歷史與藝術博物館",
+  "description": "位於杜爾比的博物館，設於一座受保護的歷史宅邸內，展示地方史，並在三層樓陳列逾100件當代藝術作品。"
+ },
+ "ecomusee-de-ben-ahin": {
+  "name": "Ben-Ahin生態博物館",
+  "description": "位於于伊（Huy）Ben-Ahin區的地方文化博物館，展示當地傳統的鄉村與手工藝生活。"
+ },
+ "ecomusee-du-viroin": {
+  "name": "Viroin生態博物館",
+  "description": "位於特雷涅（Treignes）的露天遺產博物館，1993年由布魯塞爾自由大學創立於一座經修復的農莊城堡內，其塔樓可追溯至十六世紀初。館內透過工具、家具、機械與口述歷史收藏，記錄十八至二十世紀Viroin河谷的農民生活與鄉村技藝。"
+ },
+ "espace-gallo-romain": {
+  "name": "阿特高盧羅馬博物館",
+  "description": "阿特的考古博物館，1997年成立，館藏主要建立於1975年在Pommerœul的發掘成果之上——Pommerœul是一處高盧羅馬時期的交通樞紐聚落，於蒙斯－孔代運河開鑿工程中出土。館內最引人矚目的藏品，是當地發現的五艘古代船隻，包括一艘獨木舟與兩艘凱爾特傳統駁船，其中一艘陳列於恆溫恆濕的雙層展櫃中。"
+ },
+ "espace-museal-d-andenne-ema-le-phare": {
+  "name": "安登博物館空間（EMA－Le Phare）",
+  "description": "位於安登的博物館，設於Le Phare大樓內，展出鄰近Scladina洞穴的考古發現，包括別稱「斯克萊恩之子」（Child of Sclayn）的化石遺骸，以及當地悠久的陶瓷傳統。"
+ },
+ "espace-museal-emile-verhaeren": {
+  "name": "埃米爾·凡爾哈倫博物館空間",
+  "description": "位於Honnelles魯瓦贊（Roisin）的博物館空間，紀念詩人Émile Verhaeren（1855-1916），比利時象徵主義代表人物；他長年居留於附近的Caillou-qui-Bique莊園，該地啟發了他大部分的詩作，館內展出與其生平及創作相關的文獻與遺物。"
+ },
+ "experience-europe": {
+  "name": "體驗歐洲",
+  "description": "位於布魯塞爾舒曼圓環附近，由歐洲委員會經營的互動遊客中心，訪客可透過遊戲與互動活動了解歐洲委員會的運作方式，並認識歐盟相關內容，所有內容均提供歐盟24種官方語言版本。"
+ },
+ "famenne-art-museum-fam": {
+  "name": "FAM－法梅訥藝術博物館",
+  "description": "位於馬爾什昂法梅訥（Marche-en-Famenne）的博物館，設於一座受保護的十七、十八世紀市鎮宅邸內，展出從史前至今的文物，包括珠寶、蕾絲與雕塑，以及超現實主義畫家Fernand Poncelet等地方藝術家的作品。"
+ },
+ "fashion-lace-museum": {
+  "name": "時尚與蕾絲博物館",
+  "description": "位於布魯塞爾市中心的博物館，1977年開幕，由布魯塞爾市政府經營，館藏聚焦於服裝，尤以宗教禮儀服飾見長，並收藏古董及當代蕾絲，透過常設展與臨時展呈現。"
+ },
+ "fomu-fotomuseum-antwerpen": {
+  "name": "FOMU－安特衛普攝影博物館",
+  "description": "位於安特衛普、以攝影作為藝術形式為主題的博物館，自1986年起設於Waalsekaai一座舊倉庫內，2004年經建築師Georges Baines與Patrick De Sterck設計的大規模擴建後重新開放。館方通稱FoMu，並與安特衛普當代美術館合作規劃電影放映活動。"
+ },
+ "forge-musee": {
+  "name": "伊特爾鍛造博物館",
+  "description": "位於伊特爾（Ittre）的小型博物館，主題為傳統鍛造工藝與當地的打鐵行業。"
+ },
+ "fort-et-memorial-de-huy": {
+  "name": "于伊要塞紀念館",
+  "description": "俯瞰默茲河畔于伊的要塞，1818年至1823年間在尼德蘭國王威廉一世治下建成，是威靈頓防線的一部分，建於舊于伊城堡的舊址之上。第一次世界大戰期間曾被德軍用作懲戒營，1940年至1945年間則作為拘留與轉運中心，關押逾6,500名政治犯與人質；自1992年起，館內設有抵抗運動與集中營博物館。"
+ },
+ "fourneau-saint-michel": {
+  "name": "聖米歇爾熔爐",
+  "description": "位於聖于貝爾（Saint-Hubert）附近的露天博物館，1771年由聖于貝爾修道院末代院長Nicolas Spirlet創立，最初以Masblette溪水為動力的鍊鐵廠與鍛造坊形式運作；1797年修道院產業被沒收出售後，改由實業家Léopold Zoude經營為鑄造廠。自1977年起，這片80公頃的園區結合了鐵器與早期冶金博物館，以及一座匯集阿登各地鄉村建築的露天博物館。"
+ },
+ "garderobe-mannekenpis": {
+  "name": "GardeRobe MannekenPis",
+  "description": "位於布魯塞爾市中心的博物館，展出數個世紀以來獻給「尿尿小童」（Manneken-Pis）雕像的逾1,000件服裝，此一傳統可追溯至1755年，當年Henri Wauters成為已知最早的官方雕像「穿衣師」。"
+ },
+ "grand-curtius": {
+  "name": "Grand Curtius博物館",
+  "description": "位於列日的博物館建築群，2009年3月開幕，整合了五個舊有收藏，主題涵蓋考古與裝飾藝術、宗教藝術與默茲藝術、兵器、玻璃與埃及學。館舍分布於四座歷史建築內，包括1597年至1605年間為商人Jean Curtius興建的Palais Curtius，館藏逾100,000件文物，橫跨7,000年歷史，其中包括在恩吉斯（Engis）發現的尼安德塔人頭骨，以及約10,000件玻璃器物。"
+ },
+ "gravensteen": {
+  "name": "根特伯爵城堡",
+  "description": "根特的中世紀城堡，1180年由阿爾薩斯的腓力伯爵建於九、十世紀舊防禦工事的遺址之上，十四世紀前曾為法蘭德斯伯爵的居所，其後充作監獄，十八世紀末更成為棉紡廠。1885年根特市購入後，城堡免於拆除並獲得修復，如今展示古代兵器、盔甲與一間刑求室。"
+ },
+ "gum-gents-universiteitsmuseum": {
+  "name": "GUM－根特大學博物館",
+  "description": "根特大學博物館，2020年於Ledeganck校區開幕，館藏承襲自1817年的學術收藏——當年尼德蘭國王威廉一世將文物贈予該校。館內收藏逾400,000件文物，涵蓋醫學、考古學、民族誌與科學史，並與毗鄰、擁有約10,000種植物的植物園相互輝映。"
+ },
+ "hexapoda-insectarium-jean-leclercq": {
+  "name": "Hexapoda－讓·勒克萊爾克昆蟲館",
+  "description": "位於瓦雷姆的昆蟲館，以比利時昆蟲學家Jean Leclercq命名，展示活體與製成標本的昆蟲及其他節肢動物。"
+ },
+ "hopital-notre-dame-a-la-rose": {
+  "name": "玫瑰聖母醫院",
+  "description": "醫院於1242年由萊西訥當地領主Arnould IV d'Audenarde的遺孀Alix de Rosoit在萊西訥創立，並自1246年起交由奧斯定會修女管理。十六至十八世紀間擴建為現今的矩形合院格局，融合法蘭德斯文藝復興與晚期哥德風格；醫院運作至1980年代，如今在二十個展間內展出醫療器械、藥學收藏，以及一座巴洛克式禮拜堂。"
+ },
+ "horta-museum": {
+  "name": "奧塔博物館",
+  "description": "建築師維克多·奧塔（Victor Horta）位於聖吉爾的故居與工作室，1898年至1901年間建成，由兩座內部相通的建築組成，是新藝術運動的代表作，中央樓梯由大型天窗採光，馬賽克鑲嵌自地面延伸至門把。建築於1963年列為受保護古蹟，1969年闢為博物館，2000年與奧塔其他重要的市區住宅一同列入聯合國教科文組織世界遺產名錄。"
+ },
+ "huis-van-alijn": {
+  "name": "阿萊恩之家",
+  "description": "根特的日常生活博物館，1962年設立於一座建於十四世紀下半葉、由Rijm家族所建的濟貧院內；該家族因一樁滅門血案而需贖罪，遂收容十八名年邁婦女於此，直至1863年最後住客遷出。1941年根特市購入後將其修復，圍繞庭院而建的十八間小屋，加上1543年增建的文藝復興式禮拜堂，如今透過與出生、節慶、宗教及行業相關的收藏，呈現1900年前後的城市平民生活。"
+ },
+ "ikob-musee-d-art-contemporain-d-eupen": {
+  "name": "IKOB－當代藝術博物館",
+  "description": "位於歐本的當代藝術博物館，1993年2月16日由Francis Feidler與德語社群政府共同創立，初名比利時東部國際藝術中心，2005年更名為IKOB。自1999年起遷入一座改建自倉庫的建築內，正對該鎮的舊屠宰場，館藏逾400件比利時、荷蘭、法國、盧森堡與德國藝術家的作品。"
+ },
+ "industriemuseum": {
+  "name": "根特工業博物館",
+  "description": "根特工業遺產博物館，1976年成立，1990年起設於Desmet-Guéquier紡織廠內，該廠仿照曼徹斯特棉紡工廠模式，建於1905年至1912年間。館內共五層樓，以Liévin Bauwels於1798年走私至歐陸的走錠精紡機（mule-jenny）為核心，追溯這座城市從中世紀羊毛生產到亞麻與棉紡織業的演變歷程。"
+ },
+ "institute-of-natural-sciences": {
+  "name": "比利時自然科學博物館",
+  "description": "位於布魯塞爾的自然史博物館，1846年由皇家法令創立，自1891年起設於利奧波德公園；隸屬比利時皇家自然科學研究所，館藏約3800萬件標本，包括1878年在貝尼薩特出土的禽龍骨骼，現陳列於2007年開幕、全球最大的恐龍展廳中。"
+ },
+ "jewish-museum-of-belgium": {
+  "name": "比利時猶太博物館",
+  "description": "布魯塞爾一座以猶太歷史、宗教與文化為主題的博物館，2005年開幕，設於一座建於1901至1902年間的舊德國學校內；館藏包括約750件禮儀用品、1,250件藝術品及20,000張照片。2014年5月，該館曾發生一起造成四人死亡的恐怖攻擊。"
+ },
+ "kbr-museum": {
+  "name": "KBR博物館",
+  "description": "比利時皇家圖書館（KBR）位於布魯塞爾的博物館，2020年圍繞舊拿騷禮拜堂開幕；館內展出勃艮第公爵的藏書，約35,000份手稿，其中包括4,500部由Willem Vrelant、Simon Marmion等藝術家繪製插圖的中世紀泥金寫本，另有同時代的繪畫、雕塑與日常器物。"
+ },
+ "keramis-centre-de-la-ceramique": {
+  "name": "Keramis－陶瓷中心",
+  "description": "位於拉盧維耶爾的陶瓷博物館兼文化中心，坐落於Boch Frères Keramis舊陶器廠址，鄰近保存下來的瓶形窯爐；館內展出該市的陶瓷收藏，並自2015年起持續納入當代作品，同時舉辦展覽、工作坊與藝術家駐村計畫。"
+ },
+ "kina": {
+  "name": "Kina",
+  "description": "根特一座以兒童、自然與科學為主題的博物館，分設兩處場館——聖彼得廣場附近的「Huis」（館舍）與貝勞街的「Tuin」（花園）——讓年輕訪客透過寓教於樂的互動體驗探索動物、化石與自然科學。"
+ },
+ "l-orangerie-espace-d-art-contemporain": {
+  "name": "L'Orangerie當代藝術空間",
+  "description": "巴斯托涅一座當代藝術中心，2010年以非營利組織形式成立，2024年底遷至該鎮歷史中心，與巴斯托涅文化中心及大阿登博物館共同構成一處「文化樞紐」；舉辦視覺與造型藝術展覽，免費入場。"
+ },
+ "la-boverie": {
+  "name": "La Boverie",
+  "description": "列日的美術博物館，2016年於1905年萬國博覽會舊美術宮翻修後重新開幕，坐落於La Boverie公園內5,000平方公尺的空間，收藏列日美術博物館約350件藏品，包括梵谷、莫內、高更、畢卡索與馬格利特的畫作。"
+ },
+ "la-cite-miroir": {
+  "name": "La Cité Miroir",
+  "description": "列日一座致力於公民意識、批判性思考與歷史記憶的文化暨紀念中心，設於Xavier Neujean廣場、原索夫尼耶爾公共浴場內；舉辦沉浸式展覽、辯論會與教育活動。"
+ },
+ "la-fonderie-musee-bruxellois-des-industries-et-du-travail": {
+  "name": "La Fonderie－布魯塞爾工業與勞動博物館",
+  "description": "布魯塞爾工業與勞動史博物館，設於莫倫貝克朗斯福爾街一座舊鑄造廠內；常設展「布魯塞爾製造」（Made in Brussels）透過機械設備與檔案，呈現這座城市的製造業歷史，館內並設有資料中心，提供工業遺產導覽行程。"
+ },
+ "la-maison-de-monsieur-sax": {
+  "name": "薩克斯先生之家",
+  "description": "迪南一座紀念薩克斯風發明者阿道夫·薩克斯（1814-1894）的詮釋中心，設於他的出生地；透過互動展項，訪客可聆聽各類薩克斯風的音色與演奏方式，亦是該鎮「Sax and the City」彩繪薩克斯風雕塑巡禮路線的一部分。"
+ },
+ "la-mediatine": {
+  "name": "La Médiatine",
+  "description": "沃呂韋－聖朗貝爾的展覽空間，隸屬於Wolubilis文化中心綜合體，用於舉辦臨時藝術展覽。"
+ },
+ "le-bois-du-cazier-musee-de-l-industrie-musee-du-verre": {
+  "name": "Bois du Cazier－工業博物館與玻璃博物館",
+  "description": "馬西內勒的舊煤礦，1956年8月8日發生礦難，造成262名礦工罹難，其中136人為義大利籍；2012年作為瓦隆主要礦區遺址之一，列入聯合國教科文組織世界遺產名錄。25公頃的園區內，舊礦工浴場現設有工業博物館與玻璃博物館，並設有紀念1956年礦難的紀念空間。"
+ },
+ "le-delta-espace-culturel-de-la-province-de-namur": {
+  "name": "Le Delta－那慕爾省文化空間",
+  "description": "那慕爾省立文化中心，由建築師Philippe Samyn設計，在三個可變式大廳與多個展覽空間內，舉辦涵蓋視覺藝術、音樂、舞蹈、戲劇與馬戲的跨領域節目，並提供藝術家駐村與教育工作坊。"
+ },
+ "le-jardin-de-sculptures": {
+  "name": "雕塑花園",
+  "description": "布魯塞爾首座永久性當代雕塑花園，占地兩公頃，位於沃呂韋－聖朗貝爾藥用植物園旁，展出Pierre Culot、Reinhoud Dodeigne等十位藝術家以青銅、鋼鐵、花崗岩、木材與磚砌成的作品，免費對外開放。"
+ },
+ "le-jardin-des-plantes-medicinales-paul-moens": {
+  "name": "Paul Moens藥用植物園",
+  "description": "UCLouvain沃呂韋－聖朗貝爾校區的藥用植物教學園，1975年由Moens教授創立；占地2.7公頃，園內共有約400塊種植區與120種藥用灌木，用於培訓藥學、醫學與營養學系學生，每年4月至10月對外開放。"
+ },
+ "le-pavillon": {
+  "name": "Le Pavillon",
+  "description": "那慕爾的數位文化場館，設於2015年米蘭世界博覽會比利時館舊址，2022年開幕；由數位文化機構KIKK營運，舉辦探索數位藝術與科技的展覽與工作坊，適合各年齡層。"
+ },
+ "les-bateliers-musees-archeologique-et-des-arts-decoratifs": {
+  "name": "Les Bateliers－考古與裝飾藝術博物館",
+  "description": "那慕爾市中心的雙館遺址，結合一座涵蓋史前至古代的考古博物館，以及一座設於十八世紀Groesbeeck-de Croix公館內的裝飾藝術博物館，展出十七至十九世紀的家具與器物。"
+ },
+ "les-halles-saint-gery": {
+  "name": "聖熱里市場",
+  "description": "布魯塞爾市中心的舊有頂棚市場，1881年至1882年間由建築師Adolphe Vanderheggen以法蘭德斯新文藝復興風格建成，坐落於已消失的聖熱里島舊址上；作為市場使用至1977年，1987年起列為受保護建築，如今這座金屬結構的市場大廳作為展覽與活動場地，自1999年起並設有文化遺產資訊中心。"
+ },
+ "letterenhuis": {
+  "name": "Letterenhuis",
+  "description": "安特衛普的文學檔案館暨博物館，致力於法蘭德斯文學生活，1933年成立，此後一直設於1840年落成的De Beukelaer公館內；館藏包括約200萬封信件與手稿、130,000張照片及40,000件圖像作品，記錄自1780年起的法蘭德斯作家。"
+ },
+ "mac-s-grand-hornu": {
+  "name": "MAC's（Grand-Hornu）",
+  "description": "位於Grand-Hornu的當代藝術博物館，前身是自1816年起為實業家Henri De Gorge興建的舊煤礦，1831年由建築師Bruno Renard以新古典主義風格完成；2012年作為瓦隆主要礦區遺址之一，列入聯合國教科文組織世界遺產名錄，經修復的工程師樓自2002年起設有瓦隆－布魯塞爾聯合體的當代藝術博物館。"
+ },
+ "magasin-de-papier": {
+  "name": "Magasin de Papier",
+  "description": "蒙斯的展覽場地，隸屬於該市的博物館網絡（Pôle muséal de Mons），用於舉辦臨時展覽，包括ARTS²藝術學院的展覽。"
+ },
+ "magritte-museum": {
+  "name": "馬格利特博物館",
+  "description": "紀念勒內·馬格利特的博物館，2009年於布魯塞爾王室廣場一座十八世紀末的洛托公館內開幕，由比利時皇家美術博物館管理；館內展出逾150件作品——油畫、水粉畫、素描與雕塑——主要來自Irène Scutenaire-Hamoir與喬治特·馬格利特的捐贈，透過三層樓面回顧這位藝術家的創作生涯。"
+ },
+ "maison-de-l-histoire-europeenne": {
+  "name": "歐洲歷史之家",
+  "description": "由歐洲議會發起的歐洲歷史博物館，2017年開幕，設於布魯塞爾利奧波德區一座1935年落成的裝飾藝術風格建築內，原為伊斯特曼牙科診所，由建築師Michel Polak設計；其4,000平方公尺的常設展以跨國視角回顧二十世紀的歐洲歷史，免費入場，內容以歐盟24種官方語言呈現。"
+ },
+ "maison-de-l-imprimerie": {
+  "name": "印刷之家",
+  "description": "蒂安的活態印刷史博物館，在復原的工坊場景中展示歷史印刷機並示範造紙工藝，提供適合各年齡層的導覽參觀。"
+ },
+ "maison-de-la-metallurgie-et-de-l-industrie": {
+  "name": "冶金與工業之家",
+  "description": "列日隆多茲區的工業史博物館，隸屬於列日大學，圍繞鋼鐵巨擘約翰·科克里爾（John Cockerill）與鋅冶煉先驅讓-雅克·多尼（Jean-Jacques Dony）兩位人物，追溯該地區自前工業時代至工業革命的鋼鐵工業發展，館內設有一座仍在運作的鍛造爐。"
+ },
+ "maison-de-la-poterie": {
+  "name": "陶器之家",
+  "description": "布菲烏的博物館，致力於該村自十三世紀起有文獻記載的鹽釉炻器傳統，1907年由陶藝家Willem Delsaux重新振興，其後繼者、裝飾藝術風格陶藝家Roger Guérin使這項工藝享譽國際；村內至今仍有陶藝工坊持續運作，並每年舉辦陶藝節。"
+ },
+ "maison-de-la-science-uliege": {
+  "name": "科學之家（ULiège）",
+  "description": "列日大學的科學推廣中心，設有常設互動展覽路線、天文館，並為家庭、學校與團體提供科學示範與工作坊，秉持「讓科學融入文化的博物館」的宗旨。"
+ },
+ "maison-des-artistes": {
+  "name": "藝術家之家",
+  "description": "位於安德萊赫特（Anderlecht）、專為視覺藝術家設立的空間，用於舉辦展覽與創作活動。"
+ },
+ "maison-des-geants": {
+  "name": "巨人之家",
+  "description": "博物館位於阿特（Ath），介紹當地嘉年華巨人偶及歐洲各地的巨人偶傳統，2000年開幕於1780年建成的康比耶城堡（Château Cambier）；抬著巨人偶遊行的阿特狂歡節（Ducasse d'Ath）於2005年獲聯合國教科文組織認可，館內透過影音展示與工作坊，呈現巨人偶的歷史與製作工藝。"
+ },
+ "maison-des-megalithes-de-weris": {
+  "name": "韋里斯巨石之家",
+  "description": "位於韋里斯（Wéris）的訪客與詮釋中心，是通往當地新石器時代巨石群——約5,000年前由早期農耕社群豎立的支石墓與立石——的門戶；2026年重新開放的翻新展覽，介紹這些巨石建築及其建造者，並提供通往遺址的健行路線。"
+ },
+ "maison-du-patrimoine-medieval-mosan-mpmm": {
+  "name": "默茲中世紀遺產之家（MPMM）",
+  "description": "博物館位於迪南（Dinant）附近的中世紀小鎮布維涅（Bouvignes），坐落在歷史悠久的「西班牙之家」（Maison espagnole）內；透過常設展與特展，探討默茲河谷從色當到馬斯特里赫特一帶的中世紀生活——河運貿易、城堡與城鎮、宗教機構、喪葬儀式，以及陶器與銅器工藝。"
+ },
+ "maison-van-gogh": {
+  "name": "梵谷故居",
+  "description": "位於蒙斯附近屈埃斯姆（Cuesmes）的故居博物館，文森·梵谷（Vincent van Gogh）1879年8月至1880年10月在此寄居於一戶礦工家庭，當時他在博里納日（Borinage）擔任平信徒傳道士；館內展示他這段時期的書信、個人聖經，以及他1880年臨摹米勒（Millet）之作的素描《掘地者》（Les Bêcheurs）複本。"
+ },
+ "malmundarium": {
+  "name": "Malmundarium",
+  "description": "位於馬爾梅迪（Malmedy）的文化遺產中心，2011年開幕於昔日斯塔沃洛－馬爾梅迪采邑主教區（Stavelot-Malmedy）的舊修道院內；中心占地3,000平方公尺，介紹當地製革業（1565－1996年）、Cwarmê嘉年華、約自1726年起的造紙業歷史，以及修道院自648年創建以來的城鎮歷史，並附設主教座堂寶藏廳。"
+ },
+ "mas-museum-aan-de-stroom": {
+  "name": "MAS",
+  "description": "位於安特衛普舊港區艾蘭吉（Eilandje）的博物館，2011年開幕，坐落於Neutelings Riedijk Architects設計、外覆紅色印度砂岩的62公尺高塔樓內；館藏約47萬件，涵蓋海事、民族誌與應用藝術收藏，透過港口呈現這座城市與世界的聯繫。"
+ },
+ "maurice-careme-museum": {
+  "name": "莫里斯·卡雷姆博物館",
+  "description": "位於安德萊赫特（Anderlecht）的故居博物館，是比利時詩人莫里斯·卡雷姆（Maurice Carême）的舊居，他自1933年居住於此直至1978年辭世；館內保存他的家具與書房、手稿與藏書，以及保羅·德爾沃（Paul Delvaux）等友人畫家的作品，還有他與加斯東·巴舍拉（Gaston Bachelard）等人物的往來書信。"
+ },
+ "meunier-museum": {
+  "name": "默尼耶美術館",
+  "description": "位於伊克塞爾（Ixelles）的故居兼工作室博物館，雕塑家暨畫家康斯坦丁·默尼耶（Constantin Meunier，1831-1905）曾在此創作，由建築師Ernest Delune設計，1936年由比利時國家收購；1939年對外開放，1978年併入比利時皇家美術博物館，展出約150件作品，尤以他描繪產業勞動的雕塑聞名。"
+ },
+ "micromusee-de-la-frite-home-frit-home": {
+  "name": "Home Frit' Home薯條微型博物館",
+  "description": "位於布魯塞爾的小型博物館，介紹比利時薯條及其歷史與在當地文化中的地位，展示形式精巧而趣味。"
+ },
+ "middelheimmuseum": {
+  "name": "米德爾海姆美術館",
+  "description": "位於安特衛普的露天雕塑美術館，1950年創立，翌年正式開幕，坐落於30公頃的園林之中；館藏約480件雕塑，其中約200件常設展出，涵蓋現代與當代雕塑作品，藝術家包括羅丹、亨利·摩爾（Henry Moore）、芭芭拉·海普沃斯（Barbara Hepworth）、考爾德（Calder）與賈克梅蒂（Giacometti）。"
+ },
+ "momu-modemuseum-antwerpen": {
+  "name": "MoMu",
+  "description": "位於安特衛普的比利時時尚博物館，2002年開幕於Nationalestraat；館方蒐集、研究並展示比利時時裝設計，尤其關注畢業於該市皇家美術學院的「安特衛普六君子」（Antwerp Six）設計師世代——包括德賴斯·范諾頓（Dries Van Noten）與安·德默勒梅斯特（Ann Demeulemeester）——館藏約2.5萬件。"
+ },
+ "mons-memorial-museum": {
+  "name": "Mons Memorial Museum",
+  "description": "位於蒙斯的博物館，坐落於舊「水機」建築（Machine-à-eau，建於1870－1871年）內，介紹當地從中世紀到二十世紀的歷史，尤其著重兩次世界大戰；2015年開幕，展出逾5,000件軍用與民用文物，並收錄比利時、美國、英國、加拿大與德國軍人及平民的證言。"
+ },
+ "msk-museum-voor-schone-kunsten-gent": {
+  "name": "根特美術館（MSK）",
+  "description": "美術館創立於1798年，自1913年起坐落於城堡公園（Citadelpark）內的現址，由建築師Charles Van Rysselberghe設計，經戰爭損毀後重建，於2007年重新開放；約三十間展廳涵蓋十四世紀至戰後的歐洲藝術，法蘭德斯大師之作包括希羅尼穆斯·波希（Hieronymus Bosch）的《揹十字架的基督》，以及魯本斯與范戴克的作品。"
+ },
+ "mumask-musee-du-masque-et-du-carnaval": {
+  "name": "MUMASK",
+  "description": "位於班什（Binche）的博物館，1975年開幕於一座十六世紀宅邸，展示世界各地的面具傳統，並呈現當地的吉爾（Gilles）嘉年華；常設展以同等份量並陳比利時與國際的嘉年華及面具文化。"
+ },
+ "mumons": {
+  "name": "MUMONS",
+  "description": "蒙斯大學博物館，透過展覽與教育活動，向學生、研究人員及社會大眾展示該校的收藏與文化資產。"
+ },
+ "mundaneum": {
+  "name": "Mundaneum",
+  "description": "位於蒙斯的檔案中心暨博物館，記述保羅·奧特萊（Paul Otlet）與亨利·拉封丹（Henri La Fontaine）自1895年在布魯塞爾發起的計畫——編纂一部萬用書目，其卡片索引最終累積達1,200萬筆，常被稱為網際網路的紙本先驅；館藏於1992年遷至蒙斯，1998年對外開放，並於2016年獲頒歐洲遺產標章。"
+ },
+ "musee-africain-de-namur-musafrica": {
+  "name": "那慕爾非洲博物館（MusAfrica）",
+  "description": "位於那慕爾（Namur）、以中非為主題的博物館，主要聚焦1960年剛果獨立前的歷史，1912年創立，自1984年起坐落於利奧波德軍營（Léopold Barracks）的舊警衛室內；2025年整修後以MusAfrica之名重新開放，展出面具、武器、樂器與殖民時期文物，並設有藏書逾2萬冊的專門圖書館。"
+ },
+ "musee-archeologique-d-arlon": {
+  "name": "阿爾隆考古博物館",
+  "description": "位於阿爾隆（Arlon）的考古博物館，1886年創立，自1934年起坐落於一座1840年代建成的新古典主義建築內；館方專精於盧森堡省的高盧羅馬遺產，擁有歐洲數一數二重要的墓葬雕刻收藏，並藏有陶器與錢幣，主要出土於阿爾隆的羅馬聚落遺址（vicus）及馬格羅伊別墅（Mageroy villa）。"
+ },
+ "musee-archeologique-de-la-haute-meuse-mahm": {
+  "name": "上默茲考古博物館（MAHM）",
+  "description": "位於伊瓦爾（Yvoir）附近戈丁訥（Godinne）的考古博物館，坐落於人稱「老農莊」（La Vieille Ferme）的農舍內；展出史前至古典時代晚期的工具、武器、珠寶與陶器，皆出土於上默茲河谷一帶的考古發掘。"
+ },
+ "musee-archeologique-de-logne": {
+  "name": "洛涅考古博物館",
+  "description": "位於維約維爾（Vieuxville）洛涅城堡（Logne Castle）遺址內的考古博物館，展示這座中世紀要塞遺址出土的文物。"
+ },
+ "musee-armand-pellegrin": {
+  "name": "阿爾芒·佩勒格蘭博物館",
+  "description": "位於埃萊西訥（Hélécine）的教育史博物館，展出珍稀教學文物——啟蒙讀本、地球儀、量測儀器——以及一間復原的二十世紀初教室，並設有介紹當地藝術與民俗的特展。"
+ },
+ "musee-belge-de-la-franc-maconnerie": {
+  "name": "比利時共濟會博物館",
+  "description": "位於布魯塞爾，介紹比利時共濟會歷史與象徵符號的博物館，展出會服徽飾、儀式用品與檔案文獻。"
+ },
+ "musee-communal-d-herstal": {
+  "name": "赫斯塔爾市立博物館",
+  "description": "位於赫斯塔爾（Herstal）的地方史博物館，設於一座列入瓦隆文化資產名錄的十七世紀市鎮宅邸內；記錄這座以鋼鐵與煤炭為根基的城市身分，及其軍火製造與精密機械產業，並呈現當地民俗與藝術傳統。"
+ },
+ "musee-communal-de-huy": {
+  "name": "于伊市立博物館",
+  "description": "位於于伊（Huy）的地方博物館，坐落於一座約1230年創立、十七世紀重建的方濟各會舊修道院內；十間展廳呈現于伊地區的美術、裝飾藝術、考古與工業遺產，其中包括約製於1240年、寫實風格逼真的木刻十字苦像，人稱「美麗天主」（Beau Dieu）。"
+ },
+ "musee-communal-pieter-cnops": {
+  "name": "皮特·克諾普斯市立博物館",
+  "description": "位於埃弗爾（Evere）的地方史博物館，設於一座逾百年歷史的建築內；追溯該市鎮自中世紀至今的經濟、民俗、政治、宗教與社團生活。"
+ },
+ "musee-d-ansembourg": {
+  "name": "安森堡府邸",
+  "description": "位於列日（Liège）的考古暨裝飾藝術博物館，1905年開幕於一座十八世紀宅邸（1738－1741年）內，由建築師Johann Joseph Couven為商人銀行家Michel Willems建造；默茲巴洛克風格的室內陳設展出時代家具與裝飾器物，包括Tomaso Vasalli操刀的灰泥雕飾、橡木樓梯、奧德納爾德（Oudenaarde）掛毯，以及廚房內逾2,500片台夫特瓷磚。"
+ },
+ "musee-d-archeologie-de-tournai": {
+  "name": "圖爾奈考古博物館",
+  "description": "圖爾奈的考古博物館，設於Wenceslas Cobergher於十七世紀所建的當鋪建築內，展示當地自第四紀至高盧-羅馬與墨洛溫時期的歷史；其墨洛溫時期藏品包括出土於聖布里斯墓地、與法蘭克國王希爾德里克一世墓葬相關的文物。"
+ },
+ "musee-d-archeologie-et-d-histoire-de-vise": {
+  "name": "維塞考古歷史博物館",
+  "description": "維塞的地方史暨考古博物館，與維塞皇家考古歷史學會合作營運，呈現下默兹地區自最早居民以來約1,200年的歷史。"
+ },
+ "musee-d-art-spontane": {
+  "name": "自發藝術博物館",
+  "description": "位於斯哈爾貝克的小型博物館，致力於原生藝術、樸素藝術等非規範化藝術形式，展出Mireille Bastin、Claudine Loquen與Norbert Benoit等比利時自學藝術家的作品。"
+ },
+ "musee-d-histoire-et-des-arts-decoratifs-musee-de-la-porcelaine": {
+  "name": "歷史與裝飾藝術博物館（瓷器博物館）",
+  "description": "圖爾奈的博物館，致力於裝飾藝術及該市由François-Joseph Peterinck於1750年創立的皇家瓷器製造廠，長期以軟質瓷聞名。"
+ },
+ "musee-d-histoire-militaire-mhm": {
+  "name": "軍事史博物館（MHM）",
+  "description": "博物館追溯圖爾奈八個世紀的軍事史，1930年以「軍械博物館」（Musée d'Armes）之名創立，2000年遷至大廣場附近的一座私人宅邸；其藏品是比利時最重要的公共武器收藏之一，涵蓋從中世紀火炮到V2火箭燃燒室等文物。"
+ },
+ "musee-d-histoire-naturelle-mhn-et-vivarium": {
+  "name": "自然史博物館（MHN）暨活體動物館",
+  "description": "圖爾奈的自然史博物館暨活體動物館，自1829年開放，結合活體動物展示與關於區域生物多樣性的自然史藏品。"
+ },
+ "musee-d-interpretation-archeologique-du-brabant-wallon-miabw": {
+  "name": "瓦隆布拉班特考古詮釋博物館（MiaBw）",
+  "description": "位於埃萊西訥城堡的互動式考古博物館，是奧爾普勒格朗前考古博物館的後繼機構，讓遊客親手觸摸猛獁象骨骸與羅馬文物，展區涵蓋人類演化、史前狩獵及高盧-羅馬聚落復原場景。"
+ },
+ "musee-de-folklore-et-des-imaginaires-mufim": {
+  "name": "民俗與想像博物館（MuFIm）",
+  "description": "圖爾奈的博物館，透過方言與語言、生命禮俗、行業、節慶與遊戲等主題，探索地方民俗與大眾想像。"
+ },
+ "musee-de-folklore-vie-frontaliere-de-mouscron-musef": {
+  "name": "穆斯克龍邊境生活民俗博物館（MUSEF）",
+  "description": "位於法比邊境城鎮穆斯克龍的地方民俗博物館，保存反映當地獨特跨境生活方式的傳統與日常物品。"
+ },
+ "musee-de-l-eau-et-de-la-fontaine-mef": {
+  "name": "水與噴泉博物館（MEF）",
+  "description": "位於奧蒂尼-新魯汶的互動式博物館，自1989年開放，致力於展示水的各種形態，並收錄比利時逾300座噴泉的清冊，設有供兒童與家庭操作的體驗展品。"
+ },
+ "musee-de-l-eglise-orthodoxe": {
+  "name": "東正教教會博物館",
+  "description": "布魯塞爾的小型博物館，隸屬於比利時東正教總主教區，展示東正教基督教藝術與禮儀器物。"
+ },
+ "musee-de-l-orfevrerie-chateau-de-seneffe": {
+  "name": "金銀器博物館（塞訥夫城堡）",
+  "description": "設於十八世紀新古典主義塞訥夫城堡內的博物館，該城堡曾是一座坐落於22公頃園林中的行宮，館內收藏被認為是比利時最精美的金銀器與裝飾藝術收藏。"
+ },
+ "musee-de-la-banque-nationale-de-belgique": {
+  "name": "比利時國家銀行博物館",
+  "description": "比利時國家銀行位於布魯塞爾的博物館，1982年開幕，自2018年起設於建築師Désiré De Keyser於1872-1874年間興建的折衷主義風格建築內，透過逾300件文物、2,500年的鑄幣史及逾24,000張紙幣，呈現貨幣從以物易物到歐元的演變歷程。"
+ },
+ "musee-de-la-compagnie-royale-des-anciens-arbaletriers-visetois": {
+  "name": "維塞皇家弩手公會博物館",
+  "description": "維塞的小型博物館，由當地歷史悠久的皇家弩手公會經營，保存這個歷經數世紀的市民公會的服飾、徽飾與傳統。"
+ },
+ "musee-de-la-foire-et-de-la-memoire": {
+  "name": "遊樂會與記憶博物館",
+  "description": "聖吉斯蘭的市立博物館，結合關於遊樂會文化的收藏——包括一座1920年代旋轉木馬與一座跳蚤馬戲團——以及展示物品、海報與明信片的地方記憶展區；遊樂會文化已於2024年列入聯合國教科文組織非物質文化遺產名錄。"
+ },
+ "musee-de-la-foret-et-des-eaux-domaine-de-berinzenne": {
+  "name": "森林與水博物館（貝蘭岑莊園）",
+  "description": "位於斯帕附近貝蘭岑莊園的自然博物館，透過標本動物、壁畫與互動展示，呈現當地的荒原、森林與礦泉。"
+ },
+ "musee-de-la-fraise": {
+  "name": "草莓博物館",
+  "description": "位於那慕爾附近韋皮翁的博物館，1970年創立，旨在保存瓦隆草莓種植的文化遺產，呈現這項作物的農業、飲食與民俗歷史，並介紹當地河畔的「默兹風格別墅」（villas mosanes）。"
+ },
+ "musee-de-la-grande-ardenne": {
+  "name": "大阿登博物館",
+  "description": "巴斯托涅的民族學博物館，舊稱「皮孔呂博物館」（Musée en Piconrue），設於1628年創立的伯利恆女修道院舊址；館藏約100,000件與阿登傳統相關的文物，包括Edmond Dauchot拍攝的20,000張照片，以及Didier Comès的原稿手繪。"
+ },
+ "musee-de-la-maison-d-erasme": {
+  "name": "伊拉斯謨故居",
+  "description": "紀念文藝復興人文主義者伊拉斯謨的博物館，設於安德萊赫特一座十五世紀末的教士會邸，伊拉斯謨曾於1521年在此居留；博物館創立於1930年，館藏約1,200冊書籍與手稿、霍爾拜因、馬西斯與杜勒繪製的肖像，以及《愚人頌》等著作的初版。"
+ },
+ "musee-de-la-medecine-campus-erasme": {
+  "name": "醫學博物館（伊拉斯謨校區）",
+  "description": "位於布魯塞爾自由大學伊拉斯謨校區的醫學博物館，與該校的人體解剖學暨胚胎學博物館並列展出。"
+ },
+ "musee-de-la-mine-blegny-mine": {
+  "name": "Blegny-Mine",
+  "description": "列日附近的一座舊煤礦，1980年關閉時是列日礦區最後一座仍在運作的煤礦，如今為文化遺產景點，遊客可由原有豎井下降至深達60公尺的坑道；2012年與瓦隆其他主要礦業遺址一同列入聯合國教科文組織世界遺產名錄。"
+ },
+ "musee-de-la-mine-et-du-developpement-durable-du-bois-du-luc-mmdd": {
+  "name": "布瓦迪呂克礦業暨永續發展博物館（MMDD）",
+  "description": "位於拉盧維耶爾附近布瓦迪呂克舊煤礦的博物館，屬於2012年列入聯合國教科文組織世界遺產名錄的「瓦隆主要礦業遺址」之一，結合該礦區的採煤史與對永續發展議題的關注。"
+ },
+ "musee-de-la-photographie": {
+  "name": "沙勒羅瓦攝影博物館",
+  "description": "位於沙勒羅瓦附近的攝影博物館，設於一座建於1896-1901年的新哥德式加爾默羅會女修道院內，1987年開幕，2008年擴建後成為歐洲最大的攝影博物館之一；館藏約100,000張照片與200萬張底片，收錄亨利·卡蒂埃-布列松、羅貝爾·杜瓦諾與愛德華·韋斯頓等人的作品。"
+ },
+ "musee-de-la-porte": {
+  "name": "大門博物館",
+  "description": "位於瓦隆布拉班特省蒂比茲的小型地方博物館。"
+ },
+ "musee-de-la-porte-de-hal": {
+  "name": "哈勒門博物館",
+  "description": "設於哈勒門內的博物館，哈勒門是布魯塞爾第二道中世紀城牆僅存的城門，建於1381年，1868年至1871年間由Henri Beyaert以新哥德風格改建；隸屬於皇家藝術與歷史博物館，館內展出關於中世紀布魯塞爾的常設展，包括同業公會項鏈與阿爾伯特大公的儀典盔甲。"
+ },
+ "musee-de-la-route": {
+  "name": "道路博物館",
+  "description": "蒙斯的小型博物館，以道路為主題。"
+ },
+ "musee-de-la-rubanerie-cominoise": {
+  "name": "科米訥織帶博物館",
+  "description": "位於科米訥的博物館，致力於當地逾850年的織帶傳統，設有約三十台仍在運作的織機，展現這項工藝曾供應從Éclair拉鏈到彈性織帶等各式產品。"
+ },
+ "musee-de-la-tour-d-anhaive": {
+  "name": "昂艾夫塔博物館",
+  "description": "那慕爾讓布區的考古、藝術與歷史博物館，展出高盧羅馬陶器、玻璃器皿、瓷器及當地的芥末製作傳統，並設有介紹該地區文化遺產的臨時展覽。"
+ },
+ "musee-de-la-vie-rurale-de-xhoris": {
+  "name": "Xhoris鄉村生活博物館",
+  "description": "博物館設於Xhoris一座十九世紀末的舊市政廳，1974年由村民捐贈的物品促成開幕，展示服飾、家用工具、學校用品與老照片，呈現已消逝的鄉村行業與習俗。"
+ },
+ "musee-de-la-vie-tihangeoise": {
+  "name": "蒂昂日生活博物館",
+  "description": "小型地方博物館，位於于伊轄下的蒂昂日村，主題為當地傳統與昔日日常生活。"
+ },
+ "musee-de-la-vie-wallonne": {
+  "name": "瓦隆生活博物館",
+  "description": "列日的民族學博物館，1913年在一場剛果民族學展覽的影響下創立，1972年起遷入一座昔日的方濟各會修道院；館內展出約2,000件文物，包括約600件列日傳統杖頭木偶、Léopold Harzé的赤陶雕塑，以及一輛御用馬車。"
+ },
+ "musee-de-la-ville-de-bruxelles-maison-du-roi": {
+  "name": "布魯塞爾市立博物館（國王之家）",
+  "description": "布魯塞爾歷史博物館，設於大廣場上的國王之家，這是一座十九世紀末的新哥德式建築；館藏述說該市的歷史，並包括尿尿小童雕像的服飾收藏。"
+ },
+ "musee-de-nimy": {
+  "name": "尼米博物館－陶瓷十字路口",
+  "description": "尼米的陶瓷博物館，鄰近蒙斯，由舊尼米文化圈（Cercle culturel Vieux-Nimy）營運，透過尼米精陶廠（Faïencerie de Nimy）等當地製造商的作品，呈現該地區三個世紀的陶器與精陶產業歷史。"
+ },
+ "musee-de-nivelles": {
+  "name": "尼韋爾博物館",
+  "description": "尼韋爾市立博物館，尼韋爾為瓦隆布拉班特一座以羅馬式聖熱特魯德議事會教堂聞名的城鎮，館內呈現當地歷史與文化遺產。"
+ },
+ "musee-de-waterloo": {
+  "name": "滑鐵盧博物館",
+  "description": "滑鐵盧博物館，主題為1815年6月18日的滑鐵盧戰役，拿破崙的軍隊在此役中敗於威靈頓與布呂歇爾率領的聯軍。"
+ },
+ "musee-des-arts-de-la-marionnette-de-tournai": {
+  "name": "圖爾奈木偶藝術博物館",
+  "description": "圖爾奈的博物館，講述木偶藝術的歷史與多樣性；館方與一個活躍的創作中心共同營運，同為瓦隆－布魯塞爾聯合會的專屬木偶藝術中心。"
+ },
+ "musee-des-beaux-arts-de-charleroi": {
+  "name": "沙勒羅瓦美術博物館",
+  "description": "沙勒羅瓦的美術博物館，館藏可追溯至1889年的一筆遺贈，2022年遷入整修後的舊Defeld憲兵營；館內約4,000件十九至二十世紀比利時與瓦隆藝術作品，包括八幅勒內·馬格利特的畫作，以及詹姆斯·恩索爾與Pierre Paulus的作品。"
+ },
+ "musee-des-beaux-arts-et-de-la-ceramique-de-verviers": {
+  "name": "韋爾維耶美術與陶瓷博物館",
+  "description": "韋爾維耶的美術與陶瓷博物館，設於1661年建造的新醫院（Hôpital Nouveau）舊址內；館藏從一尊十三世紀的聖羅倫斯雕像，到Émile Claus與Anne-Louis Girodet-Trioson的作品，並收藏Élisabeth Vigée-Le Brun的一幅自畫像。"
+ },
+ "musee-des-beaux-arts-mba": {
+  "name": "美術博物館（MBA）",
+  "description": "圖爾奈的美術博物館，由維克多·霍塔設計，圍繞Henri Van Cutsem遺贈的收藏而建，館內收藏比利時僅存的兩幅愛德華·馬奈畫作。"
+ },
+ "musee-des-celtes": {
+  "name": "利布拉蒙凱爾特人博物館",
+  "description": "利布拉蒙的考古博物館，1998年由阿登考古研究中心（Centre de recherches archéologiques en Ardenne）創立，2021年遷至市集大廳（Halle aux Foires）；館內展出訥沙托－貝特里克斯－利布拉蒙地區三十餘年來對凱爾特人墓塚的考古發掘成果，該地區約有一百座土墩出土了約160座墓葬。"
+ },
+ "musee-des-commandos": {
+  "name": "突擊隊博物館",
+  "description": "位於Flawinne的蒂博少尉軍營（quartier Sous-Lieutenant Thibaut）內的博物館，1980年創立，記錄比利時突擊隊自1942年在英國創建至今的歷史。"
+ },
+ "musee-des-egouts-de-bruxelles": {
+  "name": "布魯塞爾下水道博物館",
+  "description": "博物館設於安德萊赫特門兩座歷史悠久的關稅亭內，讓遊客得以沿著一段真實的下水道及被覆蓋於地下的桑訥河而行，同時介紹布魯塞爾下水道網絡的歷史與科學，以及下水道工人這一行業。"
+ },
+ "musee-des-instuments-de-musique-mim": {
+  "name": "樂器博物館（MIM）",
+  "description": "布魯塞爾的博物館，收藏享譽全球的樂器珍藏，館舍設於昔日的Old England百貨公司，是該市首屈一指的新藝術建築之一；樂器分四層樓展示，並輔以樂音錄音導覽。"
+ },
+ "musee-des-transports-en-commun-mtcw": {
+  "name": "瓦隆公共交通博物館",
+  "description": "列日的公共交通博物館，由多個業餘愛好者協會於1985年創立，於3,500平方公尺的空間內展出約四十輛修復後的車輛，從一輛曾為列日最後一任采邑主教所有的十八世紀馬車，到全球僅存的一輛1936年雙向無軌電車。"
+ },
+ "musee-du-beguinage": {
+  "name": "貝居安會院博物館",
+  "description": "博物館設於安德萊赫特歷史悠久的貝居安會院內，與伊拉斯謨故居共同營運，是比利時最古老的市立博物館群之一，鄰近聖伯多祿與聖吉多議事會教堂。"
+ },
+ "musee-du-doudou": {
+  "name": "Doudou博物館",
+  "description": "位於蒙斯大廣場的互動博物館，講述聖喬治屠龍的傳說，以及蒙斯杜卡斯（Ducasse de Mons）的歷史——這是一場於2005年獲聯合國教科文組織列為非物質文化遺產的儀式遊行。"
+ },
+ "musee-du-frere-mutien-marie": {
+  "name": "Mutien-Marie修士博物館",
+  "description": "位於Malonne的小型博物館，紀念Mutien-Marie Wiaux——一位在當地學校任教數十年、後獲封聖的基督學校修士會修士；館內展出他的衣物、個人物品，以及他生前居住的房間。"
+ },
+ "musee-du-jouet": {
+  "name": "玩具博物館",
+  "description": "布魯塞爾的玩具博物館，1990年開幕於公會街（rue de l'Association），館內在約330平方公尺的空間中展出古董木製玩具、機械玩具與樂高積木。"
+ },
+ "musee-du-luminaire-mulum": {
+  "name": "燈具博物館（Mulum）",
+  "description": "列日的博物館，設於Laveu區一棟二十世紀初的建築內，2012年由收藏家Philippe Deitz捐贈而開幕；館內展出約600件從史前時代到二十一世紀的照明器具，其中約六十件至今仍以燃氣運作。"
+ },
+ "musee-du-malgre-tout": {
+  "name": "Malgré-Tout博物館",
+  "description": "Treignes的考古博物館，涵蓋自尼安德塔人時代至高盧羅馬時期末的史前史與古代史，由Cedarc協會經營，該協會並於每年聖靈降臨節週末舉辦考古節。"
+ },
+ "musee-du-marbre-magma": {
+  "name": "大理石博物館（MAgMa）",
+  "description": "Rance的博物館，主題為大理石的歷史，結合地質學、古生物學與當地開採及工藝的產業考古，並收藏約500件作為參考典藏的大理石樣本。"
+ },
+ "musee-du-pays-d-ourthe-ambleve": {
+  "name": "烏爾特－昂布萊沃地區博物館",
+  "description": "位於孔布蘭歐蓬（Comblain-au-Pont）的地區博物館，設於一座1676年的舊神父住所內，展出從史前時代到中世紀的考古發現，包括猛獁象、洞熊與洞獅的化石遺骸。"
+ },
+ "musee-du-petit-format-d-art-contemporain": {
+  "name": "小幅當代藝術博物館",
+  "description": "博物館位於Viroinval的Nismes，主題為紙上小幅當代藝術；永久收藏涵蓋自1981年以來創作的作品，並舉辦一項現已邁入第23屆的國際小幅紙上藝術展。"
+ },
+ "musee-du-slip-de-bruxelles": {
+  "name": "布魯塞爾內褲博物館",
+  "description": "布魯塞爾小型博物館兼藝廊，主題為作為時尚與藝術創作對象的內褲，與Attitude Art Gallery合作營運。"
+ },
+ "musee-en-plein-air-du-sart-tilman": {
+  "name": "薩爾蒂爾曼露天當代藝術博物館",
+  "description": "露天博物館，1977年創立於列日大學薩爾蒂爾曼（Sart Tilman）校區，佔地約700公頃的林蔭園地。館內匯集約一百件比利時及國際雕塑家的紀念性作品，包括Eugène Dodeigne、Pierre Alechinsky、Sol LeWitt與Daniel Buren，自1967年首件作品落成安置以來，逐步融入大學校園景觀之中。"
+ },
+ "musee-felicien-rops": {
+  "name": "費利西安·羅普斯博物館",
+  "description": "博物館於1987年開幕，坐落於畫家暨版畫家Félicien Rops的出生地那慕爾，館舍為一座新古典主義宅邸，並於1996年至2003年間擴建。館內收藏其漫畫、版畫、水彩與油畫作品約270件，包括《Pornocratès》（1878年），呈現他從諷刺插畫到象徵主義的創作歷程。"
+ },
+ "musee-fin-de-siecle-museum-mrbab": {
+  "name": "世紀末博物館",
+  "description": "比利時皇家美術博物館轄下展區，2013年開幕於布魯塞爾皇家廣場（Place Royale），專門呈現十九世紀末至二十世紀初的藝術。館藏涵蓋此一時期的繪畫、雕塑與裝飾藝術，從詹姆斯·恩索爾（James Ensor）與Fernand Khnopff，到新藝術風格設計。"
+ },
+ "musee-gallo-romain-de-berneau": {
+  "name": "貝爾諾高盧-羅馬博物館",
+  "description": "位於列日省貝爾諾（Berneau）的小型地方博物館，展出當地周邊出土的高盧-羅馬考古文物。館務由一個地方文化資產協會經營，該協會亦舉辦考古開放日活動。"
+ },
+ "musee-gallo-romain-de-waudrez-statio-romana": {
+  "name": "沃德雷高盧-羅馬博物館（Statio Romana）",
+  "description": "博物館位於班什（Binche）附近的沃德雷（Waudrez），建於布呂諾古道（Chaussée Brunehaut）——連接巴韋（Bavay）與科隆的羅馬道路——沿線一處羅馬驛站遺址之上。館內展出當地出土的陶器、赤陶油燈與甕、飾品及青銅器物，呈現這條高盧-羅馬古道沿線的日常生活面貌。"
+ },
+ "musee-gaspar": {
+  "name": "加斯帕博物館",
+  "description": "阿爾隆（Arlon）的藝術與歷史博物館，設於一座1842年宅邸內，2003年整修完成，由收藏家Charles Gaspar（1871-1950）遺贈予市府。館藏從十六世紀安特衛普祭壇畫，到詹姆斯·恩索爾、Suzanne Valadon與雕塑家Jean Gaspar的作品，並包括記述阿爾隆及周邊地區歷史的文物。"
+ },
+ "musee-gaumais": {
+  "name": "高姆博物館",
+  "description": "地方博物館，1939年創立於維爾通（Virton），設於一座建於1659年的原方濟各會修道院（couvent des récollets）內。館藏記述高姆（Gaume）地區——比利時最南端的地區——的考古、歷史與民俗傳統，1992年與2020年分別增建展廳。"
+ },
+ "musee-gretry": {
+  "name": "格雷特里博物館",
+  "description": "位於列日烏特勒默茲區（Outremeuse）的故居博物館，1913年開幕於作曲家André Grétry出生地的路易十五風格列日式建築內。館內保存Jean-Théodore Radoux所蒐集的收藏，包括約125幅這位作曲家的肖像、當代樂器、親筆信件與樂譜。"
+ },
+ "musee-herge": {
+  "name": "埃爾熱博物館",
+  "description": "博物館於2009年開幕於新魯汶（Louvain-la-Neuve），由建築師克里斯蒂安·德·包贊巴克（Christian de Portzamparc）設計，以《丁丁歷險記》創作者、漫畫家埃爾熱（Hergé）的作品為主題。館內展出約80幅原稿，並輔以他工作室的照片、文件與物品，館址特意選定以呼應丁丁虛構住所的地址。"
+ },
+ "musee-ianchelevici-la-louviere-mill": {
+  "name": "揚切列維奇博物館（Mill）",
+  "description": "位於拉盧維耶爾（La Louvière）的博物館，坐落於該市舊法院大樓內，人稱「Mill」。館內收藏雕塑家Idel Ianchelevici（1909-1994）數量最多的作品，包括石膏、青銅與石雕，並典藏該市的市立藝術收藏。"
+ },
+ "musee-l": {
+  "name": "L博物館",
+  "description": "天主教魯汶大學（UCLouvain）的大學博物館，2017年開幕於新魯汶（Louvain-la-Neuve），館舍原為建築師André Jacqmain設計的粗獷主義科學圖書館建築（1970-1975年），經整修後重新啟用。館內展出逾800件大學收藏中的作品，這批收藏共約32,000件，年代橫跨史前至當代藝術。"
+ },
+ "musee-marthe-donas-mimdo": {
+  "name": "瑪特·多納斯博物館（MIMDo）",
+  "description": "位於伊特爾（Ittre）的博物館，主題為畫家Marthe Donas（1885-1967）——立體主義運動少數幾位女性藝術家之一，1922年至1927年間曾斷續居住於鄰近的Maison Bauthier。博物館座落於一座舊禮拜堂與該宅邸之間，輪流舉辦以其作品為主題的展覽。"
+ },
+ "musee-monopoli": {
+  "name": "莫諾波利博物館",
+  "description": "位於哈弗朗日（Havelange）的私人博物館，由Renato Monopoli創立，用以收藏他的自動人偶、機械音樂器具、馬車、船舶模型與管風琴。與一般收藏不同，每件仍可運作的展品都保持良好狀態，並會在訪客面前操作展示。"
+ },
+ "musee-national-de-la-resistance": {
+  "name": "國家抵抗運動暨人權博物館",
+  "description": "位於布魯塞爾安德萊赫特（Anderlecht）的博物館，主題為戰時抵抗運動的歷史，以及人權議題。"
+ },
+ "musee-oldmasters-museum-mrbab": {
+  "name": "古典大師博物館",
+  "description": "比利時皇家美術博物館的創始機構，1801年拿破崙統治時期創立，1830年比利時獨立後持續擴充。館舍位於布魯塞爾的Rue de la Régence，收藏十五至十八世紀的法蘭德斯與歐洲繪畫，包括羅希爾·范德魏登（Rogier van der Weyden）、老彼得·布勒哲爾（Pieter Bruegel the Elder）與魯本斯（Rubens）等大師的重要作品。"
+ },
+ "musee-provincial-des-arts-anciens-du-namurois-tresor-d-oignies-trem-a": {
+  "name": "那慕爾地區古代藝術暨Oignies寶藏博物館（TreM.a）",
+  "description": "那慕爾的省立博物館，館舍位於Hôtel de Gaiffier d'Hestroy，匯集七項那慕爾地區中世紀與近代早期藝術收藏。其鎮館之寶為Oignies寶藏——十三世紀默茲地區藝術家Hugo d'Oignies所製作的金銀工藝收藏。"
+ },
+ "musee-royal-de-l-armee-et-de-l-histoire-militaire": {
+  "name": "皇家軍隊暨軍事史博物館",
+  "description": "博物館創立於1911年，源於1910年布魯塞爾世界博覽會一場軍事展覽的成功迴響，自1923年起坐落於五十週年紀念公園（Cinquantenaire）內，佔地約40,000平方公尺，包括1880年落成的Bordiau廳與1897年落成的航空廳。館藏涵蓋十二個世紀的軍事史，從中世紀兵器到兩次世界大戰的飛機與戰車。"
+ },
+ "musee-royal-de-mariemont": {
+  "name": "馬里蒙皇家博物館",
+  "description": "博物館於1920年開幕於莫爾朗韋爾茲（Morlanwelz）附近的馬里蒙莊園，以實業家Raoul Warocqué遺贈的收藏為基礎建成。1960年一場大火燒毀原有城堡後，由建築師Roger Bastin主持重建，館內收藏圖爾奈瓷器、埃及、希臘與羅馬古物，以及遠東藝術，並置身於一座點綴著羅丹（Rodin）與Meunier雕塑的園林之中。"
+ },
+ "musee-wittert-uliege": {
+  "name": "維特爾博物館（ULiège）",
+  "description": "列日大學的藝術博物館，以收藏家Adrien Wittert命名，其遺贈構成館藏核心。館址位於市中心8月20日廣場（Place du 20-Août），收藏逾65,000件橫跨歷史藝術與當代藝術的作品，多數保存於典藏庫中，透過輪展方式呈現。"
+ },
+ "musees-de-la-ville-d-eaux": {
+  "name": "溫泉小鎮博物館",
+  "description": "位於斯帕（Spa）的博物館，講述這座小鎮四個世紀的溫泉歷史，館舍設於利奧波德二世王后瑪麗-亨利埃特（Marie-Henriette）舊皇家別墅（Villa Royale）的中央樓閣內。博物館於1894年創立為市立博物館，1965年遷入現址；別墅舊馬廄內另設有一座馬匹博物館。"
+ },
+ "museum-dr-guislain": {
+  "name": "吉斯蘭博士博物館",
+  "description": "博物館於1986年開幕於根特，館舍為精神科醫師Joseph Guislain（1797-1860）創立的精神病院舊址；他是比利時精神病人道治療的先驅之一。館內探討精神醫學史，並展出原生藝術（art brut）及曾罹患精神疾病藝術家的當代作品。"
+ },
+ "museum-mayer-van-den-bergh": {
+  "name": "邁爾·凡登伯格博物館",
+  "description": "安特衛普的博物館，1904年由Henriette van den Bergh創立，用以保存其已故之子Fritz Mayer van den Bergh（1858-1901）的藝術收藏。館舍為專門興建的新哥德式宅邸，收藏法蘭德斯與荷蘭古典大師作品，其中最著名的是老彼得·布勒哲爾（Pieter Bruegel the Elder）1562年的《瘋狂梅格》（Dulle Griet）。"
+ },
+ "museum-of-the-national-bank-of-belgium": {
+  "name": "比利時國家銀行貨幣博物館",
+  "description": "比利時國家銀行的貨幣博物館，2018年遷入布魯塞爾市中心一座十九世紀銀行建築內。互動式展示裝置回顧貨幣的歷史，並說明現代中央銀行的運作方式，同時呼應該銀行1850年創立的歷史。"
+ },
+ "museum-plantin-moretus": {
+  "name": "普朗坦－莫雷圖斯博物館",
+  "description": "博物館於1877年開幕，館址為十六世紀末歐洲出版量最大的出版商克里斯多夫·普朗坦（Christophe Plantin）的舊印刷廠，事業後由其女婿揚·莫雷圖斯（Jan Moretus）繼承。這是2005年史上首座列入聯合國教科文組織世界遺產名錄的博物館，館內保存全球現存最古老的兩台印刷機、兩部古騰堡聖經，以及一座藏書約25,000冊的圖書館。"
+ },
+ "museum-regional-des-sciences-naturelles": {
+  "name": "地區自然科學博物館",
+  "description": "蒙斯的自然史博物館，創立於1839年，是比利時歷史最悠久的博物館之一。館藏逾10,000件動物學標本，包括Yernaux收藏的鳥類與哺乳動物標本，以及Julius Koch的骨骼——他在二十世紀初以2.56公尺的身高，被譽為世界最高的人。"
+ },
+ "museum-vleeshuis-klank-van-de-stad": {
+  "name": "肉市場博物館－城市之聲",
+  "description": "博物館設於安特衛普昔日的屠夫行會會館，這座哥德式行會建築建於1501至1504年間，如今致力於展現這座城市的音樂遺產。館藏歷史樂器，包括鋼琴與弦樂器，以「城市之聲」（Klank van de Stad）為主題展出。"
+ },
+ "panorama-de-la-cite-administrative": {
+  "name": "行政中心觀景台",
+  "description": "位於列日行政中心大樓頂層的公共觀景台，可俯瞰全城及默茲河谷的全景。"
+ },
+ "parc-monumento": {
+  "name": "Monumento公園",
+  "description": "位於布魯塞爾安德萊赫特的公園，環繞一座紀念碑而建，結合景觀庭園與公共綠地。"
+ },
+ "parlamentarium": {
+  "name": "Parlamentarium",
+  "description": "歐洲議會位於布魯塞爾的遊客中心，2011年在議會半圓形會議廳旁開幕。提供24種語言的多媒體導覽，帶領遊客了解歐洲一體化的歷史及議會的運作方式，是歐洲規模最大的議會遊客中心。"
+ },
+ "prehistomuseum": {
+  "name": "Préhistomuseum",
+  "description": "位於列日附近弗萊馬勒（Flémalle）的考古博物館園區，1994年以Préhistosite de Ramioul之名開幕，2016年整修後以現名重新開放。園區以拉米烏（Ramioul）洞穴為核心，該洞穴發現於1911年，自尼安德塔人時期起一直有人居住，直至新石器時代晚期；園內結合展覽廳、佔地30公頃的戶外遺址，以及史前工藝工作坊。"
+ },
+ "red-star-line-museum": {
+  "name": "Red Star Line Museum",
+  "description": "博物館2013年開幕，設於安特衛普昔日Red Star Line航運公司的倉庫內，該公司於1873年至1934年間運送約兩百萬名移民前往北美。展覽透過個人物品、文件與照片，在當年辦理登船手續的候船大廳中，重現他們的旅程。"
+ },
+ "rubenshuis": {
+  "name": "魯本斯故居",
+  "description": "畫家彼得·保羅·魯本斯自1610年起在安特衛普為自己興建的住宅兼工作室，結合義大利風格的宅邸與工作畫室，他在此居住直至1640年逝世。安特衛普市購入並修復後，於1946年闢為博物館，展出他的畫作，以及雅各布·約爾丹斯等合作者的作品。"
+ },
+ "s-m-a-k": {
+  "name": "S.M.A.K.－根特市立當代藝術博物館",
+  "description": "根特的當代藝術博物館，源起可追溯至1957年，自1999年起設於Citadelpark公園內一座整修過的1949年賭場建築中。館藏聚焦1950年以後的歐洲藝術，從眼鏡蛇畫派（Cobra）、普普藝術，到極簡主義與觀念藝術皆有涉獵，並收藏約瑟夫·博伊斯、法蘭西斯·培根，以及比利時藝術家馬塞爾·布羅塔爾斯、Panamarenko與呂克·圖伊曼斯的作品。"
+ },
+ "salle-saint-georges": {
+  "name": "聖喬治廳",
+  "description": "蒙斯的一座歷史廳堂，是該市文化遺產場所網絡的一部分，如今作為臨時展覽場地使用。"
+ },
+ "silex-s-minieres-neolithiques-de-silex-de-spiennes": {
+  "name": "斯皮耶納新石器時代燧石礦",
+  "description": "自2000年起列入聯合國教科文組織世界遺產名錄，佔地約100公頃，是蒙斯附近的新石器時代燧石開採礦坑群，開採年代約在公元前4300年至前2200年間。遊客可探索地下坑道，以及2015年開幕的SILEX'S解說中心，還有位於Camp-à-Cayaux的考古博物館。"
+ },
+ "sint-pietersabdij": {
+  "name": "聖伯多祿修道院",
+  "description": "根特的一座前本篤會修道院，起源可追溯至七世紀，現存建築大多建於十七及十八世紀，並保存一座中世紀食堂。法國大革命後被世俗化，如今圍繞一座設有葡萄園與果園的大型花園，舉辦文化史、文學與攝影展覽。"
+ },
+ "site-du-beffroi": {
+  "name": "蒙斯鐘樓",
+  "description": "蒙斯鐘樓建於1662年至1669年間，是「比利時與法國鐘樓」中唯一一座巴洛克風格的鐘樓，該系列古蹟自1999年起列入聯合國教科文組織世界遺產名錄。塔高87公尺，是全城最高點，可俯瞰蒙斯全景。"
+ },
+ "stam-stadsmuseum-gent": {
+  "name": "STAM－根特市立博物館",
+  "description": "根特的城市歷史博物館，2010年在昔日Bijloke修道院的舊址上開幕。透過歷史文物、模型與多媒體展示，呈現這座城市從中世紀起源到當代的發展歷程。"
+ },
+ "tamat-musee-de-la-tapisserie-centre-des-arts-muraux-et-des-arts-du-tissu": {
+  "name": "TAMAT－掛毯博物館暨壁飾與紡織藝術中心",
+  "description": "圖爾奈的博物館，專門展示掛毯與紡織藝術；該城在十四至十六世紀曾是歐洲主要的掛毯編織中心之一。除歷史與當代館藏外，館方亦設有修復工作坊，並提供紡織創作藝術家的駐村計畫。"
+ },
+ "texture-musee-du-lys-et-du-lin": {
+  "name": "Texture－亞麻與麻布博物館",
+  "description": "科特賴克（Kortrijk）的博物館，主題為亞麻與麻布；這個地區數百年來的經濟與地方認同，深受亞麻種植與麻紡織業影響。展覽追溯這種植物從田野到布料的歷程，以及其在從衣物到鈔票等各類產品中的應用。"
+ },
+ "tresor-cathedrale-tournai": {
+  "name": "圖爾奈主教座堂寶藏廳",
+  "description": "圖爾奈聖母主教座堂的寶藏廳，該座堂列入聯合國教科文組織世界遺產，始建於1171年。館內收藏該座堂的中世紀聖髑盒與禮儀器物，包括歸於默茲河谷金匠Nicolas de Verdun之作的聖母聖髑盒。"
+ },
+ "tresor-de-la-cathedrale": {
+  "name": "列日主教座堂寶藏廳",
+  "description": "寶藏博物館，1992年設立於列日聖保祿主教座堂，於十個展廳中展出約200件文物。大部分文物來自1794年遭拆毀的舊聖母與聖朗拔主教座堂（Notre-Dame-et-Saint-Lambert），包括聖朗拔胸像聖髑盒（約1512年）與大膽查理贈予的聖髑盒（約1467年）。"
+ },
+ "tresor-de-la-collegiale-notre-dame-et-saint-domitien-de-huy": {
+  "name": "于伊聖母暨聖多彌天議事會教堂寶藏廳",
+  "description": "于伊哥德式議事會教堂的寶藏廳，該教堂始建於1311年，1536年竣工。廳內收藏四座十二、十三世紀的默茲河谷聖髑盒，分別紀念聖母瑪利亞及聖多彌天、Mengold與聖馬爾谷三位聖人，展示於1906年重新發現的羅馬式地下室中。"
+ },
+ "tresor-de-sainte-waudru": {
+  "name": "聖沃德呂寶藏廳",
+  "description": "蒙斯聖沃德呂議事會教堂的寶藏廳，該教堂為哥德式建築，建於1450年至1691年間。廳內收藏「金車」（Car d'Or）——一輛建於1779至1782年間的鍍金遊行馬車，至今每年在Ducasse節慶期間，仍載著聖沃德呂的聖髑盒穿街遊行——以及她1887年所製的聖髑盒。"
+ },
+ "trinkhall-museum": {
+  "name": "Trinkhall Museum",
+  "description": "位於列日Avroy公園的當代藝術博物館，1998年以MADmusée之名創立，其後更名為Trinkhall。館藏約3,000件作品，出自智能障礙或精神疾病藝術家在藝術工作坊中的創作，源自Luc Boulangé於1979年創立的Créahm協會。"
+ },
+ "ulb-museum-of-medicine": {
+  "name": "ULB醫學博物館",
+  "description": "布魯塞爾自由大學（Université Libre de Bruxelles）位於安德萊赫特Erasme校區的博物館，創立於1993年，1995年對外開放。七個展廳展出約4,000至5,000件文物，呈現醫學史的發展，從解剖蠟像、十九世紀紙漿解剖模型，到外科器械，以及來自埃及、中國與前哥倫布時期醫療傳統的文物。"
+ },
+ "wiertz-museum": {
+  "name": "維爾茲博物館",
+  "description": "位於布魯塞爾伊克塞爾（Ixelles）的故居博物館，設於浪漫主義畫家安托萬·維爾茲（Antoine Wiertz，1806－1865）的舊工作室，1868年開幕。館內大致保持藝術家生前的陳設，收藏他的巨幅畫作、素描與雕塑，如今隸屬於比利時皇家美術博物館。"
+ },
+ "wittockiana-musee-des-arts-du-livre-et-de-la-reliure": {
+  "name": "Wittockiana－書籍藝術與裝幀博物館",
+  "description": "位於沃呂韋-聖皮埃爾（Woluwe-Saint-Pierre）的博物館，專門展示裝幀藝術，館藏以藏書家Michel Wittock所蒐集的收藏為核心，2010年獲瓦隆-布魯塞爾聯邦（Fédération Wallonie-Bruxelles）認定為博物館。館藏約3,000冊書籍，從歷史裝幀到當代藝術家書籍皆有收錄，館舍為博杜安國王基金會（Fondation Roi Baudouin）所有。"
+ }
+}

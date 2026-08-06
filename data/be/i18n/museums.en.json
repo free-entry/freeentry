@@ -1,0 +1,842 @@
+{
+ "africa-museum": {
+  "name": "Royal Museum for Central Africa (AfricaMuseum)",
+  "description": "Royal museum in Tervuren built between 1905 and 1910 by architect Charles Girault in a Beaux-Arts style inspired by the Petit Palais, growing out of Léopold II's 1897 colonial exhibition. Renamed from the Museum of the Belgian Congo in 1960, it holds vast natural-history, ethnographic and archival collections on Central Africa and reopened in 2018 after a renovation that confronts the museum's colonial history."
+ },
+ "anciens-abattoirs-de-mons": {
+  "name": "Former Slaughterhouses of Mons",
+  "description": "Former municipal slaughterhouse building in Mons, converted into an exhibition venue that is part of the city's network of museums and heritage sites, used for temporary shows."
+ },
+ "aquarium-museum-de-liege": {
+  "name": "Aquarium-Museum of Liège",
+  "description": "Aquarium and natural-history museum of the University of Liège, opened in 1962 within the Institute of Zoology. Its roughly forty tanks display around 200 species of freshwater and marine life beside a 19-metre fin-whale skeleton, while the TréZOOr gallery, added in 2017, shows historic zoological collections including Blaschka glass models."
+ },
+ "archeoforum-de-liege": {
+  "name": "Archéoforum of Liège",
+  "description": "Underground archaeological site beneath Place Saint-Lambert in Liège, opened in 2003 on the grounds of the former cathedral of Notre-Dame-et-Saint-Lambert. It traces continuous occupation of the site from prehistory through a Gallo-Roman villa, a Merovingian church and successive medieval cathedrals, including a Roman hypocaust heating system."
+ },
+ "archeosite-et-musee-d-aubechies-bel-il": {
+  "name": "Archaeological Site and Museum of Aubechies",
+  "description": "Open-air archaeological park in Aubechies founded in 1983 by amateur archaeologist Léonce Demarez, reconstructing dwellings and workshops from the Neolithic through the Iron Age alongside a Gallo-Roman villa and temple. A 2013 extension, the CICCA building, displays finds from regional excavations, including a bronze statuette of Mars."
+ },
+ "art-et-marges-museum": {
+  "name": "Art et Marges Museum",
+  "description": "Brussels museum in the Marolles district dedicated to art brut and outsider art, founded in 1984 as the Art en Marge research centre before gaining museum status in 2009. Its collection of more than 4,500 works features self-taught artists and creators from psychiatric institutions, shown through rotating thematic exhibitions."
+ },
+ "art-history-museum": {
+  "name": "Art and History Museum",
+  "description": "Museum in Brussels's Cinquantenaire park, opened in 1905 within the Royal Museums of Art and History founded in 1847, rebuilt after a 1946 fire and renamed from the Cinquantenaire Museum in 2018. Its four departments cover antiquity, non-European civilisations, national archaeology and European decorative arts, including more than 11,000 Egyptian pieces and Paul Bigot's plaster model of ancient Rome."
+ },
+ "artotheque": {
+  "name": "Mons Art Lending Library (Artothèque)",
+  "description": "Art lending library in Mons that allows the public to borrow original artworks in the manner of a book library, alongside exhibitions and mediation activities around contemporary art, as part of the city's museums network."
+ },
+ "bastogne-barracks": {
+  "name": "Bastogne Barracks",
+  "description": "Belgian army-run military history site in Bastogne, on the grounds of the former Heintz barracks that served as headquarters for General Anthony McAuliffe during the December 1944 Battle of the Bulge, where he is said to have given his defiant \"Nuts!\" reply to a German surrender demand. Underground casemates and a vehicle restoration hall display armour, weapons and equipment from the siege."
+ },
+ "belexpo": {
+  "name": "BELEXPO",
+  "description": "Interactive exhibition in Brussels aimed at young visitors aged 10 to 16, using hands-on displays across 750 square metres to explore urban environmental issues such as pollution, traffic and waste and to present practical climate action."
+ },
+ "belfort": {
+  "name": "Belfry of Bruges",
+  "description": "Bell tower rising above the cloth hall on Bruges's market square, begun after an initial wooden tower burned in 1280 and completed with its octagonal white-stone upper stage in Brabantine Gothic style between 1482 and 1486. Standing 83 metres tall and leaning slightly, it is climbed via 366 steps and houses a 47-bell carillon cast by Joris Dumery after a 1741 fire."
+ },
+ "belvue-museum": {
+  "name": "BELvue Museum",
+  "description": "Museum of Belgian history in Brussels, opened in 2005 in the Hôtel Belle-Vue, built in 1776 as a luxury hotel and later a royal residence for Leopold II from 1905 to 1934. Nine rooms trace the country's history since 1830 through documents, objects and audiovisual testimony, and underground passages lead to the remains of the former Coudenberg Palace, destroyed by fire in 1731."
+ },
+ "bps22-musee-d-art-de-la-province-du-hainaut": {
+  "name": "BPS22 Museum of Art of the Province of Hainaut",
+  "description": "Contemporary art museum in Charleroi in a neoclassical building designed by Gabriel Devreux for the 1911 exhibition, which later served as a technical-school workshop and warehouse before its conversion into an art space in 2000 and museum status in 2015. Renovated between 2014 and 2015 to expand exhibition space to 2,500 square metres, it presents the Province of Hainaut's collection of art from the late 19th century to the present."
+ },
+ "carwash-by-medexmuseum": {
+  "name": "CARWASH by MedexMuseum",
+  "description": "Exhibition space in Ixelles run by MedexMuseum in a former car-wash building, presenting contemporary art, illustration and poetry through changing exhibitions and workshops."
+ },
+ "centre-albert-marinus-musee-de-woluwe": {
+  "name": "Albert Marinus Centre – Museum of Woluwe",
+  "description": "Museum in Woluwe-Saint-Lambert inaugurated in 1980 around the library, photograph and film archives bequeathed by Albert Marinus (1886-1979), an internationally known Belgian folklorist, sociologist and writer; the centre holds UNESCO consultative status for intangible cultural heritage and organises exhibitions on local heritage."
+ },
+ "centre-archeologique-de-la-grotte-scladina": {
+  "name": "Scladina Cave Archaeological Centre",
+  "description": "Archaeological centre at the Scladina cave in Sclayn, near Andenne, where excavators found the remains of a young Neanderthal known as the Child of Sclayn on 16 July 1993, dated to around 127,000 years ago. Excavation of the cave's more than 120 sediment layers, spanning over 100,000 years of occupation, continues, and the site remains open to visitors as Belgium's only permanent public excavation."
+ },
+ "centre-d-art-contemporain-du-luxembourg-belge-caclb": {
+  "name": "Contemporary Art Centre of Belgian Luxembourg (CACLB)",
+  "description": "Contemporary art centre at Montauban-Buzenol in Étalle, active on its present site since 2007 within grounds combining archaeology, heritage and nature. Its venues include the Espace René Greisch, built from four shipping containers, the 1839 Bureau des Forges building, and a Musée Lapidaire displaying carved stone blocks found on site."
+ },
+ "centre-d-art-du-mont-de-piete-espace-freddy-thielemans": {
+  "name": "Mont-de-Piété Art Centre – Espace Freddy Thielemans",
+  "description": "Free contemporary art gallery run by Brussels's Mont-de-Piété, a public pawnbroking institution operating for more than 400 years, alongside its pawn-loan and auction activities; the Freddy Thielemans gallery hosts rotating exhibitions year-round."
+ },
+ "centre-d-interpretation-de-la-pierre-cip": {
+  "name": "Stone Interpretation Centre (CIP)",
+  "description": "Museum in Sprimont housed in a former electric power station built in 1905, exploring the heritage of local petit granit (blue limestone) quarrying through interactive exhibits on geology, fossils and the quarrying trades, with an outdoor sculpture park and an annual stone-sculpture festival held since 1994."
+ },
+ "centre-daily-bul-c": {
+  "name": "Daily-Bul & C° Centre",
+  "description": "Archive and exhibition centre in La Louvière devoted to Daily-Bul, the surrealist journal and publishing house founded there in 1957 by André Balthazar and Pol Bury, which over 14 issues published artists such as Christian Dotremont, Pierre Alechinsky and Folon and, from 1965 to 1979, issued 62 pocket-sized volumes known as the Poquettes volantes."
+ },
+ "centre-de-la-gravure-et-de-l-image-imprimee": {
+  "name": "Centre for Engraving and the Printed Image",
+  "description": "Museum and art centre in La Louvière run by the Wallonia-Brussels Federation and dedicated to engraving and the printed image, presenting rotating exhibitions and a documentation centre, and awarding a biennial engraving prize."
+ },
+ "centre-marcel-marlier": {
+  "name": "Marcel Marlier Centre",
+  "description": "Museum in Mouscron, in an annex of the Château des Comtes, dedicated to illustrator Marcel Marlier (1930-2011), born nearby in Herseaux, who from 1954 co-created with author Gilbert Delahaye the Martine children's book series, illustrating some 60 titles that sold tens of millions of copies worldwide; the centre displays his original sketches and artwork."
+ },
+ "centre-wallon-d-art-contemporain-la-chataigneraie": {
+  "name": "Walloon Centre for Contemporary Art – La Châtaigneraie",
+  "description": "Contemporary art centre in Flémalle (Ivoz-Ramet) presenting temporary exhibitions alongside a library, bookshop, artist workshops and residencies, and awarding the Prix de la Jeune Sculpture."
+ },
+ "cid-grand-hornu": {
+  "name": "CID – Grand-Hornu",
+  "description": "Former colliery complex at Grand-Hornu near Mons, built between 1810 and 1832 for industrialist Henri De Gorge to designs by architects François Obin and Bruno Renard, combining mining buildings with 425 workers' houses around a neoclassical oval courtyard. Mining ceased in 1954 and the restored site, a UNESCO World Heritage property since 2012, now houses CID, the design and architecture centre of Grand-Hornu."
+ },
+ "cinematek": {
+  "name": "Cinematek",
+  "description": "Belgium's national film archive in Brussels, founded in 1938 by Henri Storck, André Thirifays and Pierre Vermeylen and known as Cinematek since 2009. Housed at the Palais des Beaux-Arts, it preserves some 35,000 film titles along with photographs, books and magic-lantern plates, and screens works from its collection daily."
+ },
+ "computer-museum-nam-ip": {
+  "name": "NAM-IP Computer Museum",
+  "description": "Museum in Namur devoted to the history of computing and information technology, displaying vintage computers, calculators and related equipment."
+ },
+ "contretype": {
+  "name": "Contretype",
+  "description": "Photography centre in Saint-Gilles (Brussels) supporting contemporary photographic practice through exhibitions and archipel, its programme for emerging photographers from Belgium and neighbouring countries."
+ },
+ "culture-art-et-patrimoine-cap": {
+  "name": "Culture Art and Heritage (CAP)",
+  "description": "Exhibition venue in Mons, part of the city's network of thirteen museums and heritage sites organised around fine art, memorial history and UNESCO-listed heritage, presenting temporary exhibitions."
+ },
+ "design-museum-brussels": {
+  "name": "Design Museum Brussels",
+  "description": "Museum on Brussels's Heysel plateau, opened in December 2015 as the Art & Design Atomium Museum and renamed Design Museum Brussels in 2020. Its core collection is Philippe Decelle's roughly 2,000-piece Plasticarium of plastic design from 1960 to 2000, joined in 2020 by a second permanent collection on modern and contemporary Belgian design, shown in the 1975 Trade Mart building with an entrance designed by architect Jean Nouvel."
+ },
+ "design-museum-gent": {
+  "name": "Design Museum Gent",
+  "description": "Ghent museum tracing its origins to 1903, when local industrialists and art lovers founded a decorative-arts collection later moved into the 18th-century Hôtel de Coninck. A modern extension by architect Willy Verstraete opened in 1992, and the museum now holds some 22,000 objects spanning Art Nouveau, applied arts and contemporary Belgian design, including works by Henry van de Velde."
+ },
+ "diva-museum-antwerpen": {
+  "name": "DIVA, Antwerp Home of Diamonds",
+  "description": "Antwerp museum of diamonds, jewellery and silverware, opened in 2018 in a converted 1879 building on Suikerrui, succeeding the former Diamond Museum and Sterckshof Silver Museum. Its roughly 2,500-piece collection, of which some 650 objects are on show across seven themed rooms, includes a bequest of 96 silver works from Pierre E. Lundens."
+ },
+ "durbuy-history-art-museum-dham": {
+  "name": "Durbuy History & Art Museum (DHAM)",
+  "description": "Museum in Durbuy occupying a protected historic house, presenting local history alongside more than 100 works of contemporary art displayed across three floors."
+ },
+ "ecomusee-de-ben-ahin": {
+  "name": "Ben-Ahin Ecomuseum",
+  "description": "Local heritage museum in the Ben-Ahin district of Huy, presenting the traditional rural and artisanal life of the area."
+ },
+ "ecomusee-du-viroin": {
+  "name": "Viroin Ecomuseum",
+  "description": "Open-air heritage museum in Treignes, established in 1993 by the Université libre de Bruxelles in a restored farm-château whose tower dates to the early 16th century. It documents peasant life and the rural crafts of the Viroin valley from the 18th to the 20th century through tools, furniture, machinery and oral-history collections."
+ },
+ "espace-gallo-romain": {
+  "name": "Ath Gallo-Roman Museum",
+  "description": "Archaeology museum in Ath, founded in 1997, largely built around finds from the 1975 excavations at Pommerœul, a Gallo-Roman crossroads settlement uncovered during construction of the Mons-Condé canal. Its most notable holdings are five ancient boats found there, including a dugout canoe and two Celtic-tradition barges, one displayed in a climate-controlled two-storey case."
+ },
+ "espace-museal-d-andenne-ema-le-phare": {
+  "name": "Andenne Museum Space (EMA – Le Phare)",
+  "description": "Museum in Andenne, housed in the Le Phare building, presenting finds from the nearby Scladina cave, including the fossil remains known as the Child of Sclayn, alongside the region's long tradition of ceramics."
+ },
+ "espace-museal-emile-verhaeren": {
+  "name": "Émile Verhaeren Museum Space",
+  "description": "Museum space in Roisin (Honnelles) dedicated to the poet Émile Verhaeren (1855-1916), a leading figure of Belgian Symbolism who spent long periods at the nearby Caillou-qui-Bique estate that inspired much of his poetry, presenting documents and mementos related to his life and work."
+ },
+ "experience-europe": {
+  "name": "Experience Europe",
+  "description": "Interactive visitor centre run by the European Commission in Brussels, near the Schuman roundabout, where visitors can explore how the Commission works and engage with EU-related content through games and activities available in all 24 official EU languages."
+ },
+ "famenne-art-museum-fam": {
+  "name": "Famenne & Art Museum (FAM)",
+  "description": "Museum in Marche-en-Famenne housed in a listed 17th- and 18th-century town house, displaying objects from prehistory to the present, including jewellery, lace and sculpture, alongside works by regional artists such as Surrealist painter Fernand Poncelet."
+ },
+ "fashion-lace-museum": {
+  "name": "Fashion and Lace Museum",
+  "description": "Museum in central Brussels, opened in 1977 and run by the City of Brussels, whose collections focus on costume, notably ecclesiastical garments, alongside antique and contemporary lace, presented through permanent and temporary exhibitions."
+ },
+ "fomu-fotomuseum-antwerpen": {
+  "name": "FOMU – Antwerp Photography Museum",
+  "description": "Antwerp museum dedicated to photography as an art form, occupying a former warehouse on Waalsekaai since 1986 and reopened in 2004 after a major expansion designed by architects Georges Baines and Patrick De Sterck. Known as FoMu, it also presents film programming in partnership with the Museum of Contemporary Art Antwerp."
+ },
+ "forge-musee": {
+  "name": "Forge Museum (Ittre)",
+  "description": "Small museum in Ittre devoted to the traditional craft of blacksmithing and the local forge trade."
+ },
+ "fort-et-memorial-de-huy": {
+  "name": "Huy Fort and Memorial",
+  "description": "Citadel above Huy on the Meuse, built between 1818 and 1823 under King William I of the Netherlands as part of the Wellington Barrier defensive line, on the site of the former castle of Huy. Used by the Germans as a disciplinary camp in the First World War, it served from 1940 to 1945 as an internment and transit centre holding more than 6,500 political prisoners and hostages, and has housed a Museum of the Resistance and Concentration Camps since 1992."
+ },
+ "fourneau-saint-michel": {
+  "name": "Fourneau Saint-Michel",
+  "description": "Open-air museum near Saint-Hubert, founded in 1771 by Nicolas Spirlet, last abbot of Saint-Hubert Abbey, as an ironworks and forge powered by the Masblette stream, later run as a foundry by industrialist Léopold Zoude after the abbey's lands were sold off in 1797. Since 1977 the 80-hectare site has combined the Museum of Iron and Early Metallurgy with an open-air museum of rural buildings relocated from villages across the Ardennes."
+ },
+ "garderobe-mannekenpis": {
+  "name": "GardeRobe MannekenPis",
+  "description": "Museum in central Brussels displaying more than 1,000 costumes donated to the Manneken-Pis statue over the centuries, a tradition documented since 1755, when Henri Wauters became the first recorded official dresser of the figure."
+ },
+ "grand-curtius": {
+  "name": "Grand Curtius Museum",
+  "description": "Museum complex in Liège, opened in March 2009, merging five former collections devoted to archaeology and decorative arts, religious and Mosan art, weapons, glass and Egyptology. Housed across four historic buildings including the Palais Curtius, built from 1597 to 1605 for merchant Jean Curtius, it holds over 100,000 objects spanning 7,000 years, among them a Neanderthal skull found at Engis and around 10,000 pieces of glass."
+ },
+ "gravensteen": {
+  "name": "Gravensteen (Castle of the Counts)",
+  "description": "Medieval castle in Ghent built in 1180 by Count Philip of Alsace on the site of earlier 9th- and 10th-century fortifications, serving as residence of the Counts of Flanders until the 14th century and later as a prison and, from the late 18th century, a cotton mill. Saved from demolition and restored after the city of Ghent purchased it in 1885, it now displays period weapons, armour and a torture chamber."
+ },
+ "gum-gents-universiteitsmuseum": {
+  "name": "GUM – Ghent University Museum",
+  "description": "Ghent University's museum, opened in 2020 on the Ledeganck campus and drawing on academic collections dating back to 1817, when King William I donated items to the university. It holds more than 400,000 objects spanning medicine, archaeology, ethnography and the history of science, alongside the adjoining Botanical Garden and its some 10,000 plant species."
+ },
+ "hexapoda-insectarium-jean-leclercq": {
+  "name": "Hexapoda – Jean Leclercq Insectarium",
+  "description": "Insectarium in Waremme named after Belgian entomologist Jean Leclercq, displaying live and preserved insects and other arthropods."
+ },
+ "hopital-notre-dame-a-la-rose": {
+  "name": "Notre-Dame à la Rose Hospital",
+  "description": "Hospital founded in 1242 in Lessines by Alix de Rosoit, widow of the local lord Arnould IV of Audenarde, and entrusted to a community of Augustinian sisters recorded from 1246. Expanded into its present quadrilateral form between the 16th and 18th centuries in Flemish Renaissance and late Gothic styles, it functioned as a working hospital until the 1980s and now displays medical instruments, pharmaceutical collections and a Baroque chapel across twenty rooms."
+ },
+ "horta-museum": {
+  "name": "Horta Museum",
+  "description": "Former house and studio of architect Victor Horta in Saint-Gilles, built between 1898 and 1901 as two internally connected buildings, an Art Nouveau masterpiece featuring a central staircase lit by a large skylight and mosaics extending from floor to door handles. Classified as protected heritage in 1963 and opened as a museum in 1969, it was inscribed on the UNESCO World Heritage list in 2000 among Horta's major town houses."
+ },
+ "huis-van-alijn": {
+  "name": "House of Alijn",
+  "description": "Museum of everyday life in Ghent, established in 1962 in a hospice built in the second half of the 14th century by the Rijm family, which housed eighteen elderly women in penance for a family murder until the last residents left in 1863. Restored by the city after its purchase in 1941, the eighteen small houses around a courtyard, with a Renaissance chapel added in 1543, now illustrate working-class urban life around 1900 through its birth, festival, religious and trade collections."
+ },
+ "ikob-musee-d-art-contemporain-d-eupen": {
+  "name": "IKOB – Museum of Contemporary Art",
+  "description": "Contemporary art museum in Eupen, founded on 16 February 1993 by Francis Feidler and the executive of the German-speaking Community, initially as the International Art Centre East Belgium and renamed IKOB in 2005. Settled since 1999 in a converted warehouse opposite the town's former slaughterhouse, it holds more than 400 works by Belgian, Dutch, French, Luxembourg and German artists."
+ },
+ "industriemuseum": {
+  "name": "Museum of Industry (Ghent)",
+  "description": "Museum of Ghent's industrial heritage, founded in 1976 and housed since 1990 in the Desmet-Guéquier cotton mill, built between 1905 and 1912 on the model of Manchester's cotton factories. Across five floors it traces the city's evolution from medieval wool production to linen and cotton manufacturing, centred on a mule-jenny spinning machine smuggled to the Continent by Liévin Bauwels in 1798."
+ },
+ "institute-of-natural-sciences": {
+  "name": "Royal Belgian Institute of Natural Sciences",
+  "description": "Natural history museum in Brussels, created by royal decree in 1846 and installed since 1891 in Leopold Park; part of the Royal Belgian Institute of Natural Sciences, it holds some 38 million specimens, including the iguanodon skeletons unearthed at Bernissart in 1878, displayed in the world's largest dinosaur gallery, opened in 2007."
+ },
+ "jewish-museum-of-belgium": {
+  "name": "Jewish Museum of Belgium",
+  "description": "Museum in Brussels devoted to Jewish history, religion and culture, opened in 2005 in a former German school built in 1901-1902; its holdings include some 750 ritual objects, 1,250 artworks and 20,000 photographs. In May 2014 it was the site of a terrorist attack that killed four people."
+ },
+ "kbr-museum": {
+  "name": "KBR Museum",
+  "description": "Museum of the Royal Library of Belgium (KBR) in Brussels, opened in 2020 around the former Chapel of Nassau; it displays the library of the Dukes of Burgundy, some 35,000 manuscripts including 4,500 medieval codices illuminated by artists such as Willem Vrelant and Simon Marmion, alongside period paintings, sculptures and everyday objects."
+ },
+ "keramis-centre-de-la-ceramique": {
+  "name": "Keramis – Ceramics Centre",
+  "description": "Ceramics museum and cultural centre in La Louvière, set on the former Boch Frères Keramis earthenware works site by its preserved bottle-shaped kilns; it presents the city's ceramics collections, enriched with contemporary acquisitions since 2015, and hosts exhibitions, workshops and artist residencies."
+ },
+ "kina": {
+  "name": "Kina",
+  "description": "Children's nature and science museum in Ghent, spread across two sites — the Huis (House) near Sint-Pietersplein and the Tuin (Garden) on Berouwstraat — where young visitors explore animals, fossils and natural science through hands-on, playful activities."
+ },
+ "l-orangerie-espace-d-art-contemporain": {
+  "name": "L'Orangerie, Contemporary Art Space",
+  "description": "Contemporary art centre in Bastogne, founded as a non-profit in 2010 and relocated in late 2024 to the town's historic centre, where it now forms a 'culture hub' alongside the Bastogne Cultural Centre and the Musée de la Grande Ardenne; it stages exhibitions across the visual and plastic arts with free admission."
+ },
+ "la-boverie": {
+  "name": "La Boverie",
+  "description": "Fine arts museum in Liège, opened in 2016 after the renovation of the former Palace of Fine Arts built for the 1905 Universal Exposition; it houses the roughly 350-work collection of the Musée des Beaux-Arts de Liège, including paintings by Van Gogh, Monet, Gauguin, Picasso and Magritte, across 5,000 square metres in the Parc de la Boverie."
+ },
+ "la-cite-miroir": {
+  "name": "La Cité Miroir",
+  "description": "Cultural and memorial centre in Liège devoted to citizenship, critical thinking and historical memory, housed in the former Bains de la Sauvenière public swimming pool on Place Xavier Neujean; it stages immersive exhibitions, debates and educational programmes."
+ },
+ "la-fonderie-musee-bruxellois-des-industries-et-du-travail": {
+  "name": "La Fonderie – Brussels Museum of Industry and Labour",
+  "description": "Museum of Brussels' industrial and labour history, housed in a former foundry on Rue Ransfort in Molenbeek; its permanent exhibition 'Made in Brussels' presents machinery and archives documenting the city's manufacturing past, alongside a documentation centre and guided industrial-heritage tours."
+ },
+ "la-maison-de-monsieur-sax": {
+  "name": "The House of Mister Sax",
+  "description": "Interpretation centre in Dinant devoted to Adolphe Sax (1814-1894), the inventor of the saxophone, set in his birthplace; interactive displays let visitors hear the instrument's different types and musical uses, part of the town's 'Sax and the City' trail of painted saxophone sculptures."
+ },
+ "la-mediatine": {
+  "name": "La Médiatine",
+  "description": "Exhibition space in Woluwe-Saint-Lambert, part of the Wolubilis cultural centre complex, used for temporary art exhibitions."
+ },
+ "le-bois-du-cazier-musee-de-l-industrie-musee-du-verre": {
+  "name": "Bois du Cazier – Industry Museum & Glass Museum",
+  "description": "Former coal mine in Marcinelle, site of a disaster on 8 August 1956 that killed 262 miners, 136 of them Italian; listed as a UNESCO World Heritage Site among Wallonia's major mining sites in 2012, its 25-hectare grounds now house an Industry Museum in the old pithead bathhouses and a Glass Museum, alongside a memorial space on the 1956 tragedy."
+ },
+ "le-delta-espace-culturel-de-la-province-de-namur": {
+  "name": "Le Delta – Cultural Space of Namur Province",
+  "description": "Provincial cultural centre of Namur, designed by architect Philippe Samyn, hosting a multidisciplinary programme of visual arts, music, dance, theatre and circus across three modular halls and several exhibition spaces, along with artist residencies and educational workshops."
+ },
+ "le-jardin-de-sculptures": {
+  "name": "The Sculpture Garden",
+  "description": "Brussels' first permanent garden of contemporary sculpture, a two-hectare park in Woluwe-Saint-Lambert next to the medicinal plant garden, displaying bronze, steel, granite, wood and brick works by ten artists including Pierre Culot and Reinhoud Dodeigne, freely open to visitors."
+ },
+ "le-jardin-des-plantes-medicinales-paul-moens": {
+  "name": "Paul Moens Medicinal Plant Garden",
+  "description": "Teaching garden of medicinal plants at UCLouvain's Woluwe-Saint-Lambert campus, founded in 1975 by Professor Moens; spread over 2.7 hectares, it groups some 400 plots and 120 medicinal shrubs used to train pharmacy, medicine and dietetics students, and is open to the public from April to October."
+ },
+ "le-pavillon": {
+  "name": "Le Pavillon",
+  "description": "Digital culture venue in Namur, installed in the former Belgian pavilion from the 2015 Milan World Expo and opened in 2022; run by the digital-culture organisation KIKK, it hosts exhibitions and workshops exploring digital art and technology for all ages."
+ },
+ "les-bateliers-musees-archeologique-et-des-arts-decoratifs": {
+  "name": "Les Bateliers – Archaeology and Decorative Arts Museums",
+  "description": "Twin-museum site in central Namur combining an archaeology museum, spanning prehistory to antiquity, with a decorative arts museum housed in the 18th-century Hôtel de Groesbeeck-de Croix, displaying furniture and objects from the 17th to 19th centuries."
+ },
+ "les-halles-saint-gery": {
+  "name": "Saint-Géry Halls",
+  "description": "Former covered market in central Brussels, built in 1881-1882 by architect Adolphe Vanderheggen in Flemish neo-Renaissance style on the site of the vanished Saint-Géry island; a market until 1977 and protected since 1987, the metal-framed halls now serve as an exhibition and event venue, with a heritage information centre in place since 1999."
+ },
+ "letterenhuis": {
+  "name": "Letterenhuis",
+  "description": "Literary archive and museum in Antwerp dedicated to Flemish literary life, founded in 1933 and housed since in the Hôtel De Beukelaer, an 1840 mansion; its holdings include some two million letters and manuscripts, 130,000 photographs and 40,000 graphic works documenting Flemish writers from 1780 onward."
+ },
+ "mac-s-grand-hornu": {
+  "name": "MAC's (Grand-Hornu)",
+  "description": "Contemporary art museum at Grand-Hornu, a former colliery built from 1816 for industrialist Henri De Gorge and completed in neoclassical style by architect Bruno Renard in 1831; listed among Wallonia's major mining sites on the UNESCO World Heritage list in 2012, the restored engineers' building has hosted the Wallonia-Brussels Federation's museum of contemporary art since 2002."
+ },
+ "magasin-de-papier": {
+  "name": "Magasin de Papier",
+  "description": "Exhibition venue in Mons, part of the city's museum network (Pôle muséal de Mons), used for temporary shows including exhibitions by the ARTS² art school."
+ },
+ "magritte-museum": {
+  "name": "Magritte Museum",
+  "description": "Museum devoted to René Magritte, opened in 2009 on Place Royale in Brussels within the late-18th-century Hôtel du Lotto, run by the Royal Museums of Fine Arts of Belgium; it displays more than 150 works — oils, gouaches, drawings and sculptures — largely from the donations of Irène Scutenaire-Hamoir and Georgette Magritte, tracing the artist's career across three floors."
+ },
+ "maison-de-l-histoire-europeenne": {
+  "name": "House of European History",
+  "description": "Museum of European history opened in 2017 as an initiative of the European Parliament, housed in the former Eastman dental clinic, an Art Deco building of 1935 designed by Michel Polak in Brussels' Leopold Quarter; its 4,000-square-metre permanent exhibition traces 20th-century Europe from a transnational perspective, with free admission and content in all 24 official EU languages."
+ },
+ "maison-de-l-imprimerie": {
+  "name": "House of Printing",
+  "description": "Living museum of printing history in Thuin, presenting historic presses and papermaking demonstrations in reconstructed workshop settings, with guided visits for all ages."
+ },
+ "maison-de-la-metallurgie-et-de-l-industrie": {
+  "name": "House of Metallurgy and Industry",
+  "description": "Industrial history museum in Liège's Longdoz district, affiliated with the University of Liège, tracing the region's iron and steel industry through the pre-industrial era and the Industrial Revolution, centred on the figures of ironmaster John Cockerill and zinc pioneer Jean-Jacques Dony, with a working forge on site."
+ },
+ "maison-de-la-poterie": {
+  "name": "House of Pottery",
+  "description": "Museum in Bouffioulx devoted to the village's salt-glazed stoneware tradition, documented since the 13th century and revived in 1907 by potter Willem Delsaux, whose Art Deco successor Roger Guérin brought the craft international recognition; the village still hosts active pottery workshops and an annual pottery festival."
+ },
+ "maison-de-la-science-uliege": {
+  "name": "House of Science (ULiège)",
+  "description": "Science outreach centre of the University of Liège, offering a permanent hands-on exhibition trail, a planetarium, scientific demonstrations and workshops for families, schools and groups, under the motto 'the museum that puts science into culture.'"
+ },
+ "maison-des-artistes": {
+  "name": "House of Artists",
+  "description": "Space in Anderlecht dedicated to visual artists, used for exhibitions and creative activities."
+ },
+ "maison-des-geants": {
+  "name": "House of Giants",
+  "description": "Museum in Ath dedicated to the town's carnival giants and to giant traditions across Europe, inaugurated in 2000 in the 1780 Château Cambier; the Ducasse d'Ath festival that carries the giants was recognised by UNESCO in 2005, and the museum presents their history and craftsmanship alongside audiovisual displays and workshops."
+ },
+ "maison-des-megalithes-de-weris": {
+  "name": "House of the Wéris Megaliths",
+  "description": "Visitor and interpretation centre at Wéris, gateway to the region's Neolithic dolmens and menhirs raised some 5,000 years ago by early farming communities; its renovated exhibition, reopened in 2026, presents the megalithic monuments and the people who built them, alongside walking routes to the sites."
+ },
+ "maison-du-patrimoine-medieval-mosan-mpmm": {
+  "name": "House of Mosan Medieval Heritage (MPMM)",
+  "description": "Museum in the medieval town of Bouvignes, near Dinant, housed in the historic Maison espagnole; it explores medieval life along the Meuse valley from Sedan to Maastricht — river trade, castles and towns, religious foundations, funerary rites, ceramics and coppersmithing — through permanent and temporary exhibitions."
+ },
+ "maison-van-gogh": {
+  "name": "Van Gogh House",
+  "description": "House-museum in Cuesmes, near Mons, where Vincent van Gogh lodged with a miner's family from August 1879 to October 1880 while working as a lay preacher in the Borinage; it displays his correspondence from the period, his personal Bible and a copy of his 1880 drawing 'Les Bêcheurs,' after Millet."
+ },
+ "malmundarium": {
+  "name": "Malmundarium",
+  "description": "Cultural and heritage centre in Malmedy, opened in 2011 in the former abbey that once seated the prince-bishopric of Stavelot-Malmedy; across 3,000 square metres it covers the town's leather-tanning industry (1565-1996), its Cwarmê carnival, its paper-making history since around 1726 and its history since the abbey's founding in 648, alongside the cathedral treasury."
+ },
+ "mas-museum-aan-de-stroom": {
+  "name": "MAS – Museum aan de Stroom",
+  "description": "Museum in Antwerp's former Eilandje harbour district, opened in 2011 in a 62-metre tower designed by Neutelings Riedijk Architects and clad in red Indian sandstone; its some 470,000 objects, drawn from maritime, ethnographic and applied-art collections, trace the city's relationship with the world through its port."
+ },
+ "maurice-careme-museum": {
+  "name": "Maurice Carême Museum",
+  "description": "House-museum in Anderlecht in the former home of Belgian poet Maurice Carême, who lived there from 1933 until his death in 1978; it preserves his furnishings and study, his manuscripts and library, and artworks by friends such as Paul Delvaux, alongside correspondence with figures including Gaston Bachelard."
+ },
+ "meunier-museum": {
+  "name": "Meunier Museum",
+  "description": "House and studio museum in Ixelles where sculptor and painter Constantin Meunier (1831-1905) worked, designed by architect Ernest Delune and acquired by the Belgian state in 1936; it opened to the public in 1939 and joined the Royal Museums of Fine Arts of Belgium in 1978, displaying around 150 works, notably his sculptures of industrial labour."
+ },
+ "micromusee-de-la-frite-home-frit-home": {
+  "name": "Home Frit' Home – Micro-Museum of the Fry",
+  "description": "Small museum in Brussels devoted to the Belgian fry, its history and its place in local culture, presented in a compact, playful format."
+ },
+ "middelheimmuseum": {
+  "name": "Middelheim Museum",
+  "description": "Open-air sculpture museum in Antwerp, established in 1950 and inaugurated the following year, set in a 30-hectare park; its collection of around 480 sculptures, roughly 200 of them on permanent display, spans modern and contemporary work by artists including Rodin, Henry Moore, Barbara Hepworth, Calder and Giacometti."
+ },
+ "momu-modemuseum-antwerpen": {
+  "name": "MoMu – Fashion Museum Antwerp",
+  "description": "Museum of Belgian fashion in Antwerp, opened in 2002 on Nationalestraat; it collects, studies and presents Belgian fashion design, with particular attention to the 'Antwerp Six' generation of designers — including Dries Van Noten and Ann Demeulemeester — who trained at the city's Royal Academy of Fine Arts, and holds a collection of some 25,000 objects."
+ },
+ "mons-memorial-museum": {
+  "name": "Mons Memorial Museum",
+  "description": "Museum in Mons housed in the former Machine-à-eau, built in 1870-1871, covering the region's history from the Middle Ages to the 20th century with particular focus on the two World Wars; opened in 2015, it presents more than 5,000 military and civilian objects and testimonies from Belgian, American, British, Canadian and German soldiers and civilians."
+ },
+ "msk-museum-voor-schone-kunsten-gent": {
+  "name": "Museum of Fine Arts Ghent (MSK)",
+  "description": "Fine arts museum founded in 1798, in its current building in Citadelpark since 1913 (designed by Charles Van Rysselberghe, rebuilt after wartime damage and reopened in 2007); its roughly thirty rooms cover European art from the 14th century to the postwar period, with Flemish masters including Hieronymus Bosch's 'Christ Carrying the Cross' and works by Rubens and van Dyck."
+ },
+ "mumask-musee-du-masque-et-du-carnaval": {
+  "name": "MUMASK – Museum of the Mask and Carnival",
+  "description": "Museum in Binche opened in 1975 in a 16th-century mansion, presenting masked traditions from around the world alongside the town's Gilles carnival; its permanent exhibitions treat Belgian and international carnival and mask practices on an equal footing."
+ },
+ "mumons": {
+  "name": "MUMONS",
+  "description": "Museum of the University of Mons, presenting the institution's collections and heritage through exhibitions and educational programmes for students, researchers and the wider public."
+ },
+ "mundaneum": {
+  "name": "Mundaneum",
+  "description": "Archive centre and museum in Mons, tracing the project begun in Brussels from 1895 by Paul Otlet and Henri La Fontaine to compile a universal bibliography — a card index that grew to 12 million entries and is often called a paper forerunner of the internet; the collections moved to Mons in 1992, opened to the public in 1998, and received the European Heritage Label in 2016."
+ },
+ "musee-africain-de-namur-musafrica": {
+  "name": "African Museum of Namur (MusAfrica)",
+  "description": "Museum in Namur devoted to Central Africa, chiefly the Congo before its 1960 independence, established in 1912 and housed since 1984 in the former Léopold Barracks guardhouse; renovated and relaunched as MusAfrica in 2025, it displays masks, weapons, musical instruments and colonial-era artefacts alongside a specialist library of more than 20,000 volumes."
+ },
+ "musee-archeologique-d-arlon": {
+  "name": "Arlon Archaeological Museum",
+  "description": "Archaeology museum in Arlon, established in 1886 and housed since 1934 in a neoclassical building of the 1840s; it specialises in the Gallo-Roman heritage of the Luxembourg province, with one of Europe's most important collections of funerary sculpture, alongside ceramics and coins, drawn largely from the Arlon vicus and the Mageroy villa."
+ },
+ "musee-archeologique-de-la-haute-meuse-mahm": {
+  "name": "Archaeological Museum of the Haute-Meuse (MAHM)",
+  "description": "Archaeology museum in Godinne, near Yvoir, housed in the farmhouse known as La Vieille Ferme; it presents tools, weapons, jewellery and ceramics from prehistory to late antiquity, drawn from excavations along the upper Meuse valley."
+ },
+ "musee-archeologique-de-logne": {
+  "name": "Logne Archaeological Museum",
+  "description": "Archaeology museum within the ruins of Logne Castle in Vieuxville, displaying finds unearthed at the medieval fortress site."
+ },
+ "musee-armand-pellegrin": {
+  "name": "Armand Pellegrin Museum",
+  "description": "Museum of the history of education in Hélécine, presenting rare pedagogical objects — abecedaries, globes, measuring instruments — and a reconstructed early-20th-century classroom, alongside temporary exhibitions on local art and folklore."
+ },
+ "musee-belge-de-la-franc-maconnerie": {
+  "name": "Belgian Museum of Freemasonry",
+  "description": "Museum in Brussels devoted to the history and symbolism of Freemasonry in Belgium, displaying regalia, ritual objects and archival documents."
+ },
+ "musee-communal-d-herstal": {
+  "name": "Herstal Municipal Museum",
+  "description": "Local history museum in Herstal, set in a 17th-century town house on the Walloon heritage register; it documents the city's identity as a centre of iron and coal, its arms-manufacturing and precision-mechanics industries, and its folklore and artistic traditions."
+ },
+ "musee-communal-de-huy": {
+  "name": "Huy Municipal Museum",
+  "description": "Local museum in Huy housed in a former Franciscan convent founded around 1230 and rebuilt in the 17th century; across ten rooms it presents fine and decorative arts, archaeology and industrial heritage from the Huy area, notably the 'Beau Dieu,' a realistically carved wooden crucifix from around 1240."
+ },
+ "musee-communal-pieter-cnops": {
+  "name": "Pieter Cnops Municipal Museum",
+  "description": "Local history museum in Evere, set in a century-old building; it traces the commune's economic, folkloric, political, religious and associative life from the Middle Ages to the present."
+ },
+ "musee-d-ansembourg": {
+  "name": "Hôtel d'Ansembourg",
+  "description": "Museum of archaeology and decorative art in Liège, opened in 1905 in an 18th-century mansion (1738-1741) built by architect Johann Joseph Couven for merchant-banker Michel Willems; its Mosan Baroque interiors display period furniture and decorative objects, with stuccowork by Tomaso Vasalli, an oak staircase, Oudenaarde tapestries and over 2,500 Delft tiles in the kitchen."
+ },
+ "musee-d-archeologie-de-tournai": {
+  "name": "Archaeology Museum of Tournai",
+  "description": "Archaeological museum in Tournai occupying the 17th-century mont-de-piété built by Wenceslas Cobergher, tracing the region's past from the Quaternary era through Gallo-Roman and Merovingian times; its Merovingian collection includes finds from the Saint-Brice cemetery linked to the burial of Frankish king Childeric I."
+ },
+ "musee-d-archeologie-et-d-histoire-de-vise": {
+  "name": "Museum of Archaeology and History of Visé",
+  "description": "Local history and archaeology museum in Visé run with the Société royale d'archéologie et d'histoire de Visé, presenting some 1,200 years of the Lower Meuse region's past from its first inhabitants onward."
+ },
+ "musee-d-art-spontane": {
+  "name": "Museum of Spontaneous Art",
+  "description": "Small museum in Schaerbeek dedicated to non-codified art forms such as art brut and naive art, showing works by self-taught Belgian artists including Mireille Bastin, Claudine Loquen and Norbert Benoit."
+ },
+ "musee-d-histoire-et-des-arts-decoratifs-musee-de-la-porcelaine": {
+  "name": "Museum of History and Decorative Arts (Porcelain Museum)",
+  "description": "Tournai museum devoted to decorative arts and to the city's Manufacture royale de porcelaine, founded in 1750 by François-Joseph Peterinck and long celebrated for its soft-paste porcelain."
+ },
+ "musee-d-histoire-militaire-mhm": {
+  "name": "Museum of Military History (MHM)",
+  "description": "Museum tracing eight centuries of Tournai's military history, created in 1930 as the Musée d'Armes and moved in 2000 to a private mansion near the Grand-Place; its collection, one of Belgium's most important public arms holdings, ranges from medieval cannon to a V2 rocket combustion chamber."
+ },
+ "musee-d-histoire-naturelle-mhn-et-vivarium": {
+  "name": "Museum of Natural History and Vivarium",
+  "description": "Natural history museum and vivarium in Tournai open since 1829, combining living-animal displays with natural history collections on regional biodiversity."
+ },
+ "musee-d-interpretation-archeologique-du-brabant-wallon-miabw": {
+  "name": "Archaeological Interpretation Museum of Walloon Brabant (MiaBw)",
+  "description": "Hands-on archaeology museum at the Château d'Hélécine, successor to the former archaeological museum of Orp-le-Grand, letting visitors handle mammoth bones and Roman artefacts across sections on human evolution, prehistoric hunting and a reconstructed Gallo-Roman settlement."
+ },
+ "musee-de-folklore-et-des-imaginaires-mufim": {
+  "name": "Museum of Folklore and Imaginaries (MuFIm)",
+  "description": "Tournai museum exploring regional folklore and popular imagination through themes such as dialect and language, life rituals, trades, festivities and games."
+ },
+ "musee-de-folklore-vie-frontaliere-de-mouscron-musef": {
+  "name": "Museum of Folklore and Border Life of Mouscron (MUSEF)",
+  "description": "Local folklore museum in Mouscron, a town on the Franco-Belgian border, preserving traditions and everyday objects reflecting the area's distinctive cross-border way of life."
+ },
+ "musee-de-l-eau-et-de-la-fontaine-mef": {
+  "name": "Museum of Water and the Fountain (MEF)",
+  "description": "Interactive museum in Ottignies-Louvain-la-Neuve open since 1989, dedicated to water in all its forms and to an inventory of more than 300 fountains across Belgium, with hands-on exhibits for children and families."
+ },
+ "musee-de-l-eglise-orthodoxe": {
+  "name": "Museum of the Orthodox Church",
+  "description": "Small Brussels museum linked to the Orthodox Archdiocese of Belgium, presenting Orthodox Christian art and liturgical objects."
+ },
+ "musee-de-l-orfevrerie-chateau-de-seneffe": {
+  "name": "Silverware Museum at Château de Seneffe",
+  "description": "Museum inside the 18th-century neoclassical Château de Seneffe, a former pleasure residence set in a 22-hectare park, housing what is considered Belgium's finest collection of silverware and decorative arts."
+ },
+ "musee-de-la-banque-nationale-de-belgique": {
+  "name": "Museum of the National Bank of Belgium",
+  "description": "Brussels museum of the National Bank of Belgium, opened in 1982 and since 2018 housed in an 1872-74 eclectic building by architect Désiré De Keyser, tracing the history of money from barter to the euro through more than 300 objects, 2,500 years of coinage and over 24,000 banknotes."
+ },
+ "musee-de-la-compagnie-royale-des-anciens-arbaletriers-visetois": {
+  "name": "Museum of the Royal Company of Former Crossbowmen of Visé",
+  "description": "Small museum in Visé run by the town's historic royal crossbowmen's guild, preserving the costumes, regalia and traditions of this centuries-old civic company."
+ },
+ "musee-de-la-foire-et-de-la-memoire": {
+  "name": "Museum of the Fair and of Memory",
+  "description": "Municipal museum in Saint-Ghislain combining a collection on fairground culture, including a 1920s carousel and a flea circus, with local memory displays of objects, posters and postcards; fairground culture was added to UNESCO's intangible heritage list in 2024."
+ },
+ "musee-de-la-foret-et-des-eaux-domaine-de-berinzenne": {
+  "name": "Museum of the Forest and the Waters, Domaine de Bérinzenne",
+  "description": "Nature museum at the Domaine de Bérinzenne near Spa, presenting the region's heaths, forests and mineral springs through naturalised animals, murals and interactive displays."
+ },
+ "musee-de-la-fraise": {
+  "name": "Strawberry Museum",
+  "description": "Museum in Wépion, near Namur, established in 1970 to preserve the heritage of Walloon strawberry cultivation, presenting the crop's agricultural, culinary and folkloric history alongside the area's riverside \"villas mosanes.\""
+ },
+ "musee-de-la-grande-ardenne": {
+  "name": "Museum of the Greater Ardenne",
+  "description": "Ethnology museum in Bastogne, formerly known as Musée en Piconrue, housed in the former Bethléem convent founded in 1628; it preserves around 100,000 objects on Ardenne traditions, including 20,000 photographs by Edmond Dauchot and original drawings by Didier Comès."
+ },
+ "musee-de-la-maison-d-erasme": {
+  "name": "Erasmus House",
+  "description": "Museum dedicated to Renaissance humanist Erasmus, housed in the late-15th-century canonical residence in Anderlecht where he stayed in 1521; founded in 1930, it holds around 1,200 books and manuscripts, portraits by Holbein, Metsys and Dürer, and original editions of works such as In Praise of Folly."
+ },
+ "musee-de-la-medecine-campus-erasme": {
+  "name": "Museum of Medicine, Erasme Campus",
+  "description": "Medical museum on the Université libre de Bruxelles's Erasme campus, presented alongside the university's museum of human anatomy and embryology."
+ },
+ "musee-de-la-mine-blegny-mine": {
+  "name": "Blegny-Mine",
+  "description": "Former coal mine near Liège, the last active colliery of the Liège basin when it closed in 1980, now a heritage site where visitors descend the original shaft to galleries up to 60 metres deep; inscribed as a UNESCO World Heritage site in 2012 among Wallonia's major mining sites."
+ },
+ "musee-de-la-mine-et-du-developpement-durable-du-bois-du-luc-mmdd": {
+  "name": "Museum of the Mine and Sustainable Development of Bois-du-Luc",
+  "description": "Museum at the former Bois-du-Luc colliery near La Louvière, part of the \"Major Mining Sites of Wallonia\" inscribed on UNESCO's World Heritage list in 2012, combining the site's coal-mining history with a focus on sustainable development."
+ },
+ "musee-de-la-photographie": {
+  "name": "Museum of Photography",
+  "description": "Photography museum near Charleroi housed in a former neo-Gothic Carmelite convent built 1896-1901, opened in 1987 and enlarged in 2008 to become one of Europe's largest photography museums; its holdings include some 100,000 photographs and two million negatives, with works by Henri Cartier-Bresson, Robert Doisneau and Edward Weston."
+ },
+ "musee-de-la-porte": {
+  "name": "Door Museum",
+  "description": "Small local museum in Tubize, in Walloon Brabant."
+ },
+ "musee-de-la-porte-de-hal": {
+  "name": "Halle Gate Museum",
+  "description": "Museum inside the Halle Gate, the last surviving gate of Brussels's second medieval city wall, built in 1381 and remodelled in neo-Gothic style by Henri Beyaert between 1868 and 1871; part of the Royal Museums of Art and History, it displays a permanent exhibition on medieval Brussels including guild collars and Archduke Albert's parade armour."
+ },
+ "musee-de-la-route": {
+  "name": "Road Museum",
+  "description": "Small museum in Mons on the theme of the road."
+ },
+ "musee-de-la-rubanerie-cominoise": {
+  "name": "Comines Ribbon-Weaving Museum",
+  "description": "Museum in Comines devoted to more than 850 years of local ribbon-weaving tradition, with some thirty working looms demonstrating a craft that once supplied products from Éclair zip fasteners to elastic webbing."
+ },
+ "musee-de-la-tour-d-anhaive": {
+  "name": "Anhaive Tower Museum",
+  "description": "Archaeology, art and history museum for the Jambes district of Namur, showing Gallo-Roman ceramics, glassware, porcelain and the local mustard-making tradition alongside temporary exhibitions on the area's heritage."
+ },
+ "musee-de-la-vie-rurale-de-xhoris": {
+  "name": "Museum of Rural Life of Xhoris",
+  "description": "Museum in the former late-19th-century town hall of Xhoris, opened in 1974 from objects donated by villagers, displaying clothing, household tools, school items and vintage photographs illustrating vanished rural trades and customs."
+ },
+ "musee-de-la-vie-tihangeoise": {
+  "name": "Museum of Tihange Life",
+  "description": "Small local museum in Tihange, part of Huy, dedicated to the traditions and everyday life of the village."
+ },
+ "musee-de-la-vie-wallonne": {
+  "name": "Museum of Walloon Life",
+  "description": "Ethnology museum in Liège founded in 1913 in the wake of a Congolese ethnography exhibition, housed since 1972 in a former Franciscan convent; it displays around 2,000 objects including some 600 traditional Liège rod puppets, Léopold Harzé's terracotta sculptures and a royal carriage."
+ },
+ "musee-de-la-ville-de-bruxelles-maison-du-roi": {
+  "name": "Brussels City Museum (Maison du Roi)",
+  "description": "City history museum housed in the Maison du Roi on Brussels's Grand-Place, a neo-Gothic building of the late 19th century whose collections trace the city's history and include the wardrobe of the Manneken Pis statue."
+ },
+ "musee-de-nimy": {
+  "name": "Nimy Museum – Ceramics Crossroads",
+  "description": "Ceramics museum in Nimy, near Mons, run by the Cercle culturel Vieux-Nimy, tracing three centuries of the district's pottery and earthenware industry through pieces from local manufacturers such as the Faïencerie de Nimy."
+ },
+ "musee-de-nivelles": {
+  "name": "Nivelles Museum",
+  "description": "Municipal museum in Nivelles, a Walloon Brabant town known for its Romanesque Collegiate Church of Saint Gertrude, presenting local history and heritage."
+ },
+ "musee-de-waterloo": {
+  "name": "Waterloo Museum",
+  "description": "Museum in Waterloo dedicated to the Battle of Waterloo of 18 June 1815, in which Napoleon's army was defeated by the Allied forces of Wellington and Blücher."
+ },
+ "musee-des-arts-de-la-marionnette-de-tournai": {
+  "name": "Museum of Puppet Arts of Tournai",
+  "description": "Tournai museum tracing the history and diversity of puppet arts, run alongside an active puppet-theatre centre as the Wallonia-Brussels Federation's dedicated puppetry centre."
+ },
+ "musee-des-beaux-arts-de-charleroi": {
+  "name": "Museum of Fine Arts of Charleroi",
+  "description": "Charleroi's fine arts museum, whose collection dates back to an 1889 bequest, moved in 2022 into the renovated former Defeld gendarmerie barracks; its roughly 4,000 works of 19th- and 20th-century Belgian and Walloon art include eight paintings by René Magritte alongside works by James Ensor and Pierre Paulus."
+ },
+ "musee-des-beaux-arts-et-de-la-ceramique-de-verviers": {
+  "name": "Museum of Fine Arts and Ceramics of Verviers",
+  "description": "Verviers museum of fine arts and ceramics housed in the former Hôpital Nouveau of 1661, with a collection spanning a 13th-century statue of Saint Lawrence to works by Émile Claus and Anne-Louis Girodet-Trioson, and a self-portrait by Élisabeth Vigée-Le Brun."
+ },
+ "musee-des-beaux-arts-mba": {
+  "name": "Museum of Fine Arts (MBA)",
+  "description": "Tournai's fine arts museum, designed by Victor Horta, built around the collection bequeathed by Henri Van Cutsem and holding the only two paintings by Édouard Manet preserved in Belgium."
+ },
+ "musee-des-celtes": {
+  "name": "Museum of the Celts of Libramont",
+  "description": "Archaeology museum in Libramont opened in 1998 by the Centre de recherches archéologiques en Ardenne, relocated in 2021 to the Halle aux Foires, displaying finds from more than 30 years of excavation of Celtic burial mounds in the Neufchâteau-Bertrix-Libramont area, where around 100 mounds have yielded some 160 burials."
+ },
+ "musee-des-commandos": {
+  "name": "Commando Museum",
+  "description": "Museum at the Sous-Lieutenant Thibaut barracks in Flawinne, founded in 1980 to document the history of the Belgian Commandos from their creation in Great Britain in 1942 to the present."
+ },
+ "musee-des-egouts-de-bruxelles": {
+  "name": "Brussels Sewer Museum",
+  "description": "Museum at the Porte d'Anderlecht occupying two historic toll pavilions, letting visitors follow a real stretch of sewer and the buried river Senne while explaining the history and science of Brussels's sewer network and the sewer worker's trade."
+ },
+ "musee-des-instuments-de-musique-mim": {
+  "name": "Musical Instruments Museum (MIM)",
+  "description": "Brussels museum with a world-renowned collection of musical instruments, housed in the former Old England department store, one of the city's foremost Art Nouveau buildings, displaying instruments across four floors alongside audio recordings."
+ },
+ "musee-des-transports-en-commun-mtcw": {
+  "name": "Public Transport Museum of Wallonia",
+  "description": "Museum of public transport in Liège, founded in 1985 by enthusiast associations, displaying around 40 restored vehicles across 3,500 square metres, from an 18th-century carriage once owned by the last prince-bishop of Liège to the world's only surviving reversible trolleybus of 1936."
+ },
+ "musee-du-beguinage": {
+  "name": "Beguinage Museum",
+  "description": "Museum in Anderlecht's historic beguinage, run alongside the Erasmus House as one of Belgium's oldest municipal museum ensembles, near the Collegiate Church of Saints Peter and Guy."
+ },
+ "musee-du-doudou": {
+  "name": "Doudou Museum",
+  "description": "Interactive museum on Mons's Grand-Place recounting the legend of Saint George and the Dragon and the history of the Ducasse de Mons, a ritual procession recognised by UNESCO as intangible cultural heritage in 2005."
+ },
+ "musee-du-frere-mutien-marie": {
+  "name": "Museum of Brother Mutien-Marie",
+  "description": "Small museum in Malonne dedicated to Mutien-Marie Wiaux, a Brother of the Christian Schools who taught for decades at the local school and was later canonised, displaying his clothes and personal effects and the rooms where he lived."
+ },
+ "musee-du-jouet": {
+  "name": "Toy Museum",
+  "description": "Brussels toy museum opened in 1990 on the rue de l'Association, displaying vintage wooden toys, mechanical toys and Lego sets across some 330 square metres."
+ },
+ "musee-du-luminaire-mulum": {
+  "name": "Lighting Museum (Mulum)",
+  "description": "Liège museum in a 1900s building in the Laveu district, opened in 2012 from a donation by collector Philippe Deitz, presenting some 600 lighting fixtures from prehistory to the 21st century, including around 60 still working on gas."
+ },
+ "musee-du-malgre-tout": {
+  "name": "Malgré-Tout Museum",
+  "description": "Archaeology museum in Treignes covering prehistory and antiquity from Neanderthal times to the end of the Gallo-Roman period, run by the Cedarc association, which also hosts an archaeology festival every Whitsun weekend."
+ },
+ "musee-du-marbre-magma": {
+  "name": "Marble Museum (MAgMa)",
+  "description": "Museum in Rance devoted to the history of marble, combining geology and palaeontology with industrial archaeology of local quarrying and craftsmanship, and holding a reference collection of about 500 marble samples."
+ },
+ "musee-du-pays-d-ourthe-ambleve": {
+  "name": "Museum of the Ourthe-Amblève Region",
+  "description": "Regional museum in Comblain-au-Pont housed in a former presbytery dated 1676, displaying archaeological finds from prehistory to the medieval period, including fossil remains of mammoths, cave bears and cave lions."
+ },
+ "musee-du-petit-format-d-art-contemporain": {
+  "name": "Museum of Small-Format Contemporary Art",
+  "description": "Museum in Nismes, Viroinval, devoted to small-format contemporary art on paper, with a permanent collection spanning works produced since 1981 and an international small-format paper art exhibition now in its 23rd edition."
+ },
+ "musee-du-slip-de-bruxelles": {
+  "name": "Underwear Museum of Brussels",
+  "description": "Small Brussels museum-gallery devoted to underwear as an object of fashion and art, run in association with the Attitude Art Gallery."
+ },
+ "musee-en-plein-air-du-sart-tilman": {
+  "name": "Sart Tilman Open-Air Museum of Contemporary Art",
+  "description": "Open-air museum established in 1977 on the University of Liège's Sart Tilman campus, spread across some 700 hectares of wooded parkland. It brings together around one hundred monumental works by Belgian and international sculptors, including Eugène Dodeigne, Pierre Alechinsky, Sol LeWitt and Daniel Buren, integrated into the university's landscape since the first piece was installed in 1967."
+ },
+ "musee-felicien-rops": {
+  "name": "Félicien Rops Museum",
+  "description": "Museum opened in 1987 in Namur, the painter and engraver Félicien Rops's native city, in a neoclassical townhouse expanded between 1996 and 2003. It holds around 270 of his caricatures, engravings, watercolours and paintings, including Pornocratès (1878), tracing his path from satirical illustration to Symbolism."
+ },
+ "musee-fin-de-siecle-museum-mrbab": {
+  "name": "Fin-de-Siècle Museum",
+  "description": "Section of the Royal Museums of Fine Arts of Belgium inaugurated in 2013 on Place Royale in Brussels, devoted to art from the late 19th and early 20th centuries. Its collection spans painting, sculpture and decorative arts of the period, from James Ensor and Fernand Khnopff to Art Nouveau design."
+ },
+ "musee-gallo-romain-de-berneau": {
+  "name": "Gallo-Roman Museum of Berneau",
+  "description": "Small local museum in Berneau, in the Liège province, displaying Gallo-Roman archaeological finds unearthed in the surrounding area. It is run by a local heritage association that also organises archaeology open days."
+ },
+ "musee-gallo-romain-de-waudrez-statio-romana": {
+  "name": "Statio Romana – Gallo-Roman Museum of Waudrez",
+  "description": "Museum in Waudrez, near Binche, on the site of a Roman staging post along the Chaussée Brunehaut, the Roman road linking Bavay to Cologne. It displays pottery, terracotta lamps and urns, jewellery and bronze items unearthed on the site, illustrating daily life along this Gallo-Roman route."
+ },
+ "musee-gaspar": {
+  "name": "Gaspar Museum",
+  "description": "Art and history museum in Arlon housed in an 1842 mansion restored in 2003, bequeathed to the city by collector Charles Gaspar (1871-1950). Its collection ranges from a 16th-century Antwerp retable to works by James Ensor, Suzanne Valadon and sculptor Jean Gaspar, alongside pieces on the history of Arlon and its region."
+ },
+ "musee-gaumais": {
+  "name": "Gaume Museum",
+  "description": "Regional museum founded in 1939 in Virton, housed in a former Recollect convent built in 1659. Its collections cover the archaeology, history and folk traditions of the Gaume, southern Belgium's southernmost region, with galleries added in 1992 and 2020."
+ },
+ "musee-gretry": {
+  "name": "Grétry Museum",
+  "description": "House-museum in Liège's Outremeuse district, inaugurated in 1913 in the Louis-XV-style building where composer André Grétry was born. It preserves a collection assembled by Jean-Théodore Radoux, including some 125 portraits of the composer, period musical instruments, autograph letters and scores."
+ },
+ "musee-herge": {
+  "name": "Hergé Museum",
+  "description": "Museum opened in 2009 in Louvain-la-Neuve, designed by architect Christian de Portzamparc and devoted to the work of cartoonist Hergé, creator of The Adventures of Tintin. It displays some 80 original comic pages alongside photographs, documents and objects from his studio, at an address deliberately chosen to echo Tintin's fictional home."
+ },
+ "musee-ianchelevici-la-louviere-mill": {
+  "name": "Ianchelevici Museum (the Mill)",
+  "description": "Museum in La Louvière occupying the town's former Palace of Justice, known as the Mill (le Mill). It holds the largest collection of works by sculptor Idel Ianchelevici (1909-1994), in plaster, bronze and stone, together with the city's municipal art collection."
+ },
+ "musee-l": {
+  "name": "Museum L",
+  "description": "University museum of UCLouvain opened in 2017 in Louvain-la-Neuve, inside a brutalist former science library (1970-1975) by architect André Jacqmain, renovated for the purpose. It presents over 800 works from the university's collections of some 32,000 items, ranging from prehistory to contemporary art."
+ },
+ "musee-marthe-donas-mimdo": {
+  "name": "Marthe Donas Museum (MIMDo)",
+  "description": "Museum in Ittre devoted to painter Marthe Donas (1885-1967), one of the few women associated with the Cubist movement, who lived intermittently at the neighbouring Maison Bauthier between 1922 and 1927. Spread across a former chapel and the house itself, it stages changing thematic exhibitions of her work."
+ },
+ "musee-monopoli": {
+  "name": "Monopoli Museum",
+  "description": "Private museum in Havelange founded by Renato Monopoli to house his collection of automatons, mechanical musical instruments, carriages, model boats and organs. Unlike a conventional collection, every working piece is kept in operating order and demonstrated to visitors."
+ },
+ "musee-national-de-la-resistance": {
+  "name": "National Museum of the Resistance and Human Rights",
+  "description": "Museum in Anderlecht, Brussels, dedicated to the history of the wartime resistance and to human rights."
+ },
+ "musee-oldmasters-museum-mrbab": {
+  "name": "Old Masters Museum",
+  "description": "The founding institution of the Royal Museums of Fine Arts of Belgium, established in 1801 under Napoleon and expanded after Belgian independence in 1830. Its galleries on Rue de la Régence in Brussels hold Flemish and European painting from the 15th to 18th centuries, including major works by Rogier van der Weyden, Pieter Bruegel the Elder and Rubens."
+ },
+ "musee-provincial-des-arts-anciens-du-namurois-tresor-d-oignies-trem-a": {
+  "name": "TreM.a – Museum of Ancient Arts of the Namur Region and the Oignies Treasure",
+  "description": "Provincial museum in Namur, housed in the Hôtel de Gaiffier d'Hestroy, bringing together seven collections of medieval and early modern art from the Namur region. Its centrepiece is the Oignies Treasure, a collection of goldsmith work by the 13th-century Mosan artist Hugo d'Oignies."
+ },
+ "musee-royal-de-l-armee-et-de-l-histoire-militaire": {
+  "name": "Royal Museum of the Armed Forces and Military History",
+  "description": "Museum established in 1911 following the success of a military exhibition at the 1910 Brussels World's Fair, occupying some 40,000 square metres in Cinquantenaire Park since 1923, including the 1880 Bordiau Hall and the 1897 Air Hall. Its collections span twelve centuries of military history, from medieval weaponry to the aircraft and tanks of the two World Wars."
+ },
+ "musee-royal-de-mariemont": {
+  "name": "Royal Museum of Mariemont",
+  "description": "Museum opened in 1920 on the Mariemont estate near Morlanwelz, built around the collections bequeathed by industrialist Raoul Warocqué. Rebuilt by architect Roger Bastin after a 1960 fire destroyed the original château, it holds Tournai porcelain, Egyptian, Greek and Roman antiquities and Far Eastern art, set within a park dotted with sculptures by Rodin and Meunier."
+ },
+ "musee-wittert-uliege": {
+  "name": "Wittert Museum",
+  "description": "Art museum of the University of Liège, named after collector Adrien Wittert, whose bequest formed its founding collection. Located in the city centre on Place du 20-Août, it holds more than 65,000 works spanning historical and contemporary art, most kept in study reserves and shown through rotating exhibitions."
+ },
+ "musees-de-la-ville-d-eaux": {
+  "name": "Museum of the Spa Town",
+  "description": "Museum in Spa tracing four centuries of the town's thermal history, housed in the central pavilion of the former Villa Royale of Queen Marie-Henriette, consort of Leopold II. Founded as a municipal museum in 1894 and installed in its present building in 1965, it also houses an equestrian museum in the villa's former stables."
+ },
+ "museum-dr-guislain": {
+  "name": "Dr. Guislain Museum",
+  "description": "Museum in Ghent opened in 1986 in the buildings of a former psychiatric hospital founded by Dr Joseph Guislain (1797-1860), a pioneer of humane treatment for the mentally ill in Belgium. It explores the history of psychiatry alongside art brut and contemporary works by artists who have experienced mental illness."
+ },
+ "museum-mayer-van-den-bergh": {
+  "name": "Mayer van den Bergh Museum",
+  "description": "Museum in Antwerp founded in 1904 by Henriette van den Bergh to preserve the art collection of her late son, Fritz Mayer van den Bergh (1858-1901). Housed in a purpose-built neo-Gothic mansion, it holds Flemish and Dutch old masters, most famously Pieter Bruegel the Elder's Dulle Griet (1562)."
+ },
+ "museum-of-the-national-bank-of-belgium": {
+  "name": "National Bank of Belgium – Money Museum",
+  "description": "Money museum of the National Bank of Belgium, moved in 2018 to a 19th-century bank building in central Brussels. Interactive displays trace the history of money and explain the workings of a modern central bank, in a nod to the Bank's founding in 1850."
+ },
+ "museum-plantin-moretus": {
+  "name": "Plantin-Moretus Museum",
+  "description": "Museum opened in 1877 in the former printing house of Christophe Plantin, Europe's most prolific publisher in the late 16th century, continued by his son-in-law Jan Moretus. The first museum ever inscribed on the UNESCO World Heritage list, in 2005, it preserves the world's two oldest surviving printing presses, two Gutenberg Bibles and a library of some 25,000 titles."
+ },
+ "museum-regional-des-sciences-naturelles": {
+  "name": "Regional Museum of Natural Sciences",
+  "description": "Natural history museum in Mons founded in 1839, one of the oldest in Belgium. Its collection of over 10,000 zoological specimens includes the Yernaux collection of mounted birds and mammals and the skeleton of Julius Koch, reputed the tallest man in the world in the early 20th century at 2.56 metres."
+ },
+ "museum-vleeshuis-klank-van-de-stad": {
+  "name": "Vleeshuis Museum – Sound of the City",
+  "description": "Museum in Antwerp's former Butchers' Guild Hall, a Gothic guild building erected in 1501-1504, now devoted to the city's musical heritage. Its collection of historical instruments, including pianos and stringed instruments, is presented under the theme 'Sound of the City' (Klank van de Stad)."
+ },
+ "panorama-de-la-cite-administrative": {
+  "name": "Panorama of the Cité Administrative",
+  "description": "Public viewing point at the top of the Cité Administrative tower in Liège, offering a panoramic view over the city and the Meuse valley."
+ },
+ "parc-monumento": {
+  "name": "Monumento Park",
+  "description": "Park in Anderlecht, Brussels, laid out around a commemorative monument, combining landscaped grounds with a public green space."
+ },
+ "parlamentarium": {
+  "name": "Parlamentarium",
+  "description": "Visitor centre of the European Parliament in Brussels, opened in 2011 next to the Parliament's hemicycle. Multimedia guides in 24 languages lead visitors through the history of European integration and the workings of the Parliament, and it ranks as Europe's largest parliamentary visitor centre."
+ },
+ "prehistomuseum": {
+  "name": "Préhistomuseum",
+  "description": "Archaeology museum-park in Flémalle, near Liège, opened in 1994 as the Préhistosite de Ramioul and reopened under its current name in 2016 after renovation. Built around the Ramioul Cave, discovered in 1911 and occupied from Neanderthal times to the late Neolithic, it combines exhibition galleries with a 30-hectare open-air site and prehistoric-craft workshops."
+ },
+ "red-star-line-museum": {
+  "name": "Red Star Line Museum",
+  "description": "Museum opened in 2013 in the former Antwerp warehouses of the Red Star Line shipping company, which carried some two million emigrants to North America between 1873 and 1934. It traces their journeys through personal belongings, documents and photographs, in the departure halls where they were once processed."
+ },
+ "rubenshuis": {
+  "name": "Rubens House",
+  "description": "Home and studio that painter Peter Paul Rubens built for himself from 1610 in Antwerp, combining an Italian-inspired residence with a working studio, where he lived until his death in 1640. Acquired and restored by the city of Antwerp, it opened as a museum in 1946 and displays his paintings alongside works by collaborators such as Jacob Jordaens."
+ },
+ "s-m-a-k": {
+  "name": "S.M.A.K. – Ghent Municipal Museum of Contemporary Art",
+  "description": "Contemporary art museum in Ghent, tracing its origins to 1957 and settled since 1999 in a renovated 1949 casino building in the Citadelpark. Its collection focuses on European art from 1950 onward, from Cobra and Pop Art to Minimal and conceptual art, and includes works by Joseph Beuys, Francis Bacon and Belgian artists Marcel Broodthaers, Panamarenko and Luc Tuymans."
+ },
+ "salle-saint-georges": {
+  "name": "Salle Saint-Georges",
+  "description": "Historic hall in Mons, part of the city's network of heritage sites, used today as a venue for temporary exhibitions."
+ },
+ "silex-s-minieres-neolithiques-de-silex-de-spiennes": {
+  "name": "Neolithic Flint Mines of Spiennes",
+  "description": "UNESCO World Heritage site since 2000, comprising some 100 hectares of Neolithic flint-extraction shafts near Mons, worked between roughly 4300 and 2200 BC. Visitors can explore the underground galleries and the SILEX'S interpretation centre, opened in 2015, along with the archaeological museum at Camp-à-Cayaux."
+ },
+ "sint-pietersabdij": {
+  "name": "St. Peter's Abbey",
+  "description": "Former Benedictine abbey in Ghent, tracing its origins to the 7th century, with most of its present buildings dating from the 17th and 18th centuries and a surviving medieval refectory. Secularised after the French Revolution, it now hosts cultural-historical, literary and photography exhibitions around a large garden with a vineyard and orchard."
+ },
+ "site-du-beffroi": {
+  "name": "Belfry of Mons",
+  "description": "The Belfry of Mons, built between 1662 and 1669, is the only baroque-style belfry among the Belfries of Belgium and France, a UNESCO World Heritage site since 1999. Standing 87 metres tall, it is the highest point in the city and offers a panoramic view over Mons."
+ },
+ "stam-stadsmuseum-gent": {
+  "name": "STAM – Ghent City Museum",
+  "description": "City history museum of Ghent, opened in 2010 on the site of the former Bijloke Abbey. It traces the city's development from its medieval origins to the present through historical artefacts, models and multimedia displays."
+ },
+ "tamat-musee-de-la-tapisserie-centre-des-arts-muraux-et-des-arts-du-tissu": {
+  "name": "TAMAT – Tapestry Museum, Centre for Mural and Textile Arts",
+  "description": "Museum in Tournai devoted to tapestry and textile art, in a city that was one of Europe's leading tapestry-weaving centres from the 14th to the 16th century. Alongside its historical and contemporary collections, it runs a restoration workshop and hosts artist residencies in textile creation."
+ },
+ "texture-musee-du-lys-et-du-lin": {
+  "name": "Texture – Museum of Flax and Linen",
+  "description": "Museum in Kortrijk devoted to flax and linen, in a region whose economy and identity were shaped for centuries by flax cultivation and the linen industry. It traces the plant's journey from field to fabric and its use in products from clothing to banknotes."
+ },
+ "tresor-cathedrale-tournai": {
+  "name": "Treasury of Tournai Cathedral",
+  "description": "Treasury of Tournai's Cathedral of Notre-Dame, a UNESCO World Heritage site whose construction began in 1171. It houses the cathedral's collection of medieval reliquaries and liturgical objects, including the shrine of Our Lady attributed to the Mosan goldsmith Nicolas de Verdun."
+ },
+ "tresor-de-la-cathedrale": {
+  "name": "Treasury of Liège Cathedral",
+  "description": "Treasury museum established in 1992 at Liège's Cathedral of Saint Paul, displaying some 200 objects across ten rooms. Most come from the former Cathedral of Notre-Dame-et-Saint-Lambert, demolished in 1794, and include the bust-reliquary of Saint Lambert (c. 1512) and the reliquary donated by Charles the Bold (c. 1467)."
+ },
+ "tresor-de-la-collegiale-notre-dame-et-saint-domitien-de-huy": {
+  "name": "Treasury of the Collegiate Church of Notre-Dame and Saint-Domitien of Huy",
+  "description": "Treasury of Huy's Gothic collegiate church, begun in 1311 and completed in 1536. It holds four Mosan reliquary shrines from the 12th and 13th centuries, dedicated to the Virgin Mary and to Saints Domitian, Mengold and Mark, displayed in a Romanesque crypt rediscovered in 1906."
+ },
+ "tresor-de-sainte-waudru": {
+  "name": "Treasury of Sainte-Waudru",
+  "description": "Treasury of the Collegiate Church of Sainte-Waudru in Mons, a Gothic church built between 1450 and 1691. It holds the Car d'Or, a gilded processional chariot built in 1779-1782 that still carries Saint Waltrude's reliquary through the streets during the annual Ducasse festival, along with her 1887 reliquary shrine."
+ },
+ "trinkhall-museum": {
+  "name": "Trinkhall Museum",
+  "description": "Contemporary art museum in Liège's Parc d'Avroy, established in 1998 as MADmusée, a name later changed to Trinkhall. It holds around 3,000 works created in art workshops by artists with intellectual disabilities or mental illness, grown out of the Créahm association founded in 1979 by Luc Boulangé."
+ },
+ "ulb-museum-of-medicine": {
+  "name": "ULB Museum of Medicine",
+  "description": "Museum on the Erasme campus of the Université Libre de Bruxelles in Anderlecht, founded in 1993 and opened to the public in 1995. Its seven rooms display some 4,000 to 5,000 objects tracing the history of medicine, from anatomical wax models and 19th-century papier-mâché anatomical figures to surgical instruments and artefacts from Egyptian, Chinese and pre-Columbian medical traditions."
+ },
+ "wiertz-museum": {
+  "name": "Wiertz Museum",
+  "description": "House-museum in the former studio of Romantic painter Antoine Wiertz (1806-1865) in Ixelles, Brussels, opened in 1868. Preserved largely as the artist arranged it, it houses his monumental canvases, drawings and sculptures and now forms part of the Royal Museums of Fine Arts of Belgium."
+ },
+ "wittockiana-musee-des-arts-du-livre-et-de-la-reliure": {
+  "name": "Wittockiana – Museum of Book Arts and Bookbinding",
+  "description": "Museum in Woluwe-Saint-Pierre devoted to the art of bookbinding, built around the collection assembled by bibliophile Michel Wittock and recognised as a museum by the Fédération Wallonie-Bruxelles in 2010. It holds some 3,000 volumes, from historic bindings to contemporary artist's books, in a building owned by the King Baudouin Foundation."
+ }
+}

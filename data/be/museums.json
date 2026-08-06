@@ -1,0 +1,7056 @@
+[
+ {
+  "id": "africa-museum",
+  "name": "musée royal de l'Afrique centrale",
+  "coordinates": [
+   4.518497,
+   50.830889
+  ],
+  "address": "",
+  "postalCode": "3080",
+  "commune": "Tervuren",
+  "department": "VBR",
+  "website": "http://www.africamuseum.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "wednesday",
+    "note": "Free on the first Wednesday of the month from early afternoon.",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q779703",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_royal_de_l'Afrique_centrale",
+  "image": {
+   "file": "images/museums/africa-museum.jpg",
+   "author": "Jmh2o",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:AfricaMuseum_-_2023-02-09_-_03.jpg",
+   "wikimediaFile": "File:AfricaMuseum - 2023-02-09 - 03.jpg"
+  }
+ },
+ {
+  "id": "anciens-abattoirs-de-mons",
+  "name": "Anciens Abattoirs de Mons",
+  "coordinates": [
+   3.951837,
+   50.448679
+  ],
+  "address": "Rue de la Trouille 17 -",
+  "postalCode": "7000",
+  "commune": "Mons",
+  "department": "HAI",
+  "website": "https://musees-expos.mons.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q2820205",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Anciens_Abattoirs_de_Mons",
+  "image": {
+   "file": "images/museums/anciens-abattoirs-de-mons.jpg",
+   "author": "Jean-Pol GRANDMONT",
+   "license": "CC BY 2.5",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mons_MU3aJPG.jpg",
+   "wikimediaFile": "File:Mons MU3aJPG.jpg"
+  }
+ },
+ {
+  "id": "aquarium-museum-de-liege",
+  "name": "Aquarium-Muséum",
+  "coordinates": [
+   5.57869,
+   50.63877
+  ],
+  "address": "",
+  "postalCode": "4020",
+  "commune": "Liège",
+  "department": "LIE",
+  "website": "http://aquarium-museum.uliege.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q40680",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Aquarium-Mus%C3%A9um",
+  "image": {
+   "file": "images/museums/aquarium-museum-de-liege.jpg",
+   "author": "Luc Viatour",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aquarium_Dubuisson_Luc_Viatour.jpg",
+   "wikimediaFile": "File:Aquarium Dubuisson Luc Viatour.jpg"
+  }
+ },
+ {
+  "id": "archeoforum-de-liege",
+  "name": "Archéoforum de Liège",
+  "coordinates": [
+   5.574268,
+   50.646225
+  ],
+  "address": "Place Saint-Lambert -",
+  "postalCode": "4000",
+  "commune": "Liège",
+  "department": "LIE",
+  "website": "https://www.archeoforumdeliege.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q2216083",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Archéoforum",
+  "image": {
+   "file": "images/museums/archeoforum-de-liege.jpg",
+   "author": "flamenc",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liege_Archeoforum.jpg",
+   "wikimediaFile": "File:Liege Archeoforum.jpg"
+  }
+ },
+ {
+  "id": "archeosite-et-musee-d-aubechies-bel-il",
+  "name": "Archéosite d'Aubechies",
+  "coordinates": [
+   3.6762,
+   50.5752
+  ],
+  "address": "",
+  "postalCode": "7972",
+  "commune": "Aubechies",
+  "department": "HAI",
+  "website": "https://www.archeosite.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q2860619",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Arch%C3%A9osite_d'Aubechies",
+  "image": {
+   "file": "images/museums/archeosite-et-musee-d-aubechies-bel-il.jpg",
+   "author": "Jamain",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arch%C3%A9osite_d'Aubechies%2C_maison_gauloise_J1.jpg",
+   "wikimediaFile": "File:Archéosite d'Aubechies, maison gauloise J1.jpg"
+  }
+ },
+ {
+  "id": "art-et-marges-museum",
+  "name": "Art et marges musée",
+  "coordinates": [
+   4.346361,
+   50.834722
+  ],
+  "address": "",
+  "postalCode": "1000",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "http://www.artetmarges.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://www.brusselsmuseums.be/en/news-tips/free-museums-in-brussels",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q23893732",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Art_et_marges_mus%C3%A9e",
+  "image": {
+   "file": "images/museums/art-et-marges-museum.jpg",
+   "author": "Karmakolle",
+   "license": "CC0 1.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:BSXL34.jpg",
+   "wikimediaFile": "File:BSXL34.jpg"
+  }
+ },
+ {
+  "id": "art-history-museum",
+  "name": "musée Art & Histoire",
+  "coordinates": [
+   4.39187,
+   50.83903
+  ],
+  "address": "",
+  "postalCode": "1000",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "https://www.artandhistory.museum",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "wednesday",
+    "note": "Free on the first Wednesday of the month from early afternoon.",
+    "source": {
+     "url": "https://www.brusselsmuseums.be/en/news-tips/free-museums-in-brussels",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q5121082",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Art_et_Histoire",
+  "image": {
+   "file": "images/museums/art-history-museum.jpg",
+   "author": "Otter",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museum_Kunst_%26_Geschiedenis_(Brussel)_20181227_entree.jpg",
+   "wikimediaFile": "File:Museum Kunst & Geschiedenis (Brussel) 20181227 entree.jpg"
+  }
+ },
+ {
+  "id": "artotheque",
+  "name": "Artothèque de Mons",
+  "coordinates": [
+   3.945361,
+   50.454306
+  ],
+  "address": "",
+  "postalCode": "7000",
+  "commune": "Mons",
+  "department": "HAI",
+  "website": "http://en.artotheque.mons.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q59915558",
+  "image": {
+   "file": "images/museums/artotheque.jpg",
+   "author": "Jean-Pol GRANDMONT",
+   "license": "CC BY 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mons_Chp3JPG.jpg",
+   "wikimediaFile": "File:Mons Chp3JPG.jpg"
+  }
+ },
+ {
+  "id": "bastogne-barracks",
+  "name": "Bastogne Barracks",
+  "coordinates": [
+   5.718417,
+   50.008444
+  ],
+  "address": "",
+  "postalCode": "6600",
+  "commune": "Bastogne",
+  "department": "LUX",
+  "website": "https://bastognebarracks.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "wednesday",
+    "note": "Free on the first Wednesday of the month from early afternoon.",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q52160936",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Bastogne_Barracks",
+  "image": {
+   "file": "images/museums/bastogne-barracks.jpg",
+   "author": "Joost J. Bakker from IJmuiden",
+   "license": "CC BY 2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Humber_Light_Reconnaissance_Car.jpg",
+   "wikimediaFile": "File:Humber Light Reconnaissance Car.jpg"
+  }
+ },
+ {
+  "id": "belexpo",
+  "name": "BELEXPO",
+  "coordinates": [
+   4.349013,
+   50.86446
+  ],
+  "address": "Avenue du Port 86c/3002,",
+  "postalCode": "1000",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "https://www.brusselsmuseums.be/en/belexpo",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://www.brusselsmuseums.be/en/news-tips/free-museums-in-brussels",
+     "checkedAt": "2026-08-06"
+    }
+   },
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://www.brusselsmuseums.be/en/museums?tags[]=26261",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "belfort",
+  "name": "beffroi de Bruges",
+  "coordinates": [
+   3.224822,
+   51.208272
+  ],
+  "address": "",
+  "postalCode": "8000",
+  "commune": "Gent",
+  "department": "WVL",
+  "website": "http://www.museabrugge.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "audience": "residents",
+    "note": "Free for Ghent residents (postcodes 9000–9052).",
+    "source": {
+     "url": "https://degentsemusea.be/plan/faq",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q2441211",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Beffroi_de_Bruges",
+  "image": {
+   "file": "images/museums/belfort.jpg",
+   "author": "Jean-Pol GRANDMONT",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:0_Beffroi_et_halle_aux_draps_-_Bruges_(Belgique)_1.jpg",
+   "wikimediaFile": "File:0 Beffroi et halle aux draps - Bruges (Belgique) 1.jpg"
+  }
+ },
+ {
+  "id": "belvue-museum",
+  "name": "BELvue",
+  "coordinates": [
+   4.360689,
+   50.84261
+  ],
+  "address": "",
+  "postalCode": "1000",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "https://www.belvue.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://www.brusselsmuseums.be/en/news-tips/free-museums-in-brussels",
+     "checkedAt": "2026-08-06"
+    }
+   },
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "wednesday",
+    "note": "Free on the first Wednesday of the month from early afternoon.",
+    "source": {
+     "url": "https://www.brusselsmuseums.be/en/news-tips/free-museums-in-brussels",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q728437",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_BELvue",
+  "image": {
+   "file": "images/museums/belvue-museum.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museo_BELvue%2C_Bruselas%2C_B%C3%A9lgica%2C_2021-12-15%2C_DD_57.jpg",
+   "wikimediaFile": "File:Museo BELvue, Bruselas, Bélgica, 2021-12-15, DD 57.jpg"
+  }
+ },
+ {
+  "id": "bps22-musee-d-art-de-la-province-du-hainaut",
+  "name": "BPS22 – Musée d’art de la province du Hainaut",
+  "coordinates": [
+   4.446218,
+   50.416716
+  ],
+  "address": "Boulevard Solvay 22 -",
+  "postalCode": "6000",
+  "commune": "Charleroi",
+  "department": "HAI",
+  "website": "https://www.bps22.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q2876625",
+  "wikipedia": "https://fr.wikipedia.org/wiki/BPS22",
+  "image": {
+   "file": "images/museums/bps22-musee-d-art-de-la-province-du-hainaut.jpg",
+   "author": "Jmh2o",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:BPS22_-_2015-09-26.jpg",
+   "wikimediaFile": "File:BPS22 - 2015-09-26.jpg"
+  }
+ },
+ {
+  "id": "carwash-by-medexmuseum",
+  "name": "CARWASH by MedexMuseum",
+  "coordinates": [
+   4.366234,
+   50.836022
+  ],
+  "address": "Rue Longue-Vie 34A,",
+  "postalCode": "1050",
+  "commune": "Ixelles",
+  "department": "BRU",
+  "website": "https://www.medexmuseum.com",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "centre-albert-marinus-musee-de-woluwe",
+  "name": "Centre Albert Marinus – Musée de Woluwe",
+  "coordinates": [
+   4.422513,
+   50.850385
+  ],
+  "address": "40, rue de la Charrette,",
+  "postalCode": "1200",
+  "commune": "Woluwe-Saint-Lambert",
+  "department": "BRU",
+  "website": "https://www.albertmarinus.org",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q116471319"
+ },
+ {
+  "id": "centre-archeologique-de-la-grotte-scladina",
+  "name": "Centre archéologique de la grotte Scladina",
+  "coordinates": [
+   5.026249,
+   50.485604
+  ],
+  "address": "Rue Fond des Vaux 339d -",
+  "postalCode": "5300",
+  "commune": "Andenne",
+  "department": "NAM",
+  "website": "https://www.scladina.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q1547623",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Grotte_Scladina",
+  "image": {
+   "file": "images/museums/centre-archeologique-de-la-grotte-scladina.jpg",
+   "author": "Thilo Parg",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grotte_de_Sclayn_1b.jpg",
+   "wikimediaFile": "File:Grotte de Sclayn 1b.jpg"
+  }
+ },
+ {
+  "id": "centre-d-art-contemporain-du-luxembourg-belge-caclb",
+  "name": "Centre d’Art Contemporain du Luxembourg belge (CACLB)",
+  "coordinates": [
+   5.592499,
+   49.632902
+  ],
+  "address": "Rue de Montauban -",
+  "postalCode": "6743",
+  "commune": "Étalle",
+  "department": "LUX",
+  "website": "https://www.caclb.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q106454332",
+  "image": {
+   "file": "images/museums/centre-d-art-contemporain-du-luxembourg-belge-caclb.jpg",
+   "author": "Jean Housen",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:20170701_58_etalle.jpg",
+   "wikimediaFile": "File:20170701 58 etalle.jpg"
+  }
+ },
+ {
+  "id": "centre-d-art-du-mont-de-piete-espace-freddy-thielemans",
+  "name": "Centre d’art du Mont-de-Piété • Espace Freddy Thielemans",
+  "coordinates": [
+   4.346797,
+   50.839248
+  ],
+  "address": "Rue Saint-Ghislain 19,",
+  "postalCode": "1000",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "https://montdepiete.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "centre-d-interpretation-de-la-pierre-cip",
+  "name": "Centre d’interprétation de la pierre (CIP)",
+  "coordinates": [
+   5.664967,
+   50.504985
+  ],
+  "address": "Rue Joseph Potier 54,",
+  "postalCode": "4140",
+  "commune": "Sprimont",
+  "department": "LIE",
+  "website": "https://cip-sprimont.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "centre-daily-bul-c",
+  "name": "Centre Daily-Bul & C°",
+  "coordinates": [
+   4.186085,
+   50.478238
+  ],
+  "address": "Rue de la Loi, 14",
+  "postalCode": "7100",
+  "commune": "La Louvière",
+  "department": "HAI",
+  "website": "https://www.dailybulandco.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "centre-de-la-gravure-et-de-l-image-imprimee",
+  "name": "Centre de la Gravure et de l’Image imprimée",
+  "coordinates": [
+   4.185017,
+   50.474055
+  ],
+  "address": "Rue des Amours 10 -",
+  "postalCode": "7100",
+  "commune": "La Louvière",
+  "department": "HAI",
+  "website": "https://www.centredelagravure.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q28466318",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Centre_de_la_gravure_et_de_l'image_imprimée",
+  "image": {
+   "file": "images/museums/centre-de-la-gravure-et-de-l-image-imprimee.jpg",
+   "author": "Centre de la Gravure",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fa%C3%A7ade_du_Centre_de_la_Gravure.jpg",
+   "wikimediaFile": "File:Façade du Centre de la Gravure.jpg"
+  }
+ },
+ {
+  "id": "centre-marcel-marlier",
+  "name": "Centre Marcel Marlier",
+  "coordinates": [
+   3.22294,
+   50.749428
+  ],
+  "address": "Avenue des Seigneurs de Mouscron, 1 -",
+  "postalCode": "7700",
+  "commune": "Mouscron",
+  "department": "HAI",
+  "website": "https://www.centremarcelmarlier.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "centre-wallon-d-art-contemporain-la-chataigneraie",
+  "name": "Centre wallon d’art contemporain – La Châtaigneraie",
+  "coordinates": [
+   5.442011,
+   50.583969
+  ],
+  "address": "Chaussée de Ramioul 14 -",
+  "postalCode": "4400",
+  "commune": "Flémalle",
+  "department": "LIE",
+  "website": "https://www.cwac.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q3207388",
+  "wikipedia": "https://fr.wikipedia.org/wiki/La_Châtaigneraie_(centre_d'art)"
+ },
+ {
+  "id": "cid-grand-hornu",
+  "name": "Grand-Hornu",
+  "coordinates": [
+   3.839444,
+   50.435278
+  ],
+  "address": "",
+  "postalCode": "7301",
+  "commune": "Boussu",
+  "department": "HAI",
+  "website": "https://www.cid-grand-hornu.be/en/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q1025354",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Grand-Hornu",
+  "image": {
+   "file": "images/museums/cid-grand-hornu.jpg",
+   "author": "Jean-Pol GRANDMONT",
+   "license": "CC BY 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:0_Hornu_050322_(7).JPG",
+   "wikimediaFile": "File:0 Hornu 050322 (7).JPG"
+  }
+ },
+ {
+  "id": "cinematek",
+  "name": "Cinematek",
+  "coordinates": [
+   4.360157,
+   50.844166
+  ],
+  "address": "Rue Baron Horta 9 -",
+  "postalCode": "1000",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "https://www.brusselsmuseums.be/en/cinematek",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://www.brusselsmuseums.be/en/news-tips/free-museums-in-brussels",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q2419294",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Cinémathèque_royale_de_Belgique",
+  "image": {
+   "file": "images/museums/cinematek.jpg",
+   "author": "Michel wal",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bruxelles_rue_Baron_Horta_9.jpg",
+   "wikimediaFile": "File:Bruxelles rue Baron Horta 9.jpg"
+  }
+ },
+ {
+  "id": "computer-museum-nam-ip",
+  "name": "Computer Museum NAM-IP",
+  "coordinates": [
+   4.835489,
+   50.462825
+  ],
+  "address": "Rue Henri Blès 192A,",
+  "postalCode": "5000",
+  "commune": "Namur (Salzinnes)",
+  "department": "NAM",
+  "website": "https://www.nam-ip.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q60022344",
+  "wikipedia": "https://nl.wikipedia.org/wiki/NAM-IP"
+ },
+ {
+  "id": "contretype",
+  "name": "Contretype",
+  "coordinates": [
+   4.341734,
+   50.833855
+  ],
+  "address": "Cité Fontainas 4A -",
+  "postalCode": "1060",
+  "commune": "Saint-Gilles",
+  "department": "BRU",
+  "website": "https://www.contretype.org",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q126430022",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Contretype",
+  "image": {
+   "file": "images/museums/contretype.jpg",
+   "author": "Daderot",
+   "license": "Public Domain",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cit%C3%A9_Fontainas_-_Brussels%2C_Belgium_-_DSC07821.jpg",
+   "wikimediaFile": "File:Cité_Fontainas_-_Brussels,_Belgium_-_DSC07821.jpg"
+  }
+ },
+ {
+  "id": "culture-art-et-patrimoine-cap",
+  "name": "Culture Art et Patrimoine (CAP)",
+  "coordinates": [
+   3.952316,
+   50.455766
+  ],
+  "address": "Rue Neuve 8 -",
+  "postalCode": "7000",
+  "commune": "Mons",
+  "department": "HAI",
+  "website": "https://musees-expos.mons.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "design-museum-brussels",
+  "name": "Design Museum Brussels",
+  "coordinates": [
+   4.341944,
+   50.8975
+  ],
+  "address": "",
+  "postalCode": "1020",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "https://designmuseum.brussels/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://www.brusselsmuseums.be/en/news-tips/free-museums-in-brussels",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q28149770",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Design_Museum_Brussels",
+  "image": {
+   "file": "images/museums/design-museum-brussels.jpg",
+   "author": "Tom P",
+   "license": "CC BY-SA 2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:ADAM_Brussels_Design_Museum.jpg",
+   "wikimediaFile": "File:ADAM Brussels Design Museum.jpg"
+  }
+ },
+ {
+  "id": "design-museum-gent",
+  "name": "Design Museum Gent",
+  "coordinates": [
+   3.720141,
+   51.055838
+  ],
+  "address": "",
+  "postalCode": "9000",
+  "commune": "Gent",
+  "department": "OVL",
+  "website": "https://www.designmuseumgent.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "weekly",
+    "weekday": "thursday",
+    "evening": true,
+    "audience": "residents",
+    "note": "Late Donderdag: open until 22:00, free from 17:30 for Ghent residents; paused in July and August.",
+    "source": {
+     "url": "https://degentsemusea.be/plan/faq",
+     "checkedAt": "2026-08-06"
+    }
+   },
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "audience": "residents",
+    "note": "Free for Ghent residents (postcodes 9000–9052).",
+    "source": {
+     "url": "https://degentsemusea.be/plan/faq",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q1809071",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Design_Museum_Gent",
+  "image": {
+   "file": "images/museums/design-museum-gent.jpg",
+   "author": "Wernervc",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jan_Breydelstraat.jpg",
+   "wikimediaFile": "File:Jan Breydelstraat.jpg"
+  }
+ },
+ {
+  "id": "diva-museum-antwerpen",
+  "name": "DIVA — Museum voor Edelsmeedkunst, Juwelen en Diamant",
+  "coordinates": [
+   4.398592,
+   51.221099
+  ],
+  "address": "Suikerrui 17-19",
+  "postalCode": "2000",
+  "commune": "Antwerpen",
+  "department": "ANT",
+  "website": "https://www.divaantwerp.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "tuesday",
+    "audience": "residents",
+    "note": "Free for Antwerp residents holding an A-kaart.",
+    "source": {
+     "url": "https://pers.antwerpen.be/nieuwe-tarieven-voor-de-musea-van-de-stad-antwerpen",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q51885460",
+  "image": {
+   "file": "images/museums/diva-museum-antwerpen.jpg",
+   "author": "Bert76",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:DIVA_front.jpg",
+   "wikimediaFile": "File:DIVA front.jpg"
+  }
+ },
+ {
+  "id": "durbuy-history-art-museum-dham",
+  "name": "Durbuy History & Art Museum (DHAM)",
+  "coordinates": [
+   5.456183,
+   50.352097
+  ],
+  "address": "Rue du Comte Théodule d'Ursel 21,",
+  "postalCode": "6940",
+  "commune": "Durbuy",
+  "department": "LUX",
+  "website": "https://dham.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "ecomusee-de-ben-ahin",
+  "name": "Ecomusée de Ben Ahin",
+  "coordinates": [
+   5.193886,
+   50.519033
+  ],
+  "address": "Avenue de Beaufort 65 -",
+  "postalCode": "4500",
+  "commune": "Huy",
+  "department": "LIE",
+  "website": "http://www.huy.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "ecomusee-du-viroin",
+  "name": "Écomusée du Viroin",
+  "coordinates": [
+   4.669822,
+   50.092922
+  ],
+  "address": "",
+  "postalCode": "5670",
+  "commune": "Treignes (Viroinval)",
+  "department": "NAM",
+  "website": "https://www.ecomuseeduviroin.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q29564351"
+ },
+ {
+  "id": "espace-gallo-romain",
+  "name": "espace gallo-romain",
+  "coordinates": [
+   3.778393,
+   50.63017
+  ],
+  "address": "",
+  "postalCode": "7800",
+  "commune": "Ath",
+  "department": "HAI",
+  "website": "https://www.espacegalloromain.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q3058199",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Espace_gallo-romain",
+  "image": {
+   "file": "images/museums/espace-gallo-romain.jpg",
+   "author": "Chatsam",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Forum_antique_de_Bavay_mater_coiff%C3%A9e_%C3%A0_la_romaine_Liberchies_I_au_III_s.JPG",
+   "wikimediaFile": "File:Forum_antique_de_Bavay_mater_coiffée_à_la_romaine_Liberchies_I_au_III_s.JPG"
+  }
+ },
+ {
+  "id": "espace-museal-d-andenne-ema-le-phare",
+  "name": "Espace muséal d'Andenne",
+  "coordinates": [
+   5.099928,
+   50.489542
+  ],
+  "address": "",
+  "postalCode": "5300",
+  "commune": "Andenne",
+  "department": "NAM",
+  "website": "https://lephare-andenne.be/nl/espace-museal-van-andenne/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q132202077",
+  "image": {
+   "file": "images/museums/espace-museal-d-andenne-ema-le-phare.jpg",
+   "author": "Gogobovo",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_Phare_Andenne_2020.jpg",
+   "wikimediaFile": "File:Le Phare Andenne 2020.jpg"
+  }
+ },
+ {
+  "id": "espace-museal-emile-verhaeren",
+  "name": "Espace muséal Emile Verhaeren",
+  "coordinates": [
+   3.708581,
+   50.339758
+  ],
+  "address": "Rue Emile Verhaeren 23 -",
+  "postalCode": "7387",
+  "commune": "Roisin (Honnelles)",
+  "department": "HAI",
+  "website": "https://www.emileverhaerenroisin.net",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "experience-europe",
+  "name": "Experience Europe",
+  "coordinates": [
+   4.384168,
+   50.84294
+  ],
+  "address": "Rue Archimède 1,",
+  "postalCode": "1000",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "https://www.brusselsmuseums.be/en/experience-europe",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://www.brusselsmuseums.be/en/museums?tags[]=26261",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q124478067",
+  "wikipedia": "https://nl.wikipedia.org/wiki/Experience_Europe",
+  "image": {
+   "file": "images/museums/experience-europe.jpg",
+   "author": "FrDr",
+   "license": "CC BY 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Experience_Europe_05.jpg",
+   "wikimediaFile": "File:Experience Europe 05.jpg"
+  }
+ },
+ {
+  "id": "famenne-art-museum-fam",
+  "name": "Famenne & Art Museum (FAM)",
+  "coordinates": [
+   5.343538,
+   50.226846
+  ],
+  "address": "Rue du Commerce 17 -",
+  "postalCode": "6900",
+  "commune": "Marche-en-Famenne",
+  "department": "LUX",
+  "website": "https://www.famenneartmuseum.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q3329899",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Famenne_%26_Art_Museum",
+  "image": {
+   "file": "images/museums/famenne-art-museum-fam.jpg",
+   "author": "Jean-Pol GRANDMONT",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:0_Marche-en-Famenne_-_Maison_Jadot_(2).JPG",
+   "wikimediaFile": "File:0 Marche-en-Famenne - Maison Jadot (2).JPG"
+  }
+ },
+ {
+  "id": "fashion-lace-museum",
+  "name": "musée Mode & Dentelle",
+  "coordinates": [
+   4.351989,
+   50.845778
+  ],
+  "address": "",
+  "postalCode": "1000",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "https://www.fashionandlacemuseum.brussels/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://www.brusselsmuseums.be/en/news-tips/free-museums-in-brussels",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q2193737",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Mode_%26_Dentelle",
+  "image": {
+   "file": "images/museums/fashion-lace-museum.jpg",
+   "author": "Mx. Granger",
+   "license": "CC0 1.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museum_of_Costume_and_Lace_exterior.jpg",
+   "wikimediaFile": "File:Museum of Costume and Lace exterior.jpg"
+  }
+ },
+ {
+  "id": "fomu-fotomuseum-antwerpen",
+  "name": "musée de la photographie d'Anvers",
+  "coordinates": [
+   4.387551,
+   51.209035
+  ],
+  "address": "",
+  "postalCode": "2000",
+  "commune": "Antwerpen",
+  "department": "ANT",
+  "website": "http://www.fotomuseum.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "tuesday",
+    "audience": "residents",
+    "note": "Free for Antwerp residents holding an A-kaart.",
+    "source": {
+     "url": "https://pers.antwerpen.be/nieuwe-tarieven-voor-de-musea-van-de-stad-antwerpen",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q2635059",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_photographie_d'Anvers",
+  "image": {
+   "file": "images/museums/fomu-fotomuseum-antwerpen.jpg",
+   "author": "Romaine",
+   "license": "CC0 1.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Antwerpen-FoMu-Fotomuseum_Provincie_Antwerpen_(3).jpg",
+   "wikimediaFile": "File:Antwerpen-FoMu-Fotomuseum Provincie Antwerpen (3).jpg"
+  }
+ },
+ {
+  "id": "forge-musee",
+  "name": "Forge-Musée",
+  "coordinates": [
+   4.263563,
+   50.649423
+  ],
+  "address": "Rue Basse 14 -",
+  "postalCode": "1460",
+  "commune": "Ittre",
+  "department": "WBR",
+  "website": "http://www.ittre.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "fort-et-memorial-de-huy",
+  "name": "fort de Huy",
+  "coordinates": [
+   5.23724,
+   50.51744
+  ],
+  "address": "",
+  "postalCode": "4500",
+  "commune": "Huy",
+  "department": "LIE",
+  "website": "https://www.visithuy.be/tourisme/fort-de-huy",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q2414130",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Fort_de_Huy",
+  "image": {
+   "file": "images/museums/fort-et-memorial-de-huy.jpg",
+   "author": "Alaindg",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:PanoHuy2.jpg",
+   "wikimediaFile": "File:PanoHuy2.jpg"
+  }
+ },
+ {
+  "id": "fourneau-saint-michel",
+  "name": "Fourneau Saint-Michel",
+  "coordinates": [
+   5.335192,
+   50.089236
+  ],
+  "address": "",
+  "postalCode": "6870",
+  "commune": "Saint-Hubert",
+  "department": "LUX",
+  "website": "https://www.fourneausaintmichel.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q871088",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Fourneau_Saint-Michel",
+  "image": {
+   "file": "images/museums/fourneau-saint-michel.jpg",
+   "author": "Jean-Pol GRANDMONT",
+   "license": "CC BY 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fourneau_St-Michel_050829_(46).JPG",
+   "wikimediaFile": "File:Fourneau St-Michel 050829 (46).JPG"
+  }
+ },
+ {
+  "id": "garderobe-mannekenpis",
+  "name": "GardeRobe MannekenPis",
+  "coordinates": [
+   4.35098,
+   50.84408
+  ],
+  "address": "",
+  "postalCode": "1000",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "https://www.mannekenpis.brussels/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://www.brusselsmuseums.be/en/news-tips/free-museums-in-brussels",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q107293126",
+  "image": {
+   "file": "images/museums/garderobe-mannekenpis.jpg",
+   "author": "Benoît Prieur",
+   "license": "CC0 1.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Garderobe_Mannekenpis_(Brussels).jpg",
+   "wikimediaFile": "File:Garderobe Mannekenpis (Brussels).jpg"
+  }
+ },
+ {
+  "id": "grand-curtius",
+  "name": "Grand Curtius",
+  "coordinates": [
+   5.58357,
+   50.6471
+  ],
+  "address": "",
+  "postalCode": "4000",
+  "commune": "Liège",
+  "department": "LIE",
+  "website": "https://www.grandcurtius.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q2304164",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Grand_Curtius",
+  "image": {
+   "file": "images/museums/grand-curtius.jpg",
+   "author": "Quentin Lowagie / Klow",
+   "license": "CC BY 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palais_Curtius_vu_du_pont_Saint-L%C3%A9onard%2C_Li%C3%A8ge_-_crop.jpg",
+   "wikimediaFile": "File:Palais Curtius vu du pont Saint-Léonard, Liège - crop.jpg"
+  }
+ },
+ {
+  "id": "gravensteen",
+  "name": "Gravensteen",
+  "coordinates": [
+   3.721144,
+   51.056803
+  ],
+  "address": "",
+  "postalCode": "9000",
+  "commune": "Gent",
+  "department": "OVL",
+  "website": "https://historischehuizen.stad.gent/nl/gravensteen",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "audience": "residents",
+    "note": "Free for Ghent residents (postcodes 9000–9052).",
+    "source": {
+     "url": "https://degentsemusea.be/plan/faq",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q57913739",
+  "image": {
+   "file": "images/museums/gravensteen.jpg",
+   "author": "Pere prlpz",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gravensteen_(1).jpg",
+   "wikimediaFile": "File:Gravensteen (1).jpg"
+  }
+ },
+ {
+  "id": "gum-gents-universiteitsmuseum",
+  "name": "GUM — Gents Universiteitsmuseum",
+  "coordinates": [
+   3.72419,
+   51.03631
+  ],
+  "address": "K.L. Ledeganckstraat 35",
+  "postalCode": "9000",
+  "commune": "Gent",
+  "department": "OVL",
+  "website": "https://www.gum.gent/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "weekly",
+    "weekday": "thursday",
+    "evening": true,
+    "audience": "residents",
+    "note": "Late Donderdag: open until 22:00, free from 17:30 for Ghent residents; paused in July and August.",
+    "source": {
+     "url": "https://degentsemusea.be/beleef-meer/late-donderdag",
+     "checkedAt": "2026-08-06"
+    }
+   },
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://degentsemusea.be/plan/faq",
+     "checkedAt": "2026-08-06"
+    },
+    "audience": "residents",
+    "note": "Free for Ghent residents (postcodes 9000–9052)."
+   }
+  ],
+  "wikidata": "Q100263681",
+  "image": {
+   "file": "images/museums/gum-gents-universiteitsmuseum.jpg",
+   "author": "Carolus",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:AD_2024_-_Gents_Universiteitsmuseum_tuinzijde_01.jpg",
+   "wikimediaFile": "File:AD 2024 - Gents Universiteitsmuseum tuinzijde 01.jpg"
+  }
+ },
+ {
+  "id": "hexapoda-insectarium-jean-leclercq",
+  "name": "Hexapoda – Insectarium Jean Leclercq",
+  "coordinates": [
+   5.230734,
+   50.682812
+  ],
+  "address": "Rue de Grand-Axhe 45e,",
+  "postalCode": "4300",
+  "commune": "Waremme",
+  "department": "LIE",
+  "website": "https://www.hexapoda.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "hopital-notre-dame-a-la-rose",
+  "name": "hôpital Notre-Dame à la Rose",
+  "coordinates": [
+   3.83153,
+   50.7131
+  ],
+  "address": "",
+  "postalCode": "7860",
+  "commune": "Lessines",
+  "department": "HAI",
+  "website": "http://www.notredamealarose.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q2668179",
+  "wikipedia": "https://fr.wikipedia.org/wiki/H%C3%B4pital_Notre-Dame_%C3%A0_la_Rose",
+  "image": {
+   "file": "images/museums/hopital-notre-dame-a-la-rose.jpg",
+   "author": "Velvet",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lessines_hopital_ND_de_la_rose.jpg",
+   "wikimediaFile": "File:Lessines hopital ND de la rose.jpg"
+  }
+ },
+ {
+  "id": "horta-museum",
+  "name": "musée Horta",
+  "coordinates": [
+   4.355561,
+   50.824169
+  ],
+  "address": "",
+  "postalCode": "1060",
+  "commune": "Saint-Gilles",
+  "department": "BRU",
+  "website": "https://www.hortamuseum.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://www.brusselsmuseums.be/en/news-tips/free-museums-in-brussels",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q1995367",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Maison_Horta",
+  "image": {
+   "file": "images/museums/horta-museum.jpg",
+   "author": "Paul Louis",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hortamuseum.tif",
+   "wikimediaFile": "File:Hortamuseum.tif"
+  }
+ },
+ {
+  "id": "huis-van-alijn",
+  "name": "musée de la vie populaire",
+  "coordinates": [
+   3.723497,
+   51.057506
+  ],
+  "address": "",
+  "postalCode": "9000",
+  "commune": "Gent",
+  "department": "OVL",
+  "website": "http://www.huisvanalijn.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "weekly",
+    "weekday": "thursday",
+    "evening": true,
+    "audience": "residents",
+    "note": "Late Donderdag: open until 22:00, free from 17:30 for Ghent residents; paused in July and August.",
+    "source": {
+     "url": "https://degentsemusea.be/beleef-meer/late-donderdag",
+     "checkedAt": "2026-08-06"
+    }
+   },
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "audience": "residents",
+    "note": "Free for Ghent residents (postcodes 9000–9052).",
+    "source": {
+     "url": "https://degentsemusea.be/plan/faq",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q2358158",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_vie_populaire",
+  "image": {
+   "file": "images/museums/huis-van-alijn.jpg",
+   "author": "User:LimoWreck",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gent_-_Kinderen_Alijnshospitaal_1.jpg",
+   "wikimediaFile": "File:Gent - Kinderen Alijnshospitaal 1.jpg"
+  }
+ },
+ {
+  "id": "ikob-musee-d-art-contemporain-d-eupen",
+  "name": "IKOB – Musée d'Art Contemporain",
+  "coordinates": [
+   6.0302,
+   50.626
+  ],
+  "address": "",
+  "postalCode": "4700",
+  "commune": "Eupen",
+  "department": "LIE",
+  "website": "http://www.ikob.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q1339422",
+  "wikipedia": "https://fr.wikipedia.org/wiki/IKOB_%E2%80%93_Mus%C3%A9e_d'Art_contemporain",
+  "image": {
+   "file": "images/museums/ikob-musee-d-art-contemporain-d-eupen.jpg",
+   "author": "ArthurMcGill",
+   "license": "CC BY 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:IKOB%2C_Eupen.JPG",
+   "wikimediaFile": "File:IKOB, Eupen.JPG"
+  }
+ },
+ {
+  "id": "industriemuseum",
+  "name": "musée de l'Industrie",
+  "coordinates": [
+   3.728896,
+   51.059391
+  ],
+  "address": "",
+  "postalCode": "9000",
+  "commune": "Gent",
+  "department": "OVL",
+  "website": "https://www.industriemuseum.be/nl",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "weekly",
+    "weekday": "thursday",
+    "evening": true,
+    "audience": "residents",
+    "note": "Late Donderdag: open until 22:00, free from 17:30 for Ghent residents; paused in July and August.",
+    "source": {
+     "url": "https://degentsemusea.be/beleef-meer/late-donderdag",
+     "checkedAt": "2026-08-06"
+    }
+   },
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "audience": "residents",
+    "note": "Free for Ghent residents (postcodes 9000–9052).",
+    "source": {
+     "url": "https://degentsemusea.be/plan/faq",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q2245203",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_l'Industrie_(Gand)",
+  "image": {
+   "file": "images/museums/industriemuseum.jpg",
+   "author": "Geertivp",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Industriemuseum_Gent_frontaal_zicht.jpg",
+   "wikimediaFile": "File:Industriemuseum Gent frontaal zicht.jpg"
+  }
+ },
+ {
+  "id": "institute-of-natural-sciences",
+  "name": "Musée des sciences naturelles de Belgique",
+  "coordinates": [
+   4.37656,
+   50.836546
+  ],
+  "address": "",
+  "postalCode": "1000",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "https://www.naturalsciences.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "wednesday",
+    "note": "Free on the first Wednesday of the month from early afternoon.",
+    "source": {
+     "url": "https://www.brusselsmuseums.be/en/news-tips/free-museums-in-brussels",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q222297",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9um_des_sciences_naturelles",
+  "image": {
+   "file": "images/museums/institute-of-natural-sciences.jpg",
+   "author": "Bernard J. Noël",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mod%C3%A8le_en_bois.JPG",
+   "wikimediaFile": "File:Modèle en bois.JPG"
+  }
+ },
+ {
+  "id": "jewish-museum-of-belgium",
+  "name": "musée Juif de Belgique",
+  "coordinates": [
+   4.3532,
+   50.840797
+  ],
+  "address": "",
+  "postalCode": "1000",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "http://www.mjb-jmb.org",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://www.brusselsmuseums.be/en/news-tips/free-museums-in-brussels",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q1165167",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_juif_de_Belgique",
+  "image": {
+   "file": "images/museums/jewish-museum-of-belgium.jpg",
+   "author": "Michel wal",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bruxelles_rue_des_Minimes_21.jpg",
+   "wikimediaFile": "File:Bruxelles rue des Minimes 21.jpg"
+  }
+ },
+ {
+  "id": "kbr-museum",
+  "name": "KBR museum",
+  "coordinates": [
+   4.35689,
+   50.844625
+  ],
+  "address": "",
+  "postalCode": "1000",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "https://www.kbr.be/nl/museum",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "wednesday",
+    "note": "Free on the first Wednesday of the month from early afternoon.",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q99521191",
+  "wikipedia": "https://fr.wikipedia.org/wiki/KBR_museum",
+  "image": {
+   "file": "images/museums/kbr-museum.jpg",
+   "author": "FrDr",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:KBR_Museum_20.jpg",
+   "wikimediaFile": "File:KBR Museum 20.jpg"
+  }
+ },
+ {
+  "id": "keramis-centre-de-la-ceramique",
+  "name": "Keramis – Centre de la céramique",
+  "coordinates": [
+   4.1836,
+   50.478056
+  ],
+  "address": "Place des Fours-Bouteilles 1 -",
+  "postalCode": "7100",
+  "commune": "La Louvière",
+  "department": "HAI",
+  "website": "https://www.keramis.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q59389219"
+ },
+ {
+  "id": "kina",
+  "name": "Kina",
+  "coordinates": [
+   3.72645,
+   51.04184
+  ],
+  "address": "",
+  "postalCode": "9000",
+  "commune": "Gent",
+  "department": "OVL",
+  "website": "http://www.dewereldvankina.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "audience": "residents",
+    "note": "Free for Ghent residents (postcodes 9000–9052).",
+    "source": {
+     "url": "https://degentsemusea.be/plan/faq",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q1967578",
+  "image": {
+   "file": "images/museums/kina.jpg",
+   "author": "Paul Hermans",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wereld_van_kina_25-11-2008_15-54-15.JPG",
+   "wikimediaFile": "File:Wereld van kina 25-11-2008 15-54-15.JPG"
+  }
+ },
+ {
+  "id": "l-orangerie-espace-d-art-contemporain",
+  "name": "L’Orangerie, espace d’art contemporain",
+  "coordinates": [
+   5.720637,
+   50.006231
+  ],
+  "address": "Rue de la Porte Haute 30,",
+  "postalCode": "6600",
+  "commune": "Bastogne",
+  "department": "LUX",
+  "website": "http://www.lorangerie-bastogne.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "la-boverie",
+  "name": "La Boverie",
+  "coordinates": [
+   5.577389,
+   50.627472
+  ],
+  "address": "",
+  "postalCode": "4020",
+  "commune": "Liège",
+  "department": "LIE",
+  "website": "http://www.laboverie.com",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q21511875",
+  "wikipedia": "https://fr.wikipedia.org/wiki/La_Boverie",
+  "image": {
+   "file": "images/museums/la-boverie.jpg",
+   "author": "Éric Dodémont (Dodeeric)",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_de_la_Boverie.jpg",
+   "wikimediaFile": "File:Musée de la Boverie.jpg"
+  }
+ },
+ {
+  "id": "la-cite-miroir",
+  "name": "La Cité Miroir",
+  "coordinates": [
+   5.567965,
+   50.643546
+  ],
+  "address": "Place Xavier-Neujean 22,",
+  "postalCode": "4000",
+  "commune": "Liège",
+  "department": "LIE",
+  "website": "https://www.citemiroir.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "la-fonderie-musee-bruxellois-des-industries-et-du-travail",
+  "name": "La Fonderie – Musée bruxellois des industries et du travail",
+  "coordinates": [
+   4.335808,
+   50.852407
+  ],
+  "address": "Rue Ransfort 27 -",
+  "postalCode": "1080",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "https://www.lafonderie.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q20706201",
+  "wikipedia": "https://fr.wikipedia.org/wiki/La_Fonderie,_Musée_bruxellois_des_Industries_et_du_Travail",
+  "image": {
+   "file": "images/museums/la-fonderie-musee-bruxellois-des-industries-et-du-travail.jpg",
+   "author": "Bernard Lee",
+   "license": "CC0 1.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_Fonderie_(1).jpg",
+   "wikimediaFile": "File:La Fonderie (1).jpg"
+  }
+ },
+ {
+  "id": "la-maison-de-monsieur-sax",
+  "name": "Maison de Monsieur Sax",
+  "coordinates": [
+   4.910897,
+   50.261816
+  ],
+  "address": "",
+  "postalCode": "5500",
+  "commune": "Dinant",
+  "department": "NAM",
+  "website": "http://sax.dinant.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q27990977",
+  "wikipedia": "https://fr.wikipedia.org/wiki/La_Maison_de_monsieur_Sax",
+  "image": {
+   "file": "images/museums/la-maison-de-monsieur-sax.jpg",
+   "author": "Ymnes",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maison_de_Monsieur_Sax_-_01_(cropped).JPG",
+   "wikimediaFile": "File:Maison de Monsieur Sax - 01 (cropped).JPG"
+  }
+ },
+ {
+  "id": "la-mediatine",
+  "name": "La Médiatine",
+  "coordinates": [
+   4.439286,
+   50.841357
+  ],
+  "address": "Allée Pierre Levie 1 -",
+  "postalCode": "1200",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "http://www.wolubilis.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "le-bois-du-cazier-musee-de-l-industrie-musee-du-verre",
+  "name": "Le Bois du Cazier : Musée de l’Industrie & Musée du Verre",
+  "coordinates": [
+   4.442795,
+   50.380748
+  ],
+  "address": "Rue du Cazier 80, Marcinelle (Charleroi), Belgique",
+  "postalCode": "6001",
+  "commune": "Marcinelle (Charleroi)",
+  "department": "HAI",
+  "website": "https://www.leboisducazier.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q891068",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Bois_du_Cazier",
+  "image": {
+   "file": "images/museums/le-bois-du-cazier-musee-de-l-industrie-musee-du-verre.jpg",
+   "author": "Luc Viatour",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bois_du_Cazier_3.jpg",
+   "wikimediaFile": "File:Bois du Cazier 3.jpg"
+  }
+ },
+ {
+  "id": "le-delta-espace-culturel-de-la-province-de-namur",
+  "name": "Le Delta – Espace culturel de la Province de Namur",
+  "coordinates": [
+   4.868299,
+   50.462354
+  ],
+  "address": "Avenue Fernand Golenvaux 18,",
+  "postalCode": "5000",
+  "commune": "Namur",
+  "department": "NAM",
+  "website": "https://www.ledelta.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "le-jardin-de-sculptures",
+  "name": "Le Jardin de sculptures",
+  "coordinates": [
+   4.448231,
+   50.854136
+  ],
+  "address": "Avenue Emmanuel Mounier -",
+  "postalCode": "1200",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "https://artsetpublics.be/musees/le-jardin-de-sculptures/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "le-jardin-des-plantes-medicinales-paul-moens",
+  "name": "jardin des plantes médicinales Paul Moens",
+  "coordinates": [
+   4.454278,
+   50.85097
+  ],
+  "address": "",
+  "postalCode": "1200",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "http://www.uclouvain.be/jardin-plantes.html",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q3162570",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Jardin_des_plantes_m%C3%A9dicinales_Paul_Moens",
+  "image": {
+   "file": "images/museums/le-jardin-des-plantes-medicinales-paul-moens.jpg",
+   "author": "Alfred de Ville de Goyet",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:JP2017_234.jpg",
+   "wikimediaFile": "File:JP2017 234.jpg"
+  }
+ },
+ {
+  "id": "le-pavillon",
+  "name": "Le Pavillon",
+  "coordinates": [
+   6.41944,
+   49.8129
+  ],
+  "address": "",
+  "postalCode": "6460",
+  "commune": "Namur",
+  "department": "HAI",
+  "website": "https://www.le-pavillon.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q111876469"
+ },
+ {
+  "id": "les-bateliers-musees-archeologique-et-des-arts-decoratifs",
+  "name": "Les Bateliers – Musées archéologique et des Arts décoratifs",
+  "coordinates": [
+   4.861118,
+   50.463062
+  ],
+  "address": "Rue Joseph Saintraint 7,",
+  "postalCode": "5000",
+  "commune": "Namur",
+  "department": "NAM",
+  "website": "https://www.lesbateliers.namur.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q2253247",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Musée_archéologique_de_Namur",
+  "image": {
+   "file": "images/museums/les-bateliers-musees-archeologique-et-des-arts-decoratifs.jpg",
+   "author": "Pulcherus",
+   "license": "CC0 1.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_arch%C3%A9ologique_de_Namur.jpg",
+   "wikimediaFile": "File:Musée archéologique de Namur.jpg"
+  }
+ },
+ {
+  "id": "les-halles-saint-gery",
+  "name": "Halles Saint-Géry",
+  "coordinates": [
+   4.347314,
+   50.847983
+  ],
+  "address": "",
+  "postalCode": "1000",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "https://hallessaintgery.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q3126123",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Halles_Saint-G%C3%A9ry",
+  "image": {
+   "file": "images/museums/les-halles-saint-gery.jpg",
+   "author": "Szilas",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:2009-05-10_in_Brussels_15.jpg",
+   "wikimediaFile": "File:2009-05-10 in Brussels 15.jpg"
+  }
+ },
+ {
+  "id": "letterenhuis",
+  "name": "maison des lettres",
+  "coordinates": [
+   4.404712,
+   51.222929
+  ],
+  "address": "",
+  "postalCode": "2000",
+  "commune": "Antwerpen",
+  "department": "ANT",
+  "website": "http://www.letterenhuis.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "tuesday",
+    "audience": "residents",
+    "note": "Free for Antwerp residents holding an A-kaart.",
+    "source": {
+     "url": "https://pers.antwerpen.be/nieuwe-tarieven-voor-de-musea-van-de-stad-antwerpen",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q3813695",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Maison_des_lettres",
+  "image": {
+   "file": "images/museums/letterenhuis.jpg",
+   "author": "Stad Antwerpen",
+   "license": "Public Domain",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amvc.jpg",
+   "wikimediaFile": "File:Amvc.jpg"
+  }
+ },
+ {
+  "id": "mac-s-grand-hornu",
+  "name": "MAC’s (Grand-Hornu)",
+  "coordinates": [
+   3.839278,
+   50.435468
+  ],
+  "address": "Rue Sainte-Louise 82, Boussu, Belgique",
+  "postalCode": "7301",
+  "commune": "Boussu",
+  "department": "HAI",
+  "website": "https://www.mac-s.be/fr",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q3915539",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Musée_des_Arts_contemporains_de_la_Fédération_Wallonie-Bruxelles",
+  "image": {
+   "file": "images/museums/mac-s-grand-hornu.jpg",
+   "author": "Wasily",
+   "license": "Public Domain",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hornu.jpg",
+   "wikimediaFile": "File:Hornu.jpg"
+  }
+ },
+ {
+  "id": "magasin-de-papier",
+  "name": "Magasin de Papier",
+  "coordinates": [
+   3.95284,
+   50.453143
+  ],
+  "address": "Rue de la Clé 26 -",
+  "postalCode": "7000",
+  "commune": "Mons",
+  "department": "HAI",
+  "website": "https://musees-expos.mons.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "magritte-museum",
+  "name": "Musée Magritte",
+  "coordinates": [
+   4.358796,
+   50.842418
+  ],
+  "address": "Place Royale 1, Bruxelles, Belgique",
+  "postalCode": "1000",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "http://www.musee-magritte-museum.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "wednesday",
+    "note": "Free on the first Wednesday of the month from early afternoon.",
+    "source": {
+     "url": "https://www.brusselsmuseums.be/en/news-tips/free-museums-in-brussels",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q943581",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Magritte",
+  "image": {
+   "file": "images/museums/magritte-museum.jpg",
+   "author": "Warburg",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:BRX-mus%C3%A9e-magritte.2.JPG",
+   "wikimediaFile": "File:BRX-musée-magritte.2.JPG"
+  }
+ },
+ {
+  "id": "maison-de-l-histoire-europeenne",
+  "name": "maison de l'Histoire européenne",
+  "coordinates": [
+   4.378761,
+   50.839939
+  ],
+  "address": "",
+  "postalCode": "1000",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "https://historia-europa.ep.eu",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q46012",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Maison_de_l'histoire_europ%C3%A9enne",
+  "image": {
+   "file": "images/museums/maison-de-l-histoire-europeenne.jpg",
+   "author": "Lora1307",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:House_of_European_History_(2011-03-10).jpg",
+   "wikimediaFile": "File:House of European History (2011-03-10).jpg"
+  }
+ },
+ {
+  "id": "maison-de-l-imprimerie",
+  "name": "Maison de l’Imprimerie",
+  "coordinates": [
+   4.286413,
+   50.341829
+  ],
+  "address": "Rue Verte 1b -",
+  "postalCode": "6530",
+  "commune": "Thuin",
+  "department": "HAI",
+  "website": "https://www.maison-imprimerie.net",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maison-de-la-metallurgie-et-de-l-industrie",
+  "name": "Maison de la Métallurgie et de l’Industrie",
+  "coordinates": [
+   5.579843,
+   50.630766
+  ],
+  "address": "Boulevard Raymond Poincaré 17,",
+  "postalCode": "4020",
+  "commune": "Liège",
+  "department": "LIE",
+  "website": "https://mmil.uliege.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q2113946",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Maison_de_la_métallurgie_et_de_l'industrie_de_Liège",
+  "image": {
+   "file": "images/museums/maison-de-la-metallurgie-et-de-l-industrie.jpg",
+   "author": "Musée MMIL",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fa%C3%A7ade_MMIL_2020_-_%C2%A9V._Gawra%2C_MMIL.jpg",
+   "wikimediaFile": "File:Façade MMIL 2020 - ©V. Gawra, MMIL.jpg"
+  }
+ },
+ {
+  "id": "maison-de-la-poterie",
+  "name": "Maison de la Poterie",
+  "coordinates": [
+   4.513914,
+   50.390597
+  ],
+  "address": "Rue Général Jacques 4 -",
+  "postalCode": "6200",
+  "commune": "Bouffioulx",
+  "department": "HAI",
+  "website": "https://chatelet-anime.jimdo.com/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maison-de-la-science-uliege",
+  "name": "Maison de la Science (ULiège)",
+  "coordinates": [
+   5.578858,
+   50.638895
+  ],
+  "address": "Quai Edouard Van Beneden 22, Liège, Belgique",
+  "postalCode": "4020",
+  "commune": "Liège",
+  "department": "LIE",
+  "website": "https://maisondelascience.uliege.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q3279804",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Maison_de_la_science",
+  "image": {
+   "file": "images/museums/maison-de-la-science-uliege.jpg",
+   "author": "Jacques Renier",
+   "license": "CC BY-SA 2.5",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Quai_Van_Beneden_Li%C3%A8ge.jpg",
+   "wikimediaFile": "File:Quai Van Beneden Liège.jpg"
+  }
+ },
+ {
+  "id": "maison-des-artistes",
+  "name": "Maison des artistes",
+  "coordinates": [
+   4.315339,
+   50.835744
+  ],
+  "address": "Rue du Bronze 14",
+  "postalCode": "1070",
+  "commune": "Anderlecht",
+  "department": "BRU",
+  "website": "http://www.anderlecht.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "maison-des-geants",
+  "name": "La Maison des Géants",
+  "coordinates": [
+   3.77478,
+   50.62978
+  ],
+  "address": "",
+  "postalCode": "7800",
+  "commune": "Ath",
+  "department": "HAI",
+  "website": "https://www.maisondesgeants.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q1870031",
+  "wikipedia": "https://fr.wikipedia.org/wiki/La_Maison_des_G%C3%A9ants",
+  "image": {
+   "file": "images/museums/maison-des-geants.jpg",
+   "author": "Trougnouf (Benoit Brummer)",
+   "license": "CC BY 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_Maison_des_G%C3%A9ants_(DSC_1829).jpg",
+   "wikimediaFile": "File:La Maison des Géants (DSC 1829).jpg"
+  }
+ },
+ {
+  "id": "maison-des-megalithes-de-weris",
+  "name": "Maison des Mégalithes de Wéris",
+  "coordinates": [
+   5.53187,
+   50.326403
+  ],
+  "address": "Place Arsène Soreil 7,",
+  "postalCode": "6940",
+  "commune": "Durbuy",
+  "department": "LUX",
+  "website": "https://www.megalithes-weris.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q3330136",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Musée_des_Mégalithes_de_Wéris",
+  "image": {
+   "file": "images/museums/maison-des-megalithes-de-weris.jpg",
+   "author": "Megalithomania",
+   "license": "Public Domain",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Musee_des_Megalithes_de_Weris.jpg",
+   "wikimediaFile": "File:Musee des Megalithes de Weris.jpg"
+  }
+ },
+ {
+  "id": "maison-du-patrimoine-medieval-mosan-mpmm",
+  "name": "Maison du patrimoine médiéval mosan (MPMM)",
+  "coordinates": [
+   4.898036,
+   50.272615
+  ],
+  "address": "Place du Bailliage 16 -",
+  "postalCode": "5500",
+  "commune": "Bouvignes",
+  "department": "NAM",
+  "website": "https://www.mpmm.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q107293248"
+ },
+ {
+  "id": "maison-van-gogh",
+  "name": "maison Van Gogh",
+  "coordinates": [
+   3.925278,
+   50.441389
+  ],
+  "address": "",
+  "postalCode": "7033",
+  "commune": "Mons",
+  "department": "HAI",
+  "website": "http://www.maisonvangogh.mons.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q3280282",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Maison_Van_Gogh_%C3%A0_Cuesmes",
+  "image": {
+   "file": "images/museums/maison-van-gogh.jpg",
+   "author": "Jean-Pol GRANDMONT",
+   "license": "CC BY 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cuesmes_Mu1aJPG.jpg",
+   "wikimediaFile": "File:Cuesmes Mu1aJPG.jpg"
+  }
+ },
+ {
+  "id": "malmundarium",
+  "name": "Malmundarium",
+  "coordinates": [
+   6.02729,
+   50.4268
+  ],
+  "address": "",
+  "postalCode": "4960",
+  "commune": "Malmedy",
+  "department": "LIE",
+  "website": "http://www.malmundarium.be/accueil-fr.html",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q16662605",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Malmundarium",
+  "image": {
+   "file": "images/museums/malmundarium.jpg",
+   "author": "Jean-Pol GRANDMONT",
+   "license": "CC BY 2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Malmedy_JPG02.jpg",
+   "wikimediaFile": "File:Malmedy JPG02.jpg"
+  }
+ },
+ {
+  "id": "mas-museum-aan-de-stroom",
+  "name": "Museum aan de Stroom",
+  "coordinates": [
+   4.404667,
+   51.228921
+  ],
+  "address": "",
+  "postalCode": "2000",
+  "commune": "Antwerpen",
+  "department": "ANT",
+  "website": "http://mas.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "tuesday",
+    "audience": "residents",
+    "note": "Free for Antwerp residents holding an A-kaart.",
+    "source": {
+     "url": "https://pers.antwerpen.be/nieuwe-tarieven-voor-de-musea-van-de-stad-antwerpen",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q1646305",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Museum_aan_de_Stroom",
+  "image": {
+   "file": "images/museums/mas-museum-aan-de-stroom.jpg",
+   "author": "Zinneke",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:MAS_Antwerpen_2016-05_--1.jpg",
+   "wikimediaFile": "File:MAS Antwerpen 2016-05 --1.jpg"
+  }
+ },
+ {
+  "id": "maurice-careme-museum",
+  "name": "musée Maurice Carême",
+  "coordinates": [
+   4.294403,
+   50.831778
+  ],
+  "address": "",
+  "postalCode": "1070",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "https://www.brusselsmuseums.be/en/maurice-careme-museum",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://www.brusselsmuseums.be/en/museums?tags[]=26261",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q29533887",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Maurice_Car%C3%AAme",
+  "image": {
+   "file": "images/museums/maurice-careme-museum.jpg",
+   "author": "Fin-de-siècle",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Belgique_-_Bruxelles_-_Anderlecht_-_Mus%C3%A9e_Maurice_Car%C3%AAme_-_2019-07-28_(2).jpg",
+   "wikimediaFile": "File:Belgique - Bruxelles - Anderlecht - Musée Maurice Carême - 2019-07-28 (2).jpg"
+  }
+ },
+ {
+  "id": "meunier-museum",
+  "name": "Musée Meunier",
+  "coordinates": [
+   4.367099,
+   50.819116
+  ],
+  "address": "Rue de l'Abbaye 59,",
+  "postalCode": "1050",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "https://www.fine-arts-museum.be/fr/les-musees/musee-meunier-museum",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://www.brusselsmuseums.be/en/museums?tags[]=26261",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q842660",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Meunier",
+  "image": {
+   "file": "images/museums/meunier-museum.jpg",
+   "author": "IDD5000",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Elsene%2C_Abdijstraat_59_(Voorgevel)_(Eclectische_stijl)_(Oeuvre_van_architect_Ernest_Delune).jpg",
+   "wikimediaFile": "File:Elsene, Abdijstraat 59 (Voorgevel) (Eclectische stijl) (Oeuvre van architect Ernest Delune).jpg"
+  }
+ },
+ {
+  "id": "micromusee-de-la-frite-home-frit-home",
+  "name": "Micromusée de la Frite – Home Frit’ Home",
+  "coordinates": [
+   4.327121,
+   50.821643
+  ],
+  "address": "Rue des Alliés 242 -",
+  "postalCode": "1190",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "http://www.homefrithome.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "middelheimmuseum",
+  "name": "musée Middelheim",
+  "coordinates": [
+   4.413468,
+   51.181389
+  ],
+  "address": "",
+  "postalCode": "2020",
+  "commune": "Antwerpen",
+  "department": "ANT",
+  "website": "http://www.middelheimmuseum.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://pers.antwerpen.be/nieuwe-tarieven-voor-de-musea-van-de-stad-antwerpen",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q2098074",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_Sculpture_en_plein_air_de_Middelheim",
+  "image": {
+   "file": "images/museums/middelheimmuseum.jpg",
+   "author": "Cemtas",
+   "license": "CC BY-SA 2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Middelheim6.jpg",
+   "wikimediaFile": "File:Middelheim6.jpg"
+  }
+ },
+ {
+  "id": "momu-modemuseum-antwerpen",
+  "name": "musée de la mode d'Anvers",
+  "coordinates": [
+   4.39957,
+   51.217
+  ],
+  "address": "",
+  "postalCode": "2000",
+  "commune": "Antwerpen",
+  "department": "ANT",
+  "website": "https://www.momu.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "tuesday",
+    "audience": "residents",
+    "note": "Free for Antwerp residents holding an A-kaart.",
+    "source": {
+     "url": "https://pers.antwerpen.be/nieuwe-tarieven-voor-de-musea-van-de-stad-antwerpen",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q2799943",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_mode_d'Anvers",
+  "image": {
+   "file": "images/museums/momu-modemuseum-antwerpen.jpg",
+   "author": "Tim Stoops",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:MOMU_building.jpg",
+   "wikimediaFile": "File:MOMU building.jpg"
+  }
+ },
+ {
+  "id": "mons-memorial-museum",
+  "name": "Mons Memorial Museum",
+  "coordinates": [
+   3.957,
+   50.449944
+  ],
+  "address": "",
+  "postalCode": "7000",
+  "commune": "Mons",
+  "department": "HAI",
+  "website": "http://www.monsmemorialmuseum.mons.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q3330542",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mons_Memorial_Museum",
+  "image": {
+   "file": "images/museums/mons-memorial-museum.jpg",
+   "author": "Serge Brison",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:445443_bri_627804.jpg",
+   "wikimediaFile": "File:445443 bri 627804.jpg"
+  }
+ },
+ {
+  "id": "msk-museum-voor-schone-kunsten-gent",
+  "name": "musée des Beaux-Arts Gand",
+  "coordinates": [
+   3.724244,
+   51.037975
+  ],
+  "address": "",
+  "postalCode": "9000",
+  "commune": "Gent",
+  "department": "OVL",
+  "website": "https://www.mskgent.be/en/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "weekly",
+    "weekday": "thursday",
+    "evening": true,
+    "audience": "residents",
+    "note": "Late Donderdag: open until 22:00, free from 17:30 for Ghent residents; paused in July and August.",
+    "source": {
+     "url": "https://degentsemusea.be/beleef-meer/late-donderdag",
+     "checkedAt": "2026-08-06"
+    }
+   },
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "audience": "residents",
+    "note": "Free for Ghent residents (postcodes 9000–9052).",
+    "source": {
+     "url": "https://degentsemusea.be/plan/faq",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q2365880",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_Beaux-Arts_de_Gand",
+  "image": {
+   "file": "images/museums/msk-museum-voor-schone-kunsten-gent.jpg",
+   "author": "Paul Hermans",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:MSK19122008.JPG",
+   "wikimediaFile": "File:MSK19122008.JPG"
+  }
+ },
+ {
+  "id": "mumask-musee-du-masque-et-du-carnaval",
+  "name": "Musée du masque et du carnaval",
+  "coordinates": [
+   4.165996,
+   50.409513
+  ],
+  "address": "",
+  "postalCode": "7130",
+  "commune": "Binche",
+  "department": "HAI",
+  "website": "http://museebinche.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q61931556",
+  "wikipedia": "https://fr.wikipedia.org/wiki/MUMASK%2C_Mus%C3%A9e_du_Masque_et_du_Carnaval",
+  "image": {
+   "file": "images/museums/mumask-musee-du-masque-et-du-carnaval.jpg",
+   "author": "SASMons",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_du_carnaval_et_du_masque.JPG",
+   "wikimediaFile": "File:Musée du carnaval et du masque.JPG"
+  }
+ },
+ {
+  "id": "mumons",
+  "name": "MUMONS",
+  "coordinates": [
+   3.953322,
+   50.458213
+  ],
+  "address": "Place du du Parc 24,",
+  "postalCode": "7000",
+  "commune": "Mons",
+  "department": "HAI",
+  "website": "https://mumons.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q110540327",
+  "wikipedia": "https://nl.wikipedia.org/wiki/MUMONS",
+  "image": {
+   "file": "images/museums/mumons.jpg",
+   "author": "FrDr",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:MUMONS_02.jpg",
+   "wikimediaFile": "File:MUMONS 02.jpg"
+  }
+ },
+ {
+  "id": "mundaneum",
+  "name": "Mundaneum",
+  "coordinates": [
+   3.95546,
+   50.45766
+  ],
+  "address": "",
+  "postalCode": "7000",
+  "commune": "Mons",
+  "department": "HAI",
+  "website": "http://www.mundaneum.org/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q451",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mundaneum",
+  "image": {
+   "file": "images/museums/mundaneum.jpg",
+   "author": "Mr N",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mundaneum_Mons.jpg",
+   "wikimediaFile": "File:Mundaneum Mons.jpg"
+  }
+ },
+ {
+  "id": "musee-africain-de-namur-musafrica",
+  "name": "musée africain de Namur",
+  "coordinates": [
+   4.87133,
+   50.4664
+  ],
+  "address": "",
+  "postalCode": "5000",
+  "commune": "Namur",
+  "department": "NAM",
+  "website": "http://museeafricainnamur.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q3329403",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_africain_de_Namur",
+  "image": {
+   "file": "images/museums/musee-africain-de-namur-musafrica.jpg",
+   "author": "Ji-Elle",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Figure_protectrice_nkishi-Songye-Mus%C3%A9e_africain_de_Namur_(3).jpg",
+   "wikimediaFile": "File:Figure protectrice nkishi-Songye-Musée africain de Namur (3).jpg"
+  }
+ },
+ {
+  "id": "musee-archeologique-d-arlon",
+  "name": "musée archéologique d'Arlon",
+  "coordinates": [
+   5.81073,
+   49.68399
+  ],
+  "address": "",
+  "postalCode": "6700",
+  "commune": "Arlon",
+  "department": "LUX",
+  "website": "http://www.ial.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q3329423",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_arch%C3%A9ologique_d'Arlon",
+  "image": {
+   "file": "images/museums/musee-archeologique-d-arlon.jpg",
+   "author": "Elodie Richard",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Arch%C3%A9ologique_d'Arlon.jpg",
+   "wikimediaFile": "File:Musée Archéologique d'Arlon.jpg"
+  }
+ },
+ {
+  "id": "musee-archeologique-de-la-haute-meuse-mahm",
+  "name": "Musée Archéologique de la Haute-Meuse (MAHM)",
+  "coordinates": [
+   4.867043,
+   50.349566
+  ],
+  "address": "Rue du Prieuré 1,",
+  "postalCode": "5530",
+  "commune": "Yvoir",
+  "department": "NAM",
+  "website": "https://www.archeo-godinne.museum",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "musee-archeologique-de-logne",
+  "name": "Musée Archéologique de Logne",
+  "coordinates": [
+   5.549873,
+   50.394491
+  ],
+  "address": "Rue de la Bouverie 1 -",
+  "postalCode": "4190",
+  "commune": "Vieuxville",
+  "department": "LIE",
+  "website": "https://www.palogne.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q17635479",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Musée_du_château_fort_de_Logne",
+  "image": {
+   "file": "images/museums/musee-archeologique-de-logne.jpg",
+   "author": "Rebexho",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ferme_de_la_Bouverie_Vieuxville.JPG",
+   "wikimediaFile": "File:Ferme_de_la_Bouverie_Vieuxville.JPG"
+  }
+ },
+ {
+  "id": "musee-armand-pellegrin",
+  "name": "Musée Armand Pellegrin",
+  "coordinates": [
+   4.98248,
+   50.7429
+  ],
+  "address": "Rue du Moulin 15,",
+  "postalCode": "1357",
+  "commune": "Hélécine",
+  "department": "WBR",
+  "website": "https://www.museearmandpellegrin.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q130284457"
+ },
+ {
+  "id": "musee-belge-de-la-franc-maconnerie",
+  "name": "Musée belge de la Franc-Maçonnerie",
+  "coordinates": [
+   4.351585,
+   50.852978
+  ],
+  "address": "Rue de Laeken 73,",
+  "postalCode": "1000",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "https://mbfm.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q16665619",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Musée_belge_de_la_franc-maçonnerie",
+  "image": {
+   "file": "images/museums/musee-belge-de-la-franc-maconnerie.jpg",
+   "author": "Michel wal",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bruxelles_rue_de_Laeken_73.jpg",
+   "wikimediaFile": "File:Bruxelles rue de Laeken 73.jpg"
+  }
+ },
+ {
+  "id": "musee-communal-d-herstal",
+  "name": "Musée communal d’Herstal",
+  "coordinates": [
+   5.638926,
+   50.670677
+  ],
+  "address": "Place Licourt 25 -",
+  "postalCode": "4040",
+  "commune": "Herstal",
+  "department": "LIE",
+  "website": "https://www.herstal.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "musee-communal-de-huy",
+  "name": "Musée communal de Huy",
+  "coordinates": [
+   5.243677,
+   50.518567
+  ],
+  "address": "Rue Vankeerberghen 20 -",
+  "postalCode": "4500",
+  "commune": "Huy",
+  "department": "LIE",
+  "website": "https://www.visithuy.be/tourisme/musee-communal",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "musee-communal-pieter-cnops",
+  "name": "Musée Communal Pieter Cnops",
+  "coordinates": [
+   4.393558,
+   50.875879
+  ],
+  "address": "Rue Edouard Stuckens 11-13 -",
+  "postalCode": "1140",
+  "commune": "Evere",
+  "department": "BRU",
+  "website": "https://evere.brussels/fr",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "musee-d-ansembourg",
+  "name": "hôtel d'Ansembourg",
+  "coordinates": [
+   5.58222,
+   50.647
+  ],
+  "address": "",
+  "postalCode": "4000",
+  "commune": "Liège",
+  "department": "LIE",
+  "website": "http://lesmuseesdeliege.be/ansembourg/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q3145708",
+  "wikipedia": "https://fr.wikipedia.org/wiki/H%C3%B4tel_d'Ansembourg",
+  "image": {
+   "file": "images/museums/musee-d-ansembourg.jpg",
+   "author": "Promeneuse7",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:LIEGE_H%C3%B4tel_d'Ansembourg_-_rue_Feronstr%C3%A9e_114_(1_-_2012).JPG",
+   "wikimediaFile": "File:LIEGE Hôtel d'Ansembourg - rue Feronstrée 114 (1 - 2012).JPG"
+  }
+ },
+ {
+  "id": "musee-d-archeologie-de-tournai",
+  "name": "musée d'Archéologie",
+  "coordinates": [
+   3.383456,
+   50.608083
+  ],
+  "address": "",
+  "postalCode": "7500",
+  "commune": "Tournai",
+  "department": "HAI",
+  "website": "https://www.tournai.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q1920133",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'arch%C3%A9ologie_de_Tournai",
+  "image": {
+   "file": "images/museums/musee-d-archeologie-de-tournai.jpg",
+   "author": "Michel wal",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Torunai_rue_des_Carmes_8_1101.jpg",
+   "wikimediaFile": "File:Torunai rue des Carmes 8 1101.jpg"
+  }
+ },
+ {
+  "id": "musee-d-archeologie-et-d-histoire-de-vise",
+  "name": "Musée d’Archéologie et d’Histoire de Visé",
+  "coordinates": [
+   5.694649,
+   50.736487
+  ],
+  "address": "Rue du Collège 31,",
+  "postalCode": "4600",
+  "commune": "Visé",
+  "department": "LIE",
+  "website": "https://www.museedevise.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "musee-d-art-spontane",
+  "name": "musée d'Art spontané",
+  "coordinates": [
+   4.37004,
+   50.8603
+  ],
+  "address": "",
+  "postalCode": "1030",
+  "commune": "Schaerbeek",
+  "department": "BRU",
+  "website": "http://www.proximedia.com/web/masn.html",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q3329651",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_spontan%C3%A9",
+  "image": {
+   "file": "images/museums/musee-d-art-spontane.jpg",
+   "author": "Varech",
+   "license": "Public Domain",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schaerbeek_Rue_de_la_Constitution_01.jpg",
+   "wikimediaFile": "File:Schaerbeek Rue de la Constitution 01.jpg"
+  }
+ },
+ {
+  "id": "musee-d-histoire-et-des-arts-decoratifs-musee-de-la-porcelaine",
+  "name": "Musée d’Histoire et des Arts Décoratifs (Musée de la Porcelaine)",
+  "coordinates": [
+   3.386205,
+   50.603771
+  ],
+  "address": "Rue Saint-Martin 50 -",
+  "postalCode": "7500",
+  "commune": "Tournai",
+  "department": "HAI",
+  "website": "https://www.tournai.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q1840613",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Musée_d'histoire_et_des_arts_décoratifs"
+ },
+ {
+  "id": "musee-d-histoire-militaire-mhm",
+  "name": "Musée d'histoire militaire",
+  "coordinates": [
+   3.385151,
+   50.6045
+  ],
+  "address": "",
+  "postalCode": "7500",
+  "commune": "Tournai",
+  "department": "HAI",
+  "website": "https://mhm.tournai.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q3330781",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'histoire_militaire_(Tournai)",
+  "image": {
+   "file": "images/museums/musee-d-histoire-militaire-mhm.jpg",
+   "author": "Michel wal",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tournai_Mus%C3%A9e_d'Armes_1100.jpg",
+   "wikimediaFile": "File:Tournai Musée d'Armes 1100.jpg"
+  }
+ },
+ {
+  "id": "musee-d-histoire-naturelle-mhn-et-vivarium",
+  "name": "Musée d’Histoire naturelle (MHN) et Vivarium",
+  "coordinates": [
+   3.386098,
+   50.603726
+  ],
+  "address": "Rue Saint-Martin 52,",
+  "postalCode": "7500",
+  "commune": "Tournai",
+  "department": "HAI",
+  "website": "https://mhn.tournai.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q3329684",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Musée_d'histoire_naturelle_de_Tournai"
+ },
+ {
+  "id": "musee-d-interpretation-archeologique-du-brabant-wallon-miabw",
+  "name": "Musée d’interprétation archéologique du Brabant wallon (MiaBw)",
+  "coordinates": [
+   4.979204,
+   50.74647
+  ],
+  "address": "Château d'Hélécine, rue Armand Dewolf 2,",
+  "postalCode": "1357",
+  "commune": "Hélécine",
+  "department": "WBR",
+  "website": "https://.miabw.com",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "musee-de-folklore-et-des-imaginaires-mufim",
+  "name": "Musée de Folklore et des Imaginaires (MuFIm)",
+  "coordinates": [
+   3.386651,
+   50.60537
+  ],
+  "address": "Réduit des Sions 32-36 -",
+  "postalCode": "7500",
+  "commune": "Tournai",
+  "department": "HAI",
+  "website": "https://mufim.tournai.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q1815516",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Maison_tournaisienne",
+  "image": {
+   "file": "images/museums/musee-de-folklore-et-des-imaginaires-mufim.jpg",
+   "author": "Phira7540",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:20160807_TOURNAI_MUSEE_DU_FOLKLORE_024.jpg",
+   "wikimediaFile": "File:20160807 TOURNAI MUSEE DU FOLKLORE 024.jpg"
+  }
+ },
+ {
+  "id": "musee-de-folklore-vie-frontaliere-de-mouscron-musef",
+  "name": "Musée de Folklore vie Frontalière de Mouscron (MUSEF)",
+  "coordinates": [
+   3.218904,
+   50.742502
+  ],
+  "address": "Rue de la Station 14 –",
+  "postalCode": "7700",
+  "commune": "Mouscron",
+  "department": "HAI",
+  "website": "https://www.musee-mouscron.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "musee-de-l-eau-et-de-la-fontaine-mef",
+  "name": "Musée de l’Eau et de la Fontaine (MEF)",
+  "coordinates": [
+   4.586189,
+   50.658506
+  ],
+  "address": "Allée du Bois des Rêves 1,",
+  "postalCode": "1340",
+  "commune": "Ottignies-Louvain-la-Neuve",
+  "department": "WBR",
+  "website": "https://www.lemef.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q3329824",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Musée_de_l'eau_et_de_la_fontaine"
+ },
+ {
+  "id": "musee-de-l-eglise-orthodoxe",
+  "name": "Musée de l’Église orthodoxe",
+  "coordinates": [
+   4.344691,
+   50.841574
+  ],
+  "address": "Avenue de Stalingrad 36,",
+  "postalCode": "1000",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "http://www.orthodoxia.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "musee-de-l-orfevrerie-chateau-de-seneffe",
+  "name": "Musée de l’Orfèvrerie (Château de Seneffe)",
+  "coordinates": [
+   4.270212,
+   50.525363
+  ],
+  "address": "Rue Lucien Plasman 7-9 -",
+  "postalCode": "7180",
+  "commune": "Seneffe",
+  "department": "HAI",
+  "website": "https://www.chateaudeseneffe.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q17189906",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Musée_de_l'orfèvrerie_de_la_Communauté_française_de_Belgique",
+  "image": {
+   "file": "images/museums/musee-de-l-orfevrerie-chateau-de-seneffe.jpg",
+   "author": "Jean-Pol GRANDMONT",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:0_Ch%C3%A2teau_de_Seneffe_(3).JPG",
+   "wikimediaFile": "File:0 Château de Seneffe (3).JPG"
+  }
+ },
+ {
+  "id": "musee-de-la-banque-nationale-de-belgique",
+  "name": "musée de la Banque nationale",
+  "coordinates": [
+   4.359805,
+   50.848934
+  ],
+  "address": "",
+  "postalCode": "1000",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "http://www.nbbmuseum.be/fr/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q19974092",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_Banque_nationale_de_Belgique",
+  "image": {
+   "file": "images/museums/musee-de-la-banque-nationale-de-belgique.jpg",
+   "author": "Michel wal",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bruxelles_Banque_nationale.jpg",
+   "wikimediaFile": "File:Bruxelles Banque nationale.jpg"
+  }
+ },
+ {
+  "id": "musee-de-la-compagnie-royale-des-anciens-arbaletriers-visetois",
+  "name": "Musée de la Compagnie royale des anciens arbalétriers visétois",
+  "coordinates": [
+   5.695775,
+   50.73401
+  ],
+  "address": "Rue Haute 46,",
+  "postalCode": "4600",
+  "commune": "Visé",
+  "department": "LIE",
+  "website": "http://www.arbaletriers.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "musee-de-la-foire-et-de-la-memoire",
+  "name": "Musée de la Foire et de la Mémoire",
+  "coordinates": [
+   3.816364,
+   50.446917
+  ],
+  "address": "Onzième Rue 1a,",
+  "postalCode": "7330",
+  "commune": "Saint-Ghislain",
+  "department": "HAI",
+  "website": "https://www.saint-ghislain.be/decouvrir/culture/musee-de-la-foire-et-de-la-memoire",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "musee-de-la-foret-et-des-eaux-domaine-de-berinzenne",
+  "name": "Musée de la forêt et des eaux | Domaine de Bérinzenne",
+  "coordinates": [
+   5.880692,
+   50.451303
+  ],
+  "address": "Bérinzenne, 4,",
+  "postalCode": "4900",
+  "commune": "Spa",
+  "department": "LIE",
+  "website": "https://www.berinzenne.be/musee",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q107293582"
+ },
+ {
+  "id": "musee-de-la-fraise",
+  "name": "musée de la Fraise",
+  "coordinates": [
+   4.87904,
+   50.41674
+  ],
+  "address": "",
+  "postalCode": "5100",
+  "commune": "Namur",
+  "department": "NAM",
+  "website": "http://www.museedelafraise.eu",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q107293243",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_fraise_(W%C3%A9pion)",
+  "image": {
+   "file": "images/museums/musee-de-la-fraise.jpg",
+   "author": "Musée de la fraise",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fa%C3%A7ade_Mus%C3%A9e_W%C3%A9pion.jpg",
+   "wikimediaFile": "File:Façade Musée Wépion.jpg"
+  }
+ },
+ {
+  "id": "musee-de-la-grande-ardenne",
+  "name": "musée en Piconrue",
+  "coordinates": [
+   5.72173,
+   50.0059
+  ],
+  "address": "",
+  "postalCode": "6600",
+  "commune": "Bastogne",
+  "department": "LUX",
+  "website": "http://www.piconrue.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q3330550",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_Grande_Ardenne",
+  "image": {
+   "file": "images/museums/musee-de-la-grande-ardenne.jpg",
+   "author": "Mupic",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_en_Piconrue%2C_08-2008_3.jpg",
+   "wikimediaFile": "File:Musée en Piconrue, 08-2008 3.jpg"
+  }
+ },
+ {
+  "id": "musee-de-la-maison-d-erasme",
+  "name": "maison d'Érasme",
+  "coordinates": [
+   4.308205,
+   50.836472
+  ],
+  "address": "",
+  "postalCode": "1070",
+  "commune": "Anderlecht",
+  "department": "BRU",
+  "website": "http://www.erasmushouse.museum",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q1216084",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Maison_d'%C3%89rasme",
+  "image": {
+   "file": "images/museums/musee-de-la-maison-d-erasme.jpg",
+   "author": "Anne Jea.",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maison_d'%C3%89rasme.jpg",
+   "wikimediaFile": "File:Maison d'Érasme.jpg"
+  }
+ },
+ {
+  "id": "musee-de-la-medecine-campus-erasme",
+  "name": "université libre de Bruxelles / Campus Érasme",
+  "coordinates": [
+   4.265281,
+   50.813944
+  ],
+  "address": "",
+  "postalCode": "1070",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "https://www.museemedecine.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q2935660",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Campus_%C3%89rasme"
+ },
+ {
+  "id": "musee-de-la-mine-blegny-mine",
+  "name": "Blegny-Mine",
+  "coordinates": [
+   5.721944,
+   50.686786
+  ],
+  "address": "",
+  "postalCode": "4670",
+  "commune": "Blegny",
+  "department": "LIE",
+  "website": "https://www.blegnymine.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q2906374",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Blegny-Mine",
+  "image": {
+   "file": "images/museums/musee-de-la-mine-blegny-mine.jpg",
+   "author": "Norbert Schnitzler",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blegny_Mine_1.jpg",
+   "wikimediaFile": "File:Blegny Mine 1.jpg"
+  }
+ },
+ {
+  "id": "musee-de-la-mine-et-du-developpement-durable-du-bois-du-luc-mmdd",
+  "name": "Musée de la Mine et du Développement durable du Bois-du-Luc (MMDD)",
+  "coordinates": [
+   4.149713,
+   50.469827
+  ],
+  "address": "Rue Saint-Patrice 2b -",
+  "postalCode": "7110",
+  "commune": "Houdeng-Aimeries",
+  "department": "HAI",
+  "website": "https://www.mmdd.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q2392816",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Bois-du-Luc",
+  "image": {
+   "file": "images/museums/musee-de-la-mine-et-du-developpement-durable-du-bois-du-luc-mmdd.jpg",
+   "author": "Jean-Pol GRANDMONT",
+   "license": "CC BY 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bois-du-Luc_CM_JPG.jpg",
+   "wikimediaFile": "File:Bois-du-Luc CM JPG.jpg"
+  }
+ },
+ {
+  "id": "musee-de-la-photographie",
+  "name": "musée de la photographie à Charleroi",
+  "coordinates": [
+   4.405833,
+   50.388056
+  ],
+  "address": "",
+  "postalCode": "6032",
+  "commune": "Mont-sur-Marchienne",
+  "department": "HAI",
+  "website": "http://www.museephoto.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q1955717",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_Photographie_%C3%A0_Charleroi",
+  "image": {
+   "file": "images/museums/musee-de-la-photographie.jpg",
+   "author": "Jmh2o",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Charleroi_-_Mus%C3%A9e_de_la_photographie_-_nouvelle_aile_-_2.jpg",
+   "wikimediaFile": "File:Charleroi - Musée de la photographie - nouvelle aile - 2.jpg"
+  }
+ },
+ {
+  "id": "musee-de-la-porte",
+  "name": "Musée de la Porte",
+  "coordinates": [
+   4.203881,
+   50.69598
+  ],
+  "address": "Rue de Bruxelles 64,",
+  "postalCode": "1480",
+  "commune": "Tubize",
+  "department": "WBR",
+  "website": "http://www.museedelaporte.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "musee-de-la-porte-de-hal",
+  "name": "Musée de la Porte de Hal",
+  "coordinates": [
+   4.344894,
+   50.833015
+  ],
+  "address": "",
+  "postalCode": "1000",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "https://www.hallegatemuseum.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "wednesday",
+    "note": "Free on the first Wednesday of the month from early afternoon.",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q2988142",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Porte_de_Hal",
+  "image": {
+   "file": "images/museums/musee-de-la-porte-de-hal.jpg",
+   "author": "Zairon",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bruxelles_Porte_de_Hal_5.jpg",
+   "wikimediaFile": "File:Bruxelles Porte de Hal 5.jpg"
+  }
+ },
+ {
+  "id": "musee-de-la-route",
+  "name": "Musée de la Route",
+  "coordinates": [
+   5.929958,
+   50.676822
+  ],
+  "address": "",
+  "postalCode": "4841",
+  "commune": "Mons",
+  "department": "LIE",
+  "website": "http://www.museedelaroute.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q51879591",
+  "image": {
+   "file": "images/museums/musee-de-la-route.jpg",
+   "author": "Romaine",
+   "license": "CC0 1.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Henri-Chapelle-Mus%C3%A9e_de_la_Route_(2).jpg",
+   "wikimediaFile": "File:Henri-Chapelle-Musée de la Route (2).jpg"
+  }
+ },
+ {
+  "id": "musee-de-la-rubanerie-cominoise",
+  "name": "Musée de la Rubanerie cominoise",
+  "coordinates": [
+   3.000296,
+   50.766065
+  ],
+  "address": "Rue des Arts 3,",
+  "postalCode": "7780",
+  "commune": "Comines-Warneton",
+  "department": "HAI",
+  "website": "https://www.larubanerie.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q77982932",
+  "wikipedia": "https://nl.wikipedia.org/wiki/Lintweverijmuseum"
+ },
+ {
+  "id": "musee-de-la-tour-d-anhaive",
+  "name": "Musée de la Tour d’Anhaive",
+  "coordinates": [
+   4.888826,
+   50.462653
+  ],
+  "address": "Place Jean de Flandre, 1,",
+  "postalCode": "5100",
+  "commune": "Namur",
+  "department": "NAM",
+  "website": "https://anhaive.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q17347213",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Seigneurie_d'Anhaive",
+  "image": {
+   "file": "images/museums/musee-de-la-tour-d-anhaive.jpg",
+   "author": "Wuefab",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Seigneurie_D'Anhaive_-_Vue_g%C3%A9n%C3%A9rale_(angle_sud-est).JPG",
+   "wikimediaFile": "File:Seigneurie D'Anhaive - Vue générale (angle sud-est).JPG"
+  }
+ },
+ {
+  "id": "musee-de-la-vie-rurale-de-xhoris",
+  "name": "musée de la Vie rurale de Xhoris",
+  "coordinates": [
+   5.603996,
+   50.445503
+  ],
+  "address": "",
+  "postalCode": "4190",
+  "commune": "Ferrières",
+  "department": "LIE",
+  "website": "https://www.xhoris.be/Musee_xhoris.htm",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q3329980",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_Vie_rurale_(Xhoris)",
+  "image": {
+   "file": "images/museums/musee-de-la-vie-rurale-de-xhoris.jpg",
+   "author": "Rebexho",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xhoris2012_005_-.JPG",
+   "wikimediaFile": "File:Xhoris2012 005 -.JPG"
+  }
+ },
+ {
+  "id": "musee-de-la-vie-tihangeoise",
+  "name": "Musée de la Vie tihangeoise",
+  "coordinates": [
+   5.259028,
+   50.527023
+  ],
+  "address": "Rue du Centre 19 -",
+  "postalCode": "4500",
+  "commune": "Huy",
+  "department": "LIE",
+  "website": "http://www.pays-de-huy.be/fr/pays-de-huy/musee-de-vie-tihangeoise",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "musee-de-la-vie-wallonne",
+  "name": "musée de la vie wallonne",
+  "coordinates": [
+   5.57595,
+   50.64712
+  ],
+  "address": "",
+  "postalCode": "4000",
+  "commune": "Liège",
+  "department": "LIE",
+  "website": "http://www.provincedeliege.be/fr/viewallonne",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q2099610",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_Vie_wallonne",
+  "image": {
+   "file": "images/museums/musee-de-la-vie-wallonne.jpg",
+   "author": "Raimond Spekking",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Musee_de_la_vie_wallonne_-_Liege.jpg",
+   "wikimediaFile": "File:Musee de la vie wallonne - Liege.jpg"
+  }
+ },
+ {
+  "id": "musee-de-la-ville-de-bruxelles-maison-du-roi",
+  "name": "Musée de la Ville de Bruxelles (Maison du Roi)",
+  "coordinates": [
+   4.352515,
+   50.846714
+  ],
+  "address": "Grand Place 1000, Bruxelles, Belgique",
+  "postalCode": "1000",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "https://brusselscitymuseum.brussels",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q968055",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Musée_de_la_ville_de_Bruxelles",
+  "image": {
+   "file": "images/museums/musee-de-la-ville-de-bruxelles-maison-du-roi.jpg",
+   "author": "Myrabella",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Broodhuis_Bruxelles.jpg",
+   "wikimediaFile": "File:Broodhuis Bruxelles.jpg"
+  }
+ },
+ {
+  "id": "musee-de-nimy",
+  "name": "Nimy",
+  "coordinates": [
+   3.954589,
+   50.475936
+  ],
+  "address": "",
+  "postalCode": "7020",
+  "commune": "Nimy",
+  "department": "HAI",
+  "website": "http://museedenimy.blogspot.com",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q1916957",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Nimy",
+  "image": {
+   "file": "images/museums/musee-de-nimy.jpg",
+   "author": "Èl-Gueuye-Noere",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:N%C3%AEmi_Panorama_%C2%AB_Le_Grand_Large_%C2%BB.jpg",
+   "wikimediaFile": "File:Nîmi Panorama « Le Grand Large ».jpg"
+  }
+ },
+ {
+  "id": "musee-de-nivelles",
+  "name": "Nivelles",
+  "coordinates": [
+   4.3236,
+   50.5964
+  ],
+  "address": "",
+  "postalCode": "1400",
+  "commune": "Nivelles",
+  "department": "WBR",
+  "website": "https://nivelles.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q319463",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Nivelles",
+  "image": {
+   "file": "images/museums/musee-de-nivelles.jpg",
+   "author": "Zairon",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nivelle_Coll%C3%A9giale_Ste._Gertrude_01.jpg",
+   "wikimediaFile": "File:Nivelle Collégiale Ste. Gertrude 01.jpg"
+  }
+ },
+ {
+  "id": "musee-de-waterloo",
+  "name": "bataille de Waterloo",
+  "coordinates": [
+   4.412222,
+   50.678056
+  ],
+  "address": "",
+  "postalCode": "1380",
+  "commune": "Waterloo",
+  "department": "WBR",
+  "website": "https://www.waterloo-tourisme.com/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q48314",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Bataille_de_Waterloo",
+  "image": {
+   "file": "images/museums/musee-de-waterloo.jpg",
+   "author": "William Sadler",
+   "license": "Public Domain",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Waterloo_1815.PNG",
+   "wikimediaFile": "File:Battle of Waterloo 1815.PNG"
+  }
+ },
+ {
+  "id": "musee-des-arts-de-la-marionnette-de-tournai",
+  "name": "Musée des arts de la marionnette de Tournai",
+  "coordinates": [
+   3.386796,
+   50.604587
+  ],
+  "address": "Rue Saint-Martin 47 -",
+  "postalCode": "7500",
+  "commune": "Tournai",
+  "department": "HAI",
+  "website": "https://www.maisondelamarionnette.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "musee-des-beaux-arts-de-charleroi",
+  "name": "musée des Beaux-arts de Charleroi",
+  "coordinates": [
+   4.453083,
+   50.412222
+  ],
+  "address": "",
+  "postalCode": "6000",
+  "commune": "Charleroi",
+  "department": "HAI",
+  "website": "https://charleroi-museum.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q115773939",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_Beaux-Arts_de_Charleroi",
+  "image": {
+   "file": "images/museums/musee-des-beaux-arts-de-charleroi.jpg",
+   "author": "Jmh2o",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Charleroi_-_Mus%C3%A9e_des_Beaux-arts_-_2023-02-05_-_02.jpg",
+   "wikimediaFile": "File:Charleroi - Musée des Beaux-arts - 2023-02-05 - 02.jpg"
+  }
+ },
+ {
+  "id": "musee-des-beaux-arts-et-de-la-ceramique-de-verviers",
+  "name": "Musée des Beaux-Arts et de la Céramique",
+  "coordinates": [
+   5.867261,
+   50.5949
+  ],
+  "address": "",
+  "postalCode": "4800",
+  "commune": "Verviers",
+  "department": "LIE",
+  "website": "https://musees.verviers.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q23037686",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_Beaux-Arts_et_de_la_C%C3%A9ramique_(Verviers)",
+  "image": {
+   "file": "images/museums/musee-des-beaux-arts-et-de-la-ceramique-de-verviers.jpg",
+   "author": "Okapi07",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_des_Beaux-Arts_et_de_la_C%C3%A9ramique_de_Verviers.jpg",
+   "wikimediaFile": "File:Musée des Beaux-Arts et de la Céramique de Verviers.jpg"
+  }
+ },
+ {
+  "id": "musee-des-beaux-arts-mba",
+  "name": "Musée des Beaux-Arts (MBA)",
+  "coordinates": [
+   3.38543,
+   50.602578
+  ],
+  "address": "Rue de l'Enclos Saint-Martin 3,",
+  "postalCode": "7500",
+  "commune": "Tournai",
+  "department": "HAI",
+  "website": "https://mba.tournai.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q1778179",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Musée_des_Beaux-Arts_de_Tournai",
+  "image": {
+   "file": "images/museums/musee-des-beaux-arts-mba.jpg",
+   "author": "Sailko",
+   "license": "CC BY 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tournai%2C_mus%C3%A9e_des_beaux-arts%2C_02.jpg",
+   "wikimediaFile": "File:Tournai, musée des beaux-arts, 02.jpg"
+  }
+ },
+ {
+  "id": "musee-des-celtes",
+  "name": "musée des Celtes de Libramont",
+  "coordinates": [
+   5.376908,
+   49.916353
+  ],
+  "address": "",
+  "postalCode": "6800",
+  "commune": "Libramont",
+  "department": "LUX",
+  "website": "http://www.museedesceltes.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q3330123",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_Celtes_de_Libramont",
+  "image": {
+   "file": "images/museums/musee-des-celtes.jpg",
+   "author": "Dfraiture",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fa%C3%A7ade_mus%C3%A9e_promo.jpg",
+   "wikimediaFile": "File:Façade musée promo.jpg"
+  }
+ },
+ {
+  "id": "musee-des-commandos",
+  "name": "Musée des Commandos",
+  "coordinates": [
+   4.817946,
+   50.463663
+  ],
+  "address": "Rue Joseph Durieux 80,",
+  "postalCode": "5020",
+  "commune": "Flawinne",
+  "department": "NAM",
+  "website": "https://www.cdomuseum.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "musee-des-egouts-de-bruxelles",
+  "name": "Musée des égouts de Bruxelles",
+  "coordinates": [
+   4.33847,
+   50.844788
+  ],
+  "address": "Porte d’Anderlecht,",
+  "postalCode": "1000",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "https://sewermuseum.brussels",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q23893729",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Musée_des_Égouts_(Bruxelles)",
+  "image": {
+   "file": "images/museums/musee-des-egouts-de-bruxelles.jpg",
+   "author": "No machine-readable author provided. Ben2~commonswiki assumed (based on copyright claims).",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Octroi_porte_d'Anderlecht_Bxl_01.jpg",
+   "wikimediaFile": "File:Octroi porte d'Anderlecht Bxl 01.jpg"
+  }
+ },
+ {
+  "id": "musee-des-instuments-de-musique-mim",
+  "name": "Musée des instuments de musique (MIM)",
+  "coordinates": [
+   4.358784,
+   50.842828
+  ],
+  "address": "Rue Montagne de la Cour 2, Bruxelles, Belgique",
+  "postalCode": "1000",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "https://www.mim.be/fr",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "wednesday",
+    "note": "Free on the first Wednesday of the month from early afternoon.",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q1131318",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Musée_des_Instruments_de_musique_de_Bruxelles",
+  "image": {
+   "file": "images/museums/musee-des-instuments-de-musique-mim.jpg",
+   "author": "Robin Davis",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Antique_brass_instrument_on_display_at_the_Musical_Instrument_Museum.jpg",
+   "wikimediaFile": "File:Antique brass instrument on display at the Musical Instrument Museum.jpg"
+  }
+ },
+ {
+  "id": "musee-des-transports-en-commun-mtcw",
+  "name": "musée des transports en commun de Liège",
+  "coordinates": [
+   5.582878,
+   50.629033
+  ],
+  "address": "",
+  "postalCode": "4020",
+  "commune": "Liège",
+  "department": "LIE",
+  "website": "http://www.musee-transports.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q839424",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_transports_en_commun_de_Wallonie",
+  "image": {
+   "file": "images/museums/musee-des-transports-en-commun-mtcw.jpg",
+   "author": "Florine-G",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:MTCW_Copyright_MTCW2.jpg",
+   "wikimediaFile": "File:MTCW Copyright MTCW2.jpg"
+  }
+ },
+ {
+  "id": "musee-du-beguinage",
+  "name": "Musée du Béguinage",
+  "coordinates": [
+   4.306313,
+   50.837018
+  ],
+  "address": "Rue du Chapelain 8, Anderlecht, Belgique",
+  "postalCode": "1070",
+  "commune": "Anderlecht",
+  "department": "BRU",
+  "website": "https://www.erasmushouse.museum",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q2055890",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Béguinage_d'Anderlecht",
+  "image": {
+   "file": "images/museums/musee-du-beguinage.jpg",
+   "author": "Bernard Lee",
+   "license": "CC0 1.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anderlecht_Beguinage_(3).jpg",
+   "wikimediaFile": "File:Anderlecht Beguinage (3).jpg"
+  }
+ },
+ {
+  "id": "musee-du-doudou",
+  "name": "Le Musée du Doudou",
+  "coordinates": [
+   3.95121,
+   50.45589
+  ],
+  "address": "",
+  "postalCode": "7000",
+  "commune": "Mons",
+  "department": "HAI",
+  "website": "http://www.museedudoudou.mons.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q107293231"
+ },
+ {
+  "id": "musee-du-frere-mutien-marie",
+  "name": "Musée du Frère Mutien-Marie",
+  "coordinates": [
+   4.796096,
+   50.437875
+  ],
+  "address": "Rue Fond de Malonne 117,",
+  "postalCode": "5020",
+  "commune": "Malonne",
+  "department": "NAM",
+  "website": "https://artsetpublics.be/musees/musee-du-frere-mutien-marie/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "musee-du-jouet",
+  "name": "musée du Jouet",
+  "coordinates": [
+   4.365919,
+   50.851539
+  ],
+  "address": "",
+  "postalCode": "1000",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "http://www.museedujouet.eu",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q4492555",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_jouet_(Bruxelles)",
+  "image": {
+   "file": "images/museums/musee-du-jouet.jpg",
+   "author": "Gregory.sacre",
+   "license": "CC BY 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vitrine_exposant_des_jouets_mobiles_du_Mus%C3%A9e_du_Jouet_%C3%A0_Bruxelles.jpg",
+   "wikimediaFile": "File:Vitrine exposant des jouets mobiles du Musée du Jouet à Bruxelles.jpg"
+  }
+ },
+ {
+  "id": "musee-du-luminaire-mulum",
+  "name": "Musée du Luminaire – Mulum",
+  "coordinates": [
+   5.576967,
+   50.647153
+  ],
+  "address": "Rue Mère Dieu 2 -",
+  "postalCode": "4000",
+  "commune": "Liège",
+  "department": "LIE",
+  "website": "http://www.lesmuseesdeliege.be/mulum/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q64577904"
+ },
+ {
+  "id": "musee-du-malgre-tout",
+  "name": "Musée du Malgré-Tout",
+  "coordinates": [
+   4.68252,
+   50.090535
+  ],
+  "address": "Rue de la Gare 28 -",
+  "postalCode": "5670",
+  "commune": "Treignes",
+  "department": "NAM",
+  "website": "https://www.museedumalgretout.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q107293232"
+ },
+ {
+  "id": "musee-du-marbre-magma",
+  "name": "Musée du Marbre (MAgMa)",
+  "coordinates": [
+   4.269636,
+   50.142926
+  ],
+  "address": "Grand Rue 22,",
+  "postalCode": "6470",
+  "commune": "Rance",
+  "department": "HAI",
+  "website": "https://www.museedumarbre.com",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "musee-du-pays-d-ourthe-ambleve",
+  "name": "Musée du Pays d'Ourthe-Amblève",
+  "coordinates": [
+   5.574722,
+   50.475278
+  ],
+  "address": "",
+  "postalCode": "4170",
+  "commune": "Comblain-au-Pont",
+  "department": "LIE",
+  "website": "https://www.musee-ourthe-ambleve.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q97167884",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_Pays_d'Ourthe-Ambl%C3%A8ve",
+  "image": {
+   "file": "images/museums/musee-du-pays-d-ourthe-ambleve.jpg",
+   "author": "Rebexho",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eglise_Saint-Martin_et_mus%C3%A9e_du_Pays_d'Ourthe-Ambl%C3%A8ve.jpg",
+   "wikimediaFile": "File:Eglise Saint-Martin et musée du Pays d'Ourthe-Amblève.jpg"
+  }
+ },
+ {
+  "id": "musee-du-petit-format-d-art-contemporain",
+  "name": "Musée du Petit Format d’Art Contemporain",
+  "coordinates": [
+   4.547714,
+   50.074818
+  ],
+  "address": "Rue Bassidaine 6,",
+  "postalCode": "5670",
+  "commune": "Viroinval",
+  "department": "NAM",
+  "website": "https://www.museedupetitformat.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "musee-du-slip-de-bruxelles",
+  "name": "Musée du slip de Bruxelles",
+  "coordinates": [
+   4.353224,
+   50.845111
+  ],
+  "address": "Rue Haute 123, Bruxelles, Belgique",
+  "postalCode": "1400",
+  "commune": "Bruxelles",
+  "department": "WBR",
+  "website": "http://attitudeartgallery.com/slip-museum/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q24276476",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Musée_du_slip",
+  "image": {
+   "file": "images/museums/musee-du-slip-de-bruxelles.jpg",
+   "author": "Karel leermans",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_du_Slip.jpg",
+   "wikimediaFile": "File:Musée du Slip.jpg"
+  }
+ },
+ {
+  "id": "musee-en-plein-air-du-sart-tilman",
+  "name": "musée en plein air du Sart-Tilman",
+  "coordinates": [
+   5.57472,
+   50.6408
+  ],
+  "address": "",
+  "postalCode": "4000",
+  "commune": "Liège",
+  "department": "LIE",
+  "website": "http://www.museepla.uliege.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q3330553",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'art_contemporain_en_plein_air_du_Sart_Tilman",
+  "image": {
+   "file": "images/museums/musee-en-plein-air-du-sart-tilman.jpg",
+   "author": "Jeanhousen",
+   "license": "Public Domain",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:20020308_joie05.jpg",
+   "wikimediaFile": "File:20020308 joie05.jpg"
+  }
+ },
+ {
+  "id": "musee-felicien-rops",
+  "name": "musée provincial Félicien Rops",
+  "coordinates": [
+   4.86259,
+   50.46301
+  ],
+  "address": "",
+  "postalCode": "5000",
+  "commune": "Namur",
+  "department": "NAM",
+  "website": "http://www.museerops.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q19697920",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_F%C3%A9licien_Rops",
+  "image": {
+   "file": "images/museums/musee-felicien-rops.jpg",
+   "author": "The original uploader was Desaparecido at French Wikipedia.",
+   "license": "CC BY-SA 2.5",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_F%C3%A9licien_Rops_%C3%A0_Namur.JPG",
+   "wikimediaFile": "File:Musée Félicien Rops à Namur.JPG"
+  }
+ },
+ {
+  "id": "musee-fin-de-siecle-museum-mrbab",
+  "name": "Musée Fin-de-Siècle",
+  "coordinates": [
+   4.358238,
+   50.84168
+  ],
+  "address": "",
+  "postalCode": "1000",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "http://www.fine-arts-museum.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "wednesday",
+    "note": "Free on the first Wednesday of the month from early afternoon.",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q17354571",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Fin-de-Si%C3%A8cle",
+  "image": {
+   "file": "images/museums/musee-fin-de-siecle-museum-mrbab.jpg",
+   "author": "Louis Majorelle",
+   "license": "Public Domain",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Louis_Majorelle-Vitrine_biblioth%C3%A8que_n%C3%A9nuphar.jpg",
+   "wikimediaFile": "File:Louis Majorelle-Vitrine bibliothèque nénuphar.jpg"
+  }
+ },
+ {
+  "id": "musee-gallo-romain-de-berneau",
+  "name": "Musée gallo-romain de Berneau",
+  "coordinates": [
+   5.729844,
+   50.745913
+  ],
+  "address": "Rue des Trixhes, 63",
+  "postalCode": "4607",
+  "commune": "Berneau",
+  "department": "LIE",
+  "website": "https://alvilecinse.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "musee-gallo-romain-de-waudrez-statio-romana",
+  "name": "Musée gallo-romain de Waudrez – Statio Romana",
+  "coordinates": [
+   4.154674,
+   50.41797
+  ],
+  "address": "Chaussée Romaine 14,",
+  "postalCode": "7131",
+  "commune": "Waudrez (Binche)",
+  "department": "HAI",
+  "website": "https://statioromana.org",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q136530172",
+  "wikipedia": "https://nl.wikipedia.org/wiki/Gallo-Romeins_Museum_(Waudrez)",
+  "image": {
+   "file": "images/museums/musee-gallo-romain-de-waudrez-statio-romana.jpg",
+   "author": "FrDr",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Statio_Romana_Waudrez_Vodgoriacum.jpg",
+   "wikimediaFile": "File:Statio_Romana_Waudrez_Vodgoriacum.jpg"
+  }
+ },
+ {
+  "id": "musee-gaspar",
+  "name": "musée Gaspar",
+  "coordinates": [
+   5.81097,
+   49.68378
+  ],
+  "address": "",
+  "postalCode": "6700",
+  "commune": "Arlon",
+  "department": "LUX",
+  "website": "http://www.ial.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q3329169",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Gaspar",
+  "image": {
+   "file": "images/museums/musee-gaspar.jpg",
+   "author": "Valnovembre",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Gaspar_Arlon.jpg",
+   "wikimediaFile": "File:Musée Gaspar Arlon.jpg"
+  }
+ },
+ {
+  "id": "musee-gaumais",
+  "name": "musée gaumais",
+  "coordinates": [
+   5.535311,
+   49.567706
+  ],
+  "address": "",
+  "postalCode": "6760",
+  "commune": "Virton",
+  "department": "LUX",
+  "website": "https://www.musees-gaumais.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q105475891",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_gaumais",
+  "image": {
+   "file": "images/museums/musee-gaumais.jpg",
+   "author": "Grentidez",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Virton%2C_mus%C3%A9e_gaumais.JPG",
+   "wikimediaFile": "File:Virton, musée gaumais.JPG"
+  }
+ },
+ {
+  "id": "musee-gretry",
+  "name": "musée Grétry",
+  "coordinates": [
+   5.58362,
+   50.641
+  ],
+  "address": "",
+  "postalCode": "4020",
+  "commune": "Liège",
+  "department": "LIE",
+  "website": "https://lesmuseesdeliege.be/musee-gretry/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q3329180",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Gr%C3%A9try",
+  "image": {
+   "file": "images/museums/musee-gretry.jpg",
+   "author": "Flamenc Derivative work MagentaGreen",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gretry_-_Casa_natal_(retocado).jpg",
+   "wikimediaFile": "File:Gretry - Casa natal (retocado).jpg"
+  }
+ },
+ {
+  "id": "musee-herge",
+  "name": "Musée Hergé",
+  "coordinates": [
+   4.6116,
+   50.66777
+  ],
+  "address": "",
+  "postalCode": "1348",
+  "commune": "Louvain-la-Neuve",
+  "department": "WBR",
+  "website": "https://www.museeherge.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q1547331",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Herg%C3%A9",
+  "image": {
+   "file": "images/museums/musee-herge.jpg",
+   "author": "EmDee",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Belgique_-_Louvain-la-Neuve_-_Mus%C3%A9e_Herg%C3%A9_-_03.jpg",
+   "wikimediaFile": "File:Belgique - Louvain-la-Neuve - Musée Hergé - 03.jpg"
+  }
+ },
+ {
+  "id": "musee-ianchelevici-la-louviere-mill",
+  "name": "Musée Ianchelevici La Louvière (Mill)",
+  "coordinates": [
+   4.185851,
+   50.478868
+  ],
+  "address": "Place Communale 21 -",
+  "postalCode": "7100",
+  "commune": "La Louvière",
+  "department": "HAI",
+  "website": "https://www.lemill.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q60408109",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Musée_Ianchelevici",
+  "image": {
+   "file": "images/museums/musee-ianchelevici-la-louviere-mill.jpg",
+   "author": "Pulcherus",
+   "license": "CC0 1.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:MILL_Ianchelevici.jpg",
+   "wikimediaFile": "File:MILL_Ianchelevici.jpg"
+  }
+ },
+ {
+  "id": "musee-l",
+  "name": "musée L",
+  "coordinates": [
+   4.620076,
+   50.668219
+  ],
+  "address": "",
+  "postalCode": "1348",
+  "commune": "Louvain-la-Neuve",
+  "department": "WBR",
+  "website": "https://museel.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q48773771",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_L",
+  "image": {
+   "file": "images/museums/musee-l.jpg",
+   "author": "EmDee",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Belgique_-_Louvain-la-Neuve_-_Biblioth%C3%A8que_des_Sciences_-_001.jpg",
+   "wikimediaFile": "File:Belgique - Louvain-la-Neuve - Bibliothèque des Sciences - 001.jpg"
+  }
+ },
+ {
+  "id": "musee-marthe-donas-mimdo",
+  "name": "Musée Marthe Donas (MIMDo)",
+  "coordinates": [
+   4.267784,
+   50.65127
+  ],
+  "address": "Rue de la Montagne 36 -",
+  "postalCode": "1460",
+  "commune": "Ittre",
+  "department": "WBR",
+  "website": "https://www.museemarthedonas.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q106538328"
+ },
+ {
+  "id": "musee-monopoli",
+  "name": "Musée Monopoli",
+  "coordinates": [
+   5.150159,
+   50.384842
+  ],
+  "address": "Rue du Musée 9,",
+  "postalCode": "5370",
+  "commune": "Havelange",
+  "department": "NAM",
+  "website": "https://www.musee-monopoli.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "musee-national-de-la-resistance",
+  "name": "Musée national de la résistance et des droits humains",
+  "coordinates": [
+   5.976,
+   49.4924
+  ],
+  "address": "",
+  "postalCode": "4276",
+  "commune": "Anderlecht",
+  "department": "LIE",
+  "website": "http://www.esch.lu/culture/musee/Pages/default.aspx",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q6978080",
+  "image": {
+   "file": "images/museums/musee-national-de-la-resistance.jpg",
+   "author": "Cayambe",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_national_de_la_r%C3%A9sistance_Esch_Alzette_01.jpg",
+   "wikimediaFile": "File:Musée national de la résistance Esch Alzette 01.jpg"
+  }
+ },
+ {
+  "id": "musee-oldmasters-museum-mrbab",
+  "name": "Musée Oldmasters Museum [MRBAB]",
+  "coordinates": [
+   4.358156,
+   50.84153
+  ],
+  "address": "Rue de la Régence 3,",
+  "postalCode": "1000",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "https://www.fine-arts-museum.be/fr/les-musees/musee-oldmasters-museum",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "wednesday",
+    "note": "Free on the first Wednesday of the month from early afternoon.",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q3330782",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Musée_Oldmasters",
+  "image": {
+   "file": "images/museums/musee-oldmasters-museum-mrbab.jpg",
+   "author": "Ben2-commonswiki",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_royal_d'art_ancien_%C3%A0_Bruxelles.JPG",
+   "wikimediaFile": "File:Musée royal d'art ancien à Bruxelles.JPG"
+  }
+ },
+ {
+  "id": "musee-provincial-des-arts-anciens-du-namurois-tresor-d-oignies-trem-a",
+  "name": "Musée provincial des Arts anciens du Namurois – Trésor d’Oignies (TreM.a)",
+  "coordinates": [
+   4.865706,
+   50.465619
+  ],
+  "address": "Rue de Fer 24,",
+  "postalCode": "5000",
+  "commune": "Namur",
+  "department": "NAM",
+  "website": "https://www.museedesartsanciens.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q2401304",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Musée_des_Arts_anciens_du_Namurois",
+  "image": {
+   "file": "images/museums/musee-provincial-des-arts-anciens-du-namurois-tresor-d-oignies-trem-a.jpg",
+   "author": "Paul Hermans",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_provincial_des_Arts_anciens_du_Namurois_-_Namen_23-3-2018_15-02-13.jpg",
+   "wikimediaFile": "File:Musée provincial des Arts anciens du Namurois - Namen 23-3-2018 15-02-13.jpg"
+  }
+ },
+ {
+  "id": "musee-royal-de-l-armee-et-de-l-histoire-militaire",
+  "name": "Musée royal de l'Armée et d'Histoire militaire",
+  "coordinates": [
+   4.393361,
+   50.84082
+  ],
+  "address": "",
+  "postalCode": "1000",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "https://www.museearmee.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "wednesday",
+    "note": "Free on the first Wednesday of the month from early afternoon.",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q1395176",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_royal_de_l'Arm%C3%A9e_et_d'Histoire_militaire",
+  "image": {
+   "file": "images/museums/musee-royal-de-l-armee-et-de-l-histoire-militaire.jpg",
+   "author": "Marcelloo",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Royal_Military_Museum_Brussels_2007_456.JPG",
+   "wikimediaFile": "File:Royal Military Museum Brussels 2007 456.JPG"
+  }
+ },
+ {
+  "id": "musee-royal-de-mariemont",
+  "name": "musée royal de Mariemont",
+  "coordinates": [
+   4.23276,
+   50.4677
+  ],
+  "address": "",
+  "postalCode": "7140",
+  "commune": "Morlanwelz",
+  "department": "HAI",
+  "website": "http://www.musee-mariemont.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q1976221",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_royal_de_Mariemont",
+  "image": {
+   "file": "images/museums/musee-royal-de-mariemont.jpg",
+   "author": "Chatsam",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_mariemont.JPG",
+   "wikimediaFile": "File:Musée mariemont.JPG"
+  }
+ },
+ {
+  "id": "musee-wittert-uliege",
+  "name": "Musée Wittert (ULiège)",
+  "coordinates": [
+   5.575333,
+   50.640431
+  ],
+  "address": "Place du Vingt Août, Liège, Belgique",
+  "postalCode": "4000",
+  "commune": "Liège",
+  "department": "LIE",
+  "website": "https://www.wittert.uliege.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q25383199",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Musée_Wittert",
+  "image": {
+   "file": "images/museums/musee-wittert-uliege.jpg",
+   "author": "Jean-Michel Bourdoux",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Wittert_ULi%C3%A8ge.jpg",
+   "wikimediaFile": "File:Musée Wittert ULiège.jpg"
+  }
+ },
+ {
+  "id": "musees-de-la-ville-d-eaux",
+  "name": "musée de la ville d'eaux",
+  "coordinates": [
+   5.85753,
+   50.4917
+  ],
+  "address": "",
+  "postalCode": "4900",
+  "commune": "Spa",
+  "department": "LIE",
+  "website": "http://www.spavillaroyale.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q19407120",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_ville_d'eaux"
+ },
+ {
+  "id": "museum-dr-guislain",
+  "name": "Museum Dr. Guislain",
+  "coordinates": [
+   3.703261,
+   51.066792
+  ],
+  "address": "",
+  "postalCode": "9000",
+  "commune": "Gent",
+  "department": "OVL",
+  "website": "http://www.museumdrguislain.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "weekly",
+    "weekday": "thursday",
+    "evening": true,
+    "audience": "residents",
+    "note": "Late Donderdag: open until 22:00, free from 17:30 for Ghent residents; paused in July and August.",
+    "source": {
+     "url": "https://degentsemusea.be/beleef-meer/late-donderdag",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q2934898",
+  "image": {
+   "file": "images/museums/museum-dr-guislain.jpg",
+   "author": "Paul Hermans",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:PsychiatrischeinstellingDr.Guislain_7-10-2009_14-02-58.jpg",
+   "wikimediaFile": "File:PsychiatrischeinstellingDr.Guislain 7-10-2009 14-02-58.jpg"
+  }
+ },
+ {
+  "id": "museum-mayer-van-den-bergh",
+  "name": "musée Mayer van den Bergh",
+  "coordinates": [
+   4.405316,
+   51.215517
+  ],
+  "address": "",
+  "postalCode": "2000",
+  "commune": "Antwerpen",
+  "department": "ANT",
+  "website": "https://www.museummayervandenbergh.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "tuesday",
+    "audience": "residents",
+    "note": "Free for Antwerp residents holding an A-kaart.",
+    "source": {
+     "url": "https://pers.antwerpen.be/nieuwe-tarieven-voor-de-musea-van-de-stad-antwerpen",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q1699233",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Mayer_van_den_Bergh",
+  "image": {
+   "file": "images/museums/museum-mayer-van-den-bergh.jpg",
+   "author": "Berthgmn",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:LangeGasthuisstraat19front.jpg",
+   "wikimediaFile": "File:LangeGasthuisstraat19front.jpg"
+  }
+ },
+ {
+  "id": "museum-of-the-national-bank-of-belgium",
+  "name": "Banque nationale de Belgique",
+  "coordinates": [
+   4.366667,
+   50.85
+  ],
+  "address": "",
+  "postalCode": "1000",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "https://www.nbb.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://www.brusselsmuseums.be/en/museums?tags[]=26261",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q685918",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Banque_nationale_de_Belgique",
+  "image": {
+   "file": "images/museums/museum-of-the-national-bank-of-belgium.jpg",
+   "author": "Michel wal",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bruxelles_Banque_nationale.jpg",
+   "wikimediaFile": "File:Bruxelles Banque nationale.jpg"
+  }
+ },
+ {
+  "id": "museum-plantin-moretus",
+  "name": "musée Plantin-Moretus",
+  "coordinates": [
+   4.398164,
+   51.218294
+  ],
+  "address": "",
+  "postalCode": "2000",
+  "commune": "Antwerpen",
+  "department": "ANT",
+  "website": "http://www.museumplantinmoretus.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "tuesday",
+    "audience": "residents",
+    "note": "Free for Antwerp residents holding an A-kaart.",
+    "source": {
+     "url": "https://pers.antwerpen.be/nieuwe-tarieven-voor-de-musea-van-de-stad-antwerpen",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q595802",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Plantin-Moretus",
+  "image": {
+   "file": "images/museums/museum-plantin-moretus.jpg",
+   "author": "Klaus Graf",
+   "license": "CC BY 2.5",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plantin_antwerp_07.jpg",
+   "wikimediaFile": "File:Plantin antwerp 07.jpg"
+  }
+ },
+ {
+  "id": "museum-regional-des-sciences-naturelles",
+  "name": "muséum régional des Sciences naturelles",
+  "coordinates": [
+   3.94799,
+   50.4572
+  ],
+  "address": "",
+  "postalCode": "7000",
+  "commune": "Mons",
+  "department": "HAI",
+  "website": "http://environnement.wallonie.be/museum%2Dmons/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q3329685",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9um_r%C3%A9gional_des_Sciences_naturelles",
+  "image": {
+   "file": "images/museums/museum-regional-des-sciences-naturelles.jpg",
+   "author": "Jayheey",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9um_r%C3%A9gional_des_Sciences_naturelles_-_Mons.JPG",
+   "wikimediaFile": "File:Muséum régional des Sciences naturelles - Mons.JPG"
+  }
+ },
+ {
+  "id": "museum-vleeshuis-klank-van-de-stad",
+  "name": "Museum Vleeshuis",
+  "coordinates": [
+   4.39925,
+   51.222688
+  ],
+  "address": "",
+  "postalCode": "2000",
+  "commune": "Antwerpen",
+  "department": "ANT",
+  "website": "http://www.museumvleeshuis.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "tuesday",
+    "audience": "residents",
+    "note": "Free for Antwerp residents holding an A-kaart.",
+    "source": {
+     "url": "https://pers.antwerpen.be/nieuwe-tarieven-voor-de-musea-van-de-stad-antwerpen",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q106557305",
+  "image": {
+   "file": "images/museums/museum-vleeshuis-klank-van-de-stad.jpg",
+   "author": "Timothy De Paepe",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museum_Vleeshuis_facade.jpg",
+   "wikimediaFile": "File:Museum Vleeshuis facade.jpg"
+  }
+ },
+ {
+  "id": "panorama-de-la-cite-administrative",
+  "name": "Panorama de la Cité administrative",
+  "coordinates": [
+   5.57832,
+   50.645986
+  ],
+  "address": "Potiérue 4 -",
+  "postalCode": "4000",
+  "commune": "Liège",
+  "department": "LIE",
+  "website": "https://www.visitezliege.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "parc-monumento",
+  "name": "Parc Monumento",
+  "coordinates": [
+   4.286691,
+   50.836991
+  ],
+  "address": "Square Camille Paulsen 8, Anderlecht, Belgique",
+  "postalCode": "1070",
+  "commune": "Anderlecht",
+  "department": "BRU",
+  "website": "http://www.monumento.brussels/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "parlamentarium",
+  "name": "Parlementarium",
+  "coordinates": [
+   4.376158,
+   50.838498
+  ],
+  "address": "",
+  "postalCode": "1047",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "http://www.europarl.europa.eu/visiting/en/parlamentarium.html",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://www.brusselsmuseums.be/en/museums?tags[]=26261",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q8062880",
+  "image": {
+   "file": "images/museums/parlamentarium.jpg",
+   "author": "LeJC",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parlamentarium_-_Parlement_europ%C3%A9en_-_Je_suis_Nice.jpg",
+   "wikimediaFile": "File:Parlamentarium - Parlement européen - Je suis Nice.jpg"
+  }
+ },
+ {
+  "id": "prehistomuseum",
+  "name": "Préhistomuseum",
+  "coordinates": [
+   5.42669,
+   50.5788
+  ],
+  "address": "",
+  "postalCode": "4400",
+  "commune": "Flémalle",
+  "department": "LIE",
+  "website": "http://www.ramioul.org",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q3408962",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Pr%C3%A9histomuseum"
+ },
+ {
+  "id": "red-star-line-museum",
+  "name": "Red Star Line Museum",
+  "coordinates": [
+   4.403046,
+   51.232909
+  ],
+  "address": "",
+  "postalCode": "2000",
+  "commune": "Antwerpen",
+  "department": "ANT",
+  "website": "https://redstarline.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "tuesday",
+    "audience": "residents",
+    "note": "Free for Antwerp residents holding an A-kaart.",
+    "source": {
+     "url": "https://pers.antwerpen.be/nieuwe-tarieven-voor-de-musea-van-de-stad-antwerpen",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q23090950",
+  "image": {
+   "file": "images/museums/red-star-line-museum.jpg",
+   "author": "DimiTalen",
+   "license": "CC0 1.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red_Star_Line_Museum.jpg",
+   "wikimediaFile": "File:Red Star Line Museum.jpg"
+  }
+ },
+ {
+  "id": "rubenshuis",
+  "name": "maison de Rubens",
+  "coordinates": [
+   4.409444,
+   51.217222
+  ],
+  "address": "",
+  "postalCode": "2000",
+  "commune": "Antwerpen",
+  "department": "ANT",
+  "website": "http://www.rubenshuis.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "tuesday",
+    "audience": "residents",
+    "note": "Free for Antwerp residents holding an A-kaart.",
+    "source": {
+     "url": "https://pers.antwerpen.be/nieuwe-tarieven-voor-de-musea-van-de-stad-antwerpen",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q775644",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Maison_de_Rubens",
+  "image": {
+   "file": "images/museums/rubenshuis.jpg",
+   "author": "Unknown",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rubenshaus.JPG",
+   "wikimediaFile": "File:Rubenshaus.JPG"
+  }
+ },
+ {
+  "id": "s-m-a-k",
+  "name": "musée municipal d'art actuel",
+  "coordinates": [
+   3.722025,
+   51.038169
+  ],
+  "address": "",
+  "postalCode": "9000",
+  "commune": "Gent",
+  "department": "OVL",
+  "website": "https://smak.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "weekly",
+    "weekday": "thursday",
+    "evening": true,
+    "audience": "residents",
+    "note": "Late Donderdag: open until 22:00, free from 17:30 for Ghent residents; paused in July and August.",
+    "source": {
+     "url": "https://degentsemusea.be/beleef-meer/late-donderdag",
+     "checkedAt": "2026-08-06"
+    }
+   },
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "audience": "residents",
+    "note": "Free for Ghent residents (postcodes 9000–9052).",
+    "source": {
+     "url": "https://degentsemusea.be/plan/faq",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q1540707",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_municipal_d'art_actuel_(Gand)",
+  "image": {
+   "file": "images/museums/s-m-a-k.jpg",
+   "author": "Cristina Pastor",
+   "license": "Public Domain",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Smakedificio.jpg",
+   "wikimediaFile": "File:Smakedificio.jpg"
+  }
+ },
+ {
+  "id": "salle-saint-georges",
+  "name": "Salle Saint-Georges",
+  "coordinates": [
+   3.952277,
+   50.454464
+  ],
+  "address": "Grand-Place –",
+  "postalCode": "7000",
+  "commune": "Mons",
+  "department": "HAI",
+  "website": "https://musees-expos.mons.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "silex-s-minieres-neolithiques-de-silex-de-spiennes",
+  "name": "minières néolithiques de silex de Spiennes",
+  "coordinates": [
+   3.982575,
+   50.419989
+  ],
+  "address": "",
+  "postalCode": "7024",
+  "commune": "Spiennes",
+  "department": "HAI",
+  "website": "http://www.minesdespiennes.org",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q677879",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mini%C3%A8res_n%C3%A9olithiques_de_silex_de_Spiennes",
+  "image": {
+   "file": "images/museums/silex-s-minieres-neolithiques-de-silex-de-spiennes.jpg",
+   "author": "Jean-Pol GRANDMONT",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spiennes_-_Mini%C3%A8res_n%C3%A9olithiques_de_silex_(2).jpg",
+   "wikimediaFile": "File:Spiennes - Minières néolithiques de silex (2).jpg"
+  }
+ },
+ {
+  "id": "sint-pietersabdij",
+  "name": "Sint-Pietersabdij",
+  "coordinates": [
+   3.23541,
+   51.18224
+  ],
+  "address": "",
+  "postalCode": "8310",
+  "commune": "Gent",
+  "department": "WVL",
+  "website": "https://degentsemusea.be/musea/sint-pietersabdij",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "weekly",
+    "weekday": "thursday",
+    "evening": true,
+    "audience": "residents",
+    "note": "Late Donderdag: open until 22:00, free from 17:30 for Ghent residents; paused in July and August.",
+    "source": {
+     "url": "https://degentsemusea.be/beleef-meer/late-donderdag",
+     "checkedAt": "2026-08-06"
+    }
+   },
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "audience": "residents",
+    "note": "Free for Ghent residents (postcodes 9000–9052).",
+    "source": {
+     "url": "https://degentsemusea.be/plan/faq",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q1816541",
+  "image": {
+   "file": "images/museums/sint-pietersabdij.jpg",
+   "author": "User:LimoWreck",
+   "license": "CC BY 2.5",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Steenbrugge_-_Heilig_Hart_en_Sint-Philippuskerk_1.jpg",
+   "wikimediaFile": "File:Steenbrugge - Heilig Hart en Sint-Philippuskerk 1.jpg"
+  }
+ },
+ {
+  "id": "site-du-beffroi",
+  "name": "Site du Beffroi",
+  "coordinates": [
+   3.950096,
+   50.453615
+  ],
+  "address": "Rue des Clercs 7000, Mons, Belgique",
+  "postalCode": "7000",
+  "commune": "Mons",
+  "department": "HAI",
+  "website": "https://musees-expos.mons.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q1850707",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Beffroi_de_Mons",
+  "image": {
+   "file": "images/museums/site-du-beffroi.jpg",
+   "author": "Jean-Pol GRANDMONT",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mons_beffroi_JPG01B.jpg",
+   "wikimediaFile": "File:Mons beffroi JPG01B.jpg"
+  }
+ },
+ {
+  "id": "stam-stadsmuseum-gent",
+  "name": "musée de la Ville de Gand",
+  "coordinates": [
+   3.71722,
+   51.04361
+  ],
+  "address": "",
+  "postalCode": "9000",
+  "commune": "Gent",
+  "department": "OVL",
+  "website": "https://stamgent.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "weekly",
+    "weekday": "thursday",
+    "evening": true,
+    "audience": "residents",
+    "note": "Late Donderdag: open until 22:00, free from 17:30 for Ghent residents; paused in July and August.",
+    "source": {
+     "url": "https://degentsemusea.be/beleef-meer/late-donderdag",
+     "checkedAt": "2026-08-06"
+    }
+   },
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "audience": "residents",
+    "note": "Free for Ghent residents (postcodes 9000–9052).",
+    "source": {
+     "url": "https://degentsemusea.be/plan/faq",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q980285",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_ville_de_Gand",
+  "image": {
+   "file": "images/museums/stam-stadsmuseum-gent.jpg",
+   "author": "Paul Hermans",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gent_STAM_12-10-2010_10-33-23.JPG",
+   "wikimediaFile": "File:Gent STAM 12-10-2010 10-33-23.JPG"
+  }
+ },
+ {
+  "id": "tamat-musee-de-la-tapisserie-centre-des-arts-muraux-et-des-arts-du-tissu",
+  "name": "TAMAT   – Musée de la Tapisserie, Centre des arts muraux et des Arts du Tissu",
+  "coordinates": [
+   3.388393,
+   50.604174
+  ],
+  "address": "Place Reine Astrid 9 -",
+  "postalCode": "7500",
+  "commune": "Tournai",
+  "department": "HAI",
+  "website": "https://www.tamat.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q2871761",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Musée_de_la_tapisserie_et_des_arts_du_tissu",
+  "image": {
+   "file": "images/museums/tamat-musee-de-la-tapisserie-centre-des-arts-muraux-et-des-arts-du-tissu.jpg",
+   "author": "Szilas",
+   "license": "CC BY 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tournai_2008-12-20-01%2C_Tapestry_Museum.jpg",
+   "wikimediaFile": "File:Tournai 2008-12-20-01, Tapestry Museum.jpg"
+  }
+ },
+ {
+  "id": "texture-musee-du-lys-et-du-lin",
+  "name": "Texture – Musée du Lys et du Lin",
+  "coordinates": [
+   3.256051,
+   50.830577
+  ],
+  "address": "Noordstraat 28,",
+  "postalCode": "8500",
+  "commune": "Kortrijk",
+  "department": "WVL",
+  "website": "http://www.texturekortrijk.be/fr/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tresor-cathedrale-tournai",
+  "name": "Trésor de la cathédrale Notre-Dame de Tournai",
+  "coordinates": [
+   3.388903,
+   50.606502
+  ],
+  "address": "Place de l'Evêché 1",
+  "postalCode": "7500",
+  "commune": "Tournai",
+  "department": "HAI",
+  "website": "https://www.cathedrale-tournai.be/",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q391229",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Cathédrale_Notre-Dame_de_Tournai",
+  "image": {
+   "file": "images/museums/tresor-cathedrale-tournai.jpg",
+   "author": "self-made composite, from photos taken by Jean-Pol Grandmont",
+   "license": "CC BY 2.5",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tournai_pan.jpg",
+   "wikimediaFile": "File:Tournai pan.jpg"
+  }
+ },
+ {
+  "id": "tresor-de-la-cathedrale",
+  "name": "Trésor de la cathédrale de Liège",
+  "coordinates": [
+   5.5715,
+   50.6403
+  ],
+  "address": "",
+  "postalCode": "4000",
+  "commune": "Liège",
+  "department": "LIE",
+  "website": "http://www.tresordeliege.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q3541340",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Tr%C3%A9sor_de_la_cath%C3%A9drale_de_Li%C3%A8ge",
+  "image": {
+   "file": "images/museums/tresor-de-la-cathedrale.jpg",
+   "author": "Kleon3",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Li%C3%A8ge%2C_Cath%C3%A9dral_St-Paul%2C_tr%C3%A9sor01a_(cropped).jpg",
+   "wikimediaFile": "File:Liège, Cathédral St-Paul, trésor01a (cropped).jpg"
+  }
+ },
+ {
+  "id": "tresor-de-la-collegiale-notre-dame-et-saint-domitien-de-huy",
+  "name": "collégiale Notre-Dame de Huy",
+  "coordinates": [
+   5.238242,
+   50.518739
+  ],
+  "address": "",
+  "postalCode": "4500",
+  "commune": "Huy",
+  "department": "LIE",
+  "website": "https://www.tresordehuy.com",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q15407744",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Coll%C3%A9giale_Notre-Dame_de_Huy",
+  "image": {
+   "file": "images/museums/tresor-de-la-collegiale-notre-dame-et-saint-domitien-de-huy.jpg",
+   "author": "Raimond Spekking",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coll%C3%A9giale_Notre-Dame%2C_Huy-1130.jpg",
+   "wikimediaFile": "File:Collégiale Notre-Dame, Huy-1130.jpg"
+  }
+ },
+ {
+  "id": "tresor-de-sainte-waudru",
+  "name": "Trésor de Sainte-Waudru",
+  "coordinates": [
+   3.947757,
+   50.453042
+  ],
+  "address": "Place du Chapitre 7000, Mons, Belgique",
+  "postalCode": "7000",
+  "commune": "Mons",
+  "department": "HAI",
+  "website": "https://musees-expos.mons.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ]
+ },
+ {
+  "id": "trinkhall-museum",
+  "name": "MADmusée",
+  "coordinates": [
+   5.568214,
+   50.634028
+  ],
+  "address": "",
+  "postalCode": "4000",
+  "commune": "Liège",
+  "department": "LIE",
+  "website": "http://www.madmusee.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q17347120",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Trinkhall_Museum",
+  "image": {
+   "file": "images/museums/trinkhall-museum.jpg",
+   "author": "Trinkhall museum",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Files_fichier_15175_trinkhall-museum-2-c-p-schyns-sofam_(3).jpg",
+   "wikimediaFile": "File:Files fichier 15175 trinkhall-museum-2-c-p-schyns-sofam (3).jpg"
+  }
+ },
+ {
+  "id": "ulb-museum-of-medicine",
+  "name": "musée de la médecine",
+  "coordinates": [
+   4.26704,
+   50.814606
+  ],
+  "address": "",
+  "postalCode": "1070",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "http://www.museemedecine.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://www.brusselsmuseums.be/en/museums?tags[]=26261",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q3329930",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_m%C3%A9decine_de_Bruxelles",
+  "image": {
+   "file": "images/museums/ulb-museum-of-medicine.jpg",
+   "author": "Fin-de-siècle",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bruxelles_-_mus%C3%A9e_de_la_m%C3%A9decine_ULB_2019-07-11_(2).jpg",
+   "wikimediaFile": "File:Bruxelles - musée de la médecine ULB 2019-07-11 (2).jpg"
+  }
+ },
+ {
+  "id": "wiertz-museum",
+  "name": "Musée Wiertz",
+  "coordinates": [
+   4.375694,
+   50.837185
+  ],
+  "address": "Rue Vautier 62,",
+  "postalCode": "1050",
+  "commune": "Bruxelles",
+  "department": "BRU",
+  "website": "http://www.fine-arts-museum.be",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "always",
+    "source": {
+     "url": "https://www.brusselsmuseums.be/en/museums?tags[]=26261",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q488688",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Wiertz",
+  "image": {
+   "file": "images/museums/wiertz-museum.jpg",
+   "author": "User:Ben2",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Wiertz%2C_Bruxelles.JPG",
+   "wikimediaFile": "File:Musée Wiertz, Bruxelles.JPG"
+  }
+ },
+ {
+  "id": "wittockiana-musee-des-arts-du-livre-et-de-la-reliure",
+  "name": "Wittockiana – Musée des Arts du livre et de la reliure",
+  "coordinates": [
+   4.420233,
+   50.832163
+  ],
+  "address": "Rue du Bemel 23 -",
+  "postalCode": "1150",
+  "commune": "Woluwe-Saint-Pierre",
+  "department": "BRU",
+  "website": "https://www.wittockiana.org",
+  "tags": [
+   "museum"
+  ],
+  "freeAccess": [
+   {
+    "kind": "nth-weekday",
+    "nth": 1,
+    "weekday": "sunday",
+    "source": {
+     "url": "https://artsetpublics.be/programmes/musees-gratuits/",
+     "checkedAt": "2026-08-06"
+    }
+   }
+  ],
+  "wikidata": "Q2901267",
+  "wikipedia": "https://fr.wikipedia.org/wiki/Wittockiana",
+  "image": {
+   "file": "images/museums/wittockiana-musee-des-arts-du-livre-et-de-la-reliure.jpg",
+   "author": "Alfred de Ville de Goyet - Urban.brussels",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Biblioth%C3%A8que_Wittockiana_JP2018_124.jpg",
+   "wikimediaFile": "File:Bibliothèque Wittockiana JP2018 124.jpg"
+  }
+ }
+]
