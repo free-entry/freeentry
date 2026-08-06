@@ -1,4 +1,31 @@
 {
+  "abbaye-de-beaulieu-en-rouergue": {
+    "description": "Abbaye cistercienne fondée en 1144 par des moines venus de Clairvaux, dans la vallée de la Seye, en Rouergue. Vendue comme bien national en 1791 puis donnée à l'État en 1973, elle conserve son église et sa salle capitulaire gothiques et abrite aujourd'hui l'une des plus riches collections d'art français de l'après-guerre (1945-1975)."
+  },
+  "abbaye-de-charroux": {
+    "description": "Abbaye bénédictine fondée en 785 par le comte Roger de Limoges sous la protection de Charlemagne, célèbre pour sa relique du Saint Prépuce et pour un plan à rotonde unique en France. Il n'en subsiste que la tour-lanterne octogonale dite tour Charlemagne, haute de 37 mètres, et quelques vestiges du cloître et de la salle capitulaire."
+  },
+  "abbaye-de-cluny": {
+    "description": "Abbaye bénédictine fondée en 910 par Guillaume Ier d'Aquitaine, berceau de l'ordre clunisien qui compta jusqu'à un millier de monastères en Europe. Son abbatiale Cluny III, bâtie à partir de 1088, fut la plus grande église de la chrétienté jusqu'à l'édification de Saint-Pierre de Rome ; vendue comme bien national puis démolie après 1798, elle n'en conserve que le clocher de l'Eau bénite et le transept sud."
+  },
+  "abbaye-de-la-sauve-majeure": {
+    "description": "Abbaye bénédictine fondée en 1079 par Gérard de Corbie, étape majeure des chemins de Saint-Jacques-de-Compostelle inscrite à ce titre au patrimoine mondial de l'UNESCO en 1998. Ruinée depuis le XIXe siècle, elle conserve son chevet roman et plus de quatre-vingts chapiteaux sculptés, l'un des ensembles les plus riches de la sculpture romane en Gironde."
+  },
+  "abbaye-de-montmajour": {
+    "description": "Abbaye bénédictine fondée en 948 près d'Arles, qui devint l'une des plus riches de Provence : l'église abbatiale Notre-Dame (1130-1182), le cloître roman, la chapelle Sainte-Croix et l'ermitage troglodytique Saint-Pierre en témoignent. Abandonnée après la Révolution, elle inspira de nombreux dessins à Van Gogh en 1888."
+  },
+  "abbaye-du-bec-hellouin": {
+    "description": "Abbaye bénédictine fondée en 1034 par Herluin, dont l'école, dirigée par Lanfranc puis Anselme, futurs archevêques de Cantorbéry, rayonna sur l'Europe médiévale. Transformée en dépôt de remonte militaire par Napoléon, elle a retrouvé une communauté monastique en 1948 ; on y visite la tour Saint-Nicolas du XVe siècle et le cloître."
+  },
+  "abbaye-du-mont-saint-michel": {
+    "description": "Sanctuaire fondé vers 708 par l'évêque Aubert d'Avranches, devenu abbaye bénédictine en 966, bâti au sommet d'un îlot rocheux soumis aux grandes marées de la baie. La Merveille, ensemble gothique de salles superposées édifié entre 1211 et 1228, s'ajoute à l'église romane du XIe siècle ; inscrite au patrimoine mondial de l'UNESCO en 1979, l'abbaye accueille depuis 2001 les Fraternités monastiques de Jérusalem."
+  },
+  "abbaye-du-thoronet": {
+    "description": "Abbaye cistercienne fondée en 1146, la plus ancienne des « trois sœurs provençales » avec Sénanque et Silvacane, bâtie en pierre du pays entre 1160 et 1180. L'UNESCO la considère comme l'exemple le plus abouti de l'architecture cistercienne ; restaurée entre 1985 et 1990, elle est aujourd'hui un musée et un lieu de concerts."
+  },
+  "alignements-de-carnac": {
+    "description": "Près de 3 000 menhirs dressés vers 2500 avant notre ère sur environ 4 kilomètres, répartis en trois grands alignements — Ménec, Kermario et Kerlescan. Leur fonction, restée mystérieuse, fait l'objet de nombreuses hypothèses ; le site a rejoint la liste du patrimoine mondial de l'UNESCO en 2025."
+  },
   "arc-de-triomphe": {
     "description": "Arc de triomphe voulu par Napoléon en 1806 et achevé en 1836 au sommet des Champs-Élysées. Il abrite la tombe du Soldat inconnu, et sa terrasse offre une vue sur les douze avenues qui rayonnent depuis la place de l'Étoile."
   },
@@ -17,17 +44,86 @@
   "bourse-de-commerce-pinault-collection": {
     "description": "Musée d'art contemporain ouvert en 2021 dans l'ancienne Bourse de commerce, rotonde coiffée d'une coupole de verre et de fer du XIXe siècle. Réaménagée par Tadao Ando, elle présente des expositions tirées de la collection de François Pinault."
   },
+  "cairn-de-barnenez": {
+    "description": "Cairn néolithique élevé vers 4700 avant notre ère, l'un des plus anciens monuments d'Europe, long de 75 mètres et renfermant onze dolmens à couloir édifiés en deux phases. Menacé par une carrière en 1955, il fut sauvé grâce à l'archéologue Pierre-Roland Giot."
+  },
+  "cathedrale-de-besancon-et-son-horloge-astronomique": {
+    "description": "Cathédrale Saint-Jean de Besançon, dont l'horloge astronomique fut construite entre 1857 et 1860 par l'horloger Auguste-Lucien Vérité. Ses quelque 30 000 pièces mécaniques animent 122 indications et automates, retraçant heures, marées, éclipses et fêtes religieuses du monde entier."
+  },
+  "cathedrale-et-tresor-de-chartres": {
+    "description": "Cathédrale gothique bâtie pour l'essentiel dans la trentaine d'années qui suivit l'incendie de 1194, consacrée en 1260, célèbre pour ses vitraux du XIIIe siècle et leur bleu inimitable. Son trésor, rouvert en 2024, conserve le voile de la Vierge (Sancta Camisia), vénéré depuis le IXe siècle."
+  },
   "cathedrale-notre-dame-de-paris": {
     "description": "Cathédrale gothique de l'île de la Cité, élevée entre 1163 et 1345, célèbre pour sa façade à deux tours, ses rosaces et ses arcs-boutants. Touchée par l'incendie de 2019, elle a rouvert au public en décembre 2024 après sa restauration."
+  },
+  "chapelle-des-moines-de-berze-la-ville": {
+    "description": "Chapelle romane du prieuré donné en 1100 à Hugues de Semur, abbé de Cluny, comme résidence de retraite. Ses peintures murales du début du XIIe siècle, redécouvertes en 1887 sous un badigeon, figurent parmi les plus beaux témoignages de l'art clunisien."
   },
   "chapelle-expiatoire": {
     "description": "Chapelle néoclassique élevée de 1815 à 1826 pour Louis XVIII sur l'ancien cimetière de la Madeleine, où Louis XVI et Marie-Antoinette furent inhumés après leur exécution. Œuvre de l'architecte Fontaine, elle rend hommage aux victimes de la Révolution."
   },
+  "chateau-d-angers": {
+    "description": "Forteresse bâtie entre 1230 et 1242 pour Saint Louis et sa mère Blanche de Castille, ceinte de dix-sept tours et de plus de 800 mètres de remparts dominant la Maine. Elle abrite depuis 1954 la tenture de l'Apocalypse, tissée entre 1373 et 1380 pour Louis Ier d'Anjou, l'une des plus grandes tapisseries médiévales conservées au monde."
+  },
+  "chateau-d-assier": {
+    "description": "Château Renaissance bâti entre 1518 et 1535 par Galiot de Genouillac, grand maître de l'artillerie de François Ier, sur les bases d'une forteresse médiévale. Largement démoli au XVIIIe siècle, il n'en subsiste que l'aile ouest, ornée d'une frise sculptée célébrant les exploits militaires de son bâtisseur."
+  },
+  "chateau-d-aulteribe": {
+    "description": "Forteresse fortifiée en 1467 par Charles Motier de La Fayette, transformée au XIXe siècle dans le goût néogothique par Joseph de Pierre et son épouse Marie-Pauline Onslow. Léguée à l'État en 1954, elle conserve un mobilier et des tapisseries du XVe au XIXe siècle."
+  },
+  "chateau-d-azay-le-rideau": {
+    "description": "Château Renaissance bâti entre 1518 et 1527 pour Gilles Berthelot, trésorier de François Ier, en partie sur pilotis dans le lit de l'Indre. Confisqué par le roi après la disgrâce de son propriétaire, il est aujourd'hui l'un des châteaux de la Loire les plus visités."
+  },
+  "chateau-d-if": {
+    "description": "Forteresse édifiée entre 1524 et 1531 sur ordre de François Ier pour défendre la rade de Marseille, transformée en prison d'État dès le milieu du XVIe siècle. Alexandre Dumas y enferma Edmond Dantès dans Le Comte de Monte-Cristo, rendant célèbre ce petit îlot rocheux."
+  },
+  "chateau-d-oiron": {
+    "description": "Château Renaissance des Gouffier, notamment Claude Gouffier, grand écuyer de France, célèbre pour sa galerie peinte de 55 mètres illustrant la guerre de Troie. Propriété de l'État depuis 1946, il accueille depuis 1993 la collection d'art contemporain Curios & Mirabilia, conçue par Jean-Hubert Martin."
+  },
+  "chateau-de-bouges": {
+    "description": "Petit château néoclassique bâti en 1765 pour Charles Leblanc de Marnaval, dans l'esprit du Petit Trianon. Légué en 1967 avec ses 1 600 meubles par Henri Viguier, président du Bazar de l'Hôtel de Ville, il est entouré d'un parc de 80 hectares dessiné par Henri et Achille Duchêne."
+  },
+  "chateau-de-bussy-rabutin": {
+    "description": "Château du XIVe siècle remanié à la Renaissance, où l'écrivain Roger de Bussy-Rabutin, exilé sur ordre de Louis XIV après son Histoire amoureuse des Gaules, passa dix-sept ans à faire peindre plus de cinq cents portraits de la cour. Ses appartements composent une véritable galerie satirique du règne du Roi-Soleil."
+  },
+  "chateau-de-carrouges": {
+    "description": "Château des familles Le Veneur puis Blosset, bâti en brique rouge et noire à partir du XIVe siècle et entouré de douves. Le pavillon d'entrée de style Louis XII fut commandé par le cardinal Jean Le Veneur ; propriété de l'État depuis 1936, il est géré par le Centre des monuments nationaux."
+  },
+  "chateau-de-castelnau-bretenoux": {
+    "description": "Forteresse de grès rouge des seigneurs de Castelnau, vassaux des comtes de Toulouse, bâtie à partir du XIIe siècle sur un promontoire dominant la vallée de la Dordogne. Ruinée par un incendie en 1851, elle fut restaurée pendant trente ans par le chanteur d'opéra Jean Mouliérat, qui légua à l'État le château et ses collections."
+  },
   "chateau-de-champs-sur-marne": {
     "description": "Château du début du XVIIIe siècle, un temps loué par Madame de Pompadour, réputé pour ses intérieurs rocaille, ses décors de chinoiseries et son mobilier d'époque. Son parc de 85 hectares mêle jardin à la française et parc paysager."
   },
+  "chateau-de-chareil-cintrat": {
+    "description": "Ancien fief des Bourbons, remanié à la Renaissance par Claude Morin, contrôleur des guerres enrichi lors des campagnes d'Italie. L'escalier et une chambre du premier étage conservent des peintures murales du XVIe siècle figurant les dieux de l'Olympe et un cycle astrologique."
+  },
+  "chateau-de-chateaudun": {
+    "description": "Forteresse fondée en 1171, dont le donjon cylindrique haut de 31 mètres, l'un des plus anciens de France, date de 1180. Jean de Dunois, compagnon de Jeanne d'Arc, y fit bâtir entre 1452 et 1468 une aile résidentielle gothique et la Sainte-Chapelle, qui conserve une quinzaine de statues de saints."
+  },
+  "chateau-de-coucy": {
+    "description": "Forteresse bâtie à partir de 1225 par Enguerrand III de Coucy, dont le donjon cylindrique de 54 mètres, le plus haut d'Europe, illustrait la devise du sire de Coucy : « Roi ne suis, ni prince, ni duc, ni comte aussi. Je suis le sire de Coucy. » Il fut dynamité en 1917 par l'armée allemande en retraite."
+  },
+  "chateau-de-fougeres-sur-bievre": {
+    "description": "Château reconstruit de 1475 à 1483 pour Pierre de Refuge, trésorier de Louis XI, sur les ruines d'une forteresse détruite pendant la guerre de Cent Ans. Une galerie Renaissance à arcs surbaissés fut ajoutée au XVIe siècle autour du donjon médiéval conservé."
+  },
+  "chateau-de-gramont": {
+    "description": "Château fort du XIIIe siècle passé de Simon de Montfort à la famille de Montaut, doté à la Renaissance, entre 1535 et 1545, d'une aile à fenêtres à meneaux et d'un escalier en vis voûté d'ogives. Donné au Centre des monuments nationaux par M. et Mme Dichamp, il conserve son mobilier d'origine."
+  },
+  "chateau-de-la-motte-tilly": {
+    "description": "Château bâti à partir de 1754 pour l'abbé Terray, futur contrôleur général des finances de Louis XV, resté dans la même famille jusqu'en 1972. Entièrement remeublé au XXe siècle par la marquise de Maillé, qui le légua avec son domaine de 1 000 hectares à l'État, à la condition qu'il reste meublé et non habité."
+  },
   "chateau-de-maisons": {
     "description": "Château édifié par François Mansart entre 1630 et 1646 pour René de Longueil, considéré comme un manifeste de l'architecture classique française. Son escalier monumental et ses décors de pierre sculptée annoncent Versailles."
+  },
+  "chateau-de-montal": {
+    "description": "Château Renaissance élevé entre 1519 et 1534 par Jeanne de Balsac d'Entraygues, en mémoire de son fils Robert mort à la guerre en 1523, avec un escalier droit inspiré d'Italie et des bustes sculptés de sa famille. Dépecé et vendu en 1880, il fut racheté et restauré entre 1908 et 1913 par l'industriel Maurice Fenaille, qui en fit don à l'État."
+  },
+  "chateau-de-pierrefonds": {
+    "description": "Forteresse commencée en 1396 pour Louis d'Orléans, démantelée sur ordre de Louis XIII en 1617 puis restée en ruine pendant deux siècles. Napoléon III en confia la restauration à Eugène Viollet-le-Duc à partir de 1857, qui la réinventa comme une véritable leçon d'architecture médiévale."
+  },
+  "chateau-de-puyguilhem": {
+    "description": "Petit château Renaissance bâti entre 1513 et 1535 par Mondot de La Marthonie, premier président du parlement de Guyenne, comme résidence de chasse inspirée des châteaux de la Loire. Laissé à l'abandon puis exproprié en 1938, il fut restauré sur une vingtaine d'années par l'État."
   },
   "chateau-de-rambouillet": {
     "description": "Résidence royale puis présidentielle au cœur d'un vaste domaine boisé, où mourut François Ier en 1547. La visite comprend les appartements du XVIIIe siècle, la laiterie de la Reine et la chaumière aux coquillages de la princesse de Lamballe."
@@ -35,8 +131,23 @@
   "chateau-de-sceaux-musee-departemental": {
     "description": "Musée départemental installé dans un château du XIXe siècle au cœur du domaine créé pour Colbert. Peintures, mobilier et faïences de Sceaux y retracent l'histoire du lieu et la vie en Île-de-France, dans un parc dessiné par André Le Nôtre."
   },
+  "chateau-de-talcy": {
+    "description": "Château acheté en 1517 par le banquier florentin Bernard Salviati, dont la fille Cassandre, rencontrée par Pierre de Ronsard en 1545, lui inspira le poème « Mignonne, allons voir si la rose... ». Catherine de Médicis et Charles IX y tinrent en 1562 une conférence entre catholiques et protestants."
+  },
+  "chateau-de-villeneuve-lembron": {
+    "description": "Château bâti à la fin du XVe siècle pour Rigaud d'Aureille, chambellan de Louis XI puis de Charles VIII, entre tradition défensive — quatre tours rondes et larges douves — et confort Renaissance. Ses salles conservent de savoureuses peintures murales, dont un portrait caricatural du bâtisseur."
+  },
   "chateau-de-vincennes": {
     "description": "Résidence royale médiévale aux portes de Paris, dominée par un donjon de 52 mètres, le plus haut d'Europe, et dotée d'une Sainte-Chapelle fondée en 1379. Les rois y séjournèrent avant Versailles ; le donjon devint ensuite prison d'État."
+  },
+  "chateau-de-voltaire-a-ferney": {
+    "description": "Demeure où Voltaire s'installa en 1758 et vécut jusqu'à sa mort en 1778, après avoir fait reconstruire le château et transformé le village en une petite cité prospère de 1 500 habitants grâce à des manufactures d'horlogerie et de soierie. Restauré entre 2015 et 2018, il présente ses appartements et sa chapelle de 1761."
+  },
+  "chateau-ducal-de-cadillac": {
+    "description": "Château bâti entre 1598 et 1634 pour Jean-Louis de Nogaret de La Valette, duc d'Épernon et favori d'Henri III, dans un style annonçant déjà le classicisme du XVIIe siècle. Plafonds peints, cheminées monumentales et tapisseries en composent le décor ; transformé en prison pour femmes de 1822 à 1951, il est aujourd'hui géré par le Centre des monuments nationaux."
+  },
+  "chateau-et-remparts-de-la-cite-de-carcassonne": {
+    "description": "Cité fortifiée d'origine gallo-romaine, ceinte d'une double enceinte de près de 3 kilomètres et de 52 tours, qui capitula devant Simon de Montfort lors de la croisade contre les Albigeois en 1209. Restaurée à partir des années 1850 par Eugène Viollet-le-Duc, elle est inscrite au patrimoine mondial de l'UNESCO depuis 1997."
   },
   "chateau-musee-de-nemours": {
     "description": "Château fort du XIIe siècle au centre de Nemours, sauvé par des artistes locaux et devenu musée en 1903. Ses collections privilégient les beaux-arts de la fin du XIXe et du début du XXe siècle, dont l'œuvre du sculpteur Justin-Chrysostome Sanson."
@@ -433,5 +544,116 @@
   },
   "villa-savoye": {
     "description": "Villa moderniste construite par Le Corbusier à Poissy entre 1928 et 1931, manifeste de ses « cinq points de l'architecture » : pilotis, fenêtres en bandeau, toit-jardin. Elle est inscrite au patrimoine mondial de l'UNESCO."
+  },
+  "cite-internationale-de-la-langue-francaise-au-chateau-de-villers-cotterets": {
+    "description": "Château Renaissance élevé par François Ier à partir de 1532, où fut signée en 1539 l'ordonnance imposant le français dans les actes administratifs et judiciaires du royaume. Restauré et transformé en Cité internationale de la langue française, il a rouvert en 2023 avec un parcours permanent consacré à l'histoire du français et à la francophonie."
+  },
+  "cloitre-de-la-cathedrale-de-bayonne": {
+    "description": "Cloître gothique rayonnant du XIVe siècle accolé au flanc sud de la cathédrale Sainte-Marie de Bayonne, l'un des plus vastes de France. Ses galeries abritent des enfeus et dalles funéraires des XIVe-XVIIIe siècles et servaient autrefois de lieu de réunion aux corporations et assemblées de quartier."
+  },
+  "cloitre-de-la-cathedrale-de-frejus": {
+    "description": "Cloître roman à galerie double du XIIe siècle, jouxtant la cathédrale Saint-Léonce de Fréjus, dont l'étage repose sur de fines colonnes corinthiennes du XIIIe siècle. Son plafond conserve plus de trois cents panneaux de bois peints aux XIVe et XVe siècles de figures, d'animaux et de créatures fantastiques."
+  },
+  "cloitre-de-la-psalette": {
+    "description": "Cloître du chapitre de la cathédrale Saint-Gatien de Tours, dont la plus ancienne galerie date de 1442, mêlant architecture gothique et Renaissance. Il abritait la psalette, école de chant et scriptorium des chanoines, et conserve dans son angle nord-est un escalier à vis sculpté qui évoque celui du château de Blois."
+  },
+  "colonne-de-la-grande-armee-a-wimille": {
+    "description": "Colonne néoclassique de 54 mètres élevée à Wimille entre 1804 et 1841 à l'initiative des soldats de la Grande Armée, rassemblée au camp de Boulogne par Napoléon en vue d'une invasion de l'Angleterre. Interrompue à la chute de l'Empire puis reprise sous la Monarchie de Juillet, elle est surmontée d'une statue de Napoléon."
+  },
+  "crypte-et-tour-de-la-cathedrale-de-bourges": {
+    "description": "Sous le chœur de la cathédrale Saint-Étienne de Bourges, l'église basse et sa crypte romane, bâties entre 1195 et 1206 pour compenser la déclivité du terrain, conservent les statues priantes du duc et de la duchesse de Berry. La tour nord, reconstruite entre 1508 et 1542 après son effondrement de 1506, culmine à 65 mètres au-dessus de la cathédrale, inscrite au patrimoine mondial de l'UNESCO en 1992."
+  },
+  "domaine-national-de-saint-cloud": {
+    "description": "Ancien château royal puis impérial dominant la Seine, offert par Louis XIV à son frère Philippe d'Orléans en 1658 et doté de jardins dessinés par Le Nôtre ; Napoléon Ier y fut proclamé empereur en 1804. Incendié par un obus lors du siège de Paris en 1870 puis rasé, le château a disparu, mais son parc de 460 hectares, avec la Grande Cascade et les jardins à la française, subsiste comme domaine national."
+  },
+  "domaine-national-du-palais-royal": {
+    "description": "Palais élevé à partir de 1628 par le cardinal de Richelieu, qui le légua à Louis XIII en 1636 ; Anne d'Autriche et le jeune Louis XIV y résidèrent durant la Fronde. Passé aux ducs d'Orléans en 1692, il fut doté dans les années 1780 des galeries à arcades de Victor Louis, hauts lieux de la vie parisienne, et son jardin accueille depuis 1986 les colonnes de Daniel Buren."
+  },
+  "ensemble-cathedral-du-puy-en-velay": {
+    "description": "Cathédrale romane des XIe-XIIIe siècles bâtie en pierres volcaniques polychromes selon un plan d'inspiration byzantine, point de départ historique de la Via Podiensis vers Compostelle et lieu de pèlerinage de la Vierge noire depuis le Moyen Âge. L'ensemble comprend un cloître roman du XIIe siècle aux chapiteaux sculptés et un clocher indépendant de 56 mètres ; il est inscrit au patrimoine mondial de l'UNESCO depuis 1998."
+  },
+  "enserune-oppidum-et-musee-archeologique": {
+    "description": "Oppidum gaulois occupé sans interruption du VIe siècle avant notre ère au Ier siècle de notre ère, sur une colline dominant la plaine entre Béziers et Narbonne, l'un des sites préromains les plus importants du sud de la France. Redécouvert en 1860 et fouillé depuis 1935, il a livré une nécropole de près de 500 tombes ; le musée présente vases grecs et ibères ainsi que des armes celtiques issus des fouilles."
+  },
+  "fort-saint-andre-a-villeneuve-lez-avignon": {
+    "description": "Forteresse édifiée sur le mont Andaon à partir du règne de Jean II le Bon puis achevée sous Charles V par l'architecte Jean de Loubières, également bâtisseur du palais des Papes d'Avignon, afin d'affirmer la puissance du roi de France face à la ville pontificale, de l'autre côté du Rhône. Son enceinte de 750 mètres, son châtelet à deux tours et la tour des Masques dominent toujours Villeneuve-lès-Avignon, aux côtés de l'abbaye bénédictine voisine."
+  },
+  "forteresse-de-salses": {
+    "description": "Forteresse édifiée entre 1497 et 1503 par les Rois Catholiques Ferdinand d'Aragon et Isabelle de Castille pour verrouiller le passage entre Languedoc et Roussillon, à la frontière du royaume de France. Semi-enterrée, dotée de murs de 6 à 10 mètres d'épaisseur et de quatre tours d'angle, elle illustre la transition entre l'architecture militaire médiévale et le tir rasant adapté à l'artillerie ; prise par les troupes françaises en 1639, elle perdit son rôle stratégique après le traité des Pyrénées de 1659."
+  },
+  "grotte-de-pair-non-pair": {
+    "description": "Grotte ornée découverte en 1881 par l'érudit local François Daleau, qui y fouilla plus de 15 000 outils en silex, os et ivoire jusqu'en 1887. Ses gravures pariétales, attribuées à l'Aurignacien, entre 37 000 et 32 000 ans avant notre ère, et représentant notamment un cerf mégacéros et un cheval de 2,50 mètres, comptent parmi les plus anciennes connues et contribuèrent à établir la réalité de l'art préhistorique."
+  },
+  "hotel-de-sade": {
+    "description": "Demeure élevée en 1513 par Balthazar de Sade, ancêtre du marquis de Sade, mêlant gothique flamboyant et Renaissance dans le centre de Saint-Rémy-de-Provence. Acquis par l'État en 1929, l'hôtel abrite depuis 1954 le musée archéologique où sont exposées les découvertes du site antique de Glanum, aux côtés de vestiges de thermes romains du IVe siècle et d'une chapelle du XVIe siècle."
+  },
+  "hotel-de-sully": {
+    "description": "Hôtel particulier construit de 1625 à 1630 dans le Marais par l'architecte Jean Androuet du Cerceau pour le financier Mesme Gallet, puis acquis en 1634 par Maximilien de Béthune, duc de Sully, qui en fit décorer l'intérieur. Ses façades sur cour et sur jardin, ornées de reliefs allégoriques des Saisons et des Éléments, comptent parmi les plus abouties du style Louis XIII ; restauré, il abrite depuis 1967 le siège du Centre des monuments nationaux."
+  },
+  "maison-d-ernest-renan-a-treguier": {
+    "description": "Maison à pans de bois du début du XVIIe siècle, à Tréguier, où naquit l'écrivain et philosophe Ernest Renan en 1823 et qu'il habita jusqu'à ses quinze ans. Léguée à l'État par ses petites-filles, elle est aujourd'hui un musée qui présente le mobilier breton d'époque, la reconstitution de son bureau du Collège de France et des souvenirs de sa sœur Henriette."
+  },
+  "maison-de-george-sand-a-nohant": {
+    "description": "Château du XVIIIe siècle en Berry, hérité par George Sand en 1821 et où elle s'installa définitivement en 1853 après avoir reçu Chopin, Liszt, Balzac, Flaubert et Delacroix ; elle y mourut en 1876. La maison conserve son mobilier, ses collections d'histoire naturelle et le théâtre de marionnettes créé par son fils Maurice en 1847."
+  },
+  "maison-de-georges-clemenceau-a-saint-vincent-sur-jard": {
+    "description": "Maison vendéenne traditionnelle face à l'océan, à Saint-Vincent-sur-Jard, où Georges Clemenceau se retira après sa défaite à l'élection présidentielle de 1920 et vécut jusqu'à sa mort en 1929. Le musée conserve son mobilier et ses souvenirs, dont des cadeaux diplomatiques japonais, ainsi qu'un jardin impressionniste inspiré de celui de son ami Claude Monet à Giverny."
+  },
+  "monastere-de-saorge": {
+    "description": "Couvent franciscain fondé en 1633 au-dessus du village perché de Saorge, dans la haute vallée de la Roya. Son cloître à quatre galeries conserve des fresques du XVIIIe siècle consacrées à la vie de saint François, et le monastère, racheté par l'État en 1967, accueille depuis 2001 une résidence d'écrivains."
+  },
+  "monastere-royal-de-brou-a-bourg-en-bresse": {
+    "description": "Ensemble monastique élevé à partir de 1506 par Marguerite d'Autriche pour abriter le tombeau de son époux Philibert le Beau, dans le style gothique flamboyant de l'architecte brabançon Louis van Bodeghem. L'église Saint-Nicolas-de-Tolentin conserve les tombeaux sculptés de Marguerite d'Autriche, Philibert le Beau et Marguerite de Bourbon, tandis que les trois cloîtres accueillent aujourd'hui le musée de Brou."
+  },
+  "palais-du-tau-a-reims": {
+    "description": "Ancienne résidence des archevêques de Reims, remaniée dans le style classique par Robert de Cotte à la fin du XVIIe siècle, le palais accueillait le sacre des rois de France et le banquet royal qui le suivait dans la salle du Tau. Musée depuis 1972, il présente les statues originales de la cathédrale — dont un Goliath de 5,4 mètres —, des tapisseries et le trésor du sacre, avec le talisman de Charlemagne."
+  },
+  "palais-jacques-c-ur": {
+    "description": "Demeure édifiée entre 1443 et 1451 pour Jacques Cœur, riche marchand anobli par Charles VII, dans le style gothique flamboyant annonçant la Renaissance. Quatre ailes disposées autour d'une cour intérieure abritent cheminées sculptées, chapelle armoriée et huit escaliers à vis ornés des coquilles et des cœurs, emblèmes du marchand."
+  },
+  "site-archeologique-de-glanum": {
+    "description": "Cité antique occupée du VIe siècle avant notre ère au IIIe siècle de notre ère, où se superposent un sanctuaire celto-ligure voué à une source guérisseuse, un habitat hellénistique influencé par Marseille et une ville romaine prospère sous Auguste. Le site conserve un forum, des thermes, des maisons à péristyle et, à son entrée, le mausolée des Jules et l'arc municipal, connus comme Les Antiques."
+  },
+  "site-des-megalithes-de-locmariaquer": {
+    "description": "Ensemble mégalithique édifié entre 5000 et 3800 ans avant notre ère, réunissant le Grand Menhir brisé — bloc de granite de plus de 20 mètres, la plus grande stèle connue d'Europe, aujourd'hui fragmenté en quatre morceaux —, le dolmen de la Table des Marchands et le tumulus d'Er Grah, long de 140 mètres. Inscrit au patrimoine mondial de l'UNESCO en 2025 avec les mégalithes de Carnac."
+  },
+  "site-gallo-romain-de-sanxay": {
+    "description": "Vaste sanctuaire gallo-romain voué au culte des eaux guérisseuses, actif du Ier au IIe siècle, organisé autour d'un temple à cella octogonale entourée d'un portique en croix, d'un théâtre de 89 mètres pouvant accueillir près de 6 600 spectateurs et de thermes. Mis au jour par l'abbé Camille de La Croix entre 1881 et 1883, l'ensemble s'étend sur une vingtaine d'hectares au fond de la vallée de la Vonne."
+  },
+  "sites-et-musee-archeologiques-de-montmaurin": {
+    "description": "Le musée de Montmaurin retrace 400 000 ans d'occupation humaine, de la grotte de Coupe-Gorge — où furent mis au jour des ossements humains vieux de 200 000 ans et un squelette de lion des cavernes — à la villa gallo-romaine de Lassalles, vaste domaine agricole transformé au IVe siècle en un palais de 5 800 m² doté de deux péristyles, de thermes et d'un temple gaulois hexagonal."
+  },
+  "sites-prehistoriques-de-la-vallee-de-la-vezere": {
+    "description": "Le Centre des monuments nationaux gère sept des sites inscrits en 1979 au patrimoine mondial de l'UNESCO dans la vallée de la Vézère : les grottes ornées de Font-de-Gaume et des Combarelles, l'abri sculpté du Poisson, le site de Cap Blanc à la frise animalière sculptée, et les gisements du Moustier, de la Micoque et de la Ferrassie. Ensemble, ils documentent l'occupation humaine du Paléolithique moyen au Paléolithique supérieur, du Moustérien au Magdalénien."
+  },
+  "tour-pey-berland-a-bordeaux": {
+    "description": "Clocher gothique isolé de la cathédrale Saint-André, élevé entre 1440 et 1500 à l'initiative de l'archevêque Pey Berland pour ne pas faire peser les vibrations de ses cloches sur l'édifice voisin. Du sommet de la tour, haute de 66 mètres et accessible par 233 marches, un panorama s'ouvre sur Bordeaux ; le site est inscrit au patrimoine mondial de l'UNESCO au titre des chemins de Saint-Jacques-de-Compostelle."
+  },
+  "tours-de-la-cathedrale-de-reims": {
+    "description": "Les tours de la façade occidentale de la cathédrale gothique de Reims, où furent sacrés les rois de France de 1027 à 1825 et aujourd'hui inscrite au patrimoine mondial de l'UNESCO, s'élèvent à environ 81,5 mètres et furent achevées vers 1275. L'ascension mène jusqu'à leur sommet, qui conserve les vestiges des cloches fondues dans l'incendie de 1914, et offre un panorama sur la ville."
+  },
+  "tours-de-la-rochelle": {
+    "description": "Trois tours médiévales gardent l'entrée du vieux port de La Rochelle : la tour Saint-Nicolas et la tour de la Chaîne, du XIVe siècle, entre lesquelles une chaîne barrait autrefois l'accès au port. La tour de la Lanterne, fondée à la fin du XIIe siècle, servit de prison aux corsaires puis aux militaires ; plus de 600 graffitis y furent gravés par les détenus."
+  },
+  "tours-et-remparts-d-aigues-mortes": {
+    "description": "Les remparts qui encerclent Aigues-Mortes, longs de 1 640 mètres et flanqués de 15 tours et 10 portes, furent élevés entre 1272 et la fin du XIIIe siècle sous Philippe III puis Philippe IV le Bel. La tour de Constance, bâtie par Saint Louis entre 1240 et 1249, devint après 1685 une prison pour femmes protestantes ; Marie Durand y fut détenue 38 ans, de 1730 à 1768."
+  },
+  "tours-et-tresor-de-la-cathedrale-d-amiens": {
+    "description": "La cathédrale gothique d'Amiens, commencée en 1220 par l'architecte Robert de Luzarches, est le plus vaste édifice gothique de France par son volume et culmine à 112,70 mètres ; elle est inscrite au patrimoine mondial de l'UNESCO depuis 1981. La visite mène au sommet de la tour nord par 307 marches, et au trésor, constitué depuis 1206 autour de la relique du chef de saint Jean-Baptiste rapportée de la quatrième croisade."
+  },
+  "trophee-d-auguste-a-la-turbie": {
+    "description": "Érigé en 6 avant J.-C. sur la Via Julia Augusta pour célébrer la soumission d'une cinquantaine de peuples alpins par Auguste, le Trophée des Alpes atteignait à l'origine 50 mètres de haut, avec un socle carré de 38 mètres de côté surmonté d'une rotonde à 24 colonnes et d'un toit conique portant la statue de l'empereur. Transformé en tour de guet au Moyen Âge, le monument fut restauré dans les années 1930 grâce au mécénat de l'Américain Edward Tuck et inauguré en 1934."
+  },
+  "tresor-de-la-cathedrale-d-autun": {
+    "description": "Bâtie au XIIe siècle pour abriter les reliques de saint Lazare, arrivées à Autun en 972, la cathédrale Saint-Lazare est ornée du tympan du Jugement dernier sculpté par Gislebertus, signé « Gislebertus hoc fecit ». Son trésor, installé dans un bâtiment élevé vers 1520 par l'évêque Jacques Hurault, réunit reliquaires, orfèvrerie et vêtements liturgiques, dispersés à la Révolution puis reconstitués au XIXe siècle."
+  },
+  "tresor-de-la-cathedrale-de-lyon": {
+    "description": "La primatiale Saint-Jean de Lyon, édifiée entre 1175 et 1481 dans un style mêlant roman et gothique, abrite l'une des plus anciennes horloges astronomiques en fonctionnement, datée du XIVe siècle. Son trésor, réuni au XIXe siècle par les cardinaux Fesch et de Bonald dans la manécanterie attenante, rassemble orfèvrerie, émaux limousins, tapisseries et vêtements liturgiques du Xe au XIXe siècle, dont un ostensoir offert par Joséphine de Beauharnais."
+  },
+  "villa-cavrois": {
+    "description": "Villa moderniste construite à Croix entre 1929 et 1932 par l'architecte Robert Mallet-Stevens pour l'industriel textile Paul Cavrois, elle déploie sur 60 mètres de long béton armé, acier et verre, avec une piscine de 27 mètres et des matériaux précieux comme le marbre vert de Suède. Abandonnée et vandalisée après 1987, classée monument historique en 1990, elle fut acquise par l'État puis restaurée avant sa réouverture au public en 2015."
+  },
+  "village-fortifie-mont-dauphin": {
+    "description": "Place forte imaginée par Vauban et construite à partir de 1693 sur un éperon rocheux à 1 050 mètres d'altitude, au confluent du Guil et de la Durance, pour protéger le royaume des incursions du duc de Savoie. Ses remparts de marbre rose, casernes, échauguettes, arsenal et poudrière sont inscrits depuis 2008 au patrimoine mondial de l'UNESCO au titre des fortifications de Vauban ; environ 170 habitants vivent encore dans le village."
   }
 }

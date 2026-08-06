@@ -1,4 +1,40 @@
 {
+  "abbaye-de-beaulieu-en-rouergue": {
+    "name": "Abadía de Beaulieu-en-Rouergue",
+    "description": "Abadía cisterciense fundada en 1144 por monjes procedentes de Clairvaux, en el valle del Seye, en el Rouergue. Vendida como bien nacional en 1791 y cedida al Estado en 1973, conserva su iglesia y su sala capitular góticas y alberga hoy una de las colecciones más ricas de arte francés de posguerra (1945-1975)."
+  },
+  "abbaye-de-charroux": {
+    "name": "Abadía de Charroux",
+    "description": "Abadía benedictina fundada en 785 por el conde Roger de Limoges bajo la protección de Carlomagno, célebre por su reliquia del Santo Prepucio y por una planta de rotonda única en Francia. Solo subsisten la torre-linterna octogonal, llamada torre Carlomagno, de 37 metros de altura, y algunos vestigios del claustro y de la sala capitular."
+  },
+  "abbaye-de-cluny": {
+    "name": "Abadía de Cluny",
+    "description": "Abadía benedictina fundada en 910 por Guillermo I de Aquitania, cuna de la orden cluniacense, que llegó a contar con cerca de un millar de monasterios en Europa. Su iglesia abacial, Cluny III, construida a partir de 1088, fue la mayor de la cristiandad hasta la edificación de San Pedro de Roma; vendida como bien nacional y en gran parte demolida después de 1798, solo conserva el campanario del Agua Bendita y el transepto sur."
+  },
+  "abbaye-de-la-sauve-majeure": {
+    "name": "Abadía de La Sauve-Majeure",
+    "description": "Abadía benedictina fundada en 1079 por Gérard de Corbie, etapa importante de los caminos de Santiago de Compostela, inscrita por ello en el Patrimonio Mundial de la UNESCO en 1998. En ruinas desde el siglo XIX, conserva su cabecera románica y más de ochenta capiteles esculpidos, uno de los conjuntos más ricos de la escultura románica en la Gironda."
+  },
+  "abbaye-de-montmajour": {
+    "name": "Abadía de Montmajour",
+    "description": "Abadía benedictina fundada en 948 cerca de Arlés, que llegó a ser una de las más ricas de Provenza, como atestiguan la iglesia abacial de Notre-Dame (1130-1182), el claustro románico, la capilla de Sainte-Croix y el eremitorio troglodítico de Saint-Pierre. Abandonada tras la Revolución, inspiró numerosos dibujos a Van Gogh en 1888."
+  },
+  "abbaye-du-bec-hellouin": {
+    "name": "Abadía de Bec-Hellouin",
+    "description": "Abadía benedictina fundada en 1034 por Herluino, cuya escuela, dirigida por Lanfranco y luego por Anselmo, futuros arzobispos de Canterbury, irradió por toda la Europa medieval. Convertida por Napoleón en depósito de remonta militar, recuperó su comunidad monástica en 1948; puede visitarse la torre de Saint-Nicolas, del siglo XV, y el claustro."
+  },
+  "abbaye-du-mont-saint-michel": {
+    "name": "Abadía del Monte Saint-Michel",
+    "description": "Santuario fundado hacia 708 por el obispo Aubert de Avranches, convertido en abadía benedictina en 966, edificado en lo alto de un islote rocoso sometido a las grandes mareas de la bahía. La Merveille, conjunto gótico de salas superpuestas erigido entre 1211 y 1228, se suma a la iglesia románica del siglo XI; inscrita en el Patrimonio Mundial de la UNESCO en 1979, la abadía acoge desde 2001 a las Fraternidades Monásticas de Jerusalén."
+  },
+  "abbaye-du-thoronet": {
+    "name": "Abadía de Thoronet",
+    "description": "Abadía cisterciense fundada en 1146, la más antigua de las «tres hermanas provenzales» junto con Sénanque y Silvacane, construida en piedra local entre 1160 y 1180. La UNESCO la considera el ejemplo más logrado de la arquitectura cisterciense; restaurada entre 1985 y 1990, es hoy un museo y un espacio para conciertos."
+  },
+  "alignements-de-carnac": {
+    "name": "Alineaciones de Carnac",
+    "description": "Cerca de 3 000 menhires erguidos hacia el 2500 a.C. a lo largo de unos 4 kilómetros, repartidos en tres grandes alineaciones: Ménec, Kermario y Kerlescan. Su función, aún misteriosa, ha dado lugar a numerosas hipótesis; el sitio se incorporó a la lista del Patrimonio Mundial de la UNESCO en 2025."
+  },
   "arc-de-triomphe": {
     "name": "Arco de Triunfo",
     "description": "Arco triunfal encargado por Napoleón en 1806 y terminado en 1836 en lo alto de los Campos Elíseos. Alberga la tumba del Soldado Desconocido, y desde su terraza se dominan las doce avenidas que irradian de la place de l'Étoile."
@@ -23,21 +59,113 @@
     "name": "Bourse de Commerce - Colección Pinault",
     "description": "Museo de arte contemporáneo abierto en 2021 en la antigua bolsa de comercio de París, un edificio circular coronado por una cúpula de hierro y cristal del siglo XIX. Rediseñado por Tadao Ando, presenta exposiciones rotatorias de la colección de François Pinault."
   },
+  "cairn-de-barnenez": {
+    "name": "Cairn de Barnenez",
+    "description": "Cairn neolítico erigido hacia el 4700 a.C., uno de los monumentos más antiguos de Europa, de 75 metros de largo y que encierra once dólmenes de corredor construidos en dos fases. Amenazado por una cantera en 1955, fue salvado gracias al arqueólogo Pierre-Roland Giot."
+  },
+  "cathedrale-de-besancon-et-son-horloge-astronomique": {
+    "name": "Catedral de Besanzón y su reloj astronómico",
+    "description": "Catedral de San Juan de Besanzón, cuyo reloj astronómico fue construido entre 1857 y 1860 por el relojero Auguste-Lucien Vérité. Sus cerca de 30 000 piezas mecánicas animan 122 indicaciones y autómatas que muestran horas, mareas, eclipses y fiestas religiosas de todo el mundo."
+  },
+  "cathedrale-et-tresor-de-chartres": {
+    "name": "Catedral y tesoro de Chartres",
+    "description": "Catedral gótica construida en esencia en los treinta años posteriores al incendio de 1194 y consagrada en 1260, célebre por sus vidrieras del siglo XIII y su inimitable azul. Su tesoro, reabierto en 2024, conserva el velo de la Virgen (Sancta Camisia), venerado desde el siglo IX."
+  },
   "cathedrale-notre-dame-de-paris": {
     "name": "Catedral de Notre-Dame de París",
     "description": "Catedral gótica de la Île de la Cité, construida entre 1163 y 1345, célebre por su fachada de dos torres, sus rosetones y sus arbotantes. Dañada por el incendio de 2019, reabrió al público en diciembre de 2024 tras su restauración."
+  },
+  "chapelle-des-moines-de-berze-la-ville": {
+    "name": "Capilla de los Monjes de Berzé-la-Ville",
+    "description": "Capilla románica del priorato entregado en 1100 a Hugo de Semur, abad de Cluny, como residencia de retiro. Sus pinturas murales de comienzos del siglo XII, redescubiertas en 1887 bajo un encalado, figuran entre los testimonios más bellos del arte cluniacense."
   },
   "chapelle-expiatoire": {
     "name": "Capilla Expiatoria",
     "description": "Capilla neoclásica levantada entre 1815 y 1826 por orden de Luis XVIII sobre el antiguo cementerio de la Madeleine, donde Luis XVI y María Antonieta fueron enterrados tras su ejecución. Obra de Pierre Fontaine, es un memorial a las víctimas de la Revolución."
   },
+  "chateau-d-angers": {
+    "name": "Castillo de Angers",
+    "description": "Fortaleza construida entre 1230 y 1242 para san Luis y su madre Blanca de Castilla, ceñida por diecisiete torres y más de 800 metros de murallas que dominan el río Maine. Alberga desde 1954 el tapiz del Apocalipsis, tejido entre 1373 y 1380 para Luis I de Anjou, uno de los mayores tapices medievales conservados en el mundo."
+  },
+  "chateau-d-assier": {
+    "name": "Castillo de Assier",
+    "description": "Castillo renacentista construido entre 1518 y 1535 por Galiot de Genouillac, gran maestre de artillería de Francisco I, sobre los cimientos de una fortaleza medieval. Muy demolido en el siglo XVIII, solo subsiste el ala oeste, decorada con un friso esculpido que celebra las hazañas militares de su constructor."
+  },
+  "chateau-d-aulteribe": {
+    "name": "Castillo de Aulteribe",
+    "description": "Fortaleza fortificada en 1467 por Charles Motier de La Fayette, transformada en el siglo XIX al gusto neogótico por Joseph de Pierre y su esposa Marie-Pauline Onslow. Legada al Estado en 1954, conserva mobiliario y tapices del siglo XV al XIX."
+  },
+  "chateau-d-azay-le-rideau": {
+    "name": "Castillo de Azay-le-Rideau",
+    "description": "Castillo renacentista construido entre 1518 y 1527 para Gilles Berthelot, tesorero de Francisco I, en parte sobre pilotes en el lecho del río Indre. Confiscado por el rey tras la caída en desgracia de su propietario, es hoy uno de los castillos del Loira más visitados."
+  },
+  "chateau-d-if": {
+    "name": "Castillo de If",
+    "description": "Fortaleza edificada entre 1524 y 1531 por orden de Francisco I para defender la rada de Marsella, convertida en prisión de Estado desde mediados del siglo XVI. Alejandro Dumas encerró allí a Edmundo Dantés en El conde de Montecristo, lo que hizo célebre a este pequeño islote rocoso."
+  },
+  "chateau-d-oiron": {
+    "name": "Castillo de Oiron",
+    "description": "Castillo renacentista de los Gouffier, en particular de Claude Gouffier, gran escudero de Francia, célebre por su galería pintada de 55 metros que ilustra la guerra de Troya. Propiedad del Estado desde 1946, alberga desde 1993 la colección de arte contemporáneo Curios & Mirabilia, concebida por Jean-Hubert Martin."
+  },
+  "chateau-de-bouges": {
+    "name": "Castillo de Bouges",
+    "description": "Pequeño castillo neoclásico construido en 1765 para Charles Leblanc de Marnaval, al estilo del Petit Trianon. Legado en 1967, con sus 1 600 muebles, por Henri Viguier, presidente del Bazar de l'Hôtel de Ville, está rodeado de un parque de 80 hectáreas diseñado por Henri y Achille Duchêne."
+  },
+  "chateau-de-bussy-rabutin": {
+    "name": "Castillo de Bussy-Rabutin",
+    "description": "Castillo del siglo XIV remodelado en el Renacimiento, donde el escritor Roger de Bussy-Rabutin, desterrado por orden de Luis XIV tras su Historia amorosa de las Galias, pasó diecisiete años haciendo pintar más de quinientos retratos de la corte. Sus aposentos componen una auténtica galería satírica del reinado del Rey Sol."
+  },
+  "chateau-de-carrouges": {
+    "name": "Castillo de Carrouges",
+    "description": "Castillo de las familias Le Veneur y luego Blosset, construido en ladrillo rojo y negro a partir del siglo XIV y rodeado de fosos. El pabellón de entrada, de estilo Luis XII, fue encargado por el cardenal Jean Le Veneur; propiedad del Estado desde 1936, está gestionado por el Centre des monuments nationaux."
+  },
+  "chateau-de-castelnau-bretenoux": {
+    "name": "Castillo de Castelnau-Bretenoux",
+    "description": "Fortaleza de arenisca roja de los señores de Castelnau, vasallos de los condes de Tolosa, construida a partir del siglo XII sobre un promontorio que domina el valle del Dordoña. Arruinada por un incendio en 1851, fue restaurada durante treinta años por el cantante de ópera Jean Mouliérat, quien legó al Estado el castillo y sus colecciones."
+  },
   "chateau-de-champs-sur-marne": {
     "name": "Castillo de Champs-sur-Marne",
     "description": "Castillo de principios del siglo XVIII al este de París, alquilado un tiempo por Madame de Pompadour y conocido por sus interiores rococó, sus decoraciones de chinerías y su mobiliario de época. Su parque de 85 hectáreas combina jardines a la francesa y zonas paisajísticas."
   },
+  "chateau-de-chareil-cintrat": {
+    "name": "Castillo de Chareil-Cintrat",
+    "description": "Antiguo feudo de los Borbones, remodelado en el Renacimiento por Claude Morin, controlador de guerras enriquecido durante las campañas de Italia. La escalera y una habitación del primer piso conservan pinturas murales del siglo XVI que representan a los dioses del Olimpo y un ciclo astrológico."
+  },
+  "chateau-de-chateaudun": {
+    "name": "Castillo de Châteaudun",
+    "description": "Fortaleza fundada en 1171, cuya torre del homenaje cilíndrica, de 31 metros de altura y una de las más antiguas de Francia, data de 1180. Jean de Dunois, compañero de armas de Juana de Arco, mandó construir entre 1452 y 1468 un ala residencial gótica y la Sainte-Chapelle, que conserva una quincena de estatuas de santos."
+  },
+  "chateau-de-coucy": {
+    "name": "Castillo de Coucy",
+    "description": "Fortaleza construida a partir de 1225 por Enguerrand III de Coucy, cuya torre del homenaje cilíndrica de 54 metros, la más alta de Europa, ilustraba el lema del señor de Coucy: «Rey no soy, ni príncipe, ni duque, ni conde tampoco. Soy el señor de Coucy». Fue dinamitada en 1917 por el ejército alemán en retirada."
+  },
+  "chateau-de-fougeres-sur-bievre": {
+    "name": "Castillo de Fougères-sur-Bièvre",
+    "description": "Castillo reconstruido entre 1475 y 1483 para Pierre de Refuge, tesorero de Luis XI, sobre las ruinas de una fortaleza destruida durante la guerra de los Cien Años. En el siglo XVI se añadió alrededor de la torre medieval conservada una galería renacentista de arcos rebajados."
+  },
+  "chateau-de-gramont": {
+    "name": "Castillo de Gramont",
+    "description": "Castillo fortificado del siglo XIII, que pasó de Simón de Montfort a la familia de Montaut, dotado en el Renacimiento, entre 1535 y 1545, de un ala con ventanas de parteluz y una escalera de caracol con bóveda de crucería. Donado al Centre des monuments nationaux por el matrimonio Dichamp, conserva su mobiliario original."
+  },
+  "chateau-de-la-motte-tilly": {
+    "name": "Castillo de La Motte-Tilly",
+    "description": "Castillo construido a partir de 1754 para el abate Terray, futuro controlador general de las finanzas de Luis XV, que permaneció en la misma familia hasta 1972. Amueblado por completo en el siglo XX por la marquesa de Maillé, quien lo legó junto con su dominio de 1 000 hectáreas al Estado, con la condición de que permaneciera amueblado y deshabitado."
+  },
   "chateau-de-maisons": {
     "name": "Castillo de Maisons-Laffitte",
     "description": "Castillo construido por François Mansart entre 1630 y 1646 para René de Longueil, considerado una obra fundacional de la arquitectura clásica francesa. Su escalera monumental y sus interiores de piedra tallada influyeron en el diseño de Versalles."
+  },
+  "chateau-de-montal": {
+    "name": "Castillo de Montal",
+    "description": "Castillo renacentista erigido entre 1519 y 1534 por Jeanne de Balsac d'Entraygues, en memoria de su hijo Robert, muerto en la guerra en 1523, con una escalera recta de inspiración italiana y bustos esculpidos de su familia. Desmantelado y vendido en 1880, fue recomprado y restaurado entre 1908 y 1913 por el industrial Maurice Fenaille, quien lo donó al Estado."
+  },
+  "chateau-de-pierrefonds": {
+    "name": "Castillo de Pierrefonds",
+    "description": "Fortaleza comenzada en 1396 para Luis de Orleans, desmantelada por orden de Luis XIII en 1617 y luego en ruinas durante dos siglos. Napoleón III confió su restauración a Eugène Viollet-le-Duc a partir de 1857, quien la reinventó como una auténtica lección de arquitectura medieval."
+  },
+  "chateau-de-puyguilhem": {
+    "name": "Castillo de Puyguilhem",
+    "description": "Pequeño castillo renacentista construido entre 1513 y 1535 por Mondot de La Marthonie, primer presidente del parlamento de Guyena, como residencia de caza inspirada en los castillos del Loira. Abandonado y luego expropiado en 1938, fue restaurado por el Estado a lo largo de unos veinte años."
   },
   "chateau-de-rambouillet": {
     "name": "Castillo de Rambouillet",
@@ -47,25 +175,85 @@
     "name": "Castillo de Sceaux, Museo Departamental",
     "description": "Museo departamental instalado en un castillo del siglo XIX en el corazón del dominio creado para Colbert. Pinturas, mobiliario y cerámicas de Sceaux evocan la historia del lugar y la vida en Île-de-France, en un parque diseñado por André Le Nôtre."
   },
+  "chateau-de-talcy": {
+    "name": "Castillo de Talcy",
+    "description": "Castillo comprado en 1517 por el banquero florentino Bernard Salviati, cuya hija Cassandre, conocida por Pierre de Ronsard en 1545, le inspiró el poema «Mignonne, allons voir si la rose...». Catalina de Médicis y Carlos IX celebraron allí en 1562 una conferencia entre católicos y protestantes."
+  },
+  "chateau-de-villeneuve-lembron": {
+    "name": "Castillo de Villeneuve-Lembron",
+    "description": "Castillo construido a finales del siglo XV para Rigaud d'Aureille, chambelán de Luis XI y luego de Carlos VIII, a caballo entre la tradición defensiva —cuatro torres redondas y amplios fosos— y el confort renacentista. Sus salas conservan sabrosas pinturas murales, entre ellas un retrato caricaturesco de su constructor."
+  },
   "chateau-de-vincennes": {
     "name": "Castillo de Vincennes",
     "description": "Residencia real medieval en el límite oriental de París, con un torreón de 52 metros, el más alto de su tipo en Europa, y una Sainte-Chapelle iniciada en 1379. Los reyes de Francia vivieron aquí antes de Versalles; el torreón fue después prisión de Estado."
+  },
+  "chateau-de-voltaire-a-ferney": {
+    "name": "Castillo de Voltaire en Ferney",
+    "description": "Residencia donde Voltaire se instaló en 1758 y vivió hasta su muerte en 1778, tras hacer reconstruir el castillo y transformar el pueblo en una pequeña y próspera localidad de 1 500 habitantes gracias a manufacturas de relojería y sedería. Restaurado entre 2015 y 2018, muestra sus aposentos y su capilla de 1761."
+  },
+  "chateau-ducal-de-cadillac": {
+    "name": "Castillo ducal de Cadillac",
+    "description": "Castillo construido entre 1598 y 1634 para Jean-Louis de Nogaret de La Valette, duque de Épernon y favorito de Enrique III, en un estilo que ya anunciaba el clasicismo del siglo XVII. Techos pintados, chimeneas monumentales y tapices componen su decoración; convertido en prisión de mujeres de 1822 a 1951, hoy lo gestiona el Centre des monuments nationaux."
+  },
+  "chateau-et-remparts-de-la-cite-de-carcassonne": {
+    "name": "Castillo y murallas de la Ciudad de Carcasona",
+    "description": "Ciudad fortificada de origen galorromano, ceñida por una doble muralla de casi 3 kilómetros y 52 torres, que capituló ante Simón de Montfort durante la cruzada albigense en 1209. Restaurada a partir de la década de 1850 por Eugène Viollet-le-Duc, está inscrita en el Patrimonio Mundial de la UNESCO desde 1997."
   },
   "chateau-musee-de-nemours": {
     "name": "Museo del Castillo de Nemours",
     "description": "Castillo del siglo XII en el centro de Nemours, salvado por artistas locales y convertido en museo en 1903. Sus colecciones se centran en las bellas artes de finales del siglo XIX y principios del XX, con obras del escultor Justin-Chrysostome Sanson."
   },
+  "cite-internationale-de-la-langue-francaise-au-chateau-de-villers-cotterets": {
+    "name": "Ciudad Internacional de la Lengua Francesa en el castillo de Villers-Cotterêts",
+    "description": "Castillo renacentista construido por Francisco I a partir de 1532, donde se firmó en 1539 la ordenanza que impuso el francés en los actos administrativos y judiciales del reino. Restaurado y transformado en Ciudad Internacional de la Lengua Francesa, reabrió en 2023 con un recorrido permanente dedicado a la historia del francés y a la francofonía."
+  },
+  "cloitre-de-la-cathedrale-de-bayonne": {
+    "name": "Claustro de la catedral de Bayona",
+    "description": "Claustro gótico radiante del siglo XIV adosado al flanco sur de la catedral de Santa María de Bayona, uno de los más amplios de Francia. Sus galerías albergan enfeudos y losas funerarias de los siglos XIV al XVIII y antaño servían de lugar de reunión a los gremios y asambleas vecinales."
+  },
+  "cloitre-de-la-cathedrale-de-frejus": {
+    "name": "Claustro de la catedral de Fréjus",
+    "description": "Claustro románico de doble galería del siglo XII, contiguo a la catedral de San Leoncio de Fréjus, cuyo piso superior se apoya en finas columnas corintias del siglo XIII. Su techo conserva más de trescientos paneles de madera pintados en los siglos XIV y XV con figuras, animales y criaturas fantásticas."
+  },
+  "cloitre-de-la-psalette": {
+    "name": "Claustro de la Psalette",
+    "description": "Claustro capitular de la catedral de San Gaciano de Tours, cuya galería más antigua data de 1442 y combina arquitectura gótica y renacentista. Albergaba la psalette, escuela de canto y scriptorium de los canónigos, y conserva en su ángulo noreste una escalera de caracol esculpida que recuerda a la del castillo de Blois."
+  },
   "collections-de-la-fondation-de-coubertin": {
     "name": "Colecciones de la Fundación de Coubertin",
     "description": "Museo de la Fondation de Coubertin, en el valle de Chevreuse, dedicado a la escultura en torno a la figura de Joseph Bernard y a los oficios artísticos. Los bronces se exponen al aire libre en el Jardin des Bronzes, junto a los renombrados talleres del dominio."
+  },
+  "colonne-de-la-grande-armee-a-wimille": {
+    "name": "Columna de la Grande Armée en Wimille",
+    "description": "Columna neoclásica de 54 metros erigida en Wimille entre 1804 y 1841 por iniciativa de los soldados de la Grande Armée, reunida en el campamento de Boulogne por Napoleón con vistas a una invasión de Inglaterra. Interrumpida con la caída del Imperio y reanudada bajo la Monarquía de Julio, está coronada por una estatua de Napoleón."
   },
   "conciergerie": {
     "name": "Conciergerie",
     "description": "Parte conservada del palacio real medieval de la Île de la Cité, convertida después en la prisión más tristemente célebre de la Revolución, donde María Antonieta estuvo recluida antes de su ejecución. La gótica sala de los Gens d'armes data de principios del siglo XIV."
   },
+  "crypte-et-tour-de-la-cathedrale-de-bourges": {
+    "name": "Cripta y torre de la catedral de Bourges",
+    "description": "Bajo el coro de la catedral de San Esteban de Bourges, la iglesia baja y su cripta románica, construidas entre 1195 y 1206 para compensar el desnivel del terreno, conservan las estatuas orantes del duque y la duquesa de Berry. La torre norte, reconstruida entre 1508 y 1542 tras su hundimiento de 1506, se eleva a 65 metros sobre la catedral, inscrita en el Patrimonio Mundial de la UNESCO en 1992."
+  },
+  "domaine-national-de-saint-cloud": {
+    "name": "Dominio nacional de Saint-Cloud",
+    "description": "Antiguo castillo real y luego imperial sobre el Sena, regalado por Luis XIV a su hermano Felipe de Orleans en 1658 y dotado de jardines diseñados por Le Nôtre; Napoleón I fue proclamado emperador allí en 1804. Incendiado por un obús durante el sitio de París de 1870 y luego derribado, el castillo ha desaparecido, pero su parque de 460 hectáreas, con la Gran Cascada y los jardines a la francesa, subsiste como dominio nacional."
+  },
+  "domaine-national-du-palais-royal": {
+    "name": "Dominio nacional del Palais-Royal",
+    "description": "Palacio erigido a partir de 1628 por el cardenal de Richelieu, quien lo legó a Luis XIII en 1636; Ana de Austria y el joven Luis XIV residieron allí durante la Fronda. Pasado a los duques de Orleans en 1692, se dotó en la década de 1780 de las galerías porticadas de Victor Louis, muy concurridas en la vida parisina, y su jardín acoge desde 1986 las columnas de Daniel Buren."
+  },
   "ecomusee-94260": {
     "name": "Ecomuseo del Grand-Orly Seine Bièvre",
     "description": "Museo comunitario fundado en 1979 en la antigua granja de Cottinville, en Fresnes, que documenta la vida cotidiana y los cambios sociales de los suburbios del sur de París. Reúne objetos y testimonios de los vecinos y presenta exposiciones de temática social."
+  },
+  "ensemble-cathedral-du-puy-en-velay": {
+    "name": "Conjunto catedralicio de Le Puy-en-Velay",
+    "description": "Catedral románica de los siglos XI al XIII construida en piedras volcánicas policromas según un plano de inspiración bizantina, punto de partida histórico de la Via Podiensis hacia Compostela y lugar de peregrinación a la Virgen negra desde la Edad Media. El conjunto incluye un claustro románico del siglo XII con capiteles esculpidos y un campanario independiente de 56 metros; está inscrito en el Patrimonio Mundial de la UNESCO desde 1998."
+  },
+  "enserune-oppidum-et-musee-archeologique": {
+    "name": "Ensérune, oppidum y museo arqueológico",
+    "description": "Oppidum galo ocupado sin interrupción desde el siglo VI a.C. hasta el siglo I d.C., sobre una colina que domina la llanura entre Béziers y Narbona, uno de los yacimientos prerromanos más importantes del sur de Francia. Redescubierto en 1860 y excavado desde 1935, sacó a la luz una necrópolis de casi 500 tumbas; el museo presenta vasos griegos e íberos, así como armas celtas procedentes de las excavaciones."
   },
   "europa-experience": {
     "name": "Europa Expérience",
@@ -75,9 +263,29 @@
     "name": "Fundación Arp",
     "description": "Casa y talleres de los artistas Jean Arp y Sophie Taeuber-Arp en Clamart, construidos en 1929 según los planos de la propia Taeuber-Arp. Las salas y el jardín muestran esculturas, relieves y obras sobre papel de la pareja, en una disposición cercana a la original."
   },
+  "fort-saint-andre-a-villeneuve-lez-avignon": {
+    "name": "Fuerte Saint-André en Villeneuve-lez-Avignon",
+    "description": "Fortaleza levantada en el monte Andaon a partir del reinado de Juan II el Bueno y terminada bajo Carlos V por el arquitecto Jean de Loubières, también constructor del palacio de los Papas de Aviñón, para afirmar el poder del rey de Francia frente a la ciudad pontificia, al otro lado del Ródano. Su recinto de 750 metros, su barbacana de dos torres y la torre de los Mascos siguen dominando Villeneuve-lez-Avignon, junto a la vecina abadía benedictina."
+  },
+  "forteresse-de-salses": {
+    "name": "Fortaleza de Salses",
+    "description": "Fortaleza construida entre 1497 y 1503 por los Reyes Católicos, Fernando de Aragón e Isabel de Castilla, para cerrar el paso entre el Languedoc y el Rosellón, en la frontera del reino de Francia. Semienterrada, con muros de 6 a 10 metros de grosor y cuatro torres angulares, ilustra la transición entre la arquitectura militar medieval y el tiro rasante adaptado a la artillería; tomada por las tropas francesas en 1639, perdió su papel estratégico tras el Tratado de los Pirineos de 1659."
+  },
+  "grotte-de-pair-non-pair": {
+    "name": "Cueva de Pair-non-Pair",
+    "description": "Cueva decorada descubierta en 1881 por el erudito local François Daleau, quien excavó allí más de 15 000 herramientas de sílex, hueso y marfil hasta 1887. Sus grabados parietales, atribuidos al Auriñaciense, entre 37 000 y 32 000 años antes de nuestra era, y que representan en particular un ciervo megaceros y un caballo de 2,50 metros, se cuentan entre los más antiguos conocidos y contribuyeron a establecer la realidad del arte prehistórico."
+  },
   "hotel-de-la-marine": {
     "name": "Hôtel de la Marine",
     "description": "El palacio del siglo XVIII de Ange-Jacques Gabriel en la place de la Concorde albergó el guardamuebles real y, durante dos siglos, el Ministerio de Marina. Reabierto en 2021, muestra apartamentos de época restaurados y grandes salones con vistas a la plaza."
+  },
+  "hotel-de-sade": {
+    "name": "Hôtel de Sade",
+    "description": "Residencia levantada en 1513 por Balthazar de Sade, antepasado del marqués de Sade, que mezcla el gótico flamígero y el Renacimiento en el centro de Saint-Rémy-de-Provence. Adquirido por el Estado en 1929, alberga desde 1954 el museo arqueológico donde se exponen los hallazgos del yacimiento antiguo de Glanum, junto a restos de unas termas romanas del siglo IV y una capilla del siglo XVI."
+  },
+  "hotel-de-sully": {
+    "name": "Hôtel de Sully",
+    "description": "Palacete construido de 1625 a 1630 en el Marais por el arquitecto Jean Androuet du Cerceau para el financiero Mesme Gallet, adquirido después en 1634 por Maximilien de Béthune, duque de Sully, quien hizo decorar su interior. Sus fachadas hacia el patio y hacia el jardín, ornadas con relieves alegóricos de las Estaciones y los Elementos, se cuentan entre las más logradas del estilo Luis XIII; restaurado, alberga desde 1967 la sede del Centre des monuments nationaux."
   },
   "la-cinematheque-francaise": {
     "name": "Cinemateca Francesa",
@@ -91,9 +299,21 @@
     "name": "Le Plateau – Frac Île-de-France",
     "description": "Sala de exposiciones del Fonds régional d'art contemporain d'Île-de-France, en el barrio de Buttes-Chaumont, en el distrito 19. Presenta varias muestras de arte contemporáneo al año, a partir de la colección regional y de artistas emergentes o internacionales."
   },
+  "maison-d-ernest-renan-a-treguier": {
+    "name": "Casa de Ernest Renan en Tréguier",
+    "description": "Casa con entramado de madera de comienzos del siglo XVII, en Tréguier, donde nació el escritor y filósofo Ernest Renan en 1823 y que habitó hasta los quince años. Legada al Estado por sus nietas, es hoy un museo que presenta mobiliario bretón de época, la reconstitución de su despacho del Collège de France y recuerdos de su hermana Henriette."
+  },
   "maison-de-balzac": {
     "name": "Casa de Balzac",
     "description": "La modesta casa del escritor en Passy, la única de sus viviendas parisinas que sigue en pie, donde vivió de 1840 a 1847 y corrigió La Comédie humaine. Manuscritos, retratos y su famoso bastón con turquesas evocan su vida y su obra."
+  },
+  "maison-de-george-sand-a-nohant": {
+    "name": "Casa de George Sand en Nohant",
+    "description": "Castillo del siglo XVIII en el Berry, heredado por George Sand en 1821 y en el que se instaló definitivamente en 1853, tras recibir a Chopin, Liszt, Balzac, Flaubert y Delacroix; allí murió en 1876. La casa conserva su mobiliario, sus colecciones de historia natural y el teatro de marionetas creado por su hijo Maurice en 1847."
+  },
+  "maison-de-georges-clemenceau-a-saint-vincent-sur-jard": {
+    "name": "Casa de Georges Clemenceau en Saint-Vincent-sur-Jard",
+    "description": "Casa vendeana tradicional frente al océano, en Saint-Vincent-sur-Jard, donde Georges Clemenceau se retiró tras su derrota en las elecciones presidenciales de 1920 y vivió hasta su muerte en 1929. El museo conserva su mobiliario y sus recuerdos, entre ellos regalos diplomáticos japoneses, así como un jardín impresionista inspirado en el de su amigo Claude Monet en Giverny."
   },
   "maison-de-victor-hugo": {
     "name": "Casa de Victor Hugo",
@@ -118,6 +338,14 @@
   "memorial-de-la-shoah-de-drancy": {
     "name": "Memorial de la Shoah de Drancy",
     "description": "Memorial y museo abierto en 2012 frente a la Cité de la Muette, el conjunto de viviendas que sirvió como campo de internamiento de Drancy de 1941 a 1944 y desde el que fueron deportados unos 63 000 judíos. Su exposición documenta la historia y la vida cotidiana del campo."
+  },
+  "monastere-de-saorge": {
+    "name": "Monasterio de Saorge",
+    "description": "Convento franciscano fundado en 1633 sobre el pueblo encaramado de Saorge, en el alto valle del Roya. Su claustro de cuatro galerías conserva frescos del siglo XVIII dedicados a la vida de san Francisco, y el monasterio, recomprado por el Estado en 1967, acoge desde 2001 una residencia de escritores."
+  },
+  "monastere-royal-de-brou-a-bourg-en-bresse": {
+    "name": "Monasterio real de Brou, en Bourg-en-Bresse",
+    "description": "Conjunto monástico erigido a partir de 1506 por Margarita de Austria para albergar la tumba de su esposo Filiberto el Hermoso, en el estilo gótico flamígero del arquitecto brabanzón Louis van Bodeghem. La iglesia de San Nicolás de Tolentino conserva las tumbas esculpidas de Margarita de Austria, Filiberto el Hermoso y Margarita de Borbón, mientras que los tres claustros albergan hoy el museo de Brou."
   },
   "mus-musee-d-histoire-urbaine-et-sociale-de-suresnes": {
     "name": "MUS - Museo de Historia Urbana y Social de Suresnes",
@@ -555,9 +783,17 @@
     "name": "Museo Nacional de Historia Natural",
     "description": "El museo nacional de historia natural de Francia, fundado en 1793 en el Jardin des Plantes. Sus galerías van de la Grande Galerie de l'Évolution a vastas colecciones de paleontología, anatomía comparada, mineralogía y botánica."
   },
+  "palais-du-tau-a-reims": {
+    "name": "Palacio del Tau, en Reims",
+    "description": "Antigua residencia de los arzobispos de Reims, remodelada en estilo clásico por Robert de Cotte a finales del siglo XVII; el palacio acogía la consagración de los reyes de Francia y el banquete real que la seguía en la sala del Tau. Museo desde 1972, presenta las estatuas originales de la catedral —entre ellas un Goliat de 5,4 metros—, tapices y el tesoro de la consagración, con el talismán de Carlomagno."
+  },
   "palais-galliera-musee-de-la-mode-et-de-la-ville-de-paris": {
     "name": "Palais Galliera — Museo de la Moda de la Ciudad de París",
     "description": "El museo de la moda de la Ciudad de París, en un palacio de estilo renacentista del siglo XIX cerca del Trocadéro. Sus colecciones trazan la indumentaria del siglo XVIII a la actualidad, alta costura incluida, en montajes y exposiciones rotatorias."
+  },
+  "palais-jacques-c-ur": {
+    "name": "Palacio Jacques Cœur",
+    "description": "Residencia edificada entre 1443 y 1451 para Jacques Cœur, rico mercader ennoblecido por Carlos VII, en el estilo gótico flamígero que anunciaba el Renacimiento. Cuatro alas dispuestas en torno a un patio interior albergan chimeneas esculpidas, una capilla blasonada y ocho escaleras de caracol decoradas con conchas y corazones, emblemas del mercader."
   },
   "pantheon": {
     "name": "Panteón de París",
@@ -571,12 +807,72 @@
     "name": "Sainte-Chapelle",
     "description": "La capilla real gótica de la Île de la Cité, construida en la década de 1240 por Luis IX para albergar las reliquias de la Pasión. Su capilla alta está rodeada por quince monumentales vidrieras del siglo XIII."
   },
+  "site-archeologique-de-glanum": {
+    "name": "Yacimiento arqueológico de Glanum",
+    "description": "Ciudad antigua ocupada desde el siglo VI a.C. hasta el siglo III d.C., donde se superponen un santuario celtoligur consagrado a una fuente sanadora, un hábitat helenístico influido por Marsella y una próspera ciudad romana bajo Augusto. El sitio conserva un foro, unas termas, casas de peristilo y, a su entrada, el mausoleo de los Julios y el arco municipal, conocidos como Les Antiques."
+  },
+  "site-des-megalithes-de-locmariaquer": {
+    "name": "Yacimiento de los megalitos de Locmariaquer",
+    "description": "Conjunto megalítico erigido entre el 5000 y el 3800 a.C., que reúne el Gran Menhir roto —bloque de granito de más de 20 metros, la mayor estela conocida de Europa, hoy fragmentada en cuatro trozos—, el dolmen de la Table des Marchands y el túmulo de Er Grah, de 140 metros de largo. Inscrito en el Patrimonio Mundial de la UNESCO en 2025 junto con los megalitos de Carnac."
+  },
+  "site-gallo-romain-de-sanxay": {
+    "name": "Yacimiento galorromano de Sanxay",
+    "description": "Vasto santuario galorromano consagrado al culto de las aguas sanadoras, activo entre los siglos I y II, organizado en torno a un templo de cella octogonal rodeado de un pórtico en cruz, un teatro de 89 metros con capacidad para cerca de 6 600 espectadores y unas termas. Sacado a la luz por el abate Camille de La Croix entre 1881 y 1883, el conjunto se extiende sobre una veintena de hectáreas en el fondo del valle del Vonne."
+  },
+  "sites-et-musee-archeologiques-de-montmaurin": {
+    "name": "Yacimientos y museo arqueológicos de Montmaurin",
+    "description": "El museo de Montmaurin recorre 400 000 años de ocupación humana, desde la cueva de Coupe-Gorge —donde se sacaron a la luz restos humanos de 200 000 años de antigüedad y un esqueleto de león de las cavernas— hasta la villa galorromana de Lassalles, un vasto dominio agrícola transformado en el siglo IV en un palacio de 5 800 m² con dos peristilos, termas y un templo galo hexagonal."
+  },
+  "sites-prehistoriques-de-la-vallee-de-la-vezere": {
+    "name": "Sitios prehistóricos del valle del Vézère",
+    "description": "El Centre des monuments nationaux gestiona siete de los sitios inscritos en 1979 en el Patrimonio Mundial de la UNESCO en el valle del Vézère: las cuevas decoradas de Font-de-Gaume y de Les Combarelles, el abrigo esculpido del Poisson, el yacimiento de Cap Blanc con su friso animal esculpido, y los yacimientos de Le Moustier, La Micoque y La Ferrassie. En conjunto, documentan la ocupación humana desde el Paleolítico medio hasta el Paleolítico superior, del musteriense al magdaleniense."
+  },
+  "tour-pey-berland-a-bordeaux": {
+    "name": "Torre Pey-Berland, en Burdeos",
+    "description": "Campanario gótico aislado de la catedral de San Andrés, levantado entre 1440 y 1500 por iniciativa del arzobispo Pey Berland para que las vibraciones de sus campanas no afectaran al edificio vecino. Desde lo alto de la torre, de 66 metros de altura y accesible por 233 escalones, se abre un panorama sobre Burdeos; el sitio está inscrito en el Patrimonio Mundial de la UNESCO en los Caminos de Santiago de Compostela."
+  },
+  "tours-de-la-cathedrale-de-reims": {
+    "name": "Torres de la catedral de Reims",
+    "description": "Las torres de la fachada occidental de la catedral gótica de Reims, donde fueron coronados los reyes de Francia de 1027 a 1825 y hoy inscrita en el Patrimonio Mundial de la UNESCO, se elevan a unos 81,5 metros y se terminaron hacia 1275. El ascenso lleva hasta su cima, que conserva restos de las campanas fundidas en el incendio de 1914, y ofrece un panorama sobre la ciudad."
+  },
+  "tours-de-la-rochelle": {
+    "name": "Torres de La Rochelle",
+    "description": "Tres torres medievales custodian la entrada del puerto viejo de La Rochelle: la torre de San Nicolás y la torre de la Cadena, del siglo XIV, entre las cuales una cadena cerraba antaño el acceso al puerto. La torre de la Linterna, fundada a finales del siglo XII, sirvió de prisión a los corsarios y luego a los militares; más de 600 grafitos fueron grabados allí por los detenidos."
+  },
   "tours-de-notre-dame-de-paris": {
     "name": "Torres de Notre-Dame de París",
     "description": "Las torres medievales de la catedral de Notre-Dame, reabiertas tras la restauración posterior al incendio. La subida pasa por la galería de las quimeras y el campanario de la gran campana Emmanuel antes de llegar a un panorama sobre el Sena y el centro de París."
   },
+  "tours-et-remparts-d-aigues-mortes": {
+    "name": "Torres y murallas de Aigues-Mortes",
+    "description": "Las murallas que rodean Aigues-Mortes, de 1 640 metros de longitud y flanqueadas por 15 torres y 10 puertas, se levantaron entre 1272 y finales del siglo XIII bajo Felipe III y luego Felipe IV el Hermoso. La torre de Constance, construida por San Luis entre 1240 y 1249, se convirtió tras 1685 en prisión para mujeres protestantes; Marie Durand estuvo allí encerrada 38 años, de 1730 a 1768."
+  },
+  "tours-et-tresor-de-la-cathedrale-d-amiens": {
+    "name": "Torres y tesoro de la catedral de Amiens",
+    "description": "La catedral gótica de Amiens, comenzada en 1220 por el arquitecto Robert de Luzarches, es el edificio gótico más vasto de Francia por su volumen y culmina a 112,70 metros; está inscrita en el Patrimonio Mundial de la UNESCO desde 1981. La visita lleva a la cima de la torre norte por 307 escalones, y al tesoro, formado desde 1206 en torno a la reliquia de la cabeza de san Juan Bautista traída de la cuarta cruzada."
+  },
+  "tresor-de-la-cathedrale-d-autun": {
+    "name": "Tesoro de la catedral de Autun",
+    "description": "Construida en el siglo XII para albergar las reliquias de san Lázaro, llegadas a Autun en 972, la catedral de San Lázaro está ornada con el tímpano del Juicio Final esculpido por Gislebertus, firmado «Gislebertus hoc fecit». Su tesoro, instalado en un edificio levantado hacia 1520 por el obispo Jacques Hurault, reúne relicarios, orfebrería y vestiduras litúrgicas, dispersados durante la Revolución y reconstituidos en el siglo XIX."
+  },
+  "tresor-de-la-cathedrale-de-lyon": {
+    "name": "Tesoro de la catedral de Lyon",
+    "description": "La primada de San Juan de Lyon, edificada entre 1175 y 1481 en un estilo que mezcla románico y gótico, alberga uno de los relojes astronómicos en funcionamiento más antiguos, fechado en el siglo XIV. Su tesoro, reunido en el siglo XIX por los cardenales Fesch y de Bonald en la manécanterie contigua, agrupa orfebrería, esmaltes de Limoges, tapices y vestiduras litúrgicas del siglo X al XIX, entre ellos una custodia regalada por Josefina de Beauharnais."
+  },
+  "trophee-d-auguste-a-la-turbie": {
+    "name": "Trofeo de Augusto en La Turbie",
+    "description": "Erigido en el año 6 a.C. sobre la Via Julia Augusta para celebrar la sumisión de una cincuentena de pueblos alpinos por Augusto, el Trofeo de los Alpes alcanzaba originalmente 50 metros de altura, con un zócalo cuadrado de 38 metros de lado coronado por una rotonda de 24 columnas y un tejado cónico que sostenía la estatua del emperador. Convertido en torre de vigilancia en la Edad Media, el monumento fue restaurado en los años 1930 gracias al mecenazgo del estadounidense Edward Tuck e inaugurado en 1934."
+  },
+  "villa-cavrois": {
+    "name": "Villa Cavrois",
+    "description": "Villa modernista construida en Croix entre 1929 y 1932 por el arquitecto Robert Mallet-Stevens para el industrial textil Paul Cavrois; despliega a lo largo de 60 metros hormigón armado, acero y vidrio, con una piscina de 27 metros y materiales preciosos como el mármol verde de Suecia. Abandonada y vandalizada después de 1987, declarada monumento histórico en 1990, fue adquirida por el Estado y restaurada antes de su reapertura al público en 2015."
+  },
   "villa-savoye": {
     "name": "Villa Savoye",
     "description": "Villa construida por Le Corbusier entre 1928 y 1931 en Poissy, manifiesto del Movimiento Moderno y de sus «cinco puntos de la arquitectura»: pilotis, ventanas corridas y azotea ajardinada. Está inscrita como Patrimonio Mundial de la UNESCO."
+  },
+  "village-fortifie-mont-dauphin": {
+    "name": "Pueblo fortificado de Mont-Dauphin",
+    "description": "Plaza fuerte ideada por Vauban y construida a partir de 1693 sobre un espolón rocoso a 1 050 metros de altitud, en la confluencia del Guil y el Durance, para proteger el reino de las incursiones del duque de Saboya. Sus murallas de mármol rosa, cuarteles, garitas, arsenal y polvorín están inscritos desde 2008 en el Patrimonio Mundial de la UNESCO en el marco de las fortificaciones de Vauban; unos 170 habitantes viven todavía en el pueblo."
   }
 }
