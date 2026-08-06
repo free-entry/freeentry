@@ -1,0 +1,82 @@
+# Yearly no-AI data refresh, also triggerable by hand for any single stage.
+# Opens a pull request when something changed — never pushes to main.
+# A green run means the data is *valid*, not that it is *right*: read the
+# report in the PR body and docs/DATA-UPDATE.md before merging.
+name: Data update
+
+on:
+  workflow_dispatch:
+    inputs:
+      stage:
+        description: Which update stage to run
+        type: choice
+        default: all
+        options: [all, rules, wikidata, datagouv, osm-hours, freshness]
+  schedule:
+    # Yearly, mid-July: gives a lead over the August re-verification
+    # anniversary that check-freshness enforces (365-day max age).
+    - cron: '0 6 15 7 *'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run update stage
+        id: run
+        run: |
+          STAGE="${{ github.event.inputs.stage || 'all' }}"
+          echo "Running stage: $STAGE"
+          mkdir -p /tmp/report
+          case "$STAGE" in
+            all)
+              npm run update:all 2>&1 | tee /tmp/report/update.txt || true
+              npm run check:osm-hours 2>&1 | tee /tmp/report/osm-hours.txt || true
+              ;;
+            rules)     npm run update:rules 2>&1 | tee /tmp/report/update.txt ;;
+            wikidata)  npm run update:wikidata 2>&1 | tee -a /tmp/report/update.txt && npx tsx scripts/check-wikidata.ts --write 2>&1 | tee -a /tmp/report/update.txt ;;
+            datagouv)  npx tsx scripts/check-datagouv.ts --write 2>&1 | tee /tmp/report/update.txt ;;
+            osm-hours) npm run check:osm-hours 2>&1 | tee /tmp/report/update.txt ;;
+            freshness) npm run check:freshness 2>&1 | tee /tmp/report/update.txt ;;
+          esac
+
+      - name: Validate
+        run: npm run test
+
+      - name: Upload report
+        uses: actions/upload-artifact@v4
+        with:
+          name: update-report
+          path: /tmp/report/
+
+      - name: Open pull request if data changed
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: automation/data-refresh
+          commit-message: 'data: automated refresh (${{ github.event.inputs.stage || ''all'' }})'
+          title: 'Automated data refresh'
+          body: |
+            Automated no-AI data refresh — stage `${{ github.event.inputs.stage || 'all' }}`.
+            The full report is attached to the workflow run as an artifact.
+
+            A green run means the data is **valid**, not that it is **right**. Review checklist:
+            - [ ] Rule changes match what the cited source pages actually say
+            - [ ] No museum gained or lost a QID/museofile id it shouldn't have
+            - [ ] Coordinate corrections make sense on a map
+            - [ ] Register candidates ("without a counterpart") triaged — add, alias, or ignore
+            - [ ] Anything needing translations went through the AI-assist prompt (docs/DATA-UPDATE.md)
+          add-paths: |
+            data/

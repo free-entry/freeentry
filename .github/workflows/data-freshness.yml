@@ -1,0 +1,26 @@
+# Monthly watchdog: fails (and so notifies) once any verified fact is older
+# than the 365-day re-verification interval, or an event year is missing.
+# Quiet the rest of the year by design.
+name: Data freshness
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 1 * *'
+
+jobs:
+  freshness:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Check data freshness
+        run: npm run check:freshness

@@ -92,9 +92,46 @@ async function fetchImageInfo(filename: string): Promise<CommonsImageInfo | null
   return page?.imageinfo?.[0] ?? null;
 }
 
-async function downloadAndResize(url: string, destPath: string): Promise<void> {
+const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+
+/** Commons politeness: pace requests and back off hard on 429. */
+const DOWNLOAD_PACE_MS = 1500;
+
+/**
+ * Fallback for items without a P18 claim: the French Wikipedia article's lead
+ * (infobox) image, resolved through the same Commons license gate.
+ */
+async function frwikiLeadImage(wikipediaFrUrl: string): Promise<string | null> {
+  const title = decodeURIComponent(wikipediaFrUrl.split('/wiki/')[1] ?? '');
+  if (!title) return null;
+  const url = `https://fr.wikipedia.org/w/api.php?${new URLSearchParams({
+    format: 'json',
+    action: 'query',
+    titles: title,
+    prop: 'pageimages',
+    piprop: 'name',
+    redirects: '1',
+  })}`;
   const res = await fetch(url, { headers: { 'User-Agent': UA } });
-  if (!res.ok) throw new Error(`${res.status} ${res.statusText} for ${url}`);
+  if (!res.ok) return null;
+  const data = (await res.json()) as {
+    query?: { pages?: Record<string, { pageimage?: string }> };
+  };
+  const page = Object.values(data.query?.pages ?? {})[0];
+  return page?.pageimage ?? null;
+}
+
+async function downloadAndResize(url: string, destPath: string): Promise<void> {
+  let res: Response | null = null;
+  for (let attempt = 0; attempt < 4; attempt++) {
+    await sleep(DOWNLOAD_PACE_MS);
+    res = await fetch(url, { headers: { 'User-Agent': UA } });
+    if (res.status !== 429) break;
+    const wait = 30_000 * 2 ** attempt;
+    console.log(`  ~ 429 from Commons, backing off ${wait / 1000}s…`);
+    await sleep(wait);
+  }
+  if (!res || !res.ok) throw new Error(`${res?.status} ${res?.statusText} for ${url}`);
   const buffer = Buffer.from(await res.arrayBuffer());
   await sharp(buffer)
     .resize({ width: MAX_WIDTH, height: MAX_WIDTH, fit: 'inside', withoutEnlargement: true })
@@ -170,22 +207,28 @@ async function main() {
             ? imageFilenameOf(entities.get(museum.wikidata) ?? { id: '' })
             : null;
 
-      if (!wikimediaFile) {
+      let sourceFile = wikimediaFile;
+      let via = 'P18';
+      if (!sourceFile && museum.wikipediaFr) {
+        sourceFile = await frwikiLeadImage(museum.wikipediaFr);
+        via = 'frwiki infobox';
+      }
+      if (!sourceFile) {
         skippedNoImage++;
-        noImage.push(`${museum.id} — no P18 image claim`);
+        noImage.push(`${museum.id} — no P18 image claim, no frwiki lead image`);
         continue;
       }
 
       if (dryRun) {
-        console.log(`${museum.id} → would fetch File:${wikimediaFile}`);
+        console.log(`${museum.id} → would fetch File:${sourceFile} (${via})`);
         done++;
         continue;
       }
 
-      const image = await resolveFromCommons(museum.id, wikimediaFile, dryRun);
+      const image = await resolveFromCommons(museum.id, sourceFile, dryRun);
       if (!image) {
         skippedNoLicense++;
-        noImage.push(`${museum.id} — File:${wikimediaFile} not under an accepted license`);
+        noImage.push(`${museum.id} — File:${sourceFile} not under an accepted license`);
         continue;
       }
       museum.image = image;
