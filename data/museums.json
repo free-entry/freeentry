@@ -274,6 +274,13 @@
     "openingHoursSource": {
       "url": "https://www.pinaultcollection.com/boursedecommerce",
       "checkedAt": "2026-08-04"
+    },
+    "image": {
+      "file": "images/museums/bourse-de-commerce-pinault-collection.jpg",
+      "author": "Jean-Pierre Dalbéra",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:David_Hammons_%C3%A0_la_Bourse_de_commerce_(Paris)_(51271344067).jpg",
+      "wikimediaFile": "File:David Hammons à la Bourse de commerce (Paris) (51271344067).jpg"
     }
   },
   {
@@ -310,6 +317,13 @@
     "openingHoursSource": {
       "url": "https://www.notredamedeparis.fr",
       "checkedAt": "2026-08-04"
+    },
+    "image": {
+      "file": "images/museums/cathedrale-notre-dame-de-paris.jpg",
+      "author": "P e z i",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Notre-Dame_de_Paris_2013-07-24.jpg",
+      "wikimediaFile": "File:Notre-Dame de Paris 2013-07-24.jpg"
     }
   },
   {
@@ -347,6 +361,13 @@
     "openingHoursSource": {
       "url": "https://www.chapelle-expiatoire-paris.fr",
       "checkedAt": "2026-08-04"
+    },
+    "image": {
+      "file": "images/museums/chapelle-expiatoire.jpg",
+      "author": "Rama",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chapelle_expiatoire_Louis_XVI_mg_4546.jpg",
+      "wikimediaFile": "File:Chapelle expiatoire Louis XVI mg 4546.jpg"
     }
   },
   {
@@ -406,6 +427,13 @@
     "openingHoursSource": {
       "url": "https://www.chateau-champs-sur-marne.fr",
       "checkedAt": "2026-08-04"
+    },
+    "image": {
+      "file": "images/museums/chateau-de-champs-sur-marne.jpg",
+      "author": "besopha",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Champs-sur-Marne_01.jpg",
+      "wikimediaFile": "File:Château de Champs-sur-Marne 01.jpg"
     }
   },
   {
@@ -457,6 +485,13 @@
     "openingHoursSource": {
       "url": "https://www.chateau-maisons.fr",
       "checkedAt": "2026-08-04"
+    },
+    "image": {
+      "file": "images/museums/chateau-de-maisons.jpg",
+      "author": "Moonik",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Maisons-Laffitte_001.jpg",
+      "wikimediaFile": "File:Château de Maisons-Laffitte 001.jpg"
     }
   },
   {
@@ -516,6 +551,13 @@
     "openingHoursSource": {
       "url": "https://www.chateau-rambouillet.fr",
       "checkedAt": "2026-08-04"
+    },
+    "image": {
+      "file": "images/museums/chateau-de-rambouillet.jpg",
+      "author": "Pline",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chateau-de-Rambouillet-DSC0044.jpg",
+      "wikimediaFile": "File:Chateau-de-Rambouillet-DSC0044.jpg"
     }
   },
   {
@@ -548,7 +590,14 @@
     ],
     "wikidata": "Q1579344",
     "wikipediaFr": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Sceaux",
-    "museofile": "M0417"
+    "museofile": "M0417",
+    "image": {
+      "file": "images/museums/chateau-de-sceaux-musee-departemental.jpg",
+      "author": "Ibex73",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Sceaux%2C_Hauts-de-Seine_(1).jpg",
+      "wikimediaFile": "File:Château de Sceaux, Hauts-de-Seine (1).jpg"
+    }
   },
   {
     "id": "chateau-de-vincennes",
@@ -599,6 +648,13 @@
     "openingHoursSource": {
       "url": "https://www.chateau-vincennes.fr",
       "checkedAt": "2026-08-04"
+    },
+    "image": {
+      "file": "images/museums/chateau-de-vincennes.jpg",
+      "author": "ignis",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Vincennes_Paris_FRA_002.jpg",
+      "wikimediaFile": "File:Château de Vincennes Paris FRA 002.jpg"
     }
   },
   {
@@ -636,7 +692,14 @@
       "url": "https://www.nemours.fr/contacts/chateau-musee/",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M0381"
+    "museofile": "M0381",
+    "image": {
+      "file": "images/museums/chateau-musee-de-nemours.jpg",
+      "author": "Gautier1er",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Nemours.jpg",
+      "wikimediaFile": "File:Château de Nemours.jpg"
+    }
   },
   {
     "id": "collections-de-la-fondation-de-coubertin",
@@ -666,7 +729,14 @@
       }
     ],
     "wikidata": "Q125844960",
-    "museofile": "M0399"
+    "museofile": "M0399",
+    "image": {
+      "file": "images/museums/collections-de-la-fondation-de-coubertin.jpg",
+      "author": "Musée de Coubertin",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_ch%C3%A2teau_de_Coubertin_(photo_Montalbetti).JPG",
+      "wikimediaFile": "File:Le château de Coubertin (photo Montalbetti).JPG"
+    }
   },
   {
     "id": "conciergerie",
@@ -718,6 +788,13 @@
     "openingHoursSource": {
       "url": "https://www.paris-conciergerie.fr",
       "checkedAt": "2026-08-04"
+    },
+    "image": {
+      "file": "images/museums/conciergerie.jpg",
+      "author": "xandru",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_Conciergerie_265.jpg",
+      "wikimediaFile": "File:Paris Conciergerie 265.jpg"
     }
   },
   {
@@ -753,7 +830,14 @@
       "url": "https://ecomusee.grandorlyseinebievre.fr/",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M0426"
+    "museofile": "M0426",
+    "image": {
+      "file": "images/museums/ecomusee-94260.jpg",
+      "author": "Unknown authorUnknown author",
+      "license": "CC0 1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C3%89comus%C3%A9e_de_Fresnes.webp",
+      "wikimediaFile": "File:Écomusée de Fresnes.webp"
+    }
   },
   {
     "id": "europa-experience",
@@ -806,7 +890,14 @@
     "freeAccess": [],
     "wikidata": "Q3075375",
     "wikipediaFr": "https://fr.wikipedia.org/wiki/Fondation_Arp",
-    "museofile": "M1126"
+    "museofile": "M1126",
+    "image": {
+      "file": "images/museums/fondation-arp.jpg",
+      "author": "Sanchalex",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fa%C3%A7ade_du_b%C3%A2timent_de_la_fondation_Arp_%C3%A0_Clamart.jpg",
+      "wikimediaFile": "File:Façade du bâtiment de la fondation Arp à Clamart.jpg"
+    }
   },
   {
     "id": "hotel-de-la-marine",
@@ -858,6 +949,13 @@
     "openingHoursSource": {
       "url": "https://www.hotel-de-la-marine.paris",
       "checkedAt": "2026-08-04"
+    },
+    "image": {
+      "file": "images/museums/hotel-de-la-marine.jpg",
+      "author": "Lionel Allorge",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_de_la_Marine_en_f%C3%A9vrier_2014_4.jpg",
+      "wikimediaFile": "File:Hôtel de la Marine en février 2014 4.jpg"
     }
   },
   {
@@ -931,6 +1029,13 @@
     "openingHoursSource": {
       "url": "https://www.elysee.fr",
       "checkedAt": "2026-08-04"
+    },
+    "image": {
+      "file": "images/museums/la-maison-elysee.jpg",
+      "author": "AlSepPhoenix",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maison_Elysee_-_salle_1_et_2.jpg",
+      "wikimediaFile": "File:Maison Elysee - salle 1 et 2.jpg"
     }
   },
   {
@@ -965,6 +1070,13 @@
     "openingHoursSource": {
       "url": "https://fracidf.com",
       "checkedAt": "2026-08-04"
+    },
+    "image": {
+      "file": "images/museums/le-plateau-frac-ile-de-france.jpg",
+      "author": "Chabe01",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Place_Hannah_Arendt_-_Paris_XIX_(FR75)_-_2021-03-06_-_3.jpg",
+      "wikimediaFile": "File:Place Hannah Arendt - Paris XIX (FR75) - 2021-03-06 - 3.jpg"
     }
   },
   {
@@ -1002,7 +1114,14 @@
       "url": "https://www.maisondebalzac.paris.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M1102"
+    "museofile": "M1102",
+    "image": {
+      "file": "images/museums/maison-de-balzac.jpg",
+      "author": "Thank you to indicate this credit line next to the image in case of reuse: Credit: Polymagou - CC BY-SA I'd appreciate if you could send a message on my user talk page if you use this picture out of the Wikimedia project scope .",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maison_de_Balzac%2C_Paris_16e_5.jpg",
+      "wikimediaFile": "File:Maison de Balzac, Paris 16e 5.jpg"
+    }
   },
   {
     "id": "maison-de-victor-hugo",
@@ -1038,7 +1157,14 @@
       "url": "https://www.maisonsvictorhugo.paris.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M1114"
+    "museofile": "M1114",
+    "image": {
+      "file": "images/museums/maison-de-victor-hugo.jpg",
+      "author": "Frédérique PANASSAC",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:PARIS_Place_des_Vosges%2C_Maison_de_Victor_Hugo_2.jpg",
+      "wikimediaFile": "File:PARIS Place des Vosges, Maison de Victor Hugo 2.jpg"
+    }
   },
   {
     "id": "maison-des-jardies",
@@ -1074,6 +1200,13 @@
     "openingHoursSource": {
       "url": "https://www.maison-des-jardies.fr",
       "checkedAt": "2026-08-04"
+    },
+    "image": {
+      "file": "images/museums/maison-des-jardies.jpg",
+      "author": "Tcherome at French Wikipedia",
+      "license": "Public Domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maison-gambetta.JPG",
+      "wikimediaFile": "File:Maison-gambetta.JPG"
     }
   },
   {
@@ -1095,7 +1228,14 @@
     "freeAccess": [],
     "wikidata": "Q1230290",
     "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Maurice-Ravel",
-    "museofile": "M0392"
+    "museofile": "M0392",
+    "image": {
+      "file": "images/museums/maison-musee-maurice-ravel.jpg",
+      "author": "ℍenry Salomé (Jaser !) 08:17, 21 November 2006 (UTC)",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Montfort-l'Amaury_Maison_Ravel.jpg",
+      "wikimediaFile": "File:Montfort-l'Amaury Maison Ravel.jpg"
+    }
   },
   {
     "id": "maison-natale-de-louis-braille",
@@ -1116,7 +1256,14 @@
     "freeAccess": [],
     "wikidata": "Q22922427",
     "wikipediaFr": "https://fr.wikipedia.org/wiki/Maison_natale_de_Louis_Braille",
-    "museofile": "M0373"
+    "museofile": "M0373",
+    "image": {
+      "file": "images/museums/maison-natale-de-louis-braille.jpg",
+      "author": "Kou07kou",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Braille_house.JPG",
+      "wikimediaFile": "File:Braille house.JPG"
+    }
   },
   {
     "id": "memorial-de-la-shoah",
@@ -1151,6 +1298,13 @@
     "openingHoursSource": {
       "url": "https://www.memorialdelashoah.org",
       "checkedAt": "2026-08-04"
+    },
+    "image": {
+      "file": "images/museums/memorial-de-la-shoah.jpg",
+      "author": "BrnGrby",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crypte_au_m%C3%A9morial_de_la_Shoah_%C3%A0_Paris.jpg",
+      "wikimediaFile": "File:Crypte au mémorial de la Shoah à Paris.jpg"
     }
   },
   {
@@ -1185,6 +1339,13 @@
     "openingHoursSource": {
       "url": "https://www.memorialdelashoah.org",
       "checkedAt": "2026-08-04"
+    },
+    "image": {
+      "file": "images/museums/memorial-de-la-shoah-de-drancy.jpg",
+      "author": "Eléonore Ward",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:M%C3%A9morial_de_la_Shoah_de_Drancy.jpg",
+      "wikimediaFile": "File:Mémorial de la Shoah de Drancy.jpg"
     }
   },
   {
@@ -1231,7 +1392,14 @@
       "url": "https://mus.suresnes.fr/",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M0418"
+    "museofile": "M0418",
+    "image": {
+      "file": "images/museums/mus-musee-d-histoire-urbaine-et-sociale-de-suresnes.jpg",
+      "author": "Copyleft",
+      "license": "CC BY 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2013_MUS_Musee_Urbanisme_de_Suresnes.JPG",
+      "wikimediaFile": "File:2013 MUS Musee Urbanisme de Suresnes.JPG"
+    }
   },
   {
     "id": "musee",
@@ -1266,7 +1434,14 @@
       "url": "https://museenogentsurmarne.net/",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M0427"
+    "museofile": "M0427",
+    "image": {
+      "file": "images/museums/musee.jpg",
+      "author": "AmapolaV7!",
+      "license": "CC0 1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patrimoine_Nogent-sur-Marne.jpg",
+      "wikimediaFile": "File:Patrimoine Nogent-sur-Marne.jpg"
+    }
   },
   {
     "id": "musee-adrien-mentienne",
@@ -1296,7 +1471,14 @@
     ],
     "wikidata": "Q23599751",
     "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Adrien_Mentienne",
-    "museofile": "M0424"
+    "museofile": "M0424",
+    "image": {
+      "file": "images/museums/musee-adrien-mentienne.jpg",
+      "author": "Chabe01",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Adrien_Mentienne_Bry_Marne_2.jpg",
+      "wikimediaFile": "File:Musée Adrien Mentienne Bry Marne 2.jpg"
+    }
   },
   {
     "id": "musee-alfred-bonno",
@@ -1346,7 +1528,14 @@
     ],
     "wikidata": "Q2420675",
     "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_arch%C3%A9ologique_du_Val-d'Oise",
-    "museofile": "M0434"
+    "museofile": "M0434",
+    "image": {
+      "file": "images/museums/musee-archeologique-departemental-du-val-d-oise.jpg",
+      "author": "Ptyx",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guiry-en-Vexin_-_Musee.JPG",
+      "wikimediaFile": "File:Guiry-en-Vexin - Musee.JPG"
+    }
   },
   {
     "id": "musee-belmondo-et-de-la-sculpture-figurative-du-xxe-siecle",
@@ -1390,7 +1579,14 @@
       "url": "https://musees.boulognebillancourt.com/",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M1170"
+    "museofile": "M1170",
+    "image": {
+      "file": "images/museums/musee-belmondo-et-de-la-sculpture-figurative-du-xxe-siecle.jpg",
+      "author": "Moonik",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Paul_Belmondo_%C3%A0_Boulogne-Billancourt_001.jpg",
+      "wikimediaFile": "File:Musée Paul Belmondo à Boulogne-Billancourt 001.jpg"
+    }
   },
   {
     "id": "musee-bossuet",
@@ -1426,7 +1622,14 @@
       "url": "https://www.musee-bossuet.fr/",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M0378"
+    "museofile": "M0378",
+    "image": {
+      "file": "images/museums/musee-bossuet.jpg",
+      "author": "Vassil",
+      "license": "Public Domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Meaux_140708_01.jpg",
+      "wikimediaFile": "File:Meaux 140708 01.jpg"
+    }
   },
   {
     "id": "musee-bourdelle",
@@ -1463,7 +1666,14 @@
       "url": "https://www.bourdelle.paris.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M1103"
+    "museofile": "M1103",
+    "image": {
+      "file": "images/museums/musee-bourdelle.jpg",
+      "author": "Velvet",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_musee_bourdelle_maison.jpg",
+      "wikimediaFile": "File:Paris musee bourdelle maison.jpg"
+    }
   },
   {
     "id": "musee-carnavalet-histoire-de-paris",
@@ -1499,7 +1709,14 @@
       "url": "https://www.carnavalet.paris.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M1104"
+    "museofile": "M1104",
+    "image": {
+      "file": "images/museums/musee-carnavalet-histoire-de-paris.jpg",
+      "author": "Miguel Hermoso Cuesta",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carnavalet_Par%C3%ADs_10.JPG",
+      "wikimediaFile": "File:Carnavalet París 10.JPG"
+    }
   },
   {
     "id": "musee-cernuschi-musee-des-arts-de-l-asie-de-la-ville-de-paris",
@@ -1535,7 +1752,14 @@
       "url": "https://www.cernuschi.paris.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M1106"
+    "museofile": "M1106",
+    "image": {
+      "file": "images/museums/musee-cernuschi-musee-des-arts-de-l-asie-de-la-ville-de-paris.jpg",
+      "author": "Thomon",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monceau_Cernuschi.JPG",
+      "wikimediaFile": "File:Monceau Cernuschi.JPG"
+    }
   },
   {
     "id": "musee-cognacq-jay-musee-du-xviiie-siecle-de-la-ville-de-paris",
@@ -1572,7 +1796,14 @@
       "url": "https://www.museecognacqjay.paris.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M1107"
+    "museofile": "M1107",
+    "image": {
+      "file": "images/museums/musee-cognacq-jay-musee-du-xviiie-siecle-de-la-ville-de-paris.jpg",
+      "author": "Guilhem Vellut from Paris, France",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jardin_Lazare-Rachline%2C_Paris_9_June_2017_001.jpg",
+      "wikimediaFile": "File:Jardin Lazare-Rachline, Paris 9 June 2017 001.jpg"
+    }
   },
   {
     "id": "musee-curie",
@@ -1607,6 +1838,13 @@
     "openingHoursSource": {
       "url": "https://musee.curie.fr",
       "checkedAt": "2026-08-04"
+    },
+    "image": {
+      "file": "images/museums/musee-curie.jpg",
+      "author": "Piero d'Houin dit Triboulet",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pavillon_Pasteur.jpg",
+      "wikimediaFile": "File:Pavillon Pasteur.jpg"
     }
   },
   {
@@ -1653,7 +1891,14 @@
       "url": "https://musee-archeologienationale.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M5001"
+    "museofile": "M5001",
+    "image": {
+      "file": "images/museums/musee-d-archeologie-nationale-des-origines-a-l-an-mille-chateau-de-saint-germain-en-laye.jpg",
+      "author": "KoS",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chateau_de_St_Germain-en-laye.JPG",
+      "wikimediaFile": "File:Chateau de St Germain-en-laye.JPG"
+    }
   },
   {
     "id": "musee-d-art-contemporain-du-val-de-marne",
@@ -1690,7 +1935,14 @@
       "url": "https://www.macval.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M0431"
+    "museofile": "M0431",
+    "image": {
+      "file": "images/museums/musee-d-art-contemporain-du-val-de-marne.jpg",
+      "author": "Didier B (Sam67fr)",
+      "license": "CC BY 2.5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vitry_-_Musee_d'art_contemporain_00.jpg",
+      "wikimediaFile": "File:Vitry - Musee d'art contemporain 00.jpg"
+    }
   },
   {
     "id": "musee-d-art-et-d-histoire",
@@ -1725,7 +1977,14 @@
       "url": "https://musee.meudon.fr/",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M0412"
+    "museofile": "M0412",
+    "image": {
+      "file": "images/museums/musee-d-art-et-d-histoire.jpg",
+      "author": "The original uploader was Franck devedjian at French Wikipedia. Transferred from fr.wikipedia to Commons by Padawane using CommonsHelper. 1 April 2010 (original upload date)",
+      "license": "CC BY 1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9eartethistoiremeudon.jpg",
+      "wikimediaFile": "File:Muséeartethistoiremeudon.jpg"
+    }
   },
   {
     "id": "musee-d-art-et-d-histoire-de-l-hopital-sainte-anne",
@@ -1815,7 +2074,14 @@
       "url": "https://www.mahj.org",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M0364"
+    "museofile": "M0364",
+    "image": {
+      "file": "images/museums/musee-d-art-et-d-histoire-du-judaisme.jpg",
+      "author": "Ecelan",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_-_H%C3%B4tel_de_Saint-Aignan_-_Muse%C3%A9_du_Juda%C3%AFsme.jpg",
+      "wikimediaFile": "File:Paris - Hôtel de Saint-Aignan - Museé du Judaïsme.jpg"
+    }
   },
   {
     "id": "musee-d-art-et-d-histoire-louis-senlecq",
@@ -1847,7 +2113,14 @@
     ],
     "wikidata": "Q23639858",
     "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_et_d'Histoire_Louis-Senlecq",
-    "museofile": "M0435"
+    "museofile": "M0435",
+    "image": {
+      "file": "images/museums/musee-d-art-et-d-histoire-louis-senlecq.jpg",
+      "author": "BastienM",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Louis-Senlecq_l'Isle-Adam.jpg",
+      "wikimediaFile": "File:Musée Louis-Senlecq l'Isle-Adam.jpg"
+    }
   },
   {
     "id": "musee-d-art-et-d-histoire-paul-eluard",
@@ -1893,7 +2166,14 @@
       "url": "https://musee-saint-denis.com/infos-pratiques/horaires-acces-et-tarifs/",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M0422"
+    "museofile": "M0422",
+    "image": {
+      "file": "images/museums/musee-d-art-et-d-histoire-paul-eluard.jpg",
+      "author": "Claude Shoshany",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saint-Denis_(93)_Chapelle_du_Carmel.JPG",
+      "wikimediaFile": "File:Saint-Denis (93) Chapelle du Carmel.JPG"
+    }
   },
   {
     "id": "musee-d-art-moderne-de-la-ville-de-paris",
@@ -1930,7 +2210,14 @@
       "url": "https://www.mam.paris.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M1101"
+    "museofile": "M1101",
+    "image": {
+      "file": "images/museums/musee-d-art-moderne-de-la-ville-de-paris.jpg",
+      "author": "Maciej Zgadzaj",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_d'Art_moderne_de_la_Ville_de_Paris.jpg",
+      "wikimediaFile": "File:Musée d'Art moderne de la Ville de Paris.jpg"
+    }
   },
   {
     "id": "musee-d-ennery",
@@ -1952,7 +2239,14 @@
     "freeAccess": [],
     "wikidata": "Q1579504",
     "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Ennery",
-    "museofile": "M5040"
+    "museofile": "M5040",
+    "image": {
+      "file": "images/museums/musee-d-ennery.jpg",
+      "author": "Moonik",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_d'Ennery_02.jpg",
+      "wikimediaFile": "File:Musée d'Ennery 02.jpg"
+    }
   },
   {
     "id": "musee-d-histoire-locale-memoire-de-la-ville",
@@ -1986,7 +2280,14 @@
       "url": "https://www.villederueil.fr/sortir-loisirs/les-lieux-culturels-et-patrimoniaux/musees-et-lieux-dexposition/musee-dhistoire-locale/",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M0415"
+    "museofile": "M0415",
+    "image": {
+      "file": "images/museums/musee-d-histoire-locale-memoire-de-la-ville.jpg",
+      "author": "Pymouss44",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rueil-Malmaison_Mairie.jpg",
+      "wikimediaFile": "File:Rueil-Malmaison Mairie.jpg"
+    }
   },
   {
     "id": "musee-d-orsay",
@@ -2033,7 +2334,14 @@
       "url": "https://www.musee-orsay.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M5060"
+    "museofile": "M5060",
+    "image": {
+      "file": "images/museums/musee-d-orsay.jpg",
+      "author": "Sanchezn",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:MuseeDOrsay.jpg",
+      "wikimediaFile": "File:MuseeDOrsay.jpg"
+    }
   },
   {
     "id": "musee-daubigny",
@@ -2062,7 +2370,14 @@
       }
     ],
     "wikidata": "Q105988788",
-    "museofile": "M1213"
+    "museofile": "M1213",
+    "image": {
+      "file": "images/museums/musee-daubigny.jpg",
+      "author": "Raimond Spekking",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Daubigny%2C_au_manoir_des_Colombi%C3%A8res%2C_Auvers-sur-Oise-2350.jpg",
+      "wikimediaFile": "File:Musée Daubigny, au manoir des Colombières, Auvers-sur-Oise-2350.jpg"
+    }
   },
   {
     "id": "musee-de-l-air-et-de-l-espace",
@@ -2099,7 +2414,14 @@
       "url": "https://www.museeairespace.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M5024"
+    "museofile": "M5024",
+    "image": {
+      "file": "images/museums/musee-de-l-air-et-de-l-espace.jpg",
+      "author": "ignis",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_de_l'Air_et_de_l'Espace_Le_Bourget_FRA_001.jpg",
+      "wikimediaFile": "File:Musée de l'Air et de l'Espace Le Bourget FRA 001.jpg"
+    }
   },
   {
     "id": "musee-de-l-armee",
@@ -2137,7 +2459,14 @@
       "url": "https://www.musee-armee.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M5025"
+    "museofile": "M5025",
+    "image": {
+      "file": "images/museums/musee-de-l-armee.jpg",
+      "author": "xiquinhosilva from Cacau",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_de_l'Arm%C3%A9e%2C_Paris_4_May_2019.jpg",
+      "wikimediaFile": "File:Musée de l'Armée, Paris 4 May 2019.jpg"
+    }
   },
   {
     "id": "musee-de-l-ecole-de-barbizon-auberge-ganne",
@@ -2168,16 +2497,23 @@
     ],
     "wikidata": "Q3330523",
     "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_Peintres_de_Barbizon",
-    "museofile": "M0370"
+    "museofile": "M0370",
+    "image": {
+      "file": "images/museums/musee-de-l-ecole-de-barbizon-auberge-ganne.jpg",
+      "author": "Velvet",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barbizon_musee_ganne.JPG",
+      "wikimediaFile": "File:Barbizon musee ganne.JPG"
+    }
   },
   {
     "id": "musee-de-l-ecole-nationale-superieure-des-beaux-arts",
     "name": "Musée de l'École nationale supérieure des beaux-arts",
     "coordinates": [
-      2.33167,
-      48.845748
+      2.334499,
+      48.856491
     ],
-    "address": "",
+    "address": "14 rue Bonaparte",
     "postalCode": "75006",
     "commune": "Paris",
     "arrondissement": 6,
@@ -2229,7 +2565,14 @@
     ],
     "wikidata": "Q3329788",
     "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_l'Histoire_vivante",
-    "museofile": "M0420"
+    "museofile": "M0420",
+    "image": {
+      "file": "images/museums/musee-de-l-histoire-vivante.jpg",
+      "author": "Chabe01",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Histoire_Vivante_Montreuil_Seine_St_Denis_2.jpg",
+      "wikimediaFile": "File:Musée Histoire Vivante Montreuil Seine St Denis 2.jpg"
+    }
   },
   {
     "id": "musee-de-l-hotel-dieu",
@@ -2264,7 +2607,14 @@
       "url": "https://www.manteslajolie.fr/loisirs-sorties-asso/culture/etablissements-culturels/musee-de-lhotel-dieu",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M0389"
+    "museofile": "M0389",
+    "image": {
+      "file": "images/museums/musee-de-l-hotel-dieu.jpg",
+      "author": "Unknown",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mantes-la-Jolie_-_H%C3%B4tel-Dieu01.jpg",
+      "wikimediaFile": "File:Mantes-la-Jolie - Hôtel-Dieu01.jpg"
+    }
   },
   {
     "id": "musee-de-l-institut-du-monde-arabe",
@@ -2300,7 +2650,14 @@
       "url": "https://www.imarabe.org",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M0365"
+    "museofile": "M0365",
+    "image": {
+      "file": "images/museums/musee-de-l-institut-du-monde-arabe.jpg",
+      "author": "Guilhem Vellut from Paris, France",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Institut_du_Monde_Arabe_au_bord_de_la_Seine.jpg",
+      "wikimediaFile": "File:Institut du Monde Arabe au bord de la Seine.jpg"
+    }
   },
   {
     "id": "musee-de-l-orangerie-des-tuileries",
@@ -2348,7 +2705,14 @@
       "url": "https://www.musee-orangerie.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M5030"
+    "museofile": "M5030",
+    "image": {
+      "file": "images/museums/musee-de-l-orangerie-des-tuileries.jpg",
+      "author": "Traktorminze",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2011-12-Musee_de_lorangerie.jpg",
+      "wikimediaFile": "File:2011-12-Musee de lorangerie.jpg"
+    }
   },
   {
     "id": "musee-de-la-batellerie",
@@ -2369,7 +2733,14 @@
     "freeAccess": [],
     "wikidata": "Q3329993",
     "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_batellerie_(Conflans-Sainte-Honorine)",
-    "museofile": "M0387"
+    "museofile": "M0387",
+    "image": {
+      "file": "images/museums/musee-de-la-batellerie.jpg",
+      "author": "Nitot",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Conflans-ste-honorine-musee-batellerie.jpg",
+      "wikimediaFile": "File:Conflans-ste-honorine-musee-batellerie.jpg"
+    }
   },
   {
     "id": "musee-de-la-chasse-et-de-la-nature",
@@ -2407,7 +2778,14 @@
       "url": "https://www.chassenature.org",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M0363"
+    "museofile": "M0363",
+    "image": {
+      "file": "images/museums/musee-de-la-chasse-et-de-la-nature.jpg",
+      "author": "Mbzt",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:P1000961_Paris_III_Rue_des_Archives_Mus%C3%A9e_de_la_chasse_reductwk.JPG",
+      "wikimediaFile": "File:P1000961 Paris III Rue des Archives Musée de la chasse reductwk.JPG"
+    }
   },
   {
     "id": "musee-de-la-franc-maconnerie",
@@ -2429,7 +2807,14 @@
     "freeAccess": [],
     "wikidata": "Q2597719",
     "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_Franc-ma%C3%A7onnerie",
-    "museofile": "M0366"
+    "museofile": "M0366",
+    "image": {
+      "file": "images/museums/musee-de-la-franc-maconnerie.jpg",
+      "author": "Declic",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:GODF_rue_Cadet_Paris.JPG",
+      "wikimediaFile": "File:GODF rue Cadet Paris.JPG"
+    }
   },
   {
     "id": "musee-de-la-gendarmerie",
@@ -2474,7 +2859,14 @@
       "url": "https://www.gendarmerie.interieur.gouv.fr/musee/",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M9013"
+    "museofile": "M9013",
+    "image": {
+      "file": "images/museums/musee-de-la-gendarmerie.jpg",
+      "author": "Domenjod",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9eGN1_Domenjod_140916.jpg",
+      "wikimediaFile": "File:MuséeGN1 Domenjod 140916.jpg"
+    }
   },
   {
     "id": "musee-de-la-grande-guerre",
@@ -2511,7 +2903,14 @@
       "url": "https://www.museedelagrandeguerre.com/",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M1171"
+    "museofile": "M1171",
+    "image": {
+      "file": "images/museums/musee-de-la-grande-guerre.jpg",
+      "author": "Prosopee",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_de_la_Grande_Guerre_de_Meaux_13.jpg",
+      "wikimediaFile": "File:Musée de la Grande Guerre de Meaux 13.jpg"
+    }
   },
   {
     "id": "musee-de-la-grande-loge-de-france",
@@ -2577,7 +2976,14 @@
       "url": "https://www.museeliberation-leclerc-moulin.paris.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M1109"
+    "museofile": "M1109",
+    "image": {
+      "file": "images/museums/musee-de-la-liberation-de-paris-musee-du-general-leclerc-musee-jean-moulin.jpg",
+      "author": "Coyau",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barri%C3%A8re_d'Enfer%2C_place_Denfert-Rochereau%2C_Paris_03.jpg",
+      "wikimediaFile": "File:Barrière d'Enfer, place Denfert-Rochereau, Paris 03.jpg"
+    }
   },
   {
     "id": "musee-de-la-musique",
@@ -2615,7 +3021,14 @@
       "url": "https://philharmoniedeparis.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M5057"
+    "museofile": "M5057",
+    "image": {
+      "file": "images/museums/musee-de-la-musique.jpg",
+      "author": "The original uploader was Portzamparc Francais at French Wikipedia.",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1984-1995_The_City_of_Music%2C_Paris_03.jpg",
+      "wikimediaFile": "File:1984-1995 The City of Music, Paris 03.jpg"
+    }
   },
   {
     "id": "musee-de-la-poste",
@@ -2662,7 +3075,14 @@
       "url": "https://www.museedelaposte.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M1116"
+    "museofile": "M1116",
+    "image": {
+      "file": "images/museums/musee-de-la-poste.jpg",
+      "author": "Agence Carré Noir",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo-musee-postal.png",
+      "wikimediaFile": "File:Logo-musee-postal.png"
+    }
   },
   {
     "id": "musee-de-la-prefecture-de-police",
@@ -2700,6 +3120,13 @@
     "openingHoursSource": {
       "url": "https://www.prefecturedepolice.interieur.gouv.fr",
       "checkedAt": "2026-08-04"
+    },
+    "image": {
+      "file": "images/museums/musee-de-la-prefecture-de-police.jpg",
+      "author": "Roi Boshi",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_de_la_Pr%C3%A9fecture_de_Police%2C_Paris.JPG",
+      "wikimediaFile": "File:Musée de la Préfecture de Police, Paris.JPG"
     }
   },
   {
@@ -2744,7 +3171,14 @@
       "url": "https://musee-renaissance.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M5012"
+    "museofile": "M5012",
+    "image": {
+      "file": "images/museums/musee-de-la-renaissance-chateau-d-ecouen.jpg",
+      "author": "Pierre Poschadel",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C3%89couen_(95)%2C_ch%C3%A2teau%2C_vue_g%C3%A9n%C3%A9rale_depuis_l'est_3.JPG",
+      "wikimediaFile": "File:Écouen (95), château, vue générale depuis l'est 3.JPG"
+    }
   },
   {
     "id": "musee-de-la-resistance-nationale",
@@ -2791,7 +3225,14 @@
     ],
     "wikidata": "Q3329963",
     "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_R%C3%A9sistance_nationale",
-    "museofile": "M0425"
+    "museofile": "M0425",
+    "image": {
+      "file": "images/museums/musee-de-la-resistance-nationale.jpg",
+      "author": "Chabe01",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_R%C3%A9sistance_Nationale_Champigny_Marne_4.jpg",
+      "wikimediaFile": "File:Musée Résistance Nationale Champigny Marne 4.jpg"
+    }
   },
   {
     "id": "musee-de-la-toile-de-jouy",
@@ -2821,7 +3262,14 @@
     ],
     "wikidata": "Q3330076",
     "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_toile_de_Jouy",
-    "museofile": "M0388"
+    "museofile": "M0388",
+    "image": {
+      "file": "images/museums/musee-de-la-toile-de-jouy.jpg",
+      "author": "ℍenry Salomé (Jaser !) 06:22, 3 November 2006 (UTC)",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jouy-en-Josas_Ch%C3%A2teau_%C3%89glantine.jpg",
+      "wikimediaFile": "File:Jouy-en-Josas Château Églantine.jpg"
+    }
   },
   {
     "id": "musee-de-la-vie-romantique",
@@ -2858,7 +3306,14 @@
       "url": "https://www.museevieromantique.paris.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M1113"
+    "museofile": "M1113",
+    "image": {
+      "file": "images/museums/musee-de-la-vie-romantique.jpg",
+      "author": "JLPC",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_Mus%C3%A9e_vie_romantique_2012.jpg",
+      "wikimediaFile": "File:Paris Musée vie romantique 2012.jpg"
+    }
   },
   {
     "id": "musee-de-melun",
@@ -2878,7 +3333,14 @@
     ],
     "freeAccess": [],
     "wikidata": "Q23600488",
-    "museofile": "M0379"
+    "museofile": "M0379",
+    "image": {
+      "file": "images/museums/musee-de-melun.jpg",
+      "author": "Velvet",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Melun_musee.JPG",
+      "wikimediaFile": "File:Melun musee.JPG"
+    }
   },
   {
     "id": "musee-de-montmartre",
@@ -2910,7 +3372,14 @@
     ],
     "wikidata": "Q2919066",
     "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_Montmartre",
-    "museofile": "M0369"
+    "museofile": "M0369",
+    "image": {
+      "file": "images/museums/musee-de-montmartre.jpg",
+      "author": "Musée de Montmartre",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_de_Montmartre_-_maison_du_Bel_Air.jpg",
+      "wikimediaFile": "File:Musée de Montmartre - maison du Bel Air.jpg"
+    }
   },
   {
     "id": "musee-de-port-royal-des-champs",
@@ -2946,7 +3415,14 @@
       "url": "https://www.port-royal-des-champs.eu",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M5045"
+    "museofile": "M5045",
+    "image": {
+      "file": "images/museums/musee-de-port-royal-des-champs.jpg",
+      "author": "Marie de Bueil / Rémi Mathis",
+      "license": "CC BY 2.5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Port-Royal-des-Champs_-_Petites_Ecoles.JPG",
+      "wikimediaFile": "File:Port-Royal-des-Champs - Petites Ecoles.JPG"
+    }
   },
   {
     "id": "musee-de-prehistoire-d-ile-de-france",
@@ -2982,7 +3458,14 @@
       "url": "https://www.musee-prehistoire-idf.fr/",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M0382"
+    "museofile": "M0382",
+    "image": {
+      "file": "images/museums/musee-de-prehistoire-d-ile-de-france.jpg",
+      "author": "Serendipita77",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nemours---Entr%C3%A9e-Mus%C3%A9e-de-P.gif",
+      "wikimediaFile": "File:Nemours---Entrée-Musée-de-P.gif"
+    }
   },
   {
     "id": "musee-de-provins-et-du-provinois",
@@ -3075,7 +3558,14 @@
       "url": "https://albert-kahn.hauts-de-seine.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M0407"
+    "museofile": "M0407",
+    "image": {
+      "file": "images/museums/musee-departemental-albert-kahn.jpg",
+      "author": "Salix",
+      "license": "CC BY 2.5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Azaleas_at_Albert_Kahn_Garden.jpg",
+      "wikimediaFile": "File:Azaleas at Albert Kahn Garden.jpg"
+    }
   },
   {
     "id": "musee-departemental-maurice-denis",
@@ -3096,7 +3586,14 @@
     "freeAccess": [],
     "wikidata": "Q3330506",
     "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d%C3%A9partemental_Maurice-Denis",
-    "museofile": "M0396"
+    "museofile": "M0396",
+    "image": {
+      "file": "images/museums/musee-departemental-maurice-denis.jpg",
+      "author": "Heurtelions",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ancien_h%C3%B4pital_Maintenon_05961.jpg",
+      "wikimediaFile": "File:Ancien hôpital Maintenon 05961.jpg"
+    }
   },
   {
     "id": "musee-departemental-stephane-mallarme",
@@ -3127,7 +3624,14 @@
     ],
     "wikidata": "Q3330504",
     "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d%C3%A9partemental_St%C3%A9phane-Mallarm%C3%A9",
-    "museofile": "M0386"
+    "museofile": "M0386",
+    "image": {
+      "file": "images/museums/musee-departemental-stephane-mallarme.jpg",
+      "author": "Prosopee",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maison_de_St%C3%A9phane_Mallarm%C3%A9e_vue_d'ensemble_1.JPG",
+      "wikimediaFile": "File:Maison de Stéphane Mallarmée vue d'ensemble 1.JPG"
+    }
   },
   {
     "id": "musee-des-annees-trente",
@@ -3173,7 +3677,14 @@
       "url": "https://www.boulognebillancourt.com",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M0406"
+    "museofile": "M0406",
+    "image": {
+      "file": "images/museums/musee-des-annees-trente.jpg",
+      "author": "Francesco Bini",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parigi%2C_museo_degli_anni_30%2C_nel_centro_landowski.jpg",
+      "wikimediaFile": "File:Parigi, museo degli anni 30, nel centro landowski.jpg"
+    }
   },
   {
     "id": "musee-des-archives-nationales-hotel-de-soubise",
@@ -3208,6 +3719,13 @@
     "openingHoursSource": {
       "url": "https://www.archives-nationales.culture.gouv.fr",
       "checkedAt": "2026-08-04"
+    },
+    "image": {
+      "file": "images/museums/musee-des-archives-nationales-hotel-de-soubise.jpg",
+      "author": "AlNo (discuter/talk/hablar/falar)",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_ArchivesNationales_Facade.JPG",
+      "wikimediaFile": "File:Paris ArchivesNationales Facade.JPG"
     }
   },
   {
@@ -3254,7 +3772,14 @@
       "url": "https://www.guimet.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M5005"
+    "museofile": "M5005",
+    "image": {
+      "file": "images/museums/musee-des-arts-asiatiques-guimet.jpg",
+      "author": "Jean-Pierre Dalbéra",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_mus%C3%A9e_Guimet_November_20%2C_2011.jpg",
+      "wikimediaFile": "File:Le musée Guimet November 20, 2011.jpg"
+    }
   },
   {
     "id": "musee-des-arts-decoratifs-union-centrale-des-arts-decoratifs",
@@ -3292,7 +3817,14 @@
       "url": "https://madparis.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M5021"
+    "museofile": "M5021",
+    "image": {
+      "file": "images/museums/musee-des-arts-decoratifs-union-centrale-des-arts-decoratifs.jpg",
+      "author": "Telemaque MySon",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_des_Arts_d%C3%A9coratifs%2C_Paris_1.jpg",
+      "wikimediaFile": "File:Musée des Arts décoratifs, Paris 1.jpg"
+    }
   },
   {
     "id": "musee-des-arts-et-metiers",
@@ -3338,7 +3870,14 @@
       "url": "https://www.arts-et-metiers.net",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M5065"
+    "museofile": "M5065",
+    "image": {
+      "file": "images/museums/musee-des-arts-et-metiers.jpg",
+      "author": "Arnaud 25",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_des_Arts_et_M%C3%A9tiers_337.jpg",
+      "wikimediaFile": "File:Musée des Arts et Métiers 337.jpg"
+    }
   },
   {
     "id": "musee-des-avelines-musee-d-art-et-d-histoire-de-saint-cloud",
@@ -3373,7 +3912,14 @@
       "url": "https://www.musee-saintcloud.fr/",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M0416"
+    "museofile": "M0416",
+    "image": {
+      "file": "images/museums/musee-des-avelines-musee-d-art-et-d-histoire-de-saint-cloud.jpg",
+      "author": "Moonik",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saint-Cloud_Mus%C3%A9e_des_Avelines_003.JPG",
+      "wikimediaFile": "File:Saint-Cloud Musée des Avelines 003.JPG"
+    }
   },
   {
     "id": "musee-des-monnaies-et-medailles",
@@ -3414,7 +3960,14 @@
     ],
     "wikidata": "Q48746193",
     "wikipediaFr": "https://fr.wikipedia.org/wiki/Le_Mus%C3%A9e_du_11_Conti_-_Monnaie_de_Paris",
-    "museofile": "M5066"
+    "museofile": "M5066",
+    "image": {
+      "file": "images/museums/musee-des-monnaies-et-medailles.jpg",
+      "author": "MOSSOT",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_-_H%C3%B4tel_des_Monnaies_-_Fa%C3%A7ade_c%C3%B4t%C3%A9_cour.JPG",
+      "wikimediaFile": "File:Paris - Hôtel des Monnaies - Façade côté cour.JPG"
+    }
   },
   {
     "id": "musee-des-monuments-francais",
@@ -3461,7 +4014,14 @@
       "url": "https://www.citedelarchitecture.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M5042"
+    "museofile": "M5042",
+    "image": {
+      "file": "images/museums/musee-des-monuments-francais.jpg",
+      "author": "Architecture Patrimoine",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cite_de_l'architecture_et_du_patrimoine.jpg",
+      "wikimediaFile": "File:Cite de l'architecture et du patrimoine.jpg"
+    }
   },
   {
     "id": "musee-des-pays-de-seine-et-marne",
@@ -3497,7 +4057,14 @@
       "url": "https://www.musee-seine-et-marne.fr/",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M0384"
+    "museofile": "M0384",
+    "image": {
+      "file": "images/museums/musee-des-pays-de-seine-et-marne.jpg",
+      "author": "Lomita",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:L3531_-_Saint-Cyr-sur-Morin_-_Mus%C3%A9e_d%C3%A9partemental_de_la_Seine-et-Marne.jpg",
+      "wikimediaFile": "File:L3531 - Saint-Cyr-sur-Morin - Musée départemental de la Seine-et-Marne.jpg"
+    }
   },
   {
     "id": "musee-des-plans-reliefs",
@@ -3534,7 +4101,14 @@
       "url": "https://www.museedesplansreliefs.culture.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M5071"
+    "museofile": "M5071",
+    "image": {
+      "file": "images/museums/musee-des-plans-reliefs.jpg",
+      "author": "Mohatatou",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Entr%C3%A9e_Mus%C3%A9e_des_Plans-Reliefs_(Les_Invalides).jpg",
+      "wikimediaFile": "File:Entrée Musée des Plans-Reliefs (Les Invalides).jpg"
+    }
   },
   {
     "id": "musee-des-transports-urbains-interurbains-et-ruraux",
@@ -3573,7 +4147,14 @@
     ],
     "wikidata": "Q3330300",
     "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_transports_urbains%2C_interurbains_et_ruraux",
-    "museofile": "M0428"
+    "museofile": "M0428",
+    "image": {
+      "file": "images/museums/musee-des-transports-urbains-interurbains-et-ruraux.jpg",
+      "author": "Scanné par Claude Shoshany",
+      "license": "Public Domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:MALAKOFF_-_Int%C3%A9rieur_du_d%C3%A9pot_des_Tramways.jpg",
+      "wikimediaFile": "File:MALAKOFF - Intérieur du dépot des Tramways.jpg"
+    }
   },
   {
     "id": "musee-du-chateau",
@@ -3611,7 +4192,14 @@
     ],
     "wikidata": "Q36362855",
     "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_ch%C3%A2teau_de_Dourdan",
-    "museofile": "M0404"
+    "museofile": "M0404",
+    "image": {
+      "file": "images/museums/musee-du-chateau.jpg",
+      "author": "P.poschadel",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dourdan_(91)%2C_ch%C3%A2teau%2C_logis_neuf.JPG",
+      "wikimediaFile": "File:Dourdan (91), château, logis neuf.JPG"
+    }
   },
   {
     "id": "musee-du-domaine-royal-de-marly-louveciennes-marly-le-roi",
@@ -3641,7 +4229,14 @@
     ],
     "wikidata": "Q23600219",
     "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_domaine_royal_de_Marly",
-    "museofile": "M0390"
+    "museofile": "M0390",
+    "image": {
+      "file": "images/museums/musee-du-domaine-royal-de-marly-louveciennes-marly-le-roi.jpg",
+      "author": "Mel22",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_du_domaine_de_Marly_-_vue_de_l'entr%C3%A9e.jpg",
+      "wikimediaFile": "File:Musée du domaine de Marly - vue de l'entrée.jpg"
+    }
   },
   {
     "id": "musee-du-jouet-pierre-pinel",
@@ -3672,7 +4267,14 @@
     ],
     "wikidata": "Q3330439",
     "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_jouet_de_Poissy",
-    "museofile": "M0394"
+    "museofile": "M0394",
+    "image": {
+      "file": "images/museums/musee-du-jouet-pierre-pinel.jpg",
+      "author": "Hydrel",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_du_jouet.jpg",
+      "wikimediaFile": "File:Musée du jouet.jpg"
+    }
   },
   {
     "id": "musee-du-louvre",
@@ -3741,7 +4343,14 @@
       "url": "https://www.louvre.fr/",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M5031"
+    "museofile": "M5031",
+    "image": {
+      "file": "images/museums/musee-du-louvre.jpg",
+      "author": "Benh LIEU SONG",
+      "license": "CC BY 2.5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cour_Napol%C3%A9on_at_night_-_Louvre.jpg",
+      "wikimediaFile": "File:Cour Napoléon at night - Louvre.jpg"
+    }
   },
   {
     "id": "musee-du-moyen-age-thermes-et-hotel-de-cluny",
@@ -3788,7 +4397,14 @@
       "url": "https://www.musee-moyenage.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M5003"
+    "museofile": "M5003",
+    "image": {
+      "file": "images/museums/musee-du-moyen-age-thermes-et-hotel-de-cluny.jpg",
+      "author": "ctj71081",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_de_Cluny%2C_Paris_24_April_2012.jpg",
+      "wikimediaFile": "File:Hôtel de Cluny, Paris 24 April 2012.jpg"
+    }
   },
   {
     "id": "musee-du-parfum-fragonard",
@@ -3823,6 +4439,13 @@
     "openingHoursSource": {
       "url": "https://musee-parfum-paris.fragonard.com",
       "checkedAt": "2026-08-04"
+    },
+    "image": {
+      "file": "images/museums/musee-du-parfum-fragonard.jpg",
+      "author": "Chabe01",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Parfum_Fragonnard_-_Paris_IX_(FR75)_-_2021-06-28_-_2.jpg",
+      "wikimediaFile": "File:Musée Parfum Fragonnard - Paris IX (FR75) - 2021-06-28 - 2.jpg"
     }
   },
   {
@@ -3869,7 +4492,14 @@
       "url": "https://www.quaibranly.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M5055"
+    "museofile": "M5055",
+    "image": {
+      "file": "images/museums/musee-du-quai-branly-jacques-chirac.jpg",
+      "author": "Another one of my pictures: This photograph was taken by Medium69 (William Crochot) and released under the license stated below. You are free to use it for any purpose as long as you credit the author (William Crochot), the Source (Wikimedia Commons) and the license (CC-BY-SA 4.0) in close relation to the image. Please do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source RAW. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_du_quai_Branly_-_20150801_16h07_(10629).jpg",
+      "wikimediaFile": "File:Musée du quai Branly - 20150801 16h07 (10629).jpg"
+    }
   },
   {
     "id": "musee-du-service-de-sante-des-armees-du-val-de-grace",
@@ -3891,7 +4521,14 @@
     "freeAccess": [],
     "wikidata": "Q3330482",
     "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_Service_de_sant%C3%A9_des_arm%C3%A9es",
-    "museofile": "M9024"
+    "museofile": "M9024",
+    "image": {
+      "file": "images/museums/musee-du-service-de-sante-des-armees-du-val-de-grace.jpg",
+      "author": "Guilhem Vellut from Paris, France",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_du_Service_de_Sant%C3%A9_des_Arm%C3%A9es_%40_Val-de-Gr%C3%A2ce_%40_Paris_(32578929882).jpg",
+      "wikimediaFile": "File:Musée du Service de Santé des Armées @ Val-de-Grâce @ Paris (32578929882).jpg"
+    }
   },
   {
     "id": "musee-dunoyer-de-segonzac",
@@ -3911,7 +4548,14 @@
     ],
     "freeAccess": [],
     "wikidata": "Q23599717",
-    "museofile": "M0402"
+    "museofile": "M0402",
+    "image": {
+      "file": "images/museums/musee-dunoyer-de-segonzac.jpg",
+      "author": "Chabe01",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Biblioth%C3%A8que_Andr%C3%A9_Dunoyer_Segonzac_-_Boussy-Saint-Antoine_(FR91)_-_2024-10-20_-_2.jpg",
+      "wikimediaFile": "File:Musée Bibliothèque André Dunoyer Segonzac - Boussy-Saint-Antoine (FR91) - 2024-10-20 - 2.jpg"
+    }
   },
   {
     "id": "musee-emile-jean",
@@ -3940,7 +4584,14 @@
       }
     ],
     "wikidata": "Q23641285",
-    "museofile": "M0430"
+    "museofile": "M0430",
+    "image": {
+      "file": "images/museums/musee-emile-jean.jpg",
+      "author": "Chabe01",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_%C3%89mile_Jean_-_Villiers-sur-Marne_(FR94)_-_2022-03-14_-_2.jpg",
+      "wikimediaFile": "File:Musée Émile Jean - Villiers-sur-Marne (FR94) - 2022-03-14 - 2.jpg"
+    }
   },
   {
     "id": "musee-eugene-delacroix",
@@ -3994,7 +4645,14 @@
       "url": "https://www.musee-delacroix.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M5004"
+    "museofile": "M5004",
+    "image": {
+      "file": "images/museums/musee-eugene-delacroix.jpg",
+      "author": "xiquinhosilva from Cacau",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Delacroix%2C_Paris_29_May_2017_001.jpg",
+      "wikimediaFile": "File:Musée Delacroix, Paris 29 May 2017 001.jpg"
+    }
   },
   {
     "id": "musee-fragonard",
@@ -4031,7 +4689,14 @@
       "url": "https://musee.vet-alfort.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M5064"
+    "museofile": "M5064",
+    "image": {
+      "file": "images/museums/musee-fragonard.jpg",
+      "author": "Thesupermat",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ENVA_-_JPO2010_-_Le_mus%C3%A9e_Fragonard2.JPG",
+      "wikimediaFile": "File:ENVA - JPO2010 - Le musée Fragonard2.JPG"
+    }
   },
   {
     "id": "musee-francais-de-la-carte-a-jouer-et-galerie-d-histoire-de-la-ville",
@@ -4068,7 +4733,14 @@
       "url": "https://www.issy.com/musee",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M0411"
+    "museofile": "M0411",
+    "image": {
+      "file": "images/museums/musee-francais-de-la-carte-a-jouer-et-galerie-d-histoire-de-la-ville.jpg",
+      "author": "Chabe01",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Carte_Jouer_-_Issy-les-Moulineaux_(FR92)_-_2023-09-02_-_1.jpg",
+      "wikimediaFile": "File:Musée Carte Jouer - Issy-les-Moulineaux (FR92) - 2023-09-02 - 1.jpg"
+    }
   },
   {
     "id": "musee-gustave-moreau",
@@ -4114,7 +4786,14 @@
       "url": "https://musee-moreau.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M5041"
+    "museofile": "M5041",
+    "image": {
+      "file": "images/museums/musee-gustave-moreau.jpg",
+      "author": "Velvet",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_mus%C3%A9e_Gustave-Moreau%2C_19_mai_2013.jpg",
+      "wikimediaFile": "File:Paris musée Gustave-Moreau, 19 mai 2013.jpg"
+    }
   },
   {
     "id": "musee-henri-chapu",
@@ -4144,7 +4823,14 @@
     ],
     "wikidata": "Q2415229",
     "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Henri-Chapu",
-    "museofile": "M0377"
+    "museofile": "M0377",
+    "image": {
+      "file": "images/museums/musee-henri-chapu.jpg",
+      "author": "Popolon",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_M%C3%A9e-Mus%C3%A9e_Chapu.jpg",
+      "wikimediaFile": "File:Le Mée-Musée Chapu.jpg"
+    }
   },
   {
     "id": "musee-jardin-paul-landowski",
@@ -4235,7 +4921,14 @@
       "url": "https://www.musee-henner.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M5039"
+    "museofile": "M5039",
+    "image": {
+      "file": "images/museums/musee-jean-jacques-henner.jpg",
+      "author": "Musée Henner",
+      "license": "Public Domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Henner_museum_facade.jpg",
+      "wikimediaFile": "File:Henner museum facade.jpg"
+    }
   },
   {
     "id": "musee-jean-jacques-rousseau",
@@ -4274,7 +4967,14 @@
     ],
     "wikidata": "Q3329216",
     "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Jean-Jacques-Rousseau",
-    "museofile": "M0437"
+    "museofile": "M0437",
+    "image": {
+      "file": "images/museums/musee-jean-jacques-rousseau.jpg",
+      "author": "Mussklprozz",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:MontmorencyMus%C3%A9eRousseau.jpg",
+      "wikimediaFile": "File:MontmorencyMuséeRousseau.jpg"
+    }
   },
   {
     "id": "musee-lambinet",
@@ -4318,7 +5018,14 @@
       "url": "https://www.versailles.fr/51/culture/musee-lambinet.htm",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M0400"
+    "museofile": "M0400",
+    "image": {
+      "file": "images/museums/musee-lambinet.jpg",
+      "author": "Henry Salomé",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Versailles_Mus%C3%A9e_Lambinet.jpg",
+      "wikimediaFile": "File:Versailles Musée Lambinet.jpg"
+    }
   },
   {
     "id": "musee-librairie-du-compagnonnage",
@@ -4353,6 +5060,13 @@
     "openingHoursSource": {
       "url": "https://www.compagnons-du-devoir.com",
       "checkedAt": "2026-08-04"
+    },
+    "image": {
+      "file": "images/museums/musee-librairie-du-compagnonnage.jpg",
+      "author": "Hadonos",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_2014_Mus%C3%A9e-librairie_du_compagnonnage_03.jpg",
+      "wikimediaFile": "File:Paris 2014 Musée-librairie du compagnonnage 03.jpg"
     }
   },
   {
@@ -4416,7 +5130,14 @@
     "freeAccess": [],
     "wikidata": "Q3330653",
     "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_intercommunal_d'%C3%89tampes",
-    "museofile": "M0405"
+    "museofile": "M0405",
+    "image": {
+      "file": "images/museums/musee-municipal-91150.jpg",
+      "author": "Chabe01",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_ville_%C3%89tampes_1.jpg",
+      "wikimediaFile": "File:Hôtel ville Étampes 1.jpg"
+    }
   },
   {
     "id": "musee-municipal-d-art-et-d-histoire",
@@ -4451,7 +5172,14 @@
       "url": "https://www.colombes.fr/la-ville/la-vie-quotidienne/culture-et-loisirs/musee-municipal-dart-et-dhistoire/",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M0409"
+    "museofile": "M0409",
+    "image": {
+      "file": "images/museums/musee-municipal-d-art-et-d-histoire.jpg",
+      "author": "Tangopaso",
+      "license": "Public Domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Municipal_d'Art_et_d'Histoire_de_Colombes.jpg",
+      "wikimediaFile": "File:Musée Municipal d'Art et d'Histoire de Colombes.jpg"
+    }
   },
   {
     "id": "musee-municipal-ducastel-vera-de-saint-germain-en-laye",
@@ -4491,7 +5219,14 @@
     ],
     "wikidata": "Q3330662",
     "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_municipal_de_Saint-Germain-en-Laye",
-    "museofile": "M0397"
+    "museofile": "M0397",
+    "image": {
+      "file": "images/museums/musee-municipal-ducastel-vera-de-saint-germain-en-laye.jpg",
+      "author": "Hieronymus Bosch and workshop / Workshop of Hieronymus Bosch / After Hieronymus Bosch",
+      "license": "Public Domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Conjurer_Bosch.jpg",
+      "wikimediaFile": "File:Conjurer Bosch.jpg"
+    }
   },
   {
     "id": "musee-municipal-robert-dubois-corneau",
@@ -4526,7 +5261,14 @@
       "url": "https://www.brunoy.fr/vos-demarches-services/vie-culturelle-et-animations/musee/",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M0403"
+    "museofile": "M0403",
+    "image": {
+      "file": "images/museums/musee-municipal-robert-dubois-corneau.jpg",
+      "author": "Parisette",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:P%C3%A2ris-Duverney%2C_buste.JPG",
+      "wikimediaFile": "File:Pâris-Duverney, buste.JPG"
+    }
   },
   {
     "id": "musee-national-de-l-histoire-et-des-cultures-de-l-immigration",
@@ -4572,7 +5314,14 @@
       "url": "https://www.histoire-immigration.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M5084"
+    "museofile": "M5084",
+    "image": {
+      "file": "images/museums/musee-national-de-l-histoire-et-des-cultures-de-l-immigration.jpg",
+      "author": "Jean-Pierre Dalbéra",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:L'exposition_permanente_de_la_CNHI.jpg",
+      "wikimediaFile": "File:L'exposition permanente de la CNHI.jpg"
+    }
   },
   {
     "id": "musee-national-de-la-legion-d-honneur-et-des-ordres-de-chevalerie",
@@ -4608,7 +5357,14 @@
       "url": "https://www.musee-legiondhonneur.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M5059"
+    "museofile": "M5059",
+    "image": {
+      "file": "images/museums/musee-national-de-la-legion-d-honneur-et-des-ordres-de-chevalerie.jpg",
+      "author": "JLPC",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_Palais_L%C3%A9gion-d'Honneur_Cour_2014_B.jpg",
+      "wikimediaFile": "File:Paris Palais Légion-d'Honneur Cour 2014 B.jpg"
+    }
   },
   {
     "id": "musee-national-de-la-marine",
@@ -4645,7 +5401,14 @@
       "url": "https://www.musee-marine.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M5026"
+    "museofile": "M5026",
+    "image": {
+      "file": "images/museums/musee-national-de-la-marine.jpg",
+      "author": "Jean-Pierre Dalbéra from Paris, France",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_mus%C3%A9e_national_de_la_Marine_(Paris)_(15883293736).jpg",
+      "wikimediaFile": "File:Le musée national de la Marine (Paris) (15883293736).jpg"
+    }
   },
   {
     "id": "musee-national-des-chateaux-de-malmaison-et-de-bois-preau",
@@ -4690,7 +5453,14 @@
       "url": "https://musees-nationaux-malmaison.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M5016"
+    "museofile": "M5016",
+    "image": {
+      "file": "images/museums/musee-national-des-chateaux-de-malmaison-et-de-bois-preau.jpg",
+      "author": "Copyleft",
+      "license": "CC0 1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2011_Chateau_de_Malmaison_recto-verso.jpg",
+      "wikimediaFile": "File:2011 Chateau de Malmaison recto-verso.jpg"
+    }
   },
   {
     "id": "musee-national-des-chateaux-de-versailles-et-de-trianon",
@@ -4745,7 +5515,14 @@
       "url": "https://www.chateauversailles.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M5077"
+    "museofile": "M5077",
+    "image": {
+      "file": "images/museums/musee-national-des-chateaux-de-versailles-et-de-trianon.jpg",
+      "author": "Zairon",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Versailles_Ch%C3%A2teau_de_Versailles_Innen_Galerie_des_Batailles_02.jpg",
+      "wikimediaFile": "File:Versailles Château de Versailles Innen Galerie des Batailles 02.jpg"
+    }
   },
   {
     "id": "musee-national-du-chateau-de-fontainebleau",
@@ -4780,7 +5557,14 @@
       "url": "https://www.chateaudefontainebleau.fr/",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M5013"
+    "museofile": "M5013",
+    "image": {
+      "file": "images/museums/musee-national-du-chateau-de-fontainebleau.jpg",
+      "author": "user:Carolus",
+      "license": "CC BY 2.5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_Grand_Escalier_%C3%A0_Fer_de_Cheval.jpg",
+      "wikimediaFile": "File:Le Grand Escalier à Fer de Cheval.jpg"
+    }
   },
   {
     "id": "musee-nissim-de-camondo-union-centrale-des-arts-decoratifs",
@@ -4812,7 +5596,14 @@
     ],
     "wikidata": "Q1954498",
     "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Nissim-de-Camondo",
-    "museofile": "M5073"
+    "museofile": "M5073",
+    "image": {
+      "file": "images/museums/musee-nissim-de-camondo-union-centrale-des-arts-decoratifs.jpg",
+      "author": "GO69",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_(75008)_H%C3%B4tel_Mo%C3%AFse_de_Camondo_05.JPG",
+      "wikimediaFile": "File:Paris (75008) Hôtel Moïse de Camondo 05.JPG"
+    }
   },
   {
     "id": "musee-picasso",
@@ -4859,7 +5650,14 @@
       "url": "https://www.museepicassoparis.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M5043"
+    "museofile": "M5043",
+    "image": {
+      "file": "images/museums/musee-picasso.jpg",
+      "author": "GFreihalter",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_3e_H%C3%B4tel_Sal%C3%A9_640.jpg",
+      "wikimediaFile": "File:Paris 3e Hôtel Salé 640.jpg"
+    }
   },
   {
     "id": "musee-pissarro",
@@ -4896,7 +5694,14 @@
       "url": "https://ville-pontoise.fr/le-musee-dart-et-dhistoire-pissarro-pontoise-mahpp",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M0439"
+    "museofile": "M0439",
+    "image": {
+      "file": "images/museums/musee-pissarro.jpg",
+      "author": "Popolon",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Camille_Pissarro.jpg",
+      "wikimediaFile": "File:Musée Camille Pissarro.jpg"
+    }
   },
   {
     "id": "musee-rambolitrain",
@@ -4917,7 +5722,14 @@
     "freeAccess": [],
     "wikidata": "Q3418414",
     "wikipediaFr": "https://fr.wikipedia.org/wiki/Rambolitrain",
-    "museofile": "M0395"
+    "museofile": "M0395",
+    "image": {
+      "file": "images/museums/musee-rambolitrain.jpg",
+      "author": "Jules78120",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rambolitrain-fa%C3%A7ade.JPG",
+      "wikimediaFile": "File:Rambolitrain-façade.JPG"
+    }
   },
   {
     "id": "musee-rodin",
@@ -4971,7 +5783,14 @@
       "url": "https://www.musee-rodin.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M5044"
+    "museofile": "M5044",
+    "image": {
+      "file": "images/museums/musee-rodin.jpg",
+      "author": "Jean-Pierre Dalbéra",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:L'h%C3%B4tel_Biron_(mus%C3%A9e_Rodin)_%C3%A0_Paris%2C_13_juin_2021_01.jpg",
+      "wikimediaFile": "File:L'hôtel Biron (musée Rodin) à Paris, 13 juin 2021 01.jpg"
+    }
   },
   {
     "id": "musee-rodin-meudon",
@@ -5014,6 +5833,13 @@
     "openingHoursSource": {
       "url": "https://www.musee-rodin.fr",
       "checkedAt": "2026-08-04"
+    },
+    "image": {
+      "file": "images/museums/musee-rodin-meudon.jpg",
+      "author": "aconcagua (talk)",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Rodin_de_Meudon_01.jpg",
+      "wikimediaFile": "File:Musée Rodin de Meudon 01.jpg"
     }
   },
   {
@@ -5048,7 +5874,14 @@
       "url": "https://www.ville-courbevoie.fr/2788/culture-loisirs/service-patrimoine-et-musee/pavillon-de-la-suede-et-de-la-norvege-musee-roybet-fould.htm",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M0410"
+    "museofile": "M0410",
+    "image": {
+      "file": "images/museums/musee-roybet-fould.jpg",
+      "author": "Moonik",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pavillon_de_la_Su%C3%A8de_et_de_la_Norv%C3%A8ge%2C_Courbevoie_004.JPG",
+      "wikimediaFile": "File:Pavillon de la Suède et de la Norvège, Courbevoie 004.JPG"
+    }
   },
   {
     "id": "musee-victor-aubert",
@@ -5104,7 +5937,14 @@
     "note": "Temporarily closed for renovation; reopening announced for autumn 2026.",
     "wikidata": "Q43688220",
     "wikipediaFr": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Yves-Saint-Laurent_de_Paris",
-    "museofile": "M1204"
+    "museofile": "M1204",
+    "image": {
+      "file": "images/museums/musee-yves-saint-laurent-paris.jpg",
+      "author": "Celette",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fondation_Pierre_Berg%C3%A9_%E2%80%93_Yves_Saint_Laurent%2C_5_avenue_Marceau%2C_Paris_16e.jpg",
+      "wikimediaFile": "File:Fondation Pierre Bergé – Yves Saint Laurent, 5 avenue Marceau, Paris 16e.jpg"
+    }
   },
   {
     "id": "musee-zadkine",
@@ -5141,7 +5981,14 @@
       "url": "https://www.zadkine.paris.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M1115"
+    "museofile": "M1115",
+    "image": {
+      "file": "images/museums/musee-zadkine.jpg",
+      "author": "Serein",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Zadkine.jpg",
+      "wikimediaFile": "File:Musée Zadkine.jpg"
+    }
   },
   {
     "id": "musee-zola-dreyfus",
@@ -5161,7 +6008,14 @@
     "freeAccess": [],
     "wikidata": "Q2588025",
     "wikipediaFr": "https://fr.wikipedia.org/wiki/Maison_d'%C3%89mile_Zola",
-    "museofile": "M1186"
+    "museofile": "M1186",
+    "image": {
+      "file": "images/museums/musee-zola-dreyfus.jpg",
+      "author": "Spedona",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:M%C3%A9dan_-_Maison_d'%C3%89mile_Zola01.jpg",
+      "wikimediaFile": "File:Médan - Maison d'Émile Zola01.jpg"
+    }
   },
   {
     "id": "museum-national-d-histoire-naturelle",
@@ -5198,7 +6052,14 @@
       "url": "https://www.mnhn.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M7003"
+    "museofile": "M7003",
+    "image": {
+      "file": "images/museums/museum-national-d-histoire-naturelle.jpg",
+      "author": "Ken and Nyetta",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grande_galerie_de_l'%C3%A9volution%2C_Paris_10_April_2014.jpg",
+      "wikimediaFile": "File:Grande galerie de l'évolution, Paris 10 April 2014.jpg"
+    }
   },
   {
     "id": "palais-galliera-musee-de-la-mode-et-de-la-ville-de-paris",
@@ -5220,7 +6081,14 @@
     "freeAccess": [],
     "wikidata": "Q1632912",
     "wikipediaFr": "https://fr.wikipedia.org/wiki/Palais_Galliera%2C_mus%C3%A9e_de_la_Mode_de_la_ville_de_Paris",
-    "museofile": "M1108"
+    "museofile": "M1108",
+    "image": {
+      "file": "images/museums/palais-galliera-musee-de-la-mode-et-de-la-ville-de-paris.jpg",
+      "author": "Joe deSousa",
+      "license": "CC0 1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Galliera%2C_Paris_21_July_2017.jpg",
+      "wikimediaFile": "File:Musée Galliera, Paris 21 July 2017.jpg"
+    }
   },
   {
     "id": "pantheon",
@@ -5272,6 +6140,13 @@
     "openingHoursSource": {
       "url": "https://www.paris-pantheon.fr",
       "checkedAt": "2026-08-04"
+    },
+    "image": {
+      "file": "images/museums/pantheon.jpg",
+      "author": "Camille Gévaudan",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panth%C3%A9on%2C_Paris_25_March_2012.jpg",
+      "wikimediaFile": "File:Panthéon, Paris 25 March 2012.jpg"
     }
   },
   {
@@ -5308,7 +6183,14 @@
       "url": "https://www.petitpalais.paris.fr",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M1111"
+    "museofile": "M1111",
+    "image": {
+      "file": "images/museums/petit-palais-musee-des-beaux-arts-de-la-ville-de-paris.jpg",
+      "author": "Chabe01",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Petit_Palais_Paris_2.jpg",
+      "wikimediaFile": "File:Petit Palais Paris 2.jpg"
+    }
   },
   {
     "id": "sainte-chapelle",
@@ -5360,6 +6242,13 @@
     "openingHoursSource": {
       "url": "https://www.sainte-chapelle.fr",
       "checkedAt": "2026-08-04"
+    },
+    "image": {
+      "file": "images/museums/sainte-chapelle.jpg",
+      "author": "Mathae",
+      "license": "CC BY 2.5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Szensapel.jpg",
+      "wikimediaFile": "File:Szensapel.jpg"
     }
   },
   {
