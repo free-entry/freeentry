@@ -84,7 +84,7 @@
     "googleMaps": "Google Maps",
     "appleMaps": "Apple Karten",
     "wikipedia": "Wikipedia (auf Französisch)",
-    "directions": "Route",
+    "directions": "Route - Google Maps",
     "copyLink": "Link kopieren",
     "linkCopied": "Link in die Zwischenablage kopiert",
     "address": "Adresse",
@@ -96,7 +96,7 @@
     "checkedOn": "geprüft am {{date}}",
     "distanceAway": "{{km}} km entfernt",
     "frenchName": "Französischer Name: ",
-    "photoCredit": "Foto: {{author}} · {{license}}",
+    "photoCredit": "{{author}} · {{license}}",
     "noFreeScheme": "Für diesen Ort ist kein regulärer freier Eintritt bekannt.",
     "back": "Zurück zu den Ergebnissen",
     "close": "Details schließen"

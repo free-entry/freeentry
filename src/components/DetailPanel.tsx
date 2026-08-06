@@ -111,25 +111,40 @@ export default function DetailPanel({ museum, onBack }: DetailPanelProps) {
             {museum.name}
           </p>
         )}
-        <div className={styles.badges}>
-          {categories.map((category) => (
-            <CategoryBadge key={category} category={category} />
-          ))}
-          {freeToday && <span className={styles.today}>{t('museum.todayFree')}</span>}
-        </div>
         {museum.note && <p className={styles.note}>{notes[museum.note] ?? museum.note}</p>}
         {museum.image && (
-          <a
-            className={styles.credit}
-            href={museum.image.sourceUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {t('museum.photoCredit', {
+          <details className={styles.creditToggle}>
+            <summary className={styles.creditButton} aria-label={t('museum.photoCredit', {
               author: museum.image.author,
               license: museum.image.license,
-            })}
-          </a>
+            })}>
+              <svg
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+                className={styles.creditIcon}
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={2}
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <path d="M12 16v-4" />
+                <path d="M12 8h.01" />
+              </svg>
+            </summary>
+            <a
+              className={styles.credit}
+              href={museum.image.sourceUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {t('museum.photoCredit', {
+                author: museum.image.author,
+                license: museum.image.license,
+              })}
+            </a>
+          </details>
         )}
       </header>
 
@@ -137,6 +152,12 @@ export default function DetailPanel({ museum, onBack }: DetailPanelProps) {
 
       <section className={styles.section}>
         <h3 className={styles.sectionTitle}>{t('museum.freeAccessTitle')}</h3>
+        <div className={styles.badges}>
+          {categories.map((category) => (
+            <CategoryBadge key={category} category={category} />
+          ))}
+          {freeToday && <span className={styles.today}>{t('museum.todayFree')}</span>}
+        </div>
         {museum.freeAccess.length === 0 ? (
           <p className={styles.noScheme}>{t('museum.noFreeScheme')}</p>
         ) : (
@@ -169,7 +190,7 @@ export default function DetailPanel({ museum, onBack }: DetailPanelProps) {
           )}
           <span className={styles.mapActions}>
             <a
-              className={`${styles.iconAction} ${styles.iconActionPrimary}`}
+              className={styles.iconAction}
               href={directionsUrl}
               target="_blank"
               rel="noopener noreferrer"

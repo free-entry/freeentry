@@ -84,7 +84,7 @@
     "googleMaps": "Google Maps",
     "appleMaps": "Apple Mappe",
     "wikipedia": "Wikipedia (in francese)",
-    "directions": "Indicazioni stradali",
+    "directions": "Indicazioni stradali - Google Maps",
     "copyLink": "Copia link",
     "linkCopied": "Link copiato negli appunti",
     "address": "Indirizzo",
@@ -96,7 +96,7 @@
     "checkedOn": "verificato il {{date}}",
     "distanceAway": "a {{km}} km",
     "frenchName": "Nome francese: ",
-    "photoCredit": "Foto: {{author}} · {{license}}",
+    "photoCredit": "{{author}} · {{license}}",
     "noFreeScheme": "Per questo luogo non è nota alcuna gratuità regolare.",
     "back": "Torna ai risultati",
     "close": "Chiudi i dettagli"

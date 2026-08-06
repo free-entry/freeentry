@@ -68,12 +68,53 @@
   color: rgb(255 255 255 / 0.85);
 }
 
-.credit {
+.headerPhoto .eyebrow,
+.headerPhoto .name,
+.headerPhoto .frenchName {
+  text-shadow:
+    0 1px 2px rgb(0 0 0 / 0.9),
+    0 2px 6px rgb(0 0 0 / 0.7);
+}
+
+.creditToggle {
   align-self: flex-end;
+  margin-block-start: 0.3rem;
+}
+
+.creditButton {
+  display: inline-grid;
+  place-items: center;
+  inline-size: 1.5rem;
+  block-size: 1.5rem;
+  color: rgb(255 255 255 / 0.75);
+  background: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  list-style: none;
+}
+
+.creditButton::-webkit-details-marker {
+  display: none;
+}
+
+.creditButton:hover,
+.creditToggle[open] .creditButton {
+  color: #fff;
+  background: rgb(255 255 255 / 0.18);
+}
+
+.creditIcon {
+  inline-size: 1.05rem;
+  block-size: 1.05rem;
+}
+
+.credit {
+  display: block;
+  margin-block-start: 0.3rem;
   font-size: 0.68rem;
   color: rgb(255 255 255 / 0.75);
   text-decoration: none;
-  margin-block-start: 0.3rem;
+  text-align: end;
 }
 
 .credit:hover {
@@ -238,16 +279,6 @@
 
 .iconAction:hover {
   background: color-mix(in srgb, var(--color-accent) 12%, var(--color-bg-raised));
-}
-
-.iconActionPrimary {
-  color: var(--color-accent-contrast);
-  background: var(--color-accent);
-  border-color: var(--color-accent);
-}
-
-.iconActionPrimary:hover {
-  background: color-mix(in srgb, var(--color-accent) 85%, black);
 }
 
 .actions {

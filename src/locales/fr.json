@@ -86,7 +86,7 @@
     "googleMaps": "Google Maps",
     "appleMaps": "Apple Plans",
     "wikipedia": "Wikipédia",
-    "directions": "Itinéraire",
+    "directions": "Itinéraire - Google Maps",
     "copyLink": "Copier le lien",
     "linkCopied": "Lien copié dans le presse-papiers",
     "address": "Adresse",
@@ -98,7 +98,7 @@
     "checkedOn": "vérifié le {{date}}",
     "distanceAway": "à {{km}} km",
     "frenchName": "Nom français : ",
-    "photoCredit": "Photo : {{author}} · {{license}}",
+    "photoCredit": "{{author}} · {{license}}",
     "noFreeScheme": "Aucune gratuité régulière connue pour ce lieu.",
     "back": "Retour aux résultats",
     "close": "Fermer les détails"

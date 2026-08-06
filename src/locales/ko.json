@@ -82,7 +82,7 @@
     "googleMaps": "Google 지도",
     "appleMaps": "Apple 지도",
     "wikipedia": "위키백과(프랑스어판)",
-    "directions": "길찾기",
+    "directions": "길찾기 - Google 지도",
     "copyLink": "링크 복사",
     "linkCopied": "링크가 클립보드에 복사되었습니다",
     "address": "주소",
@@ -94,7 +94,7 @@
     "checkedOn": "{{date}} 확인",
     "distanceAway": "{{km}} km 거리",
     "frenchName": "프랑스어 이름: ",
-    "photoCredit": "사진: {{author}} · {{license}}",
+    "photoCredit": "{{author}} · {{license}}",
     "noFreeScheme": "이 시설에는 알려진 정기 무료입장 제도가 없습니다.",
     "back": "결과로 돌아가기",
     "close": "상세 정보 닫기"

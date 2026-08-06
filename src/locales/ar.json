@@ -92,7 +92,7 @@
     "googleMaps": "خرائط Google",
     "appleMaps": "خرائط Apple",
     "wikipedia": "ويكيبيديا (بالفرنسية)",
-    "directions": "الاتجاهات",
+    "directions": "الاتجاهات - خرائط Google",
     "copyLink": "نسخ الرابط",
     "linkCopied": "تم نسخ الرابط إلى الحافظة",
     "address": "العنوان",
@@ -104,7 +104,7 @@
     "checkedOn": "تم التحقق في {{date}}",
     "distanceAway": "على بُعد {{km}} كم",
     "frenchName": "الاسم الفرنسي: ",
-    "photoCredit": "الصورة: {{author}} · {{license}}",
+    "photoCredit": "{{author}} · {{license}}",
     "noFreeScheme": "لا يُعرف نظام دخول مجاني منتظم لهذا المكان.",
     "back": "العودة إلى النتائج",
     "close": "إغلاق التفاصيل"
