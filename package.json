@@ -26,6 +26,7 @@
     "check:images": "tsx scripts/check-images.ts",
     "check:datagouv": "tsx scripts/check-datagouv.ts",
     "check:osm-hours": "tsx scripts/check-osm-hours.ts",
+    "check:cmn": "tsx scripts/check-cmn.ts",
     "check:data": "npm run check:freshness && npm run check:wikidata && npm run check:images && npm run check:datagouv",
     "icons": "tsx scripts/generate-icons.ts"
   },

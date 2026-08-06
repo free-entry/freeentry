@@ -22,11 +22,13 @@ Two kinds of maintenance:
 | `npm run check:wikidata` | Outside opinion from Wikidata: dead/redirected QIDs, coordinate disagreement > 0.6 km, French-Wikipedia article drift | `--write` refreshes links |
 | `npm run check:datagouv` | Diffs the official museum register: new museums, field drift, identity (museofile) links | `--write` stores museofile ids |
 | `npm run check:osm-hours` | Compares our opening hours against OpenStreetMap | no |
-| `npm run check:data` | freshness + wikidata + datagouv in one go | no |
+| `npm run check:cmn` | Diffs the official Centre des monuments nationaux list: new monuments, delisted venues | no |
+| `npm run check:data` | freshness + wikidata + datagouv + cmn in one go | no |
 | `npm run update:rules` | Re-scrapes parisjetaime.com free-admission rules (only replaces rules from that source; `--dry-run` supported) | yes |
 | `npm run update:wikidata` | Links any museum still missing a QID (verified matching; `--dry-run`) | yes |
 | `npm run update:hours` | Re-imports verified hours from a `../free-museums-paris` checkout (`--dry-run`, `--p1 <path>`) | yes |
 | `npm run update:all` | rules → wikidata → link refresh → museofile ids → freshness report | yes |
+| `npx tsx scripts/build-cmn.ts --out <staging>` | Bootstrap resolver for new CMN monuments (Wikidata identity via official-site domain, BAN reverse geocoding, department cross-check) — feeds the AI verification pass | staging file only |
 
 Yearly sequence (what the *Data update* workflow runs): `update:all`, then
 `check:osm-hours`, then `npm test`. It opens a PR — **a green run means the
@@ -107,7 +109,21 @@ verified you did not actually verify.
    - run: npm run update:wikidata && npm run check:datagouv -- --write
      to link its QID and museofile id.
 
-4. FINISH
+4. CMN MONUMENTS (yearly)
+   Run: npm run check:cmn
+   - For every monument venue already in the dataset: open the free rule's
+     source page (the monument's own tarifs page), re-confirm the winter
+     first-Sunday months and any always-free/other schemes, bump checkedAt.
+     The under-26 EU rule cites
+     tickets.monuments-nationaux.fr/fr-FR/conditions-de-gratuite — re-read
+     that page once per year and bump every rule citing it.
+   - For monuments new on the official list: run build-cmn to resolve
+     identity, then verify the new site's own tarifs page before writing
+     rules; every new venue then needs the full step-3 content treatment.
+   - For venues gone from the list: check the site for closure or transfer
+     out of CMN management, and update status/note accordingly.
+
+5. FINISH
    npm test && npm run build must pass. Summarize per museum: what changed,
    which source confirmed it, and anything you could not verify (say so
    plainly rather than guessing).

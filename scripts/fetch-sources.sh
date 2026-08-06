@@ -36,4 +36,8 @@ curl -sL --max-time 90 -A "$UA" -H "Accept: text/html,application/xhtml+xml" \
   "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961" \
   -o parisjetaime.html
 
+curl -sL --max-time 90 -A "$UA" \
+  "https://www.monuments-nationaux.fr/trouver-un-monument" \
+  -o cmn-list.html && echo "cmn-list.html: $(wc -c < cmn-list.html) bytes (parse with scripts/check-cmn.ts)"
+
 echo "Fixtures refreshed: $(wc -c < datagouv-museums.json) bytes (data.gouv), $(wc -c < parisjetaime.html) bytes (parisjetaime)"

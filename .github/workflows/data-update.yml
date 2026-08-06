@@ -11,7 +11,7 @@ on:
         description: Which update stage to run
         type: choice
         default: all
-        options: [all, rules, wikidata, datagouv, osm-hours, freshness]
+        options: [all, rules, wikidata, datagouv, cmn, osm-hours, freshness]
   schedule:
     # Yearly, mid-July: gives a lead over the August re-verification
     # anniversary that check-freshness enforces (365-day max age).
@@ -44,11 +44,13 @@ jobs:
           case "$STAGE" in
             all)
               npm run update:all 2>&1 | tee /tmp/report/update.txt || true
+              npm run check:cmn 2>&1 | tee /tmp/report/cmn.txt || true
               npm run check:osm-hours 2>&1 | tee /tmp/report/osm-hours.txt || true
               ;;
             rules)     npm run update:rules 2>&1 | tee /tmp/report/update.txt ;;
             wikidata)  npm run update:wikidata 2>&1 | tee -a /tmp/report/update.txt && npx tsx scripts/check-wikidata.ts --write 2>&1 | tee -a /tmp/report/update.txt ;;
             datagouv)  npx tsx scripts/check-datagouv.ts --write 2>&1 | tee /tmp/report/update.txt ;;
+            cmn)       npm run check:cmn 2>&1 | tee /tmp/report/update.txt ;;
             osm-hours) npm run check:osm-hours 2>&1 | tee /tmp/report/update.txt ;;
             freshness) npm run check:freshness 2>&1 | tee /tmp/report/update.txt ;;
           esac
