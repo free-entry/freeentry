@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import type { MuseumContent } from './types';
+import { COUNTRY_CODE } from '@/countries';
 import { normalizeLocale } from './i18n';
 
 export type MuseumContentMap = Record<string, MuseumContent>;
@@ -7,13 +8,13 @@ export type MuseumContentMap = Record<string, MuseumContent>;
 // Per-locale museum names/descriptions, code-split by Vite. Files that don't
 // exist yet simply aren't in the glob, so lookups degrade gracefully.
 const contentFiles = import.meta.glob<{ default: MuseumContentMap }>(
-  '../../data/i18n/museums.*.json',
+  '../../data/*/i18n/museums.*.json',
 );
 
 // Catalog translating the English data notes (Museum.note, FreeRule.note),
 // keyed by the exact English string. English needs no file.
 const noteFiles = import.meta.glob<{ default: Record<string, string> }>(
-  '../../data/i18n/notes.*.json',
+  '../../data/*/i18n/notes.*.json',
 );
 
 const cache = new Map<string, MuseumContentMap>();
@@ -32,7 +33,7 @@ export async function loadMuseumContent(locale: string): Promise<MuseumContentMa
   const normalized = normalizeLocale(locale);
   const cached = cache.get(normalized);
   if (cached) return cached;
-  const loader = contentFiles[`../../data/i18n/museums.${normalized}.json`];
+  const loader = contentFiles[`../../data/${COUNTRY_CODE}/i18n/museums.${normalized}.json`];
   const content = loader ? (await loader()).default : {};
   cache.set(normalized, content);
   return content;
@@ -52,7 +53,7 @@ export function useNoteTranslations(locale: string): Record<string, string> {
       setNotes(cached);
       return;
     }
-    const loader = noteFiles[`../../data/i18n/notes.${normalized}.json`];
+    const loader = noteFiles[`../../data/${COUNTRY_CODE}/i18n/notes.${normalized}.json`];
     if (!loader) {
       setNotes({});
       return;

@@ -15,8 +15,9 @@ import { join } from 'node:path';
 import type { EventDates, Museum } from '../src/lib/types';
 
 const ROOT = join(import.meta.dirname, '..');
-const museums: Museum[] = JSON.parse(readFileSync(join(ROOT, 'data/museums.json'), 'utf-8'));
-const events: EventDates = JSON.parse(readFileSync(join(ROOT, 'data/events.json'), 'utf-8'));
+const COUNTRY = process.env.COUNTRY ?? 'fr';
+const museums: Museum[] = JSON.parse(readFileSync(join(ROOT, `data/${COUNTRY}/museums.json`), 'utf-8'));
+const events: EventDates = JSON.parse(readFileSync(join(ROOT, `data/${COUNTRY}/events.json`), 'utf-8'));
 
 const flagIdx = process.argv.indexOf('--max-age-days');
 const MAX_AGE_DAYS = flagIdx !== -1 ? Number(process.argv[flagIdx + 1]) : 365;

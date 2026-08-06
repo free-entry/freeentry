@@ -54,7 +54,7 @@ function hostname(url: string): string | null {
 async function loadRegister(useFixture: boolean): Promise<RegisterRecord[]> {
   if (useFixture) {
     return JSON.parse(
-      readFileSync(join(import.meta.dirname, 'fixtures/datagouv-museums.json'), 'utf-8'),
+      readFileSync(join(import.meta.dirname, 'fixtures/fr/datagouv-museums.json'), 'utf-8'),
     );
   }
   const res = await fetch(REGISTER_URL, { headers: { 'User-Agent': UA } });
@@ -122,9 +122,9 @@ function matchNearby(
 async function main() {
   const useFixture = process.argv.includes('--fixture');
   const write = process.argv.includes('--write');
-  const museums: Museum[] = JSON.parse(readFileSync(join(ROOT, 'data/museums.json'), 'utf-8'));
+  const museums: Museum[] = JSON.parse(readFileSync(join(ROOT, 'data/fr/museums.json'), 'utf-8'));
   const aliases: Record<string, string> = JSON.parse(
-    readFileSync(join(ROOT, 'data/aliases.json'), 'utf-8'),
+    readFileSync(join(ROOT, 'data/fr/aliases.json'), 'utf-8'),
   );
   const register = await loadRegister(useFixture);
 
@@ -233,7 +233,7 @@ async function main() {
   }
 
   if (write && newIds.length) {
-    const path = join(ROOT, 'data/museums.json');
+    const path = join(ROOT, 'data/fr/museums.json');
     const tmp = `${path}.tmp`;
     writeFileSync(tmp, `${JSON.stringify(museums, null, 2)}\n`);
     renameSync(tmp, path);

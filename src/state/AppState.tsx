@@ -10,8 +10,13 @@ import {
 } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import museumsJson from '../../data/museums.json';
-import eventsJson from '../../data/events.json';
+import { COUNTRY_CODE } from '@/countries';
+
+// Country-selected data: eager globs so the build only inlines the active set.
+const museumsModules = import.meta.glob<{ default: unknown }>('../../data/*/museums.json', { eager: true });
+const eventsModules = import.meta.glob<{ default: unknown }>('../../data/*/events.json', { eager: true });
+const museumsJson = museumsModules[`../../data/${COUNTRY_CODE}/museums.json`]!.default;
+const eventsJson = eventsModules[`../../data/${COUNTRY_CODE}/events.json`]!.default;
 import type { EventDates, Museum } from '@/lib/types';
 import type { RuleContext } from '@/lib/freeRules';
 import { applyFilters, DEFAULT_FILTERS, type FilterState } from '@/lib/filters';

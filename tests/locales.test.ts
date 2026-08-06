@@ -1,14 +1,17 @@
 import { readdirSync, readFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
-import museumsJson from '../data/museums.json';
+
 import en from '../src/locales/en.json';
 import { normalizeLocale } from '../src/lib/i18n';
 import { needsEnglishFallback } from '../src/lib/localeData';
 
 const LOCALES = ['en', 'fr', 'es', 'it', 'de', 'zh-Hans', 'zh-Hant', 'ja', 'ko', 'ar'];
 const LOCALES_DIR = join(__dirname, '../src/locales');
-const CONTENT_DIR = join(__dirname, '../data/i18n');
+const DATA_DIR = join(__dirname, '../data');
+const countryCodes = readdirSync(DATA_DIR).filter((d) =>
+  existsSync(join(DATA_DIR, d, 'museums.json')),
+);
 const PLURAL_SUFFIX = /_(zero|one|two|few|many|other)$/;
 
 type Tree = { [k: string]: Tree | string };
@@ -37,7 +40,7 @@ function flat(tree: Tree, prefix = ''): Record<string, string> {
   return out;
 }
 
-const museumIds = (museumsJson as { id: string }[]).map((m) => m.id);
+
 const enBase = baseKeys(en as Tree);
 const enFlat = flat(en as Tree);
 
@@ -69,6 +72,15 @@ describe.each(LOCALES)('UI locale %s', (locale) => {
     }
   });
 });
+
+describe.each(countryCodes)('country %s', (cc) => {
+  const CONTENT_DIR = join(DATA_DIR, cc, 'i18n');
+  const museumIds = (
+    JSON.parse(readFileSync(join(DATA_DIR, cc, 'museums.json'), 'utf-8')) as { id: string }[]
+  ).map((m) => m.id);
+  const museumsJson = JSON.parse(
+    readFileSync(join(DATA_DIR, cc, 'museums.json'), 'utf-8'),
+  ) as { note?: string; freeAccess: { note?: string }[] }[];
 
 describe.each(LOCALES)('museum content %s', (locale) => {
   const path = join(CONTENT_DIR, `museums.${locale}.json`);
@@ -104,7 +116,7 @@ describe.each(LOCALES.filter((l) => l !== 'en'))('note catalog %s', (locale) => 
     expect(existsSync(path), path).toBe(true);
     const catalog = JSON.parse(readFileSync(path, 'utf-8')) as Record<string, string>;
     const englishNotes = new Set<string>();
-    for (const m of museumsJson as { note?: string; freeAccess: { note?: string }[] }[]) {
+    for (const m of museumsJson) {
       if (m.note) englishNotes.add(m.note);
       for (const rule of m.freeAccess) if (rule.note) englishNotes.add(rule.note);
     }
@@ -113,6 +125,7 @@ describe.each(LOCALES.filter((l) => l !== 'en'))('note catalog %s', (locale) => 
     expect(missing, `notes missing a ${locale} translation`).toEqual([]);
     expect(stale, `stale ${locale} catalog entries`).toEqual([]);
   });
+});
 });
 
 it('locales directory contains no unexpected files', () => {
@@ -123,7 +136,7 @@ it('locales directory contains no unexpected files', () => {
 describe('French locale shows canonical French names', () => {
   it('museums.fr.json defines no name overrides — names in museums.json are already French', () => {
     const content = JSON.parse(
-      readFileSync(join(CONTENT_DIR, 'museums.fr.json'), 'utf-8'),
+      readFileSync(join(DATA_DIR, 'fr/i18n', 'museums.fr.json'), 'utf-8'),
     ) as Record<string, { name?: string }>;
     const overridden = Object.entries(content)
       .filter(([, entry]) => entry.name !== undefined)

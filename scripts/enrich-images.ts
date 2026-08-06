@@ -14,7 +14,8 @@ import type { Museum, MuseumImage } from '../src/lib/types';
 import { classifyLicense, imagePathFor, parseArtist } from './lib/images';
 
 const ROOT = join(import.meta.dirname, '..');
-const MUSEUMS_PATH = join(ROOT, 'data/museums.json');
+const COUNTRY = process.env.COUNTRY ?? 'fr';
+const MUSEUMS_PATH = join(ROOT, `data/${COUNTRY}/museums.json`);
 const PUBLIC_DIR = join(ROOT, 'public');
 const WD_API = 'https://www.wikidata.org/w/api.php';
 const COMMONS_API = 'https://commons.wikimedia.org/w/api.php';

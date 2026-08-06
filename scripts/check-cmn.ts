@@ -46,7 +46,7 @@ function parseList(html: string): Map<string, string> {
 async function loadList(useFixture: boolean): Promise<Map<string, string>> {
   if (useFixture) {
     const fixture: Record<string, string> = JSON.parse(
-      readFileSync(join(import.meta.dirname, 'fixtures/cmn-monuments.json'), 'utf-8'),
+      readFileSync(join(import.meta.dirname, 'fixtures/fr/cmn-monuments.json'), 'utf-8'),
     );
     return new Map(Object.entries(fixture));
   }
@@ -61,7 +61,7 @@ async function loadList(useFixture: boolean): Promise<Map<string, string>> {
 
 async function main() {
   const useFixture = process.argv.includes('--fixture');
-  const museums: Museum[] = JSON.parse(readFileSync(join(ROOT, 'data/museums.json'), 'utf-8'));
+  const museums: Museum[] = JSON.parse(readFileSync(join(ROOT, 'data/fr/museums.json'), 'utf-8'));
   const list = await loadList(useFixture);
 
   const ourHosts = new Map(

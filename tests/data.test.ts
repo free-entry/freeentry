@@ -1,23 +1,35 @@
-import { existsSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
-import museumsJson from '../data/museums.json';
-import eventsJson from '../data/events.json';
 import type { EventDates, Museum } from '@/lib/types';
-import { ARRONDISSEMENT_RANGES, DEPARTMENT_NAMES, postalPrefix } from '../src/lib/departments';
+import { COUNTRIES } from '../src/countries';
 
-const museums = museumsJson as unknown as Museum[];
-const events = eventsJson as unknown as EventDates;
+const DATA_DIR = join(__dirname, '../data');
+const countryCodes = readdirSync(DATA_DIR).filter((d) =>
+  existsSync(join(DATA_DIR, d, 'museums.json')),
+);
+/** Minimum dataset sizes per country (guards against truncated writes). */
+const MIN_VENUES: Record<string, number> = { fr: 200 };
 
-const DEPARTMENTS = Object.keys(DEPARTMENT_NAMES);
+describe.each(countryCodes)('country %s', (cc) => {
+  const config = COUNTRIES[cc];
+  const museums = JSON.parse(
+    readFileSync(join(DATA_DIR, cc, 'museums.json'), 'utf-8'),
+  ) as Museum[];
+  const events = JSON.parse(
+    readFileSync(join(DATA_DIR, cc, 'events.json'), 'utf-8'),
+  ) as EventDates;
+  const DEPARTMENTS = Object.keys(config.adminAreas.names);
 const KINDS = ['always', 'nth-weekday', 'event', 'annual-date'];
 const AUDIENCES = ['everyone', 'under-26-eu', 'under-18'];
 const WEEKDAYS = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'];
 
 describe('museums.json integrity', () => {
   it('has a substantial dataset', () => {
-    expect(museums.length).toBeGreaterThan(120);
-    expect(museums.filter((m) => m.freeAccess.length > 0).length).toBeGreaterThan(80);
+    expect(config, `no country config registered for ${cc}`).toBeDefined();
+    const min = MIN_VENUES[cc] ?? 10;
+    expect(museums.length).toBeGreaterThan(min);
+    expect(museums.filter((m) => m.freeAccess.length > 0).length).toBeGreaterThan(min / 2);
   });
 
   it('has unique, well-formed ids', () => {
@@ -26,21 +38,21 @@ describe('museums.json integrity', () => {
     for (const id of ids) expect(id).toMatch(/^[a-z0-9]+(-[a-z0-9]+)*$/);
   });
 
-  it('keeps every museum inside metropolitan France', () => {
+  it('keeps every museum inside the country bbox', () => {
     for (const m of museums) {
       const [lng, lat] = m.coordinates;
-      expect(lat, m.id).toBeGreaterThan(41.2);
-      expect(lat, m.id).toBeLessThan(51.2);
-      expect(lng, m.id).toBeGreaterThan(-5.3);
-      expect(lng, m.id).toBeLessThan(9.7);
+      expect(lat, m.id).toBeGreaterThan(config.bbox.minLat);
+      expect(lat, m.id).toBeLessThan(config.bbox.maxLat);
+      expect(lng, m.id).toBeGreaterThan(config.bbox.minLng);
+      expect(lng, m.id).toBeLessThan(config.bbox.maxLng);
     }
   });
 
   it('has consistent departments, postal codes and arrondissements', () => {
     for (const m of museums) {
       expect(DEPARTMENTS, m.id).toContain(m.department);
-      expect(m.postalCode, m.id).toMatch(postalPrefix(m.department));
-      const arrMax = ARRONDISSEMENT_RANGES[m.department];
+      expect(m.postalCode, m.id).toMatch(config.adminAreas.postalPrefix(m.department));
+      const arrMax = config.adminAreas.districtRanges[m.department];
       if (m.arrondissement !== undefined) {
         expect(arrMax, `${m.id}: arrondissement outside an arrondissement city`).toBeDefined();
         expect(m.arrondissement, m.id).toBeGreaterThanOrEqual(1);
@@ -129,4 +141,5 @@ describe('museums.json integrity', () => {
       }
     }
   });
+});
 });

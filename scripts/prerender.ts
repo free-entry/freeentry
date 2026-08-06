@@ -9,12 +9,13 @@ import { join } from 'node:path';
 import type { Museum, MuseumContent } from '../src/lib/types';
 
 const ROOT = join(import.meta.dirname, '..');
+const COUNTRY = process.env.VITE_COUNTRY ?? process.env.COUNTRY ?? 'fr';
 const DIST = join(ROOT, 'dist');
 const SITE = 'https://travel-eu.github.io/free-museums-france';
 const LOCALES = ['en', 'fr', 'es', 'it', 'de', 'zh-Hans', 'zh-Hant', 'ja', 'ko', 'ar'];
 
-const museums: Museum[] = JSON.parse(readFileSync(join(ROOT, 'data/museums.json'), 'utf-8'));
-const contentPath = join(ROOT, 'data/i18n/museums.en.json');
+const museums: Museum[] = JSON.parse(readFileSync(join(ROOT, `data/${COUNTRY}/museums.json`), 'utf-8'));
+const contentPath = join(ROOT, `data/${COUNTRY}/i18n/museums.en.json`);
 const content: Record<string, MuseumContent> = existsSync(contentPath)
   ? JSON.parse(readFileSync(contentPath, 'utf-8'))
   : {};

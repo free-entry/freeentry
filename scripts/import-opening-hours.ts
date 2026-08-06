@@ -15,7 +15,8 @@ import { join } from 'node:path';
 import type { Museum } from '../src/lib/types';
 
 const ROOT = join(import.meta.dirname, '..');
-const MUSEUMS_PATH = join(ROOT, 'data/museums.json');
+const COUNTRY = process.env.COUNTRY ?? 'fr';
+const MUSEUMS_PATH = join(ROOT, `data/${COUNTRY}/museums.json`);
 
 interface P1Venue {
   id: string;

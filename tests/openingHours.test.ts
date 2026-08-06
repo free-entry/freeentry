@@ -1,9 +1,12 @@
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
-import museumsJson from '../data/museums.json';
 import { formatOpeningHours } from '../src/lib/openingHours';
 import type { Museum } from '@/lib/types';
 
-const museums = museumsJson as unknown as Museum[];
+const museums = JSON.parse(
+  readFileSync(join(__dirname, '../data/fr/museums.json'), 'utf-8'),
+) as Museum[];
 const labels = { closed: 'closed', publicHolidays: 'public holidays', always: 'Open 24/7' };
 const labelsFr = { closed: 'fermé', publicHolidays: 'jours fériés', always: 'Ouvert 24h/24' };
 

@@ -1,7 +1,7 @@
 /**
  * Bootstrap resolver for Centre des monuments nationaux venues.
  *
- * Reads scripts/fixtures/cmn-monuments.json (official-site URL → "Name (dd)"),
+ * Reads scripts/fixtures/fr/cmn-monuments.json (official-site URL → "Name (dd)"),
  * resolves each monument to a Wikidata item — the monument's own website
  * domain (P856) is the primary identity proof, label similarity + coordinates
  * the fallback — then reverse-geocodes the coordinates with BAN to get the
@@ -200,9 +200,9 @@ async function main() {
   if (!outPath) throw new Error('--out <path> is required');
 
   const list: Record<string, string> = JSON.parse(
-    readFileSync(join(import.meta.dirname, 'fixtures/cmn-monuments.json'), 'utf-8'),
+    readFileSync(join(import.meta.dirname, 'fixtures/fr/cmn-monuments.json'), 'utf-8'),
   );
-  const museums: Museum[] = JSON.parse(readFileSync(join(ROOT, 'data/museums.json'), 'utf-8'));
+  const museums: Museum[] = JSON.parse(readFileSync(join(ROOT, 'data/fr/museums.json'), 'utf-8'));
   const existingQids = new Set(museums.map((m) => m.wikidata).filter(Boolean));
   const existingHosts = new Set(
     museums.map((m) => (m.website ? hostname(m.website) : null)).filter(Boolean),

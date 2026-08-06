@@ -7,7 +7,7 @@
  *
  * Flags:
  *   --dry-run   print the diff without writing
- *   --fixture   parse scripts/fixtures/parisjetaime.html instead of fetching
+ *   --fixture   parse scripts/fixtures/fr/parisjetaime.html instead of fetching
  */
 import { readFileSync, renameSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
@@ -18,10 +18,10 @@ import { matchMuseum } from './lib/matchMuseums';
 
 const ARTICLE_URL = 'https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961';
 const ROOT = join(import.meta.dirname, '..');
-const MUSEUMS_PATH = join(ROOT, 'data/museums.json');
-const ALIASES_PATH = join(ROOT, 'data/aliases.json');
-const OVERRIDES_PATH = join(ROOT, 'data/overrides.json');
-const EVENTS_PATH = join(ROOT, 'data/events.json');
+const MUSEUMS_PATH = join(ROOT, 'data/fr/museums.json');
+const ALIASES_PATH = join(ROOT, 'data/fr/aliases.json');
+const OVERRIDES_PATH = join(ROOT, 'data/fr/overrides.json');
+const EVENTS_PATH = join(ROOT, 'data/fr/events.json');
 
 interface Overrides {
   /** Per-museum nocturne schedules (section text is too free-form to parse). */
@@ -150,7 +150,7 @@ function describeRule(rule: FreeRule): string {
 
 async function loadHtml(useFixture: boolean): Promise<string> {
   if (useFixture) {
-    return readFileSync(join(import.meta.dirname, 'fixtures/parisjetaime.html'), 'utf-8');
+    return readFileSync(join(import.meta.dirname, 'fixtures/fr/parisjetaime.html'), 'utf-8');
   }
   const res = await fetch(ARTICLE_URL, {
     headers: { 'User-Agent': 'free-museums-france data updater (github.com/travel-eu/free-museums-france)' },

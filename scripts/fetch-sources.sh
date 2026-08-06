@@ -25,7 +25,7 @@
 #      Note: some venues listed are outside Île-de-France (Château de Pierrefonds,
 #      Château de Compiègne) and are excluded by the curation skip-list.
 set -euo pipefail
-cd "$(dirname "$0")/fixtures"
+cd "$(dirname "$0")/fixtures/fr"
 UA="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
 
 curl -sL --max-time 60 -A "$UA" \

@@ -16,6 +16,7 @@ import type { Museum } from '../src/lib/types';
 import { normalizeName } from './lib/matchMuseums';
 
 const ROOT = join(import.meta.dirname, '..');
+const COUNTRY = process.env.COUNTRY ?? 'fr';
 const OVERPASS_MIRRORS = [
   'https://overpass-api.de/api/interpreter',
   'https://overpass.kumi.systems/api/interpreter',
@@ -78,7 +79,7 @@ async function queryOverpass(): Promise<OsmElement[]> {
 }
 
 async function main() {
-  const museums: Museum[] = JSON.parse(readFileSync(join(ROOT, 'data/museums.json'), 'utf-8'));
+  const museums: Museum[] = JSON.parse(readFileSync(join(ROOT, `data/${COUNTRY}/museums.json`), 'utf-8'));
   const elements = await queryOverpass();
   console.log(`Overpass returned ${elements.length} features with opening_hours.`);
 

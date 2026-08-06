@@ -6,7 +6,7 @@ import { parseArticle, type ParsedArticle } from '../scripts/lib/parseArticle';
 let parsed: ParsedArticle;
 
 beforeAll(() => {
-  const html = readFileSync(join(__dirname, '../scripts/fixtures/parisjetaime.html'), 'utf-8');
+  const html = readFileSync(join(__dirname, '../scripts/fixtures/fr/parisjetaime.html'), 'utf-8');
   parsed = parseArticle(html);
 });
 

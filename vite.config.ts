@@ -6,8 +6,11 @@ import { fileURLToPath } from 'node:url';
 
 // Served from https://travel-eu.github.io/free-museums-france/ — the base path is
 // kept identical in dev so path handling never diverges between environments.
+const COUNTRY = process.env.VITE_COUNTRY ?? 'fr';
+const BASE_PATHS: Record<string, string> = { fr: '/free-museums-france/' };
+
 export default defineConfig({
-  base: '/free-museums-france/',
+  base: BASE_PATHS[COUNTRY] ?? `/free-museums-${COUNTRY}/`,
   plugins: [
     react(),
     VitePWA({
@@ -38,7 +41,7 @@ export default defineConfig({
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,woff2}'],
         maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
-        navigateFallback: '/free-museums-france/index.html',
+        navigateFallback: `${BASE_PATHS[COUNTRY] ?? `/free-museums-${COUNTRY}/`}index.html`,
         runtimeCaching: [
           {
             // Vector tiles, glyphs, sprites and styles — capped, offline-friendly.
