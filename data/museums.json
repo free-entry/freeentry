@@ -48,6 +48,13 @@
     "openingHoursSource": {
       "url": "https://www.paris-arc-de-triomphe.fr",
       "checkedAt": "2026-08-04"
+    },
+    "image": {
+      "file": "images/museums/arc-de-triomphe.jpg",
+      "author": "Jiuguang Wang",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arc_de_Triomphe%2C_Paris_21_October_2010.jpg",
+      "wikimediaFile": "File:Arc de Triomphe, Paris 21 October 2010.jpg"
     }
   },
   {
@@ -85,7 +92,14 @@
       "url": "https://archea.roissypaysdefrance.fr/",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M0436"
+    "museofile": "M0436",
+    "image": {
+      "file": "images/museums/archea-archeologie-en-pays-de-france.jpg",
+      "author": "Khader",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Arch%C3%A9a.jpg",
+      "wikimediaFile": "File:Musée Archéa.jpg"
+    }
   },
   {
     "id": "arenes-de-lutece",
@@ -120,6 +134,13 @@
     "openingHoursSource": {
       "url": "https://opendata.paris.fr/explore/dataset/espaces_verts/",
       "checkedAt": "2026-08-04"
+    },
+    "image": {
+      "file": "images/museums/arenes-de-lutece.jpg",
+      "author": "Rodelar",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anfiteatro_de_Par%C3%ADs_01.jpg",
+      "wikimediaFile": "File:Anfiteatro de París 01.jpg"
     }
   },
   {
@@ -164,6 +185,13 @@
     "openingHoursSource": {
       "url": "https://www.saint-denis-basilique.fr",
       "checkedAt": "2026-08-04"
+    },
+    "image": {
+      "file": "images/museums/basilique-cathedrale-de-saint-denis.jpg",
+      "author": "Chabe01",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Basilique_St_Denis_fa%C3%A7ade_ouest_St_Denis_Seine_St_Denis_20.jpg",
+      "wikimediaFile": "File:Basilique St Denis façade ouest St Denis Seine St Denis 20.jpg"
     }
   },
   {
@@ -200,6 +228,13 @@
     "openingHoursSource": {
       "url": "https://www.sacre-coeur-montmartre.com",
       "checkedAt": "2026-08-04"
+    },
+    "image": {
+      "file": "images/museums/basilique-du-sacre-coeur-de-montmartre.jpg",
+      "author": "Tonchino",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_sacre_coeur.jpg",
+      "wikimediaFile": "File:Le sacre coeur.jpg"
     }
   },
   {
