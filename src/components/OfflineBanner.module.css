@@ -3,7 +3,7 @@
   padding-block: 0.35rem;
   padding-inline: 1rem;
   background: var(--color-focus);
-  color: #ffffff;
+  color: var(--color-bg);
   font-size: 0.82rem;
   text-align: center;
 }
