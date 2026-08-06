@@ -52,6 +52,9 @@ export function ruleCategory(rule: FreeRule): Category {
       return 'always';
     case 'nth-weekday':
       if (rule.evening) return 'nocturne';
+      // Rare non-first occurrences (e.g. LAST Sunday of the month) would make
+      // the "1st Sunday" badge false — group them under special days instead.
+      if ((rule.nth ?? 1) !== 1) return 'special-days';
       if (rule.weekday === 'sunday') {
         if (rule.months) return 'first-sunday-low-season';
         return rule.reservationRequired ? 'first-sunday-booking' : 'first-sunday';

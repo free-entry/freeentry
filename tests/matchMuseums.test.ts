@@ -48,6 +48,13 @@ describe('matchMuseum', () => {
     const aliases = { 'Le Louvre en majesté': 'musee-du-louvre' };
     expect(matchMuseum('Le Louvre en majesté', MUSEUMS, aliases)?.id).toBe('musee-du-louvre');
   });
+  it('resolves aliases despite apostrophe/punctuation variants', () => {
+    // The live page uses U+2019 while the alias table may use U+0027.
+    const aliases = { "Cité de l'architecture & du patrimoine": 'musee-du-louvre' };
+    expect(matchMuseum('Cité de l’architecture & du patrimoine', MUSEUMS, aliases)?.id).toBe(
+      'musee-du-louvre',
+    );
+  });
   it('returns null for unknown names', () => {
     expect(matchMuseum('Musée Imaginaire', MUSEUMS, {})).toBeNull();
   });

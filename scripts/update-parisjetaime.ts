@@ -31,7 +31,9 @@ interface Overrides {
   >;
   /** Museums whose first-Sunday free entry requires booking a ticket. */
   firstSundayBooking: string[];
-  /** Scraped names that are deliberately out of scope (outside Île-de-France). */
+  /** Caveats attached to always-free rules (partial openings, exhibitions…). */
+  alwaysNotes: Record<string, string>;
+  /** Scraped names that are deliberately out of scope (outside IDF, closed venues). */
   skip: string[];
 }
 
@@ -49,8 +51,10 @@ function pjtSource(): FreeRule['source'] {
 function ruleForSection(entry: ScrapedEntry, museumId: string, overrides: Overrides): FreeRule | null {
   const source = pjtSource();
   switch (entry.sectionKey) {
-    case 'always':
-      return { kind: 'always', source };
+    case 'always': {
+      const note = overrides.alwaysNotes[museumId];
+      return { kind: 'always', ...(note ? { note } : {}), source };
+    }
     case 'first-sunday':
       return {
         kind: 'nth-weekday',
@@ -109,6 +113,23 @@ function ruleForSection(entry: ScrapedEntry, museumId: string, overrides: Overri
 function ruleFingerprint(rule: FreeRule): string {
   const { source, ...rest } = rule;
   return JSON.stringify({ ...rest, sourceUrl: source.url });
+}
+
+/**
+ * Semantic identity of a rule regardless of provenance/notes. When a museum
+ * already has a hand-curated rule (official source) with the same semantics,
+ * the redundant article-derived rule is not added — better provenance wins.
+ */
+function ruleSemanticKey(rule: FreeRule): string {
+  return JSON.stringify({
+    kind: rule.kind,
+    weekday: rule.weekday ?? null,
+    months: rule.months ?? null,
+    evening: rule.evening ?? false,
+    audience: rule.audience ?? 'everyone',
+    date: rule.date ?? null,
+    event: rule.event ?? null,
+  });
 }
 
 function isPjtRule(rule: FreeRule): boolean {
@@ -180,7 +201,10 @@ async function main() {
   for (const museum of museums) {
     const kept = museum.freeAccess.filter((r) => !isPjtRule(r));
     const oldPjt = museum.freeAccess.filter(isPjtRule);
-    const newPjt = scrapedRules.get(museum.id) ?? [];
+    const keptKeys = new Set(kept.map(ruleSemanticKey));
+    const newPjt = (scrapedRules.get(museum.id) ?? []).filter(
+      (r) => !keptKeys.has(ruleSemanticKey(r)),
+    );
 
     const oldPrints = new Map(oldPjt.map((r) => [ruleFingerprint(r), r]));
     const added = newPjt.filter((r) => !oldPrints.has(ruleFingerprint(r)));

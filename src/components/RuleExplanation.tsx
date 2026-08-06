@@ -25,7 +25,7 @@ export default function RuleExplanation({ rule }: { rule: FreeRule }) {
             : t('rules.always');
       break;
     case 'nth-weekday': {
-      sentence = t('rules.firstWeekday', {
+      sentence = t(rule.nth === -1 ? 'rules.lastWeekday' : 'rules.firstWeekday', {
         weekday: weekdayName(locale, rule.weekday ?? 'sunday'),
       });
       if (rule.months && rule.months.length > 0) {

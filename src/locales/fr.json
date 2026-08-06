@@ -98,6 +98,7 @@
     "alwaysUnder26": "Gratuit tous les jours pour les moins de 26 ans (résidents UE)",
     "alwaysUnder18": "Gratuit tous les jours pour les moins de 18 ans",
     "firstWeekday": "Gratuit le premier {{weekday}} de chaque mois",
+    "lastWeekday": "Gratuit le dernier {{weekday}} de chaque mois",
     "monthsRange": "de {{from}} à {{to}}",
     "evening": "en soirée",
     "july14": "Gratuit le 14 juillet",

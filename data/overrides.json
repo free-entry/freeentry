@@ -1,0 +1,43 @@
+{
+  "nocturnes": {
+    "musee-du-louvre": {
+      "weekday": "friday",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12
+      ],
+      "note": "Free for all from 6pm to 9pm closing on the first Friday of the month, except July and August; book a time slot on ticket.louvre.fr"
+    },
+    "bourse-de-commerce-pinault-collection": {
+      "weekday": "saturday",
+      "note": "Free nocturne from 5pm to 9pm on the first Saturday of each month; online booking recommended"
+    }
+  },
+  "firstSundayBooking": [
+    "musee-d-orsay",
+    "musee-de-l-orangerie-des-tuileries",
+    "musee-national-des-chateaux-de-versailles-et-de-trianon",
+    "tours-de-notre-dame-de-paris"
+  ],
+  "alwaysNotes": {
+    "maison-de-balzac": "Permanent collections free to visit only outside temporary-exhibition periods",
+    "musee-bourdelle": "Permanent collections only partially on view during temporary exhibitions",
+    "musee-cognacq-jay-musee-du-xviiie-siecle-de-la-ville-de-paris": "Permanent collections only partially on view during temporary exhibitions",
+    "musee-zadkine": "Permanent collections only partially on view during temporary exhibitions",
+    "musee-de-la-vie-romantique": "Reopened 14 February 2026 after renovation, with a new permanent-collection display"
+  },
+  "skip": [
+    "Sèvres - Manufacture et musées nationaux",
+    "2025-2030 : le Centre Pompidou se métamorphose",
+    "Château de Pierrefonds",
+    "Château de Compiègne"
+  ]
+}

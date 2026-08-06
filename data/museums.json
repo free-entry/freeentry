@@ -1,20 +1,638 @@
 [
   {
-    "id": "musee-belmondo-et-de-la-sculpture-figurative-du-xxe-siecle",
-    "name": "Musée Belmondo et de la sculpture figurative du XXe siècle",
+    "id": "arc-de-triomphe",
+    "name": "Arc de triomphe",
     "coordinates": [
-      2.241177,
-      48.834945
+      2.29504,
+      48.87378
     ],
-    "address": "",
-    "postalCode": "92100",
-    "commune": "Boulogne-Billancourt",
-    "department": "92",
-    "website": "https://www.boulognebillancourt.com/loisirs/culture/les-musees/musee-paul-belmondo",
+    "address": "Place Charles-de-Gaulle",
+    "postalCode": "75008",
+    "commune": "Paris",
+    "arrondissement": 8,
+    "department": "75",
+    "website": "https://www.paris-arc-de-triomphe.fr",
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/arc-de-triomphe-p3559"
+  },
+  {
+    "id": "archea-archeologie-en-pays-de-france",
+    "name": "ARCHÉA, Archéologie en Pays de France",
+    "coordinates": [
+      2.50695,
+      49.041117
+    ],
+    "address": "56 rue de Paris",
+    "postalCode": "95380",
+    "commune": "Louvres",
+    "department": "95",
+    "website": "https://archea.roissypaysdefrance.fr/",
+    "phone": "01 34 09 01 02",
     "tags": [
       "museum"
     ],
-    "freeAccess": []
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "note": "Free for everyone the 1st Sunday of the month, or the following Sunday when the museum is closed on the 1st ('Gratuité temporaire le 1er dimanche du mois (ou le dimanche suivant lorsque le 1er est fermé) pour tous')",
+        "source": {
+          "url": "https://archea.roissypaysdefrance.fr/tarifs",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "arenes-de-lutece",
+    "name": "Arènes de Lutèce",
+    "coordinates": [
+      2.3531,
+      48.845
+    ],
+    "address": "49 rue Monge",
+    "postalCode": "75005",
+    "commune": "Paris",
+    "arrondissement": 5,
+    "department": "75",
+    "website": "https://www.paris.fr/lieux/square-des-arenes-de-lutece-et-square-capitan-1760",
+    "tags": [
+      "monument",
+      "history"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/arenes-de-lutece-et-square-capitan-p1094"
+  },
+  {
+    "id": "basilique-cathedrale-de-saint-denis",
+    "name": "Basilique cathédrale de Saint-Denis",
+    "coordinates": [
+      2.3597,
+      48.9356
+    ],
+    "address": "1 rue de la Légion d'Honneur",
+    "postalCode": "93200",
+    "commune": "Saint-Denis",
+    "department": "93",
+    "website": "https://www.saint-denis-basilique.fr/",
+    "tags": [
+      "monument",
+      "religious",
+      "history"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "note": "Nave (worship area) is free for everyone; the royal necropolis, transept and crypt require a paid ticket. The monument does not take part in first-Sunday free entry.",
+        "source": {
+          "url": "https://www.saint-denis-basilique.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/basilique-cathedrale-de-saint-denis-p3579"
+  },
+  {
+    "id": "basilique-du-sacre-coeur-de-montmartre",
+    "name": "Basilique du Sacré-Cœur de Montmartre",
+    "coordinates": [
+      2.34306,
+      48.88694
+    ],
+    "address": "35 rue du Chevalier de la Barre",
+    "postalCode": "75018",
+    "commune": "Paris",
+    "arrondissement": 18,
+    "department": "75",
+    "website": "https://www.sacre-coeur-montmartre.com",
+    "tags": [
+      "religious",
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "note": "Basilica entry is free; the dome visit and crypt tour require a paid ticket",
+        "source": {
+          "url": "https://www.sacre-coeur-montmartre.com/english/visit/",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/basilique-du-sacre-coeur-de-montmartre-p3526"
+  },
+  {
+    "id": "bourse-de-commerce-pinault-collection",
+    "name": "Bourse de Commerce - Pinault Collection",
+    "coordinates": [
+      2.3428,
+      48.8628
+    ],
+    "address": "2 rue de Viarmes",
+    "postalCode": "75001",
+    "commune": "Paris",
+    "arrondissement": 1,
+    "department": "75",
+    "website": "https://www.pinaultcollection.com/fr/boursedecommerce",
+    "tags": [
+      "museum",
+      "art"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "saturday",
+        "evening": true,
+        "note": "Free nocturne from 5pm to 9pm on the first Saturday of each month; online booking recommended",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/bourse-de-commerce-pinault-collection-p3638"
+  },
+  {
+    "id": "cathedrale-notre-dame-de-paris",
+    "name": "Cathédrale Notre-Dame de Paris",
+    "coordinates": [
+      2.34972,
+      48.85306
+    ],
+    "address": "6 parvis Notre-Dame - place Jean-Paul II",
+    "postalCode": "75004",
+    "commune": "Paris",
+    "arrondissement": 4,
+    "department": "75",
+    "website": "https://www.notredamedeparis.fr",
+    "tags": [
+      "religious",
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "note": "Cathedral entry is free (optional free time-slot reservation online); the treasury (tresor) requires a paid ticket sold on site",
+        "source": {
+          "url": "https://www.notredamedeparis.fr/visiter/visiter-le-tresor/",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/cathedrale-notre-dame-de-paris-et-son-tresor-p3576"
+  },
+  {
+    "id": "chapelle-expiatoire",
+    "name": "Chapelle expiatoire",
+    "coordinates": [
+      2.3228,
+      48.8736
+    ],
+    "address": "29 rue Pasquier, square Louis XVI",
+    "postalCode": "75008",
+    "commune": "Paris",
+    "arrondissement": 8,
+    "department": "75",
+    "website": "https://www.chapelle-expiatoire-paris.fr/",
+    "tags": [
+      "monument",
+      "religious",
+      "history"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/chapelle-expiatoire-p3495"
+  },
+  {
+    "id": "chateau-de-champs-sur-marne",
+    "name": "Château de Champs-sur-Marne",
+    "coordinates": [
+      2.6042,
+      48.8539
+    ],
+    "address": "31 rue de Paris",
+    "postalCode": "77420",
+    "commune": "Champs-sur-Marne",
+    "department": "77",
+    "website": "https://www.chateau-champs-sur-marne.fr/",
+    "tags": [
+      "monument",
+      "history"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "note": "Free access to the park every open day; château interior is ticketed",
+        "source": {
+          "url": "https://www.chateau-champs-sur-marne.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/chateau-de-champs-sur-marne-p3558"
+  },
+  {
+    "id": "chateau-de-maisons",
+    "name": "Château de Maisons",
+    "coordinates": [
+      2.1539,
+      48.9472
+    ],
+    "address": "2 avenue Carnot",
+    "postalCode": "78600",
+    "commune": "Maisons-Laffitte",
+    "department": "78",
+    "website": "https://www.chateau-maisons.fr/",
+    "tags": [
+      "monument",
+      "history"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/chateau-de-maisons-p3497"
+  },
+  {
+    "id": "chateau-de-rambouillet",
+    "name": "Château de Rambouillet",
+    "coordinates": [
+      1.8178,
+      48.6456
+    ],
+    "address": "Rue de la Motte",
+    "postalCode": "78120",
+    "commune": "Rambouillet",
+    "department": "78",
+    "website": "https://www.chateau-rambouillet.fr/",
+    "tags": [
+      "monument",
+      "history"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "note": "Free access to the park every day; château, Queen's Dairy and Shell Cottage are ticketed",
+        "source": {
+          "url": "https://www.chateau-rambouillet.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/chateau-de-rambouillet-p3505"
+  },
+  {
+    "id": "chateau-de-sceaux-musee-departemental",
+    "name": "Château de Sceaux, musée départemental",
+    "coordinates": [
+      2.299024,
+      48.774707
+    ],
+    "address": "Domaine Départemental de Sceaux, Château de Sceaux",
+    "postalCode": "92330",
+    "commune": "Sceaux",
+    "department": "92",
+    "website": "https://domaine-de-sceaux.hauts-de-seine.fr/",
+    "phone": "01 41 87 29 50",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "note": "'Tous les publics, le premier dimanche du mois' get in free; otherwise 6 EUR full price. The surrounding 180-ha park is free every day.",
+        "source": {
+          "url": "https://domaine-de-sceaux.hauts-de-seine.fr/preparez-votre-visite/informations-pratiques/tarifs/billetterie",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "chateau-de-vincennes",
+    "name": "Château de Vincennes",
+    "coordinates": [
+      2.4358,
+      48.8428
+    ],
+    "address": "Avenue de Paris",
+    "postalCode": "94300",
+    "commune": "Vincennes",
+    "department": "94",
+    "website": "https://www.chateau-de-vincennes.fr/",
+    "tags": [
+      "monument",
+      "history"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/chateau-de-vincennes-p3493"
+  },
+  {
+    "id": "chateau-musee-de-nemours",
+    "name": "Château musée de Nemours",
+    "coordinates": [
+      2.696157,
+      48.265518
+    ],
+    "address": "Rue Gautier 1er - Cour du Château, Château",
+    "postalCode": "77140",
+    "commune": "Nemours",
+    "department": "77",
+    "website": "https://www.nemours.fr/chateau-musee/",
+    "phone": "01 64 28 27 42",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "note": "City site: 'Gratuite : ... chaque premier dimanche du mois' (also free for under-19s, jobseekers, RSA/ASPA beneficiaries, disabled visitors)",
+        "source": {
+          "url": "https://www.nemours.fr/contacts/chateau-musee/",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "collections-de-la-fondation-de-coubertin",
+    "name": "Collections de la Fondation de Coubertin",
+    "coordinates": [
+      2.069096,
+      48.706544
+    ],
+    "address": "Conservation des collections, Domaine de Coubertin",
+    "postalCode": "78470",
+    "commune": "Saint-Rémy-lès-Chevreuse",
+    "department": "78",
+    "website": "https:///www.coubertin.fr/",
+    "phone": "01 30 85 69 89",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "note": "Museum states free for all visitors under 26; individual visits only on weekend afternoons during temporary exhibitions",
+        "source": {
+          "url": "https://musee.coubertin.fr/informations-pratiques/",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "conciergerie",
+    "name": "Conciergerie",
+    "coordinates": [
+      2.34556,
+      48.85639
+    ],
+    "address": "2 boulevard du Palais",
+    "postalCode": "75001",
+    "commune": "Paris",
+    "arrondissement": 1,
+    "department": "75",
+    "website": "https://www.paris-conciergerie.fr",
+    "tags": [
+      "monument",
+      "history"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/conciergerie-p3496"
+  },
+  {
+    "id": "ecomusee-94260",
+    "name": "Écomusée du Grand-Orly Seine Bièvre",
+    "coordinates": [
+      2.326389,
+      48.75525
+    ],
+    "address": "41, rue Maurice Tenine, Ferme de Cottinville",
+    "postalCode": "94260",
+    "commune": "Fresnes",
+    "department": "94",
+    "website": "https://www.fresnes94.fr/a-votre-service/culture-sports-et-loisirs/equipements-culturels/ecomusee-du-val-de-bievre/",
+    "phone": "01 41 24 32 24",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "note": "Entrée gratuite - all events also free, most on reservation. Closed Sundays, Mondays, Tuesdays, public holidays and most of August.",
+        "source": {
+          "url": "https://ecomusee.grandorlyseinebievre.fr/horaires-acces-0",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "europa-experience",
+    "name": "Europa Expérience",
+    "coordinates": [
+      2.32582,
+      48.87073
+    ],
+    "address": "28 place de la Madeleine",
+    "postalCode": "75008",
+    "commune": "Paris",
+    "arrondissement": 8,
+    "department": "75",
+    "website": "https://visiting.europarl.europa.eu/en/visitor-offer/other-locations/europa-experience/paris",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/europa-experience-p3678"
   },
   {
     "id": "fondation-arp",
@@ -35,822 +653,222 @@
     "freeAccess": []
   },
   {
-    "id": "musee-des-travaux-publics",
-    "name": "Musée des travaux publics",
+    "id": "hotel-de-la-marine",
+    "name": "Hôtel de la Marine",
     "coordinates": [
-      2.2579850008669635,
-      48.89817715987157
+      2.3231,
+      48.8668
     ],
-    "address": "s'adresser à la mairie",
-    "postalCode": "92974",
-    "commune": "Courbevoie",
-    "department": "92",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-d-art-et-d-histoire",
-    "name": "Musée d'art et d'histoire",
-    "coordinates": [
-      2.234894,
-      48.806412
-    ],
-    "address": "11, rue des Pierres, Maison d'Armande Béjart",
-    "postalCode": "92190",
-    "commune": "Meudon",
-    "department": "92",
-    "website": "https://musee.meudon.fr/",
-    "phone": "01 46 23 87 13",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-national-des-chateaux-de-malmaison-et-de-bois-preau",
-    "name": "Musée national des châteaux de Malmaison et de Bois Préau",
-    "coordinates": [
-      2.1689,
-      48.873334
-    ],
-    "address": "Avenue du chateau de Malmaison, Château",
-    "postalCode": "92500",
-    "commune": "Rueil-Malmaison",
-    "department": "92",
-    "website": "https://musees-nationaux-malmaison.fr/chateau-malmaison/",
-    "phone": "01 41 29 05 55",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-des-avelines-musee-d-art-et-d-histoire-de-saint-cloud",
-    "name": "Musée des Avelines - musée d'art et d'histoire de Saint-Cloud",
-    "coordinates": [
-      2.208286,
-      48.842497
-    ],
-    "address": "60 rue Gounod, Jardin des Avelines",
-    "postalCode": "92210",
-    "commune": "Saint-Cloud",
-    "department": "92",
-    "website": "https://www.musee-saintcloud.fr/",
-    "phone": "01 46 02 67 18",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-du-grand-siecle",
-    "name": "Musée du Grand Siècle",
-    "coordinates": [
-      2.21992,
-      48.83901
-    ],
-    "address": "Caserne Sully",
-    "postalCode": "92210",
-    "commune": "Saint-Cloud",
-    "department": "92",
-    "website": "https://museedugrandsiecle.hauts-de-seine.fr/",
-    "phone": "07 64 33 15 89",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-national-de-la-ceramique",
-    "name": "Musée national de la céramique",
-    "coordinates": [
-      2.205733,
-      48.817037
-    ],
-    "address": "Place de la Manufacture",
-    "postalCode": "92310",
-    "commune": "Sèvres",
-    "department": "92",
-    "phone": "01 46 29 38 01",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-cernuschi-musee-des-arts-de-l-asie-de-la-ville-de-paris",
-    "name": "Musée Cernuschi, musée des arts de l'Asie de la ville de Paris",
-    "coordinates": [
-      2.312194,
-      48.879693
-    ],
-    "address": "7 avenue Vélasquez, Hôtel particulier",
+    "address": "2 place de la Concorde",
     "postalCode": "75008",
     "commune": "Paris",
     "arrondissement": 8,
     "department": "75",
-    "website": "https://www.cernuschi.paris.fr/",
-    "phone": "01 53 96 21 50",
+    "website": "https://www.hotel-de-la-marine.paris/",
     "tags": [
-      "museum"
+      "monument",
+      "history"
     ],
-    "freeAccess": []
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "note": "Free for under-26s (EU residents), per CMN gratuity conditions",
+        "source": {
+          "url": "https://www.hotel-de-la-marine.paris/",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/hotel-de-la-marine-p3647"
   },
   {
-    "id": "musee-des-monuments-francais",
-    "name": "Musée des monuments français",
+    "id": "la-cinematheque-francaise",
+    "name": "La Cinémathèque française",
     "coordinates": [
-      2.281879,
-      48.862323
+      2.3825,
+      48.83694
     ],
-    "address": "1 place du Trocadéro, Palais de Chaillot",
-    "postalCode": "75016",
+    "address": "51 rue de Bercy",
+    "postalCode": "75012",
     "commune": "Paris",
-    "arrondissement": 16,
+    "arrondissement": 12,
     "department": "75",
-    "website": "https://www.citedelarchitecture.fr/fr/article/le-musee-des-monuments-francais",
-    "phone": "01 58 51 52 00",
+    "website": "https://www.cinematheque.fr",
     "tags": [
-      "museum"
+      "museum",
+      "art"
     ],
-    "freeAccess": []
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "note": "Free entry applies to the Musée Méliès collections; film screenings remain paid",
+        "source": {
+          "url": "https://www.cinematheque.fr/informations-pratiques.html",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/la-cinematheque-francaise-p3552"
   },
   {
-    "id": "musee-des-plans-reliefs",
-    "name": "Musée des Plans-reliefs",
+    "id": "la-maison-elysee",
+    "name": "La Maison Élysée",
     "coordinates": [
-      2.312885,
-      48.858219
+      2.31706,
+      48.87089
     ],
-    "address": "129 rue de Grenelle, Hôtel national des Invalides",
-    "postalCode": "75007",
-    "commune": "Paris",
-    "arrondissement": 7,
-    "department": "75",
-    "website": "https://www.museedesplansreliefs.culture.fr/",
-    "phone": "01 45 51 95 05",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-yves-saint-laurent-paris",
-    "name": "Musée Yves Saint Laurent Paris",
-    "coordinates": [
-      2.280339,
-      48.873694
-    ],
-    "address": "5 avenue Marceau",
-    "postalCode": "75116",
-    "commune": "Paris",
-    "arrondissement": 16,
-    "department": "75",
-    "website": "https://museeyslparis.com/",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "petit-palais-musee-des-beaux-arts-de-la-ville-de-paris",
-    "name": "Petit Palais, musée des beaux-arts de la ville de Paris",
-    "coordinates": [
-      2.313763,
-      48.86609
-    ],
-    "address": "Avenue Winston-Churchill, Musée",
+    "address": "88 rue du Faubourg Saint-Honoré",
     "postalCode": "75008",
     "commune": "Paris",
     "arrondissement": 8,
     "department": "75",
-    "website": "https://www.petitpalais.paris.fr/",
-    "phone": "01 53 43 40 00",
+    "website": "https://www.elysee.fr/maison-elysee",
     "tags": [
-      "museum"
+      "museum",
+      "history"
     ],
-    "freeAccess": []
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/la-maison-elysee-p4434"
   },
   {
-    "id": "musee-de-la-poste",
-    "name": "Musée de la poste",
+    "id": "le-plateau-frac-ile-de-france",
+    "name": "Le Plateau – Frac Île-de-France",
     "coordinates": [
-      2.3177008959224517,
-      48.84156094062689
+      2.38563,
+      48.87766
     ],
-    "address": "34, boulevard de Vaugirard",
-    "postalCode": "75731",
-    "commune": "Paris",
-    "department": "75",
-    "website": "https://www.museedelaposte.fr/",
-    "phone": "01 42 79 24 24",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-de-la-chasse-et-de-la-nature",
-    "name": "Musée de la chasse et de la nature",
-    "coordinates": [
-      2.358608,
-      48.861491
-    ],
-    "address": "62 rue des Archives, Hôtels de Guénégaud et de Mongelas",
-    "postalCode": "75003",
-    "commune": "Paris",
-    "arrondissement": 3,
-    "department": "75",
-    "website": "https://www.chassenature.org/",
-    "phone": "01 53 01 92 40",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-picasso",
-    "name": "Musée Picasso",
-    "coordinates": [
-      2.362644,
-      48.8597
-    ],
-    "address": "5, rue Thorigny, Hôtel Salé",
-    "postalCode": "75003",
-    "commune": "Paris",
-    "arrondissement": 3,
-    "department": "75",
-    "website": "https://www.museepicassoparis.fr/",
-    "phone": "01 42 71 25 21",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-de-la-franc-maconnerie",
-    "name": "Musée de la franc-maçonnerie",
-    "coordinates": [
-      2.343088,
-      48.874991
-    ],
-    "address": "16 rue Cadet",
-    "postalCode": "75009",
-    "commune": "Paris",
-    "arrondissement": 9,
-    "department": "75",
-    "website": "https://www.museefm.org/",
-    "phone": "01 45 23 20 92",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-national-du-chateau-de-fontainebleau",
-    "name": "Musée national du château de Fontainebleau",
-    "coordinates": [
-      2.696858,
-      48.402815
-    ],
-    "address": "Château de Fontainebleau - Place du général de Gaulle, Château de Fontainebleau",
-    "postalCode": "77300",
-    "commune": "Fontainebleau",
-    "department": "77",
-    "website": "https://www.chateaudefontainebleau.fr/",
-    "phone": "01 60 71 50 70",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-municipal",
-    "name": "Musée municipal",
-    "coordinates": [
-      2.815046,
-      48.373638
-    ],
-    "address": "place de Samois",
-    "postalCode": "77250",
-    "commune": "Moret-Loing-et-Orvanne",
-    "department": "77",
-    "phone": "01 60 70 32 30",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-de-provins-et-du-provinois",
-    "name": "Musée de Provins et du provinois",
-    "coordinates": [
-      3.290374,
-      48.561624
-    ],
-    "address": "7, rue du Palais",
-    "postalCode": "77160",
-    "commune": "Provins",
-    "department": "77",
-    "website": "https://www.provins.net/decouvrir-visiter/samuser-au-musee/le-musee-de-provins-et-du-provinois/",
-    "phone": "01 64 01 40 19",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-municipal-93400",
-    "name": "Musée municipal",
-    "coordinates": [
-      2.330639,
-      48.915848
-    ],
-    "address": "12 rue Albert-Dhalenne, Château de Saint-Ouen",
-    "postalCode": "93400",
-    "commune": "Saint-Ouen-sur-Seine",
-    "department": "93",
-    "website": "https://www.saint-ouen.fr/services-infos-pratiques/culture-et-patrimoine/histoire-et-patrimoine/287-collections-d-art-et-d-histoire.html",
-    "phone": "01 71 86 62 68",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-de-la-renaissance-chateau-d-ecouen",
-    "name": "Musée de la Renaissance - château d'Ecouen",
-    "coordinates": [
-      2.378424,
-      49.015862
-    ],
-    "address": "Château d'Ecouen",
-    "postalCode": "95440",
-    "commune": "Ecouen",
-    "department": "95",
-    "website": "https://musee-renaissance.fr/",
-    "phone": "01 34 38 38 51",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-d-art-contemporain-du-val-de-marne",
-    "name": "Musée d'art contemporain du Val-de-Marne",
-    "coordinates": [
-      2.387072,
-      48.792821
-    ],
-    "address": "Place de la Libération",
-    "postalCode": "94400",
-    "commune": "Vitry-sur-Seine",
-    "department": "94",
-    "website": "https://www.macval.fr/",
-    "phone": "01 43 91 64 20",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-de-la-toile-de-jouy",
-    "name": "Musée de la toile de Jouy",
-    "coordinates": [
-      2.153216,
-      48.768986
-    ],
-    "address": "54, rue Charles de Gaulle, Château de l'Eglantine",
-    "postalCode": "78350",
-    "commune": "Jouy-en-Josas",
-    "department": "78",
-    "website": "https://www.museedelatoiledejouy.fr/",
-    "phone": "01 39 56 48 64",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-de-l-hotel-dieu",
-    "name": "Musée de l'hôtel-Dieu",
-    "coordinates": [
-      1.719901,
-      48.990874
-    ],
-    "address": "1 rue Thiers",
-    "postalCode": "78200",
-    "commune": "Mantes-la-Jolie",
-    "department": "78",
-    "website": "https://www.manteslajolie.fr/MUSEE%20DE%20LHOTELDIEU",
-    "phone": "01 34 78 86 60",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-du-domaine-royal-de-marly-louveciennes-marly-le-roi",
-    "name": "Musée du domaine royal de Marly Louveciennes / Marly-le-Roi",
-    "coordinates": [
-      2.109482,
-      48.859572
-    ],
-    "address": "1 Grille royale - Parc de Marly",
-    "postalCode": "78160",
-    "commune": "Marly-le-Roi-Louveciennes",
-    "department": "78",
-    "website": "https://www.musee-promenade.fr",
-    "phone": "01 39 69 06 26",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-victor-aubert",
-    "name": "Musée Victor Aubert",
-    "coordinates": [
-      1.847178,
-      48.908246
-    ],
-    "address": "24, rue Quincampoix",
-    "postalCode": "78580",
-    "commune": "Maule",
-    "department": "78",
-    "website": "https://museeaubertmaule.free.fr/",
-    "phone": "01 30 90 61 49",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-du-jouet-pierre-pinel",
-    "name": "Musée du jouet Pierre Pinel",
-    "coordinates": [
-      2.037892,
-      48.928429
-    ],
-    "address": "1 enclos de l'Abbaye, Prieuré royal Saint-Louis",
-    "postalCode": "78300",
-    "commune": "Poissy",
-    "department": "78",
-    "website": "https://www.ville-poissy.fr/index.php/sport-culture/equipements-culturels/musee-du-jouet.html",
-    "phone": "01 39 22 56 01",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-dunoyer-de-segonzac",
-    "name": "Musée Dunoyer de Segonzac",
-    "coordinates": [
-      2.530019,
-      48.688925
-    ],
-    "address": "5, place des Droits de l'Homme",
-    "postalCode": "91800",
-    "commune": "Boussy-Saint-Antoine",
-    "department": "91",
-    "website": "https://www.ville-boussy.fr/votre-mairie/la-culture.html",
-    "phone": "01 69 00 49 23",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-municipal-91150",
-    "name": "Musée municipal",
-    "coordinates": [
-      2.161909,
-      48.434307
-    ],
-    "address": "Hôtel de ville, Hôtel de ville",
-    "postalCode": "91150",
-    "commune": "Etampes",
-    "department": "91",
-    "website": "https://www.mairie-etampes.fr/le-musee/",
-    "phone": "01 69 92 69 12",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-des-annees-trente",
-    "name": "Musée des années trente",
-    "coordinates": [
-      2.241177,
-      48.834945
-    ],
-    "address": "26, avenue André Morizet",
-    "postalCode": "92100",
-    "commune": "Boulogne-Billancourt",
-    "department": "92",
-    "website": "https://www.boulognebillancourt.com/loisirs/culture/les-musees/musee-des-annees-trente",
-    "phone": "01 55 18 46 42",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "chateau-de-sceaux-musee-departemental",
-    "name": "Château de Sceaux, musée départemental",
-    "coordinates": [
-      2.299024,
-      48.774707
-    ],
-    "address": "Domaine Départemental de Sceaux, Château de Sceaux",
-    "postalCode": "92330",
-    "commune": "Sceaux",
-    "department": "92",
-    "website": "https://domaine-de-sceaux.hauts-de-seine.fr/",
-    "phone": "01 41 87 29 50",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-bourdelle",
-    "name": "Musée Bourdelle",
-    "coordinates": [
-      2.31883,
-      48.843017
-    ],
-    "address": "16 rue Antoine Bourdelle",
-    "postalCode": "75015",
-    "commune": "Paris",
-    "arrondissement": 15,
-    "department": "75",
-    "website": "https://www.bourdelle.paris.fr/",
-    "phone": "01 49 54 73 73",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-d-art-et-d-histoire-de-l-hopital-sainte-anne",
-    "name": "Musée d'art et d'histoire de l'hôpital Sainte-Anne",
-    "coordinates": [
-      2.340376,
-      48.830264
-    ],
-    "address": "1 rue Cabanis, Hôpital Sainte-Anne",
-    "postalCode": "75014",
-    "commune": "Paris",
-    "arrondissement": 14,
-    "department": "75",
-    "website": "https://musee-mahhsa.com",
-    "phone": "06 78 09 12 04",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-d-ennery",
-    "name": "Musée d'Ennery",
-    "coordinates": [
-      2.281997,
-      48.871845
-    ],
-    "address": "59, avenue Foch",
-    "postalCode": "75116",
-    "commune": "Paris",
-    "arrondissement": 16,
-    "department": "75",
-    "website": "https://www.guimet.fr/",
-    "phone": "01 45 53 57 96",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-des-arts-asiatiques-guimet",
-    "name": "Musée des arts asiatiques Guimet",
-    "coordinates": [
-      2.293754,
-      48.86425
-    ],
-    "address": "6, place d'Iéna",
-    "postalCode": "75116",
-    "commune": "Paris",
-    "arrondissement": 16,
-    "department": "75",
-    "website": "https://www.museeguimet.fr",
-    "phone": "01 56 52 53 00",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-jean-jacques-henner",
-    "name": "Musée Jean-Jacques Henner",
-    "coordinates": [
-      2.307689,
-      48.883045
-    ],
-    "address": "43, avenue de Villiers",
-    "postalCode": "75017",
-    "commune": "Paris",
-    "arrondissement": 17,
-    "department": "75",
-    "website": "https://www.musee-henner.fr/",
-    "phone": "01 47 63 42 73",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-de-la-musique",
-    "name": "Musée de la musique",
-    "coordinates": [
-      2.393807,
-      48.889306
-    ],
-    "address": "221, avenue Jean-Jaurès, Cité de La Musique",
+    "address": "Place Hannah-Arendt, 22 rue des Alouettes",
     "postalCode": "75019",
     "commune": "Paris",
     "arrondissement": 19,
     "department": "75",
-    "website": "https://philharmoniedeparis.fr/fr/musee-de-la-musique",
-    "phone": "01 44 84 45 00 ; 01 44 84 44 84 (visites avec conférencier)",
+    "website": "https://www.fraciledefrance.com/",
     "tags": [
-      "museum"
+      "art"
     ],
-    "freeAccess": []
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/le-plateau-centre-d-art-contemporain-p1133"
   },
   {
-    "id": "musee-national-d-art-moderne-centre-national-d-art-et-de-culture-georges-pompidou",
-    "name": "Musée national d'art moderne (centre national d'art et de culture Georges Pompidou)",
+    "id": "maison-de-balzac",
+    "name": "Maison de Balzac",
     "coordinates": [
-      2.3522235406355176,
-      48.86080432275963
+      2.280805,
+      48.855398
     ],
-    "address": "Place Georges Pompidou, Centre Georges Pompidou",
-    "postalCode": "75191",
+    "address": "47 rue Raynouard, Hôtel particulier",
+    "postalCode": "75016",
     "commune": "Paris",
+    "arrondissement": 16,
     "department": "75",
-    "website": "https://www.centrepompidou.fr/",
-    "phone": "01 44 78 12 33",
+    "website": "https://www.maisondebalzac.paris.fr/",
+    "phone": "01 55 74 41 80",
     "tags": [
       "museum"
     ],
-    "freeAccess": []
+    "freeAccess": [
+      {
+        "kind": "always",
+        "note": "Permanent collections free to visit only outside temporary-exhibition periods",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/maison-de-balzac-p3501"
   },
   {
-    "id": "musee-de-l-assistance-publique-hopitaux-de-paris",
-    "name": "Musée de l'assistance publique - hôpitaux de Paris",
+    "id": "maison-de-victor-hugo",
+    "name": "Maison de Victor Hugo",
     "coordinates": [
-      2.356007,
-      48.838805
+      2.366232,
+      48.854808
     ],
-    "address": "10 rue des Fossés-Saint-Marcel",
-    "postalCode": "75005",
+    "address": "6 place des Vosges, Hôtel de Rohan-Guéménée",
+    "postalCode": "75004",
     "commune": "Paris",
-    "arrondissement": 5,
+    "arrondissement": 4,
     "department": "75",
-    "website": "https://www.aphp.fr/musee",
-    "phone": "01 40 27 50 05",
+    "website": "https://www.maisonsvictorhugo.paris.fr/",
+    "phone": "01 42 72 10 16",
     "tags": [
       "museum"
     ],
-    "freeAccess": []
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/maison-de-victor-hugo-p3500"
   },
   {
-    "id": "musee-de-l-armee",
-    "name": "Musée de l'armée",
+    "id": "maison-des-jardies",
+    "name": "Maison des Jardies",
     "coordinates": [
-      2.312885,
-      48.858219
+      2.1986,
+      48.8272
     ],
-    "address": "129, rue de Grenelle, Hôtel National des Invalides",
-    "postalCode": "75007",
-    "commune": "Paris",
-    "arrondissement": 7,
-    "department": "75",
-    "website": "https://www.musee-armee.fr/accueil.html",
-    "phone": "01 44 42 37 72",
+    "address": "14 avenue Gambetta",
+    "postalCode": "92310",
+    "commune": "Sèvres",
+    "department": "92",
+    "website": "https://www.maison-des-jardies.fr/",
     "tags": [
-      "museum"
+      "house",
+      "monument",
+      "history"
     ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-municipal-des-capucins",
-    "name": "Musée municipal des Capucins",
-    "coordinates": [
-      3.086974,
-      48.810834
+    "freeAccess": [
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
     ],
-    "address": "Parc des capucins, Eglise Notre Dame des Anges",
-    "postalCode": "77120",
-    "commune": "Coulommiers",
-    "department": "77",
-    "website": "https://www.coulommiers.fr/loisirs/patrimoine/le-musee/",
-    "phone": "01 64 65 11 31",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-municipal-77580",
-    "name": "Musée municipal",
-    "coordinates": [
-      2.908441509296712,
-      48.85813263142596
-    ],
-    "address": "s'adresser à la mairie",
-    "postalCode": "77580",
-    "commune": "Crécy-la-Chapelle",
-    "department": "77",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-henri-chapu",
-    "name": "Musée Henri Chapu",
-    "coordinates": [
-      2.635235,
-      48.534859
-    ],
-    "address": "937, rue Henri Chapu",
-    "postalCode": "77350",
-    "commune": "Le Mée-sur-Seine",
-    "department": "77",
-    "website": "https://le-mee-sur-seine.fr/le-mee-village/une-terre-dartistes/",
-    "phone": "01 64 79 77 72",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "ecomusee",
-    "name": "Écomusée",
-    "coordinates": [
-      2.570872,
-      48.599142
-    ],
-    "address": "Place George-Henri Rivière",
-    "postalCode": "77176",
-    "commune": "Savigny-le-Temple",
-    "department": "77",
-    "phone": "01 64 41 75 15",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-de-la-resistance-nationale",
-    "name": "Musée de la résistance nationale",
-    "coordinates": [
-      2.525362870676448,
-      48.807483493456196
-    ],
-    "address": "88 avenue Marx Dormoy BP 135, Parc Vercors",
-    "postalCode": "94501",
-    "commune": "Champigny-sur-Marne",
-    "department": "94",
-    "website": "https://www.musee-resistance.com/musee-nouveau/presentation/",
-    "phone": "01 48 81 00 80",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-de-port-royal-des-champs",
-    "name": "Musée de Port-Royal des Champs",
-    "coordinates": [
-      2.01579,
-      48.748437
-    ],
-    "address": "Route des Granges",
-    "postalCode": "78114",
-    "commune": "Magny-les-Hameaux",
-    "department": "78",
-    "website": "https://www.port-royal-des-champs.eu/",
-    "phone": "01 30 43 73 05",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/maison-des-jardies-a-sevres-p953"
   },
   {
     "id": "maison-musee-maurice-ravel",
@@ -865,338 +883,6 @@
     "department": "78",
     "website": "https://www.montfortlamaury.fr/culture-tourisme/sites-et-monuments/la-maison-musee-de-maurice-ravel/",
     "phone": "01 34 86 00 89",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-de-la-ville",
-    "name": "Musée de la ville",
-    "coordinates": [
-      2.042664,
-      48.782594
-    ],
-    "address": "Quai François Truffaut, MUMED",
-    "postalCode": "78180",
-    "commune": "Montigny-le-Bretonneux",
-    "department": "78",
-    "website": "https://www.saint-quentin-en-yvelines.fr/fr/sortir-et-decouvrir/envie-de-culture/le-musee-de-la-ville-et-le-patrimoine/le-musee",
-    "phone": "01 34 52 28 80",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-departemental-maurice-denis",
-    "name": "Musée départemental Maurice Denis",
-    "coordinates": [
-      2.087541,
-      48.892495
-    ],
-    "address": "2bis, rue Maurice Denis",
-    "postalCode": "78100",
-    "commune": "Saint-Germain-en-Laye",
-    "department": "78",
-    "website": "https://www.musee-mauricedenis.fr/",
-    "phone": "01 39 07 87 87",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "collections-de-la-fondation-de-coubertin",
-    "name": "Collections de la Fondation de Coubertin",
-    "coordinates": [
-      2.069096,
-      48.706544
-    ],
-    "address": "Conservation des collections, Domaine de Coubertin",
-    "postalCode": "78470",
-    "commune": "Saint-Rémy-lès-Chevreuse",
-    "department": "78",
-    "website": "https:///www.coubertin.fr/",
-    "phone": "01 30 85 69 89",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-francais-de-la-photographie",
-    "name": "Musée français de la photographie",
-    "coordinates": [
-      2.225102,
-      48.762826
-    ],
-    "address": "78, rue de Paris",
-    "postalCode": "91570",
-    "commune": "Bièvres",
-    "department": "91",
-    "website": "https://photographie.essonne.fr/",
-    "phone": "01 69 35 16 50",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-du-chateau",
-    "name": "Musée du château",
-    "coordinates": [
-      2.011803,
-      48.529685
-    ],
-    "address": "Place du général de Gaulle, Château de Dourdan",
-    "postalCode": "91410",
-    "commune": "Dourdan",
-    "department": "91",
-    "website": "https://www.dourdan.fr/a-voir-a-vivre/lechateauetsonmusee/",
-    "phone": "01 64 59 66 83",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-des-transports-urbains-interurbains-et-ruraux",
-    "name": "Musée des transports urbains, interurbains et ruraux",
-    "coordinates": [
-      2.603374,
-      48.87682
-    ],
-    "address": "1, rue Gabriel de Mortillet",
-    "postalCode": "77500",
-    "commune": "Chelles",
-    "department": "77",
-    "website": "https://amtuir.org/",
-    "phone": "01 60 20 45 50",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-roybet-fould",
-    "name": "Musée Roybet-Fould",
-    "coordinates": [
-      2.271279,
-      48.900998
-    ],
-    "address": "Parc de Bécon, 178 Boulevard Saint Denis",
-    "postalCode": "92400",
-    "commune": "Courbevoie",
-    "department": "92",
-    "website": "https://www.museeroybetfould.fr/",
-    "phone": "01 71 05 77 92",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-d-histoire-locale-memoire-de-la-ville",
-    "name": "Musée d'histoire locale, mémoire de la ville",
-    "coordinates": [
-      2.18183,
-      48.877678
-    ],
-    "address": "Place du 11 novembre",
-    "postalCode": "92500",
-    "commune": "Rueil-Malmaison",
-    "department": "92",
-    "website": "https://www.villederueil.fr/fr/musee-dhistoire-locale",
-    "phone": "01 47 32 66 50",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-cognacq-jay-musee-du-xviiie-siecle-de-la-ville-de-paris",
-    "name": "Musée Cognacq-Jay, musée du XVIIIe siècle de la ville de Paris",
-    "coordinates": [
-      2.361524,
-      48.858257
-    ],
-    "address": "8 rue Elzévir",
-    "postalCode": "75003",
-    "commune": "Paris",
-    "arrondissement": 3,
-    "department": "75",
-    "website": "https://www.museecognacqjay.paris.fr/",
-    "phone": "01 40 27 07 21",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-de-la-liberation-de-paris-musee-du-general-leclerc-musee-jean-moulin",
-    "name": "Musée de la Libération de Paris - musée du général Leclerc - musée Jean Moulin",
-    "coordinates": [
-      2.319773,
-      48.840614
-    ],
-    "address": "23 allée de la 2ème Division Blindée, Jardin Atlantique",
-    "postalCode": "75015",
-    "commune": "Paris",
-    "arrondissement": 15,
-    "department": "75",
-    "website": "https://www.museeliberation-leclerc-moulin.paris.fr/",
-    "phone": "01 40 64 39 44",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-de-la-vie-romantique",
-    "name": "Musée de la vie romantique",
-    "coordinates": [
-      2.333278,
-      48.880899
-    ],
-    "address": "16 rue Chaptal",
-    "postalCode": "75009",
-    "commune": "Paris",
-    "arrondissement": 9,
-    "department": "75",
-    "website": "https://museevieromantique.paris.fr/fr",
-    "phone": "01 48 74 95 38",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-de-l-ecole-nationale-superieure-des-beaux-arts",
-    "name": "Musée de l'Ecole nationale supérieure des beaux-arts",
-    "coordinates": [
-      2.33167,
-      48.845748
-    ],
-    "address": "",
-    "postalCode": "75006",
-    "commune": "Paris",
-    "arrondissement": 6,
-    "department": "75",
-    "website": "https://beauxartsparis.fr/fr/collection/presentation",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-de-l-institut-du-monde-arabe",
-    "name": "Musée de l'Institut du monde arabe",
-    "coordinates": [
-      2.352176,
-      48.843955
-    ],
-    "address": "",
-    "postalCode": "75005",
-    "commune": "Paris",
-    "arrondissement": 5,
-    "department": "75",
-    "website": "https://www.imarabe.org/fr/musee/presentation-du-musee",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-du-quai-branly-jacques-chirac",
-    "name": "Musée du Quai Branly - Jacques Chirac",
-    "coordinates": [
-      2.29771,
-      48.861511
-    ],
-    "address": "37 quai Branly",
-    "postalCode": "75007",
-    "commune": "Paris",
-    "arrondissement": 7,
-    "department": "75",
-    "website": "https://www.quaibranly.fr/fr/",
-    "phone": "01 56 61 70 00",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-d-art-et-d-histoire-du-judaisme",
-    "name": "Musée d'art et d'histoire du judaïsme",
-    "coordinates": [
-      2.355608,
-      48.86095
-    ],
-    "address": "71, rue du Temple, Hôtel de Saint-Aignan",
-    "postalCode": "75003",
-    "commune": "Paris",
-    "arrondissement": 3,
-    "department": "75",
-    "website": "https://www.mahj.org/",
-    "phone": "01 53 01 86 60",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-du-moyen-age-thermes-et-hotel-de-cluny",
-    "name": "Musée du Moyen Âge - thermes et hôtel de Cluny",
-    "coordinates": [
-      2.344553,
-      48.850437
-    ],
-    "address": "6, place Paul Painlevé, Hôtel de Cluny",
-    "postalCode": "75005",
-    "commune": "Paris",
-    "arrondissement": 5,
-    "department": "75",
-    "website": "https://www.musee-moyenage.fr/",
-    "phone": "01 53 73 78 00",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-eugene-delacroix",
-    "name": "Musée Eugène Delacroix",
-    "coordinates": [
-      2.335679,
-      48.854434
-    ],
-    "address": "6 rue de Fürstenberg",
-    "postalCode": "75006",
-    "commune": "Paris",
-    "arrondissement": 6,
-    "department": "75",
-    "website": "https://www.musee-delacroix.fr/fr/",
-    "phone": "01 44 41 86 50",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-national-de-la-legion-d-honneur-et-des-ordres-de-chevalerie",
-    "name": "Musée national de la Légion d'honneur et des ordres de chevalerie",
-    "coordinates": [
-      2.324768,
-      48.860294
-    ],
-    "address": "2, rue de la Légion d'honneur",
-    "postalCode": "75007",
-    "commune": "Paris",
-    "arrondissement": 7,
-    "department": "75",
-    "website": "https://www.legiondhonneur.fr/fr",
-    "phone": "01 40 62 84 25",
     "tags": [
       "museum"
     ],
@@ -1221,76 +907,578 @@
     "freeAccess": []
   },
   {
-    "id": "musee-d-art-et-d-histoire-militaire",
-    "name": "Musée d'art et d'histoire militaire",
+    "id": "memorial-de-la-shoah",
+    "name": "Mémorial de la Shoah",
     "coordinates": [
-      2.698781,
-      48.406893
+      2.3562,
+      48.8548
     ],
-    "address": "88 rue St Honoré",
-    "postalCode": "77300",
-    "commune": "Fontainebleau",
-    "department": "77",
-    "website": "https://www.fontainebleau.fr/engagee/fontainebleau-avance/un-batiment-renove-et-un-lieu-totalement-repense-251.html",
-    "phone": "01 64 22 49 80",
+    "address": "17 rue Geoffroy-l'Asnier",
+    "postalCode": "75004",
+    "commune": "Paris",
+    "arrondissement": 4,
+    "department": "75",
+    "website": "https://www.memorialdelashoah.org/",
     "tags": [
-      "museum"
+      "museum",
+      "history"
     ],
-    "freeAccess": []
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/memorial-de-la-shoah-paris-p3518"
   },
   {
-    "id": "musee-gatien-bonnet",
-    "name": "Musée Gatien Bonnet",
+    "id": "memorial-de-la-shoah-de-drancy",
+    "name": "Mémorial de la Shoah de Drancy",
     "coordinates": [
-      2.707767,
-      48.879644
+      2.4534,
+      48.91882
     ],
-    "address": "8 cour Pierre Herbin",
-    "postalCode": "77400",
-    "commune": "Lagny-sur-Marne",
-    "department": "77",
-    "website": "https://www.lagny-sur-marne.fr/loisirs/culture/musee-gatien-bonnet/",
-    "phone": "01 64 30 30 78",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-de-l-air-et-de-l-espace",
-    "name": "Musée de l'air et de l'espace",
-    "coordinates": [
-      2.4355624358692265,
-      48.94681950649236
-    ],
-    "address": "BP 173, aéroport de Paris - Le Bourget",
-    "postalCode": "93352",
-    "commune": "Le Bourget",
+    "address": "110-112 avenue Jean-Jaurès",
+    "postalCode": "93700",
+    "commune": "Drancy",
     "department": "93",
-    "website": "https://www.museeairespace.fr/",
-    "phone": "01 49 92 70 00",
+    "website": "https://drancy.memorialdelashoah.org/",
+    "tags": [
+      "museum",
+      "history"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/memorial-de-la-shoah-drancy-p3627"
+  },
+  {
+    "id": "mus-musee-d-histoire-urbaine-et-sociale-de-suresnes",
+    "name": "MUS - musée d'histoire urbaine et sociale de Suresnes",
+    "coordinates": [
+      2.221944,
+      48.868303
+    ],
+    "address": "1 place de la gare de Suresnes-Longchamp",
+    "postalCode": "92150",
+    "commune": "Suresnes",
+    "department": "92",
+    "website": "https://webmuseo.com/ws/musee-suresnes/app/report/index.html",
+    "phone": "01 41 18 37 37",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "note": "Free for everyone on the first Sunday of the month; otherwise 6 EUR full / 4 EUR reduced.",
+        "source": {
+          "url": "https://mus.suresnes.fr/informations-pratiques/",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "note": "Free for all visitors under 26 and students with ID (not limited to EU residents).",
+        "source": {
+          "url": "https://mus.suresnes.fr/informations-pratiques/",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee",
+    "name": "Musée intercommunal de Nogent-sur-Marne",
+    "coordinates": [
+      2.484292,
+      48.84026
+    ],
+    "address": "36, boulevard Gallieni, Bâtiment industriel",
+    "postalCode": "94130",
+    "commune": "Nogent-sur-Marne",
+    "department": "94",
+    "website": "https://museenogentsurmarne.net/",
+    "phone": "01 48 75 51 25",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "note": "Entrée libre; free guided tours for groups on reservation. Closed public holidays and Sundays in August.",
+        "source": {
+          "url": "https://museenogentsurmarne.net/index.php?page=horaires&id=1024",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-adrien-mentienne",
+    "name": "Musée Adrien Mentienne",
+    "coordinates": [
+      2.519827,
+      48.835224
+    ],
+    "address": "1, grande rue Charles de Gaulle, Hôtel de Ville",
+    "postalCode": "94360",
+    "commune": "Bry-sur-Marne",
+    "department": "94",
+    "website": "https://museedebry.fr/#/page-musee/fr",
+    "phone": "01 45 16 68 00",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "note": "Free access. Venue is split: permanent Daguerre exhibition in the town-hall hall (open weekdays + Sat morning), Daguerre diorama in the parish church, and Espace Maurice Joron open by reservation only (musee@bry94.fr). Main collections are in reserve, shown during temporary exhibitions.",
+        "source": {
+          "url": "https://tourisme-vincennes-marnebois.fr/fr/patrimoine-culturel/musee-adrien-mentienne",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-alfred-bonno",
+    "name": "Musée Alfred Bonno",
+    "coordinates": [
+      2.591845,
+      48.87766
+    ],
+    "address": "Place de la République",
+    "postalCode": "77500",
+    "commune": "Chelles",
+    "department": "77",
+    "website": "https://www.chelles.fr/chelles-a-vivre/culture/musee-alfred-bonno/",
+    "phone": "01 64 72 65 80",
     "tags": [
       "museum"
     ],
     "freeAccess": []
   },
   {
-    "id": "musee-daubigny",
-    "name": "Musée Daubigny",
+    "id": "musee-archeologique-departemental-du-val-d-oise",
+    "name": "Musée archéologique du Val d'Oise (MADVO)",
     "coordinates": [
-      2.171783250055156,
-      49.071480153019486
+      1.849395,
+      49.108589
     ],
-    "address": "Manoir des Colombières, Rue de la Sansonne",
-    "postalCode": "95430",
-    "commune": "Auvers-sur-Oise",
+    "address": "4 place du Château",
+    "postalCode": "95450",
+    "commune": "Guiry-en-Vexin",
     "department": "95",
-    "website": "https://museedaubigny.com",
-    "phone": "130368020",
+    "website": "https://www.valdoise.fr/608-le-musee-archeologique-departemental-du-val-d-oise.htm",
+    "phone": "01 34 67 45 07",
     "tags": [
       "museum"
     ],
-    "freeAccess": []
+    "freeAccess": [
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "note": "Own site confirms free museum entry during the European Heritage Days weekend ('entrée gratuite', Sat-Sun 13h-18h with animations)",
+        "source": {
+          "url": "https://musee-archeologique-valdoise.fr/evenements/journees-europeennes-du-patrimoine/",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-belmondo-et-de-la-sculpture-figurative-du-xxe-siecle",
+    "name": "Musée Paul Belmondo",
+    "coordinates": [
+      2.241177,
+      48.834945
+    ],
+    "address": "",
+    "postalCode": "92100",
+    "commune": "Boulogne-Billancourt",
+    "department": "92",
+    "website": "https://www.boulognebillancourt.com/loisirs/culture/les-musees/musee-paul-belmondo",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "note": "Free for everyone on the first Sunday of the month; otherwise 8 EUR full price.",
+        "source": {
+          "url": "https://musees.boulognebillancourt.com/fr/horaires-tarifs-acces",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "note": "City policy: free for all visitors under 26 with ID (not limited to EU residents).",
+        "source": {
+          "url": "https://musees.boulognebillancourt.com/files/musees-conditions-tarifs-rduits-et-gratuit_3555b020f773e38f658cf6194f309442.pdf",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-bossuet",
+    "name": "Musée Bossuet",
+    "coordinates": [
+      2.87061,
+      48.938016
+    ],
+    "address": "5, place Charles-de-Gaulle, Palais Episcopal",
+    "postalCode": "77100",
+    "commune": "Meaux",
+    "department": "77",
+    "website": "https://www.musee-bossuet.fr/",
+    "phone": "01 64 34 84 45",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "note": "Official site: 'L'entree du musee est gratuite tous les premiers dimanches du mois'",
+        "source": {
+          "url": "https://www.musee-bossuet.fr/preparez-votre-visite/horaires-et-tarifs",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-bourdelle",
+    "name": "Musée Bourdelle",
+    "coordinates": [
+      2.31883,
+      48.843017
+    ],
+    "address": "16 rue Antoine Bourdelle",
+    "postalCode": "75015",
+    "commune": "Paris",
+    "arrondissement": 15,
+    "department": "75",
+    "website": "https://www.bourdelle.paris.fr/",
+    "phone": "01 49 54 73 73",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "note": "Permanent collections only partially on view during temporary exhibitions",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-bourdelle-p3539"
+  },
+  {
+    "id": "musee-carnavalet-histoire-de-paris",
+    "name": "Musée Carnavalet - histoire de Paris",
+    "coordinates": [
+      2.362856,
+      48.85699
+    ],
+    "address": "23, rue de Sévigné, Hôtel Carnavalet",
+    "postalCode": "75003",
+    "commune": "Paris",
+    "arrondissement": 3,
+    "department": "75",
+    "website": "https://www.carnavalet.paris.fr/",
+    "phone": "01 44 59 58 58",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-carnavalet-histoire-de-paris-p3492"
+  },
+  {
+    "id": "musee-cernuschi-musee-des-arts-de-l-asie-de-la-ville-de-paris",
+    "name": "Musée Cernuschi, musée des arts de l'Asie de la ville de Paris",
+    "coordinates": [
+      2.312194,
+      48.879693
+    ],
+    "address": "7 avenue Vélasquez, Hôtel particulier",
+    "postalCode": "75008",
+    "commune": "Paris",
+    "arrondissement": 8,
+    "department": "75",
+    "website": "https://www.cernuschi.paris.fr/",
+    "phone": "01 53 96 21 50",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-cernuschi-musee-des-arts-de-l-asie-de-la-ville-de-paris-p3499"
+  },
+  {
+    "id": "musee-cognacq-jay-musee-du-xviiie-siecle-de-la-ville-de-paris",
+    "name": "Musée Cognacq-Jay, musée du XVIIIe siècle de la ville de Paris",
+    "coordinates": [
+      2.361524,
+      48.858257
+    ],
+    "address": "8 rue Elzévir",
+    "postalCode": "75003",
+    "commune": "Paris",
+    "arrondissement": 3,
+    "department": "75",
+    "website": "https://www.museecognacqjay.paris.fr/",
+    "phone": "01 40 27 07 21",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "note": "Permanent collections only partially on view during temporary exhibitions",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-cognacq-jay-le-gout-du-xviiie-p3509"
+  },
+  {
+    "id": "musee-curie",
+    "name": "Musée Curie",
+    "coordinates": [
+      2.3448,
+      48.8442
+    ],
+    "address": "1 rue Pierre-et-Marie-Curie",
+    "postalCode": "75005",
+    "commune": "Paris",
+    "arrondissement": 5,
+    "department": "75",
+    "website": "https://musee.curie.fr/",
+    "tags": [
+      "museum",
+      "science"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-curie-p999"
+  },
+  {
+    "id": "musee-d-archeologie-nationale-des-origines-a-l-an-mille-chateau-de-saint-germain-en-laye",
+    "name": "Musée d'archéologie nationale (des origines à l'an mille) - château de Saint-Germain-en-Laye",
+    "coordinates": [
+      2.094936,
+      48.897879
+    ],
+    "address": "Place Charles de Gaulle, Château",
+    "postalCode": "78100",
+    "commune": "Saint-Germain-en-Laye",
+    "department": "78",
+    "website": "https://musee-archeologienationale.fr/",
+    "phone": "01 39 10 13 00",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "note": "Free entry to the permanent collections on the first Sunday of each month",
+        "source": {
+          "url": "https://musee-archeologienationale.fr/tarifs",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "note": "Free for under-18s (all nationalities) and 18-25-year-old EU residents",
+        "source": {
+          "url": "https://musee-archeologienationale.fr/tarifs",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-d-archeologie-nationale-domaine-national-de-saint-germain-en-laye-p945"
+  },
+  {
+    "id": "musee-d-art-contemporain-du-val-de-marne",
+    "name": "Musée d'art contemporain du Val-de-Marne",
+    "coordinates": [
+      2.387072,
+      48.792821
+    ],
+    "address": "Place de la Libération",
+    "postalCode": "94400",
+    "commune": "Vitry-sur-Seine",
+    "department": "94",
+    "website": "https://www.macval.fr/",
+    "phone": "01 43 91 64 20",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/mac-val-musee-d-art-contemporain-du-val-de-marne-p962"
+  },
+  {
+    "id": "musee-d-art-et-d-histoire",
+    "name": "Musée d'art et d'histoire de Meudon",
+    "coordinates": [
+      2.234894,
+      48.806412
+    ],
+    "address": "11, rue des Pierres, Maison d'Armande Béjart",
+    "postalCode": "92190",
+    "commune": "Meudon",
+    "department": "92",
+    "website": "https://musee.meudon.fr/",
+    "phone": "01 46 23 87 13",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "note": "'Entrée libre et gratuite' Tue-Sun 14:00-18:00; closed Mondays, public holidays and in August.",
+        "source": {
+          "url": "https://musee.meudon.fr/",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-d-art-et-d-histoire-de-l-hopital-sainte-anne",
+    "name": "Musée d'art et d'histoire de l'hôpital Sainte-Anne",
+    "coordinates": [
+      2.340376,
+      48.830264
+    ],
+    "address": "1 rue Cabanis, Hôpital Sainte-Anne",
+    "postalCode": "75014",
+    "commune": "Paris",
+    "arrondissement": 14,
+    "department": "75",
+    "website": "https://musee-mahhsa.com",
+    "phone": "06 78 09 12 04",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "note": "Free for all visitors under 26 per the museum ('les - de 26 ans'; no EU-residency requirement stated); standard entry 5 EUR. Museum open only during its temporary exhibitions (Wed-Sun 13:00-18:00); official site now mahhsa.fr",
+        "source": {
+          "url": "https://mahhsa.fr/informations-pratiques/",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-d-art-et-d-histoire-du-judaisme",
+    "name": "Musée d'art et d'histoire du judaïsme",
+    "coordinates": [
+      2.355608,
+      48.86095
+    ],
+    "address": "71, rue du Temple, Hôtel de Saint-Aignan",
+    "postalCode": "75003",
+    "commune": "Paris",
+    "arrondissement": 3,
+    "department": "75",
+    "website": "https://www.mahj.org/",
+    "phone": "01 53 01 86 60",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "saturday",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-d-art-et-d-histoire-du-judaisme-p3581"
   },
   {
     "id": "musee-d-art-et-d-histoire-louis-senlecq",
@@ -1308,43 +1496,437 @@
     "tags": [
       "museum"
     ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "note": "Free for everyone the 1st Sunday of the month ('Pour tous le 1er dimanche du mois'); museum only opens during temporary exhibitions, Wed-Sun 14h-18h; also free for under-18s and L'Isle-Adam residents",
+        "source": {
+          "url": "https://ville-isle-adam.fr/musee/le-musee/tarifs",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-d-art-et-d-histoire-paul-eluard",
+    "name": "Musée d'art et d'histoire Paul Eluard",
+    "coordinates": [
+      2.355796,
+      48.932336
+    ],
+    "address": "22 bis, rue Gabriel Peri",
+    "postalCode": "93200",
+    "commune": "Saint-Denis",
+    "department": "93",
+    "website": "https://musee-saint-denis.com/",
+    "phone": "01 42 43 05 10",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "note": "Free on the first Sunday of each month; reduced rate (3 EUR) on other Sundays",
+        "source": {
+          "url": "https://musee-saint-denis.com/horaires-acces-et-tarifs/",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "note": "Free for all visitors under 26 with ID (site does not restrict to EU residents); also free for students and job seekers",
+        "source": {
+          "url": "https://musee-saint-denis.com/horaires-acces-et-tarifs/",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-d-art-moderne-de-la-ville-de-paris",
+    "name": "Musée d'art moderne de la ville de Paris",
+    "coordinates": [
+      2.29843234195393,
+      48.864603220958784
+    ],
+    "address": "11 avenue du Président Wilson",
+    "postalCode": "75116",
+    "commune": "Paris",
+    "arrondissement": 16,
+    "department": "75",
+    "website": "https://www.mam.paris.fr/fr",
+    "phone": "01 53 67 40 00",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "note": "Permanent collections free for everyone, no reservation needed (optional 5 EUR donation ticket); temporary exhibitions are paid",
+        "source": {
+          "url": "https://www.mam.paris.fr/fr/individuels",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-d-art-moderne-de-paris-p3491"
+  },
+  {
+    "id": "musee-d-ennery",
+    "name": "Musée d'Ennery",
+    "coordinates": [
+      2.281997,
+      48.871845
+    ],
+    "address": "59, avenue Foch",
+    "postalCode": "75116",
+    "commune": "Paris",
+    "arrondissement": 16,
+    "department": "75",
+    "website": "https://www.guimet.fr/",
+    "phone": "01 45 53 57 96",
+    "tags": [
+      "museum"
+    ],
     "freeAccess": []
   },
   {
-    "id": "musee-jean-jacques-rousseau",
-    "name": "Musée Jean-Jacques Rousseau",
+    "id": "musee-d-histoire-locale-memoire-de-la-ville",
+    "name": "Musée d'histoire locale de Rueil-Malmaison",
     "coordinates": [
-      2.320916,
-      48.986892
+      2.18183,
+      48.877678
     ],
-    "address": "5, rue Jean-Jacques Rousseau, 5, rue Jean-Jacques Rousseau",
-    "postalCode": "95160",
-    "commune": "Montmorency",
+    "address": "Place du 11 novembre",
+    "postalCode": "92500",
+    "commune": "Rueil-Malmaison",
+    "department": "92",
+    "website": "https://www.villederueil.fr/fr/musee-dhistoire-locale",
+    "phone": "01 47 32 66 50",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "note": "Free admission ('Tarifs : Gratuit'); open Mon-Sat 14:00-17:45 in the former town hall.",
+        "source": {
+          "url": "https://www.rueil-tourisme.com/patrimoine-culturel/musee-dhistoire-locale/",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-d-orsay",
+    "name": "Musée d'Orsay",
+    "coordinates": [
+      2.323672,
+      48.859157
+    ],
+    "address": "1, rue de Bellechasse",
+    "postalCode": "75007",
+    "commune": "Paris",
+    "arrondissement": 7,
+    "department": "75",
+    "website": "https://www.musee-orsay.fr/",
+    "phone": "01 40 49 48 14",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "reservationRequired": true,
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-d-orsay-p3592"
+  },
+  {
+    "id": "musee-daubigny",
+    "name": "Musée Daubigny",
+    "coordinates": [
+      2.171783250055156,
+      49.071480153019486
+    ],
+    "address": "Manoir des Colombières, Rue de la Sansonne",
+    "postalCode": "95430",
+    "commune": "Auvers-sur-Oise",
     "department": "95",
-    "website": "https://museejjrousseau.montmorency.fr/fr",
-    "phone": "01 39 64 80 13",
+    "website": "https://museedaubigny.com",
+    "phone": "130368020",
     "tags": [
       "museum"
     ],
-    "freeAccess": []
+    "freeAccess": [
+      {
+        "kind": "always",
+        "note": "Self-guided visits free ('Visite libre : gratuit') at the temporary venue La Maison de l'Isle, rue Marcel Martin, Auvers-sur-Oise, while the museum building undergoes a two-year expansion; guided tours 3 EUR on reservation",
+        "source": {
+          "url": "https://museedaubigny.com/horaires-et-tarifs/",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
   },
   {
-    "id": "musee-fragonard",
-    "name": "Musée Fragonard",
+    "id": "musee-de-l-air-et-de-l-espace",
+    "name": "Musée de l'air et de l'espace",
     "coordinates": [
-      2.4233629652344084,
-      48.81278282657873
+      2.4355624358692265,
+      48.94681950649236
     ],
-    "address": "7 avenue du Général de Gaulle, Ecole Nationale Vétérinaire d'Alfort, Maisons-Alfort cedex",
-    "postalCode": "94704",
-    "commune": "Maisons-Alfort",
-    "department": "94",
-    "website": "https://www.vet-alfort.fr/domaine-d-alfort/musee-fragonard/infos-pratiques",
-    "phone": "01 43 96 71 72",
+    "address": "BP 173, aéroport de Paris - Le Bourget",
+    "postalCode": "93352",
+    "commune": "Le Bourget",
+    "department": "93",
+    "website": "https://www.museeairespace.fr/",
+    "phone": "01 49 92 70 00",
     "tags": [
       "museum"
     ],
-    "freeAccess": []
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-l-air-et-de-l-espace-p3548"
+  },
+  {
+    "id": "musee-de-l-armee",
+    "name": "Musée de l'armée",
+    "coordinates": [
+      2.312885,
+      48.858219
+    ],
+    "address": "129, rue de Grenelle, Hôtel National des Invalides",
+    "postalCode": "75007",
+    "commune": "Paris",
+    "arrondissement": 7,
+    "department": "75",
+    "website": "https://www.musee-armee.fr/accueil.html",
+    "phone": "01 44 42 37 72",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "note": "Permanent collections free for under-18s and under-26 EU/EEA residents with ID; ticket still required. Full price 24 EUR",
+        "source": {
+          "url": "https://www.musee-armee.fr/votre-visite/horaires-et-tarifs/gratuites-et-reduction.html",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-l-armee-invalides-p3587"
+  },
+  {
+    "id": "musee-de-l-ecole-de-barbizon-auberge-ganne",
+    "name": "Musée de l'école de Barbizon - auberge Ganne",
+    "coordinates": [
+      2.602464,
+      48.446181
+    ],
+    "address": "92, Grande Rue, Auberge Ganne",
+    "postalCode": "77630",
+    "commune": "Barbizon",
+    "department": "77",
+    "website": "https://www.musee-peintres-barbizon.fr/fr",
+    "phone": "01 60 66 22 27",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "note": "Officially free for all visitors under 25 ('Gratuit : moins de 25 ans', plus jobseekers, minima sociaux, disabled visitors); encoded as under-18 because the threshold is 25, not 26",
+        "source": {
+          "url": "https://www.musee-peintres-barbizon.fr/fr/horaires-tarifs",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-de-l-ecole-nationale-superieure-des-beaux-arts",
+    "name": "Musée de l'Ecole nationale supérieure des beaux-arts",
+    "coordinates": [
+      2.33167,
+      48.845748
+    ],
+    "address": "",
+    "postalCode": "75006",
+    "commune": "Paris",
+    "arrondissement": 6,
+    "department": "75",
+    "website": "https://beauxartsparis.fr/fr/collection/presentation",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "note": "Beaux-Arts de Paris opens its listed buildings, chapel and collections free with guided tours during European Heritage Days (participation confirmed for 2025 and 2026 on its site); regular exhibitions use pay-what-you-choose tickets (2/5/10 EUR)",
+        "source": {
+          "url": "https://beauxartsparis.fr/en/evenement/journees-europeennes-du-patrimoine-2025",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-de-l-histoire-vivante",
+    "name": "Musée de l'histoire vivante",
+    "coordinates": [
+      2.469481,
+      48.866151
+    ],
+    "address": "31, boulevard Théophile Sueur, Parc Montreau",
+    "postalCode": "93100",
+    "commune": "Montreuil",
+    "department": "93",
+    "website": "https://www.museehistoirevivante.fr/",
+    "phone": "01 48 54 32 44 ; 01 48 54 36 08",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "note": "Free for all visitors under 26 (site does not restrict to EU residents); also free for students, teachers, job seekers and ICOM holders",
+        "source": {
+          "url": "https://www.museehistoirevivante.fr/infos-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-de-l-hotel-dieu",
+    "name": "Musée de l'hôtel-Dieu",
+    "coordinates": [
+      1.719901,
+      48.990874
+    ],
+    "address": "1 rue Thiers",
+    "postalCode": "78200",
+    "commune": "Mantes-la-Jolie",
+    "department": "78",
+    "website": "https://www.manteslajolie.fr/MUSEE%20DE%20LHOTELDIEU",
+    "phone": "01 34 78 86 60",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "note": "Self-guided visits free for everyone; guided tours paid (free on first Sunday of the month)",
+        "source": {
+          "url": "https://www.manteslajolie.fr/loisirs-sorties-asso/culture/etablissements-culturels/musee-de-lhotel-dieu",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-de-l-institut-du-monde-arabe",
+    "name": "Musée de l'Institut du monde arabe",
+    "coordinates": [
+      2.352176,
+      48.843955
+    ],
+    "address": "",
+    "postalCode": "75005",
+    "commune": "Paris",
+    "arrondissement": 5,
+    "department": "75",
+    "website": "https://www.imarabe.org/fr/musee/presentation-du-musee",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/institut-du-monde-arabe-p3524"
+  },
+  {
+    "id": "musee-de-l-orangerie-des-tuileries",
+    "name": "Musée de l'Orangerie",
+    "coordinates": [
+      2.326622,
+      48.868053
+    ],
+    "address": "Jardin des Tuileries",
+    "postalCode": "75001",
+    "commune": "Paris",
+    "arrondissement": 1,
+    "department": "75",
+    "website": "https://www.musee-orangerie.fr/",
+    "phone": "01 40 20 67 71",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "reservationRequired": true,
+        "reservationUrl": "https://billetterie.musee-orangerie.fr/",
+        "note": "Free for everyone (collections, Water Lilies rooms and exhibitions) on the first Sunday of each month; online time-slot booking mandatory",
+        "source": {
+          "url": "https://www.musee-orangerie.fr/en/whats-on/tours-and-workshops/1st-sunday-month-free-all-online-time-slot-booking-mandatory",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "note": "Free for under-18s and 18-25-year-old EU nationals or long-term (3+ months) residents of an EU member state",
+        "source": {
+          "url": "https://www.musee-orangerie.fr/fr/node/582",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-l-orangerie-p3513"
   },
   {
     "id": "musee-de-la-batellerie",
@@ -1365,204 +1947,120 @@
     "freeAccess": []
   },
   {
-    "id": "musee-zola-dreyfus",
-    "name": "Musée Zola-Dreyfus",
+    "id": "musee-de-la-chasse-et-de-la-nature",
+    "name": "Musée de la chasse et de la nature",
     "coordinates": [
-      1.995035,
-      48.952745
+      2.358608,
+      48.861491
     ],
-    "address": "26 Rue Pasteur",
-    "postalCode": "78670",
-    "commune": "Médan",
-    "department": "78",
-    "website": "https://www.maisonzola-museedreyfus.com/",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-d-art-et-d-histoire-78300",
-    "name": "Musée d'art et d'histoire",
-    "coordinates": [
-      2.044648,
-      48.92797
-    ],
-    "address": "",
-    "postalCode": "78300",
-    "commune": "Poissy",
-    "department": "78",
-    "website": "https://musees.ville-poissy.fr/fr/histoire-de-la-collection",
-    "phone": "01 39 22 56 01",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-municipal-ducastel-vera-de-saint-germain-en-laye",
-    "name": "Musée municipal Ducastel-Vera de Saint-Germain-en-Laye",
-    "coordinates": [
-      2.127681,
-      48.794403
-    ],
-    "address": "38 rue au Pain",
-    "postalCode": "78000",
-    "commune": "Saint-Germain-en-Laye",
-    "department": "78",
-    "website": "https://www.saintgermainenlaye.fr/736/musee-municipal.htm?L=ppapagepapage=",
-    "phone": "0134 51 05 12",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-lambinet",
-    "name": "Musée Lambinet",
-    "coordinates": [
-      2.130624,
-      48.808966
-    ],
-    "address": "54, boulevard de la Reine",
-    "postalCode": "78000",
-    "commune": "Versailles",
-    "department": "78",
-    "website": "https://www.versailles.fr/museelambinet/",
-    "phone": "01 39 50 30 32",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-national-des-chateaux-de-versailles-et-de-trianon",
-    "name": "Musée national des châteaux de Versailles et de Trianon",
-    "coordinates": [
-      2.134053,
-      48.804537
-    ],
-    "address": "Château de Versailles",
-    "postalCode": "78000",
-    "commune": "Versailles",
-    "department": "78",
-    "website": "https://www.chateauversailles.fr/",
-    "phone": "01 30 83 78 00",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-municipal-robert-dubois-corneau",
-    "name": "Musée municipal Robert Dubois-Corneau",
-    "coordinates": [
-      2.500293,
-      48.700308
-    ],
-    "address": "16, rue du Réveillon",
-    "postalCode": "91800",
-    "commune": "Brunoy",
-    "department": "91",
-    "website": "https://www.brunoy.fr/vos-demarches-services/vie-culturelle-et-animations/musee/",
-    "phone": "01 60 46 33 60",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-departemental-albert-kahn",
-    "name": "Musée départemental Albert-Kahn",
-    "coordinates": [
-      2.227488,
-      48.841354
-    ],
-    "address": "14, rue du Port",
-    "postalCode": "92100",
-    "commune": "Boulogne-Billancourt",
-    "department": "92",
-    "website": "https://albert-kahn.hauts-de-seine.fr/",
-    "phone": "01 55 19 28 00",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-municipal-d-art-et-d-histoire",
-    "name": "Musée municipal d'art et d'histoire",
-    "coordinates": [
-      2.252039,
-      48.923321
-    ],
-    "address": "2, rue Gabriel Péri",
-    "postalCode": "92700",
-    "commune": "Colombes",
-    "department": "92",
-    "website": "https://www.colombes.fr/culture/musee-municipal-d-art-et-d-histoire-983.html",
-    "phone": "01 47 86 38 85",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "maison-de-balzac",
-    "name": "Maison de Balzac",
-    "coordinates": [
-      2.280805,
-      48.855398
-    ],
-    "address": "47 rue Raynouard, Hôtel particulier",
-    "postalCode": "75016",
-    "commune": "Paris",
-    "arrondissement": 16,
-    "department": "75",
-    "website": "https://www.maisondebalzac.paris.fr/",
-    "phone": "01 55 74 41 80",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-carnavalet-histoire-de-paris",
-    "name": "Musée Carnavalet - histoire de Paris",
-    "coordinates": [
-      2.362856,
-      48.85699
-    ],
-    "address": "23, rue de Sévigné, Hôtel Carnavalet",
+    "address": "62 rue des Archives, Hôtels de Guénégaud et de Mongelas",
     "postalCode": "75003",
     "commune": "Paris",
     "arrondissement": 3,
     "department": "75",
-    "website": "https://www.carnavalet.paris.fr/",
-    "phone": "01 44 59 58 58",
+    "website": "https://www.chassenature.org/",
+    "phone": "01 53 01 92 40",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-la-chasse-et-de-la-nature-p997"
+  },
+  {
+    "id": "musee-de-la-franc-maconnerie",
+    "name": "Musée de la franc-maçonnerie",
+    "coordinates": [
+      2.343088,
+      48.874991
+    ],
+    "address": "16 rue Cadet",
+    "postalCode": "75009",
+    "commune": "Paris",
+    "arrondissement": 9,
+    "department": "75",
+    "website": "https://www.museefm.org/",
+    "phone": "01 45 23 20 92",
     "tags": [
       "museum"
     ],
     "freeAccess": []
   },
   {
-    "id": "musee-d-art-moderne-de-la-ville-de-paris",
-    "name": "Musée d'art moderne de la ville de Paris",
+    "id": "musee-de-la-gendarmerie",
+    "name": "Musée de la Gendarmerie nationale",
     "coordinates": [
-      2.29843234195393,
-      48.864603220958784
+      2.651583,
+      48.54648
     ],
-    "address": "11 avenue du Président Wilson",
-    "postalCode": "75116",
-    "commune": "Paris",
-    "arrondissement": 16,
-    "department": "75",
-    "website": "https://www.mam.paris.fr/fr",
-    "phone": "01 53 67 40 00",
+    "address": "Avenue du 13e Dragons",
+    "postalCode": "77000",
+    "commune": "Melun",
+    "department": "77",
+    "website": "https://www.gendarmerie.interieur.gouv.fr/musee",
+    "phone": "01 64 14 54 64",
     "tags": [
       "museum"
     ],
-    "freeAccess": []
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "note": "'Gratuit pour les visiteurs, le 1er dimanche du mois' (individual visitors only, not groups)",
+        "source": {
+          "url": "https://www.melunvaldeseine-tourisme.com/patrimoine-culturel/musee-de-la-gendarmerie-nationale",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "note": "Free for EU/EEA residents under 26 (standard national-museum scheme)",
+        "source": {
+          "url": "https://www.melunvaldeseine-tourisme.com/patrimoine-culturel/musee-de-la-gendarmerie-nationale",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-de-la-grande-guerre",
+    "name": "Musée de la Grande Guerre du Pays de Meaux",
+    "coordinates": [
+      2.901461,
+      48.955281
+    ],
+    "address": "Rue Lazare Ponticelli",
+    "postalCode": "77100",
+    "commune": "Meaux",
+    "department": "77",
+    "website": "https://www.museedelagrandeguerre.eu/",
+    "phone": "01 60 32 14 18",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "note": "Free for everyone on the 1st Sunday of each month per the museum's own site; museum closed during its annual break (mid-August to early September), so no free Sunday then",
+        "source": {
+          "url": "https://www.museedelagrandeguerre.com/entree-gratuite-tous-les-1er-dimanches-du-mois/",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
   },
   {
     "id": "musee-de-la-grande-loge-de-france",
@@ -1581,60 +2079,299 @@
     "tags": [
       "museum"
     ],
-    "freeAccess": []
+    "freeAccess": [
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "note": "GLDF opens its headquarters at 8 rue Puteaux (including the museum) free during European Heritage Days (participations documented on gldf.org for 2016, 2023 and 2026); otherwise guided visits only, online reservation mandatory, 7 EUR",
+        "source": {
+          "url": "https://gldf.org/culture-et-patrimoine/journees-europeennes-du-patrimoine-2023/lhotel-de-la-rue-puteaux/historique-des-locaux.html",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
   },
   {
-    "id": "musee-du-service-de-sante-des-armees-du-val-de-grace",
-    "name": "Musée du service de santé des armées du Val-de-Grâce",
+    "id": "musee-de-la-liberation-de-paris-musee-du-general-leclerc-musee-jean-moulin",
+    "name": "Musée de la Libération de Paris - musée du général Leclerc - musée Jean Moulin",
     "coordinates": [
-      2.341091,
-      48.840814
+      2.319773,
+      48.840614
     ],
-    "address": "1, place Alphonse Laveran",
+    "address": "23 allée de la 2ème Division Blindée, Jardin Atlantique",
+    "postalCode": "75015",
+    "commune": "Paris",
+    "arrondissement": 15,
+    "department": "75",
+    "website": "https://www.museeliberation-leclerc-moulin.paris.fr/",
+    "phone": "01 40 64 39 44",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-la-liberation-de-paris-musee-du-general-leclerc-musee-jean-moulin-p3508"
+  },
+  {
+    "id": "musee-de-la-musique",
+    "name": "Musée de la musique",
+    "coordinates": [
+      2.393807,
+      48.889306
+    ],
+    "address": "221, avenue Jean-Jaurès, Cité de La Musique",
+    "postalCode": "75019",
+    "commune": "Paris",
+    "arrondissement": 19,
+    "department": "75",
+    "website": "https://philharmoniedeparis.fr/fr/musee-de-la-musique",
+    "phone": "01 44 84 45 00 ; 01 44 84 44 84 (visites avec conférencier)",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "note": "Permanent collection free for all visitors under 26 per the Philharmonie ('Gratuit pour les moins de 26 ans'; no EU-residency requirement stated); full price 10 EUR",
+        "source": {
+          "url": "https://philharmoniedeparis.fr/fr/musee-de-la-musique",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/cite-de-la-musique-philharmonie-de-paris-p3544"
+  },
+  {
+    "id": "musee-de-la-poste",
+    "name": "Musée de la poste",
+    "coordinates": [
+      2.3177008959224517,
+      48.84156094062689
+    ],
+    "address": "34, boulevard de Vaugirard",
+    "postalCode": "75015",
+    "commune": "Paris",
+    "department": "75",
+    "website": "https://www.museedelaposte.fr/",
+    "phone": "01 42 79 24 24",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "note": "Free for everyone on the first Sunday of each month; otherwise full price 11 EUR (no under-26 gratuity: 18-25s pay a reduced 8 EUR rate)",
+        "source": {
+          "url": "https://www.museedelaposte.fr/fr/tarifs",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-la-poste-p3485",
+    "arrondissement": 15
+  },
+  {
+    "id": "musee-de-la-prefecture-de-police",
+    "name": "Musée de la Préfecture de police",
+    "coordinates": [
+      2.34828,
+      48.84941
+    ],
+    "address": "4 rue de la Montagne-Sainte-Geneviève",
     "postalCode": "75005",
     "commune": "Paris",
     "arrondissement": 5,
     "department": "75",
-    "website": "https://www.ecole-valdegrace.sante.defense.gouv.fr/bibliotheque-musee/musee-du-service-de-sante-des-armees",
-    "phone": "01 40 51 51 92",
+    "website": "https://www.prefecturedepolice.interieur.gouv.fr/musee",
+    "tags": [
+      "museum",
+      "history"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "reservationRequired": true,
+        "reservationUrl": "https://www.smartagenda.fr/pro/prefecture-de-police-musee/rendez-vous/",
+        "note": "Free entry, but every visitor must be registered in advance (the museum is inside a working police headquarters)",
+        "source": {
+          "url": "https://www.prefecturedepolice.interieur.gouv.fr/musee",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-la-prefecture-de-police-p1067"
+  },
+  {
+    "id": "musee-de-la-renaissance-chateau-d-ecouen",
+    "name": "Musée de la Renaissance - château d'Ecouen",
+    "coordinates": [
+      2.378424,
+      49.015862
+    ],
+    "address": "Château d'Ecouen",
+    "postalCode": "95440",
+    "commune": "Ecouen",
+    "department": "95",
+    "website": "https://musee-renaissance.fr/",
+    "phone": "01 34 38 38 51",
     "tags": [
       "museum"
     ],
-    "freeAccess": []
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-de-la-renaissance-chateau-d-ecouen-p1000"
   },
   {
-    "id": "musee-zadkine",
-    "name": "Musée Zadkine",
+    "id": "musee-de-la-resistance-nationale",
+    "name": "Musée de la résistance nationale",
     "coordinates": [
-      2.333457,
-      48.842793
+      2.525362870676448,
+      48.807483493456196
     ],
-    "address": "100 bis rue d'Assas",
-    "postalCode": "75006",
-    "commune": "Paris",
-    "arrondissement": 6,
-    "department": "75",
-    "website": "https://www.zadkine.paris.fr/",
-    "phone": "01 43 26 91 90",
+    "address": "88 avenue Marx Dormoy BP 135, Parc Vercors",
+    "postalCode": "94501",
+    "commune": "Champigny-sur-Marne",
+    "department": "94",
+    "website": "https://www.musee-resistance.com/musee-nouveau/presentation/",
+    "phone": "01 48 81 00 80",
     "tags": [
       "museum"
     ],
-    "freeAccess": []
+    "freeAccess": [
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "note": "Free admission during European Heritage Days (museum otherwise closed in September, but opens for the event)",
+        "source": {
+          "url": "https://www.musee-resistance.com/votre-visite/tarifs-et-reservations/",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "annual-date",
+        "date": "05-08",
+        "note": "Free on 8 May (WWII Victory Day)",
+        "source": {
+          "url": "https://www.musee-resistance.com/votre-visite/tarifs-et-reservations/",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "annual-date",
+        "date": "05-27",
+        "note": "Free on 27 May (National Day of the Resistance)",
+        "source": {
+          "url": "https://www.musee-resistance.com/votre-visite/tarifs-et-reservations/",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
   },
   {
-    "id": "palais-galliera-musee-de-la-mode-et-de-la-ville-de-paris",
-    "name": "Palais Galliera, musée de la mode et de la ville de Paris",
+    "id": "musee-de-la-toile-de-jouy",
+    "name": "Musée de la toile de Jouy",
     "coordinates": [
-      2.297248499625773,
-      48.866136805463356
+      2.153216,
+      48.768986
     ],
-    "address": "10 avenue Pierre Ier de Serbie, Palais Galliéra",
-    "postalCode": "75116",
+    "address": "54, rue Charles de Gaulle, Château de l'Eglantine",
+    "postalCode": "78350",
+    "commune": "Jouy-en-Josas",
+    "department": "78",
+    "website": "https://www.museedelatoiledejouy.fr/",
+    "phone": "01 39 56 48 64",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "note": "Free museum entry and activities during European Heritage Days",
+        "source": {
+          "url": "https://www.museedelatoiledejouy.fr/journees-europeennes-du-patrimoine/",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-de-la-vie-romantique",
+    "name": "Musée de la vie romantique",
+    "coordinates": [
+      2.333278,
+      48.880899
+    ],
+    "address": "16 rue Chaptal",
+    "postalCode": "75009",
     "commune": "Paris",
-    "arrondissement": 16,
+    "arrondissement": 9,
     "department": "75",
-    "website": "https://www.palaisgalliera.paris.fr/",
-    "phone": "01 56 52 86 00",
+    "website": "https://museevieromantique.paris.fr/fr",
+    "phone": "01 48 74 95 38",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "note": "Reopened 14 February 2026 after renovation, with a new permanent-collection display",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-la-vie-romantique-p3580"
+  },
+  {
+    "id": "musee-de-melun",
+    "name": "Musée de Melun",
+    "coordinates": [
+      2.658972,
+      48.536398
+    ],
+    "address": "5 rue du Franc Mûrier",
+    "postalCode": "77000",
+    "commune": "Melun",
+    "department": "77",
+    "website": "https://www.ville-melun.fr/temps-libre/musee-d-art-et-d-histoire-de-la-ville-de-melun/232-presentation-du-musee",
+    "phone": "01 64 79 77 70",
     "tags": [
       "museum"
     ],
@@ -1657,7 +2394,300 @@
     "tags": [
       "museum"
     ],
+    "freeAccess": [
+      {
+        "kind": "event",
+        "event": "museum-night",
+        "note": "European Museum Night: free entry without registration, within capacity limits (2025 edition: 18:30-22:00); museum otherwise paid",
+        "source": {
+          "url": "https://museedemontmartre.fr/evenements/nuit-europeenne-des-musees-2025/",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-de-port-royal-des-champs",
+    "name": "Musée de Port-Royal des Champs",
+    "coordinates": [
+      2.01579,
+      48.748437
+    ],
+    "address": "Route des Granges",
+    "postalCode": "78114",
+    "commune": "Magny-les-Hameaux",
+    "department": "78",
+    "website": "https://www.port-royal-des-champs.eu/",
+    "phone": "01 30 43 73 05",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-de-port-royal-des-champs-p943"
+  },
+  {
+    "id": "musee-de-prehistoire-d-ile-de-france",
+    "name": "Musée de préhistoire d'Île-de-France",
+    "coordinates": [
+      2.714321,
+      48.260312
+    ],
+    "address": "48 avenue Etienne Dailly",
+    "postalCode": "77140",
+    "commune": "Nemours",
+    "department": "77",
+    "website": "https://www.musee-prehistoire-idf.fr/fr",
+    "phone": "01 64 78 54 80",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "note": "Departmental museum: site lists free entry for 'moins de 26 ans' (no EU-residency condition stated), plus jobseekers, minima sociaux, disabled visitors",
+        "source": {
+          "url": "https://www.musee-prehistoire-idf.fr/fr/horaires-et-tarifs",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-de-provins-et-du-provinois",
+    "name": "Musée de Provins et du provinois",
+    "coordinates": [
+      3.290374,
+      48.561624
+    ],
+    "address": "7, rue du Palais",
+    "postalCode": "77160",
+    "commune": "Provins",
+    "department": "77",
+    "website": "https://www.provins.net/decouvrir-visiter/samuser-au-musee/le-musee-de-provins-et-du-provinois/",
+    "phone": "01 64 01 40 19",
+    "tags": [
+      "museum"
+    ],
     "freeAccess": []
+  },
+  {
+    "id": "musee-de-saint-maur-villa-medicis",
+    "name": "Villa Médicis – Maison des arts et de la culture",
+    "coordinates": [
+      2.5149018357668425,
+      48.79310937814309
+    ],
+    "address": "5, rue Saint-Hilaire - 92, avenue du Bac - Rue de la Poste, Carré Médicis",
+    "postalCode": "94210",
+    "commune": "Saint-Maur-des-Fossés",
+    "department": "94",
+    "website": "https://www.saint-maur.com/?id=127",
+    "phone": "01 48 86 33 28",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "note": "Premier dimanche du mois : gratuit. Otherwise 7 EUR full / 4 EUR reduced; under-12s always free.",
+        "source": {
+          "url": "https://www.saint-maur.com/?id=127",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-departemental-albert-kahn",
+    "name": "Musée départemental Albert-Kahn",
+    "coordinates": [
+      2.227488,
+      48.841354
+    ],
+    "address": "14, rue du Port",
+    "postalCode": "92100",
+    "commune": "Boulogne-Billancourt",
+    "department": "92",
+    "website": "https://albert-kahn.hauts-de-seine.fr/",
+    "phone": "01 55 19 28 00",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-departemental-albert-kahn-p966"
+  },
+  {
+    "id": "musee-departemental-maurice-denis",
+    "name": "Musée départemental Maurice Denis",
+    "coordinates": [
+      2.087541,
+      48.892495
+    ],
+    "address": "2bis, rue Maurice Denis",
+    "postalCode": "78100",
+    "commune": "Saint-Germain-en-Laye",
+    "department": "78",
+    "website": "https://www.musee-mauricedenis.fr/",
+    "phone": "01 39 07 87 87",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": []
+  },
+  {
+    "id": "musee-departemental-stephane-mallarme",
+    "name": "Musée départemental Stéphane Mallarmé",
+    "coordinates": [
+      2.746605,
+      48.430323
+    ],
+    "address": "4, quai Stéphane-Mallarmé, Pont de Valvins",
+    "postalCode": "77870",
+    "commune": "Vulaines-sur-Seine",
+    "department": "77",
+    "website": "https://www.musee-mallarme.fr/fr",
+    "phone": "01 64 23 73 27",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "note": "Museum site lists free entry for under-18s and 18-25-year-olds (no EU-residency condition stated); note the museum opens seasonally only",
+        "source": {
+          "url": "https://www.musee-mallarme.fr/fr/horaires-et-tarifs",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-des-annees-trente",
+    "name": "Musée des années trente",
+    "coordinates": [
+      2.241177,
+      48.834945
+    ],
+    "address": "26, avenue André Morizet",
+    "postalCode": "92100",
+    "commune": "Boulogne-Billancourt",
+    "department": "92",
+    "website": "https://www.boulognebillancourt.com/loisirs/culture/les-musees/musee-des-annees-trente",
+    "phone": "01 55 18 46 42",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "note": "Free for everyone on the first Sunday of the month; otherwise 8 EUR full price.",
+        "source": {
+          "url": "https://musees.boulognebillancourt.com/fr/horaires-tarifs-acces",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "note": "City policy: free for all visitors under 26 with ID (not limited to EU residents).",
+        "source": {
+          "url": "https://musees.boulognebillancourt.com/files/musees-conditions-tarifs-rduits-et-gratuit_3555b020f773e38f658cf6194f309442.pdf",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-des-annees-30-p989"
+  },
+  {
+    "id": "musee-des-archives-nationales-hotel-de-soubise",
+    "name": "Musée des Archives nationales - Hôtel de Soubise",
+    "coordinates": [
+      2.35833,
+      48.86056
+    ],
+    "address": "60 rue des Francs-Bourgeois",
+    "postalCode": "75003",
+    "commune": "Paris",
+    "arrondissement": 3,
+    "department": "75",
+    "website": "https://www.archives-nationales.culture.gouv.fr",
+    "tags": [
+      "museum",
+      "history"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-des-archives-nationales-hotel-de-soubise-p1001"
+  },
+  {
+    "id": "musee-des-arts-asiatiques-guimet",
+    "name": "Musée des arts asiatiques Guimet",
+    "coordinates": [
+      2.293754,
+      48.86425
+    ],
+    "address": "6, place d'Iéna",
+    "postalCode": "75116",
+    "commune": "Paris",
+    "arrondissement": 16,
+    "department": "75",
+    "website": "https://www.museeguimet.fr",
+    "phone": "01 56 52 53 00",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-des-arts-asiatiques-guimet-p3588"
   },
   {
     "id": "musee-des-arts-decoratifs-union-centrale-des-arts-decoratifs",
@@ -1676,7 +2706,351 @@
     "tags": [
       "museum"
     ],
-    "freeAccess": []
+    "freeAccess": [
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "note": "Collections and exhibitions of the MAD free for under-26s (18-25 within available capacity; museum wording 'moins de 26 ans', no EU-residency requirement stated); online booking strongly recommended",
+        "source": {
+          "url": "https://madparis.fr/Tarifs-et-gratuites",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/mad-musee-des-arts-decoratifs-p3554"
+  },
+  {
+    "id": "musee-des-arts-et-metiers",
+    "name": "Musée des arts et métiers",
+    "coordinates": [
+      2.357046,
+      48.865357
+    ],
+    "address": "60, rue Réaumur, Conservatoire des arts et métiers",
+    "postalCode": "75003",
+    "commune": "Paris",
+    "arrondissement": 3,
+    "department": "75",
+    "website": "https://www.arts-et-metiers.net/",
+    "phone": "01 53 01 82 20",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-des-arts-et-metiers-p3596"
+  },
+  {
+    "id": "musee-des-avelines-musee-d-art-et-d-histoire-de-saint-cloud",
+    "name": "Musée des Avelines - musée d'art et d'histoire de Saint-Cloud",
+    "coordinates": [
+      2.208286,
+      48.842497
+    ],
+    "address": "60 rue Gounod, Jardin des Avelines",
+    "postalCode": "92210",
+    "commune": "Saint-Cloud",
+    "department": "92",
+    "website": "https://www.musee-saintcloud.fr/",
+    "phone": "01 46 02 67 18",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "note": "'L'entrée du musée est gratuite'; open Wed-Sat 12:00-18:00 and Sun 14:00-18:00; closed public holidays, late December and August.",
+        "source": {
+          "url": "https://www.musee-saintcloud.fr/",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-des-monnaies-et-medailles",
+    "name": "Musée de la Monnaie de Paris (11 Conti)",
+    "coordinates": [
+      2.338699,
+      48.857003
+    ],
+    "address": "11, quai de Conti, La Monnaie de Paris",
+    "postalCode": "75006",
+    "commune": "Paris",
+    "arrondissement": 6,
+    "department": "75",
+    "website": "https://www.monnaiedeparis.fr/",
+    "phone": "01 40 46 57 57",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "note": "Museum free for everyone on the first Sunday of each month; full price 12 EUR",
+        "source": {
+          "url": "https://www.monnaiedeparis.fr/en/tickets-and-admission-fees",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "note": "Museum free for under-26s (official price list: 'Youth (-26 years): free'; no EU-residency requirement stated)",
+        "source": {
+          "url": "https://www.monnaiedeparis.fr/en/tickets-and-admission-fees",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-des-monuments-francais",
+    "name": "Musée des monuments français",
+    "coordinates": [
+      2.281879,
+      48.862323
+    ],
+    "address": "1 place du Trocadéro, Palais de Chaillot",
+    "postalCode": "75016",
+    "commune": "Paris",
+    "arrondissement": 16,
+    "department": "75",
+    "website": "https://www.citedelarchitecture.fr/fr/article/le-musee-des-monuments-francais",
+    "phone": "01 58 51 52 00",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "note": "Museum and temporary exhibitions free for everyone on the first Sunday of each month",
+        "source": {
+          "url": "https://www.citedelarchitecture.fr/fr/article/billets-et-tarifs",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "note": "Permanent collections (Musée des monuments français, within the Cité de l'architecture) free for under-18s and 18-25 EU residents, per the national-museums scheme",
+        "source": {
+          "url": "https://www.culture.gouv.fr/thematiques/musees/Les-musees-en-France/les-politiques-des-musees-de-france/politique-des-publics/la-gratuite-des-collections-permanentes-pour-les-moins-de-26-ans-dans-les-musees-nationaux",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/cite-de-l-architecture-du-patrimoine-p3506"
+  },
+  {
+    "id": "musee-des-pays-de-seine-et-marne",
+    "name": "Musée des pays de Seine-et-Marne",
+    "coordinates": [
+      3.18169,
+      48.90803
+    ],
+    "address": "17, avenue de la Ferté-sous-Jouarre",
+    "postalCode": "77750",
+    "commune": "Saint-Cyr-sur-Morin",
+    "department": "77",
+    "website": "https://www.musee-seine-et-marne.fr/fr",
+    "phone": "01 60 24 46 00",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "note": "Departmental museum: site lists 'Gratuit : moins de 26 ans' (no EU-residency condition stated), plus jobseekers, minima sociaux, disabled visitors",
+        "source": {
+          "url": "https://www.musee-seine-et-marne.fr/fr/horaires-tarifs",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-des-plans-reliefs",
+    "name": "Musée des Plans-reliefs",
+    "coordinates": [
+      2.312885,
+      48.858219
+    ],
+    "address": "129 rue de Grenelle, Hôtel national des Invalides",
+    "postalCode": "75007",
+    "commune": "Paris",
+    "arrondissement": 7,
+    "department": "75",
+    "website": "https://www.museedesplansreliefs.culture.fr/",
+    "phone": "01 45 51 95 05",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-des-plans-reliefs-hotel-national-des-invalides-p937"
+  },
+  {
+    "id": "musee-des-transports-urbains-interurbains-et-ruraux",
+    "name": "Musée des transports urbains, interurbains et ruraux",
+    "coordinates": [
+      2.603374,
+      48.87682
+    ],
+    "address": "1, rue Gabriel de Mortillet",
+    "postalCode": "77500",
+    "commune": "Chelles",
+    "department": "77",
+    "website": "https://amtuir.org/",
+    "phone": "01 60 20 45 50",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "note": "Museum announces opening for the Journees Europeennes du Patrimoine (19-20 Sep 2026) on its official site",
+        "source": {
+          "url": "https://amtuir.org/",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "museum-night",
+        "evening": true,
+        "note": "Opens 17h-21h for the Nuit Europeenne des Musees per its official site",
+        "source": {
+          "url": "https://amtuir.org/",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-du-chateau",
+    "name": "Musée du château de Dourdan",
+    "coordinates": [
+      2.011803,
+      48.529685
+    ],
+    "address": "Place du général de Gaulle, Château de Dourdan",
+    "postalCode": "91410",
+    "commune": "Dourdan",
+    "department": "91",
+    "website": "https://www.dourdan.fr/a-voir-a-vivre/lechateauetsonmusee/",
+    "phone": "01 64 59 66 83",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "note": "Official tariff page grants free entry 'pour tout public, à l'occasion des Journées Nationales organisées par l'État auxquelles le Musée du château de Dourdan participe'",
+        "source": {
+          "url": "https://chateau.dourdan.fr/preparer-ma-visite/infos-pratiques/",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "museum-night",
+        "note": "Regular participant in the European Night of Museums (own site documents e.g. 2017 and 2020 editions at https://chateau.dourdan.fr/nuit-europeenne-des-musees-2020/); free entry falls under the same state national-days gratuity - check the yearly programme",
+        "source": {
+          "url": "https://chateau.dourdan.fr/preparer-ma-visite/infos-pratiques/",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-du-domaine-royal-de-marly-louveciennes-marly-le-roi",
+    "name": "Musée du domaine royal de Marly Louveciennes / Marly-le-Roi",
+    "coordinates": [
+      2.109482,
+      48.859572
+    ],
+    "address": "1 Grille royale - Parc de Marly",
+    "postalCode": "78160",
+    "commune": "Marly-le-Roi-Louveciennes",
+    "department": "78",
+    "website": "https://www.musee-promenade.fr",
+    "phone": "01 39 69 06 26",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "note": "Entry and activities free all weekend during European Heritage Days",
+        "source": {
+          "url": "https://musee-domaine-marly.fr/journees-europeennes-du-patrimoine-samedi-21-et-dimanche-22-septembre-2024/",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-du-jouet-pierre-pinel",
+    "name": "Musée du jouet Pierre Pinel",
+    "coordinates": [
+      2.037892,
+      48.928429
+    ],
+    "address": "1 enclos de l'Abbaye, Prieuré royal Saint-Louis",
+    "postalCode": "78300",
+    "commune": "Poissy",
+    "department": "78",
+    "website": "https://www.ville-poissy.fr/index.php/sport-culture/equipements-culturels/musee-du-jouet.html",
+    "phone": "01 39 22 56 01",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "note": "Free for everyone on the first Sunday of each month",
+        "source": {
+          "url": "https://musees.ville-poissy.fr/files/220318-communique-presse-maison-fer-expo-bestiaux-la-foire_b32f6d00edc3ea8872a1b86298730eb6.pdf",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
   },
   {
     "id": "musee-du-louvre",
@@ -1686,7 +3060,7 @@
       48.86079459806906
     ],
     "address": "Musée du Louvre, 75058 Paris CEDEX 01",
-    "postalCode": "75058",
+    "postalCode": "75001",
     "commune": "Paris",
     "department": "75",
     "website": "https://www.louvre.fr/",
@@ -1694,59 +3068,1035 @@
     "tags": [
       "museum"
     ],
-    "freeAccess": []
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "friday",
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          9,
+          10,
+          11,
+          12
+        ],
+        "evening": true,
+        "note": "Free for all from 6pm to 9pm closing on the first Friday of the month, except July and August; book a time slot on ticket.louvre.fr",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "annual-date",
+        "date": "07-14",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-du-louvre-p3489",
+    "arrondissement": 1
   },
   {
-    "id": "museum-national-d-histoire-naturelle",
-    "name": "Muséum national d'histoire naturelle",
+    "id": "musee-du-moyen-age-thermes-et-hotel-de-cluny",
+    "name": "Musée de Cluny - musée national du Moyen Âge",
     "coordinates": [
-      2.359933,
-      48.842168
+      2.344553,
+      48.850437
     ],
-    "address": "2, rue Buffon, Jardin des Plantes",
+    "address": "6, place Paul Painlevé, Hôtel de Cluny",
     "postalCode": "75005",
     "commune": "Paris",
     "arrondissement": 5,
     "department": "75",
-    "website": "https://www.mnhn.fr/fr/collections/ensembles-collections/vertebres/anatomie-comparee",
-    "phone": "01 40 79 38 90",
+    "website": "https://www.musee-moyenage.fr/",
+    "phone": "01 53 73 78 00",
     "tags": [
       "museum"
     ],
-    "freeAccess": []
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "note": "Free for everyone on the first Sunday of each month",
+        "source": {
+          "url": "https://www.musee-moyenage.fr/visiter/informations-pratiques/tarifs.html",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "note": "Permanent collections (outside temporary exhibitions) free for under-26 EU residents; full price 12 EUR",
+        "source": {
+          "url": "https://www.musee-moyenage.fr/visiter/informations-pratiques/tarifs.html",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-cluny-musee-national-du-moyen-age-p3555"
   },
   {
-    "id": "musee-hebert",
-    "name": "Musée Hébert",
+    "id": "musee-du-parfum-fragonard",
+    "name": "Musée du Parfum Fragonard",
     "coordinates": [
-      2.322709,
-      48.847429
+      2.33022,
+      48.87153
     ],
-    "address": "85, rue du Cherche-Midi, Hôtel de Montmorency-Bours",
-    "postalCode": "75006",
+    "address": "9 rue Scribe",
+    "postalCode": "75009",
     "commune": "Paris",
-    "arrondissement": 6,
+    "arrondissement": 9,
     "department": "75",
-    "phone": "01 42 22 23 82",
+    "website": "https://musee-parfum-paris.fragonard.com/",
     "tags": [
-      "museum"
+      "museum",
+      "history"
     ],
-    "freeAccess": []
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-du-parfum-fragonard-p3626"
   },
   {
-    "id": "musee-d-orsay",
-    "name": "Musée d'Orsay",
+    "id": "musee-du-quai-branly-jacques-chirac",
+    "name": "Musée du Quai Branly - Jacques Chirac",
     "coordinates": [
-      2.323672,
-      48.859157
+      2.29771,
+      48.861511
     ],
-    "address": "1, rue de Bellechasse",
+    "address": "37 quai Branly",
     "postalCode": "75007",
     "commune": "Paris",
     "arrondissement": 7,
     "department": "75",
-    "website": "https://www.musee-orsay.fr/",
-    "phone": "01 40 49 48 14",
+    "website": "https://www.quaibranly.fr/fr/",
+    "phone": "01 56 61 70 00",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-du-quai-branly-jacques-chirac-p3480"
+  },
+  {
+    "id": "musee-du-service-de-sante-des-armees-du-val-de-grace",
+    "name": "Musée du service de santé des armées du Val-de-Grâce",
+    "coordinates": [
+      2.341091,
+      48.840814
+    ],
+    "address": "1, place Alphonse Laveran",
+    "postalCode": "75005",
+    "commune": "Paris",
+    "arrondissement": 5,
+    "department": "75",
+    "website": "https://www.ecole-valdegrace.sante.defense.gouv.fr/bibliotheque-musee/musee-du-service-de-sante-des-armees",
+    "phone": "01 40 51 51 92",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": []
+  },
+  {
+    "id": "musee-dunoyer-de-segonzac",
+    "name": "Musée Dunoyer de Segonzac",
+    "coordinates": [
+      2.530019,
+      48.688925
+    ],
+    "address": "5, place des Droits de l'Homme",
+    "postalCode": "91800",
+    "commune": "Boussy-Saint-Antoine",
+    "department": "91",
+    "website": "https://www.ville-boussy.fr/votre-mairie/la-culture.html",
+    "phone": "01 69 00 49 23",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": []
+  },
+  {
+    "id": "musee-emile-jean",
+    "name": "Musée Emile Jean",
+    "coordinates": [
+      2.543144,
+      48.826701
+    ],
+    "address": "31, rue Louis-Lenoir",
+    "postalCode": "94350",
+    "commune": "Villiers-sur-Marne",
+    "department": "94",
+    "website": "https://www.villiers94.fr/culture-et-sports/patrimoine/musee-emile-jean/",
+    "phone": "01 49 30 46 96",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "note": "Accès gratuit. Small local-history museum open limited afternoon hours (Wednesday and weekends); programme on musee-emile-jean.fr.",
+        "source": {
+          "url": "https://www.villiers94.fr/sorties-et-activites/culture/musee-emile-jean/",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-eugene-delacroix",
+    "name": "Musée Eugène Delacroix",
+    "coordinates": [
+      2.335679,
+      48.854434
+    ],
+    "address": "6 rue de Fürstenberg",
+    "postalCode": "75006",
+    "commune": "Paris",
+    "arrondissement": 6,
+    "department": "75",
+    "website": "https://www.musee-delacroix.fr/fr/",
+    "phone": "01 44 41 86 50",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "annual-date",
+        "date": "07-14",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-eugene-delacroix-p3507"
+  },
+  {
+    "id": "musee-fragonard",
+    "name": "Musée Fragonard",
+    "coordinates": [
+      2.4233629652344084,
+      48.81278282657873
+    ],
+    "address": "7 avenue du Général de Gaulle, Ecole Nationale Vétérinaire d'Alfort, Maisons-Alfort cedex",
+    "postalCode": "94704",
+    "commune": "Maisons-Alfort",
+    "department": "94",
+    "website": "https://www.vet-alfort.fr/domaine-d-alfort/musee-fragonard/infos-pratiques",
+    "phone": "01 43 96 71 72",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "note": "Free for EU residents under 26 (individual visits only). Museum closes annually 31 July - 1 September.",
+        "source": {
+          "url": "https://www.vet-alfort.fr/domaine-d-alfort/musee-fragonard/visiter-le-musee/horaires-tarifs-musee-fragonard",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-fragonard-ecole-nationale-veterinaire-d-alfort-p1118"
+  },
+  {
+    "id": "musee-francais-de-la-carte-a-jouer-et-galerie-d-histoire-de-la-ville",
+    "name": "Musée français de la carte à jouer et galerie d'histoire de la ville",
+    "coordinates": [
+      2.273453,
+      48.822771
+    ],
+    "address": "16, rue Auguste Gervais",
+    "postalCode": "92130",
+    "commune": "Issy-les-Moulineaux",
+    "department": "92",
+    "website": "https://www.museecarteajouer.com/",
+    "phone": "01 41 23 83 60",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-francais-de-la-carte-a-jouer-et-galerie-d-histoire-de-la-ville-p1045"
+  },
+  {
+    "id": "musee-gustave-moreau",
+    "name": "Musée Gustave Moreau",
+    "coordinates": [
+      2.334383,
+      48.877878
+    ],
+    "address": "14, rue de la Rochefoucauld",
+    "postalCode": "75009",
+    "commune": "Paris",
+    "arrondissement": 9,
+    "department": "75",
+    "website": "https://musee-moreau.fr/",
+    "phone": "01 48 74 38 50",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-gustave-moreau-p1087"
+  },
+  {
+    "id": "musee-henri-chapu",
+    "name": "Musée Henri Chapu",
+    "coordinates": [
+      2.635235,
+      48.534859
+    ],
+    "address": "937, rue Henri Chapu",
+    "postalCode": "77350",
+    "commune": "Le Mée-sur-Seine",
+    "department": "77",
+    "website": "https://le-mee-sur-seine.fr/le-mee-village/une-terre-dartistes/",
+    "phone": "01 64 79 77 72",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "note": "Free admission per the town website ('Ouvert sur rendez-vous pour les groupes, les scolaires, et lors des manifestations nationales (Gratuit)'); very limited opening - by appointment and during national event days; the agglomeration directory also lists Saturday 15h-17h30 for individuals",
+        "source": {
+          "url": "https://www.lemeesurseine.fr/les-loisirs/culture/",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-jardin-paul-landowski",
+    "name": "Musée Paul Landowski",
+    "coordinates": [
+      2.246847,
+      48.844261
+    ],
+    "address": "14, rue Max-Blondat",
+    "postalCode": "92100",
+    "commune": "Boulogne-Billancourt",
+    "department": "92",
+    "website": "https://www.boulognebillancourt.com/loisirs/culture/les-musees/musee-paul-landowski",
+    "phone": "01 55 1 8 46 42",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "note": "Free for everyone on the first Sunday of the month; otherwise 8 EUR full price.",
+        "source": {
+          "url": "https://musees.boulognebillancourt.com/fr/horaires-tarifs-acces",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "note": "City policy: free for all visitors under 26 with ID (not limited to EU residents).",
+        "source": {
+          "url": "https://musees.boulognebillancourt.com/files/musees-conditions-tarifs-rduits-et-gratuit_3555b020f773e38f658cf6194f309442.pdf",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-jean-jacques-henner",
+    "name": "Musée Jean-Jacques Henner",
+    "coordinates": [
+      2.307689,
+      48.883045
+    ],
+    "address": "43, avenue de Villiers",
+    "postalCode": "75017",
+    "commune": "Paris",
+    "arrondissement": 17,
+    "department": "75",
+    "website": "https://www.musee-henner.fr/",
+    "phone": "01 47 63 42 73",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-jean-jacques-henner-p1084"
+  },
+  {
+    "id": "musee-jean-jacques-rousseau",
+    "name": "Musée Jean-Jacques Rousseau",
+    "coordinates": [
+      2.320916,
+      48.986892
+    ],
+    "address": "5, rue Jean-Jacques Rousseau, 5, rue Jean-Jacques Rousseau",
+    "postalCode": "95160",
+    "commune": "Montmorency",
+    "department": "95",
+    "website": "https://museejjrousseau.montmorency.fr/fr",
+    "phone": "01 39 64 80 13",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "note": "The museum features in the city's annual European Heritage Days programme (guided visits, family workshops, exhibitions)",
+        "source": {
+          "url": "https://www.ville-montmorency.fr/ma-ville/jep-montmorency-un-patrimoine-monumental",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "museum-night",
+        "evening": true,
+        "note": "Regular participant in the European Night of Museums (city site publishes the museum's Nuit des musées programme, e.g. 2025 edition); check the yearly programme",
+        "source": {
+          "url": "https://www.ville-montmorency.fr/media/5941",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-lambinet",
+    "name": "Musée Lambinet",
+    "coordinates": [
+      2.130624,
+      48.808966
+    ],
+    "address": "54, boulevard de la Reine",
+    "postalCode": "78000",
+    "commune": "Versailles",
+    "department": "78",
+    "website": "https://www.versailles.fr/museelambinet/",
+    "phone": "01 39 50 30 32",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": -1,
+        "weekday": "sunday",
+        "note": "Free for everyone on the LAST Sunday of each month ('Dernier dimanche du mois : gratuite pour tout le monde')",
+        "source": {
+          "url": "https://www.versailles.fr/museelambinet/",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "note": "Free for under-26 EU residents",
+        "source": {
+          "url": "https://www.versailles.fr/museelambinet/",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-librairie-du-compagnonnage",
+    "name": "Musée-librairie du Compagnonnage",
+    "coordinates": [
+      2.33501,
+      48.85223
+    ],
+    "address": "10 rue Mabillon",
+    "postalCode": "75006",
+    "commune": "Paris",
+    "arrondissement": 6,
+    "department": "75",
+    "website": "https://paris.compagnonsdutourdefrance.org/",
+    "tags": [
+      "museum",
+      "history"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-librairie-du-compagnonnage-p971"
+  },
+  {
+    "id": "musee-municipal",
+    "name": "Musée municipal de Moret-sur-Loing",
+    "coordinates": [
+      2.815046,
+      48.373638
+    ],
+    "address": "place de Samois",
+    "postalCode": "77250",
+    "commune": "Moret-Loing-et-Orvanne",
+    "department": "77",
+    "phone": "01 60 70 32 30",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "note": "Free admission; open Fridays, weekends and public holidays only, from late April to end of November",
+        "source": {
+          "url": "https://www.tourisme-seine-et-marne.fr/en/explore-the-area/727479-town-museum-of-moret-sur-loing/",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-municipal-91150",
+    "name": "Musée intercommunal d'Étampes",
+    "coordinates": [
+      2.161909,
+      48.434307
+    ],
+    "address": "Hôtel de ville, Hôtel de ville",
+    "postalCode": "91150",
+    "commune": "Etampes",
+    "department": "91",
+    "website": "https://www.mairie-etampes.fr/le-musee/",
+    "phone": "01 69 92 69 12",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": []
+  },
+  {
+    "id": "musee-municipal-d-art-et-d-histoire",
+    "name": "Musée municipal d'art et d'histoire de Colombes",
+    "coordinates": [
+      2.252039,
+      48.923321
+    ],
+    "address": "2, rue Gabriel Péri",
+    "postalCode": "92700",
+    "commune": "Colombes",
+    "department": "92",
+    "website": "https://www.colombes.fr/culture/musee-municipal-d-art-et-d-histoire-983.html",
+    "phone": "01 47 86 38 85",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "note": "'Le musée est accessible à tous, en entrée libre'; open Wed-Fri 13:00-18:00, Sat 14:00-18:00 and the first two Sundays of the month 14:00-18:00 (outside school and public holidays).",
+        "source": {
+          "url": "https://www.colombes.fr/culture/musee-municipal-d-art-et-d-histoire-983.html",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-municipal-ducastel-vera-de-saint-germain-en-laye",
+    "name": "Musée municipal Ducastel-Vera de Saint-Germain-en-Laye",
+    "coordinates": [
+      2.127681,
+      48.794403
+    ],
+    "address": "38 rue au Pain",
+    "postalCode": "78000",
+    "commune": "Saint-Germain-en-Laye",
+    "department": "78",
+    "website": "https://www.saintgermainenlaye.fr/736/musee-municipal.htm?L=ppapagepapage=",
+    "phone": "0134 51 05 12",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "note": "Permanent Vera collections at the Espace Paul-et-Andre-Vera free for everyone ('Gratuit pour tous'); the combined ticket for the Maison natale Claude-Debussy and temporary exhibitions is paid (6 EUR)",
+        "source": {
+          "url": "https://culture.saintgermainenlaye.fr/1553/musee-municipal-ducastel-vera/informations-pratiques.htm",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "note": "Combined ticket (Maison natale Claude-Debussy + temporary exhibitions) free for everyone on the first Sunday of each month",
+        "source": {
+          "url": "https://culture.saintgermainenlaye.fr/1553/musee-municipal-ducastel-vera/informations-pratiques.htm",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-municipal-robert-dubois-corneau",
+    "name": "Musée municipal Robert Dubois-Corneau",
+    "coordinates": [
+      2.500293,
+      48.700308
+    ],
+    "address": "16, rue du Réveillon",
+    "postalCode": "91800",
+    "commune": "Brunoy",
+    "department": "91",
+    "website": "https://www.brunoy.fr/vos-demarches-services/vie-culturelle-et-animations/musee/",
+    "phone": "01 60 46 33 60",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "note": "Free entry ('Entrée libre'); open Wednesday-Saturday afternoons, closed public holidays and mid-July to mid-August; some workshops and guided activities are paid",
+        "source": {
+          "url": "https://www.brunoy.fr/vos-demarches-services/vie-culturelle-et-animations/musee/",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-national-de-l-histoire-et-des-cultures-de-l-immigration",
+    "name": "Musée national de l'histoire de l'immigration",
+    "coordinates": [
+      2.390394,
+      48.836753
+    ],
+    "address": "",
+    "postalCode": "75012",
+    "commune": "Paris",
+    "arrondissement": 12,
+    "department": "75",
+    "website": "https://www.histoire-immigration.fr/",
+    "phone": "01 53 59 58 60",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "note": "Museum and exhibitions free for everyone on the first Sunday of each month ('Le 1er dimanche de chaque mois, le Musée et ses expositions sont gratuits pour tous')",
+        "source": {
+          "url": "https://www.palais-portedoree.fr/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "note": "Free for all under-26s (museum wording 'Moins de 26 ans'; no EU-residency requirement stated)",
+        "source": {
+          "url": "https://www.palais-portedoree.fr/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-de-l-histoire-de-l-immigration-p3541"
+  },
+  {
+    "id": "musee-national-de-la-legion-d-honneur-et-des-ordres-de-chevalerie",
+    "name": "Musée national de la Légion d'honneur et des ordres de chevalerie",
+    "coordinates": [
+      2.324768,
+      48.860294
+    ],
+    "address": "2, rue de la Légion d'honneur",
+    "postalCode": "75007",
+    "commune": "Paris",
+    "arrondissement": 7,
+    "department": "75",
+    "website": "https://www.legiondhonneur.fr/fr",
+    "phone": "01 40 62 84 25",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-la-legion-d-honneur-et-des-ordres-de-chevalerie-p912"
+  },
+  {
+    "id": "musee-national-de-la-marine",
+    "name": "Musée national de la marine",
+    "coordinates": [
+      2.293754,
+      48.86425
+    ],
+    "address": "17, place du Trocadéro, Palais de Chaillot",
+    "postalCode": "75116",
+    "commune": "Paris",
+    "arrondissement": 16,
+    "department": "75",
+    "website": "https://www.musee-marine.fr/",
+    "phone": "01 53 65 69 69",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-de-la-marine-p3482"
+  },
+  {
+    "id": "musee-national-des-chateaux-de-malmaison-et-de-bois-preau",
+    "name": "Musée national des châteaux de Malmaison et de Bois Préau",
+    "coordinates": [
+      2.1689,
+      48.873334
+    ],
+    "address": "Avenue du chateau de Malmaison, Château",
+    "postalCode": "92500",
+    "commune": "Rueil-Malmaison",
+    "department": "92",
+    "website": "https://musees-nationaux-malmaison.fr/chateau-malmaison/",
+    "phone": "01 41 29 05 55",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-des-chateaux-de-malmaison-bois-preau-p972"
+  },
+  {
+    "id": "musee-national-des-chateaux-de-versailles-et-de-trianon",
+    "name": "Musée national des châteaux de Versailles et de Trianon",
+    "coordinates": [
+      2.134053,
+      48.804537
+    ],
+    "address": "Château de Versailles",
+    "postalCode": "78000",
+    "commune": "Versailles",
+    "department": "78",
+    "website": "https://www.chateauversailles.fr/",
+    "phone": "01 30 83 78 00",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "reservationRequired": true,
+        "reservationUrl": "https://billetterie.chateauversailles.fr/",
+        "note": "Whole estate (Palace, Trianon, Marie-Antoinette's estate) free on first Sundays November-March; timed reservation required for the Palace",
+        "source": {
+          "url": "https://www.chateauversailles.fr/resources/vel/gratuit.html",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "note": "Free for under-18s (all nationalities) and 18-25-year-old EU residents; includes permanent collections, Trianon and temporary exhibitions",
+        "source": {
+          "url": "https://www.chateauversailles.fr/resources/vel/gratuit.html",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/chateau-de-versailles-p3560"
+  },
+  {
+    "id": "musee-national-du-chateau-de-fontainebleau",
+    "name": "Musée national du château de Fontainebleau",
+    "coordinates": [
+      2.696858,
+      48.402815
+    ],
+    "address": "Château de Fontainebleau - Place du général de Gaulle, Château de Fontainebleau",
+    "postalCode": "77300",
+    "commune": "Fontainebleau",
+    "department": "77",
+    "website": "https://www.chateaudefontainebleau.fr/",
+    "phone": "01 60 71 50 70",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/chateau-de-fontainebleau-p3533"
+  },
+  {
+    "id": "musee-nissim-de-camondo-union-centrale-des-arts-decoratifs",
+    "name": "Musée Nissim de Camondo (Union centrale des arts décoratifs)",
+    "coordinates": [
+      2.312855,
+      48.878849
+    ],
+    "address": "63, rue de Monceau, Hôtel",
+    "postalCode": "75008",
+    "commune": "Paris",
+    "arrondissement": 8,
+    "department": "75",
+    "website": "https://madparis.fr/francais/musees/musee-nissim-de-camondo/",
+    "phone": "01 53 89 06 50 ou 06 40 (boîte vocale)",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "note": "MAD gratuity explicitly covers the Musée Nissim de Camondo: free for under-26s (18-25 within available capacity; no EU-residency requirement stated); online booking recommended",
+        "source": {
+          "url": "https://madparis.fr/Tarifs-et-gratuites",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-picasso",
+    "name": "Musée Picasso",
+    "coordinates": [
+      2.362644,
+      48.8597
+    ],
+    "address": "5, rue Thorigny, Hôtel Salé",
+    "postalCode": "75003",
+    "commune": "Paris",
+    "arrondissement": 3,
+    "department": "75",
+    "website": "https://www.museepicassoparis.fr/",
+    "phone": "01 42 71 25 21",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "note": "Free for everyone on the first Sunday of each month; entry without reservation (free tickets cannot be booked in advance)",
+        "source": {
+          "url": "https://www.museepicassoparis.fr/fr/tarifs",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "note": "Free for under-18s (all nationalities) and 18-25 EU residents/nationals with ID",
+        "source": {
+          "url": "https://www.museepicassoparis.fr/fr/tarifs",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-picasso-paris-p3516"
+  },
+  {
+    "id": "musee-pissarro",
+    "name": "Musée d'Art et d'Histoire Pissarro-Pontoise (MAHPP)",
+    "coordinates": [
+      2.099887,
+      49.048396
+    ],
+    "address": "17, rue du Château, 17, rue du Château",
+    "postalCode": "95300",
+    "commune": "Pontoise",
+    "department": "95",
+    "website": "https://www.ville-pontoise.fr/equipement/musee-camille-pissarro",
+    "phone": "01 30 38 02 40",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "note": "Official city page: 'Gratuit moins de 18 ans et 1er dimanche du mois' - free for everyone the 1st Sunday of the month; also free for under-18s; park free Wed-Sun",
+        "source": {
+          "url": "https://ville-pontoise.fr/le-musee-dart-et-dhistoire-pissarro-pontoise-mahpp",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
+  },
+  {
+    "id": "musee-rambolitrain",
+    "name": "Musée Rambolitrain",
+    "coordinates": [
+      1.823892,
+      48.646025
+    ],
+    "address": "4, place Jeanne d'Arc, 4, place Jeanne d'Arc",
+    "postalCode": "78120",
+    "commune": "Rambouillet",
+    "department": "78",
+    "website": "https://www.rambolitrain.com/",
+    "phone": "01 75 03 44 60",
     "tags": [
       "museum"
     ],
@@ -1769,661 +4119,449 @@
     "tags": [
       "museum"
     ],
-    "freeAccess": []
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "note": "Free for everyone on the first Sunday of the month from October to March (Paris and Meudon sites); no advance booking required",
+        "source": {
+          "url": "https://www.musee-rodin.fr/en/plan-your-visit/plan-your-visit-musee-rodin",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "note": "Free for under-18s and 18-25-year-old EU residents with ID showing age and nationality/residence",
+        "source": {
+          "url": "https://www.musee-rodin.fr/en/plan-your-visit/plan-your-visit/are-you-entitled-free-admission",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-rodin-paris-p3529"
   },
   {
-    "id": "chateau-musee-de-nemours",
-    "name": "Château musée de Nemours",
+    "id": "musee-rodin-meudon",
+    "name": "Musée Rodin Meudon",
     "coordinates": [
-      2.696157,
-      48.265518
+      2.25276,
+      48.8143
     ],
-    "address": "Rue Gautier 1er - Cour du Château, Château",
-    "postalCode": "77140",
-    "commune": "Nemours",
-    "department": "77",
-    "website": "https://www.nemours.fr/chateau-musee/",
-    "phone": "01 64 28 27 42",
+    "address": "Villa des Brillants, 19 avenue Auguste Rodin",
+    "postalCode": "92190",
+    "commune": "Meudon",
+    "department": "92",
+    "website": "https://www.meudon.musee-rodin.fr",
+    "tags": [
+      "museum",
+      "art",
+      "house"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "note": "Admission free for everyone, but the Meudon site is only open on weekends (Sat-Sun 10:00-18:00)",
+        "source": {
+          "url": "https://www.meudon.musee-rodin.fr/en",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-rodin-meudon-p1559"
+  },
+  {
+    "id": "musee-roybet-fould",
+    "name": "Musée Roybet-Fould",
+    "coordinates": [
+      2.271279,
+      48.900998
+    ],
+    "address": "Parc de Bécon, 178 Boulevard Saint Denis",
+    "postalCode": "92400",
+    "commune": "Courbevoie",
+    "department": "92",
+    "website": "https://www.museeroybetfould.fr/",
+    "phone": "01 71 05 77 92",
     "tags": [
       "museum"
     ],
-    "freeAccess": []
+    "freeAccess": [
+      {
+        "kind": "always",
+        "note": "'Entrée gratuite' (free admission, self-guided or guided); open Wed-Sun 10:30-18:00 in the Pavillon de la Suède et de la Norvège, parc de Bécon.",
+        "source": {
+          "url": "https://www.ville-courbevoie.fr/2788/culture-loisirs/service-patrimoine-et-musee/pavillon-de-la-suede-et-de-la-norvege-musee-roybet-fould.htm",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
   },
   {
-    "id": "musee-departemental-stephane-mallarme",
-    "name": "Musée départemental Stéphane Mallarmé",
+    "id": "musee-victor-aubert",
+    "name": "Musée Victor Aubert",
     "coordinates": [
-      2.746605,
-      48.430323
+      1.847178,
+      48.908246
     ],
-    "address": "4, quai Stéphane-Mallarmé, Pont de Valvins",
-    "postalCode": "77870",
-    "commune": "Vulaines-sur-Seine",
-    "department": "77",
-    "website": "https://www.musee-mallarme.fr/fr",
-    "phone": "01 64 23 73 27",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-d-art-et-d-histoire-paul-eluard",
-    "name": "Musée d'art et d'histoire Paul Eluard",
-    "coordinates": [
-      2.355796,
-      48.932336
-    ],
-    "address": "22 bis, rue Gabriel Peri",
-    "postalCode": "93200",
-    "commune": "Saint-Denis",
-    "department": "93",
-    "website": "https://musee-saint-denis.com/",
-    "phone": "01 42 43 05 10",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-du-vieil-argenteuil",
-    "name": "Musée du vieil Argenteuil",
-    "coordinates": [
-      2.249331,
-      48.946909
-    ],
-    "address": "12-14 Boulevard Léon Feix, Hôtel de Ville",
-    "postalCode": "95100",
-    "commune": "Argenteuil",
-    "department": "95",
-    "phone": "01 34 23 42 11",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "archea-archeologie-en-pays-de-france",
-    "name": "ARCHÉA, Archéologie en Pays de France",
-    "coordinates": [
-      2.50695,
-      49.041117
-    ],
-    "address": "56 rue de Paris",
-    "postalCode": "95380",
-    "commune": "Louvres",
-    "department": "95",
-    "website": "https://archea.roissypaysdefrance.fr/",
-    "phone": "01 34 09 01 02",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-pissarro",
-    "name": "Musée Pissarro",
-    "coordinates": [
-      2.099887,
-      49.048396
-    ],
-    "address": "17, rue du Château, 17, rue du Château",
-    "postalCode": "95300",
-    "commune": "Pontoise",
-    "department": "95",
-    "website": "https://www.ville-pontoise.fr/equipement/musee-camille-pissarro",
-    "phone": "01 30 38 02 40",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-tavet-delacour",
-    "name": "Musée Tavet-Delacour",
-    "coordinates": [
-      2.099776,
-      49.050929
-    ],
-    "address": "4, rue Lemercier",
-    "postalCode": "95300",
-    "commune": "Pontoise",
-    "department": "95",
-    "website": "https://www.ville-pontoise.fr/equipement/musee-tavet-delacour#overlay-context=search/node/tavet",
-    "phone": "01 30 38 02 40",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-adrien-mentienne",
-    "name": "Musée Adrien Mentienne",
-    "coordinates": [
-      2.519827,
-      48.835224
-    ],
-    "address": "1, grande rue Charles de Gaulle, Hôtel de Ville",
-    "postalCode": "94360",
-    "commune": "Bry-sur-Marne",
-    "department": "94",
-    "website": "https://museedebry.fr/#/page-musee/fr",
-    "phone": "01 45 16 68 00",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "ecomusee-94260",
-    "name": "Écomusée",
-    "coordinates": [
-      2.326389,
-      48.75525
-    ],
-    "address": "41, rue Maurice Tenine, Ferme de Cottinville",
-    "postalCode": "94260",
-    "commune": "Fresnes",
-    "department": "94",
-    "website": "https://www.fresnes94.fr/a-votre-service/culture-sports-et-loisirs/equipements-culturels/ecomusee-du-val-de-bievre/",
-    "phone": "01 41 24 32 24",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee",
-    "name": "Musée",
-    "coordinates": [
-      2.484292,
-      48.84026
-    ],
-    "address": "36, boulevard Gallieni, Bâtiment industriel",
-    "postalCode": "94130",
-    "commune": "Nogent-sur-Marne",
-    "department": "94",
-    "website": "https://museenogentsurmarne.net/",
-    "phone": "01 48 75 51 25",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-de-saint-maur-villa-medicis",
-    "name": "Musée de Saint-Maur - Villa Médicis",
-    "coordinates": [
-      2.5149018357668425,
-      48.79310937814309
-    ],
-    "address": "5, rue Saint-Hilaire - 92, avenue du Bac - Rue de la Poste, Carré Médicis",
-    "postalCode": "94210",
-    "commune": "Saint-Maur-des-Fossés",
-    "department": "94",
-    "website": "https://www.saint-maur.com/?id=127",
-    "phone": "01 48 86 33 28",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-emile-jean",
-    "name": "Musée Emile Jean",
-    "coordinates": [
-      2.543144,
-      48.826701
-    ],
-    "address": "31, rue Louis-Lenoir",
-    "postalCode": "94350",
-    "commune": "Villiers-sur-Marne",
-    "department": "94",
-    "website": "https://www.villiers94.fr/culture-et-sports/patrimoine/musee-emile-jean/",
-    "phone": "01 49 30 46 96",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-d-archeologie-nationale-des-origines-a-l-an-mille-chateau-de-saint-germain-en-laye",
-    "name": "Musée d'archéologie nationale (des origines à l'an mille) - château de Saint-Germain-en-Laye",
-    "coordinates": [
-      2.094936,
-      48.897879
-    ],
-    "address": "Place Charles de Gaulle, Château",
-    "postalCode": "78100",
-    "commune": "Saint-Germain-en-Laye",
+    "address": "24, rue Quincampoix",
+    "postalCode": "78580",
+    "commune": "Maule",
     "department": "78",
-    "website": "https://musee-archeologienationale.fr/",
-    "phone": "01 39 10 13 00",
+    "website": "https://museeaubertmaule.free.fr/",
+    "phone": "01 30 90 61 49",
     "tags": [
       "museum"
     ],
-    "freeAccess": []
+    "freeAccess": [
+      {
+        "kind": "always",
+        "note": "Free for everyone; open Wednesday afternoons and the first Saturday and Sunday of each month, other times by appointment",
+        "source": {
+          "url": "https://www.maule.fr/culture-loisirs/equipements-culturels/musee-victor-aubert",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ]
   },
   {
-    "id": "musee-jardin-paul-landowski",
-    "name": "Musée-jardin Paul Landowski",
+    "id": "musee-yves-saint-laurent-paris",
+    "name": "Musée Yves Saint Laurent Paris",
     "coordinates": [
-      2.246847,
-      48.844261
+      2.280339,
+      48.873694
     ],
-    "address": "14, rue Max-Blondat",
-    "postalCode": "92100",
-    "commune": "Boulogne-Billancourt",
-    "department": "92",
-    "website": "https://www.boulognebillancourt.com/loisirs/culture/les-musees/musee-paul-landowski",
-    "phone": "01 55 1 8 46 42",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-francais-de-la-carte-a-jouer-et-galerie-d-histoire-de-la-ville",
-    "name": "Musée français de la carte à jouer et galerie d'histoire de la ville",
-    "coordinates": [
-      2.273453,
-      48.822771
-    ],
-    "address": "16, rue Auguste Gervais",
-    "postalCode": "92130",
-    "commune": "Issy-les-Moulineaux",
-    "department": "92",
-    "website": "https://www.museecarteajouer.com/",
-    "phone": "01 41 23 83 60",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "mus-musee-d-histoire-urbaine-et-sociale-de-suresnes",
-    "name": "MUS - musée d'histoire urbaine et sociale de Suresnes",
-    "coordinates": [
-      2.221944,
-      48.868303
-    ],
-    "address": "1 place de la gare de Suresnes-Longchamp",
-    "postalCode": "92150",
-    "commune": "Suresnes",
-    "department": "92",
-    "website": "https://webmuseo.com/ws/musee-suresnes/app/report/index.html",
-    "phone": "01 41 18 37 37",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "maison-de-victor-hugo",
-    "name": "Maison de Victor Hugo",
-    "coordinates": [
-      2.366232,
-      48.854808
-    ],
-    "address": "6 place des Vosges, Hôtel de Rohan-Guéménée",
-    "postalCode": "75004",
-    "commune": "Paris",
-    "arrondissement": 4,
-    "department": "75",
-    "website": "https://www.maisonsvictorhugo.paris.fr/",
-    "phone": "01 42 72 10 16",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-national-de-l-histoire-et-des-cultures-de-l-immigration",
-    "name": "Musée national de l'histoire et des cultures de l'immigration",
-    "coordinates": [
-      2.390394,
-      48.836753
-    ],
-    "address": "",
-    "postalCode": "75012",
-    "commune": "Paris",
-    "arrondissement": 12,
-    "department": "75",
-    "website": "https://www.histoire-immigration.fr/",
-    "phone": "01 53 59 58 60",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-national-de-la-marine",
-    "name": "Musée national de la marine",
-    "coordinates": [
-      2.293754,
-      48.86425
-    ],
-    "address": "17, place du Trocadéro, Palais de Chaillot",
+    "address": "5 avenue Marceau",
     "postalCode": "75116",
     "commune": "Paris",
     "arrondissement": 16,
     "department": "75",
-    "website": "https://www.musee-marine.fr/",
-    "phone": "01 53 65 69 69",
+    "website": "https://museeyslparis.com/",
     "tags": [
       "museum"
     ],
-    "freeAccess": []
+    "freeAccess": [],
+    "note": "Temporarily closed for renovation; reopening announced for autumn 2026."
   },
   {
-    "id": "musee-de-l-orangerie-des-tuileries",
-    "name": "Musée de l'Orangerie des Tuileries",
+    "id": "musee-zadkine",
+    "name": "Musée Zadkine",
     "coordinates": [
-      2.326622,
-      48.868053
+      2.333457,
+      48.842793
     ],
-    "address": "Jardin des Tuileries",
-    "postalCode": "75001",
-    "commune": "Paris",
-    "arrondissement": 1,
-    "department": "75",
-    "website": "https://www.musee-orangerie.fr/",
-    "phone": "01 40 20 67 71",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-des-arts-et-metiers",
-    "name": "Musée des arts et métiers",
-    "coordinates": [
-      2.357046,
-      48.865357
-    ],
-    "address": "60, rue Réaumur, Conservatoire des arts et métiers",
-    "postalCode": "75003",
-    "commune": "Paris",
-    "arrondissement": 3,
-    "department": "75",
-    "website": "https://www.arts-et-metiers.net/",
-    "phone": "01 53 01 82 20",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-des-monnaies-et-medailles",
-    "name": "Musée des monnaies et médailles",
-    "coordinates": [
-      2.338699,
-      48.857003
-    ],
-    "address": "11, quai de Conti, La Monnaie de Paris",
+    "address": "100 bis rue d'Assas",
     "postalCode": "75006",
     "commune": "Paris",
     "arrondissement": 6,
     "department": "75",
-    "website": "https://www.monnaiedeparis.fr/",
-    "phone": "01 40 46 57 57",
+    "website": "https://www.zadkine.paris.fr/",
+    "phone": "01 43 26 91 90",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "note": "Permanent collections only partially on view during temporary exhibitions",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-zadkine-p3502"
+  },
+  {
+    "id": "musee-zola-dreyfus",
+    "name": "Musée Zola-Dreyfus",
+    "coordinates": [
+      1.995035,
+      48.952745
+    ],
+    "address": "26 Rue Pasteur",
+    "postalCode": "78670",
+    "commune": "Médan",
+    "department": "78",
+    "website": "https://www.maisonzola-museedreyfus.com/",
     "tags": [
       "museum"
     ],
     "freeAccess": []
   },
   {
-    "id": "musee-nissim-de-camondo-union-centrale-des-arts-decoratifs",
-    "name": "Musée Nissim de Camondo (Union centrale des arts décoratifs)",
+    "id": "museum-national-d-histoire-naturelle",
+    "name": "Muséum national d'histoire naturelle",
     "coordinates": [
-      2.312855,
-      48.878849
+      2.359933,
+      48.842168
     ],
-    "address": "63, rue de Monceau, Hôtel",
+    "address": "2, rue Buffon, Jardin des Plantes",
+    "postalCode": "75005",
+    "commune": "Paris",
+    "arrondissement": 5,
+    "department": "75",
+    "website": "https://www.mnhn.fr/fr/collections/ensembles-collections/vertebres/anatomie-comparee",
+    "phone": "01 40 79 38 90",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/grande-galerie-de-l-evolution-museum-national-d-histoire-naturelle-p3621"
+  },
+  {
+    "id": "palais-galliera-musee-de-la-mode-et-de-la-ville-de-paris",
+    "name": "Palais Galliera, musée de la mode et de la ville de Paris",
+    "coordinates": [
+      2.297248499625773,
+      48.866136805463356
+    ],
+    "address": "10 avenue Pierre Ier de Serbie, Palais Galliéra",
+    "postalCode": "75116",
+    "commune": "Paris",
+    "arrondissement": 16,
+    "department": "75",
+    "website": "https://www.palaisgalliera.paris.fr/",
+    "phone": "01 56 52 86 00",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": []
+  },
+  {
+    "id": "pantheon",
+    "name": "Panthéon",
+    "coordinates": [
+      2.3461,
+      48.8462
+    ],
+    "address": "Place du Panthéon",
+    "postalCode": "75005",
+    "commune": "Paris",
+    "arrondissement": 5,
+    "department": "75",
+    "website": "https://www.paris-pantheon.fr",
+    "tags": [
+      "monument",
+      "history"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/pantheon-p3494"
+  },
+  {
+    "id": "petit-palais-musee-des-beaux-arts-de-la-ville-de-paris",
+    "name": "Petit Palais, musée des beaux-arts de la ville de Paris",
+    "coordinates": [
+      2.313763,
+      48.86609
+    ],
+    "address": "Avenue Winston-Churchill, Musée",
     "postalCode": "75008",
     "commune": "Paris",
     "arrondissement": 8,
     "department": "75",
-    "website": "https://madparis.fr/francais/musees/musee-nissim-de-camondo/",
-    "phone": "01 53 89 06 50 ou 06 40 (boîte vocale)",
+    "website": "https://www.petitpalais.paris.fr/",
+    "phone": "01 53 43 40 00",
     "tags": [
       "museum"
     ],
-    "freeAccess": []
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/petit-palais-musee-des-beaux-arts-de-la-ville-de-paris-p3490"
   },
   {
-    "id": "musee-gustave-moreau",
-    "name": "Musée Gustave Moreau",
+    "id": "sainte-chapelle",
+    "name": "Sainte-Chapelle",
     "coordinates": [
-      2.334383,
-      48.877878
+      2.345,
+      48.85528
     ],
-    "address": "14, rue de la Rochefoucauld",
-    "postalCode": "75009",
+    "address": "10 boulevard du Palais",
+    "postalCode": "75001",
     "commune": "Paris",
-    "arrondissement": 9,
+    "arrondissement": 1,
     "department": "75",
-    "website": "https://musee-moreau.fr/",
-    "phone": "01 48 74 38 50",
+    "website": "https://www.sainte-chapelle.fr",
     "tags": [
-      "museum"
+      "monument",
+      "religious"
     ],
-    "freeAccess": []
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/sainte-chapelle-p3556"
   },
   {
-    "id": "musee-de-l-ecole-de-barbizon-auberge-ganne",
-    "name": "Musée de l'école de Barbizon - auberge Ganne",
+    "id": "tours-de-notre-dame-de-paris",
+    "name": "Tours de Notre-Dame de Paris",
     "coordinates": [
-      2.602464,
-      48.446181
+      2.3488,
+      48.8532
     ],
-    "address": "92, Grande Rue, Auberge Ganne",
-    "postalCode": "77630",
-    "commune": "Barbizon",
-    "department": "77",
-    "website": "https://www.musee-peintres-barbizon.fr/fr",
-    "phone": "01 60 66 22 27",
+    "address": "6 parvis Notre-Dame - place Jean-Paul II",
+    "postalCode": "75004",
+    "commune": "Paris",
+    "arrondissement": 4,
+    "department": "75",
+    "website": "https://www.tours-notre-dame-de-paris.fr/",
     "tags": [
-      "museum"
+      "monument",
+      "religious"
     ],
-    "freeAccess": []
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "reservationRequired": true,
+        "reservationUrl": "https://www.tours-notre-dame-de-paris.fr/",
+        "note": "Free for under-18s and 18-25 EU residents; timed e-ticket mandatory for all visitors, no on-site sales",
+        "source": {
+          "url": "https://www.tours-notre-dame-de-paris.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/tours-de-notre-dame-de-paris-p3540"
   },
   {
-    "id": "musee-alfred-bonno",
-    "name": "Musée Alfred Bonno",
+    "id": "villa-savoye",
+    "name": "Villa Savoye",
     "coordinates": [
-      2.591845,
-      48.87766
+      2.0283,
+      48.9244
     ],
-    "address": "Place de la République",
-    "postalCode": "77500",
-    "commune": "Chelles",
-    "department": "77",
-    "website": "https://www.chelles.fr/chelles-a-vivre/culture/musee-alfred-bonno/",
-    "phone": "01 64 72 65 80",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-bossuet",
-    "name": "Musée Bossuet",
-    "coordinates": [
-      2.87061,
-      48.938016
-    ],
-    "address": "5, place Charles-de-Gaulle, Palais Episcopal",
-    "postalCode": "77100",
-    "commune": "Meaux",
-    "department": "77",
-    "website": "https://www.musee-bossuet.fr/",
-    "phone": "01 64 34 84 45",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-de-la-grande-guerre",
-    "name": "Musée de la Grande Guerre",
-    "coordinates": [
-      2.901461,
-      48.955281
-    ],
-    "address": "Rue Lazare Ponticelli",
-    "postalCode": "77100",
-    "commune": "Meaux",
-    "department": "77",
-    "website": "https://www.museedelagrandeguerre.eu/",
-    "phone": "01 60 32 14 18",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-de-la-gendarmerie",
-    "name": "Musée de la Gendarmerie",
-    "coordinates": [
-      2.651583,
-      48.54648
-    ],
-    "address": "Avenue du 13e Dragons",
-    "postalCode": "77000",
-    "commune": "Melun",
-    "department": "77",
-    "website": "https://www.gendarmerie.interieur.gouv.fr/musee",
-    "phone": "01 64 14 54 64",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-de-melun",
-    "name": "Musée de Melun",
-    "coordinates": [
-      2.658972,
-      48.536398
-    ],
-    "address": "5 rue du Franc Mûrier",
-    "postalCode": "77000",
-    "commune": "Melun",
-    "department": "77",
-    "website": "https://www.ville-melun.fr/temps-libre/musee-d-art-et-d-histoire-de-la-ville-de-melun/232-presentation-du-musee",
-    "phone": "01 64 79 77 70",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-de-prehistoire-d-ile-de-france",
-    "name": "Musée de préhistoire d'Île-de-France",
-    "coordinates": [
-      2.714321,
-      48.260312
-    ],
-    "address": "48 avenue Etienne Dailly",
-    "postalCode": "77140",
-    "commune": "Nemours",
-    "department": "77",
-    "website": "https://www.musee-prehistoire-idf.fr/fr",
-    "phone": "01 64 78 54 80",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-des-pays-de-seine-et-marne",
-    "name": "Musée des pays de Seine-et-Marne",
-    "coordinates": [
-      3.18169,
-      48.90803
-    ],
-    "address": "17, avenue de la Ferté-sous-Jouarre",
-    "postalCode": "77750",
-    "commune": "Saint-Cyr-sur-Morin",
-    "department": "77",
-    "website": "https://www.musee-seine-et-marne.fr/fr",
-    "phone": "01 60 24 46 00",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-de-l-histoire-vivante",
-    "name": "Musée de l'histoire vivante",
-    "coordinates": [
-      2.469481,
-      48.866151
-    ],
-    "address": "31, boulevard Théophile Sueur, Parc Montreau",
-    "postalCode": "93100",
-    "commune": "Montreuil",
-    "department": "93",
-    "website": "https://www.museehistoirevivante.fr/",
-    "phone": "01 48 54 32 44 ; 01 48 54 36 08",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-archeologique-departemental-du-val-d-oise",
-    "name": "Musée archéologique départemental du Val d'Oise",
-    "coordinates": [
-      1.849395,
-      49.108589
-    ],
-    "address": "4 place du Château",
-    "postalCode": "95450",
-    "commune": "Guiry-en-Vexin",
-    "department": "95",
-    "website": "https://www.valdoise.fr/608-le-musee-archeologique-departemental-du-val-d-oise.htm",
-    "phone": "01 34 67 45 07",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-d-histoire-et-de-societe",
-    "name": "Musée d'histoire et de société",
-    "coordinates": [
-      48.98651569144933,
-      2.449718782248399
-    ],
-    "address": "66 rue de Paris, Hôtel de Ville",
-    "postalCode": "95500",
-    "commune": "Gonesse",
-    "department": "95",
-    "website": "https://www.ville-gonesse.fr/content/qui-sommes-nous-1",
-    "phone": "01 34 45 11 11",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": []
-  },
-  {
-    "id": "musee-rambolitrain",
-    "name": "Musée Rambolitrain",
-    "coordinates": [
-      1.823892,
-      48.646025
-    ],
-    "address": "4, place Jeanne d'Arc, 4, place Jeanne d'Arc",
-    "postalCode": "78120",
-    "commune": "Rambouillet",
+    "address": "82 rue de Villiers",
+    "postalCode": "78300",
+    "commune": "Poissy",
     "department": "78",
-    "website": "https://www.rambolitrain.com/",
-    "phone": "01 75 03 44 60",
+    "website": "https://www.villa-savoye.fr/",
     "tags": [
-      "museum"
+      "monument",
+      "house"
     ],
-    "freeAccess": []
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
+          "checkedAt": "2026-08-06"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/villa-savoye-p3498"
   }
 ]

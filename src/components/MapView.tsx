@@ -106,6 +106,12 @@ export default function MapView() {
       attributionControl: { compact: true },
     });
     mapRef.current = map;
+    if (import.meta.env.DEV) {
+      (window as unknown as { __map: MlMap; __mapErrors: unknown[] }).__map = map;
+      const errors: unknown[] = [];
+      (window as unknown as { __mapErrors: unknown[] }).__mapErrors = errors;
+      map.on('error', (e) => errors.push(String((e as { error?: Error }).error ?? e)));
+    }
 
     map.addControl(new NavigationControl({ visualizePitch: false }), 'top-right');
     map.addControl(

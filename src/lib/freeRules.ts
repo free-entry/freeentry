@@ -33,8 +33,13 @@ function parseISO(date: string): { y: number; m: number; d: number; utcMs: numbe
   return { y, m, d, utcMs: Date.UTC(y, m - 1, d) };
 }
 
-/** ISO date of the nth <weekday> of a month (month is 1-based). */
+/** ISO date of the nth <weekday> of a month (month is 1-based; -1 = last). */
 export function nthWeekdayOfMonth(year: number, month: number, nth: number, weekday: Weekday): string {
+  if (nth === -1) {
+    const lastDay = new Date(Date.UTC(year, month, 0));
+    const back = (lastDay.getUTCDay() - WEEKDAY_INDEX[weekday] + 7) % 7;
+    return toISO(Date.UTC(year, month - 1, lastDay.getUTCDate() - back));
+  }
   const firstDow = new Date(Date.UTC(year, month - 1, 1)).getUTCDay();
   const offset = (WEEKDAY_INDEX[weekday] - firstDow + 7) % 7;
   return toISO(Date.UTC(year, month - 1, 1 + offset + (nth - 1) * 7));

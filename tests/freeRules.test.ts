@@ -46,6 +46,10 @@ describe('nthWeekdayOfMonth', () => {
   it('finds the first Saturday of October 2026', () => {
     expect(nthWeekdayOfMonth(2026, 10, 1, 'saturday')).toBe('2026-10-03');
   });
+  it('finds the LAST Sunday of a month with nth -1', () => {
+    expect(nthWeekdayOfMonth(2026, 8, -1, 'sunday')).toBe('2026-08-30');
+    expect(nthWeekdayOfMonth(2026, 5, -1, 'sunday')).toBe('2026-05-31'); // last day is a Sunday
+  });
 });
 
 describe('ruleActiveOn — nth-weekday', () => {

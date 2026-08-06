@@ -49,10 +49,20 @@ export function matchMuseum(
   museums: Museum[],
   aliases: Record<string, string>,
 ): Museum | null {
-  const aliasId = aliases[scrapedName];
+  const target = normalizeName(scrapedName);
+
+  // Exact alias first, then normalized alias (curly vs straight quotes etc.).
+  let aliasId = aliases[scrapedName];
+  if (!aliasId) {
+    for (const [name, id] of Object.entries(aliases)) {
+      if (normalizeName(name) === target) {
+        aliasId = id;
+        break;
+      }
+    }
+  }
   if (aliasId) return museums.find((m) => m.id === aliasId) ?? null;
 
-  const target = normalizeName(scrapedName);
   if (!target) return null;
 
   const exact = museums.filter((m) => normalizeName(m.name) === target);

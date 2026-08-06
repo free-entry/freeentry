@@ -25,8 +25,8 @@ export interface RuleSource {
  */
 export interface FreeRule {
   kind: 'always' | 'nth-weekday' | 'event' | 'annual-date';
-  /** nth-weekday: which occurrence in the month (only 1 is used today). */
-  nth?: 1;
+  /** nth-weekday: 1 = first <weekday> of the month, -1 = last. */
+  nth?: 1 | -1;
   weekday?: Weekday;
   /** 1–12 subset the rule applies to; omitted = all year. */
   months?: number[];
@@ -61,6 +61,8 @@ export interface Museum {
   tags: string[];
   freeAccess: FreeRule[];
   parisjetaimeUrl?: string;
+  /** Venue-level caveat shown on the detail page (e.g. temporary closure). */
+  note?: string;
 }
 
 export interface EventCalendar {
