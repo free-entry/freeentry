@@ -16,6 +16,15 @@
     "test:watch": "vitest",
     "postinstall": "node scripts/copy-rtl-plugin.mjs",
     "update-data": "tsx scripts/update-parisjetaime.ts",
+    "update:rules": "tsx scripts/update-parisjetaime.ts",
+    "update:wikidata": "tsx scripts/enrich-wikidata.ts",
+    "update:hours": "tsx scripts/import-opening-hours.ts",
+    "update:all": "npm run update:rules && npm run update:wikidata && tsx scripts/check-wikidata.ts --write && tsx scripts/check-datagouv.ts --write && npm run check:freshness",
+    "check:freshness": "tsx scripts/check-freshness.ts",
+    "check:wikidata": "tsx scripts/check-wikidata.ts",
+    "check:datagouv": "tsx scripts/check-datagouv.ts",
+    "check:osm-hours": "tsx scripts/check-osm-hours.ts",
+    "check:data": "npm run check:freshness && npm run check:wikidata && npm run check:datagouv",
     "icons": "tsx scripts/generate-icons.ts"
   },
   "dependencies": {
