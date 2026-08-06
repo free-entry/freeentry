@@ -1,17 +1,32 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useAppState } from '@/state/AppState';
+import { useIsWide } from '@/lib/useMediaQuery';
 import Header from './Header';
 import MapView from './MapView';
 import MuseumList from './MuseumList';
 import ActiveFilterChips from './ActiveFilterChips';
 import FilterPanel from './FilterPanel';
+import DetailPanel from './DetailPanel';
+import BottomSheet from './BottomSheet';
 import styles from './Layout.module.css';
 
 export default function Layout() {
   const { t } = useTranslation();
-  const { selected } = useAppState();
+  const { selected, select, results, filters, setFilters, today } = useAppState();
   const [filtersOpen, setFiltersOpen] = useState(false);
+  const isWide = useIsWide();
+
+  const todayChip = (
+    <button
+      type="button"
+      className={styles.todayChip}
+      aria-pressed={filters.date === today}
+      onClick={() => setFilters((prev) => ({ ...prev, date: prev.date === today ? null : today }))}
+    >
+      {t('filters.today')}
+    </button>
+  );
 
   return (
     <div className={styles.shell}>
@@ -20,18 +35,55 @@ export default function Layout() {
       </a>
       <Header onOpenFilters={() => setFiltersOpen(true)} />
       <div className={styles.body}>
-        <aside className={styles.sidebar} aria-label={t('list.showList')}>
-          <div id="results" className={styles.sidebarInner}>
-            <ActiveFilterChips />
-            {/* DetailPanel (Task 12) overlays the list when a museum is selected. */}
-            {selected && <p className={styles.selectedNote}>{selected.name}</p>}
-            <MuseumList />
-          </div>
-        </aside>
+        {isWide && (
+          <aside className={styles.sidebar} aria-label={t('list.showList')}>
+            <div id="results" className={styles.sidebarInner}>
+              {selected ? (
+                <DetailPanel museum={selected} onBack={() => select(null)} />
+              ) : (
+                <>
+                  <ActiveFilterChips />
+                  <MuseumList />
+                </>
+              )}
+            </div>
+          </aside>
+        )}
         <main className={styles.mapArea}>
           <MapView />
         </main>
       </div>
+
+      {!isWide &&
+        (selected ? (
+          <BottomSheet
+            key={selected.id}
+            label={selected.name}
+            initialDetent="full"
+            peekContent={<span className={styles.peekName}>{selected.name}</span>}
+          >
+            <div id="results">
+              <DetailPanel museum={selected} onBack={() => select(null)} />
+            </div>
+          </BottomSheet>
+        ) : (
+          <BottomSheet
+            label={t('list.showList')}
+            initialDetent="peek"
+            peekContent={
+              <>
+                <span>{t('filters.resultCount', { count: results.length })}</span>
+                {todayChip}
+              </>
+            }
+          >
+            <div id="results">
+              <ActiveFilterChips />
+              <MuseumList />
+            </div>
+          </BottomSheet>
+        ))}
+
       {filtersOpen && <FilterPanel onClose={() => setFiltersOpen(false)} />}
     </div>
   );

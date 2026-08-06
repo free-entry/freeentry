@@ -1,0 +1,31 @@
+.rule {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding-block: 0.4rem;
+}
+
+.sentence {
+  font-size: 0.92rem;
+  line-height: 1.4;
+}
+
+.next {
+  color: var(--color-text-muted);
+}
+
+.booking {
+  font-size: 0.82rem;
+  color: var(--color-accent-strong);
+  font-weight: 500;
+}
+
+.booking a {
+  color: var(--color-accent);
+}
+
+.note {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+}

@@ -85,8 +85,8 @@ export default function MapView() {
   const hoverPopupRef = useRef<Popup | null>(null);
 
   // Refs so map event handlers installed once always see current state.
-  const stateRef = useRef({ results, select, pickingCenter, setPickingCenter, setFilters, localizedNames });
-  stateRef.current = { results, select, pickingCenter, setPickingCenter, setFilters, localizedNames };
+  const stateRef = useRef({ results, select, selected, pickingCenter, setPickingCenter, setFilters, localizedNames });
+  stateRef.current = { results, select, selected, pickingCenter, setPickingCenter, setFilters, localizedNames };
 
   const prefersReducedMotion = useMemo(
     () => window.matchMedia('(prefers-reduced-motion: reduce)').matches,
@@ -260,6 +260,13 @@ export default function MapView() {
       map.on('mouseleave', 'museum-points', () => {
         hoverPopupRef.current?.remove();
       });
+
+      // Deep links (/museum/<id>) select before the style is ready — apply now.
+      const initialSelected = stateRef.current.selected;
+      if (initialSelected) {
+        map.setFilter('museum-selected', ['==', ['get', 'id'], initialSelected.id]);
+        map.jumpTo({ center: initialSelected.coordinates, zoom: Math.max(map.getZoom(), 13.5) });
+      }
     });
 
     // Persist position in the hash for shareable/restorable map views.
