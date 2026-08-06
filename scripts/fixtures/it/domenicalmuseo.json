@@ -1,0 +1,2599 @@
+[
+  {
+    "name": "Monumenti e Aree archeologiche dell'antica Teate",
+    "region": "Abruzzo",
+    "province": "CH",
+    "city": "Chieti",
+    "url": "https://cultura.gov.it/luogo/Monumenti%20e%20Aree%20archeologiche%20dell'antica%20Teate"
+  },
+  {
+    "name": "Museo archeologico nazionale d'Abruzzo - Villa Frigerj",
+    "region": "Abruzzo",
+    "province": "CH",
+    "city": "Chieti",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-d-abruzzo-villa-frigerj"
+  },
+  {
+    "name": "Museo archeologico nazionale La Civitella di Chieti",
+    "region": "Abruzzo",
+    "province": "CH",
+    "city": "Chieti",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-la-civitella-di-chieti"
+  },
+  {
+    "name": "Parco archeologico di Iuvanum",
+    "region": "Abruzzo",
+    "province": "CH",
+    "city": "Montenerodomo",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-di-iuvanum"
+  },
+  {
+    "name": "Abbazia di Santo Spirito al Morrone",
+    "region": "Abruzzo",
+    "province": "AQ",
+    "city": "Sulmona",
+    "url": "https://cultura.gov.it/luogo/abbazia-di-santo-spirito-al-morrone"
+  },
+  {
+    "name": "Castello Piccolomini - Collezione Torlonia e Museo d'arte sacra della Marsica",
+    "region": "Abruzzo",
+    "province": "AQ",
+    "city": "Celano",
+    "url": "https://cultura.gov.it/luogo/castello-piccolomini-collezione-torlonia-e-museo-d-arte-sacra-della-marsica"
+  },
+  {
+    "name": "Chiesa di San Pietro ad Alba Fucens",
+    "region": "Abruzzo",
+    "province": "AQ",
+    "city": "Massa d'Albe",
+    "url": "https://cultura.gov.it/luogo/chiesa-di-san-pietro-ad-alba-fucens"
+  },
+  {
+    "name": "Chiesa di San Pietro ad Oratorium",
+    "region": "Abruzzo",
+    "province": "AQ",
+    "city": "Capestrano",
+    "url": "https://cultura.gov.it/luogo/chiesa-di-san-pietro-ad-oratorium"
+  },
+  {
+    "name": "Museo Nazionale d'Abruzzo - Forte Spagnolo",
+    "region": "Abruzzo",
+    "province": "AQ",
+    "city": "L'Aquila",
+    "url": "https://cultura.gov.it/luogo/forte-spagnolo"
+  },
+  {
+    "name": "Parco archeologico di Amiternum",
+    "region": "Abruzzo",
+    "province": "AQ",
+    "city": "L'Aquila",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-di-amiternum"
+  },
+  {
+    "name": "Abbazia di San Clemente a Casauria",
+    "region": "Abruzzo",
+    "province": "PE",
+    "city": "Castiglione a Casauria",
+    "url": "https://cultura.gov.it/luogo/abbazia-di-san-clemente-a-casauria"
+  },
+  {
+    "name": "Museo casa natale di Gabriele d'Annunzio",
+    "region": "Abruzzo",
+    "province": "PE",
+    "city": "Pescara",
+    "url": "https://cultura.gov.it/luogo/museo-casa-natale-di-gabriele-d-annunzio"
+  },
+  {
+    "name": "Museo archeologico nazionale di Campli",
+    "region": "Abruzzo",
+    "province": "TE",
+    "city": "Campli",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-campli"
+  },
+  {
+    "name": "Musei nazionali di Matera - Ex Ospedale San Rocco",
+    "region": "Basilicata",
+    "province": "MT",
+    "city": "Matera",
+    "url": "https://cultura.gov.it/luogo/musei-nazionali-di-matera-ex-ospedale-san-rocco"
+  },
+  {
+    "name": "Musei nazionali di Matera - Museo Domenico Ridola",
+    "region": "Basilicata",
+    "province": "MT",
+    "city": "Matera",
+    "url": "https://cultura.gov.it/luogo/musei-nazionali-di-matera-museo-domenico-ridola"
+  },
+  {
+    "name": "Musei nazionali di Matera - Palazzo Lanfranchi",
+    "region": "Basilicata",
+    "province": "MT",
+    "city": "Matera",
+    "url": "https://cultura.gov.it/luogo/museo-nazionale-di-matera-palazzo-lanfranchi"
+  },
+  {
+    "name": "Museo archeologico nazionale della Siritide - Policoro",
+    "region": "Basilicata",
+    "province": "MT",
+    "city": "Policoro",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-della-siritide"
+  },
+  {
+    "name": "Parco archeologico dell'area urbana e della Necropoli di Crucinia di Metaponto",
+    "region": "Basilicata",
+    "province": "MT",
+    "city": "Bernalda",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-dellarea-urbana-e-della-necropoli-di-crucinia-di-metaponto"
+  },
+  {
+    "name": "Parco archeologico di Herakleia",
+    "region": "Basilicata",
+    "province": "MT",
+    "city": "Policoro",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-di-herakleia"
+  },
+  {
+    "name": "Sede espositiva in Palazzo Ducale di Tricarico",
+    "region": "Basilicata",
+    "province": "MT",
+    "city": "Tricarico",
+    "url": "https://cultura.gov.it/luogo/palazzo-ducale-1"
+  },
+  {
+    "name": "Tempio delle Tavole Palatine",
+    "region": "Basilicata",
+    "province": "MT",
+    "city": "Bernalda",
+    "url": "https://cultura.gov.it/luogo/tempio-delle-tavole-palatine"
+  },
+  {
+    "name": "Musei e parchi archeologici di Melfi e Venosa - Museo archeologico nazionale del Melfese \"Massimo Pallottino\"",
+    "region": "Basilicata",
+    "province": "PZ",
+    "city": "Melfi",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-del-melfese-massimo-pallottino"
+  },
+  {
+    "name": "Musei e parchi archeologici di Melfi e Venosa:  Museo archeologico nazionale “Mario Torelli” di Venosa",
+    "region": "Basilicata",
+    "province": "PZ",
+    "city": "Venosa",
+    "url": "https://cultura.gov.it/luogo/musei-e-parchi-archeologici-di-melfi-e-venosa-museo-archeologico-nazionale-mario-torelli-di-venosa"
+  },
+  {
+    "name": "Museo archeologico nazionale dell'Alta Val d'Agri - Grumento Nova",
+    "region": "Basilicata",
+    "province": "PZ",
+    "city": "Grumento Nova",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-dell-alta-val-d-agri"
+  },
+  {
+    "name": "Museo archeologico nazionale della Basilicata \"Dinu Adamesteanu\"",
+    "region": "Basilicata",
+    "province": "PZ",
+    "city": "Potenza",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-della-basilicata-dinu-adamesteanu"
+  },
+  {
+    "name": "Museo Archeologico Nazionale di Muro Lucano",
+    "region": "Basilicata",
+    "province": "PZ",
+    "city": "Muro Lucano",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-muro-lucano"
+  },
+  {
+    "name": "Parco archeologico di Grumentum",
+    "region": "Basilicata",
+    "province": "PZ",
+    "city": "Grumento Nova",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-di-grumentum"
+  },
+  {
+    "name": "Museo archeologico lametino",
+    "region": "Calabria",
+    "province": "CZ",
+    "city": "Lamezia Terme",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-lametino"
+  },
+  {
+    "name": "Museo e Parco archeologico nazionale di Scolacium",
+    "region": "Calabria",
+    "province": "CZ",
+    "city": "Borgia",
+    "url": "https://cultura.gov.it/luogo/museo-e-parco-archeologico-nazionale-di-scolacium"
+  },
+  {
+    "name": "Galleria nazionale di Cosenza",
+    "region": "Calabria",
+    "province": "CS",
+    "city": "Cosenza",
+    "url": "https://cultura.gov.it/luogo/galleria-nazionale-di-cosenza"
+  },
+  {
+    "name": "Museo archeologico nazionale di Amendolara",
+    "region": "Calabria",
+    "province": "CS",
+    "city": "Amendolara",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-amendolara"
+  },
+  {
+    "name": "Parchi archeologi di Crotone e Sibari - Parco archeologico di Sibari",
+    "region": "Calabria",
+    "province": "CS",
+    "city": "Cassano all'Ionio",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-di-sibari-1"
+  },
+  {
+    "name": "Parchi archeologici di Crotone e Sibari - Museo archeologico nazionale della Sibaritide",
+    "region": "Calabria",
+    "province": "CS",
+    "city": "Cassano all'Ionio",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-della-sibaritide"
+  },
+  {
+    "name": "Parchi archeologici di Crotone e Sibari - Le Castella",
+    "region": "Calabria",
+    "province": "KR",
+    "city": "Isola di Capo Rizzuto",
+    "url": "https://cultura.gov.it/luogo/le-castella"
+  },
+  {
+    "name": "Parchi archeologici di Crotone e Sibari - Museo archeologico nazionale di Crotone",
+    "region": "Calabria",
+    "province": "KR",
+    "city": "Crotone",
+    "url": "https://cultura.gov.it/luogo/parchi-archeologici-di-crotone-e-sibari-museo-archeologico-nazionale-di-crotone"
+  },
+  {
+    "name": "Parchi archeologici di Crotone e Sibari - Museo e Parco archeologico nazionale di Capo Colonna",
+    "region": "Calabria",
+    "province": "KR",
+    "city": "Crotone",
+    "url": "https://cultura.gov.it/luogo/parchi-archeologici-di-crotone-e-sibari-museo-e-parco-archeologico-nazionale-di-capo-colonna"
+  },
+  {
+    "name": "Chiesa di San Francesco d'Assisi",
+    "region": "Calabria",
+    "province": "RC",
+    "city": "Gerace",
+    "url": "https://cultura.gov.it/luogo/chiesa-di-san-francesco-d-assisi"
+  },
+  {
+    "name": "La Cattolica",
+    "region": "Calabria",
+    "province": "RC",
+    "city": "Stilo",
+    "url": "https://cultura.gov.it/luogo/la-cattolica"
+  },
+  {
+    "name": "MArRC - Museo archeologico nazionale di Reggio Calabria",
+    "region": "Calabria",
+    "province": "RC",
+    "city": "Reggio di Calabria",
+    "url": "https://cultura.gov.it/luogo/marrc-museo-archeologico-nazionale-di-reggio-calabria"
+  },
+  {
+    "name": "Museo archeologico di Metauros",
+    "region": "Calabria",
+    "province": "RC",
+    "city": "Gioia Tauro",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-metauros"
+  },
+  {
+    "name": "Museo di Palazzo Nieddu del Rio",
+    "region": "Calabria",
+    "province": "RC",
+    "city": "Locri",
+    "url": "https://cultura.gov.it/luogo/museo-di-palazzo-nieddu-del-rio"
+  },
+  {
+    "name": "Museo e Parco archeologico dell'antica Kaulonìa",
+    "region": "Calabria",
+    "province": "RC",
+    "city": "Monasterace",
+    "url": "https://cultura.gov.it/luogo/museo-e-parco-archeologico-dellantica-kaulonia"
+  },
+  {
+    "name": "Museo e Parco archeologico di Bova Marina",
+    "region": "Calabria",
+    "province": "RC",
+    "city": "Bova Marina",
+    "url": "https://cultura.gov.it/luogo/museo-e-parco-archeologico-archeoderi"
+  },
+  {
+    "name": "Museo e Parco archeologico nazionale di Locri",
+    "region": "Calabria",
+    "province": "RC",
+    "city": "Locri",
+    "url": "https://cultura.gov.it/luogo/museo-e-parco-archeologico-nazionale-di-locri"
+  },
+  {
+    "name": "Museo archeologico nazionale 'Vito Capialbi'",
+    "region": "Calabria",
+    "province": "VV",
+    "city": "Vibo Valentia",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-vito-capialbi"
+  },
+  {
+    "name": "Museo nazionale di Mileto",
+    "region": "Calabria",
+    "province": "VV",
+    "city": "Mileto",
+    "url": "https://cultura.gov.it/luogo/museo-nazionale-di-mileto"
+  },
+  {
+    "name": "Area archeologica del Tempio Italico di Casalbore",
+    "region": "Campania",
+    "province": "AV",
+    "city": "Casalbore",
+    "url": "https://cultura.gov.it/luogo/area-archeologica-del-tempio-italico-di-casalbore"
+  },
+  {
+    "name": "Area archeologica di Conza",
+    "region": "Campania",
+    "province": "AV",
+    "city": "Conza della Campania",
+    "url": "https://cultura.gov.it/luogo/area-archeologica-di-conza"
+  },
+  {
+    "name": "Museo civico e della ceramica di Ariano Irpino",
+    "region": "Campania",
+    "province": "AV",
+    "city": "Ariano Irpino",
+    "url": "https://cultura.gov.it/luogo/museo-civico-e-della-ceramica-di-ariano-irpino"
+  },
+  {
+    "name": "Parco archeologico di Aeclanum",
+    "region": "Campania",
+    "province": "AV",
+    "city": "Mirabella Eclano",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-di-aeclanum"
+  },
+  {
+    "name": "Castello di Montesarchio e Museo archeologico nazionale del Sannio Caudino",
+    "region": "Campania",
+    "province": "BN",
+    "city": "Montesarchio",
+    "url": "https://cultura.gov.it/luogo/castello-di-montesarchio-e-museo-archeologico-nazionale-del-sannio-caudino"
+  },
+  {
+    "name": "Teatro romano di Benevento",
+    "region": "Campania",
+    "province": "BN",
+    "city": "Benevento",
+    "url": "https://cultura.gov.it/luogo/teatro-romano-di-benevento"
+  },
+  {
+    "name": "Anfiteatro campano",
+    "region": "Campania",
+    "province": "CE",
+    "city": "Santa Maria Capua Vetere",
+    "url": "https://cultura.gov.it/luogo/anfiteatro-campano"
+  },
+  {
+    "name": "Museo archeologico nazionale dell'Agro atellano",
+    "region": "Campania",
+    "province": "CE",
+    "city": "Succivo",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-dellagro-atellano"
+  },
+  {
+    "name": "Museo archeologico nazionale dell'antica Allifae",
+    "region": "Campania",
+    "province": "CE",
+    "city": "Alife",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-dell-antica-allifae"
+  },
+  {
+    "name": "Museo archeologico nazionale dell’antica Capua",
+    "region": "Campania",
+    "province": "CE",
+    "city": "Santa Maria Capua Vetere",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-dellantica-capua"
+  },
+  {
+    "name": "Museo archeologico nazionale di Calatia",
+    "region": "Campania",
+    "province": "CE",
+    "city": "Maddaloni",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-calatia"
+  },
+  {
+    "name": "Museo archeologico nazionale di Sessa Aurunca",
+    "region": "Campania",
+    "province": "CE",
+    "city": "Sessa Aurunca",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-sessa-aurunca"
+  },
+  {
+    "name": "Museo archeologico nazionale di Teanum Sidicinum",
+    "region": "Campania",
+    "province": "CE",
+    "city": "Teano",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-teanum-sidicinum"
+  },
+  {
+    "name": "Parco Reale e Giardino Inglese - Reggia di Caserta",
+    "region": "Campania",
+    "province": "CE",
+    "city": "Caserta",
+    "url": "https://cultura.gov.it/luogo/reggia-di-caserta-parco-reale-e-giardino-inglese"
+  },
+  {
+    "name": "Reggia di Caserta - Palazzo Reale",
+    "region": "Campania",
+    "province": "CE",
+    "city": "Caserta",
+    "url": "https://cultura.gov.it/luogo/reggia-di-caserta-palazzo-reale"
+  },
+  {
+    "name": "Castel Sant'Elmo",
+    "region": "Campania",
+    "province": "NA",
+    "city": "Napoli",
+    "url": "https://cultura.gov.it/luogo/castel-sant-elmo-e-museo-del-novecento-a-napoli"
+  },
+  {
+    "name": "Certosa di San Giacomo e Museo archeologico nazionale di Capri",
+    "region": "Campania",
+    "province": "NA",
+    "city": "Capri",
+    "url": "https://cultura.gov.it/luogo/certosa-di-san-giacomo"
+  },
+  {
+    "name": "Certosa di San Martino",
+    "region": "Campania",
+    "province": "NA",
+    "city": "Napoli",
+    "url": "https://cultura.gov.it/luogo/certosa-e-museo-di-san-martino"
+  },
+  {
+    "name": "Complesso monumentale e Biblioteca dei Girolamini di Napoli",
+    "region": "Campania",
+    "province": "NA",
+    "city": "Napoli",
+    "url": "https://cultura.gov.it/luogo/complesso-monumentale-e-biblioteca-dei-girolamini-di-napoli-1"
+  },
+  {
+    "name": "Crypta Neapolitana",
+    "region": "Campania",
+    "province": "NA",
+    "city": "Napoli",
+    "url": "https://cultura.gov.it/luogo/crypta-neapolitana"
+  },
+  {
+    "name": "Grotta Azzurra",
+    "region": "Campania",
+    "province": "NA",
+    "city": "Anacapri",
+    "url": "https://cultura.gov.it/luogo/grotta-azzurra"
+  },
+  {
+    "name": "Museo \"Diego Aragona Pignatelli Cortes\"",
+    "region": "Campania",
+    "province": "NA",
+    "city": "Napoli",
+    "url": "https://cultura.gov.it/luogo/museo-diego-aragona-pignatelli-cortes"
+  },
+  {
+    "name": "Museo archeologico della penisola sorrentina \"Georges Vallet\"",
+    "region": "Campania",
+    "province": "NA",
+    "city": "Piano di Sorrento",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-territoriale-della-penisola-sorrentina-georges-vallet"
+  },
+  {
+    "name": "Museo archeologico nazionale di Napoli",
+    "region": "Campania",
+    "province": "NA",
+    "city": "Napoli",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-napoli-1"
+  },
+  {
+    "name": "Museo e Real Bosco di Capodimonte",
+    "region": "Campania",
+    "province": "NA",
+    "city": "Napoli",
+    "url": "https://cultura.gov.it/luogo/museo-e-real-bosco-di-capodimonte-1"
+  },
+  {
+    "name": "Museo storico archeologico di Nola e area archeologica di San Paolo Belsito",
+    "region": "Campania",
+    "province": "NA",
+    "city": "Nola",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-nola"
+  },
+  {
+    "name": "Palazzo Reale di Napoli",
+    "region": "Campania",
+    "province": "NA",
+    "city": "Napoli",
+    "url": "https://cultura.gov.it/luogo/palazzo-reale-di-napoli-1"
+  },
+  {
+    "name": "Parco archeologico dei Campi Flegrei - Anfiteatro Flavio, Puteoli",
+    "region": "Campania",
+    "province": "NA",
+    "city": "Pozzuoli",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-dei-campi-flegrei-anfiteatro-flavio-puteoli"
+  },
+  {
+    "name": "Parco archeologico dei Campi Flegrei - Museo archeologico dei Campi Flegrei e Castello di Baia",
+    "region": "Campania",
+    "province": "NA",
+    "city": "Bacoli",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-dei-campi-flegrei-museo-archeologico-dei-campi-flegrei-nel-castello-di-baia"
+  },
+  {
+    "name": "Parco archeologico dei Campi Flegrei - Parco archeologico delle Terme di Baia",
+    "region": "Campania",
+    "province": "NA",
+    "city": "Bacoli",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-dei-campi-flegrei-parco-archeologico-delle-terme-di-baia"
+  },
+  {
+    "name": "Parco archeologico dei Campi Flegrei - Parco archeologico di Cuma",
+    "region": "Campania",
+    "province": "NA",
+    "city": "Pozzuoli",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-dei-campi-flegrei-parco-archeologico-di-cuma"
+  },
+  {
+    "name": "Parco archeologico di Ercolano - Area archeologica",
+    "region": "Campania",
+    "province": "NA",
+    "city": "Ercolano",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-di-ercolano-1"
+  },
+  {
+    "name": "Parco archeologico di Pompei - Antiquarium di Boscoreale",
+    "region": "Campania",
+    "province": "NA",
+    "city": "Boscoreale",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-di-pompei-antiquarium-di-boscoreale"
+  },
+  {
+    "name": "Parco archeologico di Pompei - Area archeologica di Pompei",
+    "region": "Campania",
+    "province": "NA",
+    "city": "Pompei",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-di-pompei-area-archeologica-di-pompei"
+  },
+  {
+    "name": "Parco archeologico di Pompei - Reggia del Quisisana - Museo Archeologico di Stabia \"Libero D'Orsi\"",
+    "region": "Campania",
+    "province": "NA",
+    "city": "Castellammare di Stabia",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-di-pompei-reggia-del-quisisana-museo-archeologico-di-stabia-libero-dorsi"
+  },
+  {
+    "name": "Parco archeologico di Pompei - Scavi archeologici di Stabiae (Villa Arianna)",
+    "region": "Campania",
+    "province": "NA",
+    "city": "Castellammare di Stabia",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-di-pompei-scavi-archeologici-di-stabiae-villa-arianna"
+  },
+  {
+    "name": "Parco archeologico di Pompei - Scavi archeologici di Stabiae (Villa San Marco)",
+    "region": "Campania",
+    "province": "NA",
+    "city": "Castellammare di Stabia",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-di-pompei-scavi-archeologici-di-stabiae-villa-san-marco"
+  },
+  {
+    "name": "Parco archeologico di Pompei - Scavi di Oplontis",
+    "region": "Campania",
+    "province": "NA",
+    "city": "Torre Annunziata",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-di-pompei-scavi-di-oplontis"
+  },
+  {
+    "name": "Parco archeologico di Pompei - Villa Regina",
+    "region": "Campania",
+    "province": "NA",
+    "city": "Boscoreale",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-di-pompei-villa-regina"
+  },
+  {
+    "name": "Parco delle Tombe di Virgilio e Leopardi",
+    "region": "Campania",
+    "province": "NA",
+    "city": "Napoli",
+    "url": "https://cultura.gov.it/luogo/Parco%20e%20Tomba%20di%20Virgilio"
+  },
+  {
+    "name": "Villa Damecuta",
+    "region": "Campania",
+    "province": "NA",
+    "city": "Anacapri",
+    "url": "https://cultura.gov.it/luogo/villa-damecuta"
+  },
+  {
+    "name": "Villa Floridiana",
+    "region": "Campania",
+    "province": "NA",
+    "city": "Napoli",
+    "url": "https://cultura.gov.it/luogo/museo-della-ceramica-duca-di-martina-in-villa-floridiana"
+  },
+  {
+    "name": "Certosa di San Lorenzo",
+    "region": "Campania",
+    "province": "SA",
+    "city": "Padula",
+    "url": "https://cultura.gov.it/luogo/certosa-di-san-lorenzo"
+  },
+  {
+    "name": "Museo archeologico nazionale della Valle del Sarno",
+    "region": "Campania",
+    "province": "SA",
+    "city": "Sarno",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-della-valle-del-sarno"
+  },
+  {
+    "name": "Museo archeologico nazionale di Eboli",
+    "region": "Campania",
+    "province": "SA",
+    "city": "Eboli",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-eboli"
+  },
+  {
+    "name": "Museo archeologico nazionale di Pontecagnano e Parco archeologico di Pontecagnano",
+    "region": "Campania",
+    "province": "SA",
+    "city": "Pontecagnano Faiano",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-pontecagnano-e-parco-archeologico-di-pontecagnano"
+  },
+  {
+    "name": "Museo archeologico nazionale di Sala Consilina",
+    "region": "Campania",
+    "province": "SA",
+    "city": "Sala Consilina",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-sala-consilina"
+  },
+  {
+    "name": "Parchi archeologici di Paestum e Velia- Museo e area archeologica di Paestum",
+    "region": "Campania",
+    "province": "SA",
+    "city": "Capaccio Paestum",
+    "url": "https://cultura.gov.it/luogo/parchi-archeologici-di-paestum-e-velia-museo-e-area-archeologica-di-paestum"
+  },
+  {
+    "name": "Parchi archeologici di Paestum e Velia - Area archeologica di Velia",
+    "region": "Campania",
+    "province": "SA",
+    "city": "Ascea",
+    "url": "https://cultura.gov.it/luogo/parchi-archeologici-di-paestum-e-velia-area-archeologica-di-velia"
+  },
+  {
+    "name": "Parchi archeologici di Paestum e Velia  - Museo archeologico nazionale",
+    "region": "Campania",
+    "province": "SA",
+    "city": "Capaccio Paestum",
+    "url": "https://cultura.gov.it/luogo/parchi-archeologici-di-paestum-e-velia-museo-archeologico-nazionale"
+  },
+  {
+    "name": "Parco archeologico urbano dell'antica Volcei",
+    "region": "Campania",
+    "province": "SA",
+    "city": "Buccino",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-urbano-dell-antica-volcei"
+  },
+  {
+    "name": "Parco archeologico urbano dell’antica Picentia",
+    "region": "Campania",
+    "province": "SA",
+    "city": "Pontecagnano Faiano",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-urbano-dell-antica-picentia"
+  },
+  {
+    "name": "Teatro romano di Sarno",
+    "region": "Campania",
+    "province": "SA",
+    "city": "Sarno",
+    "url": "https://cultura.gov.it/luogo/teatro-romano-di-sarno"
+  },
+  {
+    "name": "Museo nazionale etrusco \"Pompeo Aria\" e Parco archeologico di Kainua",
+    "region": "Emilia-Romagna",
+    "province": "BO",
+    "city": "Marzabotto",
+    "url": "https://cultura.gov.it/luogo/museo-nazionale-etrusco-pompeo-aria"
+  },
+  {
+    "name": "Pinacoteca nazionale di Bologna",
+    "region": "Emilia-Romagna",
+    "province": "BO",
+    "city": "Bologna",
+    "url": "https://cultura.gov.it/luogo/musei-nazionali-di-bologna-gia-pinacoteca-nazionale-di-bologna-1"
+  },
+  {
+    "name": "Abbazia di Pomposa e Museo pomposiano",
+    "region": "Emilia-Romagna",
+    "province": "FE",
+    "city": "Codigoro",
+    "url": "https://cultura.gov.it/luogo/abbazia-di-pomposa-e-museo-pomposiano"
+  },
+  {
+    "name": "Musei nazionali di Ferrara - Pinacoteca nazionale di Ferrara",
+    "region": "Emilia-Romagna",
+    "province": "FE",
+    "city": "Ferrara",
+    "url": "https://cultura.gov.it/luogo/musei-nazionali-di-ferrara-pinacoteca-nazionale-di-ferrara"
+  },
+  {
+    "name": "Museo archeologico nazionale di Ferrara",
+    "region": "Emilia-Romagna",
+    "province": "FE",
+    "city": "Ferrara",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-ferrara-palazzo-costabili"
+  },
+  {
+    "name": "Necropoli Romana di Voghenza",
+    "region": "Emilia-Romagna",
+    "province": "FE",
+    "city": "Voghiera",
+    "url": "https://cultura.gov.it/luogo/necropoli-romana-di-voghenza"
+  },
+  {
+    "name": "Resti della città romana di Mevaniola",
+    "region": "Emilia-Romagna",
+    "province": "FC",
+    "city": "Galeata",
+    "url": "https://cultura.gov.it/luogo/resti-della-citta-romana-di-mevaniola"
+  },
+  {
+    "name": "Gallerie Estensi - Galleria estense",
+    "region": "Emilia-Romagna",
+    "province": "MO",
+    "city": "Modena",
+    "url": "https://cultura.gov.it/luogo/gallerie-estensi-galleria-estense"
+  },
+  {
+    "name": "Gallerie Estensi - Museo lapidario estense",
+    "region": "Emilia-Romagna",
+    "province": "MO",
+    "city": "Modena",
+    "url": "https://cultura.gov.it/luogo/gallerie-estensi-museo-lapidario-estense"
+  },
+  {
+    "name": "Gallerie Estensi - Palazzo Ducale di Sassuolo",
+    "region": "Emilia-Romagna",
+    "province": "MO",
+    "city": "Sassuolo",
+    "url": "https://cultura.gov.it/luogo/gallerie-estensi-palazzo-ducale-di-sassuolo"
+  },
+  {
+    "name": "Castello di Torrechiara",
+    "region": "Emilia-Romagna",
+    "province": "PR",
+    "city": "Langhirano",
+    "url": "https://cultura.gov.it/luogo/castello-di-torrechiara"
+  },
+  {
+    "name": "Complesso monumentale della Pilotta",
+    "region": "Emilia-Romagna",
+    "province": "PR",
+    "city": "Parma",
+    "url": "https://cultura.gov.it/luogo/complesso-monumentale-della-pilotta-1"
+  },
+  {
+    "name": "Complesso monumentale della Pilotta - Biblioteca Palatina di Parma",
+    "region": "Emilia-Romagna",
+    "province": "PR",
+    "city": "Parma",
+    "url": "https://cultura.gov.it/luogo/complesso-monumentale-della-pilotta-biblioteca-palatina-di-parma"
+  },
+  {
+    "name": "Complesso monumentale della Pilotta - Galleria nazionale di Parma",
+    "region": "Emilia-Romagna",
+    "province": "PR",
+    "city": "Parma",
+    "url": "https://cultura.gov.it/luogo/complesso-monumentale-della-pilotta-galleria-nazionale-di-parma"
+  },
+  {
+    "name": "Complesso monumentale della Pilotta - Museo archeologico nazionale di Parma",
+    "region": "Emilia-Romagna",
+    "province": "PR",
+    "city": "Parma",
+    "url": "https://cultura.gov.it/luogo/complesso-monumentale-della-pilotta-museo-archeologico-nazionale-di-parma"
+  },
+  {
+    "name": "Complesso monumentale della Pilotta - Museo Bodoni",
+    "region": "Emilia-Romagna",
+    "province": "PR",
+    "city": "Parma",
+    "url": "https://cultura.gov.it/luogo/complesso-monumentale-della-pilotta-museo-bodoni"
+  },
+  {
+    "name": "Complesso monumentale della Pilotta - Teatro Farnese",
+    "region": "Emilia-Romagna",
+    "province": "PR",
+    "city": "Parma",
+    "url": "https://cultura.gov.it/luogo/complesso-monumentale-della-pilotta-teatro-farnese"
+  },
+  {
+    "name": "Area archeologica e Antiquarium di Veleia",
+    "region": "Emilia-Romagna",
+    "province": "PC",
+    "city": "Lugagnano Val d'Arda",
+    "url": "https://cultura.gov.it/luogo/area-archeologica-e-antiquarium-di-veleia"
+  },
+  {
+    "name": "Basilica di Sant'Apollinare in Classe",
+    "region": "Emilia-Romagna",
+    "province": "RA",
+    "city": "Ravenna",
+    "url": "https://cultura.gov.it/luogo/basilica-di-sant-apollinare-in-classe"
+  },
+  {
+    "name": "Battistero degli Ariani",
+    "region": "Emilia-Romagna",
+    "province": "RA",
+    "city": "Ravenna",
+    "url": "https://cultura.gov.it/luogo/battistero-degli-ariani"
+  },
+  {
+    "name": "Mausoleo di Teodorico",
+    "region": "Emilia-Romagna",
+    "province": "RA",
+    "city": "Ravenna",
+    "url": "https://cultura.gov.it/luogo/mausoleo-di-teodorico"
+  },
+  {
+    "name": "Museo nazionale di Ravenna",
+    "region": "Emilia-Romagna",
+    "province": "RA",
+    "city": "Ravenna",
+    "url": "https://cultura.gov.it/luogo/museo-nazionale-di-ravenna"
+  },
+  {
+    "name": "Palazzo Milzetti - Museo nazionale dell'età neoclassica in Romagna",
+    "region": "Emilia-Romagna",
+    "province": "RA",
+    "city": "Faenza",
+    "url": "https://cultura.gov.it/luogo/palazzo-milzetti-museo-nazionale-delleta-neoclassica-in-romagna"
+  },
+  {
+    "name": "Villa romana di Russi",
+    "region": "Emilia-Romagna",
+    "province": "RA",
+    "city": "Russi",
+    "url": "https://cultura.gov.it/luogo/villa-romana-di-russi"
+  },
+  {
+    "name": "Fortezza di San Leo",
+    "region": "Emilia-Romagna",
+    "province": "RN",
+    "city": "San Leo",
+    "url": "https://cultura.gov.it/luogo/fortezza-di-san-leo"
+  },
+  {
+    "name": "Museo nazionale di archeologia subacquea dell'Alto Adriatico",
+    "region": "Friuli-Venezia Giulia",
+    "province": "GO",
+    "city": "Grado",
+    "url": "https://cultura.gov.it/luogo/museo-nazionale-di-archeologia-subacquea"
+  },
+  {
+    "name": "Area archeologica Villa romana di Torre",
+    "region": "Friuli-Venezia Giulia",
+    "province": "PN",
+    "city": "Pordenone",
+    "url": "https://cultura.gov.it/luogo/area-archeologica-villa-romana-di-torre"
+  },
+  {
+    "name": "Basilica paleocristiana di via Madonna del Mare",
+    "region": "Friuli-Venezia Giulia",
+    "province": "TS",
+    "city": "Trieste",
+    "url": "https://cultura.gov.it/luogo/basilica-paleocristiana-di-via-madonna-del-mare"
+  },
+  {
+    "name": "Museo storico e Parco del Castello di Miramare",
+    "region": "Friuli-Venezia Giulia",
+    "province": "TS",
+    "city": "Trieste",
+    "url": "https://cultura.gov.it/luogo/museo-storico-e-il-parco-del-castello-di-miramare"
+  },
+  {
+    "name": "Fondi ex Pasqualis",
+    "region": "Friuli-Venezia Giulia",
+    "province": "UD",
+    "city": "Aquileia",
+    "url": "https://cultura.gov.it/luogo/fondi-ex-pasqualis"
+  },
+  {
+    "name": "Museo archeologico nazionale di Aquileia",
+    "region": "Friuli-Venezia Giulia",
+    "province": "UD",
+    "city": "Aquileia",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-aquileia"
+  },
+  {
+    "name": "Museo archeologico nazionale di Cividale del Friuli",
+    "region": "Friuli-Venezia Giulia",
+    "province": "UD",
+    "city": "Cividale del Friuli",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-cividale-del-friuli"
+  },
+  {
+    "name": "Abbazia di Casamari",
+    "region": "Lazio",
+    "province": "FR",
+    "city": "Veroli",
+    "url": "https://cultura.gov.it/luogo/abbazia-di-casamari"
+  },
+  {
+    "name": "Casa di San Tommaso D'Aquino",
+    "region": "Lazio",
+    "province": "FR",
+    "city": "Aquino",
+    "url": "https://cultura.gov.it/luogo/casa-di-san-tommaso-d-aquino"
+  },
+  {
+    "name": "Certosa di Trisulti",
+    "region": "Lazio",
+    "province": "FR",
+    "city": "Collepardo",
+    "url": "https://cultura.gov.it/luogo/certosa-di-trisulti"
+  },
+  {
+    "name": "Parco archeologico di Casinum e Museo archeologico nazionale \"G. Carettoni\"",
+    "region": "Lazio",
+    "province": "FR",
+    "city": "Cassino",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-g-carettoni-e-area-archeologica-di-casinum"
+  },
+  {
+    "name": "Torre di Cicerone",
+    "region": "Lazio",
+    "province": "FR",
+    "city": "Arpino",
+    "url": "https://cultura.gov.it/luogo/torre-di-cicerone"
+  },
+  {
+    "name": "Abbazia di Fossanova",
+    "region": "Lazio",
+    "province": "LT",
+    "city": "Priverno",
+    "url": "https://cultura.gov.it/luogo/abbazia-di-fossanova"
+  },
+  {
+    "name": "Cappella dell'Annunziata",
+    "region": "Lazio",
+    "province": "LT",
+    "city": "Cori",
+    "url": "https://cultura.gov.it/luogo/cappella-della-ss-annunziata"
+  },
+  {
+    "name": "Museo archeologico nazionale di Formia",
+    "region": "Lazio",
+    "province": "LT",
+    "city": "Formia",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-formia"
+  },
+  {
+    "name": "Museo archeologico nazionale di Sperlonga e Area archeologica",
+    "region": "Lazio",
+    "province": "LT",
+    "city": "Sperlonga",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-sperlonga-e-area-archeologica"
+  },
+  {
+    "name": "Parco archeologico di Minturnae e Ponte Real Ferdinando",
+    "region": "Lazio",
+    "province": "LT",
+    "city": "Minturno",
+    "url": "https://cultura.gov.it/luogo/comprensorio-archeologico-e-antiquarium-di-minturnae-e-ponte-real-ferdinando"
+  },
+  {
+    "name": "Tomba di Cicerone",
+    "region": "Lazio",
+    "province": "LT",
+    "city": "Formia",
+    "url": "https://cultura.gov.it/luogo/tomba-di-cicerone"
+  },
+  {
+    "name": "Abbazia Greca di San Nilo",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Grottaferrata",
+    "url": "https://cultura.gov.it/luogo/abbazia-greca-di-san-nilo"
+  },
+  {
+    "name": "Antiquarium e Area archeologica di Lucus Feroniae",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Capena",
+    "url": "https://cultura.gov.it/luogo/antiquarium-e-area-archeologica-di-lucus-feroniae"
+  },
+  {
+    "name": "Arco di Malborghetto",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Roma",
+    "url": "https://cultura.gov.it/luogo/arco-di-malborghetto"
+  },
+  {
+    "name": "Casa Museo Boncompagni Ludovisi",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Roma",
+    "url": "https://cultura.gov.it/luogo/casa-museo-boncompagni-ludovisi"
+  },
+  {
+    "name": "Casa Museo Hendrik Christian Andersen",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Roma",
+    "url": "https://cultura.gov.it/luogo/casa-museo-hendrik-christian-andersen"
+  },
+  {
+    "name": "Casa Museo Mario Praz",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Roma",
+    "url": "https://cultura.gov.it/luogo/casa-museo-mario-praz"
+  },
+  {
+    "name": "Casa Pasolini",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Roma",
+    "url": "https://cultura.gov.it/luogo/casa-pasolini"
+  },
+  {
+    "name": "Castel Sant'Angelo",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Roma",
+    "url": "https://cultura.gov.it/luogo/castel-santangelo"
+  },
+  {
+    "name": "Drugstore Museum e Circuito Necropoli Portuense",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Roma",
+    "url": "https://cultura.gov.it/luogo/drugstore-museum-e-circuito-necropoli-portuense"
+  },
+  {
+    "name": "Galleria Borghese",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Roma",
+    "url": "https://cultura.gov.it/luogo/museo-galleria-borghese"
+  },
+  {
+    "name": "Galleria nazionale d'arte moderna e contemporanea",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Roma",
+    "url": "https://cultura.gov.it/luogo/galleria-nazionale-d-arte-moderna-e-contemporanea-1"
+  },
+  {
+    "name": "Galleria Spada",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Roma",
+    "url": "https://cultura.gov.it/luogo/galleria-spada"
+  },
+  {
+    "name": "Gallerie nazionali di arte antica - Galleria Corsini",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Roma",
+    "url": "https://cultura.gov.it/luogo/gallerie-nazionali-di-arte-antica-galleria-corsini"
+  },
+  {
+    "name": "Gallerie nazionali di arte antica - Palazzo Barberini",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Roma",
+    "url": "https://cultura.gov.it/luogo/gallerie-nazionali-di-arte-antica-palazzo-barberini"
+  },
+  {
+    "name": "Monastero di San Benedetto Sacro Speco",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Subiaco",
+    "url": "https://cultura.gov.it/luogo/monastero-di-san-benedetto-sacro-speco"
+  },
+  {
+    "name": "Monastero di Santa Scolastica",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Subiaco",
+    "url": "https://cultura.gov.it/luogo/monastero-di-santa-scolastica"
+  },
+  {
+    "name": "Musei e Parchi archeologici di Praeneste e Gabii - Museo archeologico nazionale Prenestino, Santuario della Fortuna Primigenia e Foro di Praeneste",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Palestrina",
+    "url": "https://cultura.gov.it/luogo/musei-e-parchi-archeologici-di-praeneste-e-gabii-museo-archeologico-nazionale-prenestino-santuario-della-fortuna-primigenia-e-complesso-degli-edifici-del-foro-di-praeneste"
+  },
+  {
+    "name": "Museo archeologico dell'Abbazia greca di San Nilo",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Grottaferrata",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-dell-abbazia-greca-di-san-nilo"
+  },
+  {
+    "name": "Museo archeologico nazionale di Civitavecchia",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Civitavecchia",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-civitavecchia"
+  },
+  {
+    "name": "Museo delle Civiltà",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Roma",
+    "url": "https://cultura.gov.it/luogo/museo-delle-civilta-1"
+  },
+  {
+    "name": "Museo Giacomo Manzù",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Ardea",
+    "url": "https://cultura.gov.it/luogo/museo-giacomo-manzu"
+  },
+  {
+    "name": "Museo nazionale degli strumenti musicali",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Roma",
+    "url": "https://cultura.gov.it/luogo/museo-nazionale-degli-strumenti-musicali"
+  },
+  {
+    "name": "Museo nazionale etrusco di Villa Giulia",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Roma",
+    "url": "https://cultura.gov.it/luogo/museo-nazionale-etrusco-di-villa-giulia-1"
+  },
+  {
+    "name": "Museo nazionale romano - Palazzo Altemps",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Roma",
+    "url": "https://cultura.gov.it/luogo/museo-nazionale-romano-palazzo-altemps"
+  },
+  {
+    "name": "Museo nazionale romano - Palazzo Massimo",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Roma",
+    "url": "https://cultura.gov.it/luogo/museo-nazionale-romano-palazzo-massimo"
+  },
+  {
+    "name": "Museo nazionale romano - Terme di Diocleziano",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Roma",
+    "url": "https://cultura.gov.it/luogo/museo-nazionale-romano-terme-di-diocleziano"
+  },
+  {
+    "name": "Museo storico della Liberazione",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Roma",
+    "url": "https://cultura.gov.it/luogo/museo-storico-della-liberazione"
+  },
+  {
+    "name": "Pantheon e Basilica di Santa Maria ad Martyres",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Roma",
+    "url": "https://cultura.gov.it/luogo/pantheon"
+  },
+  {
+    "name": "Parco archeologica di Ostia antica - Castello Giulio II",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Roma",
+    "url": "https://cultura.gov.it/luogo/castello-di-giulio-ii"
+  },
+  {
+    "name": "Parco archeologico del Colosseo - Colosseo. Anfiteatro Flavio",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Roma",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-del-colosseo-colosseo-anfiteatro-flavio"
+  },
+  {
+    "name": "Parco archeologico del Colosseo - Foro Romano e Palatino",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Roma",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-del-colosseo-foro-romano-e-palatino"
+  },
+  {
+    "name": "Parco archeologico dell'Appia antica  - Mausoleo di Cecilia Metella e Chiesa di San Nicola",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Roma",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-dell-appia-antica-mausoleo-di-cecilia-metella-e-chiesa-di-san-nicola"
+  },
+  {
+    "name": "Parco archeologico dell'Appia antica - Antiquarium di Lucrezia Romana",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Roma",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-dell-appia-antica-antiquarium-di-lucrezia-romana"
+  },
+  {
+    "name": "Parco archeologico dell'Appia antica - Parco delle Tombe della via Latina e Basilica di Santo Stefano",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Roma",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-dell-appia-antica-parco-delle-tombe-della-via-latina-e-basilica-di-santo-stefano"
+  },
+  {
+    "name": "Parco archeologico dell'Appia antica - Villa dei Quintili e Santa Maria Nova",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Roma",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-dell-appia-antica-villa-dei-quintili-e-santa-maria-nova"
+  },
+  {
+    "name": "Parco archeologico dell'Appia antica - Villa di Capo di Bove",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Roma",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-dell-appia-antica-complesso-di-capo-di-bove"
+  },
+  {
+    "name": "Parco archeologico dell'Appia antica - Villa di Sette Bassi",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Roma",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-dell-appia-antica-villa-di-sette-bassi"
+  },
+  {
+    "name": "Parco archeologico di Cerveteri e Tarquinia - Museo nazionale archeologico cerite",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Cerveteri",
+    "url": "https://cultura.gov.it/luogo/museo-nazionale-archeologico-cerite"
+  },
+  {
+    "name": "Parco archeologico di Cerveteri e Tarquinia - Necropoli della Banditaccia",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Cerveteri",
+    "url": "https://cultura.gov.it/luogo/necropoli-della-banditaccia"
+  },
+  {
+    "name": "Parco archeologico di Ostia antica - Area archeologica di Ostia antica",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Roma",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-di-ostia-antica-area-archeologica-di-ostia-antica"
+  },
+  {
+    "name": "Parco archeologico di Ostia antica - Complesso degli antichi Porti di Claudio e Traiano",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Fiumicino",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-di-ostia-antica-area-archeologica-dei-porti-imperiali-di-claudio-e-traiano"
+  },
+  {
+    "name": "Parco archeologico di Ostia antica - Museo delle navi",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Fiumicino",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-di-ostia-antica-museo-delle-navi"
+  },
+  {
+    "name": "Parco archeologico di Ostia antica - Necropoli di Porto - Isola Sacra",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Fiumicino",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-di-ostia-antica-necropoli-di-porto-isola-sacra"
+  },
+  {
+    "name": "Terme di Caracalla",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Roma",
+    "url": "https://cultura.gov.it/luogo/terme-di-caracalla"
+  },
+  {
+    "name": "Terme Taurine o di Traiano",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Civitavecchia",
+    "url": "https://cultura.gov.it/luogo/terme-taurine-o-di-traiano"
+  },
+  {
+    "name": "Villa Adriana e Villa d'Este - Area archeologica di Villa Adriana",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Tivoli",
+    "url": "https://cultura.gov.it/luogo/villa-adriana-e-villa-d-este-area-archeologica-di-villa-adriana-1"
+  },
+  {
+    "name": "Villa Adriana e Villa d'Este - Santuario di Ercole Vincitore",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Tivoli",
+    "url": "https://cultura.gov.it/luogo/villa-adriana-e-villa-d-este-santuario-di-ercole-vincitore"
+  },
+  {
+    "name": "Villa Adriana e Villa d'Este - Villa d'Este",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Tivoli",
+    "url": "https://cultura.gov.it/luogo/villa-adriana-e-villa-d-este-villa-d-este"
+  },
+  {
+    "name": "Villa di Livia",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Roma",
+    "url": "https://cultura.gov.it/luogo/villa-di-livia"
+  },
+  {
+    "name": "Villa di Orazio",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Licenza",
+    "url": "https://cultura.gov.it/luogo/villa-di-orazio"
+  },
+  {
+    "name": "Vittoriano e Palazzo Venezia - Museo centrale del Risorgimento di Roma",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Roma",
+    "url": "https://cultura.gov.it/luogo/museo-centrale-del-risorgimento-di-roma"
+  },
+  {
+    "name": "Vittoriano e Palazzo Venezia - Museo nazionale del Palazzo di Venezia",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Roma",
+    "url": "https://cultura.gov.it/luogo/museo-nazionale-del-palazzo-di-venezia"
+  },
+  {
+    "name": "Vittoriano e Palazzo Venezia - Vittoriano",
+    "region": "Lazio",
+    "province": "RM",
+    "city": "Roma",
+    "url": "https://cultura.gov.it/luogo/monumento-a-vittorio-emanuele-ii-vittoriano"
+  },
+  {
+    "name": "Area archeologica antica città di Ferento",
+    "region": "Lazio",
+    "province": "VT",
+    "city": "Viterbo",
+    "url": "https://cultura.gov.it/luogo/area-archeologica-antica-citta-di-ferento"
+  },
+  {
+    "name": "Area archeologica di Volsini",
+    "region": "Lazio",
+    "province": "VT",
+    "city": "Bolsena",
+    "url": "https://cultura.gov.it/luogo/area-archeologica-di-volsini"
+  },
+  {
+    "name": "Basilica di San Francesco - Viterbo",
+    "region": "Lazio",
+    "province": "VT",
+    "city": "Viterbo",
+    "url": "https://cultura.gov.it/luogo/basilica-di-san-francesco-alla-rocca"
+  },
+  {
+    "name": "Chiesa di San Pietro",
+    "region": "Lazio",
+    "province": "VT",
+    "city": "Tuscania",
+    "url": "https://cultura.gov.it/luogo/chiesa-di-san-pietro"
+  },
+  {
+    "name": "Chiesa di Santa Maria Maggiore di Tuscania",
+    "region": "Lazio",
+    "province": "VT",
+    "city": "Tuscania",
+    "url": "https://cultura.gov.it/luogo/chiesa-di-santa-maria-maggiore-di-tuscania"
+  },
+  {
+    "name": "Museo archeologico dell'Agro Falisco e Forte Sangallo",
+    "region": "Lazio",
+    "province": "VT",
+    "city": "Civita Castellana",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-dell-agro-falisco-forte-sangallo"
+  },
+  {
+    "name": "Museo archeologico di Vulci",
+    "region": "Lazio",
+    "province": "VT",
+    "city": "Canino",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-vulci"
+  },
+  {
+    "name": "Museo archeologico nazionale di Tuscania",
+    "region": "Lazio",
+    "province": "VT",
+    "city": "Tuscania",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-tuscania"
+  },
+  {
+    "name": "Museo nazionale etrusco di Rocca Albornoz",
+    "region": "Lazio",
+    "province": "VT",
+    "city": "Viterbo",
+    "url": "https://cultura.gov.it/luogo/museo-nazionale-etrusco-rocca-albornoz"
+  },
+  {
+    "name": "Palazzo Altieri",
+    "region": "Lazio",
+    "province": "VT",
+    "city": "Oriolo Romano",
+    "url": "https://cultura.gov.it/luogo/palazzo-altieri"
+  },
+  {
+    "name": "Palazzo Farnese",
+    "region": "Lazio",
+    "province": "VT",
+    "city": "Caprarola",
+    "url": "https://cultura.gov.it/luogo/palazzo-farnese"
+  },
+  {
+    "name": "Parco archeologico di Cerveteri e Tarquinia - Museo archeologico nazionale di Tarquinia",
+    "region": "Lazio",
+    "province": "VT",
+    "city": "Tarquinia",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-tarquinia"
+  },
+  {
+    "name": "Parco archeologico di Cerveteri e Tarquinia - Necropoli dei Monterozzi di Tarquinia",
+    "region": "Lazio",
+    "province": "VT",
+    "city": "Tarquinia",
+    "url": "https://cultura.gov.it/luogo/necropoli-dei-monterozzi-di-tarquinia"
+  },
+  {
+    "name": "Santuario Madonna della Quercia",
+    "region": "Lazio",
+    "province": "VT",
+    "city": "Viterbo",
+    "url": "https://cultura.gov.it/luogo/santuario-madonna-della-quercia"
+  },
+  {
+    "name": "Villa Lante Bagnaia",
+    "region": "Lazio",
+    "province": "VT",
+    "city": "Viterbo",
+    "url": "https://cultura.gov.it/luogo/villa-lante"
+  },
+  {
+    "name": "Musei nazionali di Genova - Galleria nazionale di Palazzo Spinola",
+    "region": "Liguria",
+    "province": "GE",
+    "city": "Genova",
+    "url": "https://cultura.gov.it/luogo/galleria-nazionale-di-palazzo-spinola"
+  },
+  {
+    "name": "Musei nazionali di Genova - Palazzo Reale di Genova",
+    "region": "Liguria",
+    "province": "GE",
+    "city": "Genova",
+    "url": "https://cultura.gov.it/luogo/musei-nazionali-di-genova-palazzo-reale-di-genova"
+  },
+  {
+    "name": "Area archeologica di Nervia",
+    "region": "Liguria",
+    "province": "IM",
+    "city": "Ventimiglia",
+    "url": "https://cultura.gov.it/luogo/area-archeologica-di-nervia"
+  },
+  {
+    "name": "Museo preistorico dei \"Balzi Rossi\" e zona archeologica",
+    "region": "Liguria",
+    "province": "IM",
+    "city": "Ventimiglia",
+    "url": "https://cultura.gov.it/luogo/museo-preistorico-dei-balzi-rossi-e-zona-archeologica"
+  },
+  {
+    "name": "Castello di San Terenzo",
+    "region": "Liguria",
+    "province": "SP",
+    "city": "Lerici",
+    "url": "https://cultura.gov.it/luogo/castello-di-san-terenzo"
+  },
+  {
+    "name": "Museo nazionale e parco archeologico di Luni",
+    "region": "Liguria",
+    "province": "SP",
+    "city": "Ortonovo",
+    "url": "https://cultura.gov.it/luogo/museo-nazionale-e-parco-archeologico-di-luni"
+  },
+  {
+    "name": "Villa romana del Varignano",
+    "region": "Liguria",
+    "province": "SP",
+    "city": "Portovenere",
+    "url": "https://cultura.gov.it/luogo/villa-romana-del-varignano"
+  },
+  {
+    "name": "Forte San Giovanni",
+    "region": "Liguria",
+    "province": "SV",
+    "city": "Finale Ligure",
+    "url": "https://cultura.gov.it/luogo/forte-san-giovanni"
+  },
+  {
+    "name": "Villa Rosa, Museo dell'Arte Vetraria Altarese",
+    "region": "Liguria",
+    "province": "SV",
+    "city": "Altare",
+    "url": "https://cultura.gov.it/luogo/villa-rosa-museo-dell-arte-vetraria-altarese"
+  },
+  {
+    "name": "Grotte di Catullo e Museo archeologico di Sirmione",
+    "region": "Lombardia",
+    "province": "BS",
+    "city": "Sirmione",
+    "url": "https://cultura.gov.it/luogo/grotte-di-catullo-e-museo-archeologico-di-sirmione"
+  },
+  {
+    "name": "MUPRE - Museo Nazionale della Preistoria della Valle Camonica",
+    "region": "Lombardia",
+    "province": "BS",
+    "city": "Capo di Ponte",
+    "url": "https://cultura.gov.it/luogo/mupre-museo-nazionale-della-preistoria-della-valle-camonica"
+  },
+  {
+    "name": "Museo archeologico nazionale della Valle Camonica",
+    "region": "Lombardia",
+    "province": "BS",
+    "city": "Cividate Camuno",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-della-valle-camonica"
+  },
+  {
+    "name": "Parco archeologico del teatro e dell’anfiteatro di Cividate Camuno",
+    "region": "Lombardia",
+    "province": "BS",
+    "city": "Cividate Camuno",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-del-teatro-e-dell-anfiteatro-di-cividate-camuno"
+  },
+  {
+    "name": "Parco archeologico nazionale dei Massi di Cemmo",
+    "region": "Lombardia",
+    "province": "BS",
+    "city": "Capo di Ponte",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-nazionale-dei-massi-di-cemmo"
+  },
+  {
+    "name": "Parco nazionale delle Incisioni rupestri",
+    "region": "Lombardia",
+    "province": "BS",
+    "city": "Capo di Ponte",
+    "url": "https://cultura.gov.it/luogo/parco-nazionale-delle-incisioni-rupestri"
+  },
+  {
+    "name": "Santuario di Minerva di Breno",
+    "region": "Lombardia",
+    "province": "BS",
+    "city": "Breno",
+    "url": "https://cultura.gov.it/luogo/santuario-di-minerva-di-breno"
+  },
+  {
+    "name": "Villa Romana e Antiquarium",
+    "region": "Lombardia",
+    "province": "BS",
+    "city": "Desenzano del Garda",
+    "url": "https://cultura.gov.it/luogo/villa-romana-e-antiquarium"
+  },
+  {
+    "name": "Villa Romana e Antiquarium di Palazzo Pignano",
+    "region": "Lombardia",
+    "province": "CR",
+    "city": "Cremona",
+    "url": "https://cultura.gov.it/luogo/villa-romana-e-antiquarium-di-palazzo-pignano"
+  },
+  {
+    "name": "Museo Archeologico Nazionale di Mantova",
+    "region": "Lombardia",
+    "province": "MN",
+    "city": "Mantova",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-mantova"
+  },
+  {
+    "name": "Museo di Palazzo Ducale di Mantova",
+    "region": "Lombardia",
+    "province": "MN",
+    "city": "Mantova",
+    "url": "https://cultura.gov.it/luogo/palazzo-ducale-di-mantova-1"
+  },
+  {
+    "name": "Cenacolo Vinciano",
+    "region": "Lombardia",
+    "province": "MI",
+    "city": "Milano",
+    "url": "https://cultura.gov.it/luogo/museo-del-cenacolo-vinciano"
+  },
+  {
+    "name": "Pinacoteca di Brera",
+    "region": "Lombardia",
+    "province": "MI",
+    "city": "Milano",
+    "url": "https://cultura.gov.it/luogo/pinacoteca-di-brera-1"
+  },
+  {
+    "name": "Cappella Espiatoria",
+    "region": "Lombardia",
+    "province": "MB",
+    "city": "Monza",
+    "url": "https://cultura.gov.it/luogo/cappella-espiatoria"
+  },
+  {
+    "name": "Complesso Monumentale e Museo della Certosa di Pavia",
+    "region": "Lombardia",
+    "province": "PV",
+    "city": "Certosa di Pavia",
+    "url": "https://cultura.gov.it/luogo/complesso-monumentale-e-museo-della-certosa-di-pavia"
+  },
+  {
+    "name": "Museo archeologico nazionale della Lomellina",
+    "region": "Lombardia",
+    "province": "PV",
+    "city": "Vigevano",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-della-lomellina"
+  },
+  {
+    "name": "Palazzo Besta",
+    "region": "Lombardia",
+    "province": "SO",
+    "city": "Teglio",
+    "url": "https://cultura.gov.it/luogo/museo-di-palazzo-besta"
+  },
+  {
+    "name": "Parco delle incisioni rupestri con Rupe Magna di Grosio",
+    "region": "Lombardia",
+    "province": "SO",
+    "city": "Grosio",
+    "url": "https://cultura.gov.it/luogo/parco-delle-incisioni-rupestri-con-rupe-magna-di-grosio"
+  },
+  {
+    "name": "Antiquarium statale di Numana",
+    "region": "Marche",
+    "province": "AN",
+    "city": "Numana",
+    "url": "https://cultura.gov.it/luogo/antiquarium-statale-di-numana"
+  },
+  {
+    "name": "Museo archeologico nazionale delle Marche",
+    "region": "Marche",
+    "province": "AN",
+    "city": "Ancona",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-delle-marche"
+  },
+  {
+    "name": "Museo archeologico nazionale di Arcevia",
+    "region": "Marche",
+    "province": "AN",
+    "city": "Arcevia",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-arcevia"
+  },
+  {
+    "name": "Rocca Roveresca di Senigallia",
+    "region": "Marche",
+    "province": "AN",
+    "city": "Senigallia",
+    "url": "https://cultura.gov.it/luogo/rocca-roveresca-di-senigallia"
+  },
+  {
+    "name": "Museo archeologico nazionale di Ascoli Piceno",
+    "region": "Marche",
+    "province": "AP",
+    "city": "Ascoli Piceno",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-ascoli-piceno"
+  },
+  {
+    "name": "Museo archeologico nazionale di Cingoli Moscosi",
+    "region": "Marche",
+    "province": "MC",
+    "city": "Cingoli",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-cingoli"
+  },
+  {
+    "name": "Museo archeologico nazionale e Parco archeologico di Urbs Salvia",
+    "region": "Marche",
+    "province": "MC",
+    "city": "Urbisaglia",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-e-parco-archeologico-di-urbs-salvia"
+  },
+  {
+    "name": "Palazzo Ducale di Urbino - Galleria nazionale delle Marche",
+    "region": "Marche",
+    "province": "PU",
+    "city": "Urbino",
+    "url": "https://cultura.gov.it/luogo/palazzo-ducale-di-urbino-galleria-nazionale-delle-marche-1-"
+  },
+  {
+    "name": "Rocca di Gradara",
+    "region": "Marche",
+    "province": "PU",
+    "city": "Gradara",
+    "url": "https://cultura.gov.it/luogo/rocca-di-gradara"
+  },
+  {
+    "name": "Castello di Capua",
+    "region": "Molise",
+    "province": "CB",
+    "city": "Gambatesa",
+    "url": "https://cultura.gov.it/luogo/castello-di-capua"
+  },
+  {
+    "name": "Castello di Civitacampomarano",
+    "region": "Molise",
+    "province": "CB",
+    "city": "Civitacampomarano",
+    "url": "https://cultura.gov.it/luogo/castello-di-civitacampomarano"
+  },
+  {
+    "name": "Museo in Palazzo Pistilli",
+    "region": "Molise",
+    "province": "CB",
+    "city": "Campobasso",
+    "url": "https://cultura.gov.it/luogo/museo-palazzo-pistilli"
+  },
+  {
+    "name": "Parco archeologico di Sepino - Area archeologica di Altilia-Saepinum",
+    "region": "Molise",
+    "province": "CB",
+    "city": "Sepino",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-di-sepino-area-archeologica-di-altilia-saepinum"
+  },
+  {
+    "name": "Parco archeologico di Sepino - Museo della città e del territorio",
+    "region": "Molise",
+    "province": "CB",
+    "city": "Sepino",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-di-sepino-museo-della-citta-e-del-territorio"
+  },
+  {
+    "name": "Anfiteatro verlasce",
+    "region": "Molise",
+    "province": "IS",
+    "city": "Venafro",
+    "url": "https://cultura.gov.it/luogo/anfiteatro-verlasce"
+  },
+  {
+    "name": "Complesso monumentale di San Vincenzo al Volturno",
+    "region": "Molise",
+    "province": "IS",
+    "city": "Castel San Vincenzo",
+    "url": "https://cultura.gov.it/luogo/complesso-monumentale-di-san-vincenzo-al-volturno-1"
+  },
+  {
+    "name": "Museo archeologico di Santa Maria delle Monache",
+    "region": "Molise",
+    "province": "IS",
+    "city": "Isernia",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-santa-maria-delle-monache"
+  },
+  {
+    "name": "Museo archeologico nazionale di Venafro",
+    "region": "Molise",
+    "province": "IS",
+    "city": "Venafro",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-di-venafro"
+  },
+  {
+    "name": "Museo nazionale del Paleolitico di Isernia",
+    "region": "Molise",
+    "province": "IS",
+    "city": "Isernia",
+    "url": "https://cultura.gov.it/luogo/museo-nazionale-del-paleolitico-di-isernia"
+  },
+  {
+    "name": "Museo nazionale di Castello Pandone",
+    "region": "Molise",
+    "province": "IS",
+    "city": "Venafro",
+    "url": "https://cultura.gov.it/luogo/museo-nazionale-di-castello-pandone"
+  },
+  {
+    "name": "Santuario italico",
+    "region": "Molise",
+    "province": "IS",
+    "city": "Pietrabbondante",
+    "url": "https://cultura.gov.it/luogo/santuario-italico"
+  },
+  {
+    "name": "Area archeologica di Libarna",
+    "region": "Piemonte",
+    "province": "AL",
+    "city": "Serravalle Scrivia",
+    "url": "https://cultura.gov.it/luogo/area-archeologica-di-libarna"
+  },
+  {
+    "name": "Abbazia di Vezzolano",
+    "region": "Piemonte",
+    "province": "AT",
+    "city": "Albugnano",
+    "url": "https://cultura.gov.it/luogo/abbazia-di-vezzolano"
+  },
+  {
+    "name": "Area archeologica di Augusta Bagiennorum",
+    "region": "Piemonte",
+    "province": "CN",
+    "city": "Bene Vagienna",
+    "url": "https://cultura.gov.it/luogo/area-archeologica-di-augusta-bagiennorum"
+  },
+  {
+    "name": "Residenze reali sabaude - Complesso monumentale del Castello e Parco di Racconigi",
+    "region": "Piemonte",
+    "province": "CN",
+    "city": "Racconigi",
+    "url": "https://cultura.gov.it/luogo/complesso-monumentale-del-castello-e-parco-di-racconigi"
+  },
+  {
+    "name": "Abbazia di Fruttuaria",
+    "region": "Piemonte",
+    "province": "TO",
+    "city": "San Benigno Canavese",
+    "url": "https://cultura.gov.it/luogo/abbazia-di-fruttuaria"
+  },
+  {
+    "name": "Area archeologica della città romana di Industria",
+    "region": "Piemonte",
+    "province": "TO",
+    "city": "Monteu da Po",
+    "url": "https://cultura.gov.it/luogo/area-archeologica-della-citta-romana-di-industria"
+  },
+  {
+    "name": "Musei reali di Torino",
+    "region": "Piemonte",
+    "province": "TO",
+    "city": "Torino",
+    "url": "https://cultura.gov.it/luogo/musei-reali-di-torino"
+  },
+  {
+    "name": "Residenze reali sabaude - Complesso monumentale del Castello Ducale, giardino e parco di Aglié",
+    "region": "Piemonte",
+    "province": "TO",
+    "city": "Agliè",
+    "url": "https://cultura.gov.it/luogo/complesso-monumentale-del-castello-ducale-del-giardino-e-parco-di-aglie"
+  },
+  {
+    "name": "Residenze reali sabaude - Palazzo Carignano",
+    "region": "Piemonte",
+    "province": "TO",
+    "city": "Torino",
+    "url": "https://cultura.gov.it/luogo/palazzo-carignano"
+  },
+  {
+    "name": "Residenze reali sabaude - Villa della Regina",
+    "region": "Piemonte",
+    "province": "TO",
+    "city": "Torino",
+    "url": "https://cultura.gov.it/luogo/villa-della-regina"
+  },
+  {
+    "name": "Castello svevo di Bari",
+    "region": "Puglia",
+    "province": "BA",
+    "city": "Bari",
+    "url": "https://cultura.gov.it/luogo/castello-svevo-di-bari"
+  },
+  {
+    "name": "Galleria nazionale della Puglia \"Girolamo e Rosaria Devanna\"",
+    "region": "Puglia",
+    "province": "BA",
+    "city": "Bitonto",
+    "url": "https://cultura.gov.it/luogo/galleria-nazionale-della-puglia-girolamo-e-rosaria-devanna"
+  },
+  {
+    "name": "Museo  archeologico nazionale di Altamura",
+    "region": "Puglia",
+    "province": "BA",
+    "city": "Altamura",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-altamura"
+  },
+  {
+    "name": "Museo archeologico nazionale e Castello di Gioia del Colle",
+    "region": "Puglia",
+    "province": "BA",
+    "city": "Gioia del Colle",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-e-castello"
+  },
+  {
+    "name": "Museo nazionale Jatta",
+    "region": "Puglia",
+    "province": "BA",
+    "city": "Ruvo di Puglia",
+    "url": "https://cultura.gov.it/luogo/museo-nazionale-jatta"
+  },
+  {
+    "name": "Palazzo Simi - Centro operativo per l'Archeologia",
+    "region": "Puglia",
+    "province": "BA",
+    "city": "Bari",
+    "url": "https://cultura.gov.it/luogo/palazzo-simi-centro-operativo-per-l-archeologia"
+  },
+  {
+    "name": "Parco archeologico di Monte Sannace",
+    "region": "Puglia",
+    "province": "BA",
+    "city": "Gioia del Colle",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-di-monte-sannace"
+  },
+  {
+    "name": "Castel del Monte",
+    "region": "Puglia",
+    "province": "BT",
+    "city": "Andria",
+    "url": "https://cultura.gov.it/luogo/castel-del-monte"
+  },
+  {
+    "name": "Castello svevo di Trani",
+    "region": "Puglia",
+    "province": "BT",
+    "city": "Trani",
+    "url": "https://cultura.gov.it/luogo/castello-svevo-di-trani"
+  },
+  {
+    "name": "Museo archeologico nazionale di Canosa di Puglia",
+    "region": "Puglia",
+    "province": "BT",
+    "city": "Canosa di Puglia",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-canosa-di-puglia"
+  },
+  {
+    "name": "Parco archeologico di Canne della Battaglia e Antiquarium",
+    "region": "Puglia",
+    "province": "BT",
+    "city": "Barletta",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-di-canne-della-battaglia-e-antiquarium"
+  },
+  {
+    "name": "Museo archeologico nazionale “Giuseppe Andreassi” e Parco archeologico di Egnazia",
+    "region": "Puglia",
+    "province": "BR",
+    "city": "Fasano",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-giuseppe-andreassi-e-parco-archeologico-di-egnazia"
+  },
+  {
+    "name": "Museo archeologico nazionale di Mattinata \"Matteo Sansone\"",
+    "region": "Puglia",
+    "province": "FG",
+    "city": "Mattinata",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-mattinata-matteo-sansone"
+  },
+  {
+    "name": "Museo nazionale archeologico e Castello di Manfredonia",
+    "region": "Puglia",
+    "province": "FG",
+    "city": "Manfredonia",
+    "url": "https://cultura.gov.it/luogo/museo-nazionale-archeologico-e-castello"
+  },
+  {
+    "name": "Parco archeologico di Siponto",
+    "region": "Puglia",
+    "province": "FG",
+    "city": "Manfredonia",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-di-siponto"
+  },
+  {
+    "name": "Castello Angioino di Copertino",
+    "region": "Puglia",
+    "province": "LE",
+    "city": "Copertino",
+    "url": "https://cultura.gov.it/luogo/castello-di-copertino"
+  },
+  {
+    "name": "Museo archeologico nazionale di Taranto - MArTA",
+    "region": "Puglia",
+    "province": "TA",
+    "city": "Taranto",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-taranto-marta"
+  },
+  {
+    "name": "Basilica di San Saturnino",
+    "region": "Sardegna",
+    "province": "CA",
+    "city": "Cagliari",
+    "url": "https://cultura.gov.it/luogo/basilica-di-san-saturnino"
+  },
+  {
+    "name": "Museo archeologico nazionale di Cagliari",
+    "region": "Sardegna",
+    "province": "CA",
+    "city": "Cagliari",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-cagliari-1"
+  },
+  {
+    "name": "Pinacoteca nazionale di Cagliari",
+    "region": "Sardegna",
+    "province": "CA",
+    "city": "Cagliari",
+    "url": "https://cultura.gov.it/luogo/pinacoteca-nazionale-di-cagliari"
+  },
+  {
+    "name": "Museo nazionale \"Memoriale Giuseppe Garibaldi\"",
+    "region": "Sardegna",
+    "province": "OT",
+    "city": "La Maddalena",
+    "url": "https://cultura.gov.it/luogo/museo-nazionale-memoriale-giuseppe-garibaldi"
+  },
+  {
+    "name": "Compendio garibaldino di Caprera",
+    "region": "Sardegna",
+    "province": "SS",
+    "city": "Sassari",
+    "url": "https://cultura.gov.it/luogo/compendio-garibaldino-di-caprera"
+  },
+  {
+    "name": "Direzione regionale Musei nazionali Sardegna",
+    "region": "Sardegna",
+    "province": "SS",
+    "city": "Sassari",
+    "url": "https://cultura.gov.it/luogo/direzione-regionale-musei-nazionali-sardegna"
+  },
+  {
+    "name": "Museo nazionale archeologico ed etnografico \"Giovanni Antonio Sanna\"",
+    "region": "Sardegna",
+    "province": "SS",
+    "city": "Sassari",
+    "url": "https://cultura.gov.it/luogo/museo-nazionale-archeologico-ed-etnografico-giovanni-antonio-sanna"
+  },
+  {
+    "name": "Pinacoteca nazionale di Sassari",
+    "region": "Sardegna",
+    "province": "SS",
+    "city": "Sassari",
+    "url": "https://cultura.gov.it/luogo/pinacoteca-nazionale-di-sassari"
+  },
+  {
+    "name": "Santuario preistorico di Monte d'Accoddi",
+    "region": "Sardegna",
+    "province": "SS",
+    "city": "Sassari",
+    "url": "https://cultura.gov.it/luogo/santuario-preistorico-di-monte-daccoddi"
+  },
+  {
+    "name": "Museo archeologico nazionale “Gaio Cilnio Mecenate”",
+    "region": "Toscana",
+    "province": "AR",
+    "city": "Arezzo",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-gaio-cilnio-mecenate"
+  },
+  {
+    "name": "Museo delle arti e tradizioni popolari dell’Alta valle del Tevere - Palazzo Taglieschi",
+    "region": "Toscana",
+    "province": "AR",
+    "city": "Anghiari",
+    "url": "https://cultura.gov.it/luogo/museo-delle-arti-e-tradizioni-popolari-dell-alta-valle-del-tevere-palazzo-taglieschi"
+  },
+  {
+    "name": "Museo di Casa Vasari",
+    "region": "Toscana",
+    "province": "AR",
+    "city": "Arezzo",
+    "url": "https://cultura.gov.it/luogo/museo-di-casa-vasari"
+  },
+  {
+    "name": "Museo nazionale d'arte medievale e moderna",
+    "region": "Toscana",
+    "province": "AR",
+    "city": "Arezzo",
+    "url": "https://cultura.gov.it/luogo/museo-nazionale-d-arte-medievale-e-moderna"
+  },
+  {
+    "name": "Cenacolo di Andrea del Sarto a San Salvi",
+    "region": "Toscana",
+    "province": "FI",
+    "city": "Firenze",
+    "url": "https://cultura.gov.it/luogo/cenacolo-di-andrea-del-sarto-a-san-salvi"
+  },
+  {
+    "name": "Cenacolo di Sant'Apollonia",
+    "region": "Toscana",
+    "province": "FI",
+    "city": "Firenze",
+    "url": "https://cultura.gov.it/luogo/cenacolo-di-sant-apollonia"
+  },
+  {
+    "name": "Galleria dell'Accademia di Firenze",
+    "region": "Toscana",
+    "province": "FI",
+    "city": "Firenze",
+    "url": "https://cultura.gov.it/luogo/galleria-dell-accademia-di-firenze-1"
+  },
+  {
+    "name": "Gallerie degli Uffizi - Cappella palatina di Palazzo Pitti",
+    "region": "Toscana",
+    "province": "FI",
+    "city": "Firenze",
+    "url": "https://cultura.gov.it/luogo/gallerie-degli-uffizi-cappella-palatina-di-palazzo-pitti"
+  },
+  {
+    "name": "Gallerie degli Uffizi - Corridoio Vasariano",
+    "region": "Toscana",
+    "province": "FI",
+    "city": "Firenze",
+    "url": "https://cultura.gov.it/luogo/gallerie-degli-uffizi-corridoio-vasariano"
+  },
+  {
+    "name": "Gallerie degli Uffizi - Galleria del costume (Palazzo Pitti)",
+    "region": "Toscana",
+    "province": "FI",
+    "city": "Firenze",
+    "url": "https://cultura.gov.it/luogo/gallerie-degli-uffizi-museo-della-moda-e-del-costume-palazzo-pitti"
+  },
+  {
+    "name": "Gallerie degli Uffizi - Galleria palatina e appartamenti monumentali di Palazzo Pitti",
+    "region": "Toscana",
+    "province": "FI",
+    "city": "Firenze",
+    "url": "https://cultura.gov.it/luogo/gallerie-degli-uffizi-galleria-palatina-e-appartamenti-reali-e-imperiali-palazzo-pitti"
+  },
+  {
+    "name": "Gallerie degli Uffizi - Giardino delle Scuderie reali e Pagliere",
+    "region": "Toscana",
+    "province": "FI",
+    "city": "Firenze",
+    "url": "https://cultura.gov.it/luogo/gallerie-degli-uffizi-giardino-delle-scuderie-reali-e-pagliere"
+  },
+  {
+    "name": "Gallerie degli Uffizi - Giardino di Boboli",
+    "region": "Toscana",
+    "province": "FI",
+    "city": "Firenze",
+    "url": "https://cultura.gov.it/luogo/gallerie-degli-uffizi-giardino-di-boboli"
+  },
+  {
+    "name": "Gallerie degli Uffizi - Palazzo Pitti",
+    "region": "Toscana",
+    "province": "FI",
+    "city": "Firenze",
+    "url": "https://cultura.gov.it/luogo/gallerie-degli-uffizi-palazzo-pitti"
+  },
+  {
+    "name": "Gallerie degli Uffizi - Tesoro dei Granduchi (Palazzo Pitti)",
+    "region": "Toscana",
+    "province": "FI",
+    "city": "Firenze",
+    "url": "https://cultura.gov.it/luogo/gallerie-degli-uffizi-tesoro-dei-granduchi-palazzo-pitti"
+  },
+  {
+    "name": "Gallerie degli Uffizi – Galleria d’arte moderna (Palazzo Pitti)",
+    "region": "Toscana",
+    "province": "FI",
+    "city": "Firenze",
+    "url": "https://cultura.gov.it/luogo/gallerie-degli-uffizi-galleria-d-arte-moderna-palazzo-pitti"
+  },
+  {
+    "name": "Gallerie degli Uffizi – Gli Uffizi",
+    "region": "Toscana",
+    "province": "FI",
+    "city": "Firenze",
+    "url": "https://cultura.gov.it/luogo/gallerie-degli-uffizi-gli-uffizi"
+  },
+  {
+    "name": "Giardino della Villa a Castello",
+    "region": "Toscana",
+    "province": "FI",
+    "city": "Firenze",
+    "url": "https://cultura.gov.it/luogo/giardino-della-villa-medicea-di-castello"
+  },
+  {
+    "name": "Giardino di Villa Il Ventaglio",
+    "region": "Toscana",
+    "province": "FI",
+    "city": "Firenze",
+    "url": "https://cultura.gov.it/luogo/parco-di-villa-il-ventaglio"
+  },
+  {
+    "name": "Musei del Bargello - Cappelle Medicee",
+    "region": "Toscana",
+    "province": "FI",
+    "city": "Firenze",
+    "url": "https://cultura.gov.it/luogo/musei-del-bargello-museo-delle-cappelle-medicee"
+  },
+  {
+    "name": "Musei del Bargello - Chiesa e Museo di Orsanmichele",
+    "region": "Toscana",
+    "province": "FI",
+    "city": "Firenze",
+    "url": "https://cultura.gov.it/luogo/musei-del-bargello-chiesa-e-museo-di-orsanmichele"
+  },
+  {
+    "name": "Musei del Bargello - Museo nazionale del Bargello",
+    "region": "Toscana",
+    "province": "FI",
+    "city": "Firenze",
+    "url": "https://cultura.gov.it/luogo/musei-del-bargello-museo-nazionale-del-bargello"
+  },
+  {
+    "name": "Museo archeologico nazionale di Firenze",
+    "region": "Toscana",
+    "province": "FI",
+    "city": "Firenze",
+    "url": "https://cultura.gov.it/luogo/maf-museo-archeologico-nazionale-di-firenze"
+  },
+  {
+    "name": "Museo di San Marco",
+    "region": "Toscana",
+    "province": "FI",
+    "city": "Firenze",
+    "url": "https://cultura.gov.it/luogo/museo-di-san-marco"
+  },
+  {
+    "name": "Villa medicea della Petraia",
+    "region": "Toscana",
+    "province": "FI",
+    "city": "Firenze",
+    "url": "https://cultura.gov.it/luogo/villa-medicea-della-petraia"
+  },
+  {
+    "name": "Villa medicea di Cerreto Guidi e Museo storico della caccia e del Territorio",
+    "region": "Toscana",
+    "province": "FI",
+    "city": "Cerreto Guidi",
+    "url": "https://cultura.gov.it/luogo/villa-medicea-di-cerreto-guidi-e-museo-storico-della-caccia-e-del-territorio"
+  },
+  {
+    "name": "Museo archeologico nazionale e Parco archeologico di Cosa",
+    "region": "Toscana",
+    "province": "GR",
+    "city": "Orbetello",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-e-area-archeologica-di-cosa"
+  },
+  {
+    "name": "Parco archeologico di Roselle",
+    "region": "Toscana",
+    "province": "GR",
+    "city": "Grosseto",
+    "url": "https://cultura.gov.it/luogo/area-archeologica-di-roselle"
+  },
+  {
+    "name": "Parco archeologico di Vetulonia",
+    "region": "Toscana",
+    "province": "GR",
+    "city": "Castiglione della Pescaia",
+    "url": "https://cultura.gov.it/luogo/area-archeologica-di-vetulonia"
+  },
+  {
+    "name": "Museo archeologico statale di Castiglioncello",
+    "region": "Toscana",
+    "province": "LI",
+    "city": "Rosignano Marittimo",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-castiglioncello"
+  },
+  {
+    "name": "Museo nazionale delle residenze Napoleoniche \"Villa di San Martino\"",
+    "region": "Toscana",
+    "province": "LI",
+    "city": "Portoferraio",
+    "url": "https://cultura.gov.it/luogo/museo-nazionale-delle-residenze-napoleoniche-villa-s-martino"
+  },
+  {
+    "name": "Museo nazionale di Villa Guinigi",
+    "region": "Toscana",
+    "province": "LU",
+    "city": "Lucca",
+    "url": "https://cultura.gov.it/luogo/museo-nazionale-di-villa-guinigi"
+  },
+  {
+    "name": "Pinacoteca nazionale e Museo di Palazzo Mansi",
+    "region": "Toscana",
+    "province": "LU",
+    "city": "Lucca",
+    "url": "https://cultura.gov.it/luogo/museo-di-palazzo-mansi"
+  },
+  {
+    "name": "Complesso monumentale della Certosa di Calci",
+    "region": "Toscana",
+    "province": "PI",
+    "city": "Calci",
+    "url": "https://cultura.gov.it/luogo/complesso-monumentale-della-certosa-di-calci"
+  },
+  {
+    "name": "Museo delle Navi Antiche",
+    "region": "Toscana",
+    "province": "PI",
+    "city": "Pisa",
+    "url": "https://cultura.gov.it/luogo/museo-delle-navi-antiche"
+  },
+  {
+    "name": "Museo nazionale di Palazzo Reale",
+    "region": "Toscana",
+    "province": "PI",
+    "city": "Pisa",
+    "url": "https://cultura.gov.it/luogo/museo-nazionale-di-palazzo-reale"
+  },
+  {
+    "name": "Museo nazionale di San Matteo",
+    "region": "Toscana",
+    "province": "PI",
+    "city": "Pisa",
+    "url": "https://cultura.gov.it/luogo/museo-nazionale-di-san-matteo"
+  },
+  {
+    "name": "Museo di Casa Giusti",
+    "region": "Toscana",
+    "province": "PT",
+    "city": "Monsummano Terme",
+    "url": "https://cultura.gov.it/luogo/museo-nazionale-di-casa-giusti"
+  },
+  {
+    "name": "Area archeologica di Comeana - Tumuli di Montefortini e Boschetti",
+    "region": "Toscana",
+    "province": "PO",
+    "city": "Carmignano",
+    "url": "https://cultura.gov.it/luogo/tomba-di-montefortini-area-archeologica-di-artimino"
+  },
+  {
+    "name": "Villa medicea di Poggio a Caiano e Giardino",
+    "region": "Toscana",
+    "province": "PO",
+    "city": "Poggio a Caiano",
+    "url": "https://cultura.gov.it/luogo/villa-medicea-di-poggio-a-caiano-e-giardino"
+  },
+  {
+    "name": "Musei nazionali di Siena - Museo archeologico nazionale di Siena",
+    "region": "Toscana",
+    "province": "SI",
+    "city": "Siena",
+    "url": "https://cultura.gov.it/luogo/musei-nazionali-di-siena-museo-archeologico-nazionale-di-siena"
+  },
+  {
+    "name": "Musei nazionali di Siena - Palazzo Chigi alla Postierla",
+    "region": "Toscana",
+    "province": "SI",
+    "city": "Siena",
+    "url": "https://cultura.gov.it/luogo/musei-nazionali-di-siena-palazzo-chigi-alla-postierla"
+  },
+  {
+    "name": "Musei nazionali di Siena - Villa Brandi",
+    "region": "Toscana",
+    "province": "SI",
+    "city": "Siena",
+    "url": "https://cultura.gov.it/luogo/musei-nazionali-di-siena-villa-brandi"
+  },
+  {
+    "name": "Museo nazionale etrusco, Necropoli di Poggio Renzo e Tomba del Colle",
+    "region": "Toscana",
+    "province": "SI",
+    "city": "Chiusi",
+    "url": "https://cultura.gov.it/luogo/museo-nazionale-etrusco-necropoli-di-poggio-renzo-e-tomba-del-colle"
+  },
+  {
+    "name": "Castello Bufalini",
+    "region": "Umbria",
+    "province": "PG",
+    "city": "San Giustino",
+    "url": "https://cultura.gov.it/luogo/castello-bufalini"
+  },
+  {
+    "name": "Ipogeo dei Volumni e Necropoli del Palazzone",
+    "region": "Umbria",
+    "province": "PG",
+    "city": "Perugia",
+    "url": "https://cultura.gov.it/luogo/ipogeo-dei-volumni-e-necropoli-del-palazzone"
+  },
+  {
+    "name": "Musei nazionali di Perugia - Galleria nazionale dell’Umbria",
+    "region": "Umbria",
+    "province": "PG",
+    "city": "Perugia",
+    "url": "https://cultura.gov.it/luogo/musei-nazionali-di-perugia-galleria-nazionale-dellumbria"
+  },
+  {
+    "name": "Museo archeologico nazionale dell'Umbria",
+    "region": "Umbria",
+    "province": "PG",
+    "city": "Perugia",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-dell-umbria"
+  },
+  {
+    "name": "Museo archeologico nazionale e Teatro romano di Spoleto",
+    "region": "Umbria",
+    "province": "PG",
+    "city": "Spoleto",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-e-teatro-romano-di-spoleto"
+  },
+  {
+    "name": "Museo paleontologico \"Luigi Boldrini\" di Pietrafitta",
+    "region": "Umbria",
+    "province": "PG",
+    "city": "Piegaro",
+    "url": "https://cultura.gov.it/luogo/museo-paleontologico-luigi-boldrini-di-pietrafitta"
+  },
+  {
+    "name": "Palazzo Ducale di Gubbio",
+    "region": "Umbria",
+    "province": "PG",
+    "city": "Gubbio",
+    "url": "https://cultura.gov.it/luogo/palazzo-ducale-di-gubbio"
+  },
+  {
+    "name": "Parco archeologico del Teatro romano di Gubbio",
+    "region": "Umbria",
+    "province": "PG",
+    "city": "Gubbio",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-del-teatro-romano-di-gubbio"
+  },
+  {
+    "name": "Rocca Albornoz - Museo nazionale del Ducato di Spoleto",
+    "region": "Umbria",
+    "province": "PG",
+    "city": "Spoleto",
+    "url": "https://cultura.gov.it/luogo/rocca-albornoz-museo-nazionale-del-ducato-di-spoleto"
+  },
+  {
+    "name": "Tempietto sul Clitunno",
+    "region": "Umbria",
+    "province": "PG",
+    "city": "Campello sul Clitunno",
+    "url": "https://cultura.gov.it/luogo/tempietto-sul-clitunno"
+  },
+  {
+    "name": "Villa del Colle del Cardinale",
+    "region": "Umbria",
+    "province": "PG",
+    "city": "Perugia",
+    "url": "https://cultura.gov.it/luogo/villa-del-colle-del-cardinale"
+  },
+  {
+    "name": "Area archeologica di Carsulae",
+    "region": "Umbria",
+    "province": "TR",
+    "city": "Terni",
+    "url": "https://cultura.gov.it/luogo/area-archeologica-di-carsulae"
+  },
+  {
+    "name": "Museo archeologico nazionale di Orvieto",
+    "region": "Umbria",
+    "province": "TR",
+    "city": "Orvieto",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-orvieto"
+  },
+  {
+    "name": "Necropoli etrusca di Crocifisso del Tufo",
+    "region": "Umbria",
+    "province": "TR",
+    "city": "Orvieto",
+    "url": "https://cultura.gov.it/luogo/necropoli-etrusca-crocifisso-del-tufo"
+  },
+  {
+    "name": "Area archeologica di Feltre",
+    "region": "Veneto",
+    "province": "BL",
+    "city": "Feltre",
+    "url": "https://cultura.gov.it/luogo/area-archeologica-di-feltre"
+  },
+  {
+    "name": "Museo nazionale Atestino",
+    "region": "Veneto",
+    "province": "PD",
+    "city": "Este",
+    "url": "https://cultura.gov.it/luogo/museo-nazionale-atestino"
+  },
+  {
+    "name": "Museo archeologico nazionale di Adria",
+    "region": "Veneto",
+    "province": "RO",
+    "city": "Adria",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-adria"
+  },
+  {
+    "name": "Museo archeologico nazionale di Fratta Polesine (barchessa di Villa Badoer)",
+    "region": "Veneto",
+    "province": "RO",
+    "city": "Fratta Polesine",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-barchessa-di-villa-badoer"
+  },
+  {
+    "name": "Museo nazionale Collezione Salce sede di San Gaetano",
+    "region": "Veneto",
+    "province": "TV",
+    "city": "Treviso",
+    "url": "https://cultura.gov.it/luogo/museo-nazionale-collezione-salce-sede-di-san-gaetano"
+  },
+  {
+    "name": "Museo nazionale Collezione Salce sede di Santa Margherita",
+    "region": "Veneto",
+    "province": "TV",
+    "city": "Treviso",
+    "url": "https://cultura.gov.it/luogo/museo-nazionale-collezione-salce-sede-di-santa-margherita"
+  },
+  {
+    "name": "Biblioteca nazionale Marciana - Sale monumentali e Ridotti dei Procuratori",
+    "region": "Veneto",
+    "province": "VE",
+    "city": "Venezia",
+    "url": "https://cultura.gov.it/luogo/sale-monumentali-della-biblioteca-nazionale-marciana"
+  },
+  {
+    "name": "Concordia Sagittaria, area archeologica sotto la Cattedrale",
+    "region": "Veneto",
+    "province": "VE",
+    "city": "Concordia Sagittaria",
+    "url": "https://cultura.gov.it/luogo/concordia-sagittaria-area-archeologica-sotto-la-cattedrale"
+  },
+  {
+    "name": "Galleria Giorgio Franchetti alla Ca' d'Oro",
+    "region": "Veneto",
+    "province": "VE",
+    "city": "Venezia",
+    "url": "https://cultura.gov.it/luogo/galleria-giorgio-franchetti-alla-ca-doro"
+  },
+  {
+    "name": "Gallerie dell'Accademia di Venezia",
+    "region": "Veneto",
+    "province": "VE",
+    "city": "Venezia",
+    "url": "https://cultura.gov.it/luogo/gallerie-dell-accademia-di-venezia-1"
+  },
+  {
+    "name": "Museo archeologico nazionale Concordiese di Portogruaro",
+    "region": "Veneto",
+    "province": "VE",
+    "city": "Portogruaro",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-concordiese"
+  },
+  {
+    "name": "Museo archeologico nazionale di Altino",
+    "region": "Veneto",
+    "province": "VE",
+    "city": "Quarto d'Altino",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-altino"
+  },
+  {
+    "name": "Museo archeologico nazionale di Venezia",
+    "region": "Veneto",
+    "province": "VE",
+    "city": "Venezia",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-venezia"
+  },
+  {
+    "name": "Museo d'Arte Orientale Venezia",
+    "region": "Veneto",
+    "province": "VE",
+    "city": "Venezia",
+    "url": "https://cultura.gov.it/luogo/museo-d-arte-orientale"
+  },
+  {
+    "name": "Museo di Palazzo Grimani",
+    "region": "Veneto",
+    "province": "VE",
+    "city": "Venezia",
+    "url": "https://cultura.gov.it/luogo/museo-di-palazzo-grimani"
+  },
+  {
+    "name": "Museo nazionale di archeologia del mare",
+    "region": "Veneto",
+    "province": "VE",
+    "city": "Caorle",
+    "url": "https://cultura.gov.it/luogo/museo-nazionale-di-archeologia-del-mare"
+  },
+  {
+    "name": "Parco archeologico di Altino",
+    "region": "Veneto",
+    "province": "VE",
+    "city": "Quarto d'Altino",
+    "url": "https://cultura.gov.it/luogo/parco-archeologico-di-altino"
+  },
+  {
+    "name": "Villa Pisani - Stra (Venezia)",
+    "region": "Veneto",
+    "province": "VE",
+    "city": "Stra",
+    "url": "https://cultura.gov.it/luogo/Villa%20Pisani%20-%20Stra%20(Venezia)"
+  },
+  {
+    "name": "Museo archeologico nazionale di Verona",
+    "region": "Veneto",
+    "province": "VR",
+    "city": "Verona",
+    "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-verona"
+  }
+]

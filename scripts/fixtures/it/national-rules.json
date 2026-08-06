@@ -1,0 +1,63 @@
+{
+  "_provenance": {
+    "note": "cultura.gov.it refuses connections from this network (direct fetch and WebFetch both failed), so all statements were extracted verbatim from Wayback Machine snapshots of the official pages. Live URLs are given as 'url'; the exact snapshot used as 'snapshot'.",
+    "retrieved": "2026-08-06"
+  },
+  "domenica_al_museo": {
+    "statement_it": "Domenica 5 luglio si rinnova l'appuntamento con la #domenicalmuseo, l'iniziativa del Ministero della Cultura che consente l'ingresso gratuito nei luoghi della cultura statali ogni prima domenica del mese. Le visite si svolgeranno nei consueti orari di apertura, con accesso con prenotazione consigliata o obbligatoria, dove richiesta. Info e biglietti sull'app “Musei Italiani”.",
+    "summary_en": "Free admission to state cultural sites every first Sunday of the month; normal opening hours; booking recommended or required where applicable; info/tickets on the 'Musei Italiani' app.",
+    "list_note_it": "Il seguente elenco pubblicato in questa pagina è aggiornato in tempo reale a cura degli Istituti Periferici del Ministero della Cultura.",
+    "url": "https://cultura.gov.it/domenicalmuseo",
+    "snapshot": "http://web.archive.org/web/20260707163927/https://cultura.gov.it/domenicalmuseo",
+    "also_on_agevolazioni_page_it": "COVID-19: dopo la sospensione, sono riprese dal 1 aprile 2022 le domeniche gratuite al museo.",
+    "in_force": true
+  },
+  "national_free_days": {
+    "in_force": [
+      "04-25",
+      "06-02",
+      "11-04"
+    ],
+    "confirming_statement_it": "4 novembre, Giorno dell'Unità nazionale e Giornata delle Forze Armate, è la terza data ad accesso gratuito, insieme al 25 aprile e al 2 giugno, come previsto sin dal 2023 dal Ministero della Cultura in occasione di ricorrenze dall'alto significato storico.",
+    "confirming_statement_source": {
+      "url": "https://cultura.gov.it/evento/4-novembre-2025",
+      "snapshot": "http://web.archive.org/web/20260210115133/https://cultura.gov.it/evento/4-novembre-2025"
+    },
+    "april_25": {
+      "page_title": "25 APRILE 2026 - FESTA DELLA LIBERAZIONE",
+      "url": "https://cultura.gov.it/evento/25-aprile-2026",
+      "note": "Official event page exists on cultura.gov.it (found via search; no Wayback capture of this URL). Related MiC comunicato: https://cultura.gov.it/comunicato/27523 ('Musei, MiC: il 25 aprile entrata gratuita nei luoghi della cultura statali')."
+    },
+    "june_2": {
+      "statement_it": "Martedì 2 giugno 2026, in occasione della Festa della Repubblica, i musei e i parchi archeologici statali saranno aperti gratuitamente. Le visite si svolgeranno nei consueti orari di apertura, con accesso su prenotazione dove previsto.",
+      "url": "https://cultura.gov.it/evento/2-giugno-2026",
+      "snapshot": "http://web.archive.org/web/20260522171322/https://cultura.gov.it/evento/2-giugno-2026"
+    },
+    "november_4": {
+      "statement_it": "4 novembre, Giorno dell'Unità nazionale e Giornata delle Forze Armate, è la terza data ad accesso gratuito, insieme al 25 aprile e al 2 giugno... La giornata si inserisce nell'ambito delle aperture promosse dal MiC in occasione del ponte di Ognissanti. Le visite si svolgeranno nei consueti orari di apertura, con accesso su prenotazione dove previsto.",
+      "url": "https://cultura.gov.it/evento/4-novembre-2025",
+      "snapshot": "http://web.archive.org/web/20260210115133/https://cultura.gov.it/evento/4-novembre-2025"
+    },
+    "not_stated_on_agevolazioni_page": "The /agevolazioni page (snapshot 2026-07-31; page itself last updated 2022-06-28) does not mention the 25 April / 2 June / 4 November free days; they are documented on per-year event pages."
+  },
+  "under_18_free": {
+    "statement_it": "L'ingresso nei musei, monumenti, gallerie ed aree archeologiche dello Stato è gratuito per i visitatori che non abbiano compiuto il diciottesimo anno di età. I visitatori che hanno meno di 12 anni debbono essere accompagnati. Inoltre, l'ingresso è gratuito in Archivi e Biblioteche per tutti i visitatori.",
+    "summary_en": "Free for visitors under 18 at state museums, monuments, galleries and archaeological areas; under-12s must be accompanied; state archives and libraries are free for everyone.",
+    "url": "https://cultura.gov.it/agevolazioni",
+    "snapshot": "http://web.archive.org/web/20260731150739/https://cultura.gov.it/agevolazioni",
+    "in_force": true
+  },
+  "age_18_25_reduced": {
+    "statement_it": "Dal 28 febbraio 2019, per i cittadini dell'Unione europea di età compresa tra i 18 ed i venticinque anni l'importo del biglietto di ingresso è pari a 2,00 euro. Le medesime agevolazioni si applicano ai cittadini di Stati non facenti parte dell'Unione Europea, a condizione di reciprocità (DM 9-01-2019 n. 13).",
+    "summary_en": "Since 28 February 2019, EU citizens aged 18-25 pay a 2.00 euro ticket; extended to non-EU citizens on condition of reciprocity (DM 9 January 2019, n. 13).",
+    "url": "https://cultura.gov.it/agevolazioni",
+    "snapshot": "http://web.archive.org/web/20260731150739/https://cultura.gov.it/agevolazioni",
+    "in_force": true
+  },
+  "scope_note": {
+    "statement_it": "I musei, monumenti, gallerie ed aree archeologiche delle regioni Sicilia, Valle d'Aosta, delle province Autonome di Trento e Bolzano nonché di proprietà di enti locali e privati sono gestiti autonomamente, con modalità di accesso diverse da quelle statali.",
+    "summary_en": "Sicily, Valle d'Aosta, the autonomous provinces of Trento and Bolzano, and locally/privately owned venues are managed autonomously with different access rules — hence their absence from the state scheme's venue list.",
+    "url": "https://cultura.gov.it/agevolazioni",
+    "snapshot": "http://web.archive.org/web/20260731150739/https://cultura.gov.it/agevolazioni"
+  }
+}
