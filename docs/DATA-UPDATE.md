@@ -37,6 +37,7 @@ Two kinds of maintenance:
 | `npx tsx scripts/build-cmn.ts --out <staging>` | Bootstrap resolver for new CMN monuments (Wikidata identity via official-site domain, BAN reverse geocoding, department cross-check) — feeds the AI verification pass | staging file only |
 | `npx tsx scripts/sources/it/build-domenicalmuseo.ts` | Italy: resolves the Domenica al Museo venue list (fixture `scripts/fixtures/it/domenicalmuseo.json`) against Wikidata + Nominatim and rebuilds `data/it/museums.json` rules (first Sunday, national free days, under-18). Incremental — re-running only touches unresolved venues | yes (`data/it`) |
 | `npx tsx scripts/sources/be/build-be.ts` | Belgium: pools the Brussels/FWB first-Sunday networks, Ghent/Antwerp resident schemes and always-free museums (fixture `scripts/fixtures/be/free-museums.json`), resolves against Wikidata with photon address fallback, rebuilds `data/be/museums.json`. Incremental | yes (`data/be`) |
+| `npx tsx scripts/sources/fr/build-fr-cities.ts` | France: pools the regional city schemes (fixture `scripts/fixtures/fr/city-schemes.json` — municipal/métropole/departmental networks and musées nationaux outside Île-de-France), resolves against Wikidata with BAN address fallback, merges into `data/fr/museums.json`. Incremental — re-running only touches venues not yet in the dataset | yes (`data/fr`) |
 
 Yearly sequence (what the *Data update* workflow runs): `update:all`, then
 `check:osm-hours`, then `npm test`. It opens a PR — **a green run means the

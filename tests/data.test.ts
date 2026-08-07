@@ -72,7 +72,7 @@ describe('museums.json integrity', () => {
         if (rule.audience) expect(AUDIENCES, m.id).toContain(rule.audience);
         if (rule.kind === 'nth-weekday') {
           expect(WEEKDAYS, m.id).toContain(rule.weekday);
-          expect([1, -1], m.id).toContain(rule.nth);
+          expect([1, 3, -1], m.id).toContain(rule.nth);
         }
         if (rule.kind === 'weekly') expect(WEEKDAYS, m.id).toContain(rule.weekday);
         if (rule.kind === 'annual-date') expect(rule.date, m.id).toMatch(/^\d{2}-\d{2}$/);
