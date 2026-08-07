@@ -82,7 +82,7 @@ You are updating the data of the free-museums monorepo (maps of free museums
 in France, Italy and Belgium — data/fr, data/it, data/be). Read
 docs/DATA-UPDATE.md first. Work in small, reviewable diffs; run `npm test`
 after every change; never mark something verified you did not actually
-verify. Steps 1–4 are France; steps 6–7 are Italy and Belgium — run
+verify. Steps 1–5 are France; steps 7–8 are Italy and Belgium — run
 check:freshness for those countries with COUNTRY=it / COUNTRY=be.
 
 1. TRIAGE THE DETERMINISTIC REPORTS
@@ -134,12 +134,32 @@ check:freshness for those countries with COUNTRY=it / COUNTRY=be.
    - For venues gone from the list: check the site for closure or transfer
      out of CMN management, and update status/note accordingly.
 
-5. FINISH (per country)
+5. FRANCE — CITY SCHEMES (yearly)
+   The regional-city venues come from scripts/fixtures/fr/city-schemes.json
+   (municipal/métropole/departmental networks and musées nationaux outside
+   Île-de-France; per-scheme sourceUrl + verbatim quote).
+   - For every scheme: re-open its sourceUrl, confirm the gratuity wording
+     still matches (kind, months, audience), bump checkedAt on every rule
+     citing it. City schemes churn more than national ones — Reims' winter
+     gratuity is re-voted yearly, resident cards change names, first-Sunday
+     schemes gain or lose summer exclusions.
+   - Re-check the venues excluded as closed-for-works (Georges-Labit
+     Toulouse, Gassendi Digne, Agen MBA at the Jacobins from autumn 2026,
+     Despiau-Wlérick Mont-de-Marsan ~2028, Arras MBA, Valenciennes MBA,
+     Bayeux Tapisserie 2027, Brest MBA 2029, Quimper MBAQ end 2026) and the
+     unverifiable schemes noted in the fixture's meta.uncertain (Tarbes
+     Maison natale Foch, Perpignan Casa Pairal/Muséum, Vannes, Châteauroux,
+     Vendôme, Musée Réattu Arles) — add them once their official pages
+     confirm a scheme.
+   - New venues in a network: add to the fixture, run build-fr-cities
+     (incremental), then the full step-3 content treatment.
+
+6. FINISH (per country)
    npm test && npm run build (and build:it / build:be) must pass. Summarize
    per museum: what changed, which source confirmed it, and anything you
    could not verify (say so plainly rather than guessing).
 
-6. ITALY (yearly)
+7. ITALY (yearly)
    - Re-read https://cultura.gov.it/domenicalmuseo (via the Wayback Machine
      if the site blocks your network) and confirm Domenica al Museo is still
      running; bump checkedAt on every rule citing it.
@@ -153,7 +173,7 @@ check:freshness for those countries with COUNTRY=it / COUNTRY=be.
      Vanished venues: check the venue's own page before removing — regional
      lists fluctuate; only remove on positive evidence.
 
-7. BELGIUM (yearly)
+8. BELGIUM (yearly)
    - Brussels network: re-read https://www.brusselsmuseums.be/en/free-museums
      — membership changes yearly. FWB/Wallonia network: re-read
      https://artsetpublics.be/programmes/musees-gratuits/.
