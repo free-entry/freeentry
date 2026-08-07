@@ -152,7 +152,7 @@ function bestSim(name: string, e: WdEntity): number {
   return Math.max(0, ...names.map((n) => similarity(name, n)));
 }
 
-async function banSearch(address: string): Promise<{ coords: [number, number]; postcode: string; street: string } | null> {
+async function banSearch(address: string): Promise<{ coords: [number, number]; postcode: string; city: string | null } | null> {
   try {
     const res = await fetch(`${BAN_API}/search/?q=${encodeURIComponent(address)}&limit=1`, {
       headers: { 'User-Agent': UA },
@@ -161,7 +161,7 @@ async function banSearch(address: string): Promise<{ coords: [number, number]; p
     const data = (await res.json()) as {
       features?: {
         geometry?: { coordinates?: [number, number] };
-        properties?: { postcode?: string; name?: string; score?: number };
+        properties?: { postcode?: string; city?: string; score?: number };
       }[];
     };
     const f = data.features?.[0];
@@ -171,22 +171,31 @@ async function banSearch(address: string): Promise<{ coords: [number, number]; p
     return {
       coords: [Number(coords[0].toFixed(6)), Number(coords[1].toFixed(6))],
       postcode: pc,
-      street: f?.properties?.name ?? '',
+      city: f?.properties?.city ?? null,
     };
   } catch {
     return null;
   }
 }
 
-async function banReverse(lng: number, lat: number): Promise<string | null> {
+async function banReverse(
+  lng: number,
+  lat: number,
+): Promise<{ postcode: string | null; city: string | null }> {
   try {
     const res = await fetch(`${BAN_API}/reverse/?lon=${lng}&lat=${lat}`, { headers: { 'User-Agent': UA } });
-    if (!res.ok) return null;
-    const data = (await res.json()) as { features?: { properties?: { postcode?: string } }[] };
-    const pc = data.features?.[0]?.properties?.postcode;
-    return pc && /^\d{5}$/.test(pc) ? pc : null;
+    if (!res.ok) return { postcode: null, city: null };
+    const data = (await res.json()) as {
+      features?: { properties?: { postcode?: string; city?: string }[] | { postcode?: string; city?: string } }[];
+    };
+    const props = data.features?.[0]?.properties as { postcode?: string; city?: string } | undefined;
+    const pc = props?.postcode;
+    return {
+      postcode: pc && /^\d{5}$/.test(pc) ? pc : null,
+      city: props?.city ?? null,
+    };
   } catch {
-    return null;
+    return { postcode: null, city: null };
   }
 }
 
@@ -314,8 +323,8 @@ async function main() {
     venues.push({
       id,
       name: entry.name,
-      ...fields,
       commune: entry.city,
+      ...fields,
       tags: entry.tags.length ? entry.tags : ['museum'],
       freeAccess: rules,
       ...(entry.notes.length ? { note: entry.notes.join(' ') } : {}),
@@ -351,6 +360,7 @@ async function main() {
             if (dept) {
               const arr = arrondissementOf(geo.postcode, dept);
               push(entry, {
+                ...(geo.city ? { commune: geo.city } : {}),
                 coordinates: geo.coords,
                 address: entry.address.replace(/,?\s*\d{5}\s+.*$/, ''),
                 postalCode: geo.postcode,
@@ -381,10 +391,12 @@ async function main() {
         const m = entry.address.match(/\b(\d{5})\b/);
         postal = m?.[1] ?? null;
       }
-      if (!postal) {
-        await sleep(300);
-        postal = await banReverse(coord[0], coord[1]);
-      }
+      // BAN reverse supplies the official commune name (network venues often
+      // sit in a neighbouring commune, not the scheme's city) and a postal
+      // fallback.
+      await sleep(250);
+      const rev = await banReverse(coord[0], coord[1]);
+      if (!postal) postal = rev.postcode;
       if (!postal) {
         unresolved.push(`${entry.name} — ${e.id}: no postal code`);
         continue;
@@ -400,6 +412,7 @@ async function main() {
       const website = claimStrings(e, 'P856')[0] ?? entry.url;
       push(entry, {
         name: e.labels?.fr?.value ?? entry.name,
+        ...(rev.city ? { commune: rev.city } : {}),
         coordinates: [Number(coord[0].toFixed(6)), Number(coord[1].toFixed(6))],
         address: entry.address ? entry.address.replace(/,?\s*\d{5}\s+.*$/, '') : '',
         postalCode: postal,
