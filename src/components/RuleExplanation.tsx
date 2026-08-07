@@ -26,9 +26,17 @@ export default function RuleExplanation({ rule }: { rule: FreeRule }) {
       sentence =
         rule.audience === 'under-26-eu'
           ? t('rules.alwaysUnder26')
-          : rule.audience === 'under-18'
-            ? t('rules.alwaysUnder18')
-            : t('rules.always');
+          : rule.audience === 'under-26'
+            ? t('rules.alwaysUnder26All')
+            : rule.audience === 'under-18'
+              ? t('rules.alwaysUnder18')
+              : t('rules.always');
+      if (rule.months && rule.months.length > 0) {
+        sentence += `, ${t('rules.monthsRange', {
+          from: monthName(locale, rule.months[0]),
+          to: monthName(locale, rule.months[rule.months.length - 1]),
+        })}`;
+      }
       break;
     case 'nth-weekday': {
       sentence = t(rule.nth === -1 ? 'rules.lastWeekday' : 'rules.firstWeekday', {

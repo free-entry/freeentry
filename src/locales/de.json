@@ -113,6 +113,7 @@
   "rules": {
     "always": "Jeden Tag kostenlos",
     "alwaysUnder26": "Jeden Tag kostenlos für Unter-26-Jährige mit Wohnsitz in der EU",
+    "alwaysUnder26All": "Jeden Tag kostenlos für Unter-26-Jährige",
     "alwaysUnder18": "Jeden Tag kostenlos für Besucher unter 18",
     "firstWeekday": "Kostenlos am ersten {{weekday}} jedes Monats",
     "lastWeekday": "Kostenlos am letzten {{weekday}} jedes Monats",

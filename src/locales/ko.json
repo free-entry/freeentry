@@ -111,6 +111,7 @@
   "rules": {
     "always": "매일 무료",
     "alwaysUnder26": "26세 미만 EU 거주자는 매일 무료",
+    "alwaysUnder26All": "26세 미만은 매일 무료",
     "alwaysUnder18": "18세 미만 방문객은 매일 무료",
     "firstWeekday": "매월 첫째 {{weekday}} 무료",
     "lastWeekday": "매월 마지막 {{weekday}} 무료",

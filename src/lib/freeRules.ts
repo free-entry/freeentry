@@ -72,8 +72,11 @@ export function ruleActiveOn(rule: FreeRule, date: string, ctx: RuleContext): bo
   if (audience !== 'everyone' && !ctx.under26) return false;
 
   switch (rule.kind) {
-    case 'always':
-      return true;
+    case 'always': {
+      if (!rule.months) return true;
+      const { m } = parseISO(date);
+      return rule.months.includes(m);
+    }
     case 'weekly': {
       const { m, utcMs } = parseISO(date);
       if (rule.months && !rule.months.includes(m)) return false;

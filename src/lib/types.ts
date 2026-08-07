@@ -12,7 +12,7 @@ export type Weekday =
 
 export type EventKey = 'museum-night' | 'heritage-days';
 
-export type Audience = 'everyone' | 'under-26-eu' | 'under-18' | 'residents';
+export type Audience = 'everyone' | 'under-26-eu' | 'under-26' | 'under-18' | 'residents';
 
 export interface RuleSource {
   url: string;

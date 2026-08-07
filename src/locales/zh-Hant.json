@@ -111,6 +111,7 @@
   "rules": {
     "always": "每天免費",
     "alwaysUnder26": "未滿26歲的歐盟居民每天免費",
+    "alwaysUnder26All": "未滿26歲每天免費",
     "alwaysUnder18": "未滿18歲的訪客每天免費",
     "firstWeekday": "每月第一個{{weekday}}免費",
     "lastWeekday": "每月最後一個{{weekday}}免費",

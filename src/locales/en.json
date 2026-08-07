@@ -113,6 +113,7 @@
   "rules": {
     "always": "Free every day",
     "alwaysUnder26": "Free every day for under-26 EU residents",
+    "alwaysUnder26All": "Free every day for under-26s",
     "alwaysUnder18": "Free every day for visitors under 18",
     "firstWeekday": "Free on the first {{weekday}} of every month",
     "lastWeekday": "Free on the last {{weekday}} of every month",

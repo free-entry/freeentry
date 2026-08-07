@@ -21,7 +21,7 @@ describe.each(countryCodes)('country %s', (cc) => {
   ) as EventDates;
   const DEPARTMENTS = Object.keys(config.adminAreas.names);
 const KINDS = ['always', 'nth-weekday', 'weekly', 'event', 'annual-date'];
-const AUDIENCES = ['everyone', 'under-26-eu', 'under-18', 'residents'];
+const AUDIENCES = ['everyone', 'under-26-eu', 'under-26', 'under-18', 'residents'];
 const WEEKDAYS = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'];
 
 describe('museums.json integrity', () => {

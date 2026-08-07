@@ -113,6 +113,7 @@
   "rules": {
     "always": "Gratis todos los días",
     "alwaysUnder26": "Gratis todos los días para menores de 26 años residentes en la UE",
+    "alwaysUnder26All": "Gratis todos los días para menores de 26 años",
     "alwaysUnder18": "Gratis todos los días para menores de 18 años",
     "firstWeekday": "Gratis el primer {{weekday}} de cada mes",
     "lastWeekday": "Gratis el último {{weekday}} de cada mes",
