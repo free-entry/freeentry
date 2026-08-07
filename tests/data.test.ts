@@ -9,7 +9,7 @@ const countryCodes = readdirSync(DATA_DIR).filter((d) =>
   existsSync(join(DATA_DIR, d, 'museums.json')),
 );
 /** Minimum dataset sizes per country (guards against truncated writes). */
-const MIN_VENUES: Record<string, number> = { fr: 200 };
+const MIN_VENUES: Record<string, number> = { fr: 600 };
 
 describe.each(countryCodes)('country %s', (cc) => {
   const config = COUNTRIES[cc];

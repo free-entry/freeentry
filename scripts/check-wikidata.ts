@@ -44,6 +44,17 @@ const ACKNOWLEDGED_COORDS: Record<string, string> = {
     'BAN agrees with us; Wikidata P625 still shows another site',
   // BAN puts 14 rue Max Blondat 0.00 km from our point (2026-08-06).
   'musee-jardin-paul-landowski': 'BAN agrees with us; Wikidata P625 is wrong',
+  // FR city expansion: BAN address geocoding matches our point exactly for
+  // all five; the linked item's P625 is the off side (arbitrated 2026-08-07).
+  'crypte-archeologique-notre-dame-du-bourg': 'BAN agrees with us; Q181306 P625 is 0.67 km out',
+  'la-kunsthalle-mulhouse': 'BAN agrees with us; Q79815 P625 is 1.19 km out',
+  'mo-co-hotel-des-collections': 'BAN agrees with us; Q65158405 P625 is 1.39 km out',
+  'site-memorial-du-camp-des-milles': 'BAN agrees with us; Q481647 P625 is 0.75 km out',
+  'musee-de-l-ecole-nationale-superieure-des-beaux-arts':
+    'BAN puts 14 rue Bonaparte on our point; Q88640485 P625 is 1.21 km out',
+  // The museum left Paris in 2013 and reopened at the Allianz Riviera in Nice
+  // in 2014; Q3330734's P625 still shows the old Paris site (2026-08-07).
+  'musee-national-du-sport': 'moved to Nice in 2014; Wikidata P625 still shows Paris',
   // IT: large archaeological sites — our point is the visitor entrance, the
   // item's P625 the ancient-city/park centroid (identity audit, 2026-08-06).
   'area-archeologica-di-conza': 'entrance point kept; Q5157069 P625 is the Compsa centroid',
