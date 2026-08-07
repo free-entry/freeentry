@@ -90,6 +90,8 @@
     "directions": "Route - Google Maps",
     "copyLink": "Link kopieren",
     "linkCopied": "Link in die Zwischenablage kopiert",
+    "copyAddress": "Adresse kopieren",
+    "addressCopied": "Adresse in die Zwischenablage kopiert",
     "address": "Adresse",
     "openingHours": "Öffnungszeiten",
     "hoursClosed": "Geschlossen",
@@ -104,7 +106,9 @@
     "photoCreditToggle": "Bildnachweis",
     "noFreeScheme": "Für diesen Ort ist kein regulärer freier Eintritt bekannt.",
     "back": "Zurück zu den Ergebnissen",
-    "close": "Details schließen"
+    "close": "Details schließen",
+    "readMore": "Mehr",
+    "readLess": "Weniger"
   },
   "rules": {
     "always": "Jeden Tag kostenlos",

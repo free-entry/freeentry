@@ -88,6 +88,8 @@
     "directions": "路線 - Google地圖",
     "copyLink": "複製連結",
     "linkCopied": "連結已複製到剪貼簿",
+    "copyAddress": "複製地址",
+    "addressCopied": "地址已複製到剪貼簿",
     "address": "地址",
     "openingHours": "開放時間",
     "hoursClosed": "休館",
@@ -102,7 +104,9 @@
     "photoCreditToggle": "圖片版權",
     "noFreeScheme": "此場館目前沒有已知的常設免費入場方案。",
     "back": "返回結果列表",
-    "close": "關閉詳細資訊"
+    "close": "關閉詳細資訊",
+    "readMore": "展開",
+    "readLess": "收合"
   },
   "rules": {
     "always": "每天免費",

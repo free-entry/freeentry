@@ -90,6 +90,8 @@
     "directions": "Indicazioni stradali - Google Maps",
     "copyLink": "Copia link",
     "linkCopied": "Link copiato negli appunti",
+    "copyAddress": "Copia indirizzo",
+    "addressCopied": "Indirizzo copiato negli appunti",
     "address": "Indirizzo",
     "openingHours": "Orari di apertura",
     "hoursClosed": "Chiuso",
@@ -104,7 +106,9 @@
     "photoCreditToggle": "Credito foto",
     "noFreeScheme": "Per questo luogo non è nota alcuna gratuità regolare.",
     "back": "Torna ai risultati",
-    "close": "Chiudi i dettagli"
+    "close": "Chiudi i dettagli",
+    "readMore": "Mostra altro",
+    "readLess": "Mostra meno"
   },
   "rules": {
     "always": "Gratuito tutti i giorni",

@@ -90,6 +90,8 @@
     "directions": "Cómo llegar - Google Maps",
     "copyLink": "Copiar enlace",
     "linkCopied": "Enlace copiado al portapapeles",
+    "copyAddress": "Copiar dirección",
+    "addressCopied": "Dirección copiada al portapapeles",
     "address": "Dirección",
     "openingHours": "Horario de apertura",
     "hoursClosed": "Cerrado",
@@ -104,7 +106,9 @@
     "photoCreditToggle": "Crédito de la foto",
     "noFreeScheme": "No se conoce ninguna gratuidad regular para este lugar.",
     "back": "Volver a los resultados",
-    "close": "Cerrar detalles"
+    "close": "Cerrar detalles",
+    "readMore": "Ver más",
+    "readLess": "Ver menos"
   },
   "rules": {
     "always": "Gratis todos los días",

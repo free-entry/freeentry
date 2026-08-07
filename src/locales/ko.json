@@ -88,6 +88,8 @@
     "directions": "길찾기 - Google 지도",
     "copyLink": "링크 복사",
     "linkCopied": "링크가 클립보드에 복사되었습니다",
+    "copyAddress": "주소 복사",
+    "addressCopied": "주소가 클립보드에 복사되었습니다",
     "address": "주소",
     "openingHours": "운영 시간",
     "hoursClosed": "휴관",
@@ -102,7 +104,9 @@
     "photoCreditToggle": "사진 출처",
     "noFreeScheme": "이 시설에는 알려진 정기 무료입장 제도가 없습니다.",
     "back": "결과로 돌아가기",
-    "close": "상세 정보 닫기"
+    "close": "상세 정보 닫기",
+    "readMore": "더보기",
+    "readLess": "접기"
   },
   "rules": {
     "always": "매일 무료",

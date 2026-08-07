@@ -92,6 +92,8 @@
     "directions": "Itinéraire - Google Maps",
     "copyLink": "Copier le lien",
     "linkCopied": "Lien copié dans le presse-papiers",
+    "copyAddress": "Copier l'adresse",
+    "addressCopied": "Adresse copiée dans le presse-papiers",
     "address": "Adresse",
     "openingHours": "Horaires d'ouverture",
     "hoursClosed": "Fermé",
@@ -106,7 +108,9 @@
     "photoCreditToggle": "Crédit photo",
     "noFreeScheme": "Aucune gratuité régulière connue pour ce lieu.",
     "back": "Retour aux résultats",
-    "close": "Fermer les détails"
+    "close": "Fermer les détails",
+    "readMore": "Voir plus",
+    "readLess": "Voir moins"
   },
   "rules": {
     "always": "Gratuit tous les jours",

@@ -5,11 +5,14 @@ import styles from './CopyLinkDialog.module.css';
 
 interface CopyLinkDialogProps {
   onClose: () => void;
+  /** Confirmation text; defaults to the "link copied" message. */
+  message?: string;
 }
 
-/** Brief confirmation after "Copy link" — auto-dismisses, but Esc/backdrop/click still close it early. */
-export default function CopyLinkDialog({ onClose }: CopyLinkDialogProps) {
+/** Brief copy confirmation — auto-dismisses, but Esc/backdrop/click still close it early. */
+export default function CopyLinkDialog({ onClose, message }: CopyLinkDialogProps) {
   const { t } = useTranslation();
+  const text = message ?? t('museum.linkCopied');
 
   useEffect(() => {
     const timer = window.setTimeout(onClose, 1800);
@@ -17,7 +20,7 @@ export default function CopyLinkDialog({ onClose }: CopyLinkDialogProps) {
   }, [onClose]);
 
   return (
-    <Dialog label={t('museum.linkCopied')} onClose={onClose} variant="center">
+    <Dialog label={text} onClose={onClose} variant="center">
       <div className={styles.body}>
         <svg
           viewBox="0 0 24 24"
@@ -31,7 +34,7 @@ export default function CopyLinkDialog({ onClose }: CopyLinkDialogProps) {
         >
           <path d="M20 6 9 17l-5-5" />
         </svg>
-        <p className={styles.text}>{t('museum.linkCopied')}</p>
+        <p className={styles.text}>{text}</p>
       </div>
     </Dialog>
   );

@@ -98,6 +98,8 @@
     "directions": "الاتجاهات - خرائط Google",
     "copyLink": "نسخ الرابط",
     "linkCopied": "تم نسخ الرابط إلى الحافظة",
+    "copyAddress": "نسخ العنوان",
+    "addressCopied": "تم نسخ العنوان إلى الحافظة",
     "address": "العنوان",
     "openingHours": "ساعات العمل",
     "hoursClosed": "مغلق",
@@ -112,7 +114,9 @@
     "photoCreditToggle": "حقوق الصورة",
     "noFreeScheme": "لا يُعرف نظام دخول مجاني منتظم لهذا المكان.",
     "back": "العودة إلى النتائج",
-    "close": "إغلاق التفاصيل"
+    "close": "إغلاق التفاصيل",
+    "readMore": "عرض المزيد",
+    "readLess": "عرض أقل"
   },
   "rules": {
     "always": "مجاني يوميًا",

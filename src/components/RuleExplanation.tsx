@@ -2,7 +2,9 @@ import { useTranslation } from 'react-i18next';
 import { useAppState } from '@/state/AppState';
 import type { FreeRule } from '@/lib/types';
 import { eventDatesForYear } from '@/lib/freeRules';
+import { ruleCategory } from '@/lib/categories';
 import { annualDateName, formatDate, monthName, weekdayName } from '@/lib/format';
+import CategoryBadge from './CategoryBadge';
 import styles from './RuleExplanation.module.css';
 
 /** One free-access rule as a plain-language sentence in the user's locale. */
@@ -74,15 +76,18 @@ export default function RuleExplanation({ rule }: { rule: FreeRule }) {
 
   return (
     <li className={styles.rule}>
-      <span className={styles.sentence}>
-        {replacing ? localizedNote : sentence}
-        {eventNext && (
-          <span className={styles.next}>
-            {' '}
-            ({t('rules.nextDate', { date: formatDate(locale, eventNext) })}
-            {estimated ? `, ${t('museum.estimated')}` : ''})
-          </span>
-        )}
+      <span className={styles.ruleLine}>
+        <CategoryBadge category={ruleCategory(rule)} />
+        <span className={styles.sentence}>
+          {replacing ? localizedNote : sentence}
+          {eventNext && (
+            <span className={styles.next}>
+              {' '}
+              ({t('rules.nextDate', { date: formatDate(locale, eventNext) })}
+              {estimated ? `, ${t('museum.estimated')}` : ''})
+            </span>
+          )}
+        </span>
       </span>
       {rule.reservationRequired && (
         <span className={styles.booking}>

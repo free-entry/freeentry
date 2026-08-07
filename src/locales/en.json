@@ -90,6 +90,8 @@
     "directions": "Directions - Google Maps",
     "copyLink": "Copy link",
     "linkCopied": "Link copied to clipboard",
+    "copyAddress": "Copy address",
+    "addressCopied": "Address copied to clipboard",
     "address": "Address",
     "openingHours": "Opening hours",
     "hoursClosed": "Closed",
@@ -104,7 +106,9 @@
     "photoCreditToggle": "Photo credit",
     "noFreeScheme": "No regular free admission is known for this venue.",
     "back": "Back to results",
-    "close": "Close details"
+    "close": "Close details",
+    "readMore": "More",
+    "readLess": "Less"
   },
   "rules": {
     "always": "Free every day",

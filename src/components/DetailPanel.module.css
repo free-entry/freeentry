@@ -76,9 +76,24 @@
     0 2px 6px rgb(0 0 0 / 0.7);
 }
 
+/* Bottom row of the header: quick actions left, photo credit right. */
+.headerBottom {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-block-start: 0.4rem;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
 .creditToggle {
-  align-self: flex-end;
-  margin-block-start: 0.3rem;
+  position: relative;
+  margin-inline-start: auto;
 }
 
 .creditButton {
@@ -108,13 +123,38 @@
   block-size: 1.05rem;
 }
 
+/* Floating credit popover: overlays the photo instead of pushing layout. */
 .credit {
+  position: absolute;
+  inset-inline-end: calc(100% + 0.45rem);
+  inset-block-end: 0;
   display: block;
-  margin-block-start: 0.3rem;
+  inline-size: max-content;
+  max-inline-size: min(60vw, 260px);
+  padding: 0.35rem 0.65rem;
   font-size: 0.68rem;
-  color: rgb(255 255 255 / 0.75);
+  line-height: 1.35;
+  color: rgb(255 255 255 / 0.92);
+  background: rgb(18 20 25 / 0.72);
+  backdrop-filter: blur(6px);
+  border-radius: 10px;
   text-decoration: none;
-  text-align: end;
+  text-align: start;
+}
+
+.creditToggle[open] .credit {
+  animation: slideInEnd 0.25s cubic-bezier(0.2, 0.7, 0.3, 1) both;
+}
+
+@keyframes slideInEnd {
+  from {
+    opacity: 0;
+    transform: translateX(0.6rem);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 .credit:hover {
@@ -151,22 +191,49 @@
   font-size: 0.78rem;
 }
 
-.badges {
-  display: flex;
-  flex-wrap: wrap;
+/* Free-day status: one pill shape, two variants — solid when free today,
+   tinted when announcing the next free date. */
+.status {
+  margin: 0 0 0.55rem;
+  display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
-  margin-block-start: 0.2rem;
+  gap: 0.45rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-positive);
+  background: color-mix(in srgb, var(--color-positive) 12%, transparent);
+  border-radius: 999px;
+  padding-block: 0.3rem;
+  padding-inline: 0.75rem;
 }
 
-.today {
-  font-size: 0.75rem;
-  font-weight: 700;
+.status::before {
+  content: '';
+  flex-shrink: 0;
+  inline-size: 0.5rem;
+  block-size: 0.5rem;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.statusToday {
   color: var(--color-bg);
   background: var(--color-positive);
-  border-radius: 999px;
-  padding-block: 0.15rem;
-  padding-inline: 0.55rem;
+  font-weight: 700;
+}
+
+.statusToday::before {
+  animation: statusPulse 2s ease-in-out infinite;
+}
+
+@keyframes statusPulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.35;
+  }
 }
 
 .note {
@@ -183,6 +250,30 @@
   margin: 0;
   font-size: 0.92rem;
   line-height: 1.55;
+}
+
+.descriptionClamped {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  overflow: hidden;
+}
+
+.moreToggle {
+  margin-block-start: 0.15rem;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  cursor: pointer;
+}
+
+.moreToggle:hover {
+  text-decoration: underline;
 }
 
 .section {
@@ -206,13 +297,6 @@
   color: var(--color-text-muted);
 }
 
-.nextDate {
-  margin: 0 0 0.3rem;
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: var(--color-positive);
-}
-
 .rules {
   list-style: none;
   margin: 0;
@@ -229,6 +313,24 @@
   margin: 0 0 0.4rem;
   font-size: 0.9rem;
   line-height: 1.45;
+}
+
+/* The address itself is the copy affordance — reads as text, copies on click. */
+.addressCopy {
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+  text-align: start;
+  cursor: copy;
+}
+
+.addressCopy:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 0.2em;
 }
 
 .distance {
@@ -279,13 +381,6 @@
 
 .iconAction:hover {
   background: color-mix(in srgb, var(--color-accent) 12%, var(--color-bg-raised));
-}
-
-.actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-block-start: 0.4rem;
 }
 
 .actionPrimary,

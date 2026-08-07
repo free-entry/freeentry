@@ -109,6 +109,22 @@ body {
   color: #5c6470;
 }
 
+/* MapLibre attribution: the expanded credits slide in from the right. */
+details.maplibregl-ctrl-attrib[open] .maplibregl-ctrl-attrib-inner {
+  animation: attrib-slide-in 0.28s cubic-bezier(0.2, 0.7, 0.3, 1) both;
+}
+
+@keyframes attrib-slide-in {
+  from {
+    opacity: 0;
+    transform: translateX(0.75rem);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

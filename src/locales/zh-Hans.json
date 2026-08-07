@@ -88,6 +88,8 @@
     "directions": "路线 - Google地图",
     "copyLink": "复制链接",
     "linkCopied": "链接已复制到剪贴板",
+    "copyAddress": "复制地址",
+    "addressCopied": "地址已复制到剪贴板",
     "address": "地址",
     "openingHours": "开放时间",
     "hoursClosed": "闭馆",
@@ -102,7 +104,9 @@
     "photoCreditToggle": "图片版权",
     "noFreeScheme": "该场馆暂无已知的常规免费开放政策。",
     "back": "返回结果列表",
-    "close": "关闭详情"
+    "close": "关闭详情",
+    "readMore": "展开",
+    "readLess": "收起"
   },
   "rules": {
     "always": "每天免费",
