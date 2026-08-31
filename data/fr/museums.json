@@ -781,6 +781,14 @@
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
+        }
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/arc-de-triomphe-p3559",
@@ -825,6 +833,70 @@
           "url": "https://archea.roissypaysdefrance.fr/tarifs",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26",
+        "source": {
+          "url": "https://archea.roissypaysdefrance.fr/tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://archea.roissypaysdefrance.fr/tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "over-65",
+        "source": {
+          "url": "https://archea.roissypaysdefrance.fr/tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled",
+        "source": {
+          "url": "https://archea.roissypaysdefrance.fr/tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled-companion",
+        "source": {
+          "url": "https://archea.roissypaysdefrance.fr/tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "jobseekers",
+        "source": {
+          "url": "https://archea.roissypaysdefrance.fr/tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "income-support",
+        "source": {
+          "url": "https://archea.roissypaysdefrance.fr/tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "icom",
+        "source": {
+          "url": "https://archea.roissypaysdefrance.fr/tarifs",
+          "checkedAt": "2026-08-04"
+        }
       }
     ],
     "wikidata": "Q2860590",
@@ -841,7 +913,63 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Arch%C3%A9a.jpg",
       "wikimediaFile": "File:Musée Archéa.jpg"
     },
-    "wikipedia": "https://fr.wikipedia.org/wiki/Arch%C3%A9a"
+    "wikipedia": "https://fr.wikipedia.org/wiki/Arch%C3%A9a",
+    "admission": {
+      "currency": "EUR",
+      "full": 3.5,
+      "reduced": 3
+    },
+    "closures": [
+      {
+        "from": "2026-05-01",
+        "to": "2026-05-01"
+      },
+      {
+        "from": "2026-12-25",
+        "to": "2027-01-01"
+      }
+    ]
+  },
+  {
+    "id": "archives-nationales-salle-exposition-pierrefitte",
+    "name": "Archives nationales — salle d'exposition de Pierrefitte-sur-Seine",
+    "coordinates": [
+      2.373901,
+      48.96811
+    ],
+    "address": "59 rue Guynemer",
+    "postalCode": "93380",
+    "commune": "Pierrefitte-sur-Seine",
+    "department": "93",
+    "website": "https://www.archives-nationales.culture.gouv.fr/infos-pratiques/la-salle-dexposition-de-pierrefitte-sur-seine",
+    "openingHours": "Mo-Sa 09:00-16:45; PH off",
+    "openingHoursSource": {
+      "url": "https://www.archives-nationales.culture.gouv.fr/infos-pratiques/la-salle-dexposition-de-pierrefitte-sur-seine",
+      "checkedAt": "2026-08-04"
+    },
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://www.archives-nationales.culture.gouv.fr/infos-pratiques/la-salle-dexposition-de-pierrefitte-sur-seine",
+          "checkedAt": "2026-08-04"
+        }
+      }
+    ],
+    "wheelchair": "yes",
+    "closures": [
+      {
+        "from": "2026-08-01",
+        "to": "2026-08-15"
+      },
+      {
+        "from": "2026-12-23",
+        "to": "2027-01-02"
+      }
+    ]
   },
   {
     "id": "arenes-de-lutece",
@@ -998,6 +1126,14 @@
           "url": "https://www.saint-denis-basilique.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
+        }
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/basilique-cathedrale-de-saint-denis-p3579",
@@ -1141,6 +1277,53 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dreux_2006-2.jpg",
       "wikimediaFile": "File:Dreux 2006-2.jpg"
     }
+  },
+  {
+    "id": "bibliotheque-forney-hotel-de-sens",
+    "name": "Bibliotheque Forney (Hotel de Sens)",
+    "coordinates": [
+      2.35923,
+      48.85337
+    ],
+    "address": "1 rue du Figuier",
+    "postalCode": "75004",
+    "commune": "Paris",
+    "arrondissement": 4,
+    "department": "75",
+    "website": "https://www.paris.fr/lieux/bibliotheque-forney-18",
+    "openingHours": "Tu-Sa 13:00-19:00",
+    "openingHoursSource": {
+      "url": "https://www.paris.fr/lieux/bibliotheque-forney-18",
+      "checkedAt": "2026-08-04"
+    },
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://www.paris.fr/lieux/bibliotheque-forney-18",
+          "checkedAt": "2026-08-04"
+        },
+        "scope": "partial"
+      }
+    ],
+    "wikidata": "Q60291496",
+    "image": {
+      "file": "images/museums/bibliotheque-forney-hotel-de-sens.jpg",
+      "author": "Pline",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hotel-de-Sens-DSC_8075.jpg",
+      "wikimediaFile": "File:Hotel-de-Sens-DSC 8075.jpg"
+    },
+    "wheelchair": "partial",
+    "closures": [
+      {
+        "from": "2026-07-19",
+        "to": "2026-08-31"
+      }
+    ]
   },
   {
     "id": "bibliotheque-humaniste-de-selestat",
@@ -1948,6 +2131,14 @@
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
+        }
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/chapelle-expiatoire-p3495",
@@ -2646,6 +2837,14 @@
           "url": "https://www.chateau-champs-sur-marne.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
+        }
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/chateau-de-champs-sur-marne-p3558",
@@ -3085,6 +3284,14 @@
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
+        }
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/chateau-de-maisons-p3497",
@@ -3319,6 +3526,14 @@
         "source": {
           "url": "https://www.chateau-rambouillet.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
         }
       }
     ],
@@ -3593,6 +3808,14 @@
         "source": {
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
         }
       }
     ],
@@ -3894,6 +4117,46 @@
           "url": "https://www.nemours.fr/contacts/chateau-musee/",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.nemours.fr/contacts/chateau-musee/",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled",
+        "source": {
+          "url": "https://www.nemours.fr/contacts/chateau-musee/",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "jobseekers",
+        "source": {
+          "url": "https://www.nemours.fr/contacts/chateau-musee/",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "income-support",
+        "source": {
+          "url": "https://www.nemours.fr/contacts/chateau-musee/",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "icom",
+        "source": {
+          "url": "https://www.nemours.fr/contacts/chateau-musee/",
+          "checkedAt": "2026-08-04"
+        }
       }
     ],
     "wikidata": "Q131561076",
@@ -3910,7 +4173,13 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Nemours.jpg",
       "wikimediaFile": "File:Château de Nemours.jpg"
     },
-    "wikipedia": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau-Mus%C3%A9e_de_Nemours"
+    "wikipedia": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau-Mus%C3%A9e_de_Nemours",
+    "wheelchair": "no",
+    "admission": {
+      "currency": "EUR",
+      "full": 6,
+      "reduced": 4
+    }
   },
   {
     "id": "chateau-musee-de-boulogne-sur-mer-chateau-comtal",
@@ -4348,6 +4617,14 @@
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
+        }
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/conciergerie-p3496",
@@ -4535,6 +4812,46 @@
     }
   },
   {
+    "id": "domaine-departemental-de-chamarande",
+    "name": "Domaine départemental de Chamarande",
+    "coordinates": [
+      2.219021,
+      48.513879
+    ],
+    "address": "38 rue du Commandant Arnoux",
+    "postalCode": "91730",
+    "commune": "Chamarande",
+    "department": "91",
+    "website": "https://chamarande.essonne.fr/",
+    "openingHours": "Jan 09:00-17:00; Feb-Mar 09:00-18:00; Apr-May 09:00-19:00; Jun-Sep 09:00-20:00; Oct 09:00-18:00; Nov-Dec 09:00-17:00",
+    "openingHoursSource": {
+      "url": "https://chamarande.essonne.fr/",
+      "checkedAt": "2026-08-04"
+    },
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://chamarande.essonne.fr/informations-pratiques/",
+          "checkedAt": "2026-08-04"
+        }
+      }
+    ],
+    "wikidata": "Q2968829",
+    "image": {
+      "file": "images/museums/domaine-departemental-de-chamarande.jpg",
+      "author": "Patrick GIRAUD",
+      "license": "CC BY 2.5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chamarande_Castle_01.jpg",
+      "wikimediaFile": "File:Chamarande Castle 01.jpg"
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Domaine_de_Chamarande",
+    "wheelchair": "yes"
+  },
+  {
     "id": "domaine-national-de-saint-cloud",
     "name": "Domaine national de Saint-Cloud",
     "coordinates": [
@@ -4567,7 +4884,12 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parc_saint-cloud.jpg",
       "wikimediaFile": "File:Parc saint-cloud.jpg"
     },
-    "wikipedia": "https://fr.wikipedia.org/wiki/Domaine_national_de_Saint-Cloud"
+    "wikipedia": "https://fr.wikipedia.org/wiki/Domaine_national_de_Saint-Cloud",
+    "openingHours": "Mar,Apr,Sep,Oct 07:30-20:50; May-Aug 07:30-21:50; Nov-Feb 07:30-19:50",
+    "openingHoursSource": {
+      "url": "https://www.domaine-saint-cloud.fr/",
+      "checkedAt": "2026-08-04"
+    }
   },
   {
     "id": "domaine-national-du-palais-royal",
@@ -4602,7 +4924,54 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Conseil_d'Etat_Paris_WA.jpg",
       "wikimediaFile": "File:Conseil d'Etat Paris WA.jpg"
     },
-    "wikipedia": "https://fr.wikipedia.org/wiki/Palais-Royal"
+    "wikipedia": "https://fr.wikipedia.org/wiki/Palais-Royal",
+    "wheelchair": "partial",
+    "openingHours": "Apr-Sep 08:00-22:30; Oct-Mar 08:00-20:30",
+    "openingHoursSource": {
+      "url": "https://www.domaine-palais-royal.fr/visiter/informations-pratiques",
+      "checkedAt": "2026-08-04"
+    }
+  },
+  {
+    "id": "domaine-regional-de-villarceaux",
+    "name": "Domaine régional de Villarceaux",
+    "coordinates": [
+      1.710247,
+      49.117697
+    ],
+    "address": "Domaine régional de Villarceaux",
+    "postalCode": "95710",
+    "commune": "Chaussy",
+    "department": "95",
+    "website": "https://www.iledefrance.fr/decouvrir-la-richesse-du-patrimoine/patrimoine-artistique-et-architectural/le-domaine-de-villarceaux",
+    "openingHours": "Apr-Nov Tu-Su 14:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.iledefrance.fr/decouvrir-la-richesse-du-patrimoine/patrimoine-artistique-et-architectural/le-domaine-de-villarceaux",
+      "checkedAt": "2026-08-04"
+    },
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://www.iledefrance.fr/decouvrir-la-richesse-du-patrimoine/patrimoine-artistique-et-architectural/le-domaine-de-villarceaux",
+          "checkedAt": "2026-08-04"
+        }
+      }
+    ],
+    "wheelchair": "partial",
+    "closures": [
+      {
+        "from": "2026-01-01",
+        "to": "2026-04-03"
+      },
+      {
+        "from": "2026-11-02",
+        "to": "2026-12-31"
+      }
+    ]
   },
   {
     "id": "le-donjon-de-niort",
@@ -4786,7 +5155,14 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C3%89comus%C3%A9e_de_Fresnes.webp",
       "wikimediaFile": "File:Écomusée de Fresnes.webp"
     },
-    "wikipedia": "https://fr.wikipedia.org/wiki/%C3%89comus%C3%A9e_de_Fresnes"
+    "wikipedia": "https://fr.wikipedia.org/wiki/%C3%89comus%C3%A9e_de_Fresnes",
+    "wheelchair": "partial",
+    "closures": [
+      {
+        "from": "2026-08-01",
+        "to": "2026-08-29"
+      }
+    ]
   },
   {
     "id": "ensemble-cathedral-du-puy-en-velay",
@@ -4954,6 +5330,113 @@
     ]
   },
   {
+    "id": "espace-richaud-versailles",
+    "name": "Espace Richaud",
+    "coordinates": [
+      2.134182,
+      48.808664
+    ],
+    "address": "78 boulevard de la Reine",
+    "postalCode": "78000",
+    "commune": "Versailles",
+    "department": "78",
+    "website": "https://www.versailles.fr/188/culture/espace-richaud.htm",
+    "openingHours": "We-Fr 12:00-19:00; Sa,Su 10:00-19:00",
+    "openingHoursSource": {
+      "url": "https://www.versailles.fr/188/culture/espace-richaud.htm",
+      "checkedAt": "2026-08-04"
+    },
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": -1,
+        "weekday": "sunday",
+        "source": {
+          "url": "https://www.versailles.fr/188/culture/espace-richaud.htm",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "museum-night",
+        "source": {
+          "url": "https://www.versailles.fr/188/culture/espace-richaud.htm",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.versailles.fr/188/culture/espace-richaud.htm",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26",
+        "source": {
+          "url": "https://www.versailles.fr/188/culture/espace-richaud.htm",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "jobseekers",
+        "source": {
+          "url": "https://www.versailles.fr/188/culture/espace-richaud.htm",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "teachers",
+        "source": {
+          "url": "https://www.versailles.fr/188/culture/espace-richaud.htm",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled",
+        "source": {
+          "url": "https://www.versailles.fr/188/culture/espace-richaud.htm",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled-companion",
+        "source": {
+          "url": "https://www.versailles.fr/188/culture/espace-richaud.htm",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "icom",
+        "source": {
+          "url": "https://www.versailles.fr/188/culture/espace-richaud.htm",
+          "checkedAt": "2026-08-04"
+        }
+      }
+    ],
+    "admission": {
+      "currency": "EUR",
+      "full": 7,
+      "reduced": 5
+    },
+    "closures": [
+      {
+        "from": "2026-08-03",
+        "to": "2026-08-16"
+      }
+    ]
+  },
+  {
     "id": "les-bains-pommer",
     "name": "établissement de bains Pommer",
     "commune": "Avignon",
@@ -5108,6 +5591,53 @@
       "wikimediaFile": "File:Façade du bâtiment de la fondation Arp à Clamart.jpg"
     },
     "wikipedia": "https://fr.wikipedia.org/wiki/Fondation_Arp"
+  },
+  {
+    "id": "fondation-pernod-ricard",
+    "name": "Fondation d'entreprise Pernod Ricard",
+    "coordinates": [
+      2.327006,
+      48.877378
+    ],
+    "address": "1 cours Paul Ricard",
+    "postalCode": "75008",
+    "commune": "Paris",
+    "arrondissement": 8,
+    "department": "75",
+    "website": "https://www.fondation-pernod-ricard.com/fr/infos-pratiques",
+    "openingHours": "Tu-Sa 11:00-19:00; We 11:00-21:00",
+    "openingHoursSource": {
+      "url": "https://www.fondation-pernod-ricard.com/fr/infos-pratiques",
+      "checkedAt": "2026-08-04"
+    },
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://www.fondation-pernod-ricard.com/fr/infos-pratiques",
+          "checkedAt": "2026-08-04"
+        }
+      }
+    ],
+    "wikidata": "Q3075611",
+    "image": {
+      "file": "images/museums/fondation-pernod-ricard.jpg",
+      "author": "Nnnnnicole.DDD",
+      "license": "CC0 1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fondation_Pernod_Ricard-05852_copie.jpg",
+      "wikimediaFile": "File:Fondation Pernod Ricard-05852 copie.jpg"
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Fondation_d'entreprise_Pernod_Ricard",
+    "wheelchair": "yes",
+    "closures": [
+      {
+        "from": "2026-08-01",
+        "to": "2026-08-17"
+      }
+    ]
   },
   {
     "id": "49-nord-6-est-frac-lorraine",
@@ -5880,7 +6410,8 @@
         "source": {
           "url": "https://www.hotel-de-sully.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
-        }
+        },
+        "scope": "grounds"
       }
     ],
     "wikidata": "Q1643144",
@@ -5893,7 +6424,39 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_de_Sully_07-2.jpg",
       "wikimediaFile": "File:Hôtel de Sully 07-2.jpg"
     },
-    "wikipedia": "https://fr.wikipedia.org/wiki/H%C3%B4tel_de_Sully"
+    "wikipedia": "https://fr.wikipedia.org/wiki/H%C3%B4tel_de_Sully",
+    "openingHours": "Mo-Su 09:00-19:00",
+    "openingHoursSource": {
+      "url": "https://www.hotel-de-sully.fr/visiter/informations-pratiques",
+      "checkedAt": "2026-08-04"
+    },
+    "admission": {
+      "currency": "EUR",
+      "full": 13,
+      "reduced": 6
+    },
+    "closures": [
+      {
+        "from": "2026-01-01",
+        "to": "2026-01-01"
+      },
+      {
+        "from": "2026-05-01",
+        "to": "2026-05-01"
+      },
+      {
+        "from": "2026-11-01",
+        "to": "2026-11-01"
+      },
+      {
+        "from": "2026-11-11",
+        "to": "2026-11-11"
+      },
+      {
+        "from": "2026-12-25",
+        "to": "2026-12-25"
+      }
+    ]
   },
   {
     "id": "musee-esteve-hotel-des-echevins",
@@ -6570,6 +7133,54 @@
     ]
   },
   {
+    "id": "lafayette-anticipations",
+    "name": "Lafayette Anticipations - Fondation d'entreprise Galeries Lafayette",
+    "coordinates": [
+      2.354798,
+      48.859219
+    ],
+    "address": "9 rue du Platre",
+    "postalCode": "75004",
+    "commune": "Paris",
+    "arrondissement": 4,
+    "department": "75",
+    "website": "https://www.lafayetteanticipations.com/fr/infos-pratiques",
+    "openingHours": "We-Su 11:00-19:00",
+    "openingHoursSource": {
+      "url": "https://www.lafayetteanticipations.com/fr/infos-pratiques",
+      "checkedAt": "2026-08-04"
+    },
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://www.lafayetteanticipations.com/fr/infos-pratiques",
+          "checkedAt": "2026-08-04"
+        },
+        "scope": "partial"
+      }
+    ],
+    "wikidata": "Q17353174",
+    "image": {
+      "file": "images/museums/lafayette-anticipations.jpg",
+      "author": "Office for Metropolitan Architecture",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fa%C3%A7ade_du_9_rue_du_Pl%C3%A2tre%2C_b%C3%A2timent_r%C3%A9nov%C3%A9_par_Rem_Koolhaas_et_OMA.jpg",
+      "wikimediaFile": "File:Façade du 9 rue du Plâtre, bâtiment rénové par Rem Koolhaas et OMA.jpg"
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Lafayette_Anticipations_-_Fondation_d'entreprise_Galeries_Lafayette",
+    "wheelchair": "yes",
+    "closures": [
+      {
+        "from": "2026-08-03",
+        "to": "2026-08-28"
+      }
+    ]
+  },
+  {
     "id": "le-carmel",
     "name": "Le Carmel",
     "commune": "Tarbes",
@@ -6680,6 +7291,46 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:B%C3%A2timent_du_mus%C3%A9e_Le_Chronographe.jpg",
       "wikimediaFile": "File:Bâtiment du musée Le Chronographe.jpg"
     }
+  },
+  {
+    "id": "le-credac-centre-art-contemporain-ivry",
+    "name": "Le Crédac — Centre d'art contemporain d'Ivry",
+    "coordinates": [
+      2.390249,
+      48.809451
+    ],
+    "address": "La Manufacture des Œillets, 1 place Pierre Gosnat",
+    "postalCode": "94200",
+    "commune": "Ivry-sur-Seine",
+    "department": "94",
+    "website": "https://credac.fr/",
+    "openingHours": "We-Fr 14:00-18:00; Sa-Su 14:00-19:00; PH off",
+    "openingHoursSource": {
+      "url": "https://credac.fr/",
+      "checkedAt": "2026-08-04"
+    },
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://credac.fr/infos-pratiques",
+          "checkedAt": "2026-08-04"
+        }
+      }
+    ],
+    "wikidata": "Q2945061",
+    "wikipedia": "https://fr.wikipedia.org/wiki/Cr%C3%A9dac",
+    "wheelchair": "yes",
+    "closures": [
+      {
+        "from": "2026-08-03",
+        "to": "2026-09-12"
+      }
+    ],
+    "closedUntil": "2026-09-13"
   },
   {
     "id": "le-feru-des-sciences-ancien-musee-de-l-histoire-du-fer",
@@ -7322,7 +7973,8 @@
         "source": {
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
-        }
+        },
+        "scope": "permanent-collection"
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/maison-de-balzac-p3501",
@@ -7341,6 +7993,267 @@
       "wikimediaFile": "File:Maison de Balzac, Paris 16e 5.jpg"
     },
     "wikipedia": "https://fr.wikipedia.org/wiki/Maison_de_Balzac"
+  },
+  {
+    "id": "maison-de-banlieue-et-de-l-architecture",
+    "name": "Maison de Banlieue et de l'Architecture",
+    "coordinates": [
+      2.393389,
+      48.711671
+    ],
+    "address": "41 rue Geneviève Anthonioz-de Gaulle",
+    "postalCode": "91200",
+    "commune": "Athis-Mons",
+    "department": "91",
+    "website": "https://www.maisondebanlieue.fr/",
+    "openingHours": "We 14:00-18:00; PH off",
+    "openingHoursSource": {
+      "url": "https://www.maisondebanlieue.fr/",
+      "checkedAt": "2026-08-04"
+    },
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://www.maisondebanlieue.fr/infos-pratiques/",
+          "checkedAt": "2026-08-04"
+        }
+      }
+    ],
+    "wikidata": "Q123164135",
+    "wheelchair": "partial",
+    "closures": [
+      {
+        "from": "2026-07-16",
+        "to": "2026-09-18"
+      }
+    ],
+    "closedUntil": "2026-09-19"
+  },
+  {
+    "id": "maison-de-chateaubriand",
+    "name": "Maison de Chateaubriand — Domaine départemental de la Vallée-aux-Loups",
+    "coordinates": [
+      2.264409,
+      48.77268
+    ],
+    "address": "87 rue de Chateaubriand",
+    "postalCode": "92290",
+    "commune": "Châtenay-Malabry",
+    "department": "92",
+    "website": "https://vallee-aux-loups.hauts-de-seine.fr/",
+    "openingHours": "Nov-Feb Tu-Fr 13:00-16:30; Nov-Feb Sa,Su 10:00-12:00,13:00-16:30; Mar,Oct Tu-Fr 13:00-18:00; Mar,Oct Sa,Su 10:00-12:00,13:00-18:00; Apr-Sep Tu-Fr 13:00-18:30; Apr-Sep Sa,Su 10:00-12:00,13:00-18:30",
+    "openingHoursSource": {
+      "url": "https://vallee-aux-loups.hauts-de-seine.fr/",
+      "checkedAt": "2026-08-04"
+    },
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "source": {
+          "url": "https://vallee-aux-loups.hauts-de-seine.fr/infos-pratiques/horaires-tarifs/22-tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://vallee-aux-loups.hauts-de-seine.fr/infos-pratiques/horaires-tarifs/22-tarifs",
+          "checkedAt": "2026-08-04"
+        },
+        "scope": "grounds"
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://vallee-aux-loups.hauts-de-seine.fr/infos-pratiques/horaires-tarifs/22-tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "museum-night",
+        "source": {
+          "url": "https://vallee-aux-loups.hauts-de-seine.fr/infos-pratiques/horaires-tarifs/22-tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26",
+        "source": {
+          "url": "https://vallee-aux-loups.hauts-de-seine.fr/infos-pratiques/horaires-tarifs/22-tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "jobseekers",
+        "source": {
+          "url": "https://vallee-aux-loups.hauts-de-seine.fr/infos-pratiques/horaires-tarifs/22-tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "income-support",
+        "source": {
+          "url": "https://vallee-aux-loups.hauts-de-seine.fr/infos-pratiques/horaires-tarifs/22-tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled",
+        "source": {
+          "url": "https://vallee-aux-loups.hauts-de-seine.fr/infos-pratiques/horaires-tarifs/22-tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled-companion",
+        "source": {
+          "url": "https://vallee-aux-loups.hauts-de-seine.fr/infos-pratiques/horaires-tarifs/22-tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "teachers",
+        "source": {
+          "url": "https://vallee-aux-loups.hauts-de-seine.fr/infos-pratiques/horaires-tarifs/22-tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "icom",
+        "source": {
+          "url": "https://vallee-aux-loups.hauts-de-seine.fr/infos-pratiques/horaires-tarifs/22-tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      }
+    ],
+    "wikidata": "Q2509432",
+    "image": {
+      "file": "images/museums/maison-de-chateaubriand.jpg",
+      "author": "Myrabella",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maison_Chateaubriand_Vallee-aux-Loups.jpg",
+      "wikimediaFile": "File:Maison Chateaubriand Vallee-aux-Loups.jpg"
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Vall%C3%A9e-aux-Loups",
+    "admission": {
+      "currency": "EUR",
+      "full": 6,
+      "reduced": 4
+    },
+    "closures": [
+      {
+        "from": "2026-01-01",
+        "to": "2026-01-01"
+      },
+      {
+        "from": "2026-12-25",
+        "to": "2026-12-25"
+      }
+    ]
+  },
+  {
+    "id": "maison-de-fer-poissy",
+    "name": "Maison de Fer - galerie d'art et d'histoire de Poissy",
+    "coordinates": [
+      2.023434,
+      48.916379
+    ],
+    "address": "2ter allée des Glaïeuls, parc Meissonier",
+    "postalCode": "78300",
+    "commune": "Poissy",
+    "department": "78",
+    "website": "https://www.maisondefer-poissy.fr/",
+    "openingHours": "We,Sa,Su 13:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.maisondefer-poissy.fr/",
+      "checkedAt": "2026-08-04"
+    },
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "source": {
+          "url": "https://www.maisondefer-poissy.fr/index.php?object=visite",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "jobseekers",
+        "source": {
+          "url": "https://www.maisondefer-poissy.fr/index.php?object=visite",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "income-support",
+        "source": {
+          "url": "https://www.maisondefer-poissy.fr/index.php?object=visite",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled",
+        "source": {
+          "url": "https://www.maisondefer-poissy.fr/index.php?object=visite",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled-companion",
+        "source": {
+          "url": "https://www.maisondefer-poissy.fr/index.php?object=visite",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "icom",
+        "source": {
+          "url": "https://www.maisondefer-poissy.fr/index.php?object=visite",
+          "checkedAt": "2026-08-04"
+        }
+      }
+    ],
+    "wikidata": "Q22923740",
+    "image": {
+      "file": "images/museums/maison-de-fer-poissy.jpg",
+      "author": "Hadriscus",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2013_08_17_maison_Danly_panoramique_entree.jpg",
+      "wikimediaFile": "File:2013 08 17 maison Danly panoramique entree.jpg"
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Maison_de_Fer_(Poissy)",
+    "admission": {
+      "currency": "EUR",
+      "full": 3,
+      "reduced": 1
+    }
   },
   {
     "id": "maison-de-george-sand-a-nohant",
@@ -7578,6 +8491,46 @@
     ]
   },
   {
+    "id": "maison-photographie-robert-doisneau-gentilly",
+    "name": "Maison de la photographie Robert-Doisneau",
+    "coordinates": [
+      2.34755,
+      48.81409
+    ],
+    "address": "1 rue de la Division du Général Leclerc",
+    "postalCode": "94250",
+    "commune": "Gentilly",
+    "department": "94",
+    "website": "https://maisondoisneau.grandorlyseinebievre.fr/",
+    "openingHours": "We-Fr 13:30-18:30; Sa-Su 13:30-19:00",
+    "openingHoursSource": {
+      "url": "https://maisondoisneau.grandorlyseinebievre.fr/",
+      "checkedAt": "2026-08-04"
+    },
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://maisondoisneau.grandorlyseinebievre.fr/informations-pratiques",
+          "checkedAt": "2026-08-04"
+        }
+      }
+    ],
+    "wikidata": "Q6737061",
+    "image": {
+      "file": "images/museums/maison-photographie-robert-doisneau-gentilly.jpg",
+      "author": "Miluth",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maison_de_la_Photographie_Robert_Doisneau.jpg",
+      "wikimediaFile": "File:Maison de la Photographie Robert Doisneau.jpg"
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Maison_de_la_photographie_Robert-Doisneau",
+    "wheelchair": "partial"
+  },
+  {
     "id": "maison-de-victor-hugo",
     "name": "Maison de Victor Hugo",
     "coordinates": [
@@ -7600,7 +8553,8 @@
         "source": {
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
-        }
+        },
+        "scope": "permanent-collection"
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/maison-de-victor-hugo-p3500",
@@ -7644,6 +8598,14 @@
         "source": {
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
         }
       }
     ],
@@ -7723,6 +8685,60 @@
           "url": "https://collections.ville-bourges.fr/fr/info-pratiques/horaires-tarifs",
           "checkedAt": "2026-08-07"
         }
+      }
+    ]
+  },
+  {
+    "id": "maison-jean-monnet-bazoches-sur-guyonne",
+    "name": "Maison Jean Monnet",
+    "coordinates": [
+      1.85177,
+      48.7707
+    ],
+    "address": "7 chemin du Vieux Pressoir, hameau de Houjarray",
+    "postalCode": "78490",
+    "commune": "Bazoches-sur-Guyonne",
+    "department": "78",
+    "website": "https://jean-monnet.europa.eu/",
+    "openingHours": "Jan-Apr Mo-Fr 09:00-17:00; Jan-Apr Sa,Su 10:00-17:00; May-Sep Mo-Fr 09:00-17:00; May-Sep Sa,Su 10:00-18:00; Oct-Dec Mo-Fr 09:00-17:00; Oct-Dec Sa,Su 10:00-17:00",
+    "openingHoursSource": {
+      "url": "https://jean-monnet.europa.eu/",
+      "checkedAt": "2026-08-04"
+    },
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://jean-monnet.europa.eu/visit-us/practical-information_en",
+          "checkedAt": "2026-08-04"
+        }
+      }
+    ],
+    "wikidata": "Q3279402",
+    "image": {
+      "file": "images/museums/maison-jean-monnet-bazoches-sur-guyonne.jpg",
+      "author": "ℍenry Salomé",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bazoches_Salon_Monnet.jpg",
+      "wikimediaFile": "File:Bazoches Salon Monnet.jpg"
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Maison_de_Jean_Monnet",
+    "wheelchair": "partial",
+    "closures": [
+      {
+        "from": "2026-01-01",
+        "to": "2026-01-01"
+      },
+      {
+        "from": "2026-12-24",
+        "to": "2026-12-25"
+      },
+      {
+        "from": "2026-12-31",
+        "to": "2026-12-31"
       }
     ]
   },
@@ -8207,6 +9223,56 @@
     }
   },
   {
+    "id": "memorial-des-martyrs-de-la-deportation",
+    "name": "Memorial des martyrs de la Deportation",
+    "coordinates": [
+      2.3525,
+      48.851667
+    ],
+    "address": "Square de l'Ile-de-France, 7 quai de l'Archeveche",
+    "postalCode": "75004",
+    "commune": "Paris",
+    "arrondissement": 4,
+    "department": "75",
+    "website": "https://www.onac-vg.fr/hauts-lieux-memoire-necropoles/memorial-des-martyrs-de-la-deportation",
+    "openingHours": "Mo-Fr 15:00-18:00; Sa,Su 09:30-18:00; Jul-Aug 09:30-18:00",
+    "openingHoursSource": {
+      "url": "https://www.onac-vg.fr/hauts-lieux-memoire-necropoles/memorial-des-martyrs-de-la-deportation",
+      "checkedAt": "2026-08-04"
+    },
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://www.onac-vg.fr/hauts-lieux-memoire-necropoles/memorial-des-martyrs-de-la-deportation",
+          "checkedAt": "2026-08-04"
+        }
+      }
+    ],
+    "wikidata": "Q3333162",
+    "image": {
+      "file": "images/museums/memorial-des-martyrs-de-la-deportation.jpg",
+      "author": "Tangopaso",
+      "license": "Public Domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Square_IDF_%26_Memorial.jpg",
+      "wikimediaFile": "File:Square IDF & Memorial.jpg"
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/M%C3%A9morial_des_martyrs_de_la_d%C3%A9portation",
+    "closures": [
+      {
+        "from": "2026-05-01",
+        "to": "2026-05-01"
+      },
+      {
+        "from": "2026-02-14",
+        "to": "2026-03-02"
+      }
+    ]
+  },
+  {
     "id": "mo-co-panacee",
     "name": "MO.CO.",
     "commune": "Montpellier",
@@ -8540,6 +9606,54 @@
           "url": "https://mus.suresnes.fr/informations-pratiques/",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26",
+        "source": {
+          "url": "https://mus.suresnes.fr/informations-pratiques/",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "students",
+        "source": {
+          "url": "https://mus.suresnes.fr/informations-pratiques/",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "jobseekers",
+        "source": {
+          "url": "https://mus.suresnes.fr/informations-pratiques/",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled",
+        "source": {
+          "url": "https://mus.suresnes.fr/informations-pratiques/",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "teachers",
+        "source": {
+          "url": "https://mus.suresnes.fr/informations-pratiques/",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "icom",
+        "source": {
+          "url": "https://mus.suresnes.fr/informations-pratiques/",
+          "checkedAt": "2026-08-04"
+        }
       }
     ],
     "wikidata": "Q28033642",
@@ -8556,7 +9670,27 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:2013_MUS_Musee_Urbanisme_de_Suresnes.JPG",
       "wikimediaFile": "File:2013 MUS Musee Urbanisme de Suresnes.JPG"
     },
-    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Histoire_urbaine_et_sociale_de_Suresnes"
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Histoire_urbaine_et_sociale_de_Suresnes",
+    "wheelchair": "yes",
+    "admission": {
+      "currency": "EUR",
+      "full": 6,
+      "reduced": 4
+    },
+    "closures": [
+      {
+        "from": "2026-08-01",
+        "to": "2026-08-14"
+      },
+      {
+        "from": "2026-12-24",
+        "to": "2026-12-24"
+      },
+      {
+        "from": "2026-12-31",
+        "to": "2026-12-31"
+      }
+    ]
   },
   {
     "id": "musee-adrien-mentienne",
@@ -8594,6 +9728,45 @@
       "wikimediaFile": "File:Musée Adrien Mentienne Bry Marne 2.jpg"
     },
     "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Adrien_Mentienne"
+  },
+  {
+    "id": "musee-aeronautique-et-spatial-safran",
+    "name": "Musée aéronautique et spatial Safran",
+    "coordinates": [
+      2.651398,
+      48.605052
+    ],
+    "address": "Rond-point René Ravaud",
+    "postalCode": "77550",
+    "commune": "Réau",
+    "department": "77",
+    "website": "https://www.safran-group.com/fr/groupe/histoire-patrimoine/musee-safran",
+    "openingHours": "We 09:00-12:00,14:00-17:00",
+    "openingHoursSource": {
+      "url": "https://www.safran-group.com/fr/groupe/histoire-patrimoine/musee-safran",
+      "checkedAt": "2026-08-04"
+    },
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://reau.fr/fr/rb/1056551/le-musee-safran",
+          "checkedAt": "2026-08-04"
+        }
+      }
+    ],
+    "wikidata": "Q20971130",
+    "image": {
+      "file": "images/museums/musee-aeronautique-et-spatial-safran.jpg",
+      "author": "Wristpin",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hispano-Suiza_12Y31.jpg",
+      "wikimediaFile": "File:Hispano-Suiza 12Y31.jpg"
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_a%C3%A9ronautique_et_spatial_Safran"
   },
   {
     "id": "musee-alfred-bonno",
@@ -9382,12 +10555,44 @@
     ],
     "freeAccess": [
       {
+        "kind": "always",
+        "scope": "grounds",
+        "source": {
+          "url": "https://www.musee-bossuet.fr/preparez-votre-visite/horaires-et-tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
         "kind": "nth-weekday",
         "nth": 1,
         "weekday": "sunday",
         "source": {
           "url": "https://www.musee-bossuet.fr/preparez-votre-visite/horaires-et-tarifs",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled",
+        "source": {
+          "url": "https://www.musee-bossuet.fr/preparez-votre-visite/horaires-et-tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled-companion",
+        "source": {
+          "url": "https://www.musee-bossuet.fr/preparez-votre-visite/horaires-et-tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "teachers",
+        "source": {
+          "url": "https://www.musee-bossuet.fr/preparez-votre-visite/horaires-et-tarifs",
+          "checkedAt": "2026-08-04"
         }
       }
     ],
@@ -9405,7 +10610,30 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Meaux_140708_01.jpg",
       "wikimediaFile": "File:Meaux 140708 01.jpg"
     },
-    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Bossuet"
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Bossuet",
+    "admission": {
+      "currency": "EUR",
+      "full": 5,
+      "reduced": 4
+    },
+    "closures": [
+      {
+        "from": "2026-01-01",
+        "to": "2026-01-01"
+      },
+      {
+        "from": "2026-05-01",
+        "to": "2026-05-01"
+      },
+      {
+        "from": "2026-07-14",
+        "to": "2026-07-14"
+      },
+      {
+        "from": "2026-12-25",
+        "to": "2026-12-25"
+      }
+    ]
   },
   {
     "id": "musee-bourdelle",
@@ -9431,7 +10659,8 @@
         "source": {
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
-        }
+        },
+        "scope": "permanent-collection"
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-bourdelle-p3539",
@@ -9603,7 +10832,8 @@
         "source": {
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
-        }
+        },
+        "scope": "permanent-collection"
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-carnavalet-histoire-de-paris-p3492",
@@ -9646,7 +10876,8 @@
         "source": {
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
-        }
+        },
+        "scope": "permanent-collection"
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-cernuschi-musee-des-arts-de-l-asie-de-la-ville-de-paris-p3499",
@@ -9772,7 +11003,8 @@
         "source": {
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
-        }
+        },
+        "scope": "permanent-collection"
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-cognacq-jay-le-gout-du-xviiie-p3509",
@@ -9790,7 +11022,8 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jardin_Lazare-Rachline%2C_Paris_9_June_2017_001.jpg",
       "wikimediaFile": "File:Jardin Lazare-Rachline, Paris 9 June 2017 001.jpg"
     },
-    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Cognacq-Jay"
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Cognacq-Jay",
+    "wheelchair": "no"
   },
   {
     "id": "musee-gustave-courbet",
@@ -10122,6 +11355,14 @@
         "source": {
           "url": "https://musee-archeologienationale.fr/tarifs",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
         }
       }
     ],
@@ -10783,12 +12024,58 @@
           "url": "https://mahhsa.fr/informations-pratiques/",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26",
+        "source": {
+          "url": "https://mahhsa.fr/informations-pratiques/",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "jobseekers",
+        "source": {
+          "url": "https://mahhsa.fr/informations-pratiques/",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled",
+        "source": {
+          "url": "https://mahhsa.fr/informations-pratiques/",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled-companion",
+        "source": {
+          "url": "https://mahhsa.fr/informations-pratiques/",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "icom",
+        "source": {
+          "url": "https://mahhsa.fr/informations-pratiques/",
+          "checkedAt": "2026-08-04"
+        }
       }
     ],
     "wikidata": "Q88645654",
     "note": "Temporarily closed; reopening announced for 3 September 2026.",
     "museofile": "M1202",
-    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_et_d'Histoire_de_l'h%C3%B4pital_Sainte-Anne"
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_et_d'Histoire_de_l'h%C3%B4pital_Sainte-Anne",
+    "wheelchair": "no",
+    "admission": {
+      "currency": "EUR",
+      "full": 5
+    },
+    "closedUntil": "2026-09-03"
   },
   {
     "id": "musee-d-art-et-d-histoire-de-lisieux",
@@ -10865,7 +12152,14 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9eartethistoiremeudon.jpg",
       "wikimediaFile": "File:Muséeartethistoiremeudon.jpg"
     },
-    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_et_d'Histoire_de_Meudon"
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_et_d'Histoire_de_Meudon",
+    "wheelchair": "partial",
+    "closures": [
+      {
+        "from": "2026-08-03",
+        "to": "2026-08-24"
+      }
+    ]
   },
   {
     "id": "musee-d-art-et-d-histoire-de-provence-mahp",
@@ -11018,7 +12312,8 @@
         "source": {
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
-        }
+        },
+        "scope": "permanent-collection"
       },
       {
         "kind": "always",
@@ -11026,6 +12321,14 @@
         "source": {
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
         }
       }
     ],
@@ -11183,6 +12486,70 @@
           "url": "https://musee-saint-denis.com/horaires-acces-et-tarifs/",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26",
+        "source": {
+          "url": "https://musee-saint-denis.com/infos-pratiques/horaires-acces-et-tarifs/",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "students",
+        "source": {
+          "url": "https://musee-saint-denis.com/infos-pratiques/horaires-acces-et-tarifs/",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "jobseekers",
+        "source": {
+          "url": "https://musee-saint-denis.com/infos-pratiques/horaires-acces-et-tarifs/",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "income-support",
+        "source": {
+          "url": "https://musee-saint-denis.com/infos-pratiques/horaires-acces-et-tarifs/",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled",
+        "source": {
+          "url": "https://musee-saint-denis.com/infos-pratiques/horaires-acces-et-tarifs/",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled-companion",
+        "source": {
+          "url": "https://musee-saint-denis.com/infos-pratiques/horaires-acces-et-tarifs/",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "icom",
+        "source": {
+          "url": "https://musee-saint-denis.com/infos-pratiques/horaires-acces-et-tarifs/",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "teachers",
+        "source": {
+          "url": "https://musee-saint-denis.com/infos-pratiques/horaires-acces-et-tarifs/",
+          "checkedAt": "2026-08-04"
+        }
       }
     ],
     "wikidata": "Q3329627",
@@ -11199,7 +12566,13 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saint-Denis_(93)_Chapelle_du_Carmel.JPG",
       "wikimediaFile": "File:Saint-Denis (93) Chapelle du Carmel.JPG"
     },
-    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_et_d'Histoire_Paul-%C3%89luard"
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_et_d'Histoire_Paul-%C3%89luard",
+    "wheelchair": "partial",
+    "admission": {
+      "currency": "EUR",
+      "full": 5,
+      "reduced": 3
+    }
   },
   {
     "id": "musee-pissarro",
@@ -11219,6 +12592,14 @@
     ],
     "freeAccess": [
       {
+        "kind": "always",
+        "scope": "grounds",
+        "source": {
+          "url": "https://ville-pontoise.fr/le-musee-dart-et-dhistoire-pissarro-pontoise-mahpp",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
         "kind": "nth-weekday",
         "nth": 1,
         "weekday": "sunday",
@@ -11226,6 +12607,14 @@
         "source": {
           "url": "https://ville-pontoise.fr/le-musee-dart-et-dhistoire-pissarro-pontoise-mahpp",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://ville-pontoise.fr/le-musee-dart-et-dhistoire-pissarro-pontoise-mahpp",
+          "checkedAt": "2026-08-04"
         }
       }
     ],
@@ -11243,7 +12632,12 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Camille_Pissarro.jpg",
       "wikimediaFile": "File:Musée Camille Pissarro.jpg"
     },
-    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_et_d'Histoire_Pissarro-Pontoise"
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Art_et_d'Histoire_Pissarro-Pontoise",
+    "admission": {
+      "currency": "EUR",
+      "full": 7,
+      "reduced": 5.5
+    }
   },
   {
     "id": "musee-d-art-et-d-histoire-saint-leger-ancienne-abbaye-saint-leger",
@@ -11487,7 +12881,8 @@
         "source": {
           "url": "https://www.mam.paris.fr/fr/individuels",
           "checkedAt": "2026-08-06"
-        }
+        },
+        "scope": "permanent-collection"
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-d-art-moderne-de-paris-p3491",
@@ -12144,6 +13539,41 @@
     }
   },
   {
+    "id": "musee-d-initiation-a-la-nature-cpie",
+    "name": "musée d’initiation à la nature",
+    "commune": "Caen",
+    "coordinates": [
+      -0.37306,
+      49.1803
+    ],
+    "address": "Enceinte de l'hôtel de Ville, entrée par l'impasse Duc Rollon ou l'avenue Albert Sorel",
+    "postalCode": "14000",
+    "department": "14",
+    "website": "http://cpievdo.fr/",
+    "wikidata": "Q3329687",
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Initiation_%C3%A0_la_nature",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "note": "Permanent displays and temporary exhibitions free at all times; inside the Hôtel de Ville grounds (Abbaye aux Hommes).",
+        "source": {
+          "url": "https://caen.fr/annuaire-equipement/musee-dinitiation-la-nature-cpie",
+          "checkedAt": "2026-08-07"
+        }
+      }
+    ],
+    "image": {
+      "file": "images/museums/musee-d-initiation-a-la-nature-cpie.jpg",
+      "author": "Karldupart",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caen_museeinitiationnature.jpg",
+      "wikimediaFile": "File:Caen museeinitiationnature.jpg"
+    }
+  },
+  {
     "id": "musee-d-orsay",
     "name": "Musée d'Orsay",
     "coordinates": [
@@ -12177,6 +13607,14 @@
         "source": {
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
         }
       }
     ],
@@ -12231,7 +13669,17 @@
       "license": "CC BY-SA 4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Daubigny%2C_au_manoir_des_Colombi%C3%A8res%2C_Auvers-sur-Oise-2350.jpg",
       "wikimediaFile": "File:Musée Daubigny, au manoir des Colombières, Auvers-sur-Oise-2350.jpg"
-    }
+    },
+    "closures": [
+      {
+        "from": "2026-01-01",
+        "to": "2026-01-01"
+      },
+      {
+        "from": "2026-12-25",
+        "to": "2026-12-25"
+      }
+    ]
   },
   {
     "id": "musee-dauphinois",
@@ -12409,6 +13857,14 @@
         "source": {
           "url": "https://www.musee-moyenage.fr/visiter/informations-pratiques/tarifs.html",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
         }
       }
     ],
@@ -12732,6 +14188,14 @@
         "source": {
           "url": "https://www.musee-armee.fr/votre-visite/horaires-et-tarifs/gratuites-et-reduction.html",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
         }
       }
     ],
@@ -13080,7 +14544,22 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mantes-la-Jolie_-_H%C3%B4tel-Dieu01.jpg",
       "wikimediaFile": "File:Mantes-la-Jolie - Hôtel-Dieu01.jpg"
     },
-    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_l'H%C3%B4tel-Dieu"
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_l'H%C3%B4tel-Dieu",
+    "wheelchair": "yes",
+    "closures": [
+      {
+        "from": "2026-01-01",
+        "to": "2026-01-01"
+      },
+      {
+        "from": "2026-05-01",
+        "to": "2026-05-01"
+      },
+      {
+        "from": "2026-12-25",
+        "to": "2026-12-25"
+      }
+    ]
   },
   {
     "id": "musee-de-l-illustration-jeunesse-mij",
@@ -13187,6 +14666,14 @@
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
+        }
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/institut-du-monde-arabe-p3524",
@@ -13205,61 +14692,6 @@
       "wikimediaFile": "File:Institut du Monde Arabe au bord de la Seine.jpg"
     },
     "wikipedia": "https://fr.wikipedia.org/wiki/Institut_du_monde_arabe"
-  },
-  {
-    "id": "musee-de-l-orangerie-des-tuileries",
-    "name": "Musée de l'Orangerie",
-    "coordinates": [
-      2.326622,
-      48.868053
-    ],
-    "address": "Jardin des Tuileries",
-    "postalCode": "75001",
-    "commune": "Paris",
-    "arrondissement": 1,
-    "department": "75",
-    "website": "https://www.musee-orangerie.fr/",
-    "phone": "01 40 20 67 71",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": [
-      {
-        "kind": "nth-weekday",
-        "nth": 1,
-        "weekday": "sunday",
-        "reservationRequired": true,
-        "reservationUrl": "https://billetterie.musee-orangerie.fr/",
-        "source": {
-          "url": "https://www.musee-orangerie.fr/en/whats-on/tours-and-workshops/1st-sunday-month-free-all-online-time-slot-booking-mandatory",
-          "checkedAt": "2026-08-06"
-        }
-      },
-      {
-        "kind": "always",
-        "audience": "under-26-eu",
-        "source": {
-          "url": "https://www.musee-orangerie.fr/fr/node/582",
-          "checkedAt": "2026-08-06"
-        }
-      }
-    ],
-    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-l-orangerie-p3513",
-    "wikidata": "Q726781",
-    "openingHours": "Mo,We-Su 09:00-18:00",
-    "openingHoursSource": {
-      "url": "https://www.musee-orangerie.fr",
-      "checkedAt": "2026-08-04"
-    },
-    "museofile": "M5030",
-    "image": {
-      "file": "images/museums/musee-de-l-orangerie-des-tuileries.jpg",
-      "author": "Traktorminze",
-      "license": "CC BY-SA 3.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2011-12-Musee_de_lorangerie.jpg",
-      "wikimediaFile": "File:2011-12-Musee de lorangerie.jpg"
-    },
-    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_l'Orangerie"
   },
   {
     "id": "musee-de-l-uvre-notre-dame",
@@ -13306,6 +14738,69 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_de_l'%C5%92uvre_Notre-Dame_-_panoramio.jpg",
       "wikimediaFile": "File:Musée de l'Œuvre Notre-Dame - panoramio.jpg"
     }
+  },
+  {
+    "id": "musee-de-l-orangerie-des-tuileries",
+    "name": "Musée de l'Orangerie",
+    "coordinates": [
+      2.326622,
+      48.868053
+    ],
+    "address": "Jardin des Tuileries",
+    "postalCode": "75001",
+    "commune": "Paris",
+    "arrondissement": 1,
+    "department": "75",
+    "website": "https://www.musee-orangerie.fr/",
+    "phone": "01 40 20 67 71",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "nth-weekday",
+        "nth": 1,
+        "weekday": "sunday",
+        "reservationRequired": true,
+        "reservationUrl": "https://billetterie.musee-orangerie.fr/",
+        "source": {
+          "url": "https://www.musee-orangerie.fr/en/whats-on/tours-and-workshops/1st-sunday-month-free-all-online-time-slot-booking-mandatory",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26-eu",
+        "source": {
+          "url": "https://www.musee-orangerie.fr/fr/node/582",
+          "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
+        }
+      }
+    ],
+    "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-l-orangerie-p3513",
+    "wikidata": "Q726781",
+    "openingHours": "Mo,We-Su 09:00-18:00",
+    "openingHoursSource": {
+      "url": "https://www.musee-orangerie.fr",
+      "checkedAt": "2026-08-04"
+    },
+    "museofile": "M5030",
+    "image": {
+      "file": "images/museums/musee-de-l-orangerie-des-tuileries.jpg",
+      "author": "Traktorminze",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2011-12-Musee_de_lorangerie.jpg",
+      "wikimediaFile": "File:2011-12-Musee de lorangerie.jpg"
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_l'Orangerie"
   },
   {
     "id": "musee-de-la-bataille-de-fromelles",
@@ -13819,6 +15314,54 @@
           "url": "https://www.melunvaldeseine-tourisme.com/patrimoine-culturel/musee-de-la-gendarmerie-nationale",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled",
+        "source": {
+          "url": "https://www.melunvaldeseine-tourisme.com/patrimoine-culturel/musee-de-la-gendarmerie-nationale",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled-companion",
+        "source": {
+          "url": "https://www.melunvaldeseine-tourisme.com/patrimoine-culturel/musee-de-la-gendarmerie-nationale",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "jobseekers",
+        "source": {
+          "url": "https://www.melunvaldeseine-tourisme.com/patrimoine-culturel/musee-de-la-gendarmerie-nationale",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "income-support",
+        "source": {
+          "url": "https://www.melunvaldeseine-tourisme.com/patrimoine-culturel/musee-de-la-gendarmerie-nationale",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "teachers",
+        "source": {
+          "url": "https://www.melunvaldeseine-tourisme.com/patrimoine-culturel/musee-de-la-gendarmerie-nationale",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "icom",
+        "source": {
+          "url": "https://www.melunvaldeseine-tourisme.com/patrimoine-culturel/musee-de-la-gendarmerie-nationale",
+          "checkedAt": "2026-08-04"
+        }
       }
     ],
     "wikidata": "Q23057803",
@@ -13835,7 +15378,31 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9eGN1_Domenjod_140916.jpg",
       "wikimediaFile": "File:MuséeGN1 Domenjod 140916.jpg"
     },
-    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_Gendarmerie_nationale_de_Melun"
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_Gendarmerie_nationale_de_Melun",
+    "wheelchair": "yes",
+    "admission": {
+      "currency": "EUR",
+      "full": 12,
+      "reduced": 9
+    },
+    "closures": [
+      {
+        "from": "2026-01-01",
+        "to": "2026-01-01"
+      },
+      {
+        "from": "2026-05-01",
+        "to": "2026-05-01"
+      },
+      {
+        "from": "2026-11-01",
+        "to": "2026-11-01"
+      },
+      {
+        "from": "2026-12-25",
+        "to": "2026-12-25"
+      }
+    ]
   },
   {
     "id": "musee-de-la-grande-guerre",
@@ -13863,6 +15430,38 @@
           "url": "https://www.museedelagrandeguerre.com/entree-gratuite-tous-les-1er-dimanches-du-mois/",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled",
+        "source": {
+          "url": "https://www.museedelagrandeguerre.com/preparer-sa-visite/informations-pratiques/",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled-companion",
+        "source": {
+          "url": "https://www.museedelagrandeguerre.com/preparer-sa-visite/informations-pratiques/",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "teachers",
+        "source": {
+          "url": "https://www.museedelagrandeguerre.com/preparer-sa-visite/informations-pratiques/",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "icom",
+        "source": {
+          "url": "https://www.museedelagrandeguerre.com/preparer-sa-visite/informations-pratiques/",
+          "checkedAt": "2026-08-04"
+        }
       }
     ],
     "wikidata": "Q611062",
@@ -13879,7 +15478,31 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_de_la_Grande_Guerre_de_Meaux_13.jpg",
       "wikimediaFile": "File:Musée de la Grande Guerre de Meaux 13.jpg"
     },
-    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_Grande_Guerre_du_pays_de_Meaux"
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_Grande_Guerre_du_pays_de_Meaux",
+    "wheelchair": "yes",
+    "admission": {
+      "currency": "EUR",
+      "full": 12,
+      "reduced": 9
+    },
+    "closures": [
+      {
+        "from": "2026-01-01",
+        "to": "2026-01-01"
+      },
+      {
+        "from": "2026-05-01",
+        "to": "2026-05-01"
+      },
+      {
+        "from": "2026-08-17",
+        "to": "2026-09-04"
+      },
+      {
+        "from": "2026-12-25",
+        "to": "2026-12-25"
+      }
+    ]
   },
   {
     "id": "musee-de-la-grande-loge-de-france",
@@ -14111,6 +15734,62 @@
           "url": "https://www.monnaiedeparis.fr/en/tickets-and-admission-fees",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26",
+        "source": {
+          "url": "https://www.monnaiedeparis.fr/fr/le-lieu-culturel/preparer-sa-visite/billets-et-tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "jobseekers",
+        "source": {
+          "url": "https://www.monnaiedeparis.fr/media/contentmanager/content/conditions_reductions_gratuites.pdf",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "income-support",
+        "source": {
+          "url": "https://www.monnaiedeparis.fr/media/contentmanager/content/conditions_reductions_gratuites.pdf",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled",
+        "source": {
+          "url": "https://www.monnaiedeparis.fr/media/contentmanager/content/conditions_reductions_gratuites.pdf",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled-companion",
+        "source": {
+          "url": "https://www.monnaiedeparis.fr/media/contentmanager/content/conditions_reductions_gratuites.pdf",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "teachers",
+        "source": {
+          "url": "https://www.monnaiedeparis.fr/media/contentmanager/content/conditions_reductions_gratuites.pdf",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "icom",
+        "source": {
+          "url": "https://www.monnaiedeparis.fr/media/contentmanager/content/conditions_reductions_gratuites.pdf",
+          "checkedAt": "2026-08-04"
+        }
       }
     ],
     "wikidata": "Q48746193",
@@ -14122,7 +15801,32 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_-_H%C3%B4tel_des_Monnaies_-_Fa%C3%A7ade_c%C3%B4t%C3%A9_cour.JPG",
       "wikimediaFile": "File:Paris - Hôtel des Monnaies - Façade côté cour.JPG"
     },
-    "wikipedia": "https://fr.wikipedia.org/wiki/Le_Mus%C3%A9e_du_11_Conti_-_Monnaie_de_Paris"
+    "wikipedia": "https://fr.wikipedia.org/wiki/Le_Mus%C3%A9e_du_11_Conti_-_Monnaie_de_Paris",
+    "wheelchair": "yes",
+    "admission": {
+      "currency": "EUR",
+      "full": 12,
+      "reduced": 8
+    },
+    "closures": [
+      {
+        "from": "2026-01-01",
+        "to": "2026-01-01"
+      },
+      {
+        "from": "2026-05-01",
+        "to": "2026-05-01"
+      },
+      {
+        "from": "2026-12-25",
+        "to": "2026-12-25"
+      }
+    ],
+    "openingHours": "Tu-Su 11:00-18:00; We 11:00-21:00",
+    "openingHoursSource": {
+      "url": "https://www.monnaiedeparis.fr/fr/le-lieu-culturel/preparer-sa-visite/billets-et-tarifs",
+      "checkedAt": "2026-08-04"
+    }
   },
   {
     "id": "musee-de-la-moto",
@@ -14186,6 +15890,14 @@
         "source": {
           "url": "https://philharmoniedeparis.fr/fr/musee-de-la-musique",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
         }
       }
     ],
@@ -14276,6 +15988,14 @@
         "source": {
           "url": "https://www.museedelaposte.fr/fr/tarifs",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
         }
       }
     ],
@@ -14454,6 +16174,14 @@
         "source": {
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
         }
       }
     ],
@@ -14988,7 +16716,32 @@
     "tags": [
       "museum"
     ],
-    "freeAccess": [],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.ville-melun.fr/temps-libre/musee-d-art-et-d-histoire-de-la-ville-de-melun/musee",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "students",
+        "source": {
+          "url": "https://www.ville-melun.fr/temps-libre/musee-d-art-et-d-histoire-de-la-ville-de-melun/musee",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "residents",
+        "source": {
+          "url": "https://www.ville-melun.fr/temps-libre/musee-d-art-et-d-histoire-de-la-ville-de-melun/musee",
+          "checkedAt": "2026-08-04"
+        }
+      }
+    ],
     "wikidata": "Q23600488",
     "museofile": "M0379",
     "image": {
@@ -14997,6 +16750,16 @@
       "license": "CC BY-SA 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Melun_musee.JPG",
       "wikimediaFile": "File:Melun musee.JPG"
+    },
+    "admission": {
+      "currency": "EUR",
+      "full": 2,
+      "reduced": 1
+    },
+    "openingHours": "We-Fr 14:00-18:00; PH off",
+    "openingHoursSource": {
+      "url": "https://www.ville-melun.fr/temps-libre/musee-d-art-et-d-histoire-de-la-ville-de-melun/musee",
+      "checkedAt": "2026-08-04"
     }
   },
   {
@@ -15179,10 +16942,58 @@
     "freeAccess": [
       {
         "kind": "always",
+        "scope": "grounds",
+        "source": {
+          "url": "https://port-royal-des-champs.fr/informations-pratiques/",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
         "audience": "under-26-eu",
         "source": {
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "jobseekers",
+        "source": {
+          "url": "https://port-royal-des-champs.fr/informations-pratiques/",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "income-support",
+        "source": {
+          "url": "https://port-royal-des-champs.fr/informations-pratiques/",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled",
+        "source": {
+          "url": "https://port-royal-des-champs.fr/informations-pratiques/",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "teachers",
+        "source": {
+          "url": "https://port-royal-des-champs.fr/informations-pratiques/",
+          "checkedAt": "2026-08-04"
         }
       }
     ],
@@ -15201,7 +17012,22 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Port-Royal-des-Champs_-_Petites_Ecoles.JPG",
       "wikimediaFile": "File:Port-Royal-des-Champs - Petites Ecoles.JPG"
     },
-    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_national_de_Port-Royal_des_Champs"
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_national_de_Port-Royal_des_Champs",
+    "wheelchair": "no",
+    "closures": [
+      {
+        "from": "2026-01-01",
+        "to": "2026-01-01"
+      },
+      {
+        "from": "2026-05-01",
+        "to": "2026-05-01"
+      },
+      {
+        "from": "2026-12-25",
+        "to": "2026-12-25"
+      }
+    ]
   },
   {
     "id": "musee-de-prehistoire-d-ile-de-france",
@@ -15228,6 +17054,46 @@
           "url": "https://www.musee-prehistoire-idf.fr/fr/horaires-et-tarifs",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26",
+        "source": {
+          "url": "https://www.musee-prehistoire-idf.fr/fr/horaires-et-tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "income-support",
+        "source": {
+          "url": "https://www.musee-prehistoire-idf.fr/fr/horaires-et-tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "jobseekers",
+        "source": {
+          "url": "https://www.musee-prehistoire-idf.fr/fr/horaires-et-tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled",
+        "source": {
+          "url": "https://www.musee-prehistoire-idf.fr/fr/horaires-et-tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled-companion",
+        "source": {
+          "url": "https://www.musee-prehistoire-idf.fr/fr/horaires-et-tarifs",
+          "checkedAt": "2026-08-04"
+        }
       }
     ],
     "wikidata": "Q3330518",
@@ -15244,7 +17110,30 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nemours---Entr%C3%A9e-Mus%C3%A9e-de-P.gif",
       "wikimediaFile": "File:Nemours---Entrée-Musée-de-P.gif"
     },
-    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d%C3%A9partemental_de_Pr%C3%A9histoire_d'%C3%8Ele-de-France"
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d%C3%A9partemental_de_Pr%C3%A9histoire_d'%C3%8Ele-de-France",
+    "admission": {
+      "currency": "EUR",
+      "full": 6,
+      "reduced": 4
+    },
+    "closures": [
+      {
+        "from": "2026-01-01",
+        "to": "2026-01-01"
+      },
+      {
+        "from": "2026-05-01",
+        "to": "2026-05-01"
+      },
+      {
+        "from": "2026-12-24",
+        "to": "2026-12-25"
+      },
+      {
+        "from": "2026-12-31",
+        "to": "2026-12-31"
+      }
+    ]
   },
   {
     "id": "musee-de-prehistoire-regionale-de-menton",
@@ -15413,6 +17302,42 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_de_Tess%C3%A9.JPG",
       "wikimediaFile": "File:Musée de Tessé.JPG"
     }
+  },
+  {
+    "id": "musee-de-viarmes",
+    "name": "Musée de Viarmes",
+    "coordinates": [
+      2.370278,
+      49.127778
+    ],
+    "address": "Place Pierre Salvi",
+    "postalCode": "95270",
+    "commune": "Viarmes",
+    "department": "95",
+    "website": "https://www.viarmes.fr/musee/",
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "reservationRequired": true,
+        "source": {
+          "url": "https://www.viarmes.fr/musee/",
+          "checkedAt": "2026-08-04"
+        }
+      }
+    ],
+    "wikidata": "Q1624841",
+    "note": "Open by appointment only — contact the venue before visiting.",
+    "image": {
+      "file": "images/museums/musee-de-viarmes.jpg",
+      "author": "Aline",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mairie_et_%C3%A9glise_de_Viarmes.JPG",
+      "wikimediaFile": "File:Mairie et église de Viarmes.JPG"
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Viarmes"
   },
   {
     "id": "musee-de-vire-normandie",
@@ -16031,6 +17956,14 @@
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
+        }
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-des-arts-asiatiques-guimet-p3588",
@@ -16048,7 +17981,8 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_mus%C3%A9e_Guimet_November_20%2C_2011.jpg",
       "wikimediaFile": "File:Le musée Guimet November 20, 2011.jpg"
     },
-    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_national_des_Arts_asiatiques_-_Guimet"
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_national_des_Arts_asiatiques_-_Guimet",
+    "wheelchair": "yes"
   },
   {
     "id": "musee-des-arts-d-afrique-et-d-asie",
@@ -16147,6 +18081,14 @@
         "source": {
           "url": "https://madparis.fr/Tarifs-et-gratuites",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
         }
       }
     ],
@@ -16313,6 +18255,14 @@
         "source": {
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
         }
       }
     ],
@@ -16538,7 +18488,17 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saint-Cloud_Mus%C3%A9e_des_Avelines_003.JPG",
       "wikimediaFile": "File:Saint-Cloud Musée des Avelines 003.JPG"
     },
-    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_Avelines"
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_Avelines",
+    "closures": [
+      {
+        "from": "2026-08-01",
+        "to": "2026-08-31"
+      },
+      {
+        "from": "2026-12-25",
+        "to": "2027-01-01"
+      }
+    ]
   },
   {
     "id": "musee-des-beaux-arts-d-angers",
@@ -18137,6 +20097,52 @@
     }
   },
   {
+    "id": "musee-des-missions-etrangeres-de-paris",
+    "name": "Musee des Missions Etrangeres de Paris",
+    "coordinates": [
+      2.322778,
+      48.851944
+    ],
+    "address": "128 rue du Bac",
+    "postalCode": "75007",
+    "commune": "Paris",
+    "arrondissement": 7,
+    "department": "75",
+    "website": "https://missionsetrangeres.com/mission-128/visite-du-musee/",
+    "openingHours": "Tu-Sa 10:00-18:00",
+    "openingHoursSource": {
+      "url": "https://missionsetrangeres.com/mission-128/visite-du-musee/",
+      "checkedAt": "2026-08-04"
+    },
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://missionsetrangeres.com/mission-128/visite-du-musee/",
+          "checkedAt": "2026-08-04"
+        }
+      }
+    ],
+    "wikidata": "Q482622",
+    "image": {
+      "file": "images/museums/musee-des-missions-etrangeres-de-paris.jpg",
+      "author": "PHGCOM",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:MEP_in_Paris.jpg",
+      "wikimediaFile": "File:MEP in Paris.jpg"
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Missions_%C3%A9trang%C3%A8res_de_Paris",
+    "closures": [
+      {
+        "from": "2026-08-01",
+        "to": "2026-08-29"
+      }
+    ]
+  },
+  {
     "id": "musee-des-monnaies-et-medailles-joseph-puig",
     "name": "musée des monnaies et médailles Joseph Puig",
     "commune": "Perpignan",
@@ -18205,6 +20211,14 @@
         "source": {
           "url": "https://www.culture.gouv.fr/thematiques/musees/Les-musees-en-France/les-politiques-des-musees-de-france/politique-des-publics/la-gratuite-des-collections-permanentes-pour-les-moins-de-26-ans-dans-les-musees-nationaux",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
         }
       }
     ],
@@ -18316,6 +20330,62 @@
           "url": "https://www.musee-seine-et-marne.fr/fr/horaires-tarifs",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26",
+        "source": {
+          "url": "https://www.musee-seine-et-marne.fr/fr/horaires-tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "jobseekers",
+        "source": {
+          "url": "https://www.musee-seine-et-marne.fr/fr/horaires-tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "income-support",
+        "source": {
+          "url": "https://www.musee-seine-et-marne.fr/fr/horaires-tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled",
+        "source": {
+          "url": "https://www.musee-seine-et-marne.fr/fr/horaires-tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled-companion",
+        "source": {
+          "url": "https://www.musee-seine-et-marne.fr/fr/horaires-tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "teachers",
+        "source": {
+          "url": "https://www.musee-seine-et-marne.fr/fr/horaires-tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "icom",
+        "source": {
+          "url": "https://www.musee-seine-et-marne.fr/fr/horaires-tarifs",
+          "checkedAt": "2026-08-04"
+        }
       }
     ],
     "wikidata": "Q3330528",
@@ -18332,7 +20402,31 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:L3531_-_Saint-Cyr-sur-Morin_-_Mus%C3%A9e_d%C3%A9partemental_de_la_Seine-et-Marne.jpg",
       "wikimediaFile": "File:L3531 - Saint-Cyr-sur-Morin - Musée départemental de la Seine-et-Marne.jpg"
     },
-    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d%C3%A9partemental_de_la_Seine-et-Marne"
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d%C3%A9partemental_de_la_Seine-et-Marne",
+    "wheelchair": "yes",
+    "admission": {
+      "currency": "EUR",
+      "full": 7,
+      "reduced": 5
+    },
+    "closures": [
+      {
+        "from": "2026-01-01",
+        "to": "2026-02-28"
+      },
+      {
+        "from": "2026-05-01",
+        "to": "2026-05-01"
+      },
+      {
+        "from": "2026-08-01",
+        "to": "2026-08-31"
+      },
+      {
+        "from": "2026-12-01",
+        "to": "2026-12-31"
+      }
+    ]
   },
   {
     "id": "les-pecheries-musee-de-fecamp",
@@ -18403,6 +20497,14 @@
         "source": {
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
         }
       }
     ],
@@ -19207,6 +21309,14 @@
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
+        }
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-du-louvre-p3489",
@@ -19225,7 +21335,8 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cour_Napol%C3%A9on_at_night_-_Louvre.jpg",
       "wikimediaFile": "File:Cour Napoléon at night - Louvre.jpg"
     },
-    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_Louvre"
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_Louvre",
+    "wheelchair": "yes"
   },
   {
     "id": "musee-du-masque-de-fer-et-du-fort-royal",
@@ -19602,6 +21713,14 @@
         "source": {
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
         }
       }
     ],
@@ -20053,41 +22172,6 @@
     }
   },
   {
-    "id": "musee-d-initiation-a-la-nature-cpie",
-    "name": "musée d’initiation à la nature",
-    "commune": "Caen",
-    "coordinates": [
-      -0.37306,
-      49.1803
-    ],
-    "address": "Enceinte de l'hôtel de Ville, entrée par l'impasse Duc Rollon ou l'avenue Albert Sorel",
-    "postalCode": "14000",
-    "department": "14",
-    "website": "http://cpievdo.fr/",
-    "wikidata": "Q3329687",
-    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d'Initiation_%C3%A0_la_nature",
-    "tags": [
-      "museum"
-    ],
-    "freeAccess": [
-      {
-        "kind": "always",
-        "note": "Permanent displays and temporary exhibitions free at all times; inside the Hôtel de Ville grounds (Abbaye aux Hommes).",
-        "source": {
-          "url": "https://caen.fr/annuaire-equipement/musee-dinitiation-la-nature-cpie",
-          "checkedAt": "2026-08-07"
-        }
-      }
-    ],
-    "image": {
-      "file": "images/museums/musee-d-initiation-a-la-nature-cpie.jpg",
-      "author": "Karldupart",
-      "license": "CC BY-SA 3.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caen_museeinitiationnature.jpg",
-      "wikimediaFile": "File:Caen museeinitiationnature.jpg"
-    }
-  },
-  {
     "id": "musee-emile-jean",
     "name": "Musée Émile Jean",
     "coordinates": [
@@ -20165,6 +22249,14 @@
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
+        }
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-eugene-delacroix-p3507",
@@ -20182,7 +22274,8 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Delacroix%2C_Paris_29_May_2017_001.jpg",
       "wikimediaFile": "File:Musée Delacroix, Paris 29 May 2017 001.jpg"
     },
-    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_national_Eug%C3%A8ne-Delacroix"
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_national_Eug%C3%A8ne-Delacroix",
+    "wheelchair": "no"
   },
   {
     "id": "musee-eugene-boudin",
@@ -20370,6 +22463,14 @@
         "source": {
           "url": "https://www.vet-alfort.fr/domaine-d-alfort/musee-fragonard/visiter-le-musee/horaires-tarifs-musee-fragonard",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
         }
       }
     ],
@@ -20714,6 +22815,14 @@
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
+        }
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-gustave-moreau-p1087",
@@ -20731,7 +22840,8 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_mus%C3%A9e_Gustave-Moreau%2C_19_mai_2013.jpg",
       "wikimediaFile": "File:Paris musée Gustave-Moreau, 19 mai 2013.jpg"
     },
-    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Gustave-Moreau"
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Gustave-Moreau",
+    "wheelchair": "no"
   },
   {
     "id": "musee-hebert",
@@ -21214,7 +23324,37 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patrimoine_Nogent-sur-Marne.jpg",
       "wikimediaFile": "File:Patrimoine Nogent-sur-Marne.jpg"
     },
-    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_Nogent-sur-Marne"
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_Nogent-sur-Marne",
+    "closures": [
+      {
+        "from": "2026-08-02",
+        "to": "2026-08-02"
+      },
+      {
+        "from": "2026-08-09",
+        "to": "2026-08-09"
+      },
+      {
+        "from": "2026-08-16",
+        "to": "2026-08-16"
+      },
+      {
+        "from": "2026-08-23",
+        "to": "2026-08-23"
+      },
+      {
+        "from": "2026-08-30",
+        "to": "2026-08-30"
+      },
+      {
+        "from": "2026-12-24",
+        "to": "2026-12-24"
+      },
+      {
+        "from": "2026-12-31",
+        "to": "2026-12-31"
+      }
+    ]
   },
   {
     "id": "musee-international-d-art-naif-anatole-jakovsky",
@@ -21515,6 +23655,14 @@
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
+        }
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-jean-jacques-henner-p1084",
@@ -21749,6 +23897,46 @@
           "url": "https://www.versailles.fr/museelambinet/",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "always",
+        "audience": "jobseekers",
+        "source": {
+          "url": "https://www.versailles.fr/51/culture/musee-lambinet.htm",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "teachers",
+        "source": {
+          "url": "https://www.versailles.fr/51/culture/musee-lambinet.htm",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled",
+        "source": {
+          "url": "https://www.versailles.fr/51/culture/musee-lambinet.htm",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled-companion",
+        "source": {
+          "url": "https://www.versailles.fr/51/culture/musee-lambinet.htm",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "icom",
+        "source": {
+          "url": "https://www.versailles.fr/51/culture/musee-lambinet.htm",
+          "checkedAt": "2026-08-04"
+        }
       }
     ],
     "wikidata": "Q3329245",
@@ -21765,7 +23953,19 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Versailles_Mus%C3%A9e_Lambinet.jpg",
       "wikimediaFile": "File:Versailles Musée Lambinet.jpg"
     },
-    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Lambinet"
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Lambinet",
+    "wheelchair": "partial",
+    "admission": {
+      "currency": "EUR",
+      "full": 7,
+      "reduced": 5
+    },
+    "closures": [
+      {
+        "from": "2026-08-03",
+        "to": "2026-08-16"
+      }
+    ]
   },
   {
     "id": "musee-laperouse",
@@ -22416,17 +24616,35 @@
       "url": "https://www.moretloingetorvanne.fr/musee-municipal/",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M0380"
+    "museofile": "M0380",
+    "closures": [
+      {
+        "from": "2026-01-01",
+        "to": "2026-04-23"
+      },
+      {
+        "from": "2026-04-27",
+        "to": "2026-05-01"
+      },
+      {
+        "from": "2026-11-01",
+        "to": "2026-11-05"
+      },
+      {
+        "from": "2026-11-30",
+        "to": "2026-12-31"
+      }
+    ]
   },
   {
     "id": "musee-municipal-ducastel-vera-de-saint-germain-en-laye",
     "name": "Musée municipal Ducastel-Vera de Saint-Germain-en-Laye",
     "coordinates": [
-      2.127681,
-      48.794403
+      2.096872,
+      48.896246
     ],
-    "address": "38 rue au Pain",
-    "postalCode": "78000",
+    "address": "Espace Paul-et-André-Vera, Jardin des Arts, 2 rue Henri-IV",
+    "postalCode": "78100",
     "commune": "Saint-Germain-en-Laye",
     "department": "78",
     "website": "https://www.saintgermainenlaye.fr/736/musee-municipal.htm?L=ppapagepapage=",
@@ -22441,7 +24659,8 @@
         "source": {
           "url": "https://culture.saintgermainenlaye.fr/1553/musee-municipal-ducastel-vera/informations-pratiques.htm",
           "checkedAt": "2026-08-06"
-        }
+        },
+        "scope": "permanent-collection"
       },
       {
         "kind": "nth-weekday",
@@ -22463,7 +24682,18 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Conjurer_Bosch.jpg",
       "wikimediaFile": "File:Conjurer Bosch.jpg"
     },
-    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_municipal_de_Saint-Germain-en-Laye"
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_municipal_de_Saint-Germain-en-Laye",
+    "wheelchair": "yes",
+    "admission": {
+      "currency": "EUR",
+      "full": 6,
+      "reduced": 4
+    },
+    "openingHours": "We-Su 14:00-18:00; PH off",
+    "openingHoursSource": {
+      "url": "https://culture.saintgermainenlaye.fr/1553/musee-municipal-ducastel-vera.htm",
+      "checkedAt": "2026-08-04"
+    }
   },
   {
     "id": "musee-municipal-robert-dubois-corneau",
@@ -22505,7 +24735,14 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:P%C3%A2ris-Duverney%2C_buste.JPG",
       "wikimediaFile": "File:Pâris-Duverney, buste.JPG"
     },
-    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Robert-Dubois-Corneau"
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Robert-Dubois-Corneau",
+    "closures": [
+      {
+        "from": "2026-07-18",
+        "to": "2026-08-18"
+      }
+    ],
+    "closedUntil": "2026-08-19"
   },
   {
     "id": "musee-museum-departemental-des-hautes-alpes",
@@ -22621,6 +24858,14 @@
           "url": "https://www.palais-portedoree.fr/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
+        }
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-de-l-histoire-de-l-immigration-p3541",
@@ -22707,6 +24952,14 @@
         "source": {
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
         }
       }
     ],
@@ -22914,6 +25167,14 @@
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
+        }
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-des-chateaux-de-malmaison-bois-preau-p972",
@@ -22975,6 +25236,14 @@
         "source": {
           "url": "https://www.chateauversailles.fr/resources/vel/gratuit.html",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
         }
       }
     ],
@@ -23049,10 +25318,82 @@
     "freeAccess": [
       {
         "kind": "always",
+        "scope": "grounds",
+        "source": {
+          "url": "https://www.chateaudefontainebleau.fr/Preparer-sa-visite/Horaires-et-tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
         "audience": "under-26-eu",
         "source": {
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.chateaudefontainebleau.fr/Preparer-sa-visite/Horaires-et-tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled",
+        "source": {
+          "url": "https://www.chateaudefontainebleau.fr/Preparer-sa-visite/Horaires-et-tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled-companion",
+        "source": {
+          "url": "https://www.chateaudefontainebleau.fr/Preparer-sa-visite/Horaires-et-tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "jobseekers",
+        "source": {
+          "url": "https://www.chateaudefontainebleau.fr/Preparer-sa-visite/Horaires-et-tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "income-support",
+        "source": {
+          "url": "https://www.chateaudefontainebleau.fr/Preparer-sa-visite/Horaires-et-tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "students",
+        "source": {
+          "url": "https://www.chateaudefontainebleau.fr/Preparer-sa-visite/Horaires-et-tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "teachers",
+        "source": {
+          "url": "https://www.chateaudefontainebleau.fr/Preparer-sa-visite/Horaires-et-tarifs",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "icom",
+        "source": {
+          "url": "https://www.chateaudefontainebleau.fr/Preparer-sa-visite/Horaires-et-tarifs",
+          "checkedAt": "2026-08-04"
         }
       }
     ],
@@ -23070,7 +25411,27 @@
       "license": "CC BY 2.5",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_Grand_Escalier_%C3%A0_Fer_de_Cheval.jpg",
       "wikimediaFile": "File:Le Grand Escalier à Fer de Cheval.jpg"
-    }
+    },
+    "wheelchair": "partial",
+    "admission": {
+      "currency": "EUR",
+      "full": 17,
+      "reduced": 15
+    },
+    "closures": [
+      {
+        "from": "2026-01-01",
+        "to": "2026-01-01"
+      },
+      {
+        "from": "2026-05-01",
+        "to": "2026-05-01"
+      },
+      {
+        "from": "2026-12-25",
+        "to": "2026-12-25"
+      }
+    ]
   },
   {
     "id": "musee-national-du-sport",
@@ -23333,6 +25694,54 @@
           "url": "https://musees.boulognebillancourt.com/files/musees-conditions-tarifs-rduits-et-gratuit_3555b020f773e38f658cf6194f309442.pdf",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26",
+        "source": {
+          "url": "https://musees.boulognebillancourt.com/files/musees-conditions-tarifs-rduits-et-gratuit_3555b020f773e38f658cf6194f309442.pdf",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "jobseekers",
+        "source": {
+          "url": "https://musees.boulognebillancourt.com/files/musees-conditions-tarifs-rduits-et-gratuit_3555b020f773e38f658cf6194f309442.pdf",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "income-support",
+        "source": {
+          "url": "https://musees.boulognebillancourt.com/files/musees-conditions-tarifs-rduits-et-gratuit_3555b020f773e38f658cf6194f309442.pdf",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled",
+        "source": {
+          "url": "https://musees.boulognebillancourt.com/files/musees-conditions-tarifs-rduits-et-gratuit_3555b020f773e38f658cf6194f309442.pdf",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled-companion",
+        "source": {
+          "url": "https://musees.boulognebillancourt.com/files/musees-conditions-tarifs-rduits-et-gratuit_3555b020f773e38f658cf6194f309442.pdf",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "icom",
+        "source": {
+          "url": "https://musees.boulognebillancourt.com/files/musees-conditions-tarifs-rduits-et-gratuit_3555b020f773e38f658cf6194f309442.pdf",
+          "checkedAt": "2026-08-04"
+        }
       }
     ],
     "wikidata": "Q3329303",
@@ -23349,7 +25758,18 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Paul_Belmondo_%C3%A0_Boulogne-Billancourt_001.jpg",
       "wikimediaFile": "File:Musée Paul Belmondo à Boulogne-Billancourt 001.jpg"
     },
-    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Paul-Belmondo"
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Paul-Belmondo",
+    "admission": {
+      "currency": "EUR",
+      "full": 8,
+      "reduced": 5.5
+    },
+    "closures": [
+      {
+        "from": "2026-08-15",
+        "to": "2026-08-16"
+      }
+    ]
   },
   {
     "id": "musee-jardin-paul-landowski",
@@ -23385,6 +25805,54 @@
           "url": "https://musees.boulognebillancourt.com/files/musees-conditions-tarifs-rduits-et-gratuit_3555b020f773e38f658cf6194f309442.pdf",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "always",
+        "audience": "under-26",
+        "source": {
+          "url": "https://musees.boulognebillancourt.com/files/musees-conditions-tarifs-rduits-et-gratuit_3555b020f773e38f658cf6194f309442.pdf",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "jobseekers",
+        "source": {
+          "url": "https://musees.boulognebillancourt.com/files/musees-conditions-tarifs-rduits-et-gratuit_3555b020f773e38f658cf6194f309442.pdf",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "income-support",
+        "source": {
+          "url": "https://musees.boulognebillancourt.com/files/musees-conditions-tarifs-rduits-et-gratuit_3555b020f773e38f658cf6194f309442.pdf",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled",
+        "source": {
+          "url": "https://musees.boulognebillancourt.com/files/musees-conditions-tarifs-rduits-et-gratuit_3555b020f773e38f658cf6194f309442.pdf",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled-companion",
+        "source": {
+          "url": "https://musees.boulognebillancourt.com/files/musees-conditions-tarifs-rduits-et-gratuit_3555b020f773e38f658cf6194f309442.pdf",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "icom",
+        "source": {
+          "url": "https://musees.boulognebillancourt.com/files/musees-conditions-tarifs-rduits-et-gratuit_3555b020f773e38f658cf6194f309442.pdf",
+          "checkedAt": "2026-08-04"
+        }
       }
     ],
     "wikidata": "Q3329026",
@@ -23394,7 +25862,18 @@
       "checkedAt": "2026-08-04"
     },
     "museofile": "M0408",
-    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Paul-Landowski"
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Paul-Landowski",
+    "admission": {
+      "currency": "EUR",
+      "full": 8,
+      "reduced": 5.5
+    },
+    "closures": [
+      {
+        "from": "2026-08-15",
+        "to": "2026-08-16"
+      }
+    ]
   },
   {
     "id": "musee-paul-valery",
@@ -23541,6 +26020,14 @@
         "source": {
           "url": "https://www.museepicassoparis.fr/fr/tarifs",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
         }
       }
     ],
@@ -23864,6 +26351,14 @@
           "url": "https://www.musee-rodin.fr/en/plan-your-visit/plan-your-visit/are-you-entitled-free-admission",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
+        }
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-rodin-paris-p3529",
@@ -23914,6 +26409,14 @@
         "source": {
           "url": "https://www.meudon.musee-rodin.fr/en",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
         }
       }
     ],
@@ -24366,6 +26869,59 @@
     }
   },
   {
+    "id": "musee-poudrerie-sevran-livry",
+    "name": "Musée technique des Poudres de l'Armement René Amiable (musée de la Poudrerie de Sevran-Livry)",
+    "coordinates": [
+      2.55758,
+      48.9382
+    ],
+    "address": "Parc forestier de la Poudrerie, allée Eugène Burlot",
+    "postalCode": "93410",
+    "commune": "Vaujours",
+    "department": "93",
+    "website": "https://apfp.fr/le%20musee.htm",
+    "openingHours": "Su 14:30-17:30",
+    "openingHoursSource": {
+      "url": "https://apfp.fr/le%20musee.htm",
+      "checkedAt": "2026-08-04"
+    },
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://apfp.fr/le%20musee.htm",
+          "checkedAt": "2026-08-04"
+        }
+      }
+    ],
+    "wikidata": "Q3400190",
+    "image": {
+      "file": "images/museums/musee-poudrerie-sevran-livry.jpg",
+      "author": "No machine-readable author provided. Clio assumed (based on copyright claims).",
+      "license": "CC BY 2.5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Poudrerie_nationale_de_Sevran-Livry_-_Etang.jpg",
+      "wikimediaFile": "File:Poudrerie nationale de Sevran-Livry - Etang.jpg"
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Poudrerie_nationale_de_Sevran-Livry",
+    "closures": [
+      {
+        "from": "2026-01-01",
+        "to": "2026-02-28"
+      },
+      {
+        "from": "2026-06-29",
+        "to": "2026-09-05"
+      },
+      {
+        "from": "2026-12-07",
+        "to": "2026-12-31"
+      }
+    ]
+  },
+  {
     "id": "musee-thomas-henry",
     "name": "musée Thomas-Henry",
     "commune": "Cherbourg-en-Cotentin",
@@ -24605,7 +27161,8 @@
         "source": {
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
-        }
+        },
+        "scope": "permanent-collection"
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-zadkine-p3502",
@@ -25559,6 +28116,14 @@
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
+        }
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/grande-galerie-de-l-evolution-museum-national-d-histoire-naturelle-p3621",
@@ -25752,6 +28317,123 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palais_de_l'Isle_Annecy_(%C3%A9t%C3%A9_2005).jpg",
       "wikimediaFile": "File:Palais de l'Isle Annecy (été 2005).jpg"
     }
+  },
+  {
+    "id": "palais-de-tokyo",
+    "name": "Palais de Tokyo",
+    "coordinates": [
+      2.296675,
+      48.864624
+    ],
+    "address": "13 avenue du President Wilson",
+    "postalCode": "75116",
+    "commune": "Paris",
+    "arrondissement": 16,
+    "department": "75",
+    "website": "https://palaisdetokyo.com/tarifs/",
+    "openingHours": "We-Mo 12:00-22:00; Th 12:00-24:00; Tu off",
+    "openingHoursSource": {
+      "url": "https://palaisdetokyo.com/tarifs/",
+      "checkedAt": "2026-08-04"
+    },
+    "tags": [
+      "museum"
+    ],
+    "freeAccess": [
+      {
+        "kind": "weekly",
+        "weekday": "thursday",
+        "evening": true,
+        "months": [
+          7,
+          8,
+          9
+        ],
+        "note": "Free in the evening, from 19:00 to midnight, from 23 July to 10 September each year.",
+        "source": {
+          "url": "https://palaisdetokyo.com/evenement/nocturnes-gratuites-2/",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://palaisdetokyo.com/tarifs/",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "jobseekers",
+        "source": {
+          "url": "https://palaisdetokyo.com/tarifs/",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "income-support",
+        "source": {
+          "url": "https://palaisdetokyo.com/tarifs/",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled",
+        "source": {
+          "url": "https://palaisdetokyo.com/tarifs/",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled-companion",
+        "source": {
+          "url": "https://palaisdetokyo.com/tarifs/",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "teachers",
+        "source": {
+          "url": "https://palaisdetokyo.com/tarifs/",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "icom",
+        "source": {
+          "url": "https://palaisdetokyo.com/tarifs/",
+          "checkedAt": "2026-08-04"
+        }
+      }
+    ],
+    "wikidata": "Q25395733",
+    "wikipedia": "https://fr.wikipedia.org/wiki/Palais_de_Tokyo_(centre_d'art_contemporain)",
+    "wheelchair": "yes",
+    "admission": {
+      "currency": "EUR",
+      "full": 13,
+      "reduced": 9
+    },
+    "closures": [
+      {
+        "from": "2026-01-01",
+        "to": "2026-01-01"
+      },
+      {
+        "from": "2026-05-01",
+        "to": "2026-05-01"
+      },
+      {
+        "from": "2026-12-25",
+        "to": "2026-12-25"
+      }
+    ]
   },
   {
     "id": "palais-musee-des-archeveques",
@@ -26118,6 +28800,14 @@
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
+        }
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/pantheon-p3494",
@@ -26135,6 +28825,46 @@
       "wikimediaFile": "File:Panthéon, Paris 25 March 2012.jpg"
     },
     "wikipedia": "https://fr.wikipedia.org/wiki/Panth%C3%A9on_(Paris)"
+  },
+  {
+    "id": "parc-culturel-de-rentilly-michel-chartier",
+    "name": "Parc culturel de Rentilly — Michel Chartier",
+    "coordinates": [
+      2.673473,
+      48.846616
+    ],
+    "address": "1 rue de l'Étang",
+    "postalCode": "77600",
+    "commune": "Bussy-Saint-Martin",
+    "department": "77",
+    "website": "https://www.marneetgondoire.fr/culture/parc-culturel-de-rentilly-michel-chartier-234.html",
+    "openingHours": "Mo-Su 09:00-20:00",
+    "openingHoursSource": {
+      "url": "https://www.marneetgondoire.fr/culture/parc-culturel-de-rentilly-michel-chartier-234.html",
+      "checkedAt": "2026-08-04"
+    },
+    "tags": [
+      "monument"
+    ],
+    "freeAccess": [
+      {
+        "kind": "always",
+        "source": {
+          "url": "https://www.tourisme-seine-et-marne.fr/en/explore-the-area/689316-cultural-park-michel-chartier-rentilly/",
+          "checkedAt": "2026-08-04"
+        },
+        "scope": "grounds"
+      }
+    ],
+    "wikidata": "Q21619055",
+    "image": {
+      "file": "images/museums/parc-culturel-de-rentilly-michel-chartier.jpg",
+      "author": "Tangopaso",
+      "license": "Public Domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chateau_de_Rentilly.jpg",
+      "wikimediaFile": "File:Chateau de Rentilly.jpg"
+    },
+    "wikipedia": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_et_parc_culturel_de_Rentilly"
   },
   {
     "id": "pavillon-flaubert-a-croisset",
@@ -26229,7 +28959,8 @@
         "source": {
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
-        }
+        },
+        "scope": "permanent-collection"
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/petit-palais-musee-des-beaux-arts-de-la-ville-de-paris-p3490",
@@ -26389,6 +29120,14 @@
         "source": {
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
         }
       }
     ],
@@ -27483,6 +30222,22 @@
           "url": "https://www.saint-maur.com/?id=127",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled",
+        "source": {
+          "url": "https://www.saint-maur.com/?id=127",
+          "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "disabled-companion",
+        "source": {
+          "url": "https://www.saint-maur.com/?id=127",
+          "checkedAt": "2026-08-04"
+        }
       }
     ],
     "wikidata": "Q23639850",
@@ -27491,7 +30246,12 @@
       "url": "https://www.saint-maur.com/?id=127",
       "checkedAt": "2026-08-04"
     },
-    "museofile": "M0429"
+    "museofile": "M0429",
+    "admission": {
+      "currency": "EUR",
+      "full": 7,
+      "reduced": 4
+    }
   },
   {
     "id": "villa-savoye",
@@ -27532,6 +30292,14 @@
         "source": {
           "url": "https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "always",
+        "audience": "under-18",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
+          "checkedAt": "2026-08-04"
         }
       }
     ],
