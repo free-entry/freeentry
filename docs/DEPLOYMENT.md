@@ -1,7 +1,9 @@
 # Deployment
 
 The app is a fully static build served by GitHub Pages at
-`https://travel-eu.github.io/free-museums-france`.
+`https://freemuseums.app/free-museums-france` (the custom domain sits on the
+`travel-eu/travel-eu.github.io` site, so every project page serves under it;
+the old `travel-eu.github.io` URLs 301-redirect once the domain is configured).
 
 Two repositories are involved:
 
@@ -68,9 +70,31 @@ variable-date events and add them to `data/events.json`:
 The update script warns when the coming year has no confirmed dates; until
 then the app shows estimated dates flagged as such.
 
-## Custom domain (optional)
+## Custom domain — freemuseums.app
 
-Point a CNAME at `travel-eu.github.io` and configure it in the Pages settings
-of `travel-eu/travel-eu.github.io`. Update `SITE` in `scripts/prerender.ts`,
-`Sitemap:` in `public/robots.txt`, and the `base` in `vite.config.ts` if the
-app moves to the domain root.
+The canonical domain is `freemuseums.app`, configured once on the Pages site
+(not per project repo):
+
+1. **DNS** (at the registrar): apex `A` records to GitHub Pages —
+   `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
+   (and the matching `AAAA` records `2606:50c0:8000..8003::153`).
+2. **Pages settings** of `travel-eu/travel-eu.github.io`: set the custom
+   domain to `freemuseums.app` and enable *Enforce HTTPS*. `.app` is on the
+   HSTS preload list, so the site only works over HTTPS — wait for the
+   certificate before announcing. All project pages then serve under
+   `https://freemuseums.app/<repo>/`, and github.io URLs redirect.
+3. **Root robots.txt** in `travel-eu/travel-eu.github.io` should list every
+   deployment's sitemap (crawlers only read the domain root):
+
+   ```
+   User-agent: *
+   Allow: /
+
+   Sitemap: https://freemuseums.app/free-museums-france/sitemap.xml
+   Sitemap: https://freemuseums.app/free-museums-italy/sitemap.xml
+   Sitemap: https://freemuseums.app/free-museums-belgium/sitemap.xml
+   ```
+
+If the domain ever changes, update `siteUrl` in `src/countries/*.ts` and the
+`DEPLOYMENTS` map in `astro.config.mjs` (the per-country `robots.txt` route
+follows `siteUrl` automatically).

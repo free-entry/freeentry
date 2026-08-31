@@ -20,7 +20,7 @@ import type { Museum } from '../src/lib/types';
 
 const ROOT = join(import.meta.dirname, '..');
 const WD_API = 'https://www.wikidata.org/w/api.php';
-const UA = 'free-museums-france-build/1.0 (https://travel-eu.github.io/free-museums-france/; tomchen.org@gmail.com)';
+const UA = 'free-museums-france-build/1.0 (https://freemuseums.app/free-museums-france/; tomchen.org@gmail.com)';
 
 const FRANCE = { minLat: 41.2, maxLat: 51.2, minLng: -5.3, maxLng: 9.7 };
 

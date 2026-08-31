@@ -18,7 +18,7 @@ const ROOT = join(import.meta.dirname, '..');
 const COUNTRY = process.env.COUNTRY ?? 'fr';
 const MUSEUMS_PATH = join(ROOT, `data/${COUNTRY}/museums.json`);
 const API = 'https://www.wikidata.org/w/api.php';
-const UA = 'free-museums-france-enrich/1.0 (https://travel-eu.github.io/free-museums-france/; tomchen.org@gmail.com)';
+const UA = 'free-museums-france-enrich/1.0 (https://freemuseums.app/free-museums-france/; tomchen.org@gmail.com)';
 
 /** Hand-verified matches the heuristics can't settle; null = no Wikidata item. */
 const OVERRIDES: Record<string, string | null> = {

@@ -7,15 +7,15 @@ const COUNTRY_CODE = process.env.COUNTRY ?? process.env.VITE_COUNTRY ?? 'fr';
 const DEPLOYMENTS = {
   fr: {
     basePath: '/free-museums-france/',
-    siteUrl: 'https://travel-eu.github.io/free-museums-france',
+    siteUrl: 'https://freemuseums.app/free-museums-france',
   },
   it: {
     basePath: '/free-museums-italy/',
-    siteUrl: 'https://travel-eu.github.io/free-museums-italy',
+    siteUrl: 'https://freemuseums.app/free-museums-italy',
   },
   be: {
     basePath: '/free-museums-belgium/',
-    siteUrl: 'https://travel-eu.github.io/free-museums-belgium',
+    siteUrl: 'https://freemuseums.app/free-museums-belgium',
   },
 };
 
@@ -54,7 +54,7 @@ export default defineConfig({
     react(),
     AstroPWA({
       registerType: 'autoUpdate',
-      includeAssets: [`${iconDir}/apple-touch-icon.png`, `${iconDir}/icon.svg`, 'robots.txt'],
+      includeAssets: [`${iconDir}/apple-touch-icon.png`, `${iconDir}/icon.svg`],
       manifest: {
         name: manifest.name,
         short_name: manifest.short_name,

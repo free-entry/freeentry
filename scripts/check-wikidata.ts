@@ -27,7 +27,7 @@ const MUSEUMS_PATH = join(ROOT, `data/${COUNTRY}/museums.json`);
 const WIKI_LANG: Record<string, string> = { fr: 'fr', it: 'it', be: 'fr' };
 const WIKI = WIKI_LANG[COUNTRY] ?? 'fr';
 const API = 'https://www.wikidata.org/w/api.php';
-const UA = 'free-museums-france-check/1.0 (https://travel-eu.github.io/free-museums-france/; tomchen.org@gmail.com)';
+const UA = 'free-museums-france-check/1.0 (https://freemuseums.app/free-museums-france/; tomchen.org@gmail.com)';
 const DISAGREEMENT_KM = 0.6;
 
 /**

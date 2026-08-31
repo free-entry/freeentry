@@ -6,7 +6,7 @@ export const fr: CountryConfig = {
   code: 'fr',
   canonicalLocale: 'fr',
   basePath: '/free-museums-france/',
-  siteUrl: 'https://travel-eu.github.io/free-museums-france',
+  siteUrl: 'https://freemuseums.app/free-museums-france',
   repoUrl: 'https://github.com/travel-eu/free-museums-france',
   bbox: { minLat: 41.2, maxLat: 51.2, minLng: -5.3, maxLng: 9.7 },
   adminAreas: {
