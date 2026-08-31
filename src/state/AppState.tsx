@@ -67,8 +67,9 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
   // parsed from the (basename-relative) pathname rather than useParams.
   const routeId = useMemo(() => {
     const match = location.pathname.match(/^\/museum\/([^/]+)/);
-    return match ? decodeURIComponent(match[1]) : null;
-  }, [location.pathname]);
+    if (match) return decodeURIComponent(match[1]);
+    return location.pathname === '/' ? new URLSearchParams(location.search).get('museum') : null;
+  }, [location.pathname, location.search]);
 
   const [filters, setFiltersState] = useState<FilterState>(() =>
     decodeFilters(new URLSearchParams(window.location.search)),
@@ -81,8 +82,11 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
   // i18next; it must survive filter updates.
   const syncUrl = useCallback((next: FilterState) => {
     const params = encodeFilters(next);
-    const lang = new URLSearchParams(window.location.search).get('lang');
+    const current = new URLSearchParams(window.location.search);
+    const lang = current.get('lang');
     if (lang) params.set('lang', lang);
+    const museum = current.get('museum');
+    if (museum && window.location.pathname.endsWith('/')) params.set('museum', museum);
     const query = params.toString();
     const url = `${window.location.pathname}${query ? `?${query}` : ''}${window.location.hash}`;
     window.history.replaceState(window.history.state, '', url);
@@ -103,8 +107,10 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
 
   const select = useCallback(
     (id: string | null) => {
-      const query = window.location.search;
-      navigate(id ? `/museum/${id}${query}` : `/${query}`);
+      const params = new URLSearchParams(window.location.search);
+      params.delete('museum');
+      const query = params.toString();
+      navigate(id ? `/museum/${id}${query ? `?${query}` : ''}` : `/${query ? `?${query}` : ''}`);
     },
     [navigate],
   );

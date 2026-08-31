@@ -3,8 +3,7 @@ import { CATEGORY_COLORS, type Category } from '@/lib/categories';
 import styles from './CategoryBadge.module.css';
 
 /** Colored-dot badge naming a museum's free-access category. */
-export default function CategoryBadge({ category }: { category: Category }) {
-  const { t } = useTranslation();
+export function CategoryBadgeContent({ category, label }: { category: Category; label: string }) {
   return (
     <span className={styles.badge}>
       <span
@@ -12,7 +11,12 @@ export default function CategoryBadge({ category }: { category: Category }) {
         style={{ backgroundColor: CATEGORY_COLORS[category] }}
         aria-hidden="true"
       />
-      {t(`categories.${category}`)}
+      {label}
     </span>
   );
+}
+
+export default function CategoryBadge({ category }: { category: Category }) {
+  const { t } = useTranslation();
+  return <CategoryBadgeContent category={category} label={t(`categories.${category}`)} />;
 }

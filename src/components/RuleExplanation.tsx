@@ -1,18 +1,31 @@
-import { useTranslation } from 'react-i18next';
-import { useAppState } from '@/state/AppState';
-import type { FreeRule } from '@/lib/types';
+import type { TFunction } from 'i18next';
+import type { EventDates, FreeRule } from '@/lib/types';
 import { eventDatesForYear } from '@/lib/freeRules';
 import { ruleCategory } from '@/lib/categories';
 import { annualDateName, formatDate, monthName, weekdayName } from '@/lib/format';
-import CategoryBadge from './CategoryBadge';
+import { CategoryBadgeContent } from './CategoryBadge';
 import styles from './RuleExplanation.module.css';
 
-/** One free-access rule as a plain-language sentence in the user's locale. */
-export default function RuleExplanation({ rule }: { rule: FreeRule }) {
-  const { t, i18n } = useTranslation();
-  const { ctx, notes, today } = useAppState();
-  const locale = i18n.language;
+interface RuleExplanationProps {
+  rule: FreeRule;
+  locale: string;
+  notes: Record<string, string>;
+  t: TFunction;
+  /** When both are given, event rules gain their next concrete date. The
+   *  static build omits them so today's date is never frozen into HTML. */
+  today?: string;
+  events?: EventDates;
+}
 
+/** One free-access rule as a plain-language sentence in the given locale. */
+export default function RuleExplanation({
+  rule,
+  locale,
+  notes,
+  t,
+  today,
+  events,
+}: RuleExplanationProps) {
   let sentence = '';
   let estimated = false;
   let eventNext: string | null = null;
@@ -40,7 +53,7 @@ export default function RuleExplanation({ rule }: { rule: FreeRule }) {
         })}`;
       }
       break;
-    case 'nth-weekday': {
+    case 'nth-weekday':
       sentence = t(rule.nth === -1 ? 'rules.lastWeekday' : 'rules.firstWeekday', {
         weekday: weekdayName(locale, rule.weekday ?? 'sunday'),
       });
@@ -52,19 +65,18 @@ export default function RuleExplanation({ rule }: { rule: FreeRule }) {
       }
       if (rule.evening) sentence += `, ${t('rules.evening')}`;
       break;
-    }
     case 'annual-date':
       sentence =
         rule.date === '07-14'
           ? t('rules.july14')
           : t('rules.annualDate', { date: annualDateName(locale, rule.date ?? '') });
       break;
-    case 'event': {
+    case 'event':
       sentence = rule.event === 'museum-night' ? t('rules.museumNight') : t('rules.heritageDays');
-      if (rule.event) {
+      if (rule.event && today && events) {
         const year = Number(today.slice(0, 4));
         for (const y of [year, year + 1]) {
-          const info = eventDatesForYear(ctx.events, rule.event, y);
+          const info = eventDatesForYear(events, rule.event, y);
           const next = info.dates.find((d) => d >= today);
           if (next) {
             eventNext = next;
@@ -74,24 +86,21 @@ export default function RuleExplanation({ rule }: { rule: FreeRule }) {
         }
       }
       break;
-    }
   }
 
   if (rule.scope === 'grounds') sentence += t('rules.scopeGrounds');
   else if (rule.scope === 'permanent-collection') sentence += t('rules.scopePermanentCollection');
   else if (rule.scope === 'partial') sentence += t('rules.scopePartial');
-
   if (rule.audience === 'residents') sentence += t('rules.residentsOnly');
 
-  // A note flagged as the rule's own, more detailed wording replaces the
-  // generated sentence instead of trailing it.
   const localizedNote = rule.note ? notes[rule.note] ?? rule.note : undefined;
   const replacing = rule.noteReplacesSentence === true && localizedNote !== undefined;
+  const category = ruleCategory(rule);
 
   return (
     <li className={styles.rule}>
       <span className={styles.ruleLine}>
-        <CategoryBadge category={ruleCategory(rule)} />
+        <CategoryBadgeContent category={category} label={t(`categories.${category}`)} />
         <span className={styles.sentence}>
           {replacing ? localizedNote : sentence}
           {eventNext && (
