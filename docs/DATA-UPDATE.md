@@ -32,7 +32,6 @@ Two kinds of maintenance:
 | `npm run check:data` | freshness + wikidata + datagouv + cmn in one go | no |
 | `npm run update:rules` | Re-scrapes parisjetaime.com free-admission rules (only replaces rules from that source; `--dry-run` supported) | yes |
 | `npm run update:wikidata` | Links any museum still missing a QID (verified matching; `--dry-run`) | yes |
-| `npm run update:hours` | Re-imports verified hours from a `../free-museums-paris` checkout (`--dry-run`, `--p1 <path>`) | yes |
 | `npm run update:all` | rules → wikidata → link refresh → museofile ids → freshness report | yes |
 | `npx tsx scripts/build-cmn.ts --out <staging>` | Bootstrap resolver for new CMN monuments (Wikidata identity via official-site domain, BAN reverse geocoding, department cross-check) — feeds the AI verification pass | staging file only |
 | `npx tsx scripts/sources/it/build-domenicalmuseo.ts` | Italy: resolves the Domenica al Museo venue list (fixture `scripts/fixtures/it/domenicalmuseo.json`) against Wikidata + Nominatim and rebuilds `data/it/museums.json` rules (first Sunday, national free days, under-18). Incremental — re-running only touches unresolved venues | yes (`data/it`) |
@@ -44,8 +43,8 @@ Yearly sequence (what the *Data update* workflow runs): `update:all`, then
 data is valid, not that it is right**; read the diff against the cited
 sources before merging.
 
-Principles the scripts encode (borrowed from the sibling `free-museums-paris`
-audit):
+Principles the scripts encode (carried over from the Île-de-France audit that
+seeded this dataset):
 
 - **Identity over names.** Joins use QID / museofile / parisjetaime record
   ids. Name matching is a last resort and always distance-guarded — a name

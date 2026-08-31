@@ -1,10 +1,13 @@
-# Free Museums — Paris & Île-de-France
+# Free Museums — France
 
-Interactive map PWA of every museum and monument in Île-de-France you can visit
-for free — and exactly **when** and **how**: always free, free on the first
-Sunday of the month (including booking-required and low-season variants), first
-Saturdays, monthly free evenings, 14 July, the European Museum Night, the
-European Heritage Days, and under-26 (EU) free admission.
+Interactive map PWA of every museum and monument you can visit for free — and
+exactly **when** and **how**: always free, free on the first Sunday of the month
+(including booking-required and low-season variants), first Saturdays, monthly
+free evenings, 14 July, the European Museum Night, the European Heritage Days,
+and under-26 (EU) free admission.
+
+France is the primary deployment; the same engine also ships Italian and Belgian
+datasets from `data/it/` and `data/be/` (`npm run dev:it`, `npm run dev:be`).
 
 **Live app:** <https://travel-eu.github.io/free-museums-france/>
 
@@ -39,12 +42,13 @@ European Heritage Days, and under-26 (EU) free admission.
 |---|---|---|
 | [parisjetaime.com](https://parisjetaime.com/article/les-musees-et-monuments-gratuits-a-paris-a961) | Free-admission categories for Paris museums & monuments | Facts, attributed |
 | [data.gouv.fr — Liste des musées franciliens](https://www.data.gouv.fr/datasets/liste-des-musees-franciliens-idf) | Base directory: names, coordinates, addresses | Licence Ouverte |
-| Official museum websites | Hand-curated free-admission rules for the rest of Île-de-France | Facts, per-rule source URL |
+| Official museum websites | Hand-curated free-admission rules for the rest of France | Facts, per-rule source URL |
 
-Every rule in [`data/museums.json`](data/museums.json) carries the source URL it
-was verified against and the date it was last checked. Variable-date events
-(Museum Night, Heritage Days) use officially confirmed dates from
-[`data/events.json`](data/events.json), with clearly-flagged estimates beyond.
+Every rule in [`data/fr/museums.json`](data/fr/museums.json) carries the source
+URL it was verified against and the date it was last checked. Variable-date
+events (Museum Night, Heritage Days) use officially confirmed dates from
+[`data/fr/events.json`](data/fr/events.json), with clearly-flagged estimates
+beyond.
 
 **Refreshing:** `npm run update-data` re-scrapes the parisjetaime article and
 updates only the rules that came from it (hand-curated rules are never
