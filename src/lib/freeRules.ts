@@ -1,9 +1,10 @@
-import type { EventDates, EventKey, FreeRule, Museum, Weekday } from './types';
+import type { Audience, EventDates, EventKey, FreeRule, Museum, Weekday } from './types';
 
 export interface RuleContext {
   events: EventDates;
   /** Visitor qualifies for under-26 (EU resident) free admission. */
-  under26: boolean;
+  /** Audiences the visitor claims; an audience rule counts only if matched. */
+  audiences: Audience[];
 }
 
 export interface EventDateInfo {
@@ -62,14 +63,31 @@ export function eventDatesForYear(events: EventDates, event: EventKey, year: num
   return { dates: [saturday, toISO(parseISO(saturday).utcMs + DAY_MS)], estimated: true };
 }
 
+/**
+ * Claiming the key audience also satisfies the listed rule audiences: someone
+ * under 26 with EU residency is also simply "under 26", and an under-18 is too
+ * (their nationality is unknown, so the EU-restricted variant is not implied).
+ */
+const IMPLIED_AUDIENCES: Partial<Record<Audience, readonly Audience[]>> = {
+  'under-26-eu': ['under-26'],
+  'under-18': ['under-26'],
+};
+
+/** Whether a visitor claiming `selected` qualifies under a rule's `required`. */
+export function visitorMatches(selected: readonly Audience[], required: Audience): boolean {
+  return selected.some(
+    (a) => a === required || (IMPLIED_AUDIENCES[a]?.includes(required) ?? false),
+  );
+}
+
 /** Whether a rule grants free entry on the given ISO date. */
 export function ruleActiveOn(rule: FreeRule, date: string, ctx: RuleContext): boolean {
   const audience = rule.audience ?? 'everyone';
-  // Resident-only and under-18 schemes are shown for information but never
-  // counted as "free for the visitor" — the site's audience is travellers,
-  // and the under-26 toggle must not claim minor-only admission.
-  if (audience === 'residents' || audience === 'under-18') return false;
-  if (audience !== 'everyone' && !ctx.under26) return false;
+  // An audience rule is shown for information whatever the visitor selected,
+  // but only counts as "free for this visitor" when they claimed that audience.
+  // With nothing claimed (the default) no audience rule counts, so a traveller
+  // is never told a concession-only day is free for them.
+  if (audience !== 'everyone' && !visitorMatches(ctx.audiences, audience)) return false;
 
   switch (rule.kind) {
     case 'always': {
@@ -105,6 +123,22 @@ function ruleEstimatedForYear(rule: FreeRule, year: number, ctx: RuleContext): b
 
 export function isFreeOn(museum: Museum, date: string, ctx: RuleContext): boolean {
   return museum.freeAccess.some((rule) => ruleActiveOn(rule, date, ctx));
+}
+
+/**
+ * Whether the venue is shut on `date`.
+ *
+ * Deliberately separate from `isFreeOn`: a venue can be free on a day it is
+ * closed, and the upstream sources routinely conflate the two. Callers render
+ * "free, but closed that day" rather than dropping the venue, so a reader can
+ * tell the difference between "not free" and "free but you cannot get in".
+ */
+export function isClosedOn(museum: Museum, date: string): boolean {
+  if (museum.closedUntil) {
+    const until = museum.closedUntil.length === 4 ? `${museum.closedUntil}-01-01` : museum.closedUntil;
+    if (date < until) return true;
+  }
+  return (museum.closures ?? []).some((c) => date >= c.from && date <= c.to);
 }
 
 /** Number of museums free on each day of a month (keys are ISO dates). */

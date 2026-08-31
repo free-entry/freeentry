@@ -93,6 +93,37 @@
   color: var(--color-text-muted);
 }
 
+.audiences > summary {
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding-block: 0.3rem;
+  /* Logical padding so the marker sits correctly in RTL too. */
+  padding-inline-start: 0.15rem;
+}
+
+.audiences > summary::marker {
+  color: var(--color-text-muted);
+}
+
+/*
+ * Audience labels are stored in the form the rule sentence needs, which in some
+ * locales means lowercase with a leading article ("les étudiants"). As a
+ * standalone checkbox label that wants a capital, so lift the first letter
+ * only — `capitalize` would wrongly hit every word. No-op where the locale is
+ * already capitalised or has no case at all.
+ */
+.audienceOptions .toggle > span::first-letter {
+  text-transform: uppercase;
+}
+
+.audienceOptions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+  gap: 0 1rem;
+  padding-inline-start: 1.1rem;
+  padding-block-start: 0.2rem;
+}
+
 .footer {
   position: sticky;
   inset-block-end: 0;

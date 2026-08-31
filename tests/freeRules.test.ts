@@ -1,7 +1,9 @@
 import { describe, expect, it } from 'vitest';
 import type { EventDates, FreeRule, Museum } from '@/lib/types';
+import type { RuleContext } from '@/lib/freeRules';
 import {
   eventDatesForYear,
+  isClosedOn,
   isFreeOn,
   nextFreeDate,
   nthWeekdayOfMonth,
@@ -15,8 +17,8 @@ const EVENTS: EventDates = {
   'heritage-days': { confirmed: { '2026': ['2026-09-19', '2026-09-20'] } },
 };
 
-const ctx = { events: EVENTS, under26: false };
-const ctxUnder26 = { events: EVENTS, under26: true };
+const ctx: RuleContext = { events: EVENTS, audiences: [] };
+const ctxUnder26: RuleContext = { events: EVENTS, audiences: ['under-26-eu'] };
 
 function museum(rules: FreeRule[]): Museum {
   return {
@@ -154,7 +156,7 @@ describe('isFreeOn / nextFreeDate', () => {
 });
 
 describe('weekly and residents rules', () => {
-  const ctx = { events: { 'museum-night': { confirmed: {} }, 'heritage-days': { confirmed: {} } }, under26: false } as never;
+  const ctx = { events: { 'museum-night': { confirmed: {} }, 'heritage-days': { confirmed: {} } }, audiences: [] } as never;
   it('weekly rule fires on its weekday only', () => {
     const rule = { kind: 'weekly', weekday: 'thursday', source: { url: 'https://x', checkedAt: '2026-08-06' } } as never;
     expect(ruleActiveOn(rule, '2026-08-06', ctx)).toBe(true); // Thursday
@@ -166,3 +168,49 @@ describe('weekly and residents rules', () => {
   });
 });
 
+describe('isClosedOn', () => {
+  const base: Museum = {
+    id: 'x',
+    name: 'X',
+    coordinates: [2.35, 48.86],
+    address: '',
+    postalCode: '75001',
+    commune: 'Paris',
+    department: '75',
+    tags: ['museum'],
+    freeAccess: [{ kind: 'always', source: SOURCE }],
+  };
+
+  it('is false when the venue has no closure data', () => {
+    expect(isClosedOn(base, '2026-08-21')).toBe(false);
+  });
+
+  it('covers a closure window inclusively at both ends', () => {
+    const m = { ...base, closures: [{ from: '2026-08-01', to: '2026-08-15' }] };
+    expect(isClosedOn(m, '2026-07-31')).toBe(false);
+    expect(isClosedOn(m, '2026-08-01')).toBe(true);
+    expect(isClosedOn(m, '2026-08-15')).toBe(true);
+    expect(isClosedOn(m, '2026-08-16')).toBe(false);
+  });
+
+  it('handles a single-day closure', () => {
+    const m = { ...base, closures: [{ from: '2026-05-01', to: '2026-05-01' }] };
+    expect(isClosedOn(m, '2026-05-01')).toBe(true);
+    expect(isClosedOn(m, '2026-05-02')).toBe(false);
+  });
+
+  it('treats closedUntil as shut up to that date, and a bare year as its 1 January', () => {
+    expect(isClosedOn({ ...base, closedUntil: '2026-09-13' }, '2026-08-21')).toBe(true);
+    expect(isClosedOn({ ...base, closedUntil: '2026-09-13' }, '2026-09-13')).toBe(false);
+    expect(isClosedOn({ ...base, closedUntil: '2030' }, '2029-12-31')).toBe(true);
+    expect(isClosedOn({ ...base, closedUntil: '2030' }, '2030-01-01')).toBe(false);
+  });
+
+  // The premise the dataset is built on: free and open are separate facts, and a
+  // closure must never quietly turn a free day into a not-free one.
+  it('leaves isFreeOn untouched on a day the venue is shut', () => {
+    const m = { ...base, closures: [{ from: '2026-08-01', to: '2026-08-31' }] };
+    expect(isFreeOn(m, '2026-08-21', ctx)).toBe(true);
+    expect(isClosedOn(m, '2026-08-21')).toBe(true);
+  });
+});

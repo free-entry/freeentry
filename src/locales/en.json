@@ -29,6 +29,7 @@
     "special-days": "Special days only",
     "under-26-only": "Free under 26",
     "under-18-only": "Free under 18",
+    "concession-only": "Free for certain visitors",
     "residents-only": "Free for locals only",
     "none": "No free admission"
   },
@@ -51,8 +52,8 @@
     "communesSearch": "Search a municipality…",
     "arrondissements": "Paris arrondissements",
     "arrondissementLabel": "{{number}}ᵉ arrondissement",
-    "under26": "I am under 26 (EU resident)",
-    "under26Hint": "Counts under-26 free admission as free access",
+    "audienceTitle": "Visitor status",
+    "audienceHint": "Counts admission that is free for these visitors",
     "includePaid": "Also show museums with no free admission",
     "reset": "Reset filters",
     "close": "Close filters",
@@ -80,6 +81,9 @@
     "nextFreeDate": "Next free day: {{date}}",
     "estimated": "estimated",
     "todayFree": "Free today",
+    "todayFreeButClosed": "Free today — but closed",
+    "closedThatDay": "closed that day",
+    "reopens": "Reopens {{date}}",
     "eveningOnly": "evening only",
     "bookingRequired": "Booking required",
     "book": "Book a free ticket",
@@ -93,6 +97,14 @@
     "copyAddress": "Copy address",
     "addressCopied": "Address copied to clipboard",
     "address": "Address",
+    "accessibilityTitle": "Step-free access",
+    "wheelchairYes": "Step-free access throughout",
+    "wheelchairPartial": "Partly step-free — some areas are not reachable",
+    "wheelchairNo": "No step-free access",
+    "admissionTitle": "Standard admission",
+    "admissionFull": "Full price {{price}}",
+    "admissionSeparator": ", ",
+    "admissionReduced": "reduced {{price}}",
     "openingHours": "Opening hours",
     "hoursClosed": "Closed",
     "hoursPublicHolidays": "Public holidays",
@@ -125,7 +137,11 @@
     "annualDate": "Free every year on {{date}}",
     "nextDate": "next: {{date}}",
     "weekly": "Free every {{weekday}}",
-    "residentsOnly": " (local residents only)"
+    "residentsOnly": " (local residents only)",
+    "scopeGrounds": " (grounds only — the building is ticketed)",
+    "scopePermanentCollection": " (permanent collection only)",
+    "scopePartial": " (part of the venue only)",
+    "alwaysForAudience": "Free every day for {{audience}}"
   },
   "calendar": {
     "title": "Free-admission calendar",
@@ -169,5 +185,19 @@
     "title": "Museum not found",
     "body": "This link may be outdated or the museum was removed from the dataset.",
     "backHome": "Back to the map"
+  },
+  "audiences": {
+    "under-18": "Under 18",
+    "under-26-eu": "Under 26, EU resident",
+    "under-26": "Under 26",
+    "over-65": "Over 65",
+    "students": "Students",
+    "teachers": "Teachers",
+    "jobseekers": "Jobseekers",
+    "income-support": "Receiving income support",
+    "disabled": "Disabled visitors",
+    "disabled-companion": "Companion of a disabled visitor",
+    "icom": "ICOM cardholders",
+    "residents": "Local residents"
   }
 }

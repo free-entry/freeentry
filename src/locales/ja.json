@@ -29,6 +29,7 @@
     "special-days": "特別な日のみ",
     "under-26-only": "26歳未満無料",
     "under-18-only": "18歳未満無料",
+    "concession-only": "対象者限定無料",
     "residents-only": "地元住民限定無料",
     "none": "無料入場なし"
   },
@@ -51,8 +52,8 @@
     "communesSearch": "市町村を検索…",
     "arrondissements": "パリの区",
     "arrondissementLabel": "{{number}}区",
-    "under26": "26歳未満です（EU居住者）",
-    "under26Hint": "26歳未満対象の無料入場も「無料」として扱います",
+    "audienceTitle": "対象者",
+    "audienceHint": "対象者向けの無料入場も「無料」として扱います",
     "includePaid": "無料入場のないミュージアムも表示",
     "reset": "絞り込みをリセット",
     "close": "絞り込みを閉じる",
@@ -78,6 +79,9 @@
     "nextFreeDate": "次の無料日：{{date}}",
     "estimated": "推定",
     "todayFree": "本日無料",
+    "todayFreeButClosed": "本日無料 — ただし休館中",
+    "closedThatDay": "当日休館",
+    "reopens": "{{date}}に再開館",
     "eveningOnly": "夜間のみ",
     "bookingRequired": "要予約",
     "book": "無料チケットを予約",
@@ -91,6 +95,14 @@
     "copyAddress": "住所をコピー",
     "addressCopied": "住所をコピーしました",
     "address": "住所",
+    "accessibilityTitle": "段差の有無",
+    "wheelchairYes": "館内すべて段差なし",
+    "wheelchairPartial": "一部のみ段差なし — 入れないエリアがあります",
+    "wheelchairNo": "段差あり",
+    "admissionTitle": "通常入場料",
+    "admissionFull": "一般 {{price}}",
+    "admissionSeparator": "、",
+    "admissionReduced": "割引 {{price}}",
     "openingHours": "開館時間",
     "hoursClosed": "休館",
     "hoursPublicHolidays": "祝日",
@@ -123,7 +135,11 @@
     "annualDate": "毎年{{date}}は無料",
     "nextDate": "次回：{{date}}",
     "weekly": "毎週{{weekday}}は無料",
-    "residentsOnly": "（地元住民限定）"
+    "residentsOnly": "（地元住民限定）",
+    "scopeGrounds": "（敷地内のみ — 建物内は有料）",
+    "scopePermanentCollection": "（常設展のみ）",
+    "scopePartial": "（施設の一部のみ）",
+    "alwaysForAudience": "{{audience}}は毎日無料"
   },
   "calendar": {
     "title": "無料入場カレンダー",
@@ -165,5 +181,19 @@
     "title": "ミュージアムが見つかりません",
     "body": "リンクが古くなっているか、ミュージアムがデータから削除された可能性があります。",
     "backHome": "地図に戻る"
+  },
+  "audiences": {
+    "under-18": "18歳未満",
+    "under-26-eu": "26歳未満のEU居住者",
+    "under-26": "26歳未満",
+    "over-65": "65歳以上",
+    "students": "学生",
+    "teachers": "教員",
+    "jobseekers": "求職者",
+    "income-support": "生活支援受給者",
+    "disabled": "障害者",
+    "disabled-companion": "介助者",
+    "icom": "ICOM会員証保持者",
+    "residents": "地元住民"
   }
 }

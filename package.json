@@ -1,7 +1,7 @@
 {
   "name": "free-museums-france",
   "version": "1.0.0",
-  "description": "Map PWA of free museums and monuments in Paris & Île-de-France",
+  "description": "Map PWA of free museums and monuments in France, Italy and Belgium",
   "license": "MIT",
   "type": "module",
   "repository": {
@@ -23,7 +23,6 @@
     "update:rules": "tsx scripts/update-parisjetaime.ts",
     "update:wikidata": "tsx scripts/enrich-wikidata.ts",
     "update:images": "tsx scripts/enrich-images.ts",
-    "update:hours": "tsx scripts/import-opening-hours.ts",
     "update:all": "npm run update:rules && npm run update:wikidata && tsx scripts/check-wikidata.ts --write && npm run update:images && tsx scripts/check-datagouv.ts --write && npm run check:freshness",
     "check:freshness": "tsx scripts/check-freshness.ts",
     "check:wikidata": "tsx scripts/check-wikidata.ts",

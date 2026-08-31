@@ -4,7 +4,7 @@ import { COUNTRY } from '@/countries';
 import { normalizeLocale } from '@/lib/i18n';
 import type { Museum } from '@/lib/types';
 import { deriveCategories } from '@/lib/categories';
-import { nextFreeDate, isFreeOn } from '@/lib/freeRules';
+import { isClosedOn, isFreeOn, nextFreeDate } from '@/lib/freeRules';
 import { haversineKm } from '@/lib/distance';
 import { formatDate, formatKm } from '@/lib/format';
 import CategoryBadge from './CategoryBadge';
@@ -29,6 +29,7 @@ export default function MuseumCard({ museum, active, onSelect }: MuseumCardProps
     normalizeLocale(i18n.language) !== COUNTRY.canonicalLocale;
   const categories = deriveCategories(museum);
   const freeToday = isFreeOn(museum, today, ctx);
+  const closedToday = isClosedOn(museum, today);
   const next = freeToday ? null : nextFreeDate(museum, today, ctx);
   const distance =
     filters.center !== null ? haversineKm(filters.center, museum.coordinates) : null;
@@ -55,7 +56,12 @@ export default function MuseumCard({ museum, active, onSelect }: MuseumCardProps
         {categories.map((category) => (
           <CategoryBadge key={category} category={category} />
         ))}
-        {freeToday && <span className={styles.today}>{t('museum.todayFree')}</span>}
+        {freeToday &&
+          (closedToday ? (
+            <span className={styles.flag}>{t('museum.closedThatDay')}</span>
+          ) : (
+            <span className={styles.today}>{t('museum.todayFree')}</span>
+          ))}
         {hasBooking && (
           <span className={styles.flag} title={t('museum.bookingRequired')}>
             🎟 {t('museum.bookingRequired')}

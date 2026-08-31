@@ -29,6 +29,7 @@
     "special-days": "특별한 날만 무료",
     "under-26-only": "26세 미만 무료",
     "under-18-only": "18세 미만 무료",
+    "concession-only": "특정 방문객 전용 무료",
     "residents-only": "현지 주민 전용 무료",
     "none": "무료입장 없음"
   },
@@ -51,8 +52,8 @@
     "communesSearch": "코뮌 검색…",
     "arrondissements": "파리 구(아롱디스망)",
     "arrondissementLabel": "{{number}}구",
-    "under26": "저는 26세 미만입니다 (EU 거주자)",
-    "under26Hint": "26세 미만 무료 혜택을 무료입장으로 계산합니다",
+    "audienceTitle": "방문객 유형",
+    "audienceHint": "선택한 방문객의 무료 혜택을 무료입장으로 계산합니다",
     "includePaid": "무료입장이 없는 박물관도 표시",
     "reset": "필터 초기화",
     "close": "필터 닫기",
@@ -78,6 +79,9 @@
     "nextFreeDate": "다음 무료 개방일: {{date}}",
     "estimated": "예상",
     "todayFree": "오늘 무료",
+    "todayFreeButClosed": "오늘 무료 — 휴관",
+    "closedThatDay": "당일 휴관",
+    "reopens": "재개관일: {{date}}",
     "eveningOnly": "야간에만",
     "bookingRequired": "예약 필수",
     "book": "무료 티켓 예약",
@@ -91,6 +95,14 @@
     "copyAddress": "주소 복사",
     "addressCopied": "주소가 클립보드에 복사되었습니다",
     "address": "주소",
+    "accessibilityTitle": "무단차 접근",
+    "wheelchairYes": "전 구간 단차 없음",
+    "wheelchairPartial": "일부 구간만 단차 없음 — 일부 구역 접근 불가",
+    "wheelchairNo": "단차 있음",
+    "admissionTitle": "일반 입장료",
+    "admissionFull": "일반 {{price}}",
+    "admissionSeparator": ", ",
+    "admissionReduced": "할인 {{price}}",
     "openingHours": "운영 시간",
     "hoursClosed": "휴관",
     "hoursPublicHolidays": "공휴일",
@@ -123,7 +135,11 @@
     "annualDate": "매년 {{date}} 무료",
     "nextDate": "다음: {{date}}",
     "weekly": "매주 {{weekday}} 무료",
-    "residentsOnly": " (현지 주민 전용)"
+    "residentsOnly": " (현지 주민 전용)",
+    "scopeGrounds": " (야외만 무료, 건물 내부는 유료)",
+    "scopePermanentCollection": " (상설전시만 무료)",
+    "scopePartial": " (시설 일부만 무료)",
+    "alwaysForAudience": "{{audience}} 대상 매일 무료"
   },
   "calendar": {
     "title": "무료입장 달력",
@@ -165,5 +181,19 @@
     "title": "박물관을 찾을 수 없습니다",
     "body": "링크가 오래되었거나 해당 박물관이 데이터에서 제거되었을 수 있습니다.",
     "backHome": "지도로 돌아가기"
+  },
+  "audiences": {
+    "under-18": "18세 미만",
+    "under-26-eu": "26세 미만 EU 거주자",
+    "under-26": "26세 미만",
+    "over-65": "65세 이상",
+    "students": "학생",
+    "teachers": "교사",
+    "jobseekers": "구직자",
+    "income-support": "기초생활수급자",
+    "disabled": "장애인",
+    "disabled-companion": "장애인 동반인",
+    "icom": "ICOM 카드 소지자",
+    "residents": "현지 주민"
   }
 }

@@ -30,7 +30,9 @@ export default function RuleExplanation({ rule }: { rule: FreeRule }) {
             ? t('rules.alwaysUnder26All')
             : rule.audience === 'under-18'
               ? t('rules.alwaysUnder18')
-              : t('rules.always');
+              : rule.audience && rule.audience !== 'everyone' && rule.audience !== 'residents'
+                ? t('rules.alwaysForAudience', { audience: t(`audiences.${rule.audience}`) })
+                : t('rules.always');
       if (rule.months && rule.months.length > 0) {
         sentence += `, ${t('rules.monthsRange', {
           from: monthName(locale, rule.months[0]),
@@ -74,6 +76,10 @@ export default function RuleExplanation({ rule }: { rule: FreeRule }) {
       break;
     }
   }
+
+  if (rule.scope === 'grounds') sentence += t('rules.scopeGrounds');
+  else if (rule.scope === 'permanent-collection') sentence += t('rules.scopePermanentCollection');
+  else if (rule.scope === 'partial') sentence += t('rules.scopePartial');
 
   if (rule.audience === 'residents') sentence += t('rules.residentsOnly');
 

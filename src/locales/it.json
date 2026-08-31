@@ -29,6 +29,7 @@
     "special-days": "Solo giornate speciali",
     "under-26-only": "Gratis per gli under 26",
     "under-18-only": "Gratis per gli under 18",
+    "concession-only": "Gratis per alcuni visitatori",
     "residents-only": "Gratis solo per i residenti",
     "none": "Nessun ingresso gratuito"
   },
@@ -51,8 +52,8 @@
     "communesSearch": "Cerca un comune…",
     "arrondissements": "Arrondissement di Parigi",
     "arrondissementLabel": "{{number}}º arrondissement",
-    "under26": "Ho meno di 26 anni (residente UE)",
-    "under26Hint": "Conta la gratuità under 26 come accesso libero",
+    "audienceTitle": "Profilo del visitatore",
+    "audienceHint": "Conta come gratuiti gli ingressi riservati a questi visitatori",
     "includePaid": "Mostra anche i musei senza ingresso gratuito",
     "reset": "Reimposta i filtri",
     "close": "Chiudi i filtri",
@@ -80,6 +81,9 @@
     "nextFreeDate": "Prossimo giorno gratuito: {{date}}",
     "estimated": "stimato",
     "todayFree": "Gratis oggi",
+    "todayFreeButClosed": "Gratis oggi — ma chiuso",
+    "closedThatDay": "chiuso quel giorno",
+    "reopens": "Riapre {{date}}",
     "eveningOnly": "solo in serata",
     "bookingRequired": "Prenotazione obbligatoria",
     "book": "Prenota un biglietto gratuito",
@@ -93,6 +97,14 @@
     "copyAddress": "Copia indirizzo",
     "addressCopied": "Indirizzo copiato negli appunti",
     "address": "Indirizzo",
+    "accessibilityTitle": "Accesso senza gradini",
+    "wheelchairYes": "Accesso senza gradini in tutte le aree",
+    "wheelchairPartial": "Parzialmente senza gradini — alcune aree non sono raggiungibili",
+    "wheelchairNo": "Nessun accesso senza gradini",
+    "admissionTitle": "Ingresso standard",
+    "admissionFull": "Prezzo intero {{price}}",
+    "admissionSeparator": ", ",
+    "admissionReduced": "ridotto {{price}}",
     "openingHours": "Orari di apertura",
     "hoursClosed": "Chiuso",
     "hoursPublicHolidays": "Festivi",
@@ -125,7 +137,11 @@
     "annualDate": "Gratuito ogni anno il {{date}}",
     "nextDate": "prossima data: {{date}}",
     "weekly": "Gratuito tutti i {{weekday}}",
-    "residentsOnly": " (solo residenti)"
+    "residentsOnly": " (solo residenti)",
+    "scopeGrounds": " (solo gli spazi esterni — l'edificio è a pagamento)",
+    "scopePermanentCollection": " (solo la collezione permanente)",
+    "scopePartial": " (solo una parte del luogo)",
+    "alwaysForAudience": "Gratuito tutti i giorni per: {{audience}}"
   },
   "calendar": {
     "title": "Calendario degli ingressi gratuiti",
@@ -169,5 +185,19 @@
     "title": "Museo non trovato",
     "body": "Il link potrebbe essere obsoleto oppure il museo è stato rimosso dai dati.",
     "backHome": "Torna alla mappa"
+  },
+  "audiences": {
+    "under-18": "Under 18",
+    "under-26-eu": "Under 26, residente UE",
+    "under-26": "Under 26",
+    "over-65": "Over 65",
+    "students": "Studenti",
+    "teachers": "Insegnanti",
+    "jobseekers": "Disoccupati",
+    "income-support": "Beneficiari di sostegno al reddito",
+    "disabled": "Visitatori con disabilità",
+    "disabled-companion": "Accompagnatore di un visitatore con disabilità",
+    "icom": "Titolari di tessera ICOM",
+    "residents": "Residenti"
   }
 }

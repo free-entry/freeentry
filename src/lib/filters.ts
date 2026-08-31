@@ -3,7 +3,7 @@ import { deriveCategory, ruleCategory } from './categories';
 import { haversineKm } from './distance';
 import type { RuleContext } from './freeRules';
 import { ruleActiveOn } from './freeRules';
-import type { Department, Museum } from './types';
+import type { Audience, Department, Museum } from './types';
 
 export interface FilterState {
   /** Free-type chips; [] = no type filter. */
@@ -16,8 +16,8 @@ export interface FilterState {
   departments: Department[];
   communes: string[];
   arrondissements: number[];
-  /** Visitor is an under-26 EU resident: audience rules count as free access. */
-  under26: boolean;
+  /** Audiences the visitor claims; rules for those audiences count as free access. */
+  audiences: Audience[];
   /** Show museums with no known free scheme. */
   includePaid: boolean;
   query: string;
@@ -31,7 +31,7 @@ export const DEFAULT_FILTERS: FilterState = {
   departments: [],
   communes: [],
   arrondissements: [],
-  under26: false,
+  audiences: [],
   includePaid: false,
   query: '',
 };
@@ -50,7 +50,7 @@ export function searchFold(s: string): string {
  * Applies every filter dimension (AND across dimensions, OR within one).
  * The type and date dimensions combine at RULE level: one same rule must
  * match a selected type AND be active on the selected date.
- * `ctx.under26` is overridden by `filters.under26`.
+ * `ctx.audiences` is overridden by `filters.audiences`.
  */
 export function applyFilters(
   museums: Museum[],
@@ -58,7 +58,7 @@ export function applyFilters(
   ctx: RuleContext,
   localizedNames: Record<string, string>,
 ): Museum[] {
-  const ruleCtx: RuleContext = { ...ctx, under26: filters.under26 };
+  const ruleCtx: RuleContext = { ...ctx, audiences: filters.audiences };
   const query = searchFold(filters.query);
   const areaActive =
     filters.departments.length > 0 ||

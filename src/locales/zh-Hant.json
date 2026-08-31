@@ -29,6 +29,7 @@
     "special-days": "僅特定日子免費",
     "under-26-only": "未滿26歲免費",
     "under-18-only": "未滿18歲免費",
+    "concession-only": "僅特定訪客免費",
     "residents-only": "僅限本地居民免費",
     "none": "無免費入場"
   },
@@ -51,8 +52,8 @@
     "communesSearch": "搜尋市鎮…",
     "arrondissements": "巴黎行政區",
     "arrondissementLabel": "第{{number}}區",
-    "under26": "我未滿26歲（歐盟居民）",
-    "under26Hint": "將未滿26歲的免費優惠計入免費入場",
+    "audienceTitle": "訪客身分",
+    "audienceHint": "將這些訪客的免費優惠計入免費入場",
     "includePaid": "同時顯示無免費入場的博物館",
     "reset": "重設篩選條件",
     "close": "關閉篩選",
@@ -78,6 +79,9 @@
     "nextFreeDate": "下一個免費日：{{date}}",
     "estimated": "預估",
     "todayFree": "今天免費",
+    "todayFreeButClosed": "今天免費 — 但休館",
+    "closedThatDay": "當日休館",
+    "reopens": "{{date}}重新開放",
     "eveningOnly": "僅限夜間",
     "bookingRequired": "須預約",
     "book": "預約免費門票",
@@ -91,6 +95,14 @@
     "copyAddress": "複製地址",
     "addressCopied": "地址已複製到剪貼簿",
     "address": "地址",
+    "accessibilityTitle": "無障礙通行",
+    "wheelchairYes": "全館無障礙通行",
+    "wheelchairPartial": "部分無障礙通行 — 有些區域無法通行",
+    "wheelchairNo": "不提供無障礙通行",
+    "admissionTitle": "標準票價",
+    "admissionFull": "全票{{price}}",
+    "admissionSeparator": "，",
+    "admissionReduced": "優待{{price}}",
     "openingHours": "開放時間",
     "hoursClosed": "休館",
     "hoursPublicHolidays": "公眾假期",
@@ -123,7 +135,11 @@
     "annualDate": "每年{{date}}免費",
     "nextDate": "下一次：{{date}}",
     "weekly": "每週{{weekday}}免費",
-    "residentsOnly": "（僅限本地居民）"
+    "residentsOnly": "（僅限本地居民）",
+    "scopeGrounds": "（僅限庭園，建築須購票）",
+    "scopePermanentCollection": "（僅限常設展）",
+    "scopePartial": "（僅限部分場館）",
+    "alwaysForAudience": "{{audience}}每天免費"
   },
   "calendar": {
     "title": "免費入場日曆",
@@ -165,5 +181,19 @@
     "title": "找不到此博物館",
     "body": "此連結可能已過期，或該博物館已從資料集中移除。",
     "backHome": "返回地圖"
+  },
+  "audiences": {
+    "under-18": "未滿18歲",
+    "under-26-eu": "未滿26歲的歐盟居民",
+    "under-26": "未滿26歲",
+    "over-65": "65歲以上",
+    "students": "學生",
+    "teachers": "教師",
+    "jobseekers": "求職者",
+    "income-support": "領取社會救助者",
+    "disabled": "身心障礙者",
+    "disabled-companion": "身心障礙者陪同者",
+    "icom": "ICOM持卡人",
+    "residents": "本地居民"
   }
 }

@@ -51,3 +51,18 @@ export function annualDateName(locale: string, mmdd: string): string {
     new Date(Date.UTC(2026, m - 1, d, 12)),
   );
 }
+
+/** Ticket price in the viewer's locale, e.g. "3,50 €" / "€3.50". */
+export function formatPrice(locale: string, amount: number, currency: string): string {
+  return new Intl.NumberFormat(locale, { style: 'currency', currency }).format(amount);
+}
+
+/**
+ * A bare 4-digit year in the viewer's locale — "2030", "2030年", "2030년".
+ * Several locales mark the year with a counter, so the raw string cannot be
+ * interpolated directly.
+ */
+export function formatYear(locale: string, year: string): string {
+  const date = new Date(Date.UTC(Number(year), 0, 1));
+  return new Intl.DateTimeFormat(locale, { year: 'numeric', timeZone: 'UTC' }).format(date);
+}

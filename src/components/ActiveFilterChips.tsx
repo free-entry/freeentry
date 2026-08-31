@@ -63,11 +63,11 @@ export default function ActiveFilterChips() {
       }),
     });
   }
-  if (filters.under26) {
+  for (const audience of filters.audiences) {
     chips.push({
-      key: 'under26',
-      label: t('filters.under26'),
-      remove: (prev) => ({ ...prev, under26: false }),
+      key: `aud-${audience}`,
+      label: t(`audiences.${audience}`),
+      remove: (prev) => ({ ...prev, audiences: prev.audiences.filter((a) => a !== audience) }),
     });
   }
   if (filters.includePaid) {

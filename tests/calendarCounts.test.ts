@@ -7,7 +7,7 @@ const EVENTS: EventDates = {
   'museum-night': { confirmed: { '2026': ['2026-05-16'] } },
   'heritage-days': { confirmed: { '2026': ['2026-09-19', '2026-09-20'] } },
 };
-const ctx = { events: EVENTS, under26: false };
+const ctx = { events: EVENTS, audiences: [] };
 
 function museum(id: string, rules: FreeRule[]): Museum {
   return {

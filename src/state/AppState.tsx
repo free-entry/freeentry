@@ -115,8 +115,8 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
   }, [location.search]);
 
   const ctx = useMemo<RuleContext>(
-    () => ({ events: EVENTS, under26: filters.under26 }),
-    [filters.under26],
+    () => ({ events: EVENTS, audiences: filters.audiences }),
+    [filters.audiences],
   );
 
   const content = useMuseumContent(i18n.language);

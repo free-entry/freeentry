@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { SELECTABLE_AUDIENCES } from '@/lib/types';
 import { useAppState } from '@/state/AppState';
 import Dialog from './Dialog';
 import TypeChips from './TypeChips';
@@ -71,17 +72,32 @@ export default function FilterPanel({ onClose }: FilterPanelProps) {
         </section>
 
         <section className={styles.section}>
-          <label className={styles.toggle}>
-            <input
-              type="checkbox"
-              checked={filters.under26}
-              onChange={(e) => setFilters((prev) => ({ ...prev, under26: e.target.checked }))}
-            />
-            <span>
-              {t('filters.under26')}
-              <span className={styles.toggleHint}>{t('filters.under26Hint')}</span>
-            </span>
-          </label>
+          <details className={styles.audiences}>
+            <summary>
+              {t('filters.audienceTitle')}
+              {filters.audiences.length > 0 && ` (${filters.audiences.length})`}
+              <span className={styles.toggleHint}>{t('filters.audienceHint')}</span>
+            </summary>
+            <div className={styles.audienceOptions}>
+              {SELECTABLE_AUDIENCES.map((audience) => (
+                <label key={audience} className={styles.toggle}>
+                  <input
+                    type="checkbox"
+                    checked={filters.audiences.includes(audience)}
+                    onChange={(e) =>
+                      setFilters((prev) => ({
+                        ...prev,
+                        audiences: e.target.checked
+                          ? [...prev.audiences, audience]
+                          : prev.audiences.filter((a) => a !== audience),
+                      }))
+                    }
+                  />
+                  <span>{t(`audiences.${audience}`)}</span>
+                </label>
+              ))}
+            </div>
+          </details>
           <label className={styles.toggle}>
             <input
               type="checkbox"

@@ -12,7 +12,43 @@ export type Weekday =
 
 export type EventKey = 'museum-night' | 'heritage-days';
 
-export type Audience = 'everyone' | 'under-26-eu' | 'under-26' | 'under-18' | 'residents';
+/**
+ * Who a free-admission rule applies to. 'everyone' is the default and is
+ * omitted from stored rules; every other value narrows the rule to visitors
+ * who belong to that group.
+ */
+export type Audience =
+  | 'everyone'
+  | 'under-18'
+  | 'under-26-eu'
+  | 'under-26'
+  | 'over-65'
+  | 'students'
+  | 'teachers'
+  | 'jobseekers'
+  /** Recipients of means-tested benefits (FR: *minima sociaux*). */
+  | 'income-support'
+  | 'disabled'
+  | 'disabled-companion'
+  /** ICOM cardholders (museum professionals). */
+  | 'icom'
+  | 'residents';
+
+/** Every audience a visitor can claim — 'everyone' is not a choice. */
+export const SELECTABLE_AUDIENCES = [
+  'under-18',
+  'under-26-eu',
+  'under-26',
+  'over-65',
+  'students',
+  'teachers',
+  'jobseekers',
+  'income-support',
+  'disabled',
+  'disabled-companion',
+  'icom',
+  'residents',
+] as const satisfies readonly Audience[];
 
 export interface RuleSource {
   url: string;
@@ -24,8 +60,13 @@ export interface RuleSource {
  * One way a museum can be visited for free. Rules are evaluated against a
  * calendar date; display categories are derived from the full rule set.
  */
+/** How much of the venue the free admission covers. Omitted means all of it. */
+export type FreeScope = 'partial' | 'grounds' | 'permanent-collection';
+
 export interface FreeRule {
   kind: 'always' | 'nth-weekday' | 'weekly' | 'event' | 'annual-date';
+  /** Restricts the rule to part of the venue; omitted = the whole venue. */
+  scope?: FreeScope;
   /** weekly: free every <weekday> (evening flag for evening-only slots). */
   /** nth-weekday: 1 = first <weekday> of the month, -1 = last. */
   nth?: 1 | -1;
@@ -90,6 +131,15 @@ export interface Museum {
   /** Detail-page header photo, sourced from the Wikidata item's image (P18)
    *  or a manual override — see scripts/enrich-images.ts. */
   image?: MuseumImage;
+  /** Dated windows when the venue is shut. Free admission may still apply on
+   *  those dates — free and open are separate facts, and the UI says so. */
+  closures?: { from: string; to: string }[];
+  /** ISO date, or a bare year, the venue reopens on after a long closure. */
+  closedUntil?: string;
+  /** Step-free access, as stated on the venue's own information page. */
+  wheelchair?: 'yes' | 'partial' | 'no';
+  /** Standard ticket prices, for the times the venue is not free. */
+  admission?: { currency: string; full: number; reduced?: number };
   /** Venue-level caveat shown on the detail page (e.g. temporary closure). */
   note?: string;
 }

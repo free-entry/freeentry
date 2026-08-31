@@ -29,6 +29,7 @@
     "special-days": "仅特定日期免费",
     "under-26-only": "26岁以下免费",
     "under-18-only": "18岁以下免费",
+    "concession-only": "仅特定访客免费",
     "residents-only": "仅限本地居民免费",
     "none": "无免费开放"
   },
@@ -51,8 +52,8 @@
     "communesSearch": "搜索市镇…",
     "arrondissements": "巴黎各区",
     "arrondissementLabel": "第{{number}}区",
-    "under26": "我未满26岁（欧盟居民）",
-    "under26Hint": "将26岁以下免票视为免费开放",
+    "audienceTitle": "访客身份",
+    "audienceHint": "将这些访客的免票视为免费开放",
     "includePaid": "同时显示无免费开放的博物馆",
     "reset": "重置筛选",
     "close": "关闭筛选",
@@ -78,6 +79,9 @@
     "nextFreeDate": "下一个免费日：{{date}}",
     "estimated": "预估",
     "todayFree": "今日免费",
+    "todayFreeButClosed": "今日免费，但闭馆",
+    "closedThatDay": "当日闭馆",
+    "reopens": "{{date}}重新开放",
     "eveningOnly": "仅限夜场",
     "bookingRequired": "需要预约",
     "book": "预约免费门票",
@@ -91,6 +95,14 @@
     "copyAddress": "复制地址",
     "addressCopied": "地址已复制到剪贴板",
     "address": "地址",
+    "accessibilityTitle": "无障碍通行",
+    "wheelchairYes": "全程无障碍通行",
+    "wheelchairPartial": "部分无障碍通行，部分区域无法到达",
+    "wheelchairNo": "没有无障碍通行",
+    "admissionTitle": "标准票价",
+    "admissionFull": "全价{{price}}",
+    "admissionSeparator": "，",
+    "admissionReduced": "优惠价{{price}}",
     "openingHours": "开放时间",
     "hoursClosed": "闭馆",
     "hoursPublicHolidays": "公众假期",
@@ -123,7 +135,11 @@
     "annualDate": "每年{{date}}免费",
     "nextDate": "下次：{{date}}",
     "weekly": "每周{{weekday}}免费",
-    "residentsOnly": "（仅限本地居民）"
+    "residentsOnly": "（仅限本地居民）",
+    "scopeGrounds": "（仅限户外区域，建筑内部另需购票）",
+    "scopePermanentCollection": "（仅限常设展）",
+    "scopePartial": "（仅限部分场馆）",
+    "alwaysForAudience": "{{audience}}每天免费"
   },
   "calendar": {
     "title": "免费开放日历",
@@ -165,5 +181,19 @@
     "title": "未找到该博物馆",
     "body": "此链接可能已过期，或该博物馆已从数据集中移除。",
     "backHome": "返回地图"
+  },
+  "audiences": {
+    "under-18": "18岁以下",
+    "under-26-eu": "26岁以下欧盟居民",
+    "under-26": "26岁以下",
+    "over-65": "65岁以上",
+    "students": "学生",
+    "teachers": "教师",
+    "jobseekers": "求职者",
+    "income-support": "社会救助金领取者",
+    "disabled": "残疾人",
+    "disabled-companion": "残疾人陪同人员",
+    "icom": "ICOM持卡人",
+    "residents": "本地居民"
   }
 }

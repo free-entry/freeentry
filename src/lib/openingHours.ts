@@ -31,7 +31,8 @@ function monthName(locale: string, month: string): string {
 }
 
 const DAY_TOKEN = /^(Mo|Tu|We|Th|Fr|Sa|Su)((-|,)(Mo|Tu|We|Th|Fr|Sa|Su))*$/;
-const MONTH_TOKEN = new RegExp(`^(${MONTHS.join('|')})(-(${MONTHS.join('|')}))?$`);
+const MONTH_PART = `(${MONTHS.join('|')})(-(${MONTHS.join('|')}))?`;
+const MONTH_TOKEN = new RegExp(`^${MONTH_PART}(,${MONTH_PART})*$`);
 const TIME_TOKEN = /^\d{2}:\d{2}-\d{2}:\d{2}(,\d{2}:\d{2}-\d{2}:\d{2})*$/;
 
 function renderDays(locale: string, spec: string, labels: HoursLabels): string {
@@ -47,7 +48,14 @@ function renderDays(locale: string, spec: string, labels: HoursLabels): string {
 }
 
 function renderMonths(locale: string, spec: string): string {
-  return spec.split('-').map((m) => monthName(locale, m)).join('–');
+  return spec
+    .split(',')
+    .map((part) =>
+      part.includes('-')
+        ? part.split('-').map((m) => monthName(locale, m)).join('–')
+        : monthName(locale, part),
+    )
+    .join(', ');
 }
 
 /** One ';'-separated rule → localized text, or null when unparseable. */

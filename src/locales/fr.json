@@ -29,6 +29,7 @@
     "special-days": "Jours exceptionnels uniquement",
     "under-26-only": "Gratuit pour les moins de 26 ans",
     "under-18-only": "Gratuit pour les moins de 18 ans",
+    "concession-only": "Gratuit pour certains visiteurs",
     "residents-only": "Gratuit pour les résidents",
     "none": "Pas d'accès gratuit"
   },
@@ -51,23 +52,23 @@
     "communesSearch": "Rechercher une commune…",
     "arrondissements": "Arrondissements de Paris",
     "arrondissementLabel": "{{number}}ᵉ arrondissement",
-    "under26": "J'ai moins de 26 ans (résident UE)",
-    "under26Hint": "Considère la gratuité moins de 26 ans comme un accès gratuit",
+    "audienceTitle": "Statut du visiteur",
+    "audienceHint": "Considère la gratuité réservée à ces visiteurs comme un accès gratuit",
     "includePaid": "Afficher aussi les musées sans gratuité",
     "reset": "Réinitialiser les filtres",
     "close": "Fermer les filtres",
     "resultCount_one": "{{count}} musée",
-    "resultCount_many": "{{count}} musées",
     "resultCount_other": "{{count}} musées",
     "showResults_one": "Afficher {{count}} musée",
-    "showResults_many": "Afficher {{count}} musées",
     "showResults_other": "Afficher {{count}} musées",
     "activeFilters": "Filtres actifs",
     "removeFilter": "Retirer le filtre : {{label}}",
     "freeOnDate": "Gratuit le {{date}}",
     "withinKm": "Dans un rayon de {{km}} km",
     "aroundMyLocation": "autour de ma position",
-    "aroundPoint": "autour du point choisi"
+    "aroundPoint": "autour du point choisi",
+    "resultCount_many": "{{count}} musées",
+    "showResults_many": "Afficher {{count}} musées"
   },
   "list": {
     "empty": "Aucun musée ne correspond à vos filtres.",
@@ -82,6 +83,9 @@
     "nextFreeDate": "Prochain jour gratuit : {{date}}",
     "estimated": "estimé",
     "todayFree": "Gratuit aujourd'hui",
+    "todayFreeButClosed": "Gratuit aujourd'hui — mais fermé",
+    "closedThatDay": "fermé ce jour-là",
+    "reopens": "Réouverture : {{date}}",
     "eveningOnly": "en soirée uniquement",
     "bookingRequired": "Réservation obligatoire",
     "book": "Réserver un billet gratuit",
@@ -95,6 +99,14 @@
     "copyAddress": "Copier l'adresse",
     "addressCopied": "Adresse copiée dans le presse-papiers",
     "address": "Adresse",
+    "accessibilityTitle": "Accès de plain-pied",
+    "wheelchairYes": "Accès de plain-pied partout",
+    "wheelchairPartial": "Accès de plain-pied partiel — certaines zones ne sont pas accessibles",
+    "wheelchairNo": "Pas d'accès de plain-pied",
+    "admissionTitle": "Tarifs",
+    "admissionFull": "Plein tarif {{price}}",
+    "admissionSeparator": ", ",
+    "admissionReduced": "réduit {{price}}",
     "openingHours": "Horaires d'ouverture",
     "hoursClosed": "Fermé",
     "hoursPublicHolidays": "Jours fériés",
@@ -127,12 +139,15 @@
     "annualDate": "Gratuit chaque année le {{date}}",
     "nextDate": "prochaine date : {{date}}",
     "weekly": "Gratuit tous les {{weekday}}",
-    "residentsOnly": " (résidents uniquement)"
+    "residentsOnly": " (résidents uniquement)",
+    "scopeGrounds": " (extérieurs uniquement — le bâtiment est payant)",
+    "scopePermanentCollection": " (collection permanente uniquement)",
+    "scopePartial": " (partie du lieu uniquement)",
+    "alwaysForAudience": "Gratuit tous les jours pour {{audience}}"
   },
   "calendar": {
     "title": "Calendrier des gratuités",
     "freeCount_one": "{{count}} musée gratuit",
-    "freeCount_many": "{{count}} musées gratuits",
     "freeCount_other": "{{count}} musées gratuits",
     "prevMonth": "Mois précédent",
     "nextMonth": "Mois suivant",
@@ -145,7 +160,8 @@
       "july-14": "14 juillet",
       "first-sunday": "Premier dimanche du mois",
       "first-saturday": "Premier samedi du mois"
-    }
+    },
+    "freeCount_many": "{{count}} musées gratuits"
   },
   "map": {
     "ariaLabel": "Carte interactive des musées",
@@ -162,16 +178,30 @@
   },
   "a11y": {
     "resultsUpdated_one": "{{count}} musée affiché",
-    "resultsUpdated_many": "{{count}} musées affichés",
     "resultsUpdated_other": "{{count}} musées affichés",
     "dialogClose": "Fermer la fenêtre",
     "sheetExpand": "Déplier le panneau des résultats",
     "sheetCollapse": "Replier le panneau des résultats",
-    "selectedMarker": "Sélectionné : {{name}}"
+    "selectedMarker": "Sélectionné : {{name}}",
+    "resultsUpdated_many": "{{count}} musées affichés"
   },
   "notFound": {
     "title": "Musée introuvable",
     "body": "Ce lien est peut-être obsolète ou le musée a été retiré des données.",
     "backHome": "Retour à la carte"
+  },
+  "audiences": {
+    "under-18": "les moins de 18 ans",
+    "under-26-eu": "les moins de 26 ans (résidents UE)",
+    "under-26": "les moins de 26 ans",
+    "over-65": "les plus de 65 ans",
+    "students": "les étudiants",
+    "teachers": "les enseignants",
+    "jobseekers": "les demandeurs d'emploi",
+    "income-support": "les bénéficiaires des minima sociaux",
+    "disabled": "les personnes en situation de handicap",
+    "disabled-companion": "les accompagnateurs de personnes en situation de handicap",
+    "icom": "les titulaires de la carte ICOM",
+    "residents": "les résidents locaux"
   }
 }

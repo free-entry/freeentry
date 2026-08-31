@@ -7,7 +7,7 @@ const EVENTS: EventDates = {
   'museum-night': { confirmed: { '2026': ['2026-05-16'] } },
   'heritage-days': { confirmed: { '2026': ['2026-09-19', '2026-09-20'] } },
 };
-const ctx = { events: EVENTS, under26: false };
+const ctx = { events: EVENTS, audiences: [] };
 
 function make(id: string, over: Partial<Museum>, rules: FreeRule[]): Museum {
   return {
@@ -104,11 +104,11 @@ describe('applyFilters', () => {
     ).toEqual([]);
   });
 
-  it('under26 toggle activates audience rules for date filtering', () => {
+  it('claiming an audience activates its rules for date filtering', () => {
     // On a random Tuesday only always-free museums (and the Louvre for
     // under-26 visitors) are free.
     expect(ids(applyFilters(ALL, f({ date: '2026-08-04' }), ctx, {}))).toEqual(['carnavalet']);
-    expect(ids(applyFilters(ALL, f({ date: '2026-08-04', under26: true }), ctx, {}))).toEqual([
+    expect(ids(applyFilters(ALL, f({ date: '2026-08-04', audiences: ['under-26-eu'] }), ctx, {}))).toEqual([
       'carnavalet',
       'louvre',
     ]);

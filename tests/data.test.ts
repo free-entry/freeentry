@@ -1,4 +1,5 @@
 import { existsSync, readFileSync, readdirSync } from 'node:fs';
+import { SELECTABLE_AUDIENCES } from '@/lib/types';
 import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
 import type { EventDates, Museum } from '@/lib/types';
@@ -21,7 +22,8 @@ describe.each(countryCodes)('country %s', (cc) => {
   ) as EventDates;
   const DEPARTMENTS = Object.keys(config.adminAreas.names);
 const KINDS = ['always', 'nth-weekday', 'weekly', 'event', 'annual-date'];
-const AUDIENCES = ['everyone', 'under-26-eu', 'under-26', 'under-18', 'residents'];
+/** Derived from the type, so widening Audience can't silently drift from this. */
+const AUDIENCES: string[] = ['everyone', ...SELECTABLE_AUDIENCES];
 const WEEKDAYS = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'];
 
 describe('museums.json integrity', () => {

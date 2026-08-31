@@ -87,7 +87,7 @@ describe('deriveCategory', () => {
 
 describe('category metadata', () => {
   it('orders and colors every category', () => {
-    expect(CATEGORY_ORDER).toHaveLength(13);
+    expect(CATEGORY_ORDER).toHaveLength(14);
     for (const c of CATEGORY_ORDER) {
       expect(CATEGORY_COLORS[c]).toMatch(/^#[0-9a-fA-F]{6}$/);
     }

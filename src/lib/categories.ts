@@ -1,4 +1,4 @@
-import type { FreeRule, Museum } from './types';
+import type { Audience, FreeRule, Museum } from './types';
 
 /**
  * Display category derived from a museum's rule set — drives marker colors,
@@ -16,6 +16,7 @@ export type Category =
   | 'special-days'
   | 'under-26-only'
   | 'under-18-only'
+  | 'concession-only'
   | 'residents-only'
   | 'none';
 
@@ -31,6 +32,7 @@ export const CATEGORY_ORDER: Category[] = [
   'special-days',
   'under-26-only',
   'under-18-only',
+  'concession-only',
   'residents-only',
   'none',
 ];
@@ -52,14 +54,32 @@ export const CATEGORY_COLORS: Record<Category, string> = {
   'special-days': '#f48fb9',
   'under-26-only': '#e8590c',
   'under-18-only': '#846c15',
+  'concession-only': '#6f9130',
   'residents-only': '#7f8fa6',
   none: '#9aa7b4',
 };
+
+/**
+ * Audiences that share one marker rather than each getting their own: the map
+ * would be unreadable with a colour per concession, and the detail panel names
+ * the exact audience anyway.
+ */
+const CONCESSION_AUDIENCES: ReadonlySet<Audience> = new Set([
+  'over-65',
+  'students',
+  'teachers',
+  'jobseekers',
+  'income-support',
+  'disabled',
+  'disabled-companion',
+  'icom',
+]);
 
 /** The filter-chip category a single rule belongs to. */
 export function ruleCategory(rule: FreeRule): Category {
   if (rule.audience === 'residents') return 'residents-only';
   if (rule.audience === 'under-18') return 'under-18-only';
+  if (rule.audience && CONCESSION_AUDIENCES.has(rule.audience)) return 'concession-only';
   if ((rule.audience ?? 'everyone') !== 'everyone') return 'under-26-only';
   switch (rule.kind) {
     case 'always':

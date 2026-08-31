@@ -37,6 +37,14 @@ const DISAGREEMENT_KM = 0.6;
  * stops being true.
  */
 const ACKNOWLEDGED_COORDS: Record<string, string> = {
+  // Merged from the free-museums-paris sibling; BAN geocoding of the stored
+  // address matches our point exactly for both (arbitrated 2026-08-21).
+  // Q3330662 claims the museum is in Saint-Germain-en-Laye (P131 Q185075) yet
+  // puts its P625 11 km south of that commune — internally inconsistent.
+  'musee-municipal-ducastel-vera-de-saint-germain-en-laye':
+    'BAN puts 2 rue Henri-IV 78100 at our exact point; Q3330662 P625 contradicts its own P131',
+  // BAN resolves "Rond Point René Ravaud 77550 Réau" to our point, score 0.94.
+  'musee-aeronautique-et-spatial-safran': 'BAN agrees with us; Q20971130 P625 is 1.40 km out',
   // BAN puts the address 0.04 km from our point; the item's P625 is 2.5 km out (2026-08-06).
   'musee-bossuet': 'BAN agrees with us; Wikidata P625 is wrong',
   // Museum moved to place Denfert-Rochereau in 2019; BAN confirms our point (2026-08-06).

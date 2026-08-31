@@ -3,12 +3,12 @@ import { useTranslation } from 'react-i18next';
 import { useAppState } from '@/state/AppState';
 import type { Museum } from '@/lib/types';
 import { CATEGORY_COLORS, deriveCategories } from '@/lib/categories';
-import { isFreeOn, nextFreeDate } from '@/lib/freeRules';
+import { isClosedOn, isFreeOn, nextFreeDate } from '@/lib/freeRules';
 import { COUNTRY } from '@/countries';
 import { normalizeLocale } from '@/lib/i18n';
 import { formatOpeningHours } from '@/lib/openingHours';
 import { haversineKm } from '@/lib/distance';
-import { formatDate, formatKm } from '@/lib/format';
+import { formatDate, formatKm, formatPrice, formatYear } from '@/lib/format';
 import CopyLinkDialog from './CopyLinkDialog';
 import RuleExplanation from './RuleExplanation';
 import styles from './DetailPanel.module.css';
@@ -69,6 +69,7 @@ export default function DetailPanel({ museum, onBack }: DetailPanelProps) {
     ? `${import.meta.env.BASE_URL}${museum.image.file}`
     : undefined;
   const freeToday = isFreeOn(museum, today, ctx);
+  const closedToday = isClosedOn(museum, today);
   const next = nextFreeDate(museum, today, ctx);
   const distance = filters.center ? haversineKm(filters.center, museum.coordinates) : null;
   const showFrench =
@@ -255,7 +256,13 @@ export default function DetailPanel({ museum, onBack }: DetailPanelProps) {
         ) : (
           <>
             {freeToday ? (
-              <p className={`${styles.status} ${styles.statusToday}`}>{t('museum.todayFree')}</p>
+              <p
+                className={
+                  closedToday ? styles.status : `${styles.status} ${styles.statusToday}`
+                }
+              >
+                {closedToday ? t('museum.todayFreeButClosed') : t('museum.todayFree')}
+              </p>
             ) : (
               next && (
                 <p className={styles.status}>
@@ -269,6 +276,16 @@ export default function DetailPanel({ museum, onBack }: DetailPanelProps) {
                 <RuleExplanation key={i} rule={rule} />
               ))}
             </ul>
+            {museum.closedUntil && today < museum.closedUntil && (
+              <p className={styles.status}>
+                {t('museum.reopens', {
+                  date:
+                    museum.closedUntil.length === 4
+                      ? formatYear(locale, museum.closedUntil)
+                      : formatDate(locale, museum.closedUntil),
+                })}
+              </p>
+            )}
           </>
         )}
       </section>
@@ -349,6 +366,34 @@ export default function DetailPanel({ museum, onBack }: DetailPanelProps) {
                 publicHolidays: t('museum.hoursPublicHolidays'),
                 always: t('museum.hoursAlways'),
               })}
+            </p>
+          </>
+        )}
+        {museum.wheelchair && (
+          <>
+            <h3 className={styles.sectionTitle}>{t('museum.accessibilityTitle')}</h3>
+            <p className={styles.hours}>
+              {t(
+                museum.wheelchair === 'yes'
+                  ? 'museum.wheelchairYes'
+                  : museum.wheelchair === 'partial'
+                    ? 'museum.wheelchairPartial'
+                    : 'museum.wheelchairNo',
+              )}
+            </p>
+          </>
+        )}
+        {museum.admission && (
+          <>
+            <h3 className={styles.sectionTitle}>{t('museum.admissionTitle')}</h3>
+            <p className={styles.hours}>
+              {t('museum.admissionFull', {
+                price: formatPrice(locale, museum.admission.full, museum.admission.currency),
+              })}
+              {museum.admission.reduced !== undefined &&
+                `${t('museum.admissionSeparator')}${t('museum.admissionReduced', {
+                  price: formatPrice(locale, museum.admission.reduced, museum.admission.currency),
+                })}`}
             </p>
           </>
         )}

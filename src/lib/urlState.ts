@@ -1,6 +1,7 @@
+import { SELECTABLE_AUDIENCES } from './types';
 import { CATEGORY_ORDER, type Category } from './categories';
 import { DEFAULT_FILTERS, type FilterState } from './filters';
-import type { Department } from './types';
+import type { Audience, Department } from './types';
 
 const DEPARTMENTS: Department[] = ['75', '77', '78', '91', '92', '93', '94', '95'];
 
@@ -14,7 +15,7 @@ export function encodeFilters(f: FilterState): URLSearchParams {
   if (f.departments.length) p.set('dep', f.departments.join(','));
   if (f.communes.length) p.set('commune', f.communes.join(','));
   if (f.arrondissements.length) p.set('arr', f.arrondissements.join(','));
-  if (f.under26) p.set('under26', '1');
+  if (f.audiences.length) p.set('aud', f.audiences.join(','));
   if (f.includePaid) p.set('paid', '1');
   if (f.query) p.set('q', f.query);
   return p;
@@ -56,7 +57,9 @@ export function decodeFilters(p: URLSearchParams): FilterState {
     arrondissements: list(p.get('arr'))
       .map(Number)
       .filter((n) => Number.isInteger(n) && n >= 1 && n <= 20),
-    under26: p.get('under26') === '1',
+    audiences: (p.get('aud') ?? '')
+      .split(',')
+      .filter((a): a is Audience => (SELECTABLE_AUDIENCES as readonly string[]).includes(a)),
     includePaid: p.get('paid') === '1',
     query: p.get('q') ?? '',
   };
