@@ -1,0 +1,20 @@
+---
+import type { GetStaticPaths } from 'astro';
+import type { Museum } from '@/lib/types';
+import { getStaticMuseums } from '@/lib/staticData';
+import MuseumPage from '@/components/MuseumPage.astro';
+
+export const getStaticPaths = (() =>
+  getStaticMuseums().map((museum) => ({
+    params: { id: museum.id },
+    props: { museum },
+  }))) satisfies GetStaticPaths;
+
+interface Props {
+  museum: Museum;
+}
+
+const { museum } = Astro.props;
+---
+
+<MuseumPage museum={museum} locale="en" />

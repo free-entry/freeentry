@@ -1,0 +1,66 @@
+---
+import type { Museum } from '@/lib/types';
+import type { Locale } from '@/lib/i18n';
+import {
+  createStaticI18n,
+  getStaticMuseumContent,
+  getStaticNotes,
+} from '@/lib/staticData';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { museumSeo } from '@/lib/seo';
+import DetailContent from './DetailContent';
+import MuseumDateStatus from './MuseumDateStatus';
+
+interface Props {
+  museum: Museum;
+  locale: Locale;
+}
+
+const { museum, locale } = Astro.props;
+const i18n = createStaticI18n(locale);
+const content = getStaticMuseumContent(museum.id, locale);
+const notes = getStaticNotes(locale);
+const seo = museumSeo(museum, content[museum.id], locale, i18n.t.bind(i18n));
+const baseUrl = import.meta.env.BASE_URL;
+const homeUrl = baseUrl;
+const mapUrl = `${baseUrl}?museum=${encodeURIComponent(museum.id)}`;
+---
+
+<BaseLayout
+  title={seo.title}
+  description={seo.description}
+  lang={locale}
+  canonicalPath={seo.canonicalPath}
+  alternates={seo.alternates}
+  ogType="place"
+  jsonLd={seo.jsonLd}
+>
+  <main class="detailPage">
+    <div class="dateIsland">
+      <MuseumDateStatus museum={museum} locale={locale} client:idle />
+    </div>
+    <DetailContent
+      museum={museum}
+      content={content}
+      notes={notes}
+      locale={locale}
+      t={i18n.t.bind(i18n)}
+      baseUrl={baseUrl}
+      backHref={homeUrl}
+      mapHref={mapUrl}
+    />
+  </main>
+</BaseLayout>
+
+<style>
+  .detailPage {
+    width: min(100% - 2rem, 52rem);
+    min-height: 100%;
+    margin-inline: auto;
+    padding-block: 1.25rem 3rem;
+  }
+
+  .dateIsland:empty {
+    display: none;
+  }
+</style>

@@ -1,0 +1,62 @@
+---
+import '@fontsource-variable/jost';
+import '@/styles/global.css';
+import { COUNTRY } from '@/countries';
+import type { HreflangLink } from '@/lib/seo';
+
+interface Props {
+  title?: string;
+  description?: string;
+  lang?: string;
+  canonicalPath?: string;
+  alternates?: HreflangLink[];
+  ogType?: string;
+  jsonLd?: Record<string, unknown>;
+  noindex?: boolean;
+}
+
+const {
+  title = COUNTRY.brand?.en?.title ?? 'Free Museums & Monuments — France',
+  description =
+    COUNTRY.brand?.en?.metaDescription ??
+    'Interactive map of free museums and monuments in France: always free, first Sundays, Museum Night, Heritage Days and more.',
+  lang = 'en',
+  canonicalPath,
+  alternates = [],
+  ogType = 'website',
+  jsonLd,
+  noindex = false,
+} = Astro.props;
+const iconDir = COUNTRY.code === 'fr' ? 'icons' : `icons-${COUNTRY.code}`;
+const base = import.meta.env.BASE_URL;
+const canonicalUrl = canonicalPath === undefined ? undefined : `${COUNTRY.siteUrl}${canonicalPath}`;
+const serializedJsonLd = jsonLd ? JSON.stringify(jsonLd).replace(/</g, '\\u003c') : undefined;
+---
+
+<!doctype html>
+<html lang={lang} dir={lang === 'ar' ? 'rtl' : 'ltr'}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex" />}
+    <meta name="theme-color" content="#1266d3" />
+    <link rel="icon" href={`${base}${iconDir}/icon.svg`} type="image/svg+xml" />
+    <link rel="apple-touch-icon" href={`${base}${iconDir}/apple-touch-icon.png`} />
+    {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
+    {alternates.map(({ hreflang, href }) => (
+      <link rel="alternate" hreflang={hreflang} href={href} />
+    ))}
+    <meta property="og:type" content={ogType} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    {canonicalUrl && <meta property="og:url" content={canonicalUrl} />}
+    {serializedJsonLd && (
+      <script is:inline type="application/ld+json" set:html={serializedJsonLd} />
+    )}
+    <title>{title}</title>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

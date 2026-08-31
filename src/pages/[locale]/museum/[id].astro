@@ -1,0 +1,25 @@
+---
+import type { GetStaticPaths } from 'astro';
+import type { Locale } from '@/lib/i18n';
+import { LOCALES } from '@/lib/i18n';
+import type { Museum } from '@/lib/types';
+import { getStaticMuseums } from '@/lib/staticData';
+import MuseumPage from '@/components/MuseumPage.astro';
+
+export const getStaticPaths = (() =>
+  LOCALES.filter((locale) => locale !== 'en').flatMap((locale) =>
+    getStaticMuseums().map((museum) => ({
+      params: { locale, id: museum.id },
+      props: { museum, locale },
+    })),
+  )) satisfies GetStaticPaths;
+
+interface Props {
+  museum: Museum;
+  locale: Exclude<Locale, 'en'>;
+}
+
+const { museum, locale } = Astro.props;
+---
+
+<MuseumPage museum={museum} locale={locale} />
