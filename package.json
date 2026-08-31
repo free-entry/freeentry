@@ -9,13 +9,13 @@
     "url": "https://github.com/travel-eu/free-museums-france.git"
   },
   "scripts": {
-    "dev": "vite",
-    "dev:it": "VITE_COUNTRY=it vite",
-    "dev:be": "VITE_COUNTRY=be vite",
-    "build": "tsc --noEmit && vite build && tsx scripts/prerender.ts",
-    "build:it": "tsc --noEmit && VITE_COUNTRY=it vite build && COUNTRY=it tsx scripts/prerender.ts",
-    "build:be": "tsc --noEmit && VITE_COUNTRY=be vite build && COUNTRY=be tsx scripts/prerender.ts",
-    "preview": "vite preview",
+    "dev": "astro dev",
+    "dev:it": "COUNTRY=it astro dev",
+    "dev:be": "COUNTRY=be astro dev",
+    "build": "astro check && astro build",
+    "build:it": "COUNTRY=it astro check && COUNTRY=it astro build",
+    "build:be": "COUNTRY=be astro check && COUNTRY=be astro build",
+    "preview": "astro preview",
     "test": "vitest run",
     "test:watch": "vitest",
     "postinstall": "node scripts/copy-rtl-plugin.mjs",
@@ -45,17 +45,20 @@
     "react-router-dom": "^6.30.0"
   },
   "devDependencies": {
+    "@astrojs/check": "^0.9.9",
+    "@astrojs/react": "^4.4.2",
     "@types/geojson": "^7946.0.16",
     "@types/node": "^24.0.0",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
-    "@vitejs/plugin-react": "^4.5.0",
+    "@vite-pwa/astro": "^1.2.0",
+    "astro": "^5.18.2",
     "cheerio": "^1.1.0",
     "sharp": "^0.34.0",
     "tsx": "^4.20.0",
     "typescript": "^5.8.0",
     "vite": "^6.3.0",
-    "vite-plugin-pwa": "^1.0.0",
+    "vite-plugin-pwa": "^1.3.0",
     "vitest": "^3.2.0"
   }
 }
