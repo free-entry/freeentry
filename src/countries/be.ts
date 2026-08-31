@@ -42,7 +42,7 @@ export const be: CountryConfig = {
   code: 'be',
   canonicalLocale: 'fr',
   basePath: '/free-museums-belgium/',
-  siteUrl: 'https://freemuseums.app/free-museums-belgium',
+  siteUrl: 'https://freeentry.org/free-museums-belgium',
   repoUrl: 'https://github.com/travel-eu/free-museums-france',
   bbox: { minLat: 49.45, maxLat: 51.6, minLng: 2.4, maxLng: 6.5 },
   adminAreas: {

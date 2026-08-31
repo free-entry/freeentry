@@ -22,7 +22,7 @@ const OVERPASS_MIRRORS = [
   'https://overpass.kumi.systems/api/interpreter',
   'https://overpass.private.coffee/api/interpreter',
 ];
-const UA = 'free-museums-france-check/1.0 (https://freemuseums.app/free-museums-france/; tomchen.org@gmail.com)';
+const UA = 'free-museums-france-check/1.0 (https://freeentry.org/free-museums-france/; tomchen.org@gmail.com)';
 const MATCH_KM = 0.12;
 const SURE_KM = 0.06;
 

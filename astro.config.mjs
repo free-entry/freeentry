@@ -7,15 +7,15 @@ const COUNTRY_CODE = process.env.COUNTRY ?? process.env.VITE_COUNTRY ?? 'fr';
 const DEPLOYMENTS = {
   fr: {
     basePath: '/free-museums-france/',
-    siteUrl: 'https://freemuseums.app/free-museums-france',
+    siteUrl: 'https://freeentry.org/free-museums-france',
   },
   it: {
     basePath: '/free-museums-italy/',
-    siteUrl: 'https://freemuseums.app/free-museums-italy',
+    siteUrl: 'https://freeentry.org/free-museums-italy',
   },
   be: {
     basePath: '/free-museums-belgium/',
-    siteUrl: 'https://freemuseums.app/free-museums-belgium',
+    siteUrl: 'https://freeentry.org/free-museums-belgium',
   },
 };
 

@@ -1,7 +1,7 @@
 # Deployment
 
 The app is a fully static build served by GitHub Pages at
-`https://freemuseums.app/free-museums-france` (the custom domain sits on the
+`https://freeentry.org/free-museums-france` (the custom domain sits on the
 `travel-eu/travel-eu.github.io` site, so every project page serves under it;
 the old `travel-eu.github.io` URLs 301-redirect once the domain is configured).
 
@@ -70,19 +70,18 @@ variable-date events and add them to `data/events.json`:
 The update script warns when the coming year has no confirmed dates; until
 then the app shows estimated dates flagged as such.
 
-## Custom domain — freemuseums.app
+## Custom domain — freeentry.org
 
-The canonical domain is `freemuseums.app`, configured once on the Pages site
+The canonical domain is `freeentry.org`, configured once on the Pages site
 (not per project repo):
 
 1. **DNS** (at the registrar): apex `A` records to GitHub Pages —
    `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
    (and the matching `AAAA` records `2606:50c0:8000..8003::153`).
 2. **Pages settings** of `travel-eu/travel-eu.github.io`: set the custom
-   domain to `freemuseums.app` and enable *Enforce HTTPS*. `.app` is on the
-   HSTS preload list, so the site only works over HTTPS — wait for the
-   certificate before announcing. All project pages then serve under
-   `https://freemuseums.app/<repo>/`, and github.io URLs redirect.
+   domain to `freeentry.org` and enable *Enforce HTTPS* once the Let's
+   Encrypt certificate is issued. All project pages then serve under
+   `https://freeentry.org/<repo>/`, and github.io URLs redirect.
 3. **Root robots.txt** in `travel-eu/travel-eu.github.io` should list every
    deployment's sitemap (crawlers only read the domain root):
 
@@ -90,9 +89,9 @@ The canonical domain is `freemuseums.app`, configured once on the Pages site
    User-agent: *
    Allow: /
 
-   Sitemap: https://freemuseums.app/free-museums-france/sitemap.xml
-   Sitemap: https://freemuseums.app/free-museums-italy/sitemap.xml
-   Sitemap: https://freemuseums.app/free-museums-belgium/sitemap.xml
+   Sitemap: https://freeentry.org/free-museums-france/sitemap.xml
+   Sitemap: https://freeentry.org/free-museums-italy/sitemap.xml
+   Sitemap: https://freeentry.org/free-museums-belgium/sitemap.xml
    ```
 
 If the domain ever changes, update `siteUrl` in `src/countries/*.ts` and the

@@ -27,7 +27,7 @@ export const it: CountryConfig = {
   code: 'it',
   canonicalLocale: 'it',
   basePath: '/free-museums-italy/',
-  siteUrl: 'https://freemuseums.app/free-museums-italy',
+  siteUrl: 'https://freeentry.org/free-museums-italy',
   repoUrl: 'https://github.com/travel-eu/free-museums-france',
   bbox: { minLat: 35.4, maxLat: 47.2, minLng: 6.5, maxLng: 18.7 },
   adminAreas: {

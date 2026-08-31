@@ -22,7 +22,7 @@ import { join } from 'node:path';
 const ROOT = join(import.meta.dirname, '../../..');
 const WD_API = 'https://www.wikidata.org/w/api.php';
 const BAN_API = 'https://api-adresse.data.gouv.fr';
-const UA = 'free-museums-france-build/1.0 (https://freemuseums.app/free-museums-france/; tomchen.org@gmail.com)';
+const UA = 'free-museums-france-build/1.0 (https://freeentry.org/free-museums-france/; tomchen.org@gmail.com)';
 const TODAY = '2026-08-07';
 const FR = { minLat: 41.2, maxLat: 51.2, minLng: -5.3, maxLng: 9.7 };
 

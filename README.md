@@ -9,7 +9,7 @@ and under-26 (EU) free admission.
 France is the primary deployment; the same engine also ships Italian and Belgian
 datasets from `data/it/` and `data/be/` (`npm run dev:it`, `npm run dev:be`).
 
-**Live app:** <https://freemuseums.app/free-museums-france/>
+**Live app:** <https://freeentry.org/free-museums-france/>
 
 ## Features
 

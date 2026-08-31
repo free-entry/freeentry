@@ -17,7 +17,7 @@ import { join } from 'node:path';
 
 const ROOT = join(import.meta.dirname, '../../..');
 const WD_API = 'https://www.wikidata.org/w/api.php';
-const UA = 'free-museums-belgium-build/1.0 (https://freemuseums.app/free-museums-belgium/; tomchen.org@gmail.com)';
+const UA = 'free-museums-belgium-build/1.0 (https://freeentry.org/free-museums-belgium/; tomchen.org@gmail.com)';
 const TODAY = '2026-08-06';
 const BE = { minLat: 49.45, maxLat: 51.6, minLng: 2.4, maxLng: 6.5 };
 
