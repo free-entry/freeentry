@@ -21,6 +21,10 @@ const DEPLOYMENTS = {
 
 const deployment = DEPLOYMENTS[COUNTRY_CODE];
 if (!deployment) throw new Error(`Unknown COUNTRY value: ${COUNTRY_CODE}`);
+const escapedBasePath = deployment.basePath.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+const hubPathPattern = new RegExp(
+  `^${escapedBasePath}(?:[\\w-]+/)?(?:museums|area|city|free)/`,
+);
 
 const MANIFESTS = {
   fr: {
@@ -79,10 +83,31 @@ export default defineConfig({
       workbox: {
         // App shell and hashed assets only: never precache 6,760 museum documents.
         globPatterns: ['**/*.{js,css,svg,png,woff2}', 'index.html', '404.html'],
-        globIgnores: ['museum/**', '*/museum/**'],
+        globIgnores: [
+          'museum/**',
+          '*/museum/**',
+          'museums/**',
+          '*/museums/**',
+          'area/**',
+          '*/area/**',
+          'city/**',
+          '*/city/**',
+          'free/**',
+          '*/free/**',
+        ],
         maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
         navigateFallback: `${deployment.basePath}index.html`,
+        navigateFallbackDenylist: [hubPathPattern],
         runtimeCaching: [
+          {
+            urlPattern: hubPathPattern,
+            handler: 'NetworkFirst',
+            options: {
+              cacheName: 'static-pages',
+              expiration: { maxEntries: 60 },
+              cacheableResponse: { statuses: [0, 200] },
+            },
+          },
           {
             urlPattern: /^https:\/\/tiles\.openfreemap\.org\/.*/,
             handler: 'CacheFirst',
