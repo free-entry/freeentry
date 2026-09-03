@@ -83,7 +83,9 @@ check the source article before touching them.)
 Wikimedia has no P18 for most of them; a few were rejected on licence. The path
 for these is the `OVERRIDES` map in `scripts/enrich-images.ts`, fed by the
 "no image" report from `npm run check:images`. Not urgent — the detail page
-renders fine without one.
+renders fine without one. Since the SEO pass these venues also fall back
+to the app icon as `og:image` / `twitter:image`, so a real photo now improves
+their social previews and image-search presence as well.
 
 ### 4. `musee-daubigny` — which address is current?
 
@@ -111,6 +113,37 @@ Deliberate, but worth a second opinion rather than being quietly forgotten:
 No git remote, and 74 files of the work above are uncommitted. `package.json` and
 `src/countries/fr.ts` already point at `github.com/travel-eu/free-museums-france`,
 but that org and repo have to be created by hand before anything can be pushed.
+
+### 7. SEO pass (`astro-migration`) — what is left
+
+The branch carries the Astro migration plus the SEO pass described in
+`docs/SEO.md` (locale home pages, hub pages, trailing-slash canonicals, sitemap
+index, WebP header photos). It is complete and verified locally (254 tests,
+three builds, a 19-step headless-Chrome smoke test of the locale routing) but
+**not merged and not pushed**. Remaining, in order:
+
+- [ ] Register `freeentry.org`, set the DNS records, configure the custom
+      domain + HTTPS on `travel-eu/travel-eu.github.io`, and add the root
+      `robots.txt` listing the three sitemap indexes (`docs/DEPLOYMENT.md`).
+      Do this **before** deploying the branch — every canonical, hreflang and
+      sitemap URL already points at that domain.
+- [ ] Root `404.html` on the umbrella Pages repo: GitHub Pages ignores the
+      per-project `404.html`, so unknown URLs under any of the three base paths
+      need the root file to boot the right map shell (`docs/DEPLOYMENT.md`).
+- [ ] Merge `astro-migration` into `main` (CI needs no changes: the script
+      names are unchanged, the WebP step runs inside `npm run build*`).
+- [ ] After the first deploy: verify the domain in Google Search Console and
+      Bing Webmaster Tools, submit the three `sitemap.xml` indexes, and check
+      the rich-result / hreflang reports once crawled.
+- [ ] Add the locale-routing browser smoke test to the repo (it currently
+      exists only as a session scratch script: playwright-core + system
+      Chrome against `astro preview`, covering the rules in the "Locale rule"
+      paragraph of `docs/SEO.md`). It would need `playwright-core` as a
+      devDependency and a browser in CI.
+- [ ] Optional: the deploy ships every country's photos (`public/images/`,
+      ~180 MB) three times, once per project directory, and now the derived
+      WebPs too. Filtering `public/images` to the active country at build time
+      would shrink each deployment by roughly two thirds.
 
 ---
 
