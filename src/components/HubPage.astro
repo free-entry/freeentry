@@ -1,0 +1,450 @@
+---
+import { COUNTRY } from '@/countries';
+import type { EventKey, Museum } from '@/lib/types';
+import { buildHubIndex, type AreaHub, type CategoryHub, type CityHub } from '@/lib/hubs';
+import type { Locale } from '@/lib/i18n';
+import { formatDate } from '@/lib/format';
+import { homePath, hubPath, hubSeo, type HubKind } from '@/lib/seo';
+import {
+  createStaticI18n,
+  getStaticEvents,
+  getStaticMuseums,
+} from '@/lib/staticData';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import SiteFooter from './SiteFooter.astro';
+import SiteHeader from './SiteHeader.astro';
+import VenueList from './VenueList.astro';
+
+interface Props {
+  kind: HubKind;
+  locale: Locale;
+  slug?: string;
+}
+
+interface VenueGroup {
+  key: string;
+  label: string;
+  museums: Museum[];
+  href?: string;
+}
+
+const { kind, locale, slug } = Astro.props;
+const museums = getStaticMuseums();
+const hubs = buildHubIndex(museums, COUNTRY);
+const i18n = createStaticI18n(locale);
+const t = i18n.t.bind(i18n);
+const collator = new Intl.Collator(locale);
+const countryName = t(`country.${COUNTRY.code}`);
+const base = import.meta.env.BASE_URL;
+const localHref = (path: string) => `${base}${path.replace(/^\//, '')}`;
+
+const area = kind === 'area' ? hubs.areas.find((candidate) => candidate.slug === slug) : undefined;
+const city = kind === 'city' ? hubs.cities.find((candidate) => candidate.slug === slug) : undefined;
+const category =
+  kind === 'category' ? hubs.categories.find((candidate) => candidate.slug === slug) : undefined;
+if ((kind === 'area' && !area) || (kind === 'city' && !city) || (kind === 'category' && !category)) {
+  throw new Error(`Unknown ${kind} hub: ${slug}`);
+}
+
+const target = (area ?? city ?? category) as AreaHub | CityHub | CategoryHub | undefined;
+const place = area?.name ?? city?.name;
+const categoryLabel = category ? t(`categories.${category.category}`) : undefined;
+const h1 =
+  kind === 'index'
+    ? t('hub.indexTitle', { country: countryName })
+    : kind === 'category'
+      ? t('hub.categoryTitle', { category: categoryLabel, country: countryName })
+      : t('hub.placeTitle', { place });
+const total = kind === 'index' ? museums.length : target!.count;
+const canonicalPath = hubPath(kind, slug, locale);
+const breadcrumbs = [
+  { name: t('hub.home'), path: homePath(locale) },
+  ...(kind === 'index'
+    ? []
+    : [
+        {
+          name: t('hub.allMuseums'),
+          path: hubPath('index', undefined, locale),
+        },
+      ]),
+  { name: kind === 'index' ? t('hub.allMuseums') : h1, path: canonicalPath },
+];
+const seo = hubSeo({
+  kind,
+  slug,
+  h1,
+  total,
+  locale,
+  t,
+  breadcrumbs,
+  place,
+  category: categoryLabel,
+});
+
+const sortedAreas = [...hubs.areas].sort((a, b) => collator.compare(a.name, b.name));
+const sortedCities = [...hubs.cities].sort((a, b) => collator.compare(a.name, b.name));
+
+let areaGroups: VenueGroup[] = [];
+if (area) {
+  const groups = new Map<string, VenueGroup>();
+  const useDistricts = COUNTRY.adminAreas.districtRanges[area.code] !== undefined;
+  for (const museum of area.museums) {
+    const key = useDistricts ? String(museum.arrondissement) : museum.commune;
+    const existing = groups.get(key);
+    if (existing) {
+      existing.museums.push(museum);
+      continue;
+    }
+    const matchingCity = hubs.cities.find(
+      (candidate) =>
+        candidate.name === museum.commune && candidate.areaCode === museum.department,
+    );
+    groups.set(key, {
+      key,
+      label:
+        useDistricts && museum.arrondissement !== undefined
+          ? t('filters.arrondissementLabel', { number: museum.arrondissement })
+          : museum.commune,
+      museums: [museum],
+      href: matchingCity
+        ? localHref(hubPath('city', matchingCity.slug, locale))
+        : undefined,
+    });
+  }
+  areaGroups = [...groups.values()].sort((a, b) =>
+    useDistricts ? Number(a.key) - Number(b.key) : collator.compare(a.label, b.label),
+  );
+}
+
+const categoryGroups = category
+  ? sortedAreas
+      .map((candidate) => ({
+        area: candidate,
+        museums: category.museums.filter((museum) => museum.department === candidate.code),
+      }))
+      .filter(({ museums: groupMuseums }) => groupMuseums.length > 0)
+  : [];
+
+const confirmedEvents =
+  category?.category === 'special-days'
+    ? COUNTRY.eventKeys
+        .map((eventKey) => ({
+          eventKey,
+          years: Object.entries(getStaticEvents()[eventKey as EventKey]?.confirmed ?? {}).sort(
+            ([a], [b]) => a.localeCompare(b),
+          ),
+        }))
+        .filter(({ years }) => years.length > 0)
+    : [];
+---
+
+<BaseLayout
+  title={seo.title}
+  description={seo.description}
+  lang={locale}
+  canonicalPath={seo.canonicalPath}
+  alternates={seo.alternates}
+  jsonLd={seo.jsonLd}
+>
+  <SiteHeader locale={locale} alternates={seo.alternates} />
+  <main class="hubPage">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <ol>
+        {breadcrumbs.map((item, index) => (
+          <li>
+            {index === breadcrumbs.length - 1 ? (
+              <span aria-current="page">{item.name}</span>
+            ) : (
+              <a href={localHref(item.path)}>{item.name}</a>
+            )}
+          </li>
+        ))}
+      </ol>
+    </nav>
+
+    <header class="pageIntro">
+      <h1>{h1}</h1>
+      {kind === 'index' && <p class="tagline">{t('app.tagline')}</p>}
+      <p>{seo.description}</p>
+      <p class="count">{t('filters.resultCount', { count: total })}</p>
+    </header>
+
+    {kind === 'index' && (
+      <>
+        <section class="linkSection">
+          <h2>{t('hub.byType')}</h2>
+          <ul class="linkGrid">
+            {hubs.categories.map((candidate) => (
+              <li>
+                <a href={localHref(hubPath('category', candidate.slug, locale))}>
+                  <span>{t(`categories.${candidate.category}`)}</span>
+                  <small>{t('filters.resultCount', { count: candidate.count })}</small>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <section class="directory">
+          <p class="directoryLabel">{t('hub.byArea')}</p>
+          {sortedAreas.map((candidate) => (
+            <section class="venueGroup">
+              <h2>
+                <a href={localHref(hubPath('area', candidate.slug, locale))}>{candidate.name}</a>
+                <small>{t('filters.resultCount', { count: candidate.count })}</small>
+              </h2>
+              <VenueList museums={candidate.museums} locale={locale} />
+            </section>
+          ))}
+        </section>
+
+        <section class="linkSection">
+          <h2>{t('hub.byCity')}</h2>
+          <ul class="linkGrid compact">
+            {sortedCities.map((candidate) => (
+              <li>
+                <a href={localHref(hubPath('city', candidate.slug, locale))}>
+                  <span>{candidate.name}</span>
+                  <small>{t('filters.resultCount', { count: candidate.count })}</small>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      </>
+    )}
+
+    {area && (
+      <div class="directory">
+        {areaGroups.map((group) => (
+          <section class="venueGroup">
+            <h2>{group.href ? <a href={group.href}>{group.label}</a> : group.label}</h2>
+            <VenueList museums={group.museums} locale={locale} />
+          </section>
+        ))}
+      </div>
+    )}
+
+    {city && <VenueList museums={city.museums} locale={locale} />}
+
+    {category && (
+      <>
+        {confirmedEvents.length > 0 && (
+          <section class="confirmedDates">
+            <h2>{t('hub.confirmedDates')}</h2>
+            {confirmedEvents.map(({ eventKey, years }) => (
+              <div>
+                <h3>{t(`calendar.events.${eventKey}`)}</h3>
+                <ul>
+                  {years.map(([year, dates]) => (
+                    <li>
+                      <strong>{year}</strong>
+                      <span>{dates.map((date) => formatDate(locale, date)).join(', ')}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </section>
+        )}
+        <div class="directory">
+          {categoryGroups.map(({ area: candidate, museums: groupMuseums }) => (
+            <section class="venueGroup">
+              <h2>
+                <a href={localHref(hubPath('area', candidate.slug, locale))}>{candidate.name}</a>
+              </h2>
+              <VenueList museums={groupMuseums} locale={locale} />
+            </section>
+          ))}
+        </div>
+      </>
+    )}
+  </main>
+  <SiteFooter locale={locale} categories={hubs.categories} />
+</BaseLayout>
+
+<style>
+  .hubPage {
+    width: min(100% - 2rem, 68rem);
+    margin-inline: auto;
+    padding-block: 1.25rem 3rem;
+  }
+
+  .breadcrumb {
+    color: var(--color-text-muted);
+    font-size: 0.78rem;
+  }
+
+  .breadcrumb ol {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .breadcrumb li:not(:first-child)::before {
+    content: '/';
+    margin-inline-end: 0.25rem;
+    color: var(--color-border);
+  }
+
+  .breadcrumb a,
+  .venueGroup h2 a {
+    color: var(--color-accent);
+  }
+
+  .pageIntro {
+    max-width: 48rem;
+    padding-block: 2.2rem 2.5rem;
+  }
+
+  h1,
+  h2,
+  h3,
+  p {
+    margin-block-start: 0;
+  }
+
+  h1 {
+    margin-block-end: 0.75rem;
+    font-family: var(--font-display);
+    font-size: clamp(2rem, 5vw, 3.4rem);
+    line-height: 1.05;
+    letter-spacing: -0.025em;
+  }
+
+  .pageIntro p {
+    max-width: 68ch;
+    margin-block-end: 0.55rem;
+    color: var(--color-text-muted);
+    line-height: 1.55;
+  }
+
+  .pageIntro .tagline {
+    color: var(--color-text);
+    font-size: 1.05rem;
+  }
+
+  .pageIntro .count {
+    color: var(--color-accent-strong);
+    font-weight: 650;
+  }
+
+  .linkSection,
+  .confirmedDates {
+    margin-block-end: 2.5rem;
+    padding: 1rem;
+    border-radius: var(--radius);
+    background: var(--color-bg-sunken);
+  }
+
+  .linkSection h2,
+  .confirmedDates h2 {
+    margin-block-end: 0.75rem;
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+  }
+
+  .linkGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    gap: 0.5rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .linkGrid a {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.75rem;
+    min-block-size: 100%;
+    padding: 0.55rem 0.65rem;
+    color: var(--color-text);
+    text-decoration: none;
+    border-radius: var(--radius-small);
+    background: var(--color-bg-raised);
+  }
+
+  .linkGrid a:hover span {
+    color: var(--color-accent);
+    text-decoration: underline;
+  }
+
+  .linkGrid small,
+  .venueGroup h2 small {
+    color: var(--color-text-muted);
+    font-size: 0.72rem;
+    font-weight: 400;
+    white-space: nowrap;
+  }
+
+  .directoryLabel {
+    margin-block-end: 1.3rem;
+    color: var(--color-text-muted);
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+  .venueGroup {
+    margin-block-end: 2.6rem;
+  }
+
+  .venueGroup h2 {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    margin-block-end: 0.7rem;
+    font-family: var(--font-display);
+    font-size: 1.2rem;
+  }
+
+  .confirmedDates > div + div {
+    margin-block-start: 1rem;
+  }
+
+  .confirmedDates h3 {
+    margin-block-end: 0.4rem;
+    font-size: 0.95rem;
+  }
+
+  .confirmedDates ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1.1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .confirmedDates li {
+    display: flex;
+    gap: 0.45rem;
+    font-size: 0.85rem;
+  }
+
+  .confirmedDates span {
+    color: var(--color-text-muted);
+  }
+
+  @media (max-width: 40rem) {
+    .hubPage {
+      width: min(100% - 1.25rem, 68rem);
+    }
+
+    .pageIntro {
+      padding-block: 1.5rem 1.8rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    .linkGrid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

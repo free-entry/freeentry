@@ -1,0 +1,15 @@
+---
+import HubPage from '@/components/HubPage.astro';
+import { COUNTRY } from '@/countries';
+import { buildHubIndex } from '@/lib/hubs';
+import { getStaticMuseums } from '@/lib/staticData';
+
+export function getStaticPaths() {
+  const hubs = buildHubIndex(getStaticMuseums(), COUNTRY);
+  return hubs.cities.map(({ slug }) => ({ params: { slug }, props: { slug } }));
+}
+
+const { slug } = Astro.props;
+---
+
+<HubPage kind="city" locale="en" slug={slug} />

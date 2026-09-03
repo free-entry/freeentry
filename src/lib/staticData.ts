@@ -1,6 +1,6 @@
 import { createInstance, type i18n } from 'i18next';
 import type { Locale } from './i18n';
-import type { Museum, MuseumContent } from './types';
+import type { EventDates, Museum, MuseumContent } from './types';
 import { COUNTRY, COUNTRY_CODE } from '@/countries';
 
 type MuseumContentMap = Record<string, MuseumContent>;
@@ -16,12 +16,19 @@ const noteModules = import.meta.glob<{ default: Record<string, string> }>(
   '../../data/*/i18n/notes.*.json',
   { eager: true },
 );
+const eventModules = import.meta.glob<{ default: EventDates }>('../../data/*/events.json', {
+  eager: true,
+});
 const uiModules = import.meta.glob<{ default: Record<string, unknown> }>('../locales/*.json', {
   eager: true,
 });
 
 export function getStaticMuseums(): Museum[] {
   return museumModules[`../../data/${COUNTRY_CODE}/museums.json`]?.default ?? [];
+}
+
+export function getStaticEvents(): EventDates {
+  return eventModules[`../../data/${COUNTRY_CODE}/events.json`]?.default ?? ({} as EventDates);
 }
 
 /** One venue's localized content with the SPA's English fallback semantics. */

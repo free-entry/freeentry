@@ -22,6 +22,14 @@ export interface MuseumSeo {
   jsonLd: Record<string, unknown>[];
 }
 
+export interface HubSeo {
+  title: string;
+  description: string;
+  canonicalPath: string;
+  alternates: HreflangLink[];
+  jsonLd: Record<string, unknown>[];
+}
+
 export type HubKind = 'index' | 'area' | 'city' | 'category';
 
 const COUNTRY_NAMES: Record<string, string> = {
@@ -195,6 +203,51 @@ export function museumSeo(
           : {}),
       },
       breadcrumbJsonLd(trail),
+    ],
+  };
+}
+
+export function hubSeo(options: {
+  kind: HubKind;
+  slug?: string;
+  h1: string;
+  total: number;
+  locale: Locale;
+  t: TFunction;
+  breadcrumbs: SeoBreadcrumb[];
+  place?: string;
+  category?: string;
+}): HubSeo {
+  const { kind, slug, h1, total, locale, t, breadcrumbs, place, category } = options;
+  const brand = COUNTRY.brand?.[locale]?.titleShort ?? t('app.titleShort');
+  const country = t(`country.${COUNTRY.code}`);
+  const canonicalPath = hubPath(kind, slug, locale);
+  const description =
+    kind === 'index'
+      ? t('hub.metaIndex', { total, country })
+      : kind === 'category'
+        ? t('hub.metaCategory', { total, country, category })
+        : t('hub.metaPlace', { total, place });
+
+  return {
+    title: `${h1} | ${brand}`,
+    description,
+    canonicalPath,
+    alternates: alternatesFor((candidate) => hubPath(kind, slug, candidate)),
+    jsonLd: [
+      {
+        '@context': 'https://schema.org',
+        '@type': 'CollectionPage',
+        name: h1,
+        url: absoluteUrl(canonicalPath),
+        inLanguage: locale,
+        isPartOf: {
+          '@type': 'WebSite',
+          name: brand,
+          url: absoluteUrl(homePath(locale)),
+        },
+      },
+      breadcrumbJsonLd(breadcrumbs),
     ],
   };
 }

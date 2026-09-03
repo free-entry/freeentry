@@ -1,0 +1,125 @@
+---
+import { COUNTRY } from '@/countries';
+import { deriveCategories } from '@/lib/categories';
+import { normalizeLocale, type Locale } from '@/lib/i18n';
+import { detailPath, freeSummary } from '@/lib/seo';
+import { createStaticI18n, getStaticMuseumContent } from '@/lib/staticData';
+import type { Museum } from '@/lib/types';
+
+interface Props {
+  museums: Museum[];
+  locale: Locale;
+}
+
+const { museums, locale } = Astro.props;
+const i18n = createStaticI18n(locale);
+const t = i18n.t.bind(i18n);
+const base = import.meta.env.BASE_URL;
+const localHref = (path: string) => `${base}${path.replace(/^\//, '')}`;
+const venues = museums
+  .map((museum) => {
+    const entry = getStaticMuseumContent(museum.id, locale)[museum.id];
+    return {
+      museum,
+      name: entry?.name ?? museum.name,
+      originalName:
+        entry?.name &&
+        entry.name !== museum.name &&
+        normalizeLocale(locale) !== COUNTRY.canonicalLocale
+          ? museum.name
+          : undefined,
+      categories: deriveCategories(museum),
+    };
+  })
+  .sort((a, b) => new Intl.Collator(locale).compare(a.name, b.name));
+---
+
+<ul class="venueList">
+  {venues.map(({ museum, name, originalName, categories }) => (
+    <li>
+      <div class="venueHeading">
+        <a href={localHref(detailPath(museum.id, locale))}>{name}</a>
+        {originalName && <span class="originalName">{originalName}</span>}
+      </div>
+      <p class="venueMeta">
+        <span>{museum.commune}</span>
+        <span>{freeSummary(museum, locale, t)}</span>
+      </p>
+      <p class="badges" aria-label={t('filters.freeType')}>
+        {categories.map((category) => (
+          <span>{t(`categories.${category}`)}</span>
+        ))}
+      </p>
+    </li>
+  ))}
+</ul>
+
+<style>
+  .venueList {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.7rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .venueList > li {
+    padding: 0.8rem;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    background: var(--color-bg-raised);
+  }
+
+  .venueHeading {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .venueHeading a {
+    color: var(--color-text);
+    font-family: var(--font-display);
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+  .venueHeading a:hover {
+    color: var(--color-accent);
+  }
+
+  .originalName {
+    color: var(--color-text-muted);
+    font-size: 0.78rem;
+    font-style: italic;
+  }
+
+  .venueMeta,
+  .badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem 0.7rem;
+    margin: 0.45rem 0 0;
+    font-size: 0.78rem;
+    color: var(--color-text-muted);
+  }
+
+  .venueMeta span + span::before {
+    content: '/';
+    margin-inline-end: 0.7rem;
+    color: var(--color-border);
+  }
+
+  .badges span {
+    padding: 0.15rem 0.45rem;
+    border-radius: 999px;
+    color: var(--color-accent-strong);
+    background: var(--color-accent-soft);
+  }
+
+  @media (max-width: 40rem) {
+    .venueList {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
