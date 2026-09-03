@@ -1,0 +1,63 @@
+---
+import { COUNTRY } from '@/countries';
+import type { CategoryHub } from '@/lib/hubs';
+import type { Locale } from '@/lib/i18n';
+import { homePath, hubPath } from '@/lib/seo';
+import { createStaticI18n } from '@/lib/staticData';
+
+interface Props {
+  locale: Locale;
+  categories: CategoryHub[];
+}
+
+const { locale, categories } = Astro.props;
+const i18n = createStaticI18n(locale);
+const t = i18n.t.bind(i18n);
+const base = import.meta.env.BASE_URL;
+const localHref = (path: string) => `${base}${path.replace(/^\//, '')}`;
+---
+
+<footer class="siteFooter">
+  <nav aria-label={t('hub.browse')}>
+    <a href={localHref(hubPath('index', undefined, locale))}>{t('hub.allMuseums')}</a>
+    {categories.map(({ category, slug }) => (
+      <a href={localHref(hubPath('category', slug, locale))}>{t(`categories.${category}`)}</a>
+    ))}
+    <a href={localHref(homePath(locale))}>{t('list.showMap')}</a>
+    <a href={COUNTRY.repoUrl} target="_blank" rel="noopener noreferrer">GitHub</a>
+  </nav>
+  <p>{t('about.disclaimer')}</p>
+</footer>
+
+<style>
+  .siteFooter {
+    width: min(100% - 2rem, 68rem);
+    margin: 2rem auto 0;
+    padding-block: 1.5rem 2.5rem;
+    border-block-start: 1px solid var(--color-border);
+    color: var(--color-text-muted);
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem 1rem;
+  }
+
+  a {
+    color: var(--color-accent);
+    font-size: 0.82rem;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  p {
+    max-width: 68ch;
+    margin: 1rem 0 0;
+    font-size: 0.78rem;
+    line-height: 1.5;
+  }
+</style>

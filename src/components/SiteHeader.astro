@@ -1,0 +1,145 @@
+---
+import { brandString } from '@/lib/brand';
+import { LOCALE_NAMES, type Locale } from '@/lib/i18n';
+import { homePath, hubPath, type HreflangLink } from '@/lib/seo';
+import { createStaticI18n } from '@/lib/staticData';
+
+interface Props {
+  locale: Locale;
+  alternates: HreflangLink[];
+}
+
+const { locale, alternates } = Astro.props;
+const i18n = createStaticI18n(locale);
+const t = i18n.t.bind(i18n);
+const base = import.meta.env.BASE_URL;
+const localHref = (path: string) => `${base}${path.replace(/^\//, '')}`;
+const siteName = brandString(locale, 'titleShort', t('app.titleShort'));
+---
+
+<header class="siteHeader">
+  <a class="wordmark" href={localHref(homePath(locale))}>{siteName}</a>
+  <nav aria-label={t('hub.browse')}>
+    <a href={localHref(hubPath('index', undefined, locale))}>{t('hub.allMuseums')}</a>
+    <a href={localHref(homePath(locale))}>{t('list.showMap')}</a>
+  </nav>
+  <details class="languages">
+    <summary>{LOCALE_NAMES[locale]}</summary>
+    <ul>
+      {alternates
+        .filter(({ hreflang }) => hreflang !== 'x-default')
+        .map(({ hreflang, href }) => (
+          <li>
+            <a
+              href={href}
+              hreflang={hreflang}
+              lang={hreflang}
+              aria-current={hreflang === locale ? 'page' : undefined}
+            >
+              {LOCALE_NAMES[hreflang as Locale]}
+            </a>
+          </li>
+        ))}
+    </ul>
+  </details>
+</header>
+
+<style>
+  .siteHeader {
+    width: min(100% - 2rem, 68rem);
+    min-height: var(--header-height);
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    border-block-end: 1px solid var(--color-border);
+  }
+
+  .wordmark {
+    color: var(--color-text);
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    font-weight: 650;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  nav {
+    margin-inline-start: auto;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  nav a,
+  .languages a {
+    color: var(--color-accent);
+    font-size: 0.88rem;
+    text-decoration: none;
+  }
+
+  nav a:hover,
+  .languages a:hover {
+    text-decoration: underline;
+  }
+
+  .languages {
+    position: relative;
+    font-size: 0.88rem;
+  }
+
+  .languages summary {
+    color: var(--color-accent);
+    cursor: pointer;
+    white-space: nowrap;
+  }
+
+  .languages ul {
+    position: absolute;
+    z-index: 3;
+    inset-block-start: calc(100% + 0.5rem);
+    inset-inline-end: 0;
+    width: max-content;
+    margin: 0;
+    padding: 0.45rem;
+    list-style: none;
+    background: var(--color-bg-raised);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-floating);
+  }
+
+  .languages li + li {
+    margin-block-start: 0.1rem;
+  }
+
+  .languages a {
+    display: block;
+    padding: 0.35rem 0.55rem;
+    border-radius: var(--radius-small);
+  }
+
+  .languages a[aria-current='page'] {
+    color: var(--color-text);
+    background: var(--color-accent-soft);
+  }
+
+  @media (max-width: 42rem) {
+    .siteHeader {
+      min-height: auto;
+      padding-block: 0.8rem;
+      flex-wrap: wrap;
+      gap: 0.65rem 1rem;
+    }
+
+    .wordmark {
+      flex: 1 1 auto;
+    }
+
+    nav {
+      order: 3;
+      width: 100%;
+      margin-inline-start: 0;
+    }
+  }
+</style>

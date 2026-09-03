@@ -26,6 +26,24 @@ export interface DetailContentProps {
   onBack?: () => void;
   backHref?: string;
   mapHref?: string;
+  headerImage?: {
+    src: string;
+    width: number;
+    height: number;
+    alt: string;
+  };
+  nearby?: {
+    heading: string;
+    items: {
+      id: string;
+      href: string;
+      name: string;
+      commune: string;
+      category: ReturnType<typeof deriveCategories>[number];
+      categoryLabel: string;
+    }[];
+    moreLinks: { href: string; label: string }[];
+  };
   onCopyLink?: () => void;
   onCopyAddress?: () => void;
 }
@@ -48,6 +66,8 @@ export default function DetailContent({
   onBack,
   backHref,
   mapHref,
+  headerImage,
+  nearby,
   onCopyLink,
   onCopyAddress,
 }: DetailContentProps) {
@@ -131,11 +151,22 @@ export default function DetailContent({
       <header
         className={photoUrl ? `${styles.header} ${styles.headerPhoto}` : styles.header}
         style={
-          photoUrl
+          photoUrl && !headerImage
             ? { backgroundImage: `url(${photoUrl})` }
             : { borderInlineStartColor: CATEGORY_COLORS[categories[0]] }
         }
       >
+        {headerImage && (
+          <img
+            className={styles.headerImage}
+            src={headerImage.src}
+              alt={headerImage.alt}
+              width={headerImage.width}
+              height={headerImage.height}
+              decoding="async"
+              {...{ fetchpriority: 'high' }}
+            />
+        )}
         <p className={styles.eyebrow}>{eyebrow}</p>
         <h1 className={styles.name}>{localized ?? museum.name}</h1>
         {showOriginal && (
@@ -343,6 +374,33 @@ export default function DetailContent({
             >
               {descExpanded ? t('museum.readLess') : t('museum.readMore')}
             </button>
+          )}
+        </section>
+      )}
+
+      {nearby && nearby.items.length > 0 && (
+        <section className={styles.section}>
+          <h2 className={styles.nearbyTitle}>{nearby.heading}</h2>
+          <ul className={styles.nearbyList}>
+            {nearby.items.map((item) => (
+              <li key={item.id}>
+                <a className={styles.nearbyLink} href={item.href}>
+                  <span className={styles.nearbyName}>{item.name}</span>
+                  <span className={styles.nearbyPlace}>{item.commune}</span>
+                  <CategoryBadgeContent
+                    category={item.category}
+                    label={item.categoryLabel}
+                  />
+                </a>
+              </li>
+            ))}
+          </ul>
+          {nearby.moreLinks.length > 0 && (
+            <p className={styles.moreNearby}>
+              {nearby.moreLinks.map((link) => (
+                <a key={link.href} href={link.href}>{link.label}</a>
+              ))}
+            </p>
           )}
         </section>
       )}

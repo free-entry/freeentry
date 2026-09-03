@@ -2,15 +2,21 @@
 import type { Museum } from '@/lib/types';
 import type { Locale } from '@/lib/i18n';
 import { COUNTRY } from '@/countries';
+import { deriveCategory } from '@/lib/categories';
+import { buildHubIndex, nearbyMuseums } from '@/lib/hubs';
 import {
   createStaticI18n,
+  getStaticMuseums,
   getStaticMuseumContent,
   getStaticNotes,
 } from '@/lib/staticData';
 import BaseLayout from '@/layouts/BaseLayout.astro';
-import { museumSeo } from '@/lib/seo';
+import { detailPath, homePath, hubPath, museumSeo } from '@/lib/seo';
+import { getStaticImageMetadata } from '@/lib/staticImages';
 import DetailContent from './DetailContent';
 import MuseumDateStatus from './MuseumDateStatus';
+import SiteFooter from './SiteFooter.astro';
+import SiteHeader from './SiteHeader.astro';
 
 interface Props {
   museum: Museum;
@@ -19,20 +25,73 @@ interface Props {
 
 const { museum, locale } = Astro.props;
 const i18n = createStaticI18n(locale);
+const t = i18n.t.bind(i18n);
+const allMuseums = getStaticMuseums();
+const hubs = buildHubIndex(allMuseums, COUNTRY);
 const content = getStaticMuseumContent(museum.id, locale);
 const notes = getStaticNotes(locale);
-const seo = museumSeo(museum, content[museum.id], locale, i18n.t.bind(i18n));
+const localizedName = content[museum.id]?.name ?? museum.name;
+const area = hubs.areas.find(({ code }) => code === museum.department)!;
+const city = hubs.cities.find(
+  ({ name, areaCode }) => name === museum.commune && areaCode === museum.department,
+);
+const breadcrumbs = [
+  { name: t('hub.home'), path: homePath(locale) },
+  { name: area.name, path: hubPath('area', area.slug, locale) },
+  ...(city ? [{ name: city.name, path: hubPath('city', city.slug, locale) }] : []),
+  { name: localizedName, path: detailPath(museum.id, locale) },
+];
+const seo = museumSeo(museum, content[museum.id], locale, t, breadcrumbs);
 const baseUrl = import.meta.env.BASE_URL;
-const homeUrl = `${baseUrl}${locale === 'en' ? '' : `${locale}/`}`;
+const localHref = (path: string) => `${baseUrl}${path.replace(/^\//, '')}`;
+const homeUrl = localHref(homePath(locale));
 const mapUrl = `${homeUrl}?museum=${encodeURIComponent(museum.id)}`;
+const imageMetadata = museum.image ? await getStaticImageMetadata(museum.image.file) : undefined;
 const ogImage = museum.image
   ? {
       url: `${COUNTRY.siteUrl}/${museum.image.file}`,
-      width: 1200,
-      height: 630,
-      alt: content[museum.id]?.name ?? museum.name,
+      width: imageMetadata!.width,
+      height: imageMetadata!.height,
+      alt: localizedName,
     }
   : undefined;
+const headerImage = museum.image
+  ? {
+      src: `${baseUrl}${museum.image.file}`,
+      width: imageMetadata!.width,
+      height: imageMetadata!.height,
+      alt: localizedName,
+    }
+  : undefined;
+const nearby = {
+  heading: t('hub.nearby'),
+  items: nearbyMuseums(museum, allMuseums).map((candidate) => {
+    const candidateContent = getStaticMuseumContent(candidate.id, locale)[candidate.id];
+    const category = deriveCategory(candidate);
+    return {
+      id: candidate.id,
+      href: localHref(detailPath(candidate.id, locale)),
+      name: candidateContent?.name ?? candidate.name,
+      commune: candidate.commune,
+      category,
+      categoryLabel: t(`categories.${category}`),
+    };
+  }),
+  moreLinks: [
+    ...(city
+      ? [
+          {
+            href: localHref(hubPath('city', city.slug, locale)),
+            label: t('hub.moreIn', { place: city.name }),
+          },
+        ]
+      : []),
+    {
+      href: localHref(hubPath('area', area.slug, locale)),
+      label: t('hub.moreIn', { place: area.name }),
+    },
+  ],
+};
 ---
 
 <BaseLayout
@@ -45,7 +104,21 @@ const ogImage = museum.image
   ogImage={ogImage}
   jsonLd={seo.jsonLd}
 >
+  <SiteHeader locale={locale} alternates={seo.alternates} />
   <main class="detailPage">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <ol>
+        {breadcrumbs.map((item, index) => (
+          <li>
+            {index === breadcrumbs.length - 1 ? (
+              <span aria-current="page">{item.name}</span>
+            ) : (
+              <a href={localHref(item.path)}>{item.name}</a>
+            )}
+          </li>
+        ))}
+      </ol>
+    </nav>
     <div class="dateIsland">
       <MuseumDateStatus museum={museum} locale={locale} client:idle />
     </div>
@@ -54,12 +127,15 @@ const ogImage = museum.image
       content={content}
       notes={notes}
       locale={locale}
-      t={i18n.t.bind(i18n)}
+      t={t}
       baseUrl={baseUrl}
       backHref={homeUrl}
       mapHref={mapUrl}
+      headerImage={headerImage}
+      nearby={nearby}
     />
   </main>
+  <SiteFooter locale={locale} categories={hubs.categories} />
 </BaseLayout>
 
 <style>
@@ -72,5 +148,39 @@ const ogImage = museum.image
 
   .dateIsland:empty {
     display: none;
+  }
+
+  .breadcrumb {
+    margin-block-end: 0.55rem;
+    color: var(--color-text-muted);
+    font-size: 0.78rem;
+  }
+
+  .breadcrumb ol {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .breadcrumb li:not(:first-child)::before {
+    content: '/';
+    margin-inline-end: 0.25rem;
+    color: var(--color-border);
+  }
+
+  .breadcrumb a {
+    color: var(--color-accent);
+  }
+
+  .breadcrumb span {
+    display: inline-block;
+    max-inline-size: 28rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: bottom;
   }
 </style>
