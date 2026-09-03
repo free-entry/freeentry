@@ -12,9 +12,9 @@
     "dev": "astro dev",
     "dev:it": "COUNTRY=it astro dev",
     "dev:be": "COUNTRY=be astro dev",
-    "build": "astro check && astro build",
-    "build:it": "COUNTRY=it astro check && COUNTRY=it astro build",
-    "build:be": "COUNTRY=be astro check && COUNTRY=be astro build",
+    "build": "astro check && tsx scripts/build-image-variants.ts && astro build",
+    "build:it": "COUNTRY=it astro check && COUNTRY=it tsx scripts/build-image-variants.ts && COUNTRY=it astro build",
+    "build:be": "COUNTRY=be astro check && COUNTRY=be tsx scripts/build-image-variants.ts && COUNTRY=be astro build",
     "preview": "astro preview",
     "test": "vitest run",
     "test:watch": "vitest",
@@ -31,7 +31,8 @@
     "check:osm-hours": "tsx scripts/check-osm-hours.ts",
     "check:cmn": "tsx scripts/check-cmn.ts",
     "check:data": "npm run check:freshness && npm run check:wikidata && npm run check:images && npm run check:datagouv",
-    "icons": "tsx scripts/generate-icons.ts"
+    "icons": "tsx scripts/generate-icons.ts",
+    "images:variants": "tsx scripts/build-image-variants.ts"
   },
   "dependencies": {
     "@fontsource-variable/jost": "^5.3.0",

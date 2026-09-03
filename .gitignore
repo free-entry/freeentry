@@ -5,3 +5,4 @@ dist/
 dev-dist/
 .astro/
 public/vendor/
+public/images/derived/

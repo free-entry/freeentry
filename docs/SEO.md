@@ -338,15 +338,19 @@ need any other string, add it the same way and list it in the report.
 Implemented on `astro-migration` in commits `b4b4d80` … `ddde54c` (Codex) and
 `50fd019` (translations of the 19 new keys, Workbox runtime-cache pattern
 anchored to the origin, nearby venues require the same admin area).
-Builds: fr 8 761 pages, it 5 081, be 2 501; 250 vitest tests.
+Builds: fr 8 761 pages, it 5 081, be 2 501; 252 vitest tests.
 
 Deviations from the plan above:
 
-- **No responsive WebP variants.** Routing the 578 French photos through the
-  Astro image service pushed the France build past 90 s (vs ≈40 s), so the
-  header photo is the original JPEG as a real `<img>` (dimensions, localized
-  `alt`, `fetchpriority="high"`, `decoding="async"`). Revisit with a
-  pre-generated, gitignored variant set if LCP on mobile turns out to matter.
+- **Responsive WebP variants now ship through a dedicated pre-build step.**
+  `scripts/build-image-variants.ts` uses Sharp with eight workers to generate
+  quality-78 WebPs at 480, 800 and 1200 px when those widths are smaller than
+  the source, plus a source-width WebP for photos narrower than 1200 px. The
+  incremental output lives in gitignored `public/images/derived/`; static
+  detail pages use it in `<picture>` while the original JPEG remains the
+  `<img>` and `og:image` fallback. On this machine, a clean France run created
+  1 230 files in 15.4 s (`npm run build`: 1m12.819s total); the warm step
+  skipped all 1 230 in 0.1 s (58.202s total).
 - Eighteen French venues carry no dated source; their sitemap `lastmod`
   falls back to the country's newest source date.
 

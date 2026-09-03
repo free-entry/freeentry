@@ -60,9 +60,17 @@
   z-index: 1;
 }
 
-.headerPhoto > :not(.headerImage) {
+.headerPhoto > :not(.headerImage):not(.headerPicture) {
   position: relative;
   z-index: 2;
+}
+
+.headerPicture {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  border-radius: inherit;
+  display: block;
 }
 
 .headerImage {
@@ -75,6 +83,13 @@
 
 .headerImage {
   z-index: 0;
+  object-fit: cover;
+}
+
+.headerPicture > .headerImage {
+  position: static;
+  inline-size: 100%;
+  block-size: 100%;
   object-fit: cover;
 }
 

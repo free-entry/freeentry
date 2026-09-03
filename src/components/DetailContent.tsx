@@ -31,6 +31,7 @@ export interface DetailContentProps {
     width: number;
     height: number;
     alt: string;
+    sources?: { type: string; srcSet: string; sizes: string }[];
   };
   nearby?: {
     heading: string;
@@ -156,17 +157,38 @@ export default function DetailContent({
             : { borderInlineStartColor: CATEGORY_COLORS[categories[0]] }
         }
       >
-        {headerImage && (
-          <img
-            className={styles.headerImage}
-            src={headerImage.src}
-            alt={headerImage.alt}
-            width={headerImage.width}
-            height={headerImage.height}
-            decoding="async"
-            {...{ fetchpriority: 'high' }}
-          />
-        )}
+        {headerImage &&
+          (headerImage.sources && headerImage.sources.length > 0 ? (
+            <picture className={styles.headerPicture}>
+              {headerImage.sources.map((source) => (
+                <source
+                  key={`${source.type}-${source.srcSet}`}
+                  type={source.type}
+                  srcSet={source.srcSet}
+                  sizes={source.sizes}
+                />
+              ))}
+              <img
+                className={styles.headerImage}
+                src={headerImage.src}
+                alt={headerImage.alt}
+                width={headerImage.width}
+                height={headerImage.height}
+                decoding="async"
+                {...{ fetchpriority: 'high' }}
+              />
+            </picture>
+          ) : (
+            <img
+              className={styles.headerImage}
+              src={headerImage.src}
+              alt={headerImage.alt}
+              width={headerImage.width}
+              height={headerImage.height}
+              decoding="async"
+              {...{ fetchpriority: 'high' }}
+            />
+          ))}
         <p className={styles.eyebrow}>{eyebrow}</p>
         <h1 className={styles.name}>{localized ?? museum.name}</h1>
         {showOriginal && (

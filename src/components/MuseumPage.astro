@@ -11,8 +11,9 @@ import {
   getStaticNotes,
 } from '@/lib/staticData';
 import BaseLayout from '@/layouts/BaseLayout.astro';
+import { buildSrcSet } from '@/lib/imageVariants';
 import { detailPath, homePath, hubPath, museumSeo } from '@/lib/seo';
-import { getStaticImageMetadata } from '@/lib/staticImages';
+import { getStaticImageMetadata, getStaticImageVariants } from '@/lib/staticImages';
 import DetailContent from './DetailContent';
 import MuseumDateStatus from './MuseumDateStatus';
 import SiteFooter from './SiteFooter.astro';
@@ -47,6 +48,7 @@ const localHref = (path: string) => `${baseUrl}${path.replace(/^\//, '')}`;
 const homeUrl = localHref(homePath(locale));
 const mapUrl = `${homeUrl}?museum=${encodeURIComponent(museum.id)}`;
 const imageMetadata = museum.image ? await getStaticImageMetadata(museum.image.file) : undefined;
+const imageVariants = museum.image ? await getStaticImageVariants(museum.image.file) : [];
 const ogImage = museum.image
   ? {
       url: `${COUNTRY.siteUrl}/${museum.image.file}`,
@@ -61,6 +63,16 @@ const headerImage = museum.image
       width: imageMetadata!.width,
       height: imageMetadata!.height,
       alt: localizedName,
+      sources:
+        imageVariants.length > 0
+          ? [
+              {
+                type: 'image/webp',
+                srcSet: buildSrcSet(baseUrl, imageVariants),
+                sizes: '(min-width: 54rem) 52rem, 100vw',
+              },
+            ]
+          : undefined,
     }
   : undefined;
 const nearby = {

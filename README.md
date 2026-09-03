@@ -72,11 +72,16 @@ npm run dev       # http://localhost:5173/free-museums-france/
 npm run dev:it    # Italy at http://localhost:5173/free-museums-italy/
 npm run dev:be    # Belgium at http://localhost:5173/free-museums-belgium/
 npm run test      # vitest: rule engine, filters, scraper, dataset validation
+npm run images:variants # generate/update France responsive header WebPs
 npm run build     # Astro typecheck + France static build (dist/)
 npm run build:it  # Astro typecheck + Italy static build (dist/)
 npm run build:be  # Astro typecheck + Belgium static build (dist/)
 npm run preview   # serve the production build
 ```
+
+Each production build runs the image-variant step for its `COUNTRY`
+automatically. Its incremental output is gitignored; development also works
+without it and falls back to the original JPEGs.
 
 Requires Node 20+ (CI uses 24). No API keys — map tiles are served by
 [OpenFreeMap](https://openfreemap.org/), free for production use.
