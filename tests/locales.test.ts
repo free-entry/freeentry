@@ -3,7 +3,7 @@ import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
 
 import en from '../src/locales/en.json';
-import { normalizeLocale } from '../src/lib/i18n';
+import { localizedPathname, localeFromPathname, normalizeLocale } from '../src/lib/i18n';
 import { needsEnglishFallback } from '../src/lib/localeData';
 import { COUNTRIES } from '../src/countries';
 
@@ -166,5 +166,19 @@ describe('default locale', () => {
     expect(normalizeLocale('zh-TW')).toBe('zh-Hant');
     expect(normalizeLocale('zh')).toBe('zh-Hans');
     expect(normalizeLocale('ar')).toBe('ar');
+  });
+});
+
+describe('localized app paths', () => {
+  it('detects supported locale prefixes only', () => {
+    expect(localeFromPathname('/fr/museum/louvre/')).toBe('fr');
+    expect(localeFromPathname('/museum/louvre/')).toBeNull();
+    expect(localeFromPathname('/pt/')).toBeNull();
+  });
+
+  it('rewrites home and museum paths with trailing slashes', () => {
+    expect(localizedPathname('/fr/museum/louvre/', 'es')).toBe('/es/museum/louvre/');
+    expect(localizedPathname('/es/', 'en')).toBe('/');
+    expect(localizedPathname('/museum/louvre', 'fr')).toBe('/fr/museum/louvre/');
   });
 });

@@ -1,0 +1,168 @@
+---
+import { COUNTRY } from '@/countries';
+import { buildHubIndex } from '@/lib/hubs';
+import type { Locale } from '@/lib/i18n';
+import { homeSeo, hubPath } from '@/lib/seo';
+import { createStaticI18n, getStaticMuseums } from '@/lib/staticData';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const i18n = createStaticI18n(locale);
+const t = i18n.t.bind(i18n);
+const seo = homeSeo(locale);
+const hubs = buildHubIndex(getStaticMuseums(), COUNTRY);
+const collator = new Intl.Collator(locale);
+const base = import.meta.env.BASE_URL;
+const localHref = (path: string) => `${base}${path.replace(/^\//, '')}`;
+const byCount = <T extends { count: number; name: string }>(a: T, b: T) =>
+  b.count - a.count || collator.compare(a.name, b.name);
+const topAreas = [...hubs.areas].sort(byCount).slice(0, 12);
+const topCities = [...hubs.cities].sort(byCount).slice(0, 12);
+---
+
+<div class="fallbackPage">
+  <header>
+    <h1>{seo.title}</h1>
+    <p class="tagline">{t('app.tagline')}</p>
+    <p>{seo.description}</p>
+  </header>
+  <nav aria-label={t('hub.browse')}>
+    <section class="allMuseums">
+      <h2><a href={localHref(hubPath('index', undefined, locale))}>{t('hub.allMuseums')}</a></h2>
+      <p>{t('hub.metaIndex', { total: getStaticMuseums().length, country: t(`country.${COUNTRY.code}`) })}</p>
+    </section>
+    <section>
+      <h2>{t('hub.byType')}</h2>
+      <ul>
+        {hubs.categories.map(({ category, slug, count }) => (
+          <li>
+            <a href={localHref(hubPath('category', slug, locale))}>
+              {t(`categories.${category}`)} <small>{count}</small>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+    <section>
+      <h2>{t('hub.byArea')}</h2>
+      <ul>
+        {topAreas.map(({ name, slug, count }) => (
+          <li>
+            <a href={localHref(hubPath('area', slug, locale))}>{name} <small>{count}</small></a>
+          </li>
+        ))}
+      </ul>
+    </section>
+    <section>
+      <h2>{t('hub.byCity')}</h2>
+      <ul>
+        {topCities.map(({ name, slug, count }) => (
+          <li>
+            <a href={localHref(hubPath('city', slug, locale))}>{name} <small>{count}</small></a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  </nav>
+</div>
+
+<style>
+  .fallbackPage {
+    width: min(100% - 2rem, 68rem);
+    margin-inline: auto;
+    padding-block: 3rem;
+  }
+
+  header {
+    max-width: 48rem;
+    margin-block-end: 2.5rem;
+  }
+
+  h1,
+  h2,
+  p {
+    margin-block-start: 0;
+  }
+
+  h1 {
+    margin-block-end: 0.8rem;
+    font-family: var(--font-display);
+    font-size: clamp(2rem, 6vw, 3.8rem);
+    line-height: 1.05;
+    letter-spacing: -0.025em;
+  }
+
+  header p {
+    max-width: 68ch;
+    color: var(--color-text-muted);
+    line-height: 1.55;
+  }
+
+  header .tagline {
+    color: var(--color-text);
+    font-size: 1.1rem;
+  }
+
+  nav {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.2rem;
+  }
+
+  section {
+    padding: 1rem;
+    border-radius: var(--radius);
+    background: var(--color-bg-sunken);
+  }
+
+  .allMuseums {
+    grid-column: 1 / -1;
+  }
+
+  h2 {
+    margin-block-end: 0.65rem;
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+  }
+
+  .allMuseums p {
+    max-width: 68ch;
+    margin-block-end: 0;
+    color: var(--color-text-muted);
+    font-size: 0.88rem;
+    line-height: 1.5;
+  }
+
+  ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.35rem 0.8rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  a {
+    color: var(--color-accent);
+  }
+
+  small {
+    color: var(--color-text-muted);
+    font-size: 0.72rem;
+  }
+
+  @media (max-width: 44rem) {
+    .fallbackPage {
+      width: min(100% - 1.25rem, 68rem);
+      padding-block: 2rem;
+    }
+
+    nav,
+    ul {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

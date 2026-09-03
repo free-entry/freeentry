@@ -1,0 +1,29 @@
+---
+import type { Locale } from '@/lib/i18n';
+import { homeSeo } from '@/lib/seo';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import MapApp from './MapApp';
+import HomeFallback from './HomeFallback.astro';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const seo = homeSeo(locale);
+---
+
+<BaseLayout
+  title={seo.title}
+  description={seo.description}
+  lang={locale}
+  canonicalPath={seo.canonicalPath}
+  alternates={seo.alternates}
+  jsonLd={seo.jsonLd}
+>
+  <div id="root">
+    <MapApp client:only="react" initialLocale={locale === 'en' ? undefined : locale}>
+      <HomeFallback slot="fallback" locale={locale} />
+    </MapApp>
+  </div>
+</BaseLayout>

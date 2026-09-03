@@ -3,6 +3,16 @@ import { COUNTRY } from '@/countries';
 import { parseOpeningHours } from './openingHours';
 import { LOCALES, type Locale } from './i18n';
 import type { Museum, MuseumContent } from './types';
+import en from '@/locales/en.json';
+import fr from '@/locales/fr.json';
+import es from '@/locales/es.json';
+import it from '@/locales/it.json';
+import de from '@/locales/de.json';
+import zhHans from '@/locales/zh-Hans.json';
+import zhHant from '@/locales/zh-Hant.json';
+import ja from '@/locales/ja.json';
+import ko from '@/locales/ko.json';
+import ar from '@/locales/ar.json';
 
 export interface HreflangLink {
   hreflang: string;
@@ -30,6 +40,14 @@ export interface HubSeo {
   jsonLd: Record<string, unknown>[];
 }
 
+export interface HomeSeo {
+  title: string;
+  description: string;
+  canonicalPath: string;
+  alternates: HreflangLink[];
+  jsonLd: Record<string, unknown>;
+}
+
 export type HubKind = 'index' | 'area' | 'city' | 'category';
 
 const COUNTRY_NAMES: Record<string, string> = {
@@ -37,6 +55,8 @@ const COUNTRY_NAMES: Record<string, string> = {
   it: 'Italy',
   be: 'Belgium',
 };
+
+const UI_BUNDLES = { en, fr, es, it, de, 'zh-Hans': zhHans, 'zh-Hant': zhHant, ja, ko, ar };
 
 export function localePrefix(locale: Locale): string {
   return locale === 'en' ? '' : `${locale}/`;
@@ -70,6 +90,35 @@ export function detailAlternates(id: string): HreflangLink[] {
 
 export function homeAlternates(): HreflangLink[] {
   return alternatesFor(homePath);
+}
+
+export function homeSeo(locale: Locale): HomeSeo {
+  const app = UI_BUNDLES[locale].app;
+  const brand = COUNTRY.brand?.[locale];
+  const title = brand?.title ?? app.title;
+  const titleShort = brand?.titleShort ?? app.titleShort;
+  const description = brand?.metaDescription ?? app.metaDescription;
+  const canonicalPath = homePath(locale);
+  const url = absoluteUrl(canonicalPath);
+
+  return {
+    title,
+    description,
+    canonicalPath,
+    alternates: homeAlternates(),
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'WebSite',
+      name: titleShort,
+      url,
+      inLanguage: locale,
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: `${url}?q={search_term_string}`,
+        'query-input': 'required name=search_term_string',
+      },
+    },
+  };
 }
 
 export function freeSummary(museum: Museum, locale: Locale, t: TFunction): string {

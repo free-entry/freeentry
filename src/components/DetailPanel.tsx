@@ -6,6 +6,7 @@ import { haversineKm } from '@/lib/distance';
 import CopyLinkDialog from './CopyLinkDialog';
 import DetailContent from './DetailContent';
 import { DateStatusContent } from './MuseumDateStatus';
+import { normalizeLocale } from '@/lib/i18n';
 
 interface DetailPanelProps {
   museum: Museum;
@@ -21,7 +22,8 @@ export default function DetailPanel({ museum, onBack }: DetailPanelProps) {
   const fullAddress = [museum.address, `${museum.postalCode} ${museum.commune}`]
     .filter(Boolean)
     .join(', ');
-  const shareUrl = `${window.location.origin}${import.meta.env.BASE_URL}museum/${museum.id}`;
+  const prefix = normalizeLocale(locale) === 'en' ? '' : `${normalizeLocale(locale)}/`;
+  const shareUrl = `${window.location.origin}${import.meta.env.BASE_URL}${prefix}museum/${museum.id}/`;
   const distance = filters.center ? haversineKm(filters.center, museum.coordinates) : null;
 
   useEffect(() => {

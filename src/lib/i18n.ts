@@ -56,13 +56,26 @@ export function isRtl(locale: string): boolean {
   return RTL_LOCALES.includes(normalizeLocale(locale));
 }
 
+export function localeFromPathname(pathname: string): Locale | null {
+  const first = pathname.split('/').filter(Boolean)[0];
+  return LOCALES.find((locale) => locale === first) ?? null;
+}
+
+/** Rewrite a basename-relative app path under the requested locale prefix. */
+export function localizedPathname(pathname: string, locale: Locale): string {
+  const segments = pathname.split('/').filter(Boolean);
+  if (segments[0] && LOCALES.includes(segments[0] as Locale)) segments.shift();
+  const suffix = segments.length > 0 ? `${segments.join('/')}/` : '';
+  return locale === 'en' ? `/${suffix}` : `/${locale}/${suffix}`;
+}
+
 function applyDocumentLanguage(locale: string): void {
   const normalized = normalizeLocale(locale);
   document.documentElement.lang = normalized;
   document.documentElement.dir = isRtl(normalized) ? 'rtl' : 'ltr';
 }
 
-export async function initI18n(): Promise<void> {
+export async function initI18n(initialLocale?: Locale): Promise<void> {
   await i18n
     .use(LanguageDetector)
     .use(initReactI18next)
@@ -82,6 +95,7 @@ export async function initI18n(): Promise<void> {
       },
     })
     .init({
+      ...(initialLocale ? { lng: initialLocale } : {}),
       supportedLngs: [...LOCALES],
       fallbackLng: 'fr',
       load: 'currentOnly',

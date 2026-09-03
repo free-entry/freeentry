@@ -23,6 +23,7 @@ import { applyFilters, DEFAULT_FILTERS, type FilterState } from '@/lib/filters';
 import { decodeFilters, encodeFilters } from '@/lib/urlState';
 import { haversineKm } from '@/lib/distance';
 import { useMuseumContent, useNoteTranslations, type MuseumContentMap } from '@/lib/localeData';
+import { LOCALES, localeFromPathname, localizedPathname, normalizeLocale } from '@/lib/i18n';
 
 const MUSEUMS = museumsJson as unknown as Museum[];
 const EVENTS = eventsJson as unknown as EventDates;
@@ -66,9 +67,12 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
   // The provider sits above the routed pages, so the selected museum is
   // parsed from the (basename-relative) pathname rather than useParams.
   const routeId = useMemo(() => {
-    const match = location.pathname.match(/^\/museum\/([^/]+)/);
-    if (match) return decodeURIComponent(match[1]);
-    return location.pathname === '/' ? new URLSearchParams(location.search).get('museum') : null;
+    const segments = location.pathname.split('/').filter(Boolean);
+    if (segments[0] && LOCALES.includes(segments[0] as (typeof LOCALES)[number])) {
+      segments.shift();
+    }
+    if (segments[0] === 'museum' && segments[1]) return decodeURIComponent(segments[1]);
+    return segments.length === 0 ? new URLSearchParams(location.search).get('museum') : null;
   }, [location.pathname, location.search]);
 
   const [filters, setFiltersState] = useState<FilterState>(() =>
@@ -110,9 +114,12 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
       const params = new URLSearchParams(window.location.search);
       params.delete('museum');
       const query = params.toString();
-      navigate(id ? `/museum/${id}${query ? `?${query}` : ''}` : `/${query ? `?${query}` : ''}`);
+      const locale = localeFromPathname(location.pathname) ?? normalizeLocale(i18n.language);
+      const home = localizedPathname('/', locale);
+      const pathname = id ? `${home}museum/${encodeURIComponent(id)}/` : home;
+      navigate(`${pathname}${query ? `?${query}` : ''}`);
     },
-    [navigate],
+    [i18n.language, location.pathname, navigate],
   );
 
   // Browser back/forward restores filter state encoded in the URL.

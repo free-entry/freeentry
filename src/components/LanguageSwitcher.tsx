@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { LOCALES, LOCALE_NAMES, normalizeLocale } from '@/lib/i18n';
+import { useLocation, useNavigate } from 'react-router-dom';
+import { localizedPathname, LOCALES, LOCALE_NAMES, normalizeLocale, type Locale } from '@/lib/i18n';
 import styles from './LanguageSwitcher.module.css';
 
 /**
@@ -10,6 +11,8 @@ import styles from './LanguageSwitcher.module.css';
  */
 export default function LanguageSwitcher() {
   const { t, i18n } = useTranslation();
+  const location = useLocation();
+  const navigate = useNavigate();
   const current = normalizeLocale(i18n.language);
   const [hovered, setHovered] = useState(false);
   const [pinned, setPinned] = useState(false);
@@ -37,12 +40,18 @@ export default function LanguageSwitcher() {
     };
   }, [pinned]);
 
-  function select(locale: string) {
+  function select(locale: Locale) {
     void i18n.changeLanguage(locale);
-    // Keep the shareable ?lang= param in sync without adding history entries.
-    const url = new URL(window.location.href);
-    url.searchParams.set('lang', locale);
-    window.history.replaceState(null, '', url);
+    const params = new URLSearchParams(location.search);
+    params.delete('lang');
+    navigate(
+      {
+        pathname: localizedPathname(location.pathname, locale),
+        search: params.toString() ? `?${params.toString()}` : '',
+        hash: location.hash,
+      },
+      { replace: true },
+    );
     setPinned(false);
     setHovered(false);
   }

@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { createStaticI18n } from '@/lib/staticData';
 import {
   detailPath,
+  homeSeo,
   homePath,
   hubPath,
   museumSeo,
@@ -44,6 +45,21 @@ describe('SEO paths', () => {
     expect(hubPath('area', 'paris', 'fr')).toBe('/fr/area/paris/');
     expect(hubPath('city', 'lyon', 'en')).toBe('/city/lyon/');
     expect(hubPath('category', 'always', 'de')).toBe('/de/free/always/');
+  });
+
+  it('builds a localized home canonical and SearchAction', () => {
+    const seo = homeSeo('fr');
+    expect(seo.canonicalPath).toBe('/fr/');
+    expect(seo.alternates).toHaveLength(11);
+    expect(seo.jsonLd).toMatchObject({
+      '@type': 'WebSite',
+      inLanguage: 'fr',
+      potentialAction: {
+        '@type': 'SearchAction',
+        target:
+          'https://freeentry.org/free-museums-france/fr/?q={search_term_string}',
+      },
+    });
   });
 });
 

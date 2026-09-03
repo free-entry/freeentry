@@ -1,30 +1,5 @@
 ---
-import BaseLayout from '@/layouts/BaseLayout.astro';
-import MapApp from '@/components/MapApp';
-import { COUNTRY } from '@/countries';
-import { createStaticI18n } from '@/lib/staticData';
-import { homeAlternates } from '@/lib/seo';
-
-const i18n = createStaticI18n('en');
-const title = COUNTRY.brand?.en?.title ?? i18n.t('app.title');
-const description = COUNTRY.brand?.en?.metaDescription ?? i18n.t('app.metaDescription');
-const jsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'WebSite',
-  name: COUNTRY.brand?.en?.titleShort ?? i18n.t('app.titleShort'),
-  url: `${COUNTRY.siteUrl}/`,
-  inLanguage: ['en', 'fr', 'es', 'it', 'de', 'zh-Hans', 'zh-Hant', 'ja', 'ko', 'ar'],
-};
+import HomePage from '@/components/HomePage.astro';
 ---
 
-<BaseLayout
-  {title}
-  {description}
-  canonicalPath="/"
-  alternates={homeAlternates()}
-  {jsonLd}
->
-  <div id="root">
-    <MapApp client:only="react" />
-  </div>
-</BaseLayout>
+<HomePage locale="en" />

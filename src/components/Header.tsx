@@ -4,6 +4,7 @@ import { useAppState } from '@/state/AppState';
 import { brandString } from '@/lib/brand';
 import { COUNTRY_CODE } from '@/countries';
 import { COUNTRY_MARKS } from '@/countries/marks';
+import { localizedPathname, normalizeLocale } from '@/lib/i18n';
 import LanguageSwitcher from './LanguageSwitcher';
 import SearchDialog from './SearchDialog';
 import styles from './Header.module.css';
@@ -17,6 +18,7 @@ export default function Header({ onOpenFilters, onOpenAbout }: HeaderProps) {
   const { t, i18n } = useTranslation();
   const { resetFilters, results } = useAppState();
   const [searchOpen, setSearchOpen] = useState(false);
+  const homeHref = `${import.meta.env.BASE_URL}${localizedPathname('/', normalizeLocale(i18n.language)).replace(/^\//, '')}`;
 
   // Ctrl/Cmd+K opens the search modal from anywhere.
   useEffect(() => {
@@ -88,7 +90,7 @@ export default function Header({ onOpenFilters, onOpenAbout }: HeaderProps) {
         </button>
       </div>
 
-      <a className={styles.wordmark} href={import.meta.env.BASE_URL}>
+      <a className={styles.wordmark} href={homeHref}>
         <svg
           className={styles.mark}
           viewBox="0 0 32 32"
