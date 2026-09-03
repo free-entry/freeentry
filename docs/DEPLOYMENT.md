@@ -97,3 +97,25 @@ The canonical domain is `freeentry.org`, configured once on the Pages site
 If the domain ever changes, update `siteUrl` in `src/countries/*.ts` and the
 `DEPLOYMENTS` map in `astro.config.mjs` (the per-country `robots.txt` route
 follows `siteUrl` automatically).
+
+## Umbrella 404 routing
+
+GitHub Pages uses only the root `404.html` from
+`travel-eu/travel-eu.github.io` for unknown URLs on `freeentry.org`. A
+`404.html` emitted inside `free-museums-france/`, `free-museums-italy/`, or
+`free-museums-belgium/` is not selected by Pages. Keep the umbrella 404 aware
+of all three project base paths so an unknown museum or localized app URL can
+boot the appropriate map shell.
+
+## Search engine webmaster setup
+
+Verify the domain property `freeentry.org` in both Google Search Console and
+Bing Webmaster Tools. Domain-property verification covers all three country
+paths. After verification, submit these sitemap index URLs in each service:
+
+- `https://freeentry.org/free-museums-france/sitemap.xml`
+- `https://freeentry.org/free-museums-italy/sitemap.xml`
+- `https://freeentry.org/free-museums-belgium/sitemap.xml`
+
+Each index links to ten locale sitemaps. Resubmit an index only when its URL
+changes; search engines will revisit it and its locale sitemaps automatically.

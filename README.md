@@ -9,6 +9,12 @@ and under-26 (EU) free admission.
 France is the primary deployment; the same engine also ships Italian and Belgian
 datasets from `data/it/` and `data/be/` (`npm run dev:it`, `npm run dev:be`).
 
+The site is built with Astro 5. Each country build publishes crawlable static
+home, museum-detail, area, city, and free-admission-category pages in all ten
+locales. The interactive React map is a client-only island on each locale home,
+and the generated service worker keeps the map app and previously visited pages
+available offline without precaching thousands of HTML documents.
+
 **Live app:** <https://freeentry.org/free-museums-france/>
 
 ## Features
@@ -63,8 +69,12 @@ touched), printing a reviewable diff. See
 ```bash
 npm install       # also copies the RTL text plugin into public/vendor/
 npm run dev       # http://localhost:5173/free-museums-france/
+npm run dev:it    # Italy at http://localhost:5173/free-museums-italy/
+npm run dev:be    # Belgium at http://localhost:5173/free-museums-belgium/
 npm run test      # vitest: rule engine, filters, scraper, dataset validation
-npm run build     # typecheck + vite build + prerender (dist/)
+npm run build     # Astro typecheck + France static build (dist/)
+npm run build:it  # Astro typecheck + Italy static build (dist/)
+npm run build:be  # Astro typecheck + Belgium static build (dist/)
 npm run preview   # serve the production build
 ```
 
@@ -74,12 +84,14 @@ Requires Node 20+ (CI uses 24). No API keys — map tiles are served by
 ### Project layout
 
 ```
-data/              museums.json (canonical dataset) · events.json · aliases.json
+data/<country>/    museums.json (canonical dataset) · events.json · aliases.json
                    overrides.json · i18n/museums.<locale>.json (descriptions)
-src/lib/           freeRules.ts (date engine) · filters.ts · categories.ts …
-src/components/    MapView · FilterPanel · CalendarView · DetailPanel …
+src/pages/         Astro routes for locale homes, museums, hubs and sitemaps
+src/layouts/       shared HTML head and document layout
+src/lib/           rule engine · filters · SEO · hub and sitemap builders
+src/components/    static Astro page chrome + React map and detail components
 src/locales/       UI strings, one file per locale
-scripts/           update-parisjetaime.ts · prerender.ts · generate-icons.ts
+scripts/           data refresh, validation, enrichment and icon generation
 tests/             vitest suites, incl. dataset & locale integrity checks
 ```
 
@@ -87,9 +99,9 @@ tests/             vitest suites, incl. dataset & locale integrity checks
 
 - UI strings: edit `src/locales/<locale>.json` (key parity with `en.json` is
   enforced by tests).
-- Museum content: `data/i18n/museums.<locale>.json` — add a `name` only where
+- Museum content: `data/<country>/i18n/museums.<locale>.json` — add a `name` only where
   an established localized name exists; the French original is always shown.
-- Free-admission corrections: edit `data/museums.json` and include the official
+- Free-admission corrections: edit `data/<country>/museums.json` and include the official
   `source.url`; run `npm run test`.
 
 ## Deployment
