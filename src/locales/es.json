@@ -1,25 +1,25 @@
 {
   "country": {
-    "fr": "France",
-    "it": "Italy",
-    "be": "Belgium"
+    "fr": "Francia",
+    "it": "Italia",
+    "be": "Bélgica"
   },
   "hub": {
-    "browse": "Browse",
-    "home": "Home",
-    "allMuseums": "All free museums and monuments",
-    "byArea": "By area",
-    "byCity": "By city",
-    "byType": "By type of free admission",
-    "nearby": "More free museums nearby",
-    "moreIn": "All free museums in {{place}}",
-    "confirmedDates": "Confirmed dates",
-    "indexTitle": "All free museums and monuments in {{country}}",
-    "placeTitle": "Free museums and monuments in {{place}}",
-    "categoryTitle": "{{category}} — museums and monuments in {{country}}",
-    "metaIndex": "{{total}} museums and monuments you can visit for free in {{country}}, by area, city and type of free admission, with addresses and free-admission rules.",
-    "metaPlace": "{{total}} free museums and monuments in {{place}}: always free, first Sundays, special days — with addresses, opening days and free-admission rules.",
-    "metaCategory": "{{total}} museums and monuments in {{country}}: {{category}}. Addresses, free-admission rules and directions."
+    "browse": "Explorar",
+    "home": "Inicio",
+    "allMuseums": "Todos los museos y monumentos gratuitos",
+    "byArea": "Por zona",
+    "byCity": "Por ciudad",
+    "byType": "Por tipo de gratuidad",
+    "nearby": "Más museos gratuitos cerca",
+    "moreIn": "Todos los museos gratuitos en {{place}}",
+    "confirmedDates": "Fechas confirmadas",
+    "indexTitle": "Todos los museos y monumentos gratuitos en {{country}}",
+    "placeTitle": "Museos y monumentos gratuitos en {{place}}",
+    "categoryTitle": "{{category}} — museos y monumentos en {{country}}",
+    "metaIndex": "{{total}} museos y monumentos que puedes visitar gratis en {{country}}, por zona, ciudad y tipo de gratuidad, con direcciones y condiciones de gratuidad.",
+    "metaPlace": "{{total}} museos y monumentos gratuitos en {{place}}: siempre gratis, primeros domingos, días especiales — con direcciones, días de apertura y condiciones de gratuidad.",
+    "metaCategory": "{{total}} museos y monumentos en {{country}}: {{category}}. Direcciones, condiciones de gratuidad y cómo llegar."
   },
   "app": {
     "title": "Museos y monumentos gratuitos — Francia",
@@ -99,7 +99,7 @@
     "sortedByName": "Ordenado alfabéticamente"
   },
   "museum": {
-    "seeOnMap": "See on the map",
+    "seeOnMap": "Ver en el mapa",
     "freeAccessTitle": "Entrada gratuita",
     "nextFreeDate": "Próximo día gratis: {{date}}",
     "estimated": "estimado",

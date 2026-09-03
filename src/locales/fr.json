@@ -1,25 +1,25 @@
 {
   "country": {
     "fr": "France",
-    "it": "Italy",
-    "be": "Belgium"
+    "it": "Italie",
+    "be": "Belgique"
   },
   "hub": {
-    "browse": "Browse",
-    "home": "Home",
-    "allMuseums": "All free museums and monuments",
-    "byArea": "By area",
-    "byCity": "By city",
-    "byType": "By type of free admission",
-    "nearby": "More free museums nearby",
-    "moreIn": "All free museums in {{place}}",
-    "confirmedDates": "Confirmed dates",
-    "indexTitle": "All free museums and monuments in {{country}}",
-    "placeTitle": "Free museums and monuments in {{place}}",
-    "categoryTitle": "{{category}} — museums and monuments in {{country}}",
-    "metaIndex": "{{total}} museums and monuments you can visit for free in {{country}}, by area, city and type of free admission, with addresses and free-admission rules.",
-    "metaPlace": "{{total}} free museums and monuments in {{place}}: always free, first Sundays, special days — with addresses, opening days and free-admission rules.",
-    "metaCategory": "{{total}} museums and monuments in {{country}}: {{category}}. Addresses, free-admission rules and directions."
+    "browse": "Explorer",
+    "home": "Accueil",
+    "allMuseums": "Tous les musées et monuments gratuits",
+    "byArea": "Par zone",
+    "byCity": "Par ville",
+    "byType": "Par type de gratuité",
+    "nearby": "Autres musées gratuits à proximité",
+    "moreIn": "Tous les musées gratuits : {{place}}",
+    "confirmedDates": "Dates confirmées",
+    "indexTitle": "Tous les musées et monuments gratuits en {{country}}",
+    "placeTitle": "Musées et monuments gratuits — {{place}}",
+    "categoryTitle": "{{category}} — musées et monuments en {{country}}",
+    "metaIndex": "{{total}} musées et monuments à visiter gratuitement en {{country}}, classés par zone, ville et type de gratuité, avec adresses et conditions de gratuité.",
+    "metaPlace": "{{place}} : {{total}} musées et monuments gratuits — toujours gratuits, premiers dimanches du mois, jours exceptionnels. Adresses, jours d'ouverture et conditions de gratuité.",
+    "metaCategory": "{{total}} musées et monuments en {{country}} : {{category}}. Adresses, conditions de gratuité et itinéraires."
   },
   "app": {
     "title": "Musées & monuments gratuits — France",
@@ -101,7 +101,7 @@
     "sortedByName": "Trié par ordre alphabétique"
   },
   "museum": {
-    "seeOnMap": "See on the map",
+    "seeOnMap": "Voir sur la carte",
     "freeAccessTitle": "Accès gratuit",
     "nextFreeDate": "Prochain jour gratuit : {{date}}",
     "estimated": "estimé",

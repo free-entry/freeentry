@@ -124,7 +124,8 @@ export function nearbyMuseums(museum: Museum, all: Museum[], n = 6): Museum[] {
     .map((candidate, index) => ({
       candidate,
       index,
-      sameCommune: candidate.commune === museum.commune,
+      sameCommune:
+        candidate.commune === museum.commune && candidate.department === museum.department,
       distance: haversineKm(museum.coordinates, candidate.coordinates),
     }))
     .filter(({ candidate }) => candidate.id !== museum.id)

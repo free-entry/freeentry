@@ -1,25 +1,25 @@
 {
   "country": {
-    "fr": "France",
-    "it": "Italy",
-    "be": "Belgium"
+    "fr": "法国",
+    "it": "意大利",
+    "be": "比利时"
   },
   "hub": {
-    "browse": "Browse",
-    "home": "Home",
-    "allMuseums": "All free museums and monuments",
-    "byArea": "By area",
-    "byCity": "By city",
-    "byType": "By type of free admission",
-    "nearby": "More free museums nearby",
-    "moreIn": "All free museums in {{place}}",
-    "confirmedDates": "Confirmed dates",
-    "indexTitle": "All free museums and monuments in {{country}}",
-    "placeTitle": "Free museums and monuments in {{place}}",
-    "categoryTitle": "{{category}} — museums and monuments in {{country}}",
-    "metaIndex": "{{total}} museums and monuments you can visit for free in {{country}}, by area, city and type of free admission, with addresses and free-admission rules.",
-    "metaPlace": "{{total}} free museums and monuments in {{place}}: always free, first Sundays, special days — with addresses, opening days and free-admission rules.",
-    "metaCategory": "{{total}} museums and monuments in {{country}}: {{category}}. Addresses, free-admission rules and directions."
+    "browse": "浏览",
+    "home": "首页",
+    "allMuseums": "全部免费博物馆和古迹",
+    "byArea": "按区域",
+    "byCity": "按城市",
+    "byType": "按免费类型",
+    "nearby": "附近其他免费博物馆",
+    "moreIn": "查看{{place}}全部免费博物馆",
+    "confirmedDates": "已确认日期",
+    "indexTitle": "{{country}}全部免费博物馆和古迹",
+    "placeTitle": "{{place}}的免费博物馆和古迹",
+    "categoryTitle": "{{category}}：{{country}}的博物馆和古迹",
+    "metaIndex": "{{country}}可以免费参观的{{total}}家博物馆和古迹，按区域、城市和免费类型分类，附地址和免费开放条件。",
+    "metaPlace": "{{place}}的{{total}}家免费博物馆和古迹：常年免费、每月第一个周日、特定日期免费，附地址、开放日和免费开放条件。",
+    "metaCategory": "{{country}}的{{total}}家博物馆和古迹：{{category}}。附地址、免费开放条件和路线。"
   },
   "app": {
     "title": "法国免费博物馆和古迹",
@@ -97,7 +97,7 @@
     "sortedByName": "按名称排序"
   },
   "museum": {
-    "seeOnMap": "See on the map",
+    "seeOnMap": "在地图上查看",
     "freeAccessTitle": "免费开放",
     "nextFreeDate": "下一个免费日：{{date}}",
     "estimated": "预估",

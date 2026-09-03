@@ -22,9 +22,12 @@ const DEPLOYMENTS = {
 const deployment = DEPLOYMENTS[COUNTRY_CODE];
 if (!deployment) throw new Error(`Unknown COUNTRY value: ${COUNTRY_CODE}`);
 const escapedBasePath = deployment.basePath.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-const hubPathPattern = new RegExp(
-  `^${escapedBasePath}(?:[\\w-]+/)?(?:museums|area|city|free)/`,
-);
+// Static hub pages (index, area, city, category) in every locale.
+const hubPathSegment = `${escapedBasePath}(?:[\\w-]+/)?(?:museums|area|city|free)/`;
+// NavigationRoute tests denylist patterns against pathname + search.
+const hubPathPattern = new RegExp(`^${hubPathSegment}`);
+// RegExpRoute tests runtime-caching patterns against the full URL.
+const hubUrlPattern = new RegExp(`^https?://[^/]+${hubPathSegment}`);
 
 const MANIFESTS = {
   fr: {
@@ -100,7 +103,7 @@ export default defineConfig({
         navigateFallbackDenylist: [hubPathPattern],
         runtimeCaching: [
           {
-            urlPattern: hubPathPattern,
+            urlPattern: hubUrlPattern,
             handler: 'NetworkFirst',
             options: {
               cacheName: 'static-pages',

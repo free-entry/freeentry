@@ -1,25 +1,25 @@
 {
   "country": {
-    "fr": "France",
-    "it": "Italy",
-    "be": "Belgium"
+    "fr": "Frankreich",
+    "it": "Italien",
+    "be": "Belgien"
   },
   "hub": {
-    "browse": "Browse",
-    "home": "Home",
-    "allMuseums": "All free museums and monuments",
-    "byArea": "By area",
-    "byCity": "By city",
-    "byType": "By type of free admission",
-    "nearby": "More free museums nearby",
-    "moreIn": "All free museums in {{place}}",
-    "confirmedDates": "Confirmed dates",
-    "indexTitle": "All free museums and monuments in {{country}}",
-    "placeTitle": "Free museums and monuments in {{place}}",
-    "categoryTitle": "{{category}} — museums and monuments in {{country}}",
-    "metaIndex": "{{total}} museums and monuments you can visit for free in {{country}}, by area, city and type of free admission, with addresses and free-admission rules.",
-    "metaPlace": "{{total}} free museums and monuments in {{place}}: always free, first Sundays, special days — with addresses, opening days and free-admission rules.",
-    "metaCategory": "{{total}} museums and monuments in {{country}}: {{category}}. Addresses, free-admission rules and directions."
+    "browse": "Entdecken",
+    "home": "Startseite",
+    "allMuseums": "Alle kostenlosen Museen und Denkmäler",
+    "byArea": "Nach Gebiet",
+    "byCity": "Nach Stadt",
+    "byType": "Nach Art des freien Eintritts",
+    "nearby": "Weitere kostenlose Museen in der Nähe",
+    "moreIn": "Alle kostenlosen Museen in {{place}}",
+    "confirmedDates": "Bestätigte Termine",
+    "indexTitle": "Alle kostenlosen Museen und Denkmäler in {{country}}",
+    "placeTitle": "Kostenlose Museen und Denkmäler in {{place}}",
+    "categoryTitle": "{{category}} – Museen und Denkmäler in {{country}}",
+    "metaIndex": "{{total}} Museen und Denkmäler, die Sie in {{country}} kostenlos besuchen können – nach Gebiet, Stadt und Art des freien Eintritts, mit Adressen und Bedingungen für den freien Eintritt.",
+    "metaPlace": "{{total}} kostenlose Museen und Denkmäler in {{place}}: immer kostenlos, erste Sonntage, besondere Tage – mit Adressen, Öffnungstagen und Bedingungen für den freien Eintritt.",
+    "metaCategory": "{{total}} Museen und Denkmäler in {{country}}: {{category}}. Adressen, Bedingungen für den freien Eintritt und Anfahrt."
   },
   "app": {
     "title": "Kostenlose Museen und Denkmäler – Frankreich",
@@ -99,7 +99,7 @@
     "sortedByName": "Alphabetisch sortiert"
   },
   "museum": {
-    "seeOnMap": "See on the map",
+    "seeOnMap": "Auf der Karte ansehen",
     "freeAccessTitle": "Freier Eintritt",
     "nextFreeDate": "Nächster Gratistag: {{date}}",
     "estimated": "geschätzt",

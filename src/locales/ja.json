@@ -1,25 +1,25 @@
 {
   "country": {
-    "fr": "France",
-    "it": "Italy",
-    "be": "Belgium"
+    "fr": "フランス",
+    "it": "イタリア",
+    "be": "ベルギー"
   },
   "hub": {
-    "browse": "Browse",
-    "home": "Home",
-    "allMuseums": "All free museums and monuments",
-    "byArea": "By area",
-    "byCity": "By city",
-    "byType": "By type of free admission",
-    "nearby": "More free museums nearby",
-    "moreIn": "All free museums in {{place}}",
-    "confirmedDates": "Confirmed dates",
-    "indexTitle": "All free museums and monuments in {{country}}",
-    "placeTitle": "Free museums and monuments in {{place}}",
-    "categoryTitle": "{{category}} — museums and monuments in {{country}}",
-    "metaIndex": "{{total}} museums and monuments you can visit for free in {{country}}, by area, city and type of free admission, with addresses and free-admission rules.",
-    "metaPlace": "{{total}} free museums and monuments in {{place}}: always free, first Sundays, special days — with addresses, opening days and free-admission rules.",
-    "metaCategory": "{{total}} museums and monuments in {{country}}: {{category}}. Addresses, free-admission rules and directions."
+    "browse": "探す",
+    "home": "ホーム",
+    "allMuseums": "無料ミュージアム・モニュメント一覧",
+    "byArea": "エリア別",
+    "byCity": "都市別",
+    "byType": "無料入場の種類別",
+    "nearby": "近くの無料ミュージアム",
+    "moreIn": "{{place}}の無料ミュージアムをすべて見る",
+    "confirmedDates": "確定した日程",
+    "indexTitle": "{{country}}の無料ミュージアム・モニュメント一覧",
+    "placeTitle": "{{place}}の無料ミュージアム・モニュメント",
+    "categoryTitle": "{{category}} — {{country}}のミュージアム・モニュメント",
+    "metaIndex": "{{country}}で無料で見学できる美術館・博物館・モニュメント{{total}}件。エリア別・都市別・無料入場の種類別に、住所と無料入場の条件を掲載。",
+    "metaPlace": "{{place}}の無料ミュージアム・モニュメント{{total}}件：常時無料、第1日曜、特別な日。住所・開館日・無料入場の条件を掲載。",
+    "metaCategory": "{{country}}のミュージアム・モニュメント{{total}}件：{{category}}。住所、無料入場の条件、経路を掲載。"
   },
   "app": {
     "title": "無料ミュージアム＆モニュメント — フランス",
@@ -97,7 +97,7 @@
     "sortedByName": "アルファベット順"
   },
   "museum": {
-    "seeOnMap": "See on the map",
+    "seeOnMap": "地図で見る",
     "freeAccessTitle": "無料入場",
     "nextFreeDate": "次の無料日：{{date}}",
     "estimated": "推定",

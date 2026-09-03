@@ -1,25 +1,25 @@
 {
   "country": {
-    "fr": "France",
-    "it": "Italy",
-    "be": "Belgium"
+    "fr": "法國",
+    "it": "義大利",
+    "be": "比利時"
   },
   "hub": {
-    "browse": "Browse",
-    "home": "Home",
-    "allMuseums": "All free museums and monuments",
-    "byArea": "By area",
-    "byCity": "By city",
-    "byType": "By type of free admission",
-    "nearby": "More free museums nearby",
-    "moreIn": "All free museums in {{place}}",
-    "confirmedDates": "Confirmed dates",
-    "indexTitle": "All free museums and monuments in {{country}}",
-    "placeTitle": "Free museums and monuments in {{place}}",
-    "categoryTitle": "{{category}} — museums and monuments in {{country}}",
-    "metaIndex": "{{total}} museums and monuments you can visit for free in {{country}}, by area, city and type of free admission, with addresses and free-admission rules.",
-    "metaPlace": "{{total}} free museums and monuments in {{place}}: always free, first Sundays, special days — with addresses, opening days and free-admission rules.",
-    "metaCategory": "{{total}} museums and monuments in {{country}}: {{category}}. Addresses, free-admission rules and directions."
+    "browse": "瀏覽",
+    "home": "首頁",
+    "allMuseums": "所有免費博物館與古蹟",
+    "byArea": "依區域",
+    "byCity": "依城市",
+    "byType": "依免費類型",
+    "nearby": "附近其他免費博物館",
+    "moreIn": "查看{{place}}所有免費博物館",
+    "confirmedDates": "已確認的日期",
+    "indexTitle": "{{country}}所有免費博物館與古蹟",
+    "placeTitle": "{{place}}的免費博物館與古蹟",
+    "categoryTitle": "{{category}}：{{country}}的博物館與古蹟",
+    "metaIndex": "{{country}}可免費參觀的{{total}}間博物館與古蹟，依區域、城市與免費類型分類，附地址與免費入場條件。",
+    "metaPlace": "{{place}}的{{total}}間免費博物館與古蹟：全年免費、每月首個週日、特定日子免費，附地址、開放日與免費入場條件。",
+    "metaCategory": "{{country}}的{{total}}間博物館與古蹟：{{category}}。附地址、免費入場條件與路線。"
   },
   "app": {
     "title": "免費博物館與古蹟 — 法國",
@@ -97,7 +97,7 @@
     "sortedByName": "依名稱排序"
   },
   "museum": {
-    "seeOnMap": "See on the map",
+    "seeOnMap": "在地圖上查看",
     "freeAccessTitle": "免費入場",
     "nextFreeDate": "下一個免費日：{{date}}",
     "estimated": "預估",
