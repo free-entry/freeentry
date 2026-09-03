@@ -23,7 +23,9 @@ const seo = homeSeo(locale);
 >
   <div id="root">
     <MapApp client:only="react" initialLocale={locale === 'en' ? undefined : locale}>
-      <HomeFallback slot="fallback" locale={locale} />
+      <div slot="fallback">
+        <HomeFallback locale={locale} />
+      </div>
     </MapApp>
   </div>
 </BaseLayout>
