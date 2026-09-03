@@ -41,19 +41,24 @@ export default function LanguageSwitcher() {
   }, [pinned]);
 
   function select(locale: Locale) {
-    void i18n.changeLanguage(locale);
-    const params = new URLSearchParams(location.search);
-    params.delete('lang');
-    navigate(
-      {
-        pathname: localizedPathname(location.pathname, locale),
-        search: params.toString() ? `?${params.toString()}` : '',
-        hash: location.hash,
-      },
-      { replace: true },
-    );
     setPinned(false);
     setHovered(false);
+    // Switch the language first so the route effect sees it settled, then move
+    // to the same page under the new prefix. Filters and the map position are
+    // written with replaceState, which the router never observes — read the
+    // live location rather than useLocation() for search and hash.
+    void i18n.changeLanguage(locale).then(() => {
+      const params = new URLSearchParams(window.location.search);
+      params.delete('lang');
+      navigate(
+        {
+          pathname: localizedPathname(location.pathname, locale),
+          search: params.toString() ? `?${params.toString()}` : '',
+          hash: window.location.hash,
+        },
+        { replace: true },
+      );
+    });
   }
 
   return (

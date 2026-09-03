@@ -350,6 +350,20 @@ Deviations from the plan above:
 - Eighteen French venues carry no dated source; their sitemap `lastmod`
   falls back to the country's newest source date.
 
+Locale rule in the SPA (settled after a browser smoke test, 2026-09-03):
+the path prefix owns the UI language. `/<locale>/…` is that locale;
+unprefixed paths are English — except the bare home `/` (no `?museum=`),
+which is the auto-detect entry (PWA start URL, typed domain, legacy
+`?lang=` links): after i18next detection it redirects once, before the router
+mounts, to `/<locale>/` when the result is not English. `/?museum=<id>` (the
+English static page's map link) and `/museum/<id>/` (service-worker shell)
+stay English. The language switcher awaits `changeLanguage` and then
+navigates to the same page under the new prefix, reading `window.location`
+for search/hash because filters and the map write the URL with
+`replaceState`, which react-router never observes. The router `basename`
+keeps its trailing slash so the root route is `/free-museums-france/`, not
+the bare basename.
+
 Still manual (see `docs/DEPLOYMENT.md`): DNS + custom domain on the umbrella
 Pages repo, root `robots.txt` and `404.html` there, Search Console / Bing
 sitemap-index submission.

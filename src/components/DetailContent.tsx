@@ -160,12 +160,12 @@ export default function DetailContent({
           <img
             className={styles.headerImage}
             src={headerImage.src}
-              alt={headerImage.alt}
-              width={headerImage.width}
-              height={headerImage.height}
-              decoding="async"
-              {...{ fetchpriority: 'high' }}
-            />
+            alt={headerImage.alt}
+            width={headerImage.width}
+            height={headerImage.height}
+            decoding="async"
+            {...{ fetchpriority: 'high' }}
+          />
         )}
         <p className={styles.eyebrow}>{eyebrow}</p>
         <h1 className={styles.name}>{localized ?? museum.name}</h1>

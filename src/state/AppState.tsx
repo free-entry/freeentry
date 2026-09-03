@@ -23,7 +23,7 @@ import { applyFilters, DEFAULT_FILTERS, type FilterState } from '@/lib/filters';
 import { decodeFilters, encodeFilters } from '@/lib/urlState';
 import { haversineKm } from '@/lib/distance';
 import { useMuseumContent, useNoteTranslations, type MuseumContentMap } from '@/lib/localeData';
-import { LOCALES, localeFromPathname, localizedPathname, normalizeLocale } from '@/lib/i18n';
+import { LOCALES, localeFromPathname, localizedPathname } from '@/lib/i18n';
 
 const MUSEUMS = museumsJson as unknown as Museum[];
 const EVENTS = eventsJson as unknown as EventDates;
@@ -89,8 +89,9 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
     const current = new URLSearchParams(window.location.search);
     const lang = current.get('lang');
     if (lang) params.set('lang', lang);
+    // ?museum= is only meaningful on a home path (deep link into the map).
     const museum = current.get('museum');
-    if (museum && window.location.pathname.endsWith('/')) params.set('museum', museum);
+    if (museum && !/\/museum\//.test(window.location.pathname)) params.set('museum', museum);
     const query = params.toString();
     const url = `${window.location.pathname}${query ? `?${query}` : ''}${window.location.hash}`;
     window.history.replaceState(window.history.state, '', url);
@@ -114,12 +115,12 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
       const params = new URLSearchParams(window.location.search);
       params.delete('museum');
       const query = params.toString();
-      const locale = localeFromPathname(location.pathname) ?? normalizeLocale(i18n.language);
-      const home = localizedPathname('/', locale);
+      // The path prefix owns the locale: an unprefixed path stays unprefixed.
+      const home = localizedPathname('/', localeFromPathname(location.pathname) ?? 'en');
       const pathname = id ? `${home}museum/${encodeURIComponent(id)}/` : home;
       navigate(`${pathname}${query ? `?${query}` : ''}`);
     },
-    [i18n.language, location.pathname, navigate],
+    [location.pathname, navigate],
   );
 
   // Browser back/forward restores filter state encoded in the URL.
