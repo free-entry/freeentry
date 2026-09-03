@@ -2,7 +2,7 @@ import { mkdir, readFile, stat } from 'node:fs/promises';
 import { dirname, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
-import { VARIANT_WIDTHS, variantPath } from '../src/lib/imageVariants';
+import { variantPath, variantWidths } from '../src/lib/imageVariants';
 import type { Museum } from '../src/lib/types';
 
 const startedAt = performance.now();
@@ -41,12 +41,7 @@ async function buildVariants(file: string): Promise<void> {
   const sourceWidth = metadata.autoOrient?.width ?? metadata.width;
   if (!sourceWidth) throw new Error(`Could not read image width: ${file}`);
 
-  const widths = [
-    ...VARIANT_WIDTHS.filter((width) => width < sourceWidth),
-    ...(sourceWidth < 1200 ? [sourceWidth] : []),
-  ].filter((width, index, values) => values.indexOf(width) === index);
-
-  for (const width of widths) {
+  for (const width of variantWidths(sourceWidth)) {
     const target = publicPath(variantPath(file, width));
     if (await targetIsNewer(sourceStat.mtimeMs, target)) {
       skipped += 1;

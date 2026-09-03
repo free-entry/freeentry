@@ -2,7 +2,7 @@ import { fileURLToPath } from 'node:url';
 import { resolve, sep } from 'node:path';
 import { stat } from 'node:fs/promises';
 import sharp from 'sharp';
-import { VARIANT_WIDTHS, variantPath, type ImageVariant } from './imageVariants';
+import { variantPath, variantWidths, type ImageVariant } from './imageVariants';
 
 export interface StaticImageMetadata {
   width: number;
@@ -36,12 +36,8 @@ export function getStaticImageVariants(file: string): Promise<ImageVariant[]> {
   const cached = variantsCache.get(file);
   if (cached) return cached;
   const pending = getStaticImageMetadata(file).then(async ({ width: sourceWidth }) => {
-    const widths = [
-      ...VARIANT_WIDTHS.filter((width) => width < sourceWidth),
-      ...(sourceWidth < 1200 ? [sourceWidth] : []),
-    ].filter((width, index, values) => values.indexOf(width) === index);
     const variants = await Promise.all(
-      widths.map(async (width): Promise<ImageVariant | null> => {
+      variantWidths(sourceWidth).map(async (width): Promise<ImageVariant | null> => {
         const variantFile = variantPath(file, width);
         try {
           await stat(publicImagePath(variantFile));

@@ -344,13 +344,18 @@ Deviations from the plan above:
 
 - **Responsive WebP variants now ship through a dedicated pre-build step.**
   `scripts/build-image-variants.ts` uses Sharp with eight workers to generate
-  quality-78 WebPs at 480, 800 and 1200 px when those widths are smaller than
-  the source, plus a source-width WebP for photos narrower than 1200 px. The
+  quality-78 WebPs at every standard width (480, 800, 1200 px) the source
+  covers without upscaling, plus a source-width WebP for photos narrower than
+  1200 px (`variantWidths()` in `src/lib/imageVariants.ts`, shared by the
+  script and the page). The
   incremental output lives in gitignored `public/images/derived/`; static
   detail pages use it in `<picture>` while the original JPEG remains the
   `<img>` and `og:image` fallback. On this machine, a clean France run created
   1 230 files in 15.4 s (`npm run build`: 1m12.819s total); the warm step
-  skipped all 1 230 in 0.1 s (58.202s total).
+  skipped all 1 230 in 0.1 s (58.202s total). Locally the folder accumulates
+  the variants of every country built on the machine and `astro build` copies
+  all of them; CI builds each country from a fresh checkout, so a deployment
+  only carries its own.
 - Eighteen French venues carry no dated source; their sitemap `lastmod`
   falls back to the country's newest source date.
 
