@@ -155,7 +155,7 @@ export default function DetailContent({
           <div className={styles.actions}>
             {mapHref && (
               <a className={styles.actionPrimary} href={mapHref}>
-                {t('museum.back')}
+                {t('museum.seeOnMap')}
               </a>
             )}
             {museum.website && (
@@ -195,7 +195,7 @@ export default function DetailContent({
         </div>
       </header>
 
-      <div className={styles.actions} aria-label={t('filters.typeLabel')}>
+      <div className={styles.actions} aria-label={t('filters.freeType')}>
         {categories.map((category) => (
           <CategoryBadgeContent
             key={category}

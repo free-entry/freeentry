@@ -1,7 +1,7 @@
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
-import { formatOpeningHours } from '../src/lib/openingHours';
+import { formatOpeningHours, parseOpeningHours } from '../src/lib/openingHours';
 import type { Museum } from '@/lib/types';
 
 const museums = JSON.parse(
@@ -40,5 +40,35 @@ describe('formatOpeningHours', () => {
 
   it('falls back to the raw string when a rule is unparseable', () => {
     expect(formatOpeningHours('Tu-Su sunrise-sunset', 'fr', labelsFr)).toBe('Tu-Su sunrise-sunset');
+  });
+});
+
+describe('parseOpeningHours', () => {
+  it('expands day ranges and emits one specification per time range', () => {
+    const parsed = parseOpeningHours('Mo,We-Fr 10:00-13:00,14:00-18:00');
+    expect(parsed).toHaveLength(2);
+    expect(parsed?.[0]).toEqual({
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: [
+        'https://schema.org/Monday',
+        'https://schema.org/Wednesday',
+        'https://schema.org/Thursday',
+        'https://schema.org/Friday',
+      ],
+      opens: '10:00',
+      closes: '13:00',
+    });
+    expect(parsed?.[1]).toMatchObject({ opens: '14:00', closes: '18:00' });
+  });
+
+  it('skips public-holiday and closed rules', () => {
+    expect(parseOpeningHours('Mo-Sa 09:00-16:45; PH off')).toHaveLength(1);
+    expect(parseOpeningHours('Tu off; PH 10:00-12:00')).toEqual([]);
+  });
+
+  it('handles 24/7 and rejects month-limited or invalid strings', () => {
+    expect(parseOpeningHours('24/7')?.[0]).toMatchObject({ opens: '00:00', closes: '23:59' });
+    expect(parseOpeningHours('Apr-Sep Tu-Su 10:00-18:00')).toBeNull();
+    expect(parseOpeningHours('Tu-Su sunrise-sunset')).toBeNull();
   });
 });

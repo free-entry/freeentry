@@ -35,6 +35,89 @@ const MONTH_PART = `(${MONTHS.join('|')})(-(${MONTHS.join('|')}))?`;
 const MONTH_TOKEN = new RegExp(`^${MONTH_PART}(,${MONTH_PART})*$`);
 const TIME_TOKEN = /^\d{2}:\d{2}-\d{2}:\d{2}(,\d{2}:\d{2}-\d{2}:\d{2})*$/;
 
+export interface OpeningHoursSpecification {
+  '@type': 'OpeningHoursSpecification';
+  dayOfWeek: string[];
+  opens: string;
+  closes: string;
+}
+
+const SCHEMA_DAY: Record<(typeof DAYS)[number], string> = {
+  Mo: 'https://schema.org/Monday',
+  Tu: 'https://schema.org/Tuesday',
+  We: 'https://schema.org/Wednesday',
+  Th: 'https://schema.org/Thursday',
+  Fr: 'https://schema.org/Friday',
+  Sa: 'https://schema.org/Saturday',
+  Su: 'https://schema.org/Sunday',
+};
+
+function expandDayRange(start: (typeof DAYS)[number], end: (typeof DAYS)[number]): string[] {
+  const result: string[] = [];
+  let index = DAYS.indexOf(start);
+  const endIndex = DAYS.indexOf(end);
+  for (let count = 0; count < DAYS.length; count++) {
+    result.push(SCHEMA_DAY[DAYS[index]]);
+    if (index === endIndex) return result;
+    index = (index + 1) % DAYS.length;
+  }
+  return result;
+}
+
+function parseDays(spec: string): string[] | null {
+  if (!DAY_TOKEN.test(spec)) return null;
+  const days: string[] = [];
+  for (const part of spec.split(',')) {
+    if (part.includes('-')) {
+      const [start, end] = part.split('-') as [(typeof DAYS)[number], (typeof DAYS)[number]];
+      days.push(...expandDayRange(start, end));
+    } else {
+      days.push(SCHEMA_DAY[part as (typeof DAYS)[number]]);
+    }
+  }
+  return [...new Set(days)];
+}
+
+/** Convert the supported opening_hours subset into Schema.org specifications. */
+export function parseOpeningHours(raw: string): OpeningHoursSpecification[] | null {
+  const rules = raw.split(';').map((rule) => rule.trim()).filter(Boolean);
+  if (rules.length === 0) return null;
+
+  const specifications: OpeningHoursSpecification[] = [];
+  for (const rule of rules) {
+    if (rule === '24/7') {
+      specifications.push({
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: DAYS.map((day) => SCHEMA_DAY[day]),
+        opens: '00:00',
+        closes: '23:59',
+      });
+      continue;
+    }
+
+    const tokens = rule.split(/\s+/);
+    if (tokens.some((token) => MONTH_TOKEN.test(token))) return null;
+    if (tokens.includes('PH') || tokens.includes('off')) continue;
+    if (tokens.length !== 2 || !DAY_TOKEN.test(tokens[0]) || !TIME_TOKEN.test(tokens[1])) {
+      return null;
+    }
+
+    const dayOfWeek = parseDays(tokens[0]);
+    if (!dayOfWeek) return null;
+    for (const range of tokens[1].split(',')) {
+      const [opens, closes] = range.split('-');
+      specifications.push({
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek,
+        opens,
+        closes,
+      });
+    }
+  }
+
+  return specifications;
+}
+
 function renderDays(locale: string, spec: string, labels: HoursLabels): string {
   if (spec === 'PH') return labels.publicHolidays;
   return spec

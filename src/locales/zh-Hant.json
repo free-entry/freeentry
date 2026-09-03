@@ -1,4 +1,26 @@
 {
+  "country": {
+    "fr": "France",
+    "it": "Italy",
+    "be": "Belgium"
+  },
+  "hub": {
+    "browse": "Browse",
+    "home": "Home",
+    "allMuseums": "All free museums and monuments",
+    "byArea": "By area",
+    "byCity": "By city",
+    "byType": "By type of free admission",
+    "nearby": "More free museums nearby",
+    "moreIn": "All free museums in {{place}}",
+    "confirmedDates": "Confirmed dates",
+    "indexTitle": "All free museums and monuments in {{country}}",
+    "placeTitle": "Free museums and monuments in {{place}}",
+    "categoryTitle": "{{category}} — museums and monuments in {{country}}",
+    "metaIndex": "{{total}} museums and monuments you can visit for free in {{country}}, by area, city and type of free admission, with addresses and free-admission rules.",
+    "metaPlace": "{{total}} free museums and monuments in {{place}}: always free, first Sundays, special days — with addresses, opening days and free-admission rules.",
+    "metaCategory": "{{total}} museums and monuments in {{country}}: {{category}}. Addresses, free-admission rules and directions."
+  },
   "app": {
     "title": "免費博物館與古蹟 — 法國",
     "titleShort": "法國免費博物館",
@@ -75,6 +97,7 @@
     "sortedByName": "依名稱排序"
   },
   "museum": {
+    "seeOnMap": "See on the map",
     "freeAccessTitle": "免費入場",
     "nextFreeDate": "下一個免費日：{{date}}",
     "estimated": "預估",

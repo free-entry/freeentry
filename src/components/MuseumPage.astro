@@ -1,6 +1,7 @@
 ---
 import type { Museum } from '@/lib/types';
 import type { Locale } from '@/lib/i18n';
+import { COUNTRY } from '@/countries';
 import {
   createStaticI18n,
   getStaticMuseumContent,
@@ -22,8 +23,16 @@ const content = getStaticMuseumContent(museum.id, locale);
 const notes = getStaticNotes(locale);
 const seo = museumSeo(museum, content[museum.id], locale, i18n.t.bind(i18n));
 const baseUrl = import.meta.env.BASE_URL;
-const homeUrl = baseUrl;
-const mapUrl = `${baseUrl}?museum=${encodeURIComponent(museum.id)}`;
+const homeUrl = `${baseUrl}${locale === 'en' ? '' : `${locale}/`}`;
+const mapUrl = `${homeUrl}?museum=${encodeURIComponent(museum.id)}`;
+const ogImage = museum.image
+  ? {
+      url: `${COUNTRY.siteUrl}/${museum.image.file}`,
+      width: 1200,
+      height: 630,
+      alt: content[museum.id]?.name ?? museum.name,
+    }
+  : undefined;
 ---
 
 <BaseLayout
@@ -33,6 +42,7 @@ const mapUrl = `${baseUrl}?museum=${encodeURIComponent(museum.id)}`;
   canonicalPath={seo.canonicalPath}
   alternates={seo.alternates}
   ogType="place"
+  ogImage={ogImage}
   jsonLd={seo.jsonLd}
 >
   <main class="detailPage">

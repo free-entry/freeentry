@@ -2,7 +2,17 @@
 import '@fontsource-variable/jost';
 import '@/styles/global.css';
 import { COUNTRY } from '@/countries';
+import { brandString } from '@/lib/brand';
+import { normalizeLocale, type Locale } from '@/lib/i18n';
 import type { HreflangLink } from '@/lib/seo';
+import { createStaticI18n } from '@/lib/staticData';
+
+interface OgImage {
+  url: string;
+  width: number;
+  height: number;
+  alt: string;
+}
 
 interface Props {
   title?: string;
@@ -11,7 +21,8 @@ interface Props {
   canonicalPath?: string;
   alternates?: HreflangLink[];
   ogType?: string;
-  jsonLd?: Record<string, unknown>;
+  ogImage?: OgImage;
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
   noindex?: boolean;
 }
 
@@ -24,13 +35,36 @@ const {
   canonicalPath,
   alternates = [],
   ogType = 'website',
+  ogImage,
   jsonLd,
   noindex = false,
 } = Astro.props;
+const locale = normalizeLocale(lang) as Locale;
+const i18n = createStaticI18n(locale);
+const siteName = brandString(locale, 'titleShort', i18n.t('app.titleShort'));
 const iconDir = COUNTRY.code === 'fr' ? 'icons' : `icons-${COUNTRY.code}`;
 const base = import.meta.env.BASE_URL;
 const canonicalUrl = canonicalPath === undefined ? undefined : `${COUNTRY.siteUrl}${canonicalPath}`;
-const serializedJsonLd = jsonLd ? JSON.stringify(jsonLd).replace(/</g, '\\u003c') : undefined;
+const socialImage =
+  ogImage ?? {
+    url: `${COUNTRY.siteUrl}/${iconDir}/icon-512.png`,
+    width: 512,
+    height: 512,
+    alt: siteName,
+  };
+const ogLocales: Record<Locale, string> = {
+  en: 'en_US',
+  fr: 'fr_FR',
+  es: 'es_ES',
+  it: 'it_IT',
+  de: 'de_DE',
+  'zh-Hans': 'zh_CN',
+  'zh-Hant': 'zh_TW',
+  ja: 'ja_JP',
+  ko: 'ko_KR',
+  ar: 'ar_AR',
+};
+const jsonLdNodes = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
 ---
 
 <!doctype html>
@@ -39,7 +73,11 @@ const serializedJsonLd = jsonLd ? JSON.stringify(jsonLd).replace(/</g, '\\u003c'
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="description" content={description} />
-    {noindex && <meta name="robots" content="noindex" />}
+    {noindex ? (
+      <meta name="robots" content="noindex" />
+    ) : (
+      <meta name="robots" content="max-image-preview:large" />
+    )}
     <meta name="theme-color" content="#1266d3" />
     <link rel="icon" href={`${base}${iconDir}/icon.svg`} type="image/svg+xml" />
     <link rel="apple-touch-icon" href={`${base}${iconDir}/apple-touch-icon.png`} />
@@ -50,10 +88,27 @@ const serializedJsonLd = jsonLd ? JSON.stringify(jsonLd).replace(/</g, '\\u003c'
     <meta property="og:type" content={ogType} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
+    <meta property="og:site_name" content={siteName} />
+    <meta property="og:locale" content={ogLocales[locale]} />
+    {Object.entries(ogLocales)
+      .filter(([candidate]) => candidate !== locale)
+      .map(([, ogLocale]) => <meta property="og:locale:alternate" content={ogLocale} />)}
     {canonicalUrl && <meta property="og:url" content={canonicalUrl} />}
-    {serializedJsonLd && (
-      <script is:inline type="application/ld+json" set:html={serializedJsonLd} />
-    )}
+    <meta property="og:image" content={socialImage.url} />
+    <meta property="og:image:width" content={String(socialImage.width)} />
+    <meta property="og:image:height" content={String(socialImage.height)} />
+    <meta property="og:image:alt" content={socialImage.alt} />
+    <meta name="twitter:card" content={ogImage ? 'summary_large_image' : 'summary'} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={socialImage.url} />
+    {jsonLdNodes.map((node) => (
+      <script
+        is:inline
+        type="application/ld+json"
+        set:html={JSON.stringify(node).replace(/</g, '\\u003c')}
+      />
+    ))}
     <title>{title}</title>
   </head>
   <body>
