@@ -332,3 +332,24 @@ need any other string, add it the same way and list it in the report.
    `/museums/`, `/area/<slug>/` (curl the dev server and grep).
 10. `git status` clean except `cal.html`/`cd.html`; nothing under `data/`
     or `public/images/` changed.
+
+## Status (2026-09-03)
+
+Implemented on `astro-migration` in commits `b4b4d80` … `ddde54c` (Codex) and
+`50fd019` (translations of the 19 new keys, Workbox runtime-cache pattern
+anchored to the origin, nearby venues require the same admin area).
+Builds: fr 8 761 pages, it 5 081, be 2 501; 250 vitest tests.
+
+Deviations from the plan above:
+
+- **No responsive WebP variants.** Routing the 578 French photos through the
+  Astro image service pushed the France build past 90 s (vs ≈40 s), so the
+  header photo is the original JPEG as a real `<img>` (dimensions, localized
+  `alt`, `fetchpriority="high"`, `decoding="async"`). Revisit with a
+  pre-generated, gitignored variant set if LCP on mobile turns out to matter.
+- Eighteen French venues carry no dated source; their sitemap `lastmod`
+  falls back to the country's newest source date.
+
+Still manual (see `docs/DEPLOYMENT.md`): DNS + custom domain on the umbrella
+Pages repo, root `robots.txt` and `404.html` there, Search Console / Bing
+sitemap-index submission.
