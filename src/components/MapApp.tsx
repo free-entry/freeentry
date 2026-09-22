@@ -1,5 +1,6 @@
 import { StrictMode, useEffect, useState } from 'react';
 import App from '@/App';
+import MapLoading from './MapLoading';
 import i18n, {
   initI18n,
   localeFromPathname,
@@ -48,7 +49,12 @@ function redirectToDetectedLocale(): void {
 }
 
 /** Browser-only entry point for the existing interactive map application. */
-export default function MapApp({ initialLocale }: { initialLocale?: Locale }) {
+export default function MapApp({ initialLocale, loadingLabel, browseLabel, browseHref = `${BASE}museums/` }: {
+  initialLocale?: Locale;
+  loadingLabel?: string;
+  browseLabel?: string;
+  browseHref?: string;
+}) {
   const [ready, setReady] = useState(false);
 
   useEffect(() => {
@@ -66,7 +72,7 @@ export default function MapApp({ initialLocale }: { initialLocale?: Locale }) {
     });
   }, [initialLocale]);
 
-  if (!ready) return null;
+  if (!ready) return <MapLoading loadingLabel={loadingLabel} browseLabel={browseLabel} browseHref={browseHref} />;
   return (
     <StrictMode>
       <App />

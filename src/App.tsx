@@ -5,9 +5,9 @@ import Layout from './components/Layout';
 import NotFound from './components/NotFound';
 import i18n, { LOCALES, normalizeLocale, type Locale } from './lib/i18n';
 
-// BASE_URL is '/free-museums-france/' in every mode (see astro.config.mjs).
+// BASE_URL is the country path, e.g. '/france/' (see astro.config.mjs).
 // The trailing slash is kept on purpose: react-router maps the root route to
-// the bare basename, and the canonical home is '/free-museums-france/'.
+// the bare basename, and each country's canonical home keeps its trailing slash.
 const basename = import.meta.env.BASE_URL;
 
 /**

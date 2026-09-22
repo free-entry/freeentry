@@ -1,5 +1,6 @@
 import type { TFunction } from 'i18next';
 import { COUNTRY } from '@/countries';
+import { imageUrl } from './deployment';
 import { parseOpeningHours } from './openingHours';
 import { LOCALES, type Locale } from './i18n';
 import type { Museum, MuseumContent } from './types';
@@ -205,7 +206,7 @@ export function museumSeo(
   const openingHoursSpecification = museum.openingHours
     ? parseOpeningHours(museum.openingHours)
     : null;
-  const image = museum.image ? absoluteUrl(`/${museum.image.file}`) : undefined;
+  const image = museum.image ? imageUrl(museum.image.file, COUNTRY.siteUrl) : undefined;
   const trail = breadcrumbs ?? [
     { name: t('hub.home'), path: homePath(locale) },
     { name, path: canonicalPath },

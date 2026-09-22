@@ -1,121 +1,92 @@
 # Deployment
 
-The app is a fully static build served by GitHub Pages at
-`https://freeentry.org/free-museums-france` (the custom domain sits on the
-`travel-eu/travel-eu.github.io` site, so every project page serves under it;
-the old `travel-eu.github.io` URLs 301-redirect once the domain is configured).
+Free Entry runs on two Cloudflare Pages Free projects, both deployed from
+[`free-entry/freeentry`](https://github.com/free-entry/freeentry).
 
-Two repositories are involved:
+| Project | Address | Output |
+|---|---|---|
+| `freeentry` | `https://freeentry-bx9.pages.dev` | `dist-site/` |
+| `freeentry-images` | `https://freeentry-images.pages.dev` | `dist-images/` |
 
-| Repository | Role |
-|---|---|
-| `travel-eu/free-museums-france` | Source code + CI. Every push to `main` tests, builds and deploys. |
-| `travel-eu/travel-eu.github.io` | The GitHub Pages site. The build lands in its `free-museums-france/` directory. |
+Cloudflare assigned the main project a suffixed subdomain; its project name is
+still `freeentry`. Use the actual subdomain above for canonical URLs.
 
-## One-time setup
+The main site contains `/france/`, `/italy/` and `/belgium/`. English uses each
+country root; other languages follow it, e.g. `/france/fr/`. The root homepage
+redirects to France and links to every country. Static museum and directory
+pages work on direct visits, and the root 404 page handles unknown paths.
 
-1. **Create the organization** `travel-eu` on GitHub (Settings → Organizations →
-   New organization), if it does not exist yet.
+## Automatic deployment
 
-2. **Create the Pages repository** `travel-eu/travel-eu.github.io` (public).
-   Add any placeholder `index.html` at its root and enable GitHub Pages:
-   repo Settings → Pages → Source: *Deploy from a branch*, branch `main`, folder `/ (root)`.
+Pushes to `main` run tests and build all countries. GitHub Actions checks the
+Pages Free limits (20,000 files per project, 25 MiB per file), publishes the
+shared images, then publishes the website. Pull requests only test and build.
+Manual runs deploy only when started from `main` in `free-entry/freeentry`.
 
-3. **Create the source repository** `travel-eu/free-museums-france` (public) and
-   push this project:
+Configure these repository settings under Settings → Secrets and variables → Actions:
 
-   ```bash
-   git remote add origin git@github.com:travel-eu/free-museums-france.git
-   git push -u origin main
-   ```
+| Type | Name | Value |
+|---|---|---|
+| Secret | `CLOUDFLARE_API_TOKEN` | Cloudflare API token with Account → Cloudflare Pages → Edit, restricted to the hosting account |
+| Variable | `CLOUDFLARE_ACCOUNT_ID` | Hosting account ID |
+| Variable (optional) | `PUBLIC_SITE_URL` | Override the main origin in `config/deployment.json` |
+| Variable (optional) | `PUBLIC_IMAGE_BASE_URL` | Override the shared image origin |
 
-4. **Create the deploy token.** GitHub → Settings (your profile or the org) →
-   Developer settings → Personal access tokens → Fine-grained tokens → Generate:
-   - Resource owner: `travel-eu`
-   - Repository access: only `travel-eu/travel-eu.github.io`
-   - Permissions: **Contents: Read and write**
-   - Expiration: your choice (you will need to rotate it).
+The Pages projects use Direct Upload; GitHub Actions provides automatic
+publication. No Cloudflare GitHub App installation or GitHub Pages setup is
+needed. Keep the API token in GitHub Secrets, outside the repository.
 
-5. **Add the secret.** In `travel-eu/free-museums-france` → Settings → Secrets
-   and variables → Actions → New repository secret:
-   - Name: `DEPLOY_TOKEN`
-   - Value: the token from step 4.
-
-6. Push to `main` (or run the workflow manually via Actions → *Test, build and
-   deploy* → Run workflow). The site appears at
-   `https://travel-eu.github.io/free-museums-france/` after the Pages build.
-
-Without the secret, CI still runs tests and builds (useful for forks and PRs) —
-only the deploy step is skipped, with a notice in the log.
-
-## Refreshing the data
-
-Free-admission conditions change. Periodically run:
+## Local build and manual deployment
 
 ```bash
-npm run update-data          # fetches parisjetaime.com, rewrites data/museums.json
-npm run update-data -- --dry-run   # preview only
+bun install --frozen-lockfile
+bun run test
+bun run build:pages
 ```
 
-The script only touches rules whose provenance is parisjetaime.com; rules
-curated from official museum sites are left untouched. Review the printed diff,
-run `npm run test`, commit and push — CI redeploys automatically.
+The build uses the regular Astro `dist/` directory for each country so the PWA
+plugin writes the correct service worker. It assembles the country outputs in
+`dist-site/`, excludes all museum photos from that site, and copies one copy of
+each referenced JPEG and generated WebP to `dist-images/`. This stays below the
+free file limit without dropping languages or museum pages. Every build checks
+the final outputs and fails before publication if either limit is exceeded.
 
-Once a year (usually early in the year), confirm the next editions of the
-variable-date events and add them to `data/events.json`:
+Development (`bun run dev`) and single-country builds use local photos. The
+Pages build sets `PUBLIC_IMAGE_BASE_URL` for HTML images, responsive srcsets,
+React details, Open Graph images and structured data. The image site sends CORS
+headers, and the service worker can cache both JPEG and WebP museum photos.
 
-- Nuit européenne des musées — <https://nuitdesmusees.culture.gouv.fr>
-- Journées européennes du patrimoine — <https://journeesdupatrimoine.culture.gouv.fr>
+The interactive homepage shows a map-shaped loading screen while JavaScript
+loads; visitors without JavaScript receive the static museum directory.
 
-The update script warns when the coming year has no confirmed dates; until
-then the app shows estimated dates flagged as such.
+## Switch to freeentry.eu.org after approval
 
-## Custom domain — freeentry.org
+1. Keep the EU.org delegation to HE DNS until the domain application is approved.
+2. Add `freeentry.eu.org` to Cloudflare DNS and change its nameservers at EU.org
+   to the exact pair Cloudflare assigns. Wait for the zone to become active.
+3. Add `freeentry.eu.org` as a custom domain of the `freeentry` Pages project.
+4. Set the repository variable `PUBLIC_SITE_URL` to `https://freeentry.eu.org`
+   and rerun the workflow from `main`. Canonical, hreflang, Open Graph, JSON-LD
+   and sitemap URLs will use that origin on the next build.
+5. Optionally bind `images.freeentry.eu.org` to `freeentry-images`, then set
+   `PUBLIC_IMAGE_BASE_URL` to `https://images.freeentry.eu.org` and rebuild.
 
-The canonical domain is `freeentry.org`, configured once on the Pages site
-(not per project repo):
+Keep the Pages addresses working while DNS and certificates are being prepared.
+The custom domain does not need to be registered before deploying the website.
 
-1. **DNS** (at the registrar): apex `A` records to GitHub Pages —
-   `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
-   (and the matching `AAAA` records `2606:50c0:8000..8003::153`).
-2. **Pages settings** of `travel-eu/travel-eu.github.io`: set the custom
-   domain to `freeentry.org` and enable *Enforce HTTPS* once the Let's
-   Encrypt certificate is issued. All project pages then serve under
-   `https://freeentry.org/<repo>/`, and github.io URLs redirect.
-3. **Root robots.txt** in `travel-eu/travel-eu.github.io` should list every
-   deployment's sitemap (crawlers only read the domain root):
+## Search engines
 
-   ```
-   User-agent: *
-   Allow: /
+After binding the final domain, verify it in Google Search Console and Bing
+Webmaster Tools. Submit `/france/sitemap.xml`, `/italy/sitemap.xml` and
+`/belgium/sitemap.xml`. The root `robots.txt` lists all three sitemap indexes.
 
-   Sitemap: https://freeentry.org/free-museums-france/sitemap.xml
-   Sitemap: https://freeentry.org/free-museums-italy/sitemap.xml
-   Sitemap: https://freeentry.org/free-museums-belgium/sitemap.xml
-   ```
+## Refresh data
 
-If the domain ever changes, update `siteUrl` in `src/countries/*.ts` and the
-`DEPLOYMENTS` map in `astro.config.mjs` (the per-country `robots.txt` route
-follows `siteUrl` automatically).
+```bash
+bun run update-data --dry-run
+bun run update-data
+bun run test
+```
 
-## Umbrella 404 routing
-
-GitHub Pages uses only the root `404.html` from
-`travel-eu/travel-eu.github.io` for unknown URLs on `freeentry.org`. A
-`404.html` emitted inside `free-museums-france/`, `free-museums-italy/`, or
-`free-museums-belgium/` is not selected by Pages. Keep the umbrella 404 aware
-of all three project base paths so an unknown museum or localized app URL can
-boot the appropriate map shell.
-
-## Search engine webmaster setup
-
-Verify the domain property `freeentry.org` in both Google Search Console and
-Bing Webmaster Tools. Domain-property verification covers all three country
-paths. After verification, submit these sitemap index URLs in each service:
-
-- `https://freeentry.org/free-museums-france/sitemap.xml`
-- `https://freeentry.org/free-museums-italy/sitemap.xml`
-- `https://freeentry.org/free-museums-belgium/sitemap.xml`
-
-Each index links to ten locale sitemaps. Resubmit an index only when its URL
-changes; search engines will revisit it and its locale sitemaps automatically.
+Review the data changes before committing and pushing. See
+[DATA-UPDATE.md](DATA-UPDATE.md) for all country sources and maintenance steps.

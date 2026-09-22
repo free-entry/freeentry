@@ -1,4 +1,4 @@
-# Free Museums — France
+# Free Entry
 
 Interactive map PWA of every museum and monument you can visit for free — and
 exactly **when** and **how**: always free, free on the first Sunday of the month
@@ -7,7 +7,7 @@ free evenings, 14 July, the European Museum Night, the European Heritage Days,
 and under-26 (EU) free admission.
 
 France is the primary deployment; the same engine also ships Italian and Belgian
-datasets from `data/it/` and `data/be/` (`npm run dev:it`, `npm run dev:be`).
+datasets from `data/it/` and `data/be/` (`bun run dev:it`, `bun run dev:be`).
 
 The site is built with Astro 5. Each country build publishes crawlable static
 home, museum-detail, area, city, and free-admission-category pages in all ten
@@ -15,7 +15,7 @@ locales. The interactive React map is a client-only island on each locale home,
 and the generated service worker keeps the map app and previously visited pages
 available offline without precaching thousands of HTML documents.
 
-**Live app:** <https://freeentry.org/free-museums-france/>
+**Live app:** <https://freeentry-bx9.pages.dev/>
 
 ## Features
 
@@ -56,7 +56,7 @@ events (Museum Night, Heritage Days) use officially confirmed dates from
 [`data/fr/events.json`](data/fr/events.json), with clearly-flagged estimates
 beyond.
 
-**Refreshing:** `npm run update-data` re-scrapes the parisjetaime article and
+**Refreshing:** `bun run update-data` re-scrapes the parisjetaime article and
 updates only the rules that came from it (hand-curated rules are never
 touched), printing a reviewable diff. See
 [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md#refreshing-the-data).
@@ -67,23 +67,24 @@ touched), printing a reviewable diff. See
 ## Development
 
 ```bash
-npm install       # also copies the RTL text plugin into public/vendor/
-npm run dev       # http://localhost:5173/free-museums-france/
-npm run dev:it    # Italy at http://localhost:5173/free-museums-italy/
-npm run dev:be    # Belgium at http://localhost:5173/free-museums-belgium/
-npm run test      # vitest: rule engine, filters, scraper, dataset validation
-npm run images:variants # generate/update France responsive header WebPs
-npm run build     # Astro typecheck + France static build (dist/)
-npm run build:it  # Astro typecheck + Italy static build (dist/)
-npm run build:be  # Astro typecheck + Belgium static build (dist/)
-npm run preview   # serve the production build
+bun install --frozen-lockfile       # also copies the RTL text plugin into public/vendor/
+bun run dev       # http://localhost:4321/france/
+bun run dev:it    # Italy at http://localhost:4321/italy/
+bun run dev:be    # Belgium at http://localhost:4321/belgium/
+bun run test      # vitest: rule engine, filters, scraper, dataset validation
+bun run images:variants # generate/update France responsive header WebPs
+bun run build     # Astro typecheck + France static build (dist/)
+bun run build:it  # Astro typecheck + Italy static build (dist/)
+bun run build:be  # Astro typecheck + Belgium static build (dist/)
+bun run build:pages # all countries + shared images (dist-site/, dist-images/)
+bun run preview   # serve the production build
 ```
 
 Each production build runs the image-variant step for its `COUNTRY`
 automatically. Its incremental output is gitignored; development also works
 without it and falls back to the original JPEGs.
 
-Requires Node 20+ (CI uses 24). No API keys — map tiles are served by
+Requires Node 20+ (CI uses 24) and Bun 1.4.2 for dependency management. No API keys — map tiles are served by
 [OpenFreeMap](https://openfreemap.org/), free for production use.
 
 ### Project layout
@@ -107,12 +108,12 @@ tests/             vitest suites, incl. dataset & locale integrity checks
 - Museum content: `data/<country>/i18n/museums.<locale>.json` — add a `name` only where
   an established localized name exists; the French original is always shown.
 - Free-admission corrections: edit `data/<country>/museums.json` and include the official
-  `source.url`; run `npm run test`.
+  `source.url`; run `bun run test`.
 
 ## Deployment
 
 Pushes to `main` test, build and deploy to
-`travel-eu/travel-eu.github.io/free-museums-france/` via GitHub Actions — setup
+`freeentry-bx9.pages.dev` from `free-entry/freeentry` via GitHub Actions and Cloudflare Pages — setup
 in [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md).
 
 ## Attribution

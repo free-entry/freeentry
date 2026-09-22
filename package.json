@@ -1,12 +1,13 @@
 {
-  "name": "free-museums-france",
+  "name": "freeentry",
+  "packageManager": "bun@1.4.2",
   "version": "1.0.0",
   "description": "Map PWA of free museums and monuments in France, Italy and Belgium",
   "license": "MIT",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/travel-eu/free-museums-france.git"
+    "url": "https://github.com/free-entry/freeentry.git"
   },
   "scripts": {
     "dev": "astro dev",
@@ -15,6 +16,7 @@
     "build": "astro check && tsx scripts/build-image-variants.ts && astro build",
     "build:it": "COUNTRY=it astro check && COUNTRY=it tsx scripts/build-image-variants.ts && COUNTRY=it astro build",
     "build:be": "COUNTRY=be astro check && COUNTRY=be tsx scripts/build-image-variants.ts && COUNTRY=be astro build",
+    "build:pages": "tsx scripts/build-pages.ts",
     "preview": "astro preview",
     "test": "vitest run",
     "test:watch": "vitest",
@@ -23,14 +25,14 @@
     "update:rules": "tsx scripts/update-parisjetaime.ts",
     "update:wikidata": "tsx scripts/enrich-wikidata.ts",
     "update:images": "tsx scripts/enrich-images.ts",
-    "update:all": "npm run update:rules && npm run update:wikidata && tsx scripts/check-wikidata.ts --write && npm run update:images && tsx scripts/check-datagouv.ts --write && npm run check:freshness",
+    "update:all": "bun run update:rules && bun run update:wikidata && tsx scripts/check-wikidata.ts --write && bun run update:images && tsx scripts/check-datagouv.ts --write && bun run check:freshness",
     "check:freshness": "tsx scripts/check-freshness.ts",
     "check:wikidata": "tsx scripts/check-wikidata.ts",
     "check:images": "tsx scripts/check-images.ts",
     "check:datagouv": "tsx scripts/check-datagouv.ts",
     "check:osm-hours": "tsx scripts/check-osm-hours.ts",
     "check:cmn": "tsx scripts/check-cmn.ts",
-    "check:data": "npm run check:freshness && npm run check:wikidata && npm run check:images && npm run check:datagouv",
+    "check:data": "bun run check:freshness && bun run check:wikidata && bun run check:images && bun run check:datagouv",
     "icons": "tsx scripts/generate-icons.ts",
     "images:variants": "tsx scripts/build-image-variants.ts"
   },

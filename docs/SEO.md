@@ -1,3 +1,5 @@
+> Deployment update (2026-09-22): the current origin is `https://freeentry-bx9.pages.dev`. The final `freeentry.eu.org` domain is pending approval. See [DEPLOYMENT.md](DEPLOYMENT.md) for the current Cloudflare Pages workflow; GitHub Pages references below describe the original migration plan.
+
 # SEO plan — static hub pages, locale home pages, head/URL hygiene
 
 Binding plan for the SEO pass on top of the Astro migration
@@ -42,9 +44,9 @@ Binding plan for the SEO pass on top of the Astro migration
   the *identical English text* into the other nine locale files as
   placeholders (the parity test requires it). A separate translation pass
   replaces the placeholders; list every new key in your final report.
-- All existing vitest tests pass unchanged (`npx vitest run`, 232 today). Add
+- All existing vitest tests pass unchanged (`bun run vitest run`, 232 today). Add
   tests for new pure helpers.
-- Three builds keep working: `npm run build`, `build:it`, `build:be`.
+- Three builds keep working: `bun run build`, `build:it`, `build:be`.
 - Keep the SPA behavior (map, filters, panel, offline) working; it is the
   product. SEO pages are additive.
 - Commit in logical steps (`feat:`/`fix:`/`chore:`/`docs:`), do not push.
@@ -300,16 +302,16 @@ need any other string, add it the same way and list it in the report.
   layout (`src/pages`, `src/layouts`, `scripts/prerender.ts` is gone).
 - `docs/DEPLOYMENT.md`: note that GitHub Pages only serves the **root**
   `404.html` of the umbrella site (per-project `404.html` is not used) and
-  the Search Console / Bing Webmaster steps: verify `freeentry.org`, submit
+  the Search Console / Bing Webmaster steps: verify `freeentry.eu.org`, submit
   the three `sitemap.xml` index URLs.
 
 ## Acceptance checklist — verify every item before declaring done
 
-1. `npx vitest run`: all existing tests pass; new tests for `slugify`/hub
+1. `bun run vitest run`: all existing tests pass; new tests for `slugify`/hub
    index uniqueness, `nearbyMuseums`, `parseOpeningHours`, sitemap builder,
    `detailPath`/`homePath`/`hubPath` forms, `museumSeo` title/description
    truncation.
-2. `npm run build`, `build:it`, `build:be` succeed. Report page counts per
+2. `bun run build`, `build:it`, `build:be` succeed. Report page counts per
    route kind per country.
 3. In fr dist: `museum/<id>/index.html` for 3 sample ids contains `<img`
    with `alt`, a breadcrumb, the nearby section with ≥3 internal links, a
@@ -328,7 +330,7 @@ need any other string, add it the same way and list it in the report.
 8. No baked dates in any static HTML (`grep -rL` for "Free today"/"Next free
    day" strings across locales is a good proxy; the date island stays empty
    server-side).
-9. `npm run dev` serves `/`, `/fr/`, `/museum/<id>/`, `/fr/museum/<id>/`,
+9. `bun run dev` serves `/`, `/fr/`, `/museum/<id>/`, `/fr/museum/<id>/`,
    `/museums/`, `/area/<slug>/` (curl the dev server and grep).
 10. `git status` clean except `cal.html`/`cd.html`; nothing under `data/`
     or `public/images/` changed.
@@ -370,7 +372,7 @@ stay English. The language switcher awaits `changeLanguage` and then
 navigates to the same page under the new prefix, reading `window.location`
 for search/hash because filters and the map write the URL with
 `replaceState`, which react-router never observes. The router `basename`
-keeps its trailing slash so the root route is `/free-museums-france/`, not
+keeps its trailing slash so the root route is `/france/`, not
 the bare basename.
 
 Still manual (see `docs/DEPLOYMENT.md`): DNS + custom domain on the umbrella

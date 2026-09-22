@@ -38,6 +38,14 @@
           "url": "https://www.beaulieu-en-rouergue.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.beaulieu-en-rouergue.fr/agenda/journees-europeennes-du-patrimoine",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "wikidata": "Q1137826",
@@ -88,6 +96,14 @@
         "source": {
           "url": "https://www.abbaye-charroux.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.abbaye-charroux.fr/agenda/journees-europeennes-du-patrimoine2",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -146,8 +162,8 @@
         "kind": "event",
         "event": "heritage-days",
         "source": {
-          "url": "https://www.cluny-abbaye.fr/visiter/informations-pratiques",
-          "checkedAt": "2026-08-06"
+          "url": "https://www.cluny-abbaye.fr/agenda/journees-europeennes-du-patrimoine",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -245,6 +261,14 @@
           "url": "https://www.abbaye-la-sauve-majeure.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.abbaye-la-sauve-majeure.fr/agenda/journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "wikidata": "Q333984",
@@ -295,6 +319,14 @@
         "source": {
           "url": "https://www.abbaye-montmajour.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://tickets.monuments-nationaux.fr/fr-FR/conditions-de-gratuite",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -358,6 +390,14 @@
           "url": "https://www.bec-hellouin.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://tickets.monuments-nationaux.fr/fr-FR/conditions-de-gratuite",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "wikidata": "Q32989",
@@ -414,8 +454,8 @@
         "kind": "event",
         "event": "heritage-days",
         "source": {
-          "url": "https://www.abbaye-mont-saint-michel.fr/visiter/informations-pratiques",
-          "checkedAt": "2026-08-06"
+          "url": "https://www.abbaye-mont-saint-michel.fr/agenda/journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -467,6 +507,14 @@
         "source": {
           "url": "https://www.le-thoronet.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.le-thoronet.fr/agenda/programmation-2026/journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -568,7 +616,16 @@
     "tags": [
       "monument"
     ],
-    "freeAccess": [],
+    "freeAccess": [
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.menhirs-carnac.fr/agenda/les-journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
+        }
+      }
+    ],
     "wikidata": "Q833850",
     "note": "The footpaths around the alignments are free year-round, and some sites offer free self-guided visits from October to March; in season, access is by paid guided tour.",
     "image": {
@@ -788,6 +845,14 @@
         "source": {
           "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.paris-arc-de-triomphe.fr/agenda/journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -1134,6 +1199,14 @@
           "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-04"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.saint-denis-basilique.fr/agenda/journees-europeennes-du-patrimoine",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/basilique-cathedrale-de-saint-denis-p3579",
@@ -1390,6 +1463,15 @@
           "checkedAt": "2026-08-06"
         },
         "noteReplacesSentence": true
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "note": "Free admission is subject to capacity; advance booking is strongly recommended but not required.",
+        "source": {
+          "url": "https://www.pinaultcollection.com/fr/boursedecommerce/journees-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/bourse-de-commerce-pinault-collection-p3638",
@@ -1509,6 +1591,14 @@
         "source": {
           "url": "https://www.barnenez.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.barnenez.fr/agenda/journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -1687,6 +1777,16 @@
           "url": "https://www.horloge-astronomique-besancon.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "reservationRequired": true,
+        "reservationUrl": "https://tickets.monuments-nationaux.fr/fr-FR/produits-seances?famille=2319581362060400766&site=2310558581030401373",
+        "source": {
+          "url": "https://www.horloge-astronomique-besancon.fr/agenda/journees-europeennes-du-patrimoine",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "wikidata": "Q751968",
@@ -1744,8 +1844,8 @@
         "kind": "event",
         "event": "heritage-days",
         "source": {
-          "url": "https://www.chartres-cathedrale.fr/visiter/informations-pratiques",
-          "checkedAt": "2026-08-06"
+          "url": "https://www.chartres.fr/journees-europeennes-patrimoine",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -2092,6 +2192,14 @@
           "url": "https://www.chapelle-des-moines.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.chapelle-des-moines.fr/agenda/journees-europeennes-du-patrimoine",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "wikidata": "Q1062714",
@@ -2138,6 +2246,14 @@
         "source": {
           "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.chapelle-expiatoire-paris.fr/agenda/journees-europeennes-du-patrimoine4",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -2260,8 +2376,8 @@
         "kind": "event",
         "event": "heritage-days",
         "source": {
-          "url": "https://www.chateau-angers.fr/visiter/informations-pratiques",
-          "checkedAt": "2026-08-06"
+          "url": "https://www.chateau-angers.fr/agenda/journees-europeennes-du-patrimoine",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -2313,6 +2429,14 @@
         "source": {
           "url": "https://www.chateau-assier.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.chateau-assier.fr/agenda/journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -2366,6 +2490,14 @@
           "url": "https://www.chateau-aulteribe.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.chateau-aulteribe.fr/agenda/journees-europeennes-du-patrimoine",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "wikidata": "Q2744194",
@@ -2418,6 +2550,14 @@
           "url": "https://www.azay-le-rideau.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.azay-le-rideau.fr/agenda/agenda-2026/journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "wikidata": "Q113389",
@@ -2469,6 +2609,14 @@
           "url": "https://www.chateau-if.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://tickets.monuments-nationaux.fr/fr-FR/conditions-de-gratuite",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "wikidata": "Q622500",
@@ -2519,6 +2667,14 @@
         "source": {
           "url": "https://www.chateau-oiron.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://tickets.monuments-nationaux.fr/fr-FR/conditions-de-gratuite",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -2607,6 +2763,14 @@
           "url": "https://www.chateau-bouges.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.chateau-bouges.fr/agenda/journees-europeennes-du-patrimoine3",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "wikidata": "Q2409187",
@@ -2658,6 +2822,14 @@
         "source": {
           "url": "https://www.chateau-bussy-rabutin.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.chateau-bussy-rabutin.fr/agenda/journees-europeennes-du-patrimoine",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -2715,8 +2887,8 @@
         "kind": "event",
         "event": "heritage-days",
         "source": {
-          "url": "https://www.chateau-carrouges.fr/visiter/informations-pratiques",
-          "checkedAt": "2026-08-06"
+          "url": "https://www.chateau-carrouges.fr/agenda/journees-europeennes-du-patrimoine",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -2774,8 +2946,8 @@
         "kind": "event",
         "event": "heritage-days",
         "source": {
-          "url": "https://www.castelnau-bretenoux.fr/visiter/informations-pratiques",
-          "checkedAt": "2026-08-06"
+          "url": "https://www.castelnau-bretenoux.fr/agenda/journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -2845,6 +3017,14 @@
           "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-04"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.chateau-champs-sur-marne.fr/agenda/journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/chateau-de-champs-sur-marne-p3558",
@@ -2885,6 +3065,14 @@
         "source": {
           "url": "https://www.chareil-cintrat.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.chareil-cintrat.fr/agenda/journees-europeennes-du-patrimoine",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -2937,6 +3125,14 @@
         "source": {
           "url": "https://www.chateau-chateaudun.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.chateau-chateaudun.fr/agenda/journees-europeennes-du-patrimoine3",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -3035,6 +3231,14 @@
           "url": "https://www.chateau-coucy.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.chateau-coucy.fr/agenda/journees-europeennes-du-patrimoine",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "wikidata": "Q576534",
@@ -3084,6 +3288,14 @@
         "source": {
           "url": "https://www.fougeres-sur-bievre.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.fougeres-sur-bievre.fr/agenda/journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -3135,6 +3347,14 @@
           "url": "https://www.chateau-gramont.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.chateau-gramont.fr/agenda/journees-europeennes-du-patrimoine",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "wikidata": "Q2969342",
@@ -3185,6 +3405,14 @@
         "source": {
           "url": "https://www.chateau-la-motte-tilly.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.chateau-la-motte-tilly.fr/agenda/journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -3292,6 +3520,14 @@
           "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-04"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.chateau-maisons.fr/agenda/journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/chateau-de-maisons-p3497",
@@ -3354,8 +3590,8 @@
         "kind": "event",
         "event": "heritage-days",
         "source": {
-          "url": "https://www.chateau-montal.fr/visiter/informations-pratiques",
-          "checkedAt": "2026-08-06"
+          "url": "https://www.chateau-montal.fr/agenda/journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -3407,6 +3643,14 @@
         "source": {
           "url": "https://www.chateau-pierrefonds.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.chateau-pierrefonds.fr/agenda/journees-europeennes-du-patrimoine2",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -3464,8 +3708,8 @@
         "kind": "event",
         "event": "heritage-days",
         "source": {
-          "url": "https://www.chateau-puyguilhem.fr/visiter/informations-pratiques",
-          "checkedAt": "2026-08-06"
+          "url": "https://www.chateau-puyguilhem.fr/agenda/journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -3535,6 +3779,14 @@
           "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-04"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.chateau-rambouillet.fr/agenda/rentree-2026/la-rentree-au-chateau/journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/chateau-de-rambouillet-p3505",
@@ -3579,6 +3831,14 @@
           "url": "https://domaine-de-sceaux.hauts-de-seine.fr/preparez-votre-visite/informations-pratiques/tarifs/billetterie",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://domaine-de-sceaux.hauts-de-seine.fr/journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "wikidata": "Q1579344",
@@ -3614,6 +3874,14 @@
         "source": {
           "url": "https://www.chateau-talcy.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.chateau-talcy.fr/agenda/journees-europeennes-du-patrimoine2",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -3711,6 +3979,14 @@
         "source": {
           "url": "https://www.chateau-villeneuve-lembron.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.chateau-villeneuve-lembron.fr/agenda/journees-europeennes-du-patrimoine",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -3817,6 +4093,14 @@
           "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-04"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.chateau-de-vincennes.fr/agenda/tout-public/journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/chateau-de-vincennes-p3493",
@@ -3873,6 +4157,14 @@
         "source": {
           "url": "https://www.chateau-ferney-voltaire.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.chateau-ferney-voltaire.fr/agenda/journees-europeennes-du-patrimoine2",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -4020,6 +4312,14 @@
           "url": "https://www.chateau-cadillac.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.chateau-cadillac.fr/agenda/journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "wikidata": "Q2968730",
@@ -4076,8 +4376,8 @@
         "kind": "event",
         "event": "heritage-days",
         "source": {
-          "url": "https://www.remparts-carcassonne.fr/visiter/informations-pratiques",
-          "checkedAt": "2026-08-06"
+          "url": "https://www.remparts-carcassonne.fr/agenda/journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -4356,6 +4656,14 @@
           "url": "https://www.cite-langue-francaise.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.cite-langue-francaise.fr/agenda/journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "wikidata": "Q118368023",
@@ -4441,6 +4749,14 @@
           "url": "https://www.cloitre-frejus.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.cloitre-frejus.fr/agenda/agenda-2026/journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "wikidata": "Q1135277",
@@ -4491,6 +4807,14 @@
         "source": {
           "url": "https://www.cloitre-de-la-psalette.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.cloitre-de-la-psalette.fr/agenda/2026/journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -4564,6 +4888,14 @@
           "url": "https://www.colonne-grande-armee.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.colonne-grande-armee.fr/agenda/journees-europeennes-du-patrimoine-2026-a-la-colonne",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "wikidata": "Q2782334",
@@ -4624,6 +4956,15 @@
         "source": {
           "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "note": "Histopad devices are not issued during Heritage Days.",
+        "source": {
+          "url": "https://www.paris-conciergerie.fr/agenda/les-journees-europeennes-du-patrimoine-a-la-conciergerie",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -4763,6 +5104,14 @@
         "source": {
           "url": "https://www.bourges-cathedrale.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.bourges-cathedrale.fr/agenda/journees-europeennes-du-patrimoine3",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -5203,6 +5552,14 @@
           "url": "https://www.cathedrale-puy-en-velay.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://tickets.monuments-nationaux.fr/fr-FR/conditions-de-gratuite",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "wikidata": "Q1537302",
@@ -5253,6 +5610,14 @@
         "source": {
           "url": "https://www.enserune.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.enserune.fr/agenda/journees-europeennes-du-patrimoine",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -5372,7 +5737,7 @@
         "event": "heritage-days",
         "source": {
           "url": "https://www.versailles.fr/188/culture/espace-richaud.htm",
-          "checkedAt": "2026-08-04"
+          "checkedAt": "2026-09-18"
         }
       },
       {
@@ -5785,6 +6150,14 @@
           "url": "https://www.fort-saint-andre.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://tickets.monuments-nationaux.fr/fr-FR/conditions-de-gratuite",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "wikidata": "Q3078019",
@@ -5835,6 +6208,14 @@
         "source": {
           "url": "https://www.forteresse-salses.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.forteresse-salses.fr/agenda/les-journees-europeennes-du-patrimoine",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -6199,6 +6580,14 @@
           "url": "https://www.pair-non-pair.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://tickets.monuments-nationaux.fr/fr-FR/conditions-de-gratuite",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "wikidata": "Q1643799",
@@ -6336,6 +6725,15 @@
           "url": "https://www.hotel-de-la-marine.paris/",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "note": "The Intendants' Apartments route requires advance booking; the Al Thani Collection is available without booking, subject to capacity.",
+        "source": {
+          "url": "https://www.hotel-de-la-marine.paris/agenda/journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/hotel-de-la-marine-p3647",
@@ -6376,6 +6774,14 @@
         "source": {
           "url": "https://www.hotel-de-sade.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.hotel-de-sade.fr/agenda/journees-europeennes-du-patrimoine",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -7937,6 +8343,14 @@
           "url": "https://www.maison-ernest-renan.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.maison-ernest-renan.fr/agenda/journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "wikidata": "Q3329144",
@@ -8076,7 +8490,7 @@
         "event": "heritage-days",
         "source": {
           "url": "https://vallee-aux-loups.hauts-de-seine.fr/infos-pratiques/horaires-tarifs/22-tarifs",
-          "checkedAt": "2026-08-04"
+          "checkedAt": "2026-09-18"
         }
       },
       {
@@ -8294,6 +8708,14 @@
           "url": "https://www.maison-george-sand.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.maison-george-sand.fr/agenda/journees-europeennes-du-patrimoine3",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "wikidata": "Q1885888",
@@ -8344,6 +8766,14 @@
         "source": {
           "url": "https://www.maison-de-clemenceau.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.maison-de-clemenceau.fr/agenda/journees-europeennes-du-patrimoine2",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -8606,6 +9036,14 @@
         "source": {
           "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.maison-des-jardies.fr/agenda/visite-libre-journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -9382,6 +9820,14 @@
           "url": "https://www.monastere-saorge.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.monastere-saorge.fr/agenda/journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "wikidata": "Q15952778",
@@ -9433,6 +9879,14 @@
         "source": {
           "url": "https://www.monastere-de-brou.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.monastere-de-brou.fr/agenda/permanent/journees-europeennes-du-patrimoine",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -10043,7 +10497,7 @@
         "event": "heritage-days",
         "source": {
           "url": "https://musee-archeologique-valdoise.fr/evenements/journees-europeennes-du-patrimoine/",
-          "checkedAt": "2026-08-06"
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -13866,6 +14320,14 @@
           "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-04"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.musee-moyenage.fr/en-ce-moment/journees-europeennes-du-patrimoine",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-cluny-musee-national-du-moyen-age-p3555",
@@ -14197,6 +14659,14 @@
           "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-04"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.musee-armee.fr/au-programme/evenements/detail/journees-europeennes-du-patrimoine-2026.html",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-de-l-armee-invalides-p3587",
@@ -14358,8 +14828,8 @@
         "event": "heritage-days",
         "note": "During Heritage Days, guided tours of the buildings, chapel and collections are included for free; at other times, exhibitions use pay-what-you-choose tickets (2, 5 or 10 EUR).",
         "source": {
-          "url": "https://beauxartsparis.fr/en/evenement/journees-europeennes-du-patrimoine-2025",
-          "checkedAt": "2026-08-06"
+          "url": "https://beauxartsparis.fr/fr/evenement/journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -15462,6 +15932,15 @@
           "url": "https://www.museedelagrandeguerre.com/preparer-sa-visite/informations-pratiques/",
           "checkedAt": "2026-08-04"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "note": "General museum admission is free; some guided activities require advance booking.",
+        "source": {
+          "url": "https://www.museedelagrandeguerre.com/programmes/evenements/journees-europeennes-du-patrimoine/",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "wikidata": "Q611062",
@@ -15527,8 +16006,8 @@
         "event": "heritage-days",
         "note": "Outside Heritage Days, visits are guided-tour only, with mandatory online reservation, at 7 EUR.",
         "source": {
-          "url": "https://gldf.org/culture-et-patrimoine/journees-europeennes-du-patrimoine-2023/lhotel-de-la-rue-puteaux/historique-des-locaux.html",
-          "checkedAt": "2026-08-06"
+          "url": "https://journeesdupatrimoine.culture.gouv.fr/w/391796/evenement/19862179/visite-du-siege-de-la-grande-loge-de-france",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -16183,6 +16662,14 @@
           "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-04"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://musee-renaissance.fr/agenda/evenement/journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-de-la-renaissance-chateau-d-ecouen-p1000",
@@ -16392,7 +16879,7 @@
         "note": "The museum is normally closed in September but opens specially for Heritage Days.",
         "source": {
           "url": "https://www.musee-resistance.com/votre-visite/tarifs-et-reservations/",
-          "checkedAt": "2026-08-06"
+          "checkedAt": "2026-09-18"
         }
       },
       {
@@ -16515,7 +17002,7 @@
         "event": "heritage-days",
         "source": {
           "url": "https://www.museedelatoiledejouy.fr/journees-europeennes-du-patrimoine/",
-          "checkedAt": "2026-08-06"
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -18264,6 +18751,14 @@
           "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-04"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.arts-et-metiers.net/musee/les-journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-des-arts-et-metiers-p3596",
@@ -19156,6 +19651,14 @@
           "url": "https://www.mba-lyon.fr/fr/article/informations-pratiques",
           "checkedAt": "2026-08-07"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.mba-lyon.fr/fr/fiche-programmation/journees-europeennes-du-patrimoine",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "image": {
@@ -19840,6 +20343,14 @@
         "source": {
           "url": "https://www.mucem.org/infos-pratiques/",
           "checkedAt": "2026-08-07"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://mucem.org/evenement/journees-europeennes-du-patrimoine-2026/",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -20626,8 +21137,8 @@
         "kind": "event",
         "event": "heritage-days",
         "source": {
-          "url": "https://amtuir.org/",
-          "checkedAt": "2026-08-06"
+          "url": "https://amtuir.org/journees-europeennes-du-patrimoine-2026-19-20-09-2026/",
+          "checkedAt": "2026-09-18"
         }
       },
       {
@@ -20797,8 +21308,8 @@
         "kind": "event",
         "event": "heritage-days",
         "source": {
-          "url": "https://chateau.dourdan.fr/preparer-ma-visite/infos-pratiques/",
-          "checkedAt": "2026-08-06"
+          "url": "https://chateau.dourdan.fr/saison-culturelle-2026/",
+          "checkedAt": "2026-09-18"
         }
       },
       {
@@ -21113,8 +21624,8 @@
         "kind": "event",
         "event": "heritage-days",
         "source": {
-          "url": "https://musee-domaine-marly.fr/journees-europeennes-du-patrimoine-samedi-21-et-dimanche-22-septembre-2024/",
-          "checkedAt": "2026-08-06"
+          "url": "https://musee-domaine-marly.fr/journees-europeennes-du-patrimoine-2026/",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -22823,6 +23334,15 @@
           "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-04"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "note": "Free admission is subject to capacity; advance booking is strongly recommended but not required.",
+        "source": {
+          "url": "https://musee-moreau.fr/musees-napoleonien-africain/fr/agenda/event/journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-national-gustave-moreau-p1087",
@@ -23703,8 +24223,8 @@
         "kind": "event",
         "event": "heritage-days",
         "source": {
-          "url": "https://www.ville-montmorency.fr/ma-ville/jep-montmorency-un-patrimoine-monumental",
-          "checkedAt": "2026-08-06"
+          "url": "https://www.ville-montmorency.fr/node/2628/latest",
+          "checkedAt": "2026-09-18"
         }
       },
       {
@@ -25289,6 +25809,14 @@
           "url": "https://www.musee-douanes.fr/venir-au-musee/",
           "checkedAt": "2026-08-07"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.musee-douanes.fr/journees-europeennes-du-patrimoine-2/",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "image": {
@@ -26418,6 +26946,14 @@
           "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-04"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.meudon.musee-rodin.fr/musee/agenda/journees-europeennes-du-patrimoine-2026-au-musee-rodin-meudon",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/musee-rodin-meudon-p1559",
@@ -27028,6 +27564,15 @@
         "source": {
           "url": "https://www.musee-toulouse-lautrec.com/preparer-sa-visite/tarifs/",
           "checkedAt": "2026-08-07"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "note": "General museum admission is free; some guided activities require advance booking.",
+        "source": {
+          "url": "https://www.info.gouv.fr/actualite/les-journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -28641,7 +29186,8 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palais_du_Tau_in_Reims_(7).jpg",
       "wikimediaFile": "File:Palais du Tau in Reims (7).jpg"
     },
-    "wikipedia": "https://fr.wikipedia.org/wiki/Palais_du_Tau_(Reims)"
+    "wikipedia": "https://fr.wikipedia.org/wiki/Palais_du_Tau_(Reims)",
+    "closedUntil": "2027"
   },
   {
     "id": "palais-galliera-musee-de-la-mode-et-de-la-ville-de-paris",
@@ -28710,6 +29256,14 @@
         "source": {
           "url": "https://www.palais-jacques-coeur.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.palais-jacques-coeur.fr/agenda/journees-europeennes-du-patrimoine3",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -28807,6 +29361,14 @@
         "source": {
           "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-04"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.paris-pantheon.fr/agenda/journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -29129,6 +29691,14 @@
           "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-04"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.sainte-chapelle.fr/agenda/les-journees-europeennes-du-patrimoine-a-la-sainte-chapelle",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/sainte-chapelle-p3556",
@@ -29212,6 +29782,14 @@
           "url": "https://www.site-glanum.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.site-glanum.fr/agenda/journees-europeennes-du-patrimoine",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "wikidata": "Q674543",
@@ -29294,8 +29872,8 @@
         "kind": "event",
         "event": "heritage-days",
         "source": {
-          "url": "https://www.site-megalithique-locmariaquer.fr/visiter/informations-pratiques",
-          "checkedAt": "2026-08-06"
+          "url": "https://www.site-megalithique-locmariaquer.fr/agenda/les-journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -29347,6 +29925,14 @@
         "source": {
           "url": "https://www.site-galloromain-de-sanxay.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.site-galloromain-de-sanxay.fr/agenda/journees-europeennes-du-patrimoine",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -29464,6 +30050,14 @@
           "url": "https://www.montmaurin-archeo.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.montmaurin-archeo.fr/agenda/journees-europeennes-du-patrimoine",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "wikidata": "Q3558912",
@@ -29514,6 +30108,14 @@
         "source": {
           "url": "https://www.sites-les-eyzies.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://tickets.monuments-nationaux.fr/fr-FR/conditions-de-gratuite",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -29603,6 +30205,14 @@
           "url": "https://www.pey-berland.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.pey-berland.fr/agenda/journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "wikidata": "Q954262",
@@ -29650,6 +30260,14 @@
         "source": {
           "url": "https://www.cathedrale-reims.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.cathedrale-reims.fr/agenda/journees-europeennes-du-patrimoine",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -29702,6 +30320,14 @@
         "source": {
           "url": "https://www.tours-la-rochelle.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.tours-la-rochelle.fr/agenda/presentation-du-chantier-de-la-tour-saint-nicolas",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -29760,6 +30386,14 @@
           "url": "https://www.tours-notre-dame-de-paris.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.tours-notre-dame-de-paris.fr/agenda/les-journees-europeennes-du-patrimoine-aux-tours-de-notre-dame",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/tours-de-notre-dame-de-paris-p3540",
@@ -29807,6 +30441,14 @@
         "source": {
           "url": "https://www.aigues-mortes-monument.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.aigues-mortes-monument.fr/agenda/journees-europeennes-du-patrimoine-2026-700-ans-d-histoire-a-re-decouvrir",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -29858,6 +30500,14 @@
           "url": "https://www.cathedrale-amiens.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.cathedrale-amiens.fr/agenda/journees-europeennes-du-patrimoine-2026-a-la-cathedrale",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "wikidata": "Q106934",
@@ -29906,8 +30556,8 @@
         "kind": "event",
         "event": "heritage-days",
         "source": {
-          "url": "https://www.tresor-cathedrale-autun.fr/visiter/informations-pratiques",
-          "checkedAt": "2026-08-06"
+          "url": "https://actu.autun.com/actualite/journees-du-patrimoine-2026-les-19-et-20-septembre-a-autun/",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -29994,6 +30644,14 @@
         "source": {
           "url": "https://www.trophee-auguste.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.trophee-auguste.fr/agenda/journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -30109,6 +30767,14 @@
         "source": {
           "url": "https://www.villa-cavrois.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.villa-cavrois.fr/agenda/journees-europeennes-du-patrimoine-2026-a-la-villa",
+          "checkedAt": "2026-09-18"
         }
       }
     ],
@@ -30301,6 +30967,14 @@
           "url": "https://www.paris-conciergerie.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-04"
         }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.villa-savoye.fr/agenda/journees-europeennes-du-patrimoine-2026",
+          "checkedAt": "2026-09-18"
+        }
       }
     ],
     "parisjetaimeUrl": "https://parisjetaime.com/culture/villa-savoye-p3498",
@@ -30384,6 +31058,14 @@
         "source": {
           "url": "https://www.village-fortifie-montdauphin.fr/visiter/informations-pratiques",
           "checkedAt": "2026-08-06"
+        }
+      },
+      {
+        "kind": "event",
+        "event": "heritage-days",
+        "source": {
+          "url": "https://www.village-fortifie-montdauphin.fr/agenda/les-journees-europeennes-du-patrimoine",
+          "checkedAt": "2026-09-18"
         }
       }
     ],

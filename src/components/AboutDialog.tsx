@@ -35,7 +35,7 @@ export default function AboutDialog({ onClose }: AboutDialogProps) {
         </p>
         <p className={styles.links}>
           <a
-            href="https://github.com/travel-eu/free-museums-france"
+            href="https://github.com/free-entry/freeentry"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -43,7 +43,7 @@ export default function AboutDialog({ onClose }: AboutDialogProps) {
           </a>
           {' · '}
           <a
-            href="https://github.com/travel-eu/free-museums-france/blob/main/LICENSE"
+            href="https://github.com/free-entry/freeentry/blob/main/LICENSE"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -1,9 +1,11 @@
 ---
 import type { Locale } from '@/lib/i18n';
-import { homeSeo } from '@/lib/seo';
+import { homeSeo, hubPath } from '@/lib/seo';
+import { createStaticI18n } from '@/lib/staticData';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import MapApp from './MapApp';
 import HomeFallback from './HomeFallback.astro';
+import MapLoading from './MapLoading';
 
 interface Props {
   locale: Locale;
@@ -11,6 +13,10 @@ interface Props {
 
 const { locale } = Astro.props;
 const seo = homeSeo(locale);
+const t = createStaticI18n(locale).t;
+const loadingLabel = t('app.loading');
+const browseLabel = t('hub.allMuseums');
+const browseHref = `${import.meta.env.BASE_URL}${hubPath('index', undefined, locale).slice(1)}`;
 ---
 
 <BaseLayout
@@ -22,9 +28,15 @@ const seo = homeSeo(locale);
   jsonLd={seo.jsonLd}
 >
   <div id="root">
-    <MapApp client:only="react" initialLocale={locale === 'en' ? undefined : locale}>
+    <MapApp client:only="react" initialLocale={locale === 'en' ? undefined : locale} loadingLabel={loadingLabel} browseLabel={browseLabel} browseHref={browseHref}>
       <div slot="fallback">
-        <HomeFallback locale={locale} />
+        <div class="map-loading">
+          <MapLoading loadingLabel={loadingLabel} browseLabel={browseLabel} browseHref={browseHref} />
+        </div>
+        <noscript>
+          <style is:inline>.map-loading { display: none; }</style>
+          <HomeFallback locale={locale} />
+        </noscript>
       </div>
     </MapApp>
   </div>

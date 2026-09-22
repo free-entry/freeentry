@@ -1,3 +1,4 @@
+import { SITE_URL } from '../lib/deployment';
 import type { CountryConfig } from './types';
 
 /** Italian province codes → names, for the provinces the dataset covers. */
@@ -26,9 +27,9 @@ export const PROVINCE_NAMES: Record<string, string> = {
 export const it: CountryConfig = {
   code: 'it',
   canonicalLocale: 'it',
-  basePath: '/free-museums-italy/',
-  siteUrl: 'https://freeentry.org/free-museums-italy',
-  repoUrl: 'https://github.com/travel-eu/free-museums-france',
+  basePath: '/italy/',
+  siteUrl: `${SITE_URL}/italy`,
+  repoUrl: 'https://github.com/free-entry/freeentry',
   bbox: { minLat: 35.4, maxLat: 47.2, minLng: 6.5, maxLng: 18.7 },
   adminAreas: {
     names: PROVINCE_NAMES,
@@ -39,53 +40,53 @@ export const it: CountryConfig = {
   eventKeys: [],
   brand: {
     "en": {
-      title: "Free Museums & Monuments — Italy",
-      titleShort: "Free Museums Italy",
+      title: "Free Entry",
+      titleShort: "Free Entry",
       metaDescription: "Interactive map of free museums and monuments in Italy: free on the 1st Sunday of the month (Domenica al Museo), on 25 April, 2 June & 4 November, and for under-18s.",
     },
     "fr": {
-      title: "Musées & monuments gratuits — Italie",
-      titleShort: "Musées gratuits Italie",
+      title: "Free Entry",
+      titleShort: "Free Entry",
       metaDescription: "Carte interactive des musées et monuments gratuits en Italie : gratuits le 1er dimanche du mois (Domenica al Museo), les 25 avr., 2 juin et 4 nov., et pour les -18 ans.",
     },
     "es": {
-      title: "Museos y monumentos gratuitos — Italia",
-      titleShort: "Museos gratis en Italia",
+      title: "Free Entry",
+      titleShort: "Free Entry",
       metaDescription: "Mapa interactivo de museos y monumentos gratuitos en Italia: gratis el 1er domingo de mes (Domenica al Museo), el 25 abr., 2 jun. y 4 nov., y para menores de 18 años.",
     },
     "it": {
-      title: "Musei e monumenti gratuiti — Italia",
-      titleShort: "Musei gratis in Italia",
+      title: "Free Entry",
+      titleShort: "Free Entry",
       metaDescription: "Mappa interattiva di musei e monumenti gratuiti in Italia: gratis la 1ª domenica del mese (Domenica al Museo), 25 aprile, 2 giugno e 4 novembre, e ai minori di 18 anni.",
     },
     "de": {
-      title: "Kostenlose Museen und Denkmäler – Italien",
-      titleShort: "Kostenlose Museen in Italien",
+      title: "Free Entry",
+      titleShort: "Free Entry",
       metaDescription: "Interaktive Karte kostenloser Museen und Denkmäler in Italien: kostenlos am 1. Sonntag im Monat (Domenica al Museo), am 25.4., 2.6. und 4.11., und für unter 18-Jährige.",
     },
     "zh-Hans": {
-      title: "意大利免费博物馆和古迹",
-      titleShort: "意大利免费博物馆",
+      title: "Free Entry",
+      titleShort: "Free Entry",
       metaDescription: "意大利免费博物馆和古迹互动地图：每月第一个周日免费（Domenica al Museo）、4月25日、6月2日、11月4日免费、18岁以下免费等。",
     },
     "zh-Hant": {
-      title: "免費博物館與古蹟 — 義大利",
-      titleShort: "義大利免費博物館",
+      title: "Free Entry",
+      titleShort: "Free Entry",
       metaDescription: "義大利免費博物館與古蹟互動地圖：每月首個週日免費（Domenica al Museo）、4月25日、6月2日、11月4日免費、18歲以下免費等。",
     },
     "ja": {
-      title: "無料ミュージアム＆モニュメント — イタリア",
-      titleShort: "イタリア無料ミュージアム",
+      title: "Free Entry",
+      titleShort: "Free Entry",
       metaDescription: "イタリアの無料で入館できる美術館・博物館・モニュメントのインタラクティブマップ：毎月第1日曜無料（ドメニカ・アル・ムゼオ）、4月25日・6月2日・11月4日は無料、18歳未満無料など。",
     },
     "ko": {
-      title: "이탈리아 무료 박물관·기념물",
-      titleShort: "이탈리아 무료 박물관",
+      title: "Free Entry",
+      titleShort: "Free Entry",
       metaDescription: "이탈리아의 무료 박물관·기념물 인터랙티브 지도: 매월 첫째 일요일 무료(도메니카 알 무제오), 4월 25일·6월 2일·11월 4일 무료, 18세 미만 무료 등.",
     },
     "ar": {
-      title: "المتاحف والمعالم المجانية — إيطاليا",
-      titleShort: "متاحف مجانية في إيطاليا",
+      title: "Free Entry",
+      titleShort: "Free Entry",
       metaDescription: "خريطة تفاعلية للمتاحف والمعالم المجانية في إيطاليا: مجاني الأحد الأول من كل شهر (دومينيكا آل موزيو)، وفي 25 أبريل و2 يونيو و4 نوفمبر، ولمن هم دون 18 عامًا.",
     },
   },

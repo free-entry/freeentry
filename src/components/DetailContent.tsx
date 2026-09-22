@@ -4,6 +4,7 @@ import type { EventDates, Museum } from '@/lib/types';
 import type { MuseumContentMap } from '@/lib/localeData';
 import { CATEGORY_COLORS, deriveCategories } from '@/lib/categories';
 import { COUNTRY } from '@/countries';
+import { imageUrl } from '@/lib/deployment';
 import { normalizeLocale } from '@/lib/i18n';
 import { formatOpeningHours } from '@/lib/openingHours';
 import { formatDate, formatKm, formatPrice, formatYear } from '@/lib/format';
@@ -106,7 +107,7 @@ export default function DetailContent({
   }, [description]);
   const categories = deriveCategories(museum);
   const photoUrl = museum.image
-    ? `${baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`}${museum.image.file.replace(/^\//, '')}`
+    ? imageUrl(museum.image.file, baseUrl)
     : undefined;
   const showOriginal =
     localized !== undefined &&

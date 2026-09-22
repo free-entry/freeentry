@@ -153,7 +153,7 @@ async function loadHtml(useFixture: boolean): Promise<string> {
     return readFileSync(join(import.meta.dirname, 'fixtures/fr/parisjetaime.html'), 'utf-8');
   }
   const res = await fetch(ARTICLE_URL, {
-    headers: { 'User-Agent': 'free-museums-france data updater (github.com/travel-eu/free-museums-france)' },
+    headers: { 'User-Agent': 'freeentry data updater (github.com/free-entry/freeentry)' },
   });
   if (!res.ok) throw new Error(`Fetch failed: HTTP ${res.status}`);
   return res.text();

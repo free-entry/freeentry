@@ -4,11 +4,11 @@ All venue data lives in `data/<country>/` (`fr`, `it`, `be`) with per-fact
 provenance: every free-admission rule carries `source.url` +
 `source.checkedAt`, opening hours carry `openingHoursSource`, identity links
 carry `wikidata` / `museofile` ids.
-The re-verification interval is **365 days** — `npm run check:freshness` (and
+The re-verification interval is **365 days** — `bun run check:freshness` (and
 the monthly *Data freshness* workflow) turns red when anything exceeds it.
 
 Country-generic scripts read the `COUNTRY` env var (default `fr`):
-`COUNTRY=it npm run check:freshness`, `COUNTRY=be npm run update:images`, …
+`COUNTRY=it bun run check:freshness`, `COUNTRY=be bun run update:images`, …
 France-specific pipelines (parisjetaime, data.gouv register, CMN, P1 hours
 import) are pinned to `data/fr` and ignore `COUNTRY`.
 
@@ -24,22 +24,22 @@ Two kinds of maintenance:
 
 | Command | What it does | Writes? |
 |---|---|---|
-| `npm run check:freshness` | Flags rules/hours older than 365 days, missing event years | no |
-| `npm run check:wikidata` | Outside opinion from Wikidata: dead/redirected QIDs, coordinate disagreement > 0.6 km, French-Wikipedia article drift | `--write` refreshes links |
-| `npm run check:datagouv` | Diffs the official museum register: new museums, field drift, identity (museofile) links | `--write` stores museofile ids |
-| `npm run check:osm-hours` | Compares our opening hours against OpenStreetMap | no |
-| `npm run check:cmn` | Diffs the official Centre des monuments nationaux list: new monuments, delisted venues | no |
-| `npm run check:data` | freshness + wikidata + datagouv + cmn in one go | no |
-| `npm run update:rules` | Re-scrapes parisjetaime.com free-admission rules (only replaces rules from that source; `--dry-run` supported) | yes |
-| `npm run update:wikidata` | Links any museum still missing a QID (verified matching; `--dry-run`) | yes |
-| `npm run update:all` | rules → wikidata → link refresh → museofile ids → freshness report | yes |
-| `npx tsx scripts/build-cmn.ts --out <staging>` | Bootstrap resolver for new CMN monuments (Wikidata identity via official-site domain, BAN reverse geocoding, department cross-check) — feeds the AI verification pass | staging file only |
-| `npx tsx scripts/sources/it/build-domenicalmuseo.ts` | Italy: resolves the Domenica al Museo venue list (fixture `scripts/fixtures/it/domenicalmuseo.json`) against Wikidata + Nominatim and rebuilds `data/it/museums.json` rules (first Sunday, national free days, under-18). Incremental — re-running only touches unresolved venues | yes (`data/it`) |
-| `npx tsx scripts/sources/be/build-be.ts` | Belgium: pools the Brussels/FWB first-Sunday networks, Ghent/Antwerp resident schemes and always-free museums (fixture `scripts/fixtures/be/free-museums.json`), resolves against Wikidata with photon address fallback, rebuilds `data/be/museums.json`. Incremental | yes (`data/be`) |
-| `npx tsx scripts/sources/fr/build-fr-cities.ts` | France: pools the regional city schemes (fixture `scripts/fixtures/fr/city-schemes.json` — municipal/métropole/departmental networks and musées nationaux outside Île-de-France), resolves against Wikidata with BAN address fallback, merges into `data/fr/museums.json`. Incremental — re-running only touches venues not yet in the dataset | yes (`data/fr`) |
+| `bun run check:freshness` | Flags rules/hours older than 365 days, missing event years | no |
+| `bun run check:wikidata` | Outside opinion from Wikidata: dead/redirected QIDs, coordinate disagreement > 0.6 km, French-Wikipedia article drift | `--write` refreshes links |
+| `bun run check:datagouv` | Diffs the official museum register: new museums, field drift, identity (museofile) links | `--write` stores museofile ids |
+| `bun run check:osm-hours` | Compares our opening hours against OpenStreetMap | no |
+| `bun run check:cmn` | Diffs the official Centre des monuments nationaux list: new monuments, delisted venues | no |
+| `bun run check:data` | freshness + wikidata + datagouv + cmn in one go | no |
+| `bun run update:rules` | Re-scrapes parisjetaime.com free-admission rules (only replaces rules from that source; `--dry-run` supported) | yes |
+| `bun run update:wikidata` | Links any museum still missing a QID (verified matching; `--dry-run`) | yes |
+| `bun run update:all` | rules → wikidata → link refresh → museofile ids → freshness report | yes |
+| `bun run tsx scripts/build-cmn.ts --out <staging>` | Bootstrap resolver for new CMN monuments (Wikidata identity via official-site domain, BAN reverse geocoding, department cross-check) — feeds the AI verification pass | staging file only |
+| `bun run tsx scripts/sources/it/build-domenicalmuseo.ts` | Italy: resolves the Domenica al Museo venue list (fixture `scripts/fixtures/it/domenicalmuseo.json`) against Wikidata + Nominatim and rebuilds `data/it/museums.json` rules (first Sunday, national free days, under-18). Incremental — re-running only touches unresolved venues | yes (`data/it`) |
+| `bun run tsx scripts/sources/be/build-be.ts` | Belgium: pools the Brussels/FWB first-Sunday networks, Ghent/Antwerp resident schemes and always-free museums (fixture `scripts/fixtures/be/free-museums.json`), resolves against Wikidata with photon address fallback, rebuilds `data/be/museums.json`. Incremental | yes (`data/be`) |
+| `bun run tsx scripts/sources/fr/build-fr-cities.ts` | France: pools the regional city schemes (fixture `scripts/fixtures/fr/city-schemes.json` — municipal/métropole/departmental networks and musées nationaux outside Île-de-France), resolves against Wikidata with BAN address fallback, merges into `data/fr/museums.json`. Incremental — re-running only touches venues not yet in the dataset | yes (`data/fr`) |
 
 Yearly sequence (what the *Data update* workflow runs): `update:all`, then
-`check:osm-hours`, then `npm test`. It opens a PR — **a green run means the
+`check:osm-hours`, then `bun run test`. It opens a PR — **a green run means the
 data is valid, not that it is right**; read the diff against the cited
 sources before merging.
 
@@ -77,15 +77,15 @@ repository checked out. Translation and translation review must run on
 Opus/Sonnet-class models, not be improvised.
 
 ```text
-You are updating the data of the free-museums monorepo (maps of free museums
+You are updating the data of the Free Entry monorepo (maps of free museums
 in France, Italy and Belgium — data/fr, data/it, data/be). Read
-docs/DATA-UPDATE.md first. Work in small, reviewable diffs; run `npm test`
+docs/DATA-UPDATE.md first. Work in small, reviewable diffs; run `bun run test`
 after every change; never mark something verified you did not actually
 verify. Steps 1–5 are France; steps 7–8 are Italy and Belgium — run
 check:freshness for those countries with COUNTRY=it / COUNTRY=be.
 
 1. TRIAGE THE DETERMINISTIC REPORTS
-   Run: npm run check:data && npm run check:osm-hours
+   Run: bun run check:data && bun run check:osm-hours
    - For every stale rule (check:freshness): open the rule's source.url,
      confirm or correct the rule, and set source.checkedAt to today's date —
      only if you actually read the page. If the source is gone, find the
@@ -116,11 +116,11 @@ check:freshness for those countries with COUNTRY=it / COUNTRY=be.
      existing entries. Translation and its review must be done by
      Opus/Sonnet-class models; give each locale's translator the existing
      entries as style reference, then run an independent review pass.
-   - run: npm run update:wikidata && npm run check:datagouv -- --write
+   - run: bun run update:wikidata && bun run check:datagouv --write
      to link its QID and museofile id.
 
 4. CMN MONUMENTS (yearly)
-   Run: npm run check:cmn
+   Run: bun run check:cmn
    - For every monument venue already in the dataset: open the free rule's
      source page (the monument's own tarifs page), re-confirm the winter
      first-Sunday months and any always-free/other schemes, bump checkedAt.
@@ -154,7 +154,7 @@ check:freshness for those countries with COUNTRY=it / COUNTRY=be.
      (incremental), then the full step-3 content treatment.
 
 6. FINISH (per country)
-   npm test && npm run build (and build:it / build:be) must pass. Summarize
+   bun run test && bun run build (and build:it / build:be) must pass. Summarize
    per museum: what changed, which source confirmed it, and anything you
    could not verify (say so plainly rather than guessing).
 

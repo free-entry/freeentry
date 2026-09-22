@@ -57,7 +57,7 @@ describe('SEO paths', () => {
       potentialAction: {
         '@type': 'SearchAction',
         target:
-          'https://freeentry.org/free-museums-france/fr/?q={search_term_string}',
+          'https://freeentry-bx9.pages.dev/france/fr/?q={search_term_string}',
       },
     });
   });
@@ -77,7 +77,7 @@ describe('museumSeo', () => {
       i18n.t.bind(i18n),
     );
 
-    expect(seo.title).toBe('Museum of History, Paris — Free admission | Free Museums France');
+    expect(seo.title).toBe('Museum of History, Paris — Free admission | Free Entry');
     expect(seo.canonicalPath).toBe('/museum/test-museum/');
     expect(seo.description.length).toBeLessThanOrEqual(155);
     expect(seo.description.endsWith('…')).toBe(true);
@@ -86,7 +86,7 @@ describe('museumSeo', () => {
       '@type': ['Museum', 'TouristAttraction'],
       telephone: museum.phone,
       publicAccess: true,
-      image: 'https://freeentry.org/free-museums-france/images/museums/test-museum.jpg',
+      image: 'https://freeentry-bx9.pages.dev/france/images/museums/test-museum.jpg',
     });
     expect(seo.jsonLd[0].openingHoursSpecification).toHaveLength(1);
     expect(seo.jsonLd[1]).toMatchObject({ '@type': 'BreadcrumbList' });

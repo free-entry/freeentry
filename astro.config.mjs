@@ -2,22 +2,16 @@ import { defineConfig } from 'astro/config';
 import react from '@astrojs/react';
 import AstroPWA from '@vite-pwa/astro';
 import { fileURLToPath } from 'node:url';
+import defaults from './config/deployment.json' with { type: 'json' };
 
 const COUNTRY_CODE = process.env.COUNTRY ?? process.env.VITE_COUNTRY ?? 'fr';
-const DEPLOYMENTS = {
-  fr: {
-    basePath: '/free-museums-france/',
-    siteUrl: 'https://freeentry.org/free-museums-france',
-  },
-  it: {
-    basePath: '/free-museums-italy/',
-    siteUrl: 'https://freeentry.org/free-museums-italy',
-  },
-  be: {
-    basePath: '/free-museums-belgium/',
-    siteUrl: 'https://freeentry.org/free-museums-belgium',
-  },
-};
+const siteUrl = (process.env.PUBLIC_SITE_URL || defaults.siteUrl).replace(/\/$/, '');
+const DEPLOYMENTS = Object.fromEntries(
+  Object.entries(defaults.countries).map(([code, path]) => [code, {
+    basePath: `/${path}/`,
+    siteUrl: `${siteUrl}/${path}`,
+  }]),
+);
 
 const deployment = DEPLOYMENTS[COUNTRY_CODE];
 if (!deployment) throw new Error(`Unknown COUNTRY value: ${COUNTRY_CODE}`);
@@ -31,20 +25,20 @@ const hubUrlPattern = new RegExp(`^https?://[^/]+${hubPathSegment}`);
 
 const MANIFESTS = {
   fr: {
-    name: 'Free Museums & Monuments — France',
-    short_name: 'Free Museums',
+    name: 'Free Entry',
+    short_name: 'Free Entry',
     description:
       'Interactive map of free museums and monuments in France: always free, first Sundays, Museum Night, Heritage Days and more.',
   },
   it: {
-    name: 'Free Museums & Monuments — Italy',
-    short_name: 'Free Museums',
+    name: 'Free Entry',
+    short_name: 'Free Entry',
     description:
       'Interactive map of free state museums and archaeological sites in Italy: Domenica al Museo first Sundays, national free days, always free.',
   },
   be: {
-    name: 'Free Museums & Monuments — Belgium',
-    short_name: 'Free Museums',
+    name: 'Free Entry',
+    short_name: 'Free Entry',
     description:
       'Interactive map of free museums in Belgium: first Sundays in Brussels and Wallonia, first Wednesdays, always-free collections.',
   },
@@ -121,7 +115,8 @@ export default defineConfig({
             },
           },
           {
-            urlPattern: /\/images\/museums\/.*\.jpg$/,
+            // Workbox cross-origin RegExp routes must match from the URL's start.
+            urlPattern: /^https?:\/\/[^/]+\/(?:[^/]+\/)?images\/(?:museums|derived)\/.*\.(?:jpg|webp)$/,
             handler: 'CacheFirst',
             options: {
               cacheName: 'museum-photos',

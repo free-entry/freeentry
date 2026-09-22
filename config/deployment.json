@@ -1,0 +1,9 @@
+{
+  "siteUrl": "https://freeentry-bx9.pages.dev",
+  "imageBaseUrl": "https://freeentry-images.pages.dev",
+  "countries": {
+    "fr": "france",
+    "it": "italy",
+    "be": "belgium"
+  }
+}

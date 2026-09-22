@@ -25,7 +25,7 @@ import { matchMuseum, normalizeName } from './lib/matchMuseums';
 
 const ROOT = join(import.meta.dirname, '..');
 const REGISTER_URL = 'https://www.data.gouv.fr/api/1/datasets/r/6c1502c9-5080-4138-a26f-cc2168042868';
-const UA = 'free-museums-france-check/1.0 (https://freeentry.org/free-museums-france/; tomchen.org@gmail.com)';
+const UA = 'freeentry-check/1.0 (https://freeentry.org/france/; tomchen.org@gmail.com)';
 const MATCH_GUARD_KM = 1;
 const COORD_DRIFT_KM = 0.25;
 

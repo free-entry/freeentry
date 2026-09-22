@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: {{SITE_URL}}/france/sitemap.xml
+Sitemap: {{SITE_URL}}/italy/sitemap.xml
+Sitemap: {{SITE_URL}}/belgium/sitemap.xml

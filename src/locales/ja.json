@@ -22,8 +22,8 @@
     "metaCategory": "{{country}}のミュージアム・モニュメント{{total}}件：{{category}}。住所、無料入場の条件、経路を掲載。"
   },
   "app": {
-    "title": "無料ミュージアム＆モニュメント — フランス",
-    "titleShort": "フランス無料ミュージアム",
+    "title": "Free Entry",
+    "titleShort": "Free Entry",
     "tagline": "無料で見学できる美術館・博物館・モニュメントと、その日程がすべてわかる",
     "metaDescription": "フランスの無料で入館できる美術館・博物館・モニュメントのインタラクティブマップ：常時無料、毎月第1日曜無料、美術館の夜、ヨーロッパ文化遺産の日など。",
     "skipToList": "結果リストへ移動",

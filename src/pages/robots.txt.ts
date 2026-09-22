@@ -4,7 +4,7 @@ import { COUNTRY } from '@/countries';
 export const prerender = true;
 
 // Crawlers only consult the domain root's robots.txt; the authoritative copy
-// lives in the travel-eu.github.io repo and lists every country's sitemap.
+// lives in site/robots.txt and lists every country's sitemap.
 // This per-deployment file keeps the sitemap pointer correct for mirrors.
 export const GET: APIRoute = () =>
   new Response(

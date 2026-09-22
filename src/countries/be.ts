@@ -1,3 +1,4 @@
+import { SITE_URL } from '../lib/deployment';
 import type { CountryConfig } from './types';
 
 /** Belgian provinces (plus Brussels-Capital) with their postal ranges. */
@@ -41,9 +42,9 @@ export function beProvinceOfPostcode(postcode: string): string | null {
 export const be: CountryConfig = {
   code: 'be',
   canonicalLocale: 'fr',
-  basePath: '/free-museums-belgium/',
-  siteUrl: 'https://freeentry.org/free-museums-belgium',
-  repoUrl: 'https://github.com/travel-eu/free-museums-france',
+  basePath: '/belgium/',
+  siteUrl: `${SITE_URL}/belgium`,
+  repoUrl: 'https://github.com/free-entry/freeentry',
   bbox: { minLat: 49.45, maxLat: 51.6, minLng: 2.4, maxLng: 6.5 },
   adminAreas: {
     names: BE_PROVINCE_NAMES,
@@ -64,53 +65,53 @@ export const be: CountryConfig = {
   eventKeys: [],
   brand: {
     "en": {
-      title: "Free Museums & Monuments — Belgium",
-      titleShort: "Free Museums Belgium",
+      title: "Free Entry",
+      titleShort: "Free Entry",
       metaDescription: "Interactive map of free museums and monuments in Belgium: always free, free on first Sundays (Brussels & Wallonia), free on first Wednesday afternoons and more.",
     },
     "fr": {
-      title: "Musées & monuments gratuits — Belgique",
-      titleShort: "Musées gratuits Belgique",
+      title: "Free Entry",
+      titleShort: "Free Entry",
       metaDescription: "Carte interactive des musées et monuments gratuits en Belgique : toujours gratuits, gratuits les 1ers dimanches et mercredis après-midi (Bruxelles/Wallonie), et plus.",
     },
     "es": {
-      title: "Museos y monumentos gratuitos — Bélgica",
-      titleShort: "Museos gratis en Bélgica",
+      title: "Free Entry",
+      titleShort: "Free Entry",
       metaDescription: "Mapa interactivo de museos y monumentos gratuitos en Bélgica: siempre gratis, gratis los primeros domingos y miércoles por la tarde (Bruselas y Valonia), y más.",
     },
     "it": {
-      title: "Musei e monumenti gratuiti — Belgio",
-      titleShort: "Musei gratis in Belgio",
+      title: "Free Entry",
+      titleShort: "Free Entry",
       metaDescription: "Mappa interattiva di musei e monumenti gratuiti in Belgio: sempre gratis, gratis le prime domeniche (Bruxelles e Vallonia) e i primi mercoledì pomeriggio, e altro.",
     },
     "de": {
-      title: "Kostenlose Museen und Denkmäler – Belgien",
-      titleShort: "Kostenlose Museen in Belgien",
+      title: "Free Entry",
+      titleShort: "Free Entry",
       metaDescription: "Interaktive Karte kostenloser Museen und Denkmäler in Belgien: immer kostenlos, kostenlos an den 1. Sonntagen (Brüssel/Wallonien) und am 1. Mittwochnachmittag, und mehr.",
     },
     "zh-Hans": {
-      title: "比利时免费博物馆和古迹",
-      titleShort: "比利时免费博物馆",
+      title: "Free Entry",
+      titleShort: "Free Entry",
       metaDescription: "比利时免费博物馆和古迹互动地图：常年免费、每月第一个周日免费（布鲁塞尔和瓦隆区）、每月第一个周三下午免费等。",
     },
     "zh-Hant": {
-      title: "免費博物館與古蹟 — 比利時",
-      titleShort: "比利時免費博物館",
+      title: "Free Entry",
+      titleShort: "Free Entry",
       metaDescription: "比利時免費博物館與古蹟互動地圖：全年免費、每月首個週日免費（布魯塞爾與瓦隆區）、每月首個週三下午免費等。",
     },
     "ja": {
-      title: "無料ミュージアム＆モニュメント — ベルギー",
-      titleShort: "ベルギー無料ミュージアム",
+      title: "Free Entry",
+      titleShort: "Free Entry",
       metaDescription: "ベルギーの無料で入館できる美術館・博物館・モニュメントのインタラクティブマップ：常時無料、毎月第1日曜無料（ブリュッセル＆ワロン）、毎月第1水曜午後無料など。",
     },
     "ko": {
-      title: "벨기에 무료 박물관·기념물",
-      titleShort: "벨기에 무료 박물관",
+      title: "Free Entry",
+      titleShort: "Free Entry",
       metaDescription: "벨기에의 무료 박물관·기념물 인터랙티브 지도: 상시 무료, 매월 첫째 일요일 무료(브뤼셀·왈롱), 매월 첫째 수요일 오후 무료 등.",
     },
     "ar": {
-      title: "المتاحف والمعالم المجانية — بلجيكا",
-      titleShort: "متاحف مجانية في بلجيكا",
+      title: "Free Entry",
+      titleShort: "Free Entry",
       metaDescription: "خريطة تفاعلية للمتاحف والمعالم المجانية في بلجيكا: مجاني دائمًا، مجاني الأحد الأول من كل شهر (بروكسل ووالونيا)، مجاني بعد ظهر الأربعاء الأول من كل شهر والمزيد.",
     },
   },

@@ -1,3 +1,4 @@
+import { imageUrl } from './deployment';
 export const VARIANT_WIDTHS = [480, 800, 1200] as const;
 
 export interface ImageVariant {
@@ -26,5 +27,5 @@ export function variantPath(file: string, width: number): string {
 }
 
 export function buildSrcSet(baseUrl: string, variants: ImageVariant[]): string {
-  return variants.map(({ file, width }) => `${baseUrl}${file} ${width}w`).join(', ');
+  return variants.map(({ file, width }) => `${imageUrl(file, baseUrl)} ${width}w`).join(', ');
 }

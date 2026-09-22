@@ -138,7 +138,7 @@ export default function Header({ onOpenFilters, onOpenAbout }: HeaderProps) {
 
         <a
           className={styles.aboutButton}
-          href="https://github.com/travel-eu/free-museums-france"
+          href="https://github.com/free-entry/freeentry"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub"

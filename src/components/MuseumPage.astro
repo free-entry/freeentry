@@ -12,6 +12,7 @@ import {
 } from '@/lib/staticData';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { buildSrcSet } from '@/lib/imageVariants';
+import { imageUrl } from '@/lib/deployment';
 import { detailPath, homePath, hubPath, museumSeo } from '@/lib/seo';
 import { getStaticImageMetadata, getStaticImageVariants } from '@/lib/staticImages';
 import DetailContent from './DetailContent';
@@ -51,7 +52,7 @@ const imageMetadata = museum.image ? await getStaticImageMetadata(museum.image.f
 const imageVariants = museum.image ? await getStaticImageVariants(museum.image.file) : [];
 const ogImage = museum.image
   ? {
-      url: `${COUNTRY.siteUrl}/${museum.image.file}`,
+      url: imageUrl(museum.image.file, COUNTRY.siteUrl),
       width: imageMetadata!.width,
       height: imageMetadata!.height,
       alt: localizedName,
@@ -59,7 +60,7 @@ const ogImage = museum.image
   : undefined;
 const headerImage = museum.image
   ? {
-      src: `${baseUrl}${museum.image.file}`,
+      src: imageUrl(museum.image.file, baseUrl),
       width: imageMetadata!.width,
       height: imageMetadata!.height,
       alt: localizedName,

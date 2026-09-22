@@ -11,12 +11,12 @@ describe('image variants', () => {
 
   it('builds a width-descriptor srcset using the deployment base URL', () => {
     expect(
-      buildSrcSet('/free-museums-france/', [
+      buildSrcSet('/france/', [
         { file: 'images/derived/example-480.webp', width: 480 },
         { file: 'images/derived/example-720.webp', width: 720 },
       ]),
     ).toBe(
-      '/free-museums-france/images/derived/example-480.webp 480w, /free-museums-france/images/derived/example-720.webp 720w',
+      '/france/images/derived/example-480.webp 480w, /france/images/derived/example-720.webp 720w',
     );
   });
 });

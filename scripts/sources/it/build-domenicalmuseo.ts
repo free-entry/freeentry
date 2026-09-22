@@ -24,7 +24,7 @@ import { join } from 'node:path';
 
 const ROOT = join(import.meta.dirname, '../../..');
 const WD_API = 'https://www.wikidata.org/w/api.php';
-const UA = 'free-museums-italy-build/1.0 (https://freeentry.org/free-museums-italy/; tomchen.org@gmail.com)';
+const UA = 'freeentry-build/1.0 (https://freeentry.org/italy/; tomchen.org@gmail.com)';
 
 const CHECKED = { directory: '2026-07-07', agevolazioni: '2026-07-31' };
 const SRC = {
