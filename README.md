@@ -15,7 +15,7 @@ locales. The interactive React map is a client-only island on each locale home,
 and the generated service worker keeps the map app and previously visited pages
 available offline without precaching thousands of HTML documents.
 
-**Live app:** <https://freeentry-bx9.pages.dev/>
+**Live app:** <https://freeentry-eu.pages.dev/>
 
 ## Features
 
@@ -113,7 +113,7 @@ tests/             vitest suites, incl. dataset & locale integrity checks
 ## Deployment
 
 Pushes to `main` test, build and deploy to
-`freeentry-bx9.pages.dev` from `free-entry/freeentry` via GitHub Actions and Cloudflare Pages — setup
+`freeentry-eu.pages.dev` from `free-entry/freeentry` via GitHub Actions and Cloudflare Pages — setup
 in [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md).
 
 ## Attribution

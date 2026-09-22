@@ -1,4 +1,4 @@
-> Deployment update (2026-09-22): the current origin is `https://freeentry-bx9.pages.dev`. The final `freeentry.eu.org` domain is pending approval. See [DEPLOYMENT.md](DEPLOYMENT.md) for the current Cloudflare Pages workflow; GitHub Pages references below describe the original migration plan.
+> Deployment update (2026-09-22): the current origin is `https://freeentry-eu.pages.dev`. The final `freeentry.eu.org` domain is pending approval. See [DEPLOYMENT.md](DEPLOYMENT.md) for the current Cloudflare Pages workflow; GitHub Pages references below describe the original migration plan.
 
 # SEO plan — static hub pages, locale home pages, head/URL hygiene
 

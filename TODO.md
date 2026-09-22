@@ -121,7 +121,7 @@ Deliberate, but worth a second opinion rather than being quietly forgotten:
       Tools and submit the three country sitemap indexes.
 - [ ] Add the locale-routing browser smoke test to CI.
 
-The temporary origin is `https://freeentry-bx9.pages.dev`; deployment instructions
+The temporary origin is `https://freeentry-eu.pages.dev`; deployment instructions
 and domain migration steps are in `docs/DEPLOYMENT.md`.
 
 ---

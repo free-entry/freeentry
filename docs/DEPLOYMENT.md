@@ -5,11 +5,8 @@ Free Entry runs on two Cloudflare Pages Free projects, both deployed from
 
 | Project | Address | Output |
 |---|---|---|
-| `freeentry` | `https://freeentry-bx9.pages.dev` | `dist-site/` |
+| `freeentry-eu` | `https://freeentry-eu.pages.dev` | `dist-site/` |
 | `freeentry-images` | `https://freeentry-images.pages.dev` | `dist-images/` |
-
-Cloudflare assigned the main project a suffixed subdomain; its project name is
-still `freeentry`. Use the actual subdomain above for canonical URLs.
 
 The main site contains `/france/`, `/italy/` and `/belgium/`. English uses each
 country root; other languages follow it, e.g. `/france/fr/`. The root homepage
@@ -64,7 +61,7 @@ loads; visitors without JavaScript receive the static museum directory.
 1. Keep the EU.org delegation to HE DNS until the domain application is approved.
 2. Add `freeentry.eu.org` to Cloudflare DNS and change its nameservers at EU.org
    to the exact pair Cloudflare assigns. Wait for the zone to become active.
-3. Add `freeentry.eu.org` as a custom domain of the `freeentry` Pages project.
+3. Add `freeentry.eu.org` as a custom domain of the `freeentry-eu` Pages project.
 4. Set the repository variable `PUBLIC_SITE_URL` to `https://freeentry.eu.org`
    and rerun the workflow from `main`. Canonical, hreflang, Open Graph, JSON-LD
    and sitemap URLs will use that origin on the next build.

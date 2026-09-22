@@ -57,7 +57,7 @@ describe('SEO paths', () => {
       potentialAction: {
         '@type': 'SearchAction',
         target:
-          'https://freeentry-bx9.pages.dev/france/fr/?q={search_term_string}',
+          'https://freeentry-eu.pages.dev/france/fr/?q={search_term_string}',
       },
     });
   });
@@ -86,7 +86,7 @@ describe('museumSeo', () => {
       '@type': ['Museum', 'TouristAttraction'],
       telephone: museum.phone,
       publicAccess: true,
-      image: 'https://freeentry-bx9.pages.dev/france/images/museums/test-museum.jpg',
+      image: 'https://freeentry-eu.pages.dev/france/images/museums/test-museum.jpg',
     });
     expect(seo.jsonLd[0].openingHoursSpecification).toHaveLength(1);
     expect(seo.jsonLd[1]).toMatchObject({ '@type': 'BreadcrumbList' });
